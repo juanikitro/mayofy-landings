@@ -1,0 +1,722 @@
+[
+  {
+    "id": "google-ChIJ3ZENk7O9vJUR_qB-JTza_2M",
+    "name": "ALTOS -food concept-",
+    "slug": "altos-food-concept",
+    "category": "Restaurant",
+    "is_vehicle_related": false,
+    "address": "Belgrano 980, B1663 San Miguel, Provincia de Buenos Aires, Argentina",
+    "city": "San Miguel, Buenos Aires",
+    "neighborhood_or_area": null,
+    "phone": "011 7084-5458",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 12:00 AM | Tuesday: 9:00 AM – 12:00 AM | Wednesday: 9:00 AM – 12:00 AM | Thursday: 9:00 AM – 12:00 AM | Friday: 9:00 AM – 12:00 AM | Saturday: 9:00 AM – 12:00 AM | Sunday: 9:00 AM – 12:00 AM",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.5,
+      "reviews_count": 1261,
+      "source_url": "https://maps.google.com/?cid=7205717880678031614&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Excellent service and food.",
+        "author": "Nancy Chabria",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/106209364819468744867/reviews"
+      },
+      {
+        "text": "Excelente lugar para una buena entraña, la mejor de la zona en porción y sabor. Y los chinchulines exquisitos. Excelente atención.",
+        "author": "Florencia Rodriguez",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/104963512866477355574/reviews"
+      },
+      {
+        "text": "Excelente la comida, excelente lugar, excelente la atención un lugar acogedor, tranquilo y familiar. Súper recomendable los precios acordé a una salida, siempre vuelvo",
+        "author": "Karina Vero",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/103775952960826185302/reviews"
+      }
+    ],
+    "main_product_or_service": "restaurante",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ3ZENk7O9vJUR_qB-JTza_2M/photos/AWCwydgjgUtk2YnLqCfl7-0AbXJYo_qKKCv0F-Q9sS0FFqECzu71YIcYkfHR2JOsYDpuEexoQzedltrTZHhRbryH-2Sd1Ojyu5VUN2ScauOEvRipUkJQW444s2WFoJwm0kZU1HjJ7Myj8hhNRwcevMmg7QMnlfwDwcPwU8SiJRivS69K5S7_eTcxC9QNyiLrmYrxOZi-dPL2cS5IMgmbxOnLeAsvIDwxqHNT31HeouxwdUMTSATlj_yGucXnwmP1d5tQsNiTVWOeTw9ml4zxK_T4swislIUNrhbOwka_pCZaWYnmA6IQz7o-qPiX3GXPPN360E2TgnaqaSzssKtgLBcs_A6AGy16_L3lG8t2T5JqbO8TY7m6FT2zr2XwRz2CWyQJNJW7idUNhP-BDiSSi3IQQop8f0Oqx2hSie_BEYt94UY/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=7205717880678031614&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ3ZENk7O9vJUR_qB-JTza_2M/photos/AWCwydiVGg_HLDmSI3yxXRufY2oesWfaKBFm4LiVLy5BwQWDg4OKSdVUTbN4l2tSE8AtfRqrzVSXNJOknd90koeJQuqhmNK18hoRXoUSo-GvSpGy4FB3NOCheuGAoN8HQ45zTDXCalHNM-uhmzor-SJGK0uhLP8NXI7zB5hcm552kHBULT0Qa9cIc7bfgWj9Z6q8g0VKpVrExfWItAntuooWmdsWWEmrwvBrokF4K0VTV5skcOcdb6_3DBFV1XmI0ubsl8tLCtsY2ZbBi3G9Qry6zSX2KwlQzRf7IRTpURanJPmMuum3JpZeK1xHpfWWl31RXIC8nAWisgJmGUSY3VNOh-4fhTZme0VlSg0reAvRIj9C5FQa3h63MeHNcr3DnLHthS1eJ6Dt60WuarH7Hqt8d5t7S8Fx2_ia7IJ9LSJLZYzuoQ/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=7205717880678031614&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ3ZENk7O9vJUR_qB-JTza_2M/photos/AWCwydjh6c0gh5g7uKuIon4-GZfQ4LWSvjgRWDh6DjL2A-QULhwlzKikQt59AvmGPAmPa8wFOKaF3y2wjZUuyUwT74JvmAd5yVArL5zZvr8HIcl9-vI8AE2QycZ7kZE7paW0ijZapvtbA5kSKBt7j7BtgAYMCvV7w2VfM0vkfzDXL-RcX9ctsEFX2TNXa7aOHRMvk-OfEjiXMEm1X0dPVaOChgIUPw3wbF8qcNtNMHQ1MxL9jK9YqpveGV6Oi6Pjfv5SmK_4fRryzxcf4NlO4md4j4wjYibW3GpKsjo0hIfSgIq9PQYHpOaVo5yc4ueO9dfAKi8SD52saM_eW6M0O5csR4K5oyFLqWP_sVDfTFkYsIFFL0Kn6pU1aFI6OVTZkTWInBeyiKtIxZpzwDMxuwirtCzHoL03R_r0YPyB6jqswM81fWkN/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=7205717880678031614&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=7205717880678031614&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=7205717880678031614&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-27T15:20:20.449Z",
+          "notes": "Resultado automatico para \"restaurante\" en San Miguel, Buenos Aires. Segmento: gastronomia."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=7205717880678031614&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=7205717880678031614&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=7205717880678031614&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=7205717880678031614&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=7205717880678031614&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=7205717880678031614&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=7205717880678031614&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=7205717880678031614&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=7205717880678031614&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=7205717880678031614&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=7205717880678031614&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJ9RiuJQ-9vJURJ2MmqwR7R0o",
+    "name": "Baum San Miguel",
+    "slug": "baum-san-miguel",
+    "category": "Bar",
+    "is_vehicle_related": false,
+    "address": "GOA, Maestro Ángel D'Elía 1145, B1663 San Miguel, Provincia de Buenos Aires, Argentina",
+    "city": "San Miguel, Buenos Aires",
+    "neighborhood_or_area": null,
+    "phone": null,
+    "opening_hours": {
+      "raw": "Monday: 6:30 PM – 2:00 AM | Tuesday: 6:30 PM – 2:00 AM | Wednesday: 6:30 PM – 2:00 AM | Thursday: 6:30 PM – 2:00 AM | Friday: 6:30 PM – 4:00 AM | Saturday: 6:30 PM – 4:00 AM | Sunday: 6:30 PM – 12:00 AM",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.3,
+      "reviews_count": 9393,
+      "source_url": "https://maps.google.com/?cid=5352381942134629159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Real good place, great beer and not expensive at all... Dish sizes are huge! A must in BA night",
+        "author": "Alfredo Etchamendi",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/104846209680513655865/reviews"
+      },
+      {
+        "text": "The menu and the way you order is very nice, all with your phone. I liked it. I ordered a table with a mix of small things that it's delicious. My friend ate triple meal hamburger but said was no so good.\n\nThe place is cozy but if don't book at some point you could find a large queue.",
+        "author": "Fabian Sierra (RED)",
+        "rating": 4,
+        "source_url": "https://www.google.com/maps/contrib/116016097532562197045/reviews"
+      },
+      {
+        "text": "Chilled vibe, friendly service and awesome food/beer.",
+        "author": "Gabriel Machado",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/103119492199644467110/reviews"
+      }
+    ],
+    "main_product_or_service": "restaurante",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ9RiuJQ-9vJURJ2MmqwR7R0o/photos/AWCwydgli3uvvQfYj6PhwyU-jCJnOyhJMkPB8I1d2wBkKYGzELU9tKpLlMsjidaUYI-923Z_pCyjy-MickTrlsr_cpinf3xYq5rKCPJGVhcdYHwO488lk1r5XqM5kAcdD88txaS_u_XQDLuJxiORBP6Yuu3tvCVIrR1pTfjDwg6TKPZKbpv-ATynm0CTNH4349TQKY4b6D-Qc-0pkZ6nmo08DZdOJU71RQmkCFmMyxObB0Tse-NmGL3KpklkrQt1BRE9aEkjSSogUA10DzfJvSUoKbaZtKc61_QG4-e7emXlWNLq1tuPKnZ9T6Nl0mOXNajoTIznpL2Z1OHAgzmIk5CeDjVgQOARSeoKT-aJUN-JL2P8q57HQuMTXkfnOsW5VLaJlCn_EcHPMhWs-WcydwGHYOQX4yKoalJdfpaMUDLT15S3Osff/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=5352381942134629159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ9RiuJQ-9vJURJ2MmqwR7R0o/photos/AWCwydhNHcmraXp-ZfFQkz4FgrV8ai68-cm7MnvLyV0hmn5EiZmkUXNF0zmYkbo5v9Prpt9_jS-yOSD1eR1tG5JjgvULIdF4UGXLYy6UwAVZhPheYIvD0zPLczJ_LOzh3jcO3nE-i12_OHKaboc1tlNjNycMfW0HV6QX7g_OAZu4jEaAkMvwZhFCFuXSkA229E5PiccfZfYuLopI9eT5twh4801arFuwkJ5HgaVLuZzO4Sbaby-dCPL1pu-9Vea0kJk6yqGa1ESVBch8FT0vPI4aL8WubOts8u28kZGpWyjTqOYNp1T1iW4pncR-0NPl5mfGxB4gTT6fnKcLk0HGK-gkEsMdlzj8oW3cWno4EowPtWiSdEafqH8FqBoXWyf6m8y4vHL1IadIBddi_75Nx2DfecWsZSCmkZzGFT23ka-_VjCSm2dYHk7DUmZdLDkzew/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=5352381942134629159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ9RiuJQ-9vJURJ2MmqwR7R0o/photos/AWCwydjRTU-LsWx3RwyvEk4ievk4wuBJvU4rioKhC6y701EEX_yRVdwGtJTqBSTmzNV5xTb3W3SbrPeL7qX2PJt-1Xsw_gypioiAK4bS1uNPfLp5p5dAPlR6zasbVB_Aw4vO_3XXUogm8-WSHPO_P_Q3IaCQWY1inXcM4FLtoGJSMO8cTvC0ETHLmkYxoEsX4EbjNE-Syg1chSQ3dOI45HzGj5c0HVRcUJ8qTfPq541ujV_EEU1mIxgo7iF_GYwCruoQjK4TnP0gWznJ93Em8ZdxmNU_-xv2zrqo2y0ctbvRDGQsYMAMvX5JW_MVCFFiXtF7cTg-wKgYlqVWem5ulRNvjWqYcj4sMbVZD-_NEa8xOIlx34KguuQLNFUzopJs8BaKk1cGA3MHX99T4xomnqZKvhfKwwzSoWActB5euD_4goPzzJspccCRiEYHAvrpbpwV/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=5352381942134629159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=5352381942134629159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 0.9,
+    "missing_data_reason": "telefono",
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=5352381942134629159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-27T15:20:20.449Z",
+          "notes": "Resultado automatico para \"restaurante\" en San Miguel, Buenos Aires. Segmento: gastronomia."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=5352381942134629159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=5352381942134629159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=5352381942134629159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=5352381942134629159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=5352381942134629159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=5352381942134629159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=5352381942134629159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=5352381942134629159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=5352381942134629159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=5352381942134629159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJ3wzoHSmWvJUR3mg5-lump3g",
+    "name": "PATO'S",
+    "slug": "pato-s",
+    "category": "Takeout Restaurant",
+    "is_vehicle_related": false,
+    "address": "Av. Dr. Ricardo Balbín 4585, B1663NFG Gran Buenos Aires, Provincia de Buenos Aires, Argentina",
+    "city": "San Miguel, Buenos Aires",
+    "neighborhood_or_area": null,
+    "phone": "011 4455-2543",
+    "opening_hours": {
+      "raw": "Monday: 10:00 AM – 3:00 PM | Tuesday: 10:00 AM – 1:00 PM | Wednesday: 10:00 AM – 1:00 PM | Thursday: 10:00 AM – 1:00 PM | Friday: 10:00 AM – 1:00 PM | Saturday: 10:00 AM – 1:00 PM, 7:00 – 11:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.7,
+      "reviews_count": 561,
+      "source_url": "https://maps.google.com/?cid=8694100519632333022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Ok",
+        "author": "Abelrojas163 Rojas",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/114106271216855587271/reviews"
+      },
+      {
+        "text": "Todo impecable muy rico todo y haciendo el pedido tienen todo a tiempo y calentito.",
+        "author": "Mar",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/106203679197709972288/reviews"
+      },
+      {
+        "text": "Compre empanadas de carne fritas riquísimas! Unas tartas, (atún espectacular! Jamon queso y tomate y creo que de espinaca)  todo un manjar dignos de recomendar.👏👏👏👏.",
+        "author": "Miguel Bustos",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/118229918756668310060/reviews"
+      }
+    ],
+    "main_product_or_service": "rotiseria",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ3wzoHSmWvJUR3mg5-lump3g/photos/AWCwydid9zqS-94T6XcACTiQLb9RB9L3EC3715FgrYUYCW53iCxL2EWOHK7XrtGXdLeoVsKPe3wEDadRAf4v4H5OZzyHV4KpjsSz_bU-5eLNpo_moy2cK4NlLaj4yqkqrlMEw8390E6RD32edMrOK_Rwow67bFEnsVhTrySudejqtupzQoW2KcvWCSuQM3SRo0wByRRTD5xMNTi50tKvir5KWMeWTY0LMgGp48t50l-D4xtPLl_aYInPxELQKPY1E7cOmbqKVF9G4PFD9eQR6ZbzbmeFb6GtoeDRhZ4jdBKOG7_4PnAogGwBwOuc7-i-O1w2fnLIFjlAOoBWsLkJbLJ5Q0mPJAv46xRlGX1neAojdrbX278Av9LhOvrXlLthgcHmhiwGew7kiFzDHE32IZL6BR5mkL3qUGvFBt9leB0c8BDbBto/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=8694100519632333022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ3wzoHSmWvJUR3mg5-lump3g/photos/AWCwydh6q5PiAdQWJgdtL60YPCGjf7tj-xawAKgEc1wkzz5BN1BVC2MceqtoHCclNwdVOP2227nQyobEtSH_kxEhH5rjffgr2r0c1GNNAKflmCEOGqIAdBKKV66cAPC2WilfvmBLUAHD6-59QccpQjIs9RWEes4LGXDiY78mrNu1PS9Es7Lp56hSqN9EPp9Ex2LfYPCGQKqg-bKqJn2Bc5BB9h2cGPJy3nOpVl6jHhIlWdG2zMjjMRQCxMUPcQWpbjwJ8tWpJkWOnDRwzWEI6E1exPsLwj2MXeAyYhLBV0V-CJguccqAn_Pw40yboHq6RzAF4PnEMFVqFHNvFM1_TgNhf7QHzyq4sgYUIc5DEXsyYVViKgY8sKCtAP-d3jgBbRbeNkFCOk1w0f-t71DK6xz1Fp_BT5A_ExPAZB8cpvlD9CelJg/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=8694100519632333022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ3wzoHSmWvJUR3mg5-lump3g/photos/AWCwydhC4ZIHT1AnqGNNXjg0Dj4nnf0GIJVjZITqQMuqbmXHYkhZ2EUUYgLBOhZ2jToHM8dEjdV1geU_M-VidbCrW7gWTVz2Ko2H-X8r0oVSJfXYL4p5I3qPo-5tlhCVeuENkPNITvego_YjsW2rdfHRuImhAxLdouQFebaT9jb0v-zKYIK380JHuvm2NGdo5JyLWl1uG6W11NfyVq5OSqJ664B_UiFCl-PsM7_HNozgwCVfz3PDIFb5PBjQ0s_3xRomTBsRGNZ5ic_KsHnxbzTH9blnYMx3Fr9BQAar66WhZ-H-Y3D1VjpvrnKnfN5xz6UXBakME7ZfVe1FauPlHWWVI12dYYT7XN6QRxRKYaqEpVNl4E0kf_7xF3HdCfUkoLFV7u9mXdtGpwD3OccYnpuyetcJSYsKobRP7y0JOllny_w/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=8694100519632333022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=8694100519632333022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=8694100519632333022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-27T15:20:20.449Z",
+          "notes": "Resultado automatico para \"rotiseria\" en San Miguel, Buenos Aires. Segmento: gastronomia."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=8694100519632333022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=8694100519632333022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=8694100519632333022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=8694100519632333022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=8694100519632333022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=8694100519632333022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=8694100519632333022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=8694100519632333022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=8694100519632333022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=8694100519632333022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=8694100519632333022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJ-050yC2WvJUR37Q6qiQdEz0",
+    "name": "Parrilla Adry",
+    "slug": "parrilla-adry",
+    "category": "Fast Food Restaurant",
+    "is_vehicle_related": false,
+    "address": "1663, B1663 San Miguel, Provincia de Buenos Aires, Argentina",
+    "city": "San Miguel, Buenos Aires",
+    "neighborhood_or_area": null,
+    "phone": "011 3813-4187",
+    "opening_hours": {
+      "raw": "Monday: 10:00 AM – 4:00 PM | Tuesday: 10:00 AM – 4:00 PM | Wednesday: 10:00 AM – 4:00 PM | Thursday: 10:00 AM – 4:00 PM | Friday: 10:00 AM – 4:00 PM, 7:30 PM – 12:30 AM | Saturday: 10:00 AM – 5:00 PM, 7:30 PM – 12:30 AM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.7,
+      "reviews_count": 269,
+      "source_url": "https://maps.google.com/?cid=4400893304183108831&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Uno de nuestros lugares favoritos, sabes que si venís acá vas a comer riquísimo. Todo de excelente calidad 😍🥪 Recomendadisimooo el sandwich de lomito",
+        "author": "Nahir Fernandez",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/106165481421992380529/reviews"
+      },
+      {
+        "text": "Buena atención,muy rica la comida 😍",
+        "author": "Tamara Begnis",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/118165716964067262674/reviews"
+      },
+      {
+        "text": "Andábamos por la zona y de pasada bajamos a almorzar. Recibimos una cordial y agradable atención, pedimos un sándwich de lomito completo y un lomito con ensalada al plato y la verdad que muy rico. El ambiente es muy lindo rodeado de mucho verde. Es una parrilla al paso, lo único en lo que sí pondría a detalle es que no tiene sanitario, es una pena. De igual manera si volvería o lo recomendaría.",
+        "author": "Alejandra Noemí Gonzalez",
+        "rating": 2,
+        "source_url": "https://www.google.com/maps/contrib/103983916540447594074/reviews"
+      }
+    ],
+    "main_product_or_service": "parrilla",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ-050yC2WvJUR37Q6qiQdEz0/photos/AWCwydioIVC1mrByOgktHlZrjUVcNr3PtdKZAWlBxAJES7DntJJS__MVyrQJKv4jA_62XaQZfnQS2ohRHetamSOYwyMpLLGUjsDubjPUutj8Pm9zTkw5okS7OpldRsLzzmBRt7WGIB6J7H8S1PTimYsG1LnNzM8x5CpAVWO-vz99cZQ-N1OZkSpEngR8roWvhPq1n8ERm9FIX0uKpOG4M5tSQAiDZmhBZrb3ocRoCHA-fg3cc_TDfz4whLq26cJ-Y3buGYLr6EMYOYTzEgFO3RdgqJh7Td0oR2H3p9IGpcJqdHAyem9BkRawmCZ_EBY0mXxbInGxbWMvEmrzwFWTvanPCJ7EHxSgAARMJA2PwtV2FRN3J_K6vTUwJArGz1ogFv6CDMbewV7FwWAUj3XiLhboP1IjvYj2yiRpLeVh221fW0pyCpNHwEYGiajogvaODgIq/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=4400893304183108831&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ-050yC2WvJUR37Q6qiQdEz0/photos/AWCwydiJQ-gI6y5TpIXs0gDQza4mjNc9hWoo79oBjKbSi0wBjzXXYmaJhQF_KDmc3h358qeFwI430gxpsqfAqxgsPxyi58uXash8VAojk-NCIhHI9wTVt1K4Fcjtr_LPYObOadnvAr_KAA9-6xiDLY_3AL-QkDdT4BeNQ_H5f1mihpv7SEzcsSM7wZZUXWABJn3w5I-kj4gsB-qfbE2VJhKtNW_TxhXbUVU7ZNWz2LAMh7JgmDvSjIpzBL41B5vfKXvttYMu6AoGHt8foKUAoNJ3S3AINka4D3M08VBYr5thtpeRfvND2KsymoUohTthRHEX9B36WYxYhbzFttJ0M5nKAFl0j3Fe63A4jvoqnPPI8Y6vCKYB1ThNi9zUnu-ogF6djl2qkKbgDrZl8OdEeH2sszeXgQ2mG5BgWu3BEkdJq_MPhSI2/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=4400893304183108831&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ-050yC2WvJUR37Q6qiQdEz0/photos/AWCwydgL0IIIqNm6uu935Pw0OCX1Q-Ik0jPn0jdqCTG4oKPlCuAMzsq3dG3bZHKtMMFa13IcbGYp5yHGq_NeOEvmllGCVn6t4PoxWnJIO34UzObh4Z-4KyPpwD6sWxx0fkY_651j7Hkv-AHuB2vQCmKAsmyoKyBigzTbJVQpKNEWsRgseBLeHJ0Vr-3tUU1Wr5Z3-CU5aQcJh_f1FxiM07HEJHXBh7h-T3RnZKYVqI2xvwgO6Qs0tMRqLqQkLU9HVgwjULs1zvTJDrwd9HoGUPb6CZM1NlrWZkhbo_XGQ9ypG_OWYD7ank5VwDH4mQDrboFa5DzDC2K4CdEQ6Jnp9Ky_-0zOnQEALylMTrXVmVo7DXDrp6VL6W7TZQTGeutHwT_42vp94cnJH62MrNtsExlkIafRYT0_nSiHicrp2j6PZXM8R_vv2YKqM3YLjtfnTN-z/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=4400893304183108831&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=4400893304183108831&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=4400893304183108831&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-27T15:20:20.449Z",
+          "notes": "Resultado automatico para \"parrilla\" en San Miguel, Buenos Aires. Segmento: gastronomia."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=4400893304183108831&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=4400893304183108831&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=4400893304183108831&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=4400893304183108831&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=4400893304183108831&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=4400893304183108831&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=4400893304183108831&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=4400893304183108831&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=4400893304183108831&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=4400893304183108831&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=4400893304183108831&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJ_5L2ZzmXvJURkreP5CmWtTM",
+    "name": "Federico Eventos",
+    "slug": "federico-eventos",
+    "category": "Event Venue",
+    "is_vehicle_related": false,
+    "address": "C. El Zonda 2249, B1663 San Miguel, Provincia de Buenos Aires, Argentina",
+    "city": "San Miguel, Buenos Aires",
+    "neighborhood_or_area": null,
+    "phone": "011 6485-1800",
+    "opening_hours": {
+      "raw": "Monday: Closed | Tuesday: Closed | Wednesday: Closed | Thursday: Closed | Friday: 4:00 – 8:30 PM | Saturday: 4:00 – 8:30 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.7,
+      "reviews_count": 83,
+      "source_url": "https://maps.google.com/?cid=3726049373391402898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Excelente salon para todo tipo de evento, todo muy organizado, cumplen con cada cosa que te dicen, las mozas unas genias, MUY recomendable la Verdad!\nIris una Genia, lleva adelante todo con mucha dedicacion, muy organizada.",
+        "author": "joana Tevez",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/114669681617734528020/reviews"
+      },
+      {
+        "text": "Hermoso lugar amplio y cómodo completo para hacer todo tipo de eventos",
+        "author": "Julián andres Sanchez",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/112446530399719016724/reviews"
+      },
+      {
+        "text": "Hermoso lugar, muy preparado, de noche es hermoso",
+        "author": "Fernando desur",
+        "rating": 4,
+        "source_url": "https://www.google.com/maps/contrib/105044303206350562086/reviews"
+      }
+    ],
+    "main_product_or_service": "salon de fiestas",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ_5L2ZzmXvJURkreP5CmWtTM/photos/AWCwydiZYMXybGqIuElxHNI-uXwuOzKgqIv5KdbRc1J8vM9lrSGQa9mAJZXz9MAlFczjx9TNbLdOTknrUyzCxE3wZGS95F9CM0dCrboOM2jESMWJ51jwPg9rtiT9vI-1RwcWVNHu6eOUmCyEiC5YsT9kHaBUFGcOV2gmawvjxIfiUQ9V4faebrX74f8tM7WcXQn1EX7ZmHNthHUNPUN3A19ZEPpdmcB4ovJtsJ0Jlrfwed9v3oqsly3ezk5gpbbj61A6-pOchMZ9hW20qXvFU_ys5uyBae0CO5_Y0wFRKEZ3ACfiLzyLA0PRSY4qIhopjNSjhsCU5EkHTD6KjPIQPDJH3uQ05PRFzsspbRRmd5vpbKP_YUsRUuo2zuWKqTphqzcwWfs5ze7d2MEybaUd_Ey1AbHapzDYFPrzxHsoT0cXR4DPZN1B/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=3726049373391402898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ_5L2ZzmXvJURkreP5CmWtTM/photos/AWCwydhmdHXnn2nb2KKy1-UJMExP-OEP_6FOQI8fwn_8yPD8eynqIdEx9zI_Okz3zgrbBe5_oKHidimVXngSiIN5rM_ccGWFhwFKXBuN1Dvq7TW4nDa415c0vVhAX9KGLfe_rXuy8Hy22KWYz2jnTeKusdXVSvkrogqKVBCG4XHOEr8MKDlmAe5JHT4r046oMCQQJznivcg6hv76oGLEA7cRA9KkkWQ4rio8-3hH6miL1XQCq_mxCJzFPeiVM3xxknePMziKhFEaMMOcbWZKvlSDKYZYUTAP67KvKZ1ZcFFA5QTkPGJx9E6hQu2qM_cNImV76OGc5kbLEeQ_4dnHNGR__1s7SvzfkuTkgSHun2zvqhIoLxyR0BDLBrxeemH9MRpwD7eBMhssGv_zfZN3RvEQ_N6ksanBQu_MbcmeYDRTxEHVdm4Q/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=3726049373391402898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ_5L2ZzmXvJURkreP5CmWtTM/photos/AWCwydjSLiELd3qTmvLwmqWxN7mSku5daZ500CWoPJ-XI26M0JpaJGOWK7s79waZFeZAHOz5z-kJGp_p00HWtAu3OVTISDKVyRtdJkHOVu0Kuq3BkGS8B2Y_YJoTO8tJYYxu08hv8S9oN2RZFmnR77deeov_bsXLPVYbEjezTWs46sZlIBWcd2pxOH267O4l7QspSDKwipnXyoNb_F0QjLsdxMwQZSQUiLu3LJJ-rPKwUvcuRCspIdhl56dq4DRGJGNDwygXMphERDI11qY9rXKJsB_ytXPLmk7rXJqwZEQ-EDVB0dlUaKUQIDNHMC3UZrH7ZHTKv2jNxzaCcsjom_Uaud8G3XrP4SSoosOp56xZL1P6uE_ynn5M4eDkkF49yKRca9szXaM5f7mTLhwMmC6HvI6-zFTpLBzuFet8JSg8D_t2jdI/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=3726049373391402898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=3726049373391402898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=3726049373391402898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-27T15:20:51.712Z",
+          "notes": "Resultado automatico para \"salon de fiestas\" en San Miguel, Buenos Aires. Segmento: eventos."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=3726049373391402898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=3726049373391402898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=3726049373391402898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=3726049373391402898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=3726049373391402898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=3726049373391402898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=3726049373391402898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=3726049373391402898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=3726049373391402898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=3726049373391402898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=3726049373391402898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  }
+]

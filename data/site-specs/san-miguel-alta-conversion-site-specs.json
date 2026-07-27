@@ -1,0 +1,1394 @@
+[
+  {
+    "business_id": "google-ChIJ3ZENk7O9vJUR_qB-JTza_2M",
+    "slug": "altos-food-concept",
+    "visual_mood": "neighborhood-direct",
+    "composition": "photo-board",
+    "headline": "ALTOS: la parrilla de barrio que se come como restaurante",
+    "subheadline": "Entraña, achuras y cocina de olla en un salón acogedor de San Miguel. Abierto todos los días de 9 a 24 h, sobre Belgrano 980. Reservá tu mesa o llamá para consultar.",
+    "primary_cta": "Llamar ahora",
+    "secondary_cta": "Cómo llegar",
+    "service_tags": [
+      "Parrilla y achuras",
+      "Cocina de restaurante",
+      "Salón familiar",
+      "Para toda la mesa"
+    ],
+    "proof_points": [
+      "4,5 en Google con 1.261 reseñas",
+      "Abierto todos los días de 9 a 24 h",
+      "Belgrano 980, San Miguel",
+      "\"La mejor entraña de la zona en porción y sabor\" — reseña real"
+    ],
+    "resource_title": "Antes de venir a comer",
+    "resource_items": [
+      "Dirección y horario visibles para llegar sin vueltas.",
+      "Reseñas reales con autor para saber qué piden los que ya vinieron.",
+      "Teléfono directo para reservar mesa o consultar por grupos."
+    ],
+    "review_heading": "Lo que dicen los que ya se sentaron a la mesa",
+    "contact_heading": "Reservá tu mesa o pasá a comer",
+    "image_prompt": "Hero editorial: primer plano apetitoso de entraña a la parrilla jugosa con chimichurri y achuras al costado, brasas al fondo, luz cálida de bodegón nocturno. Fotos de apoyo de platos destacados en reseñas (entraña, chinchulines) usando stock o imagen generada como serving suggestion, sin afirmar que son fotos tomadas en el local. Fotos reales de Google Places del salón para contexto documental.",
+    "design_notes": "Dirección 'Bodegón de concepto': parrilla de barrio con alma de restaurante nocturno. Paleta drenched vino/oxblood profundo con acento ámbar-ember solo en CTA (elemento más caliente). Par tipográfico Bricolage Grotesque (display) + Spectral (cuerpo). Template visual-menu: el plato manda la composición.",
+    "conversion_template": "visual-menu",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Le vende una salida a comer bien —parrilla y achuras de calidad de restaurante— al vecino de San Miguel que busca dónde ir hoy y decide en el celular si reserva o llama.",
+      "visual_thesis": "Bodegón de concepto: parrilla de barrio con alma de restaurante nocturno. Fondo drenched oxblood/vino profundo, tipografía de carácter Bricolage Grotesque para los títulos y Spectral para el cuerpo, con un ámbar-ember caliente reservado exclusivamente al CTA de contacto. El apetito y la calidez familiar mandan; nada de crema por reflejo.",
+      "copy_voice": "Español argentino, vos, cercano y goloso. Frases cortas que dan hambre y empujan a reservar o llamar. Nace de las reseñas reales (entraña, chinchulines, ambiente familiar). Evita copy institucional y meta.",
+      "layout_signature": "Hero con foto dominante del plato estrella y prueba social (4,5 · 1.261) montada arriba del fold; menú visual por secciones (parrilla, achuras, cocina), franja de reseñas literales con autor, y cierre de contacto con teléfono como elemento gráfico. Barra sticky de llamada en mobile.",
+      "asset_plan": "Foto real del salón (Google Places) como contexto documental. El hero y las tarjetas de plato pueden usar imagen de stock o generada de los ítems destacados en reseñas (entraña, chinchulines) como serving suggestion, sin disclaimer visual. Texturas de brasa y humo resueltas con CSS/SVG inline.",
+      "ai_fill_plan": {
+        "copy": [
+          "Convertir reseñas reales en microcopy de decisión: qué pedir, para cuántos, cómo reservar.",
+          "Nombrar secciones y CTAs con voz de bodegón porteño sin frases genéricas.",
+          "Escribir la sección de menú como recorrido de sabores, no como lista de precios inventados."
+        ],
+        "imagery": [
+          "Generar o licenciar fotos apetitosas de los platos destacados en reseñas (entraña, chinchulines, achuras) como serving suggestion, sin aclarar que no son del local.",
+          "Usar textura de brasa, humo y madera en CSS/SVG para dar atmósfera sin depender de una sola foto."
+        ],
+        "boundaries": [
+          "no inventar precios, stock, marcas, años, premios, garantías, servicios ni reseñas que no estén en los datos verificados del negocio.",
+          "no presentar imágenes de instalaciones, salón, personal ni resultados de otro lugar como si fueran del local: eso sí lleva alt/caption honesto."
+        ]
+      },
+      "anti_patterns": [
+        "Fondo crema/beige por reflejo en vez de la paleta vino comprometida.",
+        "Hero de ficha de Google Maps en vez de foto de plato que da hambre.",
+        "Grilla de tres tarjetas iguales con ícono + título + texto.",
+        "Eyebrows tracked-caps o marcadores 01/02/03 sobre cada sección.",
+        "Precios o promos inventadas en el menú."
+      ],
+      "rewrite_targets": [
+        "Reemplazar toda la dirección automotriz del fallback (taller, turno del auto) por gastronomía real.",
+        "Hacer que el hero venda el plato y la prueba social en los primeros 5 segundos.",
+        "Poner el CTA de llamar como el color más caliente y repetirlo en el scroll.",
+        "Mostrar horario y dirección como datos operativos visibles."
+      ]
+    },
+    "commercial": {
+      "tone": "fast-local",
+      "customer_type": "Vecinos de San Miguel que quieren salir a comer parrilla y consultan por teléfono.",
+      "hero_claim": "Una mesa de parrilla para llamar, consultar y pasar hoy.",
+      "trust_bar": [
+        {
+          "label": "Valoración",
+          "title": "4,5 / 5",
+          "body": "1.261 reseñas",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Horario",
+          "title": "Horario publicado",
+          "body": "Lunes a domingo: 9:00 a. m. – 12:00 a. m.",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Contacto",
+          "title": "Teléfono directo",
+          "body": "011 7084-5458",
+          "meta": "Dato verificado"
+        }
+      ],
+      "service_cards": [
+        {
+          "label": "Elegir",
+          "title": "Entraña",
+          "body": "La información publicada destaca entraña."
+        },
+        {
+          "label": "Consultar",
+          "title": "Chinchulines",
+          "body": "Teléfono, dirección y horario quedan visibles para decidir sin buscar otro dato."
+        },
+        {
+          "label": "Pasar",
+          "title": "Ambiente familiar",
+          "body": "El siguiente paso se resuelve con contacto directo y la ubicación del negocio."
+        }
+      ],
+      "why_choose": [
+        {
+          "title": "Datos visibles",
+          "body": "Valoración, horario, dirección y contacto aparecen juntos."
+        },
+        {
+          "title": "Reseñas con autor",
+          "body": "“Excelente lugar para una buena entraña, la mejor de la zona en porción y sabor. Y los chinchulines exquisitos. Excelente atención.” — Florencia Rodriguez."
+        },
+        {
+          "title": "Próximo paso claro",
+          "body": "Llamar para consultar y avanzar."
+        }
+      ],
+      "packages": [
+        {
+          "name": "Para decidir hoy",
+          "price_label": "Sin precios publicados",
+          "body": "Información útil para hacer la consulta antes de pasar.",
+          "items": [
+            "Horario publicado",
+            "Dirección",
+            "Contacto directo"
+          ]
+        },
+        {
+          "name": "Consulta directa",
+          "price_label": "A confirmar con el negocio",
+          "body": "La llamada permite confirmar disponibilidad sin prometer datos no publicados.",
+          "items": [
+            "Necesidad",
+            "Horario",
+            "Siguiente paso"
+          ]
+        }
+      ],
+      "gallery": [
+        {
+          "label": "Contexto",
+          "title": "Imagen principal",
+          "body": "La composición visual acompaña la decisión de contacto.",
+          "meta": "Uso editorial acorde al brief"
+        },
+        {
+          "label": "Señal local",
+          "title": "Dirección y horario",
+          "body": "Información operativa visible para llegar sin vueltas.",
+          "meta": "Belgrano 980, B1663 San Miguel, Provincia de Buenos Aires, Argentina"
+        }
+      ],
+      "process": [
+        {
+          "step": "Contacto",
+          "title": "Llamar",
+          "body": "Elegí el canal publicado."
+        },
+        {
+          "step": "Consulta",
+          "title": "Confirmar disponibilidad",
+          "body": "El negocio confirma el dato que falta."
+        },
+        {
+          "step": "Visita",
+          "title": "Pasar por el lugar",
+          "body": "La dirección y el horario quedan visibles."
+        }
+      ],
+      "final_cta": {
+        "title": "Una mesa de parrilla para llamar, consultar y pasar hoy.",
+        "body": "Belgrano 980, B1663 San Miguel, Provincia de Buenos Aires, Argentina. Lunes a domingo: 9:00 a. m. – 12:00 a. m.",
+        "primary_label": "Llamar a ALTOS",
+        "secondary_label": "Cómo llegar"
+      },
+      "editable_note": "No se publican precios, promociones, capacidad ni servicios que no estén confirmados."
+    },
+    "creative": {
+      "concept": "Una mesa de parrilla para llamar, consultar y pasar hoy.",
+      "audience": "Vecinos de San Miguel que quieren salir a comer parrilla y consultan por teléfono.",
+      "visual_direction": "Bodegón de concepto: parrilla de barrio con alma de restaurante nocturno. Fondo drenched oxblood/vino profundo, tipografía de carácter Bricolage Grotesque para los títulos y Spectral para el cuerpo, con un ámbar-ember caliente reservado exclusivamente al CTA de contacto. El apetito y la calidez familiar mandan; nada de crema por reflejo.",
+      "layout": "bodyshop-craft",
+      "texture": "oil-label",
+      "hero_angle": "Una mesa de parrilla para llamar, consultar y pasar hoy.",
+      "hero_cards": [
+        {
+          "label": "Valoración",
+          "value": "4,5 / 5",
+          "note": "1.261 reseñas"
+        },
+        {
+          "label": "Horario",
+          "value": "Horario publicado",
+          "note": "Lunes a domingo: 9:00 a. m. – 12:00 a. m."
+        },
+        {
+          "label": "Contacto",
+          "value": "011 7084-5458",
+          "note": "Canal publicado"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Para decidir",
+          "title": "Lo que buscás, a mano",
+          "body": "La información pública se ordena alrededor de la acción de contacto.",
+          "items": [
+            {
+              "label": "Elegir",
+              "value": "Entraña",
+              "note": "La información publicada destaca entraña."
+            },
+            {
+              "label": "Consultar",
+              "value": "Chinchulines",
+              "note": "Teléfono, dirección y horario quedan visibles para decidir sin buscar otro dato."
+            },
+            {
+              "label": "Pasar",
+              "value": "Ambiente familiar",
+              "note": "El siguiente paso se resuelve con contacto directo y la ubicación del negocio."
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Reseñas",
+          "title": "Lo dicen quienes ya fueron",
+          "body": "Una reseña literal aporta una señal concreta para decidir.",
+          "items": [
+            {
+              "label": "Opinión",
+              "value": "Excelente lugar para una buena entraña, la mejor de la zona en porción y sabor. Y los chinchulines exquisitos. Excelente atención.",
+              "note": "Florencia Rodriguez"
+            },
+            {
+              "label": "Valoración",
+              "value": "4,5 / 5",
+              "note": "1.261 reseñas"
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Contacto",
+          "title": "Llegar o consultar sin vueltas",
+          "body": "Dirección, horario y contacto quedan visibles en el cierre.",
+          "items": [
+            {
+              "label": "Contacto",
+              "value": "011 7084-5458"
+            },
+            {
+              "label": "Horario",
+              "value": "Lunes a domingo: 9:00 a. m. – 12:00 a. m."
+            },
+            {
+              "label": "Dirección",
+              "value": "Belgrano 980, B1663 San Miguel, Provincia de Buenos Aires, Argentina"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/san-miguel-alta-conversion/altos-food-concept",
+      "notes": "Dirección 'Bodegón de concepto': parrilla de barrio con alma de restaurante nocturno. Paleta drenched vino/oxblood profundo con acento ámbar-ember solo en CTA (elemento más caliente). Par tipográfico Bricolage Grotesque (display) + Spectral (cuerpo). Template visual-menu: el plato manda la composición."
+    }
+  },
+  {
+    "business_id": "google-ChIJ9RiuJQ-9vJURJ2MmqwR7R0o",
+    "slug": "baum-san-miguel",
+    "visual_mood": "precision-service",
+    "composition": "poster-bay",
+    "headline": "Baum: cerveza artesanal y bodegón de noche en San Miguel",
+    "subheadline": "El after de San Miguel: cerveza tirada, porciones enormes y buena onda hasta tarde. 4,3 en Google con más de 9.000 reseñas. Mirá el lugar en Instagram o vení a probarlo.",
+    "primary_cta": "Cómo llegar",
+    "secondary_cta": "Ver en Instagram",
+    "service_tags": [
+      "Cerveza artesanal",
+      "Cocina de bodegón",
+      "Salón de noche",
+      "Pedido desde el celu"
+    ],
+    "proof_points": [
+      "4,3 en Google con más de 9.000 reseñas",
+      "Abierto de noche, viernes y sábados hasta las 4",
+      "Maestro Ángel D'Elía 1145, San Miguel",
+      "\"Gran cerveza y porciones enormes, un must en la noche\" — reseña real"
+    ],
+    "resource_title": "Antes de venir a la noche",
+    "resource_items": [
+      "Horario nocturno visible: abre 18:30, viernes y sábado hasta las 4.",
+      "Dirección con cómo llegar para caer directo.",
+      "Instagram real del lugar para ver el ambiente antes de venir."
+    ],
+    "review_heading": "Lo que se cuenta de las noches en Baum",
+    "contact_heading": "Caé a la noche o mirá el lugar",
+    "image_prompt": "Hero editorial nocturno: chopp de cerveza artesanal ámbar con espuma y luz cálida sobre barra oscura, ambiente de salón lleno de noche. Fotos de apoyo de platos de bodegón (hamburguesa, picada) como serving suggestion con stock o imagen generada, sin afirmar que son del local. Fotos reales de Google Places del salón para contexto.",
+    "design_notes": "Dirección 'Cervecería de noche sanmiguelina': salón nocturno, prueba social masiva (9.393) como héroe, brillo ámbar de cerveza como acento caliente sin caer en dark-glow slop. Par Bebas Neue (display póster) + Bitter (cuerpo slab). Template hero-proof-offer. Sin teléfono verificado: CTA primario 'Cómo llegar', secundario Instagram real (@baumsanmiguel).",
+    "conversion_template": "hero-proof-offer",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Le vende una salida nocturna —cerveza artesanal y bodegón hasta tarde— al que busca after en San Miguel y decide en el celu si cae esta noche o mira primero el lugar.",
+      "visual_thesis": "Cervecería de noche sanmiguelina: salón nocturno casi-negro con un ámbar cálido de cerveza como único acento caliente, prueba social masiva (9.000+ reseñas) tratada como héroe gráfico. Par tipográfico Bebas Neue de póster de bar + Bitter de cuerpo. Nada de glow violeta ni dark-slop: el ámbar es luz de barra, no efecto.",
+      "copy_voice": "Español argentino, vos, nocturno y relajado. Habla de after, cerveza tirada y porciones grandes con la energía de las reseñas reales. Evita solemnidad y frases genéricas.",
+      "layout_signature": "Hero con foto de cerveza y el número 9.000+ reseñas como elemento tipográfico dominante; oferta clara (cerveza artesanal, bodegón, pedido por celu), franja de reseñas literales, y contacto sin teléfono: botón grande 'Cómo llegar' a Maps y 'Ver en Instagram' verificado. Barra sticky en mobile con esas dos acciones.",
+      "asset_plan": "Foto real del salón (Google Places) para contexto nocturno. Hero y tarjetas de plato pueden usar stock o imagen generada de cerveza artesanal y platos de bodegón como serving suggestion, sin disclaimer. Sin teléfono: nunca inventar un número; el contacto es Maps + Instagram real. Textura de barra y luz cálida en CSS.",
+      "ai_fill_plan": {
+        "copy": [
+          "Convertir reseñas reales en microcopy de after: qué tomar, qué picar, hasta qué hora.",
+          "Nombrar secciones y CTAs con voz de bar de noche, sin inventar eventos ni promos.",
+          "Escribir la oferta como recorrido (cerveza, cocina, ambiente) sin precios inventados."
+        ],
+        "imagery": [
+          "Generar o licenciar fotos apetitosas de cerveza artesanal y platos de bodegón como serving suggestion, sin aclarar que no son del local.",
+          "Usar textura de luz de barra nocturna y espuma en CSS/SVG para atmósfera propia."
+        ],
+        "boundaries": [
+          "no inventar precios, stock, marcas, años, premios, garantías, servicios ni reseñas que no estén en los datos verificados del negocio.",
+          "no presentar imágenes de instalaciones, salón, personal ni resultados de otro lugar como si fueran del local: eso sí lleva alt/caption honesto.",
+          "no inventar un teléfono ni un WhatsApp: el negocio no publicó teléfono, el contacto verificado es Google Maps y el Instagram @baumsanmiguel."
+        ]
+      },
+      "anti_patterns": [
+        "Glow violeta o dark-glow slop en vez de luz cálida de barra.",
+        "Inventar un teléfono o WhatsApp que el negocio no publicó.",
+        "Hero de ficha de Maps en vez de foto que transmita la noche.",
+        "Eyebrows tracked-caps o marcadores 01/02/03 sobre cada sección.",
+        "Grilla de tarjetas iguales sin jerarquía."
+      ],
+      "rewrite_targets": [
+        "Reemplazar la dirección automotriz del fallback por cervecería de noche real.",
+        "Usar los 9.000+ reseñas como prueba social protagonista del hero.",
+        "Resolver el contacto sin teléfono con Maps + Instagram como acciones calientes.",
+        "Transmitir la franja horaria nocturna como dato operativo claro."
+      ]
+    },
+    "commercial": {
+      "tone": "fast-local",
+      "customer_type": "Personas que buscan una salida nocturna en San Miguel y quieren ubicar el bar.",
+      "hero_claim": "Una salida de noche con cerveza, comida y dirección a mano.",
+      "trust_bar": [
+        {
+          "label": "Valoración",
+          "title": "4,3 / 5",
+          "body": "9.393 reseñas",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Horario",
+          "title": "Horario publicado",
+          "body": "Lun-jue 6:30 p. m. – 2:00 a. m.; vie-sáb hasta 4:00 a. m.; dom hasta 12:00 a. m.",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Contacto",
+          "title": "Cómo llegar e Instagram",
+          "body": "El contacto publicado es Maps e Instagram @baumsanmiguel.",
+          "meta": "Dato verificado"
+        }
+      ],
+      "service_cards": [
+        {
+          "label": "Elegir",
+          "title": "Cerveza",
+          "body": "La información publicada destaca cerveza."
+        },
+        {
+          "label": "Consultar",
+          "title": "Comida",
+          "body": "Teléfono, dirección y horario quedan visibles para decidir sin buscar otro dato."
+        },
+        {
+          "label": "Pasar",
+          "title": "Noche",
+          "body": "El siguiente paso se resuelve con contacto directo y la ubicación del negocio."
+        }
+      ],
+      "why_choose": [
+        {
+          "title": "Datos visibles",
+          "body": "Valoración, horario, dirección y contacto aparecen juntos."
+        },
+        {
+          "title": "Reseñas con autor",
+          "body": "“Chilled vibe, friendly service and awesome food/beer.” — Gabriel Machado."
+        },
+        {
+          "title": "Próximo paso claro",
+          "body": "Cómo llegar o mirar el Instagram oficial."
+        }
+      ],
+      "packages": [
+        {
+          "name": "Para decidir hoy",
+          "price_label": "Sin precios publicados",
+          "body": "Información útil para hacer la consulta antes de pasar.",
+          "items": [
+            "Horario publicado",
+            "Dirección",
+            "Contacto directo"
+          ]
+        },
+        {
+          "name": "Consulta directa",
+          "price_label": "A confirmar con el negocio",
+          "body": "La llamada permite confirmar disponibilidad sin prometer datos no publicados.",
+          "items": [
+            "Necesidad",
+            "Horario",
+            "Siguiente paso"
+          ]
+        }
+      ],
+      "gallery": [
+        {
+          "label": "Contexto",
+          "title": "Imagen principal",
+          "body": "La composición visual acompaña la decisión de contacto.",
+          "meta": "Uso editorial acorde al brief"
+        },
+        {
+          "label": "Señal local",
+          "title": "Dirección y horario",
+          "body": "Información operativa visible para llegar sin vueltas.",
+          "meta": "GOA, Maestro Ángel D'Elía 1145, B1663 San Miguel, Provincia de Buenos Aires, Argentina"
+        }
+      ],
+      "process": [
+        {
+          "step": "Contacto",
+          "title": "Abrir Maps o Instagram",
+          "body": "Elegí el canal publicado."
+        },
+        {
+          "step": "Consulta",
+          "title": "Confirmar disponibilidad",
+          "body": "El negocio confirma el dato que falta."
+        },
+        {
+          "step": "Visita",
+          "title": "Pasar por el lugar",
+          "body": "La dirección y el horario quedan visibles."
+        }
+      ],
+      "final_cta": {
+        "title": "Una salida de noche con cerveza, comida y dirección a mano.",
+        "body": "GOA, Maestro Ángel D'Elía 1145, B1663 San Miguel, Provincia de Buenos Aires, Argentina. Lun-jue 6:30 p. m. – 2:00 a. m.; vie-sáb hasta 4:00 a. m.; dom hasta 12:00 a. m.",
+        "primary_label": "Cómo llegar",
+        "secondary_label": "Cómo llegar"
+      },
+      "editable_note": "No se publican precios, promociones, capacidad ni servicios que no estén confirmados."
+    },
+    "creative": {
+      "concept": "Una salida de noche con cerveza, comida y dirección a mano.",
+      "audience": "Personas que buscan una salida nocturna en San Miguel y quieren ubicar el bar.",
+      "visual_direction": "Cervecería de noche sanmiguelina: salón nocturno casi-negro con un ámbar cálido de cerveza como único acento caliente, prueba social masiva (9.000+ reseñas) tratada como héroe gráfico. Par tipográfico Bebas Neue de póster de bar + Bitter de cuerpo. Nada de glow violeta ni dark-slop: el ámbar es luz de barra, no efecto.",
+      "layout": "parts-counter",
+      "texture": "parts-shelf",
+      "hero_angle": "Una salida de noche con cerveza, comida y dirección a mano.",
+      "hero_cards": [
+        {
+          "label": "Valoración",
+          "value": "4,3 / 5",
+          "note": "9.393 reseñas"
+        },
+        {
+          "label": "Horario",
+          "value": "Horario publicado",
+          "note": "Lun-jue 6:30 p. m. – 2:00 a. m.; vie-sáb hasta 4:00 a. m.; dom hasta 12:00 a. m."
+        },
+        {
+          "label": "Contacto",
+          "value": "Maps e Instagram",
+          "note": "Canal publicado"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Para decidir",
+          "title": "Lo que buscás, a mano",
+          "body": "La información pública se ordena alrededor de la acción de contacto.",
+          "items": [
+            {
+              "label": "Elegir",
+              "value": "Cerveza",
+              "note": "La información publicada destaca cerveza."
+            },
+            {
+              "label": "Consultar",
+              "value": "Comida",
+              "note": "Teléfono, dirección y horario quedan visibles para decidir sin buscar otro dato."
+            },
+            {
+              "label": "Pasar",
+              "value": "Noche",
+              "note": "El siguiente paso se resuelve con contacto directo y la ubicación del negocio."
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Reseñas",
+          "title": "Lo dicen quienes ya fueron",
+          "body": "Una reseña literal aporta una señal concreta para decidir.",
+          "items": [
+            {
+              "label": "Opinión",
+              "value": "Chilled vibe, friendly service and awesome food/beer.",
+              "note": "Gabriel Machado"
+            },
+            {
+              "label": "Valoración",
+              "value": "4,3 / 5",
+              "note": "9.393 reseñas"
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Contacto",
+          "title": "Llegar o consultar sin vueltas",
+          "body": "Dirección, horario y contacto quedan visibles en el cierre.",
+          "items": [
+            {
+              "label": "Contacto",
+              "value": "Cómo llegar e Instagram"
+            },
+            {
+              "label": "Horario",
+              "value": "Lun-jue 6:30 p. m. – 2:00 a. m.; vie-sáb hasta 4:00 a. m.; dom hasta 12:00 a. m."
+            },
+            {
+              "label": "Dirección",
+              "value": "GOA, Maestro Ángel D'Elía 1145, B1663 San Miguel, Provincia de Buenos Aires, Argentina"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/san-miguel-alta-conversion/baum-san-miguel",
+      "notes": "Dirección 'Cervecería de noche sanmiguelina': salón nocturno, prueba social masiva (9.393) como héroe, brillo ámbar de cerveza como acento caliente sin caer en dark-glow slop. Par Bebas Neue (display póster) + Bitter (cuerpo slab). Template hero-proof-offer. Sin teléfono verificado: CTA primario 'Cómo llegar', secundario Instagram real (@baumsanmiguel)."
+    }
+  },
+  {
+    "business_id": "google-ChIJ3wzoHSmWvJUR3mg5-lump3g",
+    "slug": "pato-s",
+    "visual_mood": "neighborhood-direct",
+    "composition": "service-ledger",
+    "headline": "PATO'S: empanadas fritas y tartas recién hechas para llevar",
+    "subheadline": "La rotisería de San Miguel donde está todo a tiempo y calentito. Empanadas fritas, tartas y comida casera sobre Av. Balbín 4585. Llamá y pasá a retirar.",
+    "primary_cta": "Llamar y encargar",
+    "secondary_cta": "Cómo llegar",
+    "service_tags": [
+      "Empanadas fritas",
+      "Tartas caseras",
+      "Comida para llevar",
+      "Rotisería"
+    ],
+    "proof_points": [
+      "4,7 en Google con 561 reseñas",
+      "\"Todo impecable, muy rico y a tiempo y calentito\" — reseña real",
+      "Av. Dr. Ricardo Balbín 4585, San Miguel",
+      "Atiende de martes a sábado (domingos cerrado)"
+    ],
+    "resource_title": "Para encargar bien",
+    "resource_items": [
+      "Teléfono directo para pedir y retirar sin esperar.",
+      "Horario de atención visible: cerrado los domingos.",
+      "Reseñas reales que destacan las empanadas y las tartas."
+    ],
+    "review_heading": "Lo que recomiendan los clientes de siempre",
+    "contact_heading": "Encargá y pasá a retirar",
+    "image_prompt": "Hero editorial diurno: primer plano de empanadas fritas doradas apiladas y tartas caseras recién horneadas sobre mostrador, luz natural de mediodía. Estas fotos de los ítems destacados en reseñas (empanadas fritas, tartas) pueden ser stock o imagen generada como serving suggestion, sin afirmar que son del local. Fotos reales de Google Places del mostrador para contexto.",
+    "design_notes": "Dirección 'Rotisería de mediodía': comida para llevar, honesta y apetitosa, luz de día. Paleta LIGHT comprometida — rojo tomate + mostaza con tinta marrón, off-white tintado al rubro (no crema por reflejo). Par Alfa Slab One (display, cartel de deli) + Hanken Grotesk (cuerpo). Template catalog-counter (mostrador/menú).",
+    "conversion_template": "catalog-counter",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Le vende el almuerzo o la cena resuelta —empanadas fritas y tartas caseras para llevar— al vecino apurado de San Miguel que quiere encargar rápido y pasar a retirar calentito.",
+      "visual_thesis": "Rotisería de mediodía: cartel de deli honesto y apetitoso con luz de día. Paleta light comprometida de rojo tomate y mostaza sobre off-white tintado al rubro (jamás crema por reflejo), tinta marrón para el cuerpo. Par tipográfico Alfa Slab One de marquesina de rotisería + Hanken Grotesk. El mostrador y el producto mandan.",
+      "copy_voice": "Español argentino, vos, de barrio y directo. Da hambre y empuja a llamar y encargar. Sale de las reseñas reales (todo a tiempo y calentito, empanadas, tartas). Sin frases genéricas.",
+      "layout_signature": "Hero con foto dominante de empanadas fritas y tartas y CTA de llamar arriba del fold; catálogo de mostrador por secciones (empanadas, tartas, casera), franja de reseñas literales con autor, y bloque de horario/contacto con el domingo cerrado bien visible. Barra sticky de llamada en mobile.",
+      "asset_plan": "Foto real del mostrador (Google Places) como contexto. Hero y tarjetas de producto usan stock o imagen generada de empanadas fritas y tartas —ítems destacados en reseñas— como serving suggestion, sin disclaimer. Textura de papel manteca y menú de deli en CSS.",
+      "ai_fill_plan": {
+        "copy": [
+          "Convertir reseñas reales en microcopy de pedido: qué encargar, cómo retirar, en qué horario.",
+          "Nombrar secciones del catálogo y CTAs con voz de rotisería, sin inventar precios ni combos.",
+          "Escribir la oferta como carta de mostrador honesta, no como lista con precios inventados."
+        ],
+        "imagery": [
+          "Generar o licenciar fotos apetitosas de empanadas fritas y tartas caseras como serving suggestion, sin aclarar que no son del local.",
+          "Usar textura de papel manteca y cartel de deli en CSS/SVG para dar carácter propio."
+        ],
+        "boundaries": [
+          "no inventar precios, stock, marcas, años, premios, garantías, servicios ni reseñas que no estén en los datos verificados del negocio.",
+          "no presentar imágenes de instalaciones, salón, personal ni resultados de otro lugar como si fueran del local: eso sí lleva alt/caption honesto."
+        ]
+      },
+      "anti_patterns": [
+        "Fondo crema/beige por reflejo en vez de la paleta tomate/mostaza comprometida.",
+        "Hero de ficha de Maps en vez de foto de producto que da hambre.",
+        "Grilla de tres tarjetas iguales con ícono + título + texto.",
+        "Eyebrows tracked-caps o marcadores 01/02/03 sobre cada sección.",
+        "Inventar precios, combos o envíos que no están verificados."
+      ],
+      "rewrite_targets": [
+        "Reemplazar la dirección automotriz del fallback por rotisería real.",
+        "Hacer que el hero venda empanadas y tartas en los primeros 5 segundos.",
+        "Poner el CTA de llamar y encargar como color más caliente, repetido en el scroll.",
+        "Mostrar el domingo cerrado y el horario como dato operativo claro."
+      ]
+    },
+    "commercial": {
+      "tone": "fast-local",
+      "customer_type": "Vecinos que quieren encargar comida para llevar y retirarla en San Miguel.",
+      "hero_claim": "Llamar, encargar y retirar la comida a tiempo y calentita.",
+      "trust_bar": [
+        {
+          "label": "Valoración",
+          "title": "4,7 / 5",
+          "body": "561 reseñas",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Horario",
+          "title": "Horario publicado",
+          "body": "Lun 10:00 a. m. – 3:00 p. m.; mar-vie 10:00 a. m. – 1:00 p. m.; sáb 10:00 a. m. – 1:00 p. m. y 7:00 – 11:00 p. m.; dom cerrado.",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Contacto",
+          "title": "Teléfono directo",
+          "body": "011 4455-2543",
+          "meta": "Dato verificado"
+        }
+      ],
+      "service_cards": [
+        {
+          "label": "Elegir",
+          "title": "Empanadas fritas",
+          "body": "La información publicada destaca empanadas fritas."
+        },
+        {
+          "label": "Consultar",
+          "title": "Tartas",
+          "body": "Teléfono, dirección y horario quedan visibles para decidir sin buscar otro dato."
+        },
+        {
+          "label": "Pasar",
+          "title": "Comida para llevar",
+          "body": "El siguiente paso se resuelve con contacto directo y la ubicación del negocio."
+        }
+      ],
+      "why_choose": [
+        {
+          "title": "Datos visibles",
+          "body": "Valoración, horario, dirección y contacto aparecen juntos."
+        },
+        {
+          "title": "Reseñas con autor",
+          "body": "“Todo impecable muy rico todo y haciendo el pedido tienen todo a tiempo y calentito.” — Mar."
+        },
+        {
+          "title": "Próximo paso claro",
+          "body": "Llamar para consultar y avanzar."
+        }
+      ],
+      "packages": [
+        {
+          "name": "Para decidir hoy",
+          "price_label": "Sin precios publicados",
+          "body": "Información útil para hacer la consulta antes de pasar.",
+          "items": [
+            "Horario publicado",
+            "Dirección",
+            "Contacto directo"
+          ]
+        },
+        {
+          "name": "Consulta directa",
+          "price_label": "A confirmar con el negocio",
+          "body": "La llamada permite confirmar disponibilidad sin prometer datos no publicados.",
+          "items": [
+            "Necesidad",
+            "Horario",
+            "Siguiente paso"
+          ]
+        }
+      ],
+      "gallery": [
+        {
+          "label": "Contexto",
+          "title": "Imagen principal",
+          "body": "La composición visual acompaña la decisión de contacto.",
+          "meta": "Uso editorial acorde al brief"
+        },
+        {
+          "label": "Señal local",
+          "title": "Dirección y horario",
+          "body": "Información operativa visible para llegar sin vueltas.",
+          "meta": "Av. Dr. Ricardo Balbín 4585, B1663NFG Gran Buenos Aires, Provincia de Buenos Aires, Argentina"
+        }
+      ],
+      "process": [
+        {
+          "step": "Contacto",
+          "title": "Llamar",
+          "body": "Elegí el canal publicado."
+        },
+        {
+          "step": "Consulta",
+          "title": "Confirmar disponibilidad",
+          "body": "El negocio confirma el dato que falta."
+        },
+        {
+          "step": "Visita",
+          "title": "Pasar por el lugar",
+          "body": "La dirección y el horario quedan visibles."
+        }
+      ],
+      "final_cta": {
+        "title": "Llamar, encargar y retirar la comida a tiempo y calentita.",
+        "body": "Av. Dr. Ricardo Balbín 4585, B1663NFG Gran Buenos Aires, Provincia de Buenos Aires, Argentina. Lun 10:00 a. m. – 3:00 p. m.; mar-vie 10:00 a. m. – 1:00 p. m.; sáb 10:00 a. m. – 1:00 p. m. y 7:00 – 11:00 p. m.; dom cerrado.",
+        "primary_label": "Llamar y encargar",
+        "secondary_label": "Cómo llegar"
+      },
+      "editable_note": "No se publican precios, promociones, capacidad ni servicios que no estén confirmados."
+    },
+    "creative": {
+      "concept": "Llamar, encargar y retirar la comida a tiempo y calentita.",
+      "audience": "Vecinos que quieren encargar comida para llevar y retirarla en San Miguel.",
+      "visual_direction": "Rotisería de mediodía: cartel de deli honesto y apetitoso con luz de día. Paleta light comprometida de rojo tomate y mostaza sobre off-white tintado al rubro (jamás crema por reflejo), tinta marrón para el cuerpo. Par tipográfico Alfa Slab One de marquesina de rotisería + Hanken Grotesk. El mostrador y el producto mandan.",
+      "layout": "parts-counter",
+      "texture": "service-ledger",
+      "hero_angle": "Llamar, encargar y retirar la comida a tiempo y calentita.",
+      "hero_cards": [
+        {
+          "label": "Valoración",
+          "value": "4,7 / 5",
+          "note": "561 reseñas"
+        },
+        {
+          "label": "Horario",
+          "value": "Horario publicado",
+          "note": "Lun 10:00 a. m. – 3:00 p. m.; mar-vie 10:00 a. m. – 1:00 p. m.; sáb 10:00 a. m. – 1:00 p. m. y 7:00 – 11:00 p. m.; dom cerrado."
+        },
+        {
+          "label": "Contacto",
+          "value": "011 4455-2543",
+          "note": "Canal publicado"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Para decidir",
+          "title": "Lo que buscás, a mano",
+          "body": "La información pública se ordena alrededor de la acción de contacto.",
+          "items": [
+            {
+              "label": "Elegir",
+              "value": "Empanadas fritas",
+              "note": "La información publicada destaca empanadas fritas."
+            },
+            {
+              "label": "Consultar",
+              "value": "Tartas",
+              "note": "Teléfono, dirección y horario quedan visibles para decidir sin buscar otro dato."
+            },
+            {
+              "label": "Pasar",
+              "value": "Comida para llevar",
+              "note": "El siguiente paso se resuelve con contacto directo y la ubicación del negocio."
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Reseñas",
+          "title": "Lo dicen quienes ya fueron",
+          "body": "Una reseña literal aporta una señal concreta para decidir.",
+          "items": [
+            {
+              "label": "Opinión",
+              "value": "Todo impecable muy rico todo y haciendo el pedido tienen todo a tiempo y calentito.",
+              "note": "Mar"
+            },
+            {
+              "label": "Valoración",
+              "value": "4,7 / 5",
+              "note": "561 reseñas"
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Contacto",
+          "title": "Llegar o consultar sin vueltas",
+          "body": "Dirección, horario y contacto quedan visibles en el cierre.",
+          "items": [
+            {
+              "label": "Contacto",
+              "value": "011 4455-2543"
+            },
+            {
+              "label": "Horario",
+              "value": "Lun 10:00 a. m. – 3:00 p. m.; mar-vie 10:00 a. m. – 1:00 p. m.; sáb 10:00 a. m. – 1:00 p. m. y 7:00 – 11:00 p. m.; dom cerrado."
+            },
+            {
+              "label": "Dirección",
+              "value": "Av. Dr. Ricardo Balbín 4585, B1663NFG Gran Buenos Aires, Provincia de Buenos Aires, Argentina"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/san-miguel-alta-conversion/pato-s",
+      "notes": "Dirección 'Rotisería de mediodía': comida para llevar, honesta y apetitosa, luz de día. Paleta LIGHT comprometida — rojo tomate + mostaza con tinta marrón, off-white tintado al rubro (no crema por reflejo). Par Alfa Slab One (display, cartel de deli) + Hanken Grotesk (cuerpo). Template catalog-counter (mostrador/menú)."
+    }
+  },
+  {
+    "business_id": "google-ChIJ-050yC2WvJUR37Q6qiQdEz0",
+    "slug": "parrilla-adry",
+    "visual_mood": "roadside-urgent",
+    "composition": "route-card",
+    "headline": "Parrilla Adry: el lomito al paso rodeado de verde en San Miguel",
+    "subheadline": "Parada obligada para un lomito completo bien hecho, con buena atención y ambiente al aire libre. Pedí para comer ahí o para llevar. Cerrado los domingos.",
+    "primary_cta": "Llamar ahora",
+    "secondary_cta": "Cómo llegar",
+    "service_tags": [
+      "Sándwich de lomito",
+      "Parrilla al paso",
+      "Al plato o para llevar",
+      "Ambiente al aire libre"
+    ],
+    "proof_points": [
+      "4,7 en Google con 269 reseñas",
+      "\"Recomendadísimo el sándwich de lomito, todo de excelente calidad\" — reseña real",
+      "Parrilla al paso en San Miguel, rodeada de verde",
+      "Abierta de lunes a sábado (domingos cerrado)"
+    ],
+    "resource_title": "Antes de parar a comer",
+    "resource_items": [
+      "Teléfono directo para encargar el lomito y pasar a buscarlo.",
+      "Horario visible: de lunes a sábado, con noche de viernes y sábado.",
+      "Reseñas reales que destacan el lomito y la atención."
+    ],
+    "review_heading": "Lo que dicen los que ya pararon a comer",
+    "contact_heading": "Encargá tu lomito o pasá a comer",
+    "image_prompt": "Hero editorial diurno al aire libre: primer plano de sándwich de lomito completo jugoso recién hecho sobre parrilla, con verde de fondo y humo. La foto del lomito —ítem estrella de las reseñas— puede ser stock o imagen generada como serving suggestion, sin afirmar que es del local. Fotos reales de Google Places del puesto y el entorno verde para contexto.",
+    "design_notes": "Dirección 'Parrilla al paso rodeada de verde': humo, lomito y entorno verde. Paleta verde pino drenched + carbón con acento ember-amarillo caliente en CTA (distinta de ALTOS, que es vino/noche). Par Big Shoulders Display (display condensado de cartel de ruta) + Source Serif 4 (cuerpo). Template hero-proof-offer.",
+    "conversion_template": "hero-proof-offer",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Le vende el lomito al paso —parada rápida y rica— al que anda por la zona de San Miguel y decide en el celu si encarga y para a comer o se lo lleva.",
+      "visual_thesis": "Parrilla al paso rodeada de verde: humo, brasa y entorno abierto. Paleta verde pino drenched con carbón y un ember-amarillo caliente reservado al CTA; claramente distinta del vino nocturno de ALTOS. Par tipográfico Big Shoulders Display de cartel de ruta + Source Serif 4. El lomito y el verde mandan.",
+      "copy_voice": "Español argentino, vos, de parada de ruta, directo y con hambre. Sale de las reseñas reales (lomito recomendadísimo, buena atención, mucho verde). Sin institucionalismo ni frases genéricas.",
+      "layout_signature": "Hero con foto dominante del lomito y prueba social (4,7 · 269) arriba del fold, con guiño al entorno verde; secciones de qué comer y cómo (al plato o para llevar), franja de reseñas literales con autor, y contacto con teléfono como elemento gráfico y domingo cerrado visible. Barra sticky de llamada en mobile.",
+      "asset_plan": "Fotos reales del puesto y del verde (Google Places) como contexto. Hero y tarjetas pueden usar stock o imagen generada del sándwich de lomito —ítem estrella de reseñas— como serving suggestion, sin disclaimer. Textura de humo, brasa y follaje en CSS/SVG.",
+      "ai_fill_plan": {
+        "copy": [
+          "Convertir reseñas reales en microcopy de pedido: qué lomito pedir, para comer ahí o llevar.",
+          "Nombrar secciones y CTAs con voz de parrilla al paso, sin inventar carta ni precios.",
+          "Escribir la oferta como recorrido de parada rápida, no como lista con precios inventados."
+        ],
+        "imagery": [
+          "Generar o licenciar una foto apetitosa del sándwich de lomito como serving suggestion, sin aclarar que no es del local.",
+          "Usar textura de humo, brasa y verde en CSS/SVG para dar atmósfera de parada al aire libre."
+        ],
+        "boundaries": [
+          "no inventar precios, stock, marcas, años, premios, garantías, servicios ni reseñas que no estén en los datos verificados del negocio.",
+          "no presentar imágenes de instalaciones, salón, personal ni resultados de otro lugar como si fueran del local: eso sí lleva alt/caption honesto."
+        ]
+      },
+      "anti_patterns": [
+        "Fondo crema/beige por reflejo en vez de la paleta verde comprometida.",
+        "Compartir sistema visual con ALTOS (la otra parrilla): debe ser verde/día, no vino/noche.",
+        "Hero de ficha de Maps en vez de foto de lomito que da hambre.",
+        "Eyebrows tracked-caps o marcadores 01/02/03 sobre cada sección.",
+        "Inventar precios o servicios (ej.: sanitario, delivery) no verificados."
+      ],
+      "rewrite_targets": [
+        "Reemplazar la dirección automotriz del fallback por parrilla al paso real.",
+        "Diferenciar la paleta y el hero de ALTOS para que no parezcan la misma tanda.",
+        "Hacer que el hero venda el lomito y el verde en los primeros 5 segundos.",
+        "Mostrar el domingo cerrado y el horario como dato operativo claro."
+      ]
+    },
+    "commercial": {
+      "tone": "fast-local",
+      "customer_type": "Personas que andan por la zona y buscan una parrilla al paso para comer o llevar.",
+      "hero_claim": "Una parada de lomito para llamar, consultar y pasar.",
+      "trust_bar": [
+        {
+          "label": "Valoración",
+          "title": "4,7 / 5",
+          "body": "269 reseñas",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Horario",
+          "title": "Horario publicado",
+          "body": "Lun-jue 10:00 a. m. – 4:00 p. m.; vie 10:00 a. m. – 4:00 p. m. y 7:30 p. m. – 12:30 a. m.; sáb 10:00 a. m. – 5:00 p. m. y 7:30 p. m. – 12:30 a. m.; dom cerrado.",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Contacto",
+          "title": "Teléfono directo",
+          "body": "011 3813-4187",
+          "meta": "Dato verificado"
+        }
+      ],
+      "service_cards": [
+        {
+          "label": "Elegir",
+          "title": "Sándwich de lomito",
+          "body": "La información publicada destaca sándwich de lomito."
+        },
+        {
+          "label": "Consultar",
+          "title": "Parrilla al paso",
+          "body": "Teléfono, dirección y horario quedan visibles para decidir sin buscar otro dato."
+        },
+        {
+          "label": "Pasar",
+          "title": "Entorno verde",
+          "body": "El siguiente paso se resuelve con contacto directo y la ubicación del negocio."
+        }
+      ],
+      "why_choose": [
+        {
+          "title": "Datos visibles",
+          "body": "Valoración, horario, dirección y contacto aparecen juntos."
+        },
+        {
+          "title": "Reseñas con autor",
+          "body": "“Uno de nuestros lugares favoritos, sabes que si venís acá vas a comer riquísimo. Todo de excelente calidad 😍🥪 Recomendadisimooo el sandwich de lomito” — Nahir Fernandez."
+        },
+        {
+          "title": "Próximo paso claro",
+          "body": "Llamar para consultar y avanzar."
+        }
+      ],
+      "packages": [
+        {
+          "name": "Para decidir hoy",
+          "price_label": "Sin precios publicados",
+          "body": "Información útil para hacer la consulta antes de pasar.",
+          "items": [
+            "Horario publicado",
+            "Dirección",
+            "Contacto directo"
+          ]
+        },
+        {
+          "name": "Consulta directa",
+          "price_label": "A confirmar con el negocio",
+          "body": "La llamada permite confirmar disponibilidad sin prometer datos no publicados.",
+          "items": [
+            "Necesidad",
+            "Horario",
+            "Siguiente paso"
+          ]
+        }
+      ],
+      "gallery": [
+        {
+          "label": "Contexto",
+          "title": "Imagen principal",
+          "body": "La composición visual acompaña la decisión de contacto.",
+          "meta": "Uso editorial acorde al brief"
+        },
+        {
+          "label": "Señal local",
+          "title": "Dirección y horario",
+          "body": "Información operativa visible para llegar sin vueltas.",
+          "meta": "1663, B1663 San Miguel, Provincia de Buenos Aires, Argentina"
+        }
+      ],
+      "process": [
+        {
+          "step": "Contacto",
+          "title": "Llamar",
+          "body": "Elegí el canal publicado."
+        },
+        {
+          "step": "Consulta",
+          "title": "Confirmar disponibilidad",
+          "body": "El negocio confirma el dato que falta."
+        },
+        {
+          "step": "Visita",
+          "title": "Pasar por el lugar",
+          "body": "La dirección y el horario quedan visibles."
+        }
+      ],
+      "final_cta": {
+        "title": "Una parada de lomito para llamar, consultar y pasar.",
+        "body": "1663, B1663 San Miguel, Provincia de Buenos Aires, Argentina. Lun-jue 10:00 a. m. – 4:00 p. m.; vie 10:00 a. m. – 4:00 p. m. y 7:30 p. m. – 12:30 a. m.; sáb 10:00 a. m. – 5:00 p. m. y 7:30 p. m. – 12:30 a. m.; dom cerrado.",
+        "primary_label": "Llamar y consultar",
+        "secondary_label": "Cómo llegar"
+      },
+      "editable_note": "No se publican precios, promociones, capacidad ni servicios que no estén confirmados."
+    },
+    "creative": {
+      "concept": "Una parada de lomito para llamar, consultar y pasar.",
+      "audience": "Personas que andan por la zona y buscan una parrilla al paso para comer o llevar.",
+      "visual_direction": "Parrilla al paso rodeada de verde: humo, brasa y entorno abierto. Paleta verde pino drenched con carbón y un ember-amarillo caliente reservado al CTA; claramente distinta del vino nocturno de ALTOS. Par tipográfico Big Shoulders Display de cartel de ruta + Source Serif 4. El lomito y el verde mandan.",
+      "layout": "roadside-rescue",
+      "texture": "road-markings",
+      "hero_angle": "Una parada de lomito para llamar, consultar y pasar.",
+      "hero_cards": [
+        {
+          "label": "Valoración",
+          "value": "4,7 / 5",
+          "note": "269 reseñas"
+        },
+        {
+          "label": "Horario",
+          "value": "Horario publicado",
+          "note": "Lun-jue 10:00 a. m. – 4:00 p. m.; vie 10:00 a. m. – 4:00 p. m. y 7:30 p. m. – 12:30 a. m.; sáb 10:00 a. m. – 5:00 p. m. y 7:30 p. m. – 12:30 a. m.; dom cerrado."
+        },
+        {
+          "label": "Contacto",
+          "value": "011 3813-4187",
+          "note": "Canal publicado"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Para decidir",
+          "title": "Lo que buscás, a mano",
+          "body": "La información pública se ordena alrededor de la acción de contacto.",
+          "items": [
+            {
+              "label": "Elegir",
+              "value": "Sándwich de lomito",
+              "note": "La información publicada destaca sándwich de lomito."
+            },
+            {
+              "label": "Consultar",
+              "value": "Parrilla al paso",
+              "note": "Teléfono, dirección y horario quedan visibles para decidir sin buscar otro dato."
+            },
+            {
+              "label": "Pasar",
+              "value": "Entorno verde",
+              "note": "El siguiente paso se resuelve con contacto directo y la ubicación del negocio."
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Reseñas",
+          "title": "Lo dicen quienes ya fueron",
+          "body": "Una reseña literal aporta una señal concreta para decidir.",
+          "items": [
+            {
+              "label": "Opinión",
+              "value": "Uno de nuestros lugares favoritos, sabes que si venís acá vas a comer riquísimo. Todo de excelente calidad 😍🥪 Recomendadisimooo el sandwich de lomito",
+              "note": "Nahir Fernandez"
+            },
+            {
+              "label": "Valoración",
+              "value": "4,7 / 5",
+              "note": "269 reseñas"
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Contacto",
+          "title": "Llegar o consultar sin vueltas",
+          "body": "Dirección, horario y contacto quedan visibles en el cierre.",
+          "items": [
+            {
+              "label": "Contacto",
+              "value": "011 3813-4187"
+            },
+            {
+              "label": "Horario",
+              "value": "Lun-jue 10:00 a. m. – 4:00 p. m.; vie 10:00 a. m. – 4:00 p. m. y 7:30 p. m. – 12:30 a. m.; sáb 10:00 a. m. – 5:00 p. m. y 7:30 p. m. – 12:30 a. m.; dom cerrado."
+            },
+            {
+              "label": "Dirección",
+              "value": "1663, B1663 San Miguel, Provincia de Buenos Aires, Argentina"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/san-miguel-alta-conversion/parrilla-adry",
+      "notes": "Dirección 'Parrilla al paso rodeada de verde': humo, lomito y entorno verde. Paleta verde pino drenched + carbón con acento ember-amarillo caliente en CTA (distinta de ALTOS, que es vino/noche). Par Big Shoulders Display (display condensado de cartel de ruta) + Source Serif 4 (cuerpo). Template hero-proof-offer."
+    }
+  },
+  {
+    "business_id": "google-ChIJ_5L2ZzmXvJURkreP5CmWtTM",
+    "slug": "federico-eventos",
+    "visual_mood": "precision-service",
+    "composition": "split-command",
+    "headline": "Federico Eventos: el salón de San Miguel que de noche es otra cosa",
+    "subheadline": "Un salón amplio y preparado para cumpleaños, casamientos y todo tipo de evento, con una organización que los invitados destacan. Coordiná tu visita al salón.",
+    "primary_cta": "Llamar y consultar fecha",
+    "secondary_cta": "Cómo llegar",
+    "service_tags": [
+      "Salón de fiestas",
+      "Casamientos y cumpleaños",
+      "Eventos corporativos",
+      "Organización a cargo"
+    ],
+    "proof_points": [
+      "4,7 en Google con 83 reseñas",
+      "\"Todo muy organizado, cumplen con cada cosa que te dicen\" — reseña real",
+      "C. El Zonda 2249, San Miguel",
+      "Visitas al salón los viernes y sábados"
+    ],
+    "resource_title": "Antes de reservar tu evento",
+    "resource_items": [
+      "Teléfono directo para consultar fechas disponibles.",
+      "Horario de visitas al salón: viernes y sábados.",
+      "Reseñas reales que destacan la organización y la atención."
+    ],
+    "review_heading": "Lo que cuentan quienes ya festejaron acá",
+    "contact_heading": "Consultá disponibilidad para tu fecha",
+    "image_prompt": "Hero editorial nocturno: salón de fiestas amplio iluminado de noche, mesas montadas y luces cálidas, elegancia de evento. Priorizar la foto real del salón de Google Places como protagonista (es una instalación real del negocio). Apoyos con textura de luces y detalle de montaje; ninguna imagen puede presentar un salón ajeno como si fuera este.",
+    "design_notes": "Dirección 'Salón de noche': 'de noche es hermoso', organización impecable. Paleta azul medianoche + champagne/dorado suave como acento (sin glow slop). Par Bodoni Moda (display didone glamoroso) + Mulish (cuerpo). Template editorial-local-story. Ojo: las imágenes del salón deben ser del local real (instalación), no stock ajeno.",
+    "conversion_template": "editorial-local-story",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Le vende el salón para su fiesta —casamiento, cumpleaños, evento— a quien está organizando y decide en el celu si llama a consultar fecha y coordina una visita.",
+      "visual_thesis": "Salón de noche: glamour nocturno de evento, 'de noche es hermoso'. Paleta azul medianoche con un champagne/dorado suave de acento (nunca glow slop), tipografía didone Bodoni Moda para los títulos y Mulish para el cuerpo. La elegancia y la confianza en la organización mandan.",
+      "copy_voice": "Español argentino, vos, cálido y confiable, con aire de fiesta. Sale de las reseñas reales (todo organizado, cumplen, las mozas unas genias, de noche es hermoso). Evita solemnidad corporativa y frases genéricas.",
+      "layout_signature": "Hero con foto real del salón de noche dominante y prueba social (4,7 · 83) arriba del fold; historia local del salón y su organización, tipos de evento, franja de reseñas literales con autor, y contacto con teléfono como elemento gráfico y horario de visitas visible. Barra sticky de llamada en mobile.",
+      "asset_plan": "La foto real del salón (Google Places) es la protagonista, porque es una instalación real del negocio; no se reemplaza por stock de otro salón. Los apoyos son textura de luces y detalle en CSS/SVG. La latitud de imagen de stock/generada NO aplica a la instalación (eso sería presentar un lugar ajeno como propio).",
+      "ai_fill_plan": {
+        "copy": [
+          "Convertir reseñas reales en microcopy de decisión: qué consultar, cómo coordinar la visita.",
+          "Nombrar secciones y CTAs con voz de salón de fiestas, sin inventar capacidad, precios ni servicios.",
+          "Escribir los tipos de evento como recorrido honesto, sin listas de amenities inventadas."
+        ],
+        "imagery": [
+          "Usar la foto real del salón como imagen protagonista; no sustituir la instalación por stock ajeno.",
+          "Generar solo textura y detalle de luces/montaje en CSS/SVG para atmósfera, sin mostrar un salón que no sea este."
+        ],
+        "boundaries": [
+          "no inventar precios, stock, marcas, años, premios, garantías, servicios ni reseñas que no estén en los datos verificados del negocio.",
+          "no presentar imágenes de instalaciones, salón, personal ni resultados de otro lugar como si fueran del local: eso sí lleva alt/caption honesto.",
+          "no mostrar un salón, decoración o evento de otro lugar como si fuera Federico Eventos: la imagen del salón debe ser la real del negocio."
+        ]
+      },
+      "anti_patterns": [
+        "Glow dorado/violeta slop en vez de champagne sobrio sobre azul noche.",
+        "Usar stock de un salón ajeno como si fuera este local.",
+        "Hero de ficha de Maps en vez de la foto real del salón de noche.",
+        "Eyebrows tracked-caps o marcadores 01/02/03 sobre cada sección.",
+        "Inventar capacidad, precios, catering o amenities no verificados."
+      ],
+      "rewrite_targets": [
+        "Reemplazar la dirección automotriz del fallback por salón de eventos real.",
+        "Hacer protagonista la foto real del salón de noche en el hero.",
+        "Poner el CTA de llamar a consultar fecha como color más caliente, repetido en el scroll.",
+        "Mostrar el horario de visitas (vie/sáb) como dato operativo claro."
+      ]
+    },
+    "commercial": {
+      "tone": "fast-local",
+      "customer_type": "Personas que están organizando una fiesta y quieren consultar fecha para un salón en San Miguel.",
+      "hero_claim": "Consultar fecha y coordinar una visita al salón.",
+      "trust_bar": [
+        {
+          "label": "Valoración",
+          "title": "4,7 / 5",
+          "body": "83 reseñas",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Horario",
+          "title": "Horario publicado",
+          "body": "Viernes y sábado: 4:00 – 8:30 p. m. Lunes a jueves y domingo: cerrado.",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Contacto",
+          "title": "Teléfono directo",
+          "body": "011 6485-1800",
+          "meta": "Dato verificado"
+        }
+      ],
+      "service_cards": [
+        {
+          "label": "Elegir",
+          "title": "Salón de eventos",
+          "body": "La información publicada destaca salón de eventos."
+        },
+        {
+          "label": "Consultar",
+          "title": "Organización",
+          "body": "Teléfono, dirección y horario quedan visibles para decidir sin buscar otro dato."
+        },
+        {
+          "label": "Pasar",
+          "title": "Visita al salón",
+          "body": "El siguiente paso se resuelve con contacto directo y la ubicación del negocio."
+        }
+      ],
+      "why_choose": [
+        {
+          "title": "Datos visibles",
+          "body": "Valoración, horario, dirección y contacto aparecen juntos."
+        },
+        {
+          "title": "Reseñas con autor",
+          "body": "“Hermoso lugar amplio y cómodo completo para hacer todo tipo de eventos” — Julián andres Sanchez."
+        },
+        {
+          "title": "Próximo paso claro",
+          "body": "Llamar para consultar y avanzar."
+        }
+      ],
+      "packages": [
+        {
+          "name": "Para decidir hoy",
+          "price_label": "Sin precios publicados",
+          "body": "Información útil para hacer la consulta antes de pasar.",
+          "items": [
+            "Horario publicado",
+            "Dirección",
+            "Contacto directo"
+          ]
+        },
+        {
+          "name": "Consulta directa",
+          "price_label": "A confirmar con el negocio",
+          "body": "La llamada permite confirmar disponibilidad sin prometer datos no publicados.",
+          "items": [
+            "Necesidad",
+            "Horario",
+            "Siguiente paso"
+          ]
+        }
+      ],
+      "gallery": [
+        {
+          "label": "Contexto",
+          "title": "Imagen principal",
+          "body": "La composición visual acompaña la decisión de contacto.",
+          "meta": "Uso editorial acorde al brief"
+        },
+        {
+          "label": "Señal local",
+          "title": "Dirección y horario",
+          "body": "Información operativa visible para llegar sin vueltas.",
+          "meta": "C. El Zonda 2249, B1663 San Miguel, Provincia de Buenos Aires, Argentina"
+        }
+      ],
+      "process": [
+        {
+          "step": "Contacto",
+          "title": "Llamar",
+          "body": "Elegí el canal publicado."
+        },
+        {
+          "step": "Consulta",
+          "title": "Confirmar disponibilidad",
+          "body": "El negocio confirma el dato que falta."
+        },
+        {
+          "step": "Visita",
+          "title": "Pasar por el lugar",
+          "body": "La dirección y el horario quedan visibles."
+        }
+      ],
+      "final_cta": {
+        "title": "Consultar fecha y coordinar una visita al salón.",
+        "body": "C. El Zonda 2249, B1663 San Miguel, Provincia de Buenos Aires, Argentina. Viernes y sábado: 4:00 – 8:30 p. m. Lunes a jueves y domingo: cerrado.",
+        "primary_label": "Llamar y consultar fecha",
+        "secondary_label": "Cómo llegar"
+      },
+      "editable_note": "No se publican precios, promociones, capacidad ni servicios que no estén confirmados."
+    },
+    "creative": {
+      "concept": "Consultar fecha y coordinar una visita al salón.",
+      "audience": "Personas que están organizando una fiesta y quieren consultar fecha para un salón en San Miguel.",
+      "visual_direction": "Salón de noche: glamour nocturno de evento, 'de noche es hermoso'. Paleta azul medianoche con un champagne/dorado suave de acento (nunca glow slop), tipografía didone Bodoni Moda para los títulos y Mulish para el cuerpo. La elegancia y la confianza en la organización mandan.",
+      "layout": "studio-detail",
+      "texture": "polished-glass",
+      "hero_angle": "Consultar fecha y coordinar una visita al salón.",
+      "hero_cards": [
+        {
+          "label": "Valoración",
+          "value": "4,7 / 5",
+          "note": "83 reseñas"
+        },
+        {
+          "label": "Horario",
+          "value": "Horario publicado",
+          "note": "Viernes y sábado: 4:00 – 8:30 p. m. Lunes a jueves y domingo: cerrado."
+        },
+        {
+          "label": "Contacto",
+          "value": "011 6485-1800",
+          "note": "Canal publicado"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Para decidir",
+          "title": "Lo que buscás, a mano",
+          "body": "La información pública se ordena alrededor de la acción de contacto.",
+          "items": [
+            {
+              "label": "Elegir",
+              "value": "Salón de eventos",
+              "note": "La información publicada destaca salón de eventos."
+            },
+            {
+              "label": "Consultar",
+              "value": "Organización",
+              "note": "Teléfono, dirección y horario quedan visibles para decidir sin buscar otro dato."
+            },
+            {
+              "label": "Pasar",
+              "value": "Visita al salón",
+              "note": "El siguiente paso se resuelve con contacto directo y la ubicación del negocio."
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Reseñas",
+          "title": "Lo dicen quienes ya fueron",
+          "body": "Una reseña literal aporta una señal concreta para decidir.",
+          "items": [
+            {
+              "label": "Opinión",
+              "value": "Hermoso lugar amplio y cómodo completo para hacer todo tipo de eventos",
+              "note": "Julián andres Sanchez"
+            },
+            {
+              "label": "Valoración",
+              "value": "4,7 / 5",
+              "note": "83 reseñas"
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Contacto",
+          "title": "Llegar o consultar sin vueltas",
+          "body": "Dirección, horario y contacto quedan visibles en el cierre.",
+          "items": [
+            {
+              "label": "Contacto",
+              "value": "011 6485-1800"
+            },
+            {
+              "label": "Horario",
+              "value": "Viernes y sábado: 4:00 – 8:30 p. m. Lunes a jueves y domingo: cerrado."
+            },
+            {
+              "label": "Dirección",
+              "value": "C. El Zonda 2249, B1663 San Miguel, Provincia de Buenos Aires, Argentina"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/san-miguel-alta-conversion/federico-eventos",
+      "notes": "Dirección 'Salón de noche': 'de noche es hermoso', organización impecable. Paleta azul medianoche + champagne/dorado suave como acento (sin glow slop). Par Bodoni Moda (display didone glamoroso) + Mulish (cuerpo). Template editorial-local-story. Ojo: las imágenes del salón deben ser del local real (instalación), no stock ajeno."
+    }
+  }
+]

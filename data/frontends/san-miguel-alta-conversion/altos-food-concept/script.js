@@ -1,0 +1,1 @@
+(function(){var r=document.documentElement;if(!('IntersectionObserver'in window)){return}var o=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in-view');o.unobserve(x.target)}})},{threshold:.12});document.querySelectorAll('.reveal-scroll').forEach(function(e){o.observe(e)})})();

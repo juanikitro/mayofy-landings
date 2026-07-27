@@ -1,0 +1,1580 @@
+[
+  {
+    "id": "google-ChIJk6EdVOO9vJURGuJWRlOZWCk",
+    "name": "Depilación Definitiva San Miguel",
+    "slug": "depilacion-definitiva-san-miguel",
+    "category": "Medical Clinic",
+    "is_vehicle_related": false,
+    "address": "Domingo Faustino Sarmiento 1213, B1663 San Miguel, Provincia de Buenos Aires, Argentina",
+    "city": "San Miguel, Buenos Aires",
+    "neighborhood_or_area": null,
+    "phone": "011 2456-1500",
+    "opening_hours": {
+      "raw": null,
+      "structured": {}
+    },
+    "rating": {
+      "value": 5,
+      "reviews_count": 225,
+      "source_url": "https://maps.google.com/?cid=2979299736447017498&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Excelente atención, los resultados se notan desde la primera sesión.\nLas chicas te hacen sentir súper cómoda en todo momento. 🥰😊",
+        "author": "Zahira Moreno",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/117772667551881650948/reviews"
+      },
+      {
+        "text": "Muy buena la atención, las chicas super atentas. El servicio es genial y da muy buenos resultados.\nSuper recomiendo.",
+        "author": "Sabrina Olivera",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/109905965562806329797/reviews"
+      },
+      {
+        "text": "Excelente atención. Son super copadas las chicas y el servicio 10/10. Se ven cambios desde la primera sesión 🤩",
+        "author": "Yasmin",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/103072863092198732778/reviews"
+      }
+    ],
+    "main_product_or_service": "depilacion definitiva",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJk6EdVOO9vJURGuJWRlOZWCk/photos/AWCwydj2cxZHeyJQLK7M8niotkYgf9g7ym6VgZ2QDjH_ptNpQpm3M1m-oUFuwo7WtjHHd0xRZzlB6GG1qek3u6UD_4anOS6u-c6yckqSHGljA-HeaTB0M-YZJ-mBdeeLFAQR7mDO8wi_nnH__ZU9HCCv06VZpILR1dkvR3CvHWFK3HP1eD1HzR-saUOTYlMo1b1ETQQCNjKqK2CaQxY-Nj7Xgz7AMTsRgbtbB36XpzXRprkBwbnjU59zPoMhgDJ4m0jFMAHyUajnTFVdrb8kssuAgInXuZ_w-CiyQVP2f1OIA5mEVVRUcImU9tbeC8YoE6PQBGLAXBV2qojxq9qKZqqWbZjs_sMxUYP-azlpbLAAFfLxEaZLFhVs4Qy0P_G2w1DLTVNK2I_809YTwpmTuL6G1_ymuVQRnhV17XxUvsUhEf_qmYk/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=2979299736447017498&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJk6EdVOO9vJURGuJWRlOZWCk/photos/AWCwydiW4yEgVpMgB7XKAwBWxbnDnkPtFyGKbm70RuKxtvB6AJpOcijhk4kkpNxYisLHO9yZXx_K_SlaF4sfYpRoRJD8dbFuqlU1rEhS8MBMQPt1trv97lfSoUuf_3Ez8mI7ccAX0xkjdwoSaqSUd6Zg8pA2Yb0965PvcmjjT2_tdnzwdV9qxJYSL6ENAbbWokgUuSqPZHcbo7jIcKGrPXRwfMMqM6JgnGUWcGHSF8CTeceU3k5Spg0T1cBdGCiw-E2kKVcq2xVcJbQut_TMALCyucA_IMyYxi9KtqZsrXZdD-oKicQJJSK1ApYRN-ySqkM2nVg_iLrfyc-SyU7ZKYKV0nJsUAJlcBpoGpmXrAU4hQk-6LKaoDE4N9OHflhUwinF-U2cbshRh-LNeCVmN7uWtzYCSlF7YheFOSZa6E22Fz8nzA/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=2979299736447017498&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJk6EdVOO9vJURGuJWRlOZWCk/photos/AWCwydgKUz8zEoki6CKCbHSHpU53ceVAelSSUixfnXsztvX0RSxQaFV2v423Esq2NpOn3d7x38h1qTuHFLQya_gMR_FbxGpkSCmdmxt9DSrfEza9Ce5UYONf9x6PPczTWF6ocIjvpKmM9Euy-t5mQCJTSKbRUrxiXilT1AiBASYMxzj104MNTHw3qbtpDSEx2T7Go1jqq8uJvwRxY8a7MUyDZAdumfKi3GRs61pVSGBfJmVJAGG0wHcv7fqrcmshm8K1X1p91SOHBm4fmhryvfNZciwjU9gEjr6uSROVINyWu5O6_5MSFuNg5c7NRDkf_mTRAjoZnltI6W9ADKWPC2_ZHRM4Ss7iusZQlZ_MnhJB_Qf8OaHAZspSacTh9TjH4aeP9bMGJyhAFP1Jk1nJXmhFPD9QN2spwBIktBWYYT6eMRcjm2ju/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=2979299736447017498&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=2979299736447017498&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 0.9,
+    "missing_data_reason": "horarios",
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=2979299736447017498&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-27T15:08:31.477Z",
+          "notes": "Resultado automatico para \"depilacion definitiva\" en San Miguel, Buenos Aires. Segmento: estetica."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=2979299736447017498&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=2979299736447017498&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=2979299736447017498&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=2979299736447017498&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=2979299736447017498&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=2979299736447017498&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=2979299736447017498&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=2979299736447017498&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=2979299736447017498&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=2979299736447017498&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJgYFdLAy9vJURS2_6cNpE7kM",
+    "name": "Kala Estética Integral",
+    "slug": "kala-estetica-integral",
+    "category": "Beauty Salon",
+    "is_vehicle_related": false,
+    "address": "Italia 1137, B1663NXX San Miguel, Provincia de Buenos Aires, Argentina",
+    "city": "San Miguel, Buenos Aires",
+    "neighborhood_or_area": null,
+    "phone": "011 6062-8574",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 7:00 PM | Tuesday: 9:00 AM – 7:00 PM | Wednesday: 9:00 AM – 7:00 PM | Thursday: 9:00 AM – 7:00 PM | Friday: 9:00 AM – 7:00 PM | Saturday: 9:00 AM – 7:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.4,
+      "reviews_count": 539,
+      "source_url": "https://maps.google.com/?cid=4894925549987327819&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Super",
+        "author": "leticia albertini",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/116026367405744137821/reviews"
+      },
+      {
+        "text": "Excelente atención! Hace muchos años solo me atiendo en Kala! Lu es la mejor, una genia!!",
+        "author": "Veronica Marolt",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/101454071971435140332/reviews"
+      },
+      {
+        "text": "Pedí un turno para retirarme un kapping en gel y la experiencia fue malisima. El retiro fue doloroso, con uso excesivo del torno, lo que me dejó la uña natural muy lastimada. Además, el producto quedó mal retirado en varias uñas.\nMe atendió una chica, estaba con su hija en el local, que no la recomiendo para nada porque era muy bruta y descuidada para trabajar.\nCon los precios que manejan, el nivel de profesionalismo debería ser mayor ya que no soy la primera reseña en quejarse de esto.",
+        "author": "Constanza Bertoni",
+        "rating": 1,
+        "source_url": "https://www.google.com/maps/contrib/100244758074629082268/reviews"
+      }
+    ],
+    "main_product_or_service": "centro de estetica",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJgYFdLAy9vJURS2_6cNpE7kM/photos/AWCwydhVmXXn6EXIPaD1t07p4k4byWzdI0lIHdtV2sOhIVkN1W_e2aCbik7UoZwvO5EqiZucKpFkl8mg9zE02arWyT4iw5aqRHTTix-yFDfOQrrL-YQQs-QvDGN_krCJ9VqakXvSpF0cTuM0C4v30CBdE0HYEPp0P6ee3ojjOhPfS6aos0td7z-P89W8oJAN9QhTtiepu7oyYRUxa8tlBhsPrPb2_mt6Zod0VaaZ5AfAbhAXR4EoR_6uNxtsYavrBC8t__RBOkBNmW5cpP8z1-Ll7urSYOGO_HvcIMeL06lpDMzLAIGKQ-5iL_0ZqEM1tEPF9Q1GGVs5GUCc5lNL3BCrzWM2xfDDT-_z9DA1zEpxwICsP6-LnTob-aL0w51qYM6aMdB4nw_v_ShGPJjvmn_xMdzmyQKZucq9Zs0zw8S1jdclg_BT/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=4894925549987327819&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJgYFdLAy9vJURS2_6cNpE7kM/photos/AWCwydjOSTt52VnzTQW4E78exETfMzqwLYD3iXH_57qdsUKADNgByY35XF4JheWEbBkp_rVJguGzBNUWNMfPyqixDE0HZRWZmZq3Ul9DjkbCgi2hiqbvNqVnji4r0ND4N2Thc-ipfX3LLgUbLq-LX3f8tr1M2606dTo3HqQGwqQZ3g9uxptaeYT_UosN2to5y_JjlvnHGykL8ckY4cJUyHEZYOjZjUdtfUrMbHbfl2Iu7jgb6k_WW_RIJd-T6wndv04WCwm-CZX1VnNDRNm1UvIz58nbT1G1eWe5abhd_3Uh-Jy06iVKiVe1LwgfomFKtdJyvfP6snR4Ma3LS-nExu7i3WNolf_sK4ZVi1xXd8x6-CMBoB7Fqm-ps8Ub5WfnOOuYWx-y_z1R5e2mXX_xlsImEyk1RYDt3EK_PwG3pjLlfWU/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=4894925549987327819&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJgYFdLAy9vJURS2_6cNpE7kM/photos/AWCwydhmJPl6GvhXi7zMY58VCpYl_Qo3vMtbSNHFueMMFSsWaaJKLA0CmtIf2Aeg_iPJHGzFD_hAnjxaOdE8TtsrrEg0x4-Y7TvRV9olemXQkS7mC3uVzhKQ021MDCTURQtzwz-VjudCNwRuo2xTMusHxNzs0WjOs6O5auXemriY_1G_R0bV3h0F6-JYFOPU8Ap6aaeNICJaJL1pVv4Fiivw46TBrQNDgyvmiiL7DCppwDdHLoiJBhtpCkL6MCbMCo6zy0KV8AMYUxLshaLVlAFNE1rv_ElLMi6nANeUiQAKUh26-ngJMcc6INwkga5c3qbkz3eizb7larlTGFCzcu-ldZxTPxkDmf3hBqLZZni6kBM6QcikwRZFbrQ1D3hqe3QsBylHQnMw_As4fUvsqTQp1jUGC4AKp0C0d0t6RkOJLEWwxvSX/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=4894925549987327819&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=4894925549987327819&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=4894925549987327819&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-27T15:08:31.478Z",
+          "notes": "Resultado automatico para \"centro de estetica\" en San Miguel, Buenos Aires. Segmento: estetica."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=4894925549987327819&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=4894925549987327819&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=4894925549987327819&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=4894925549987327819&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=4894925549987327819&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=4894925549987327819&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=4894925549987327819&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=4894925549987327819&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=4894925549987327819&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=4894925549987327819&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=4894925549987327819&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJN4AFQCy9vJURW82PWQgoleQ",
+    "name": "GemaSkin",
+    "slug": "gemaskin",
+    "category": "Beauty Salon",
+    "is_vehicle_related": false,
+    "address": "España 720, B1663 San Miguel, Provincia de Buenos Aires, Argentina",
+    "city": "San Miguel, Buenos Aires",
+    "neighborhood_or_area": null,
+    "phone": "011 15-7239-4746",
+    "opening_hours": {
+      "raw": "Monday: 10:00 AM – 7:30 PM | Tuesday: Closed | Wednesday: 10:00 AM – 7:30 PM | Thursday: Closed | Friday: 10:00 AM – 7:30 PM | Saturday: 8:15 AM – 7:30 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 5,
+      "reviews_count": 17,
+      "source_url": "https://maps.google.com/?cid=16471115228504903003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "¡Super recomendable! ✨️ Me hago limpieza facial completa siempre salgo feliz. La atención es totalmente personalizada, con mucho cuidado y dedicación. Se nota el amor por lo que se hace y eso marca la diferencia. El lugar es tranquilo, limpio y te hacen sentir cómoda desde el primer momento. ¡Gracias por cuidar tan bien mi piel! 💕",
+        "author": "Karina Messina",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/117642041586506501049/reviews"
+      },
+      {
+        "text": "Gera una genia total. Tratamientos super personalizados y te realiza el seguimiento de evolución en mi caso de cuidado de piel,la comodidad y tranquilidad que brinda es excelente. Super amable y atenta.  Utiliza productos de primera calidad, no la conocía y tuve la oportunidad de conocerla por redes y ahora soy su fiel clienta. También pude recomendarla con mis conocidos. Excelente profesional",
+        "author": "Natalia Gomez",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/113956229380317446939/reviews"
+      },
+      {
+        "text": "Hola. Super recomendable. Geraldina super amorosa y amable la atención. Y el skin & detox hermoso, los masajes y los productos que usa de muy buena calidad. Salí con la cara super renovada y blanca, hasta las personas que me vieron al otro día me dijeron.... tenes la cara más iluminada 😘",
+        "author": "Marina Cabrera",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/102046123027243790871/reviews"
+      }
+    ],
+    "main_product_or_service": "estetica facial",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJN4AFQCy9vJURW82PWQgoleQ/photos/AWCwydgbmp6NO0soaDI386lrkqyeUGwqxQExT1ZR7JdhuEPC2mS5mCWuxvFTjmLIck9NCMOLrqD0g_GQzb8Vgdfr4BL28MZBnaSbtIwVZPeLC2E7E8M4pk2Bbi_MOBs8Yf2fOKp-iM27sBeMcDfQh4IiqlP5KqAy8JcHV9qKjD-Iudm7UnaUGktszBa7h3Qgar4G_2RDcyJBAmxJaYrrZmOe7DrUiDSBIXsZLSH773jMTfLWw1muGlZ8tymhCyQAyjXto7JfW0oD2ta1npF3iKu1GWGjTeUtvhUNnr0lCqWSfNuBWQJrkkHrvwwS9YhIa9Pt-cg-2D_aRk8APR8498-OYsD_PT30J8_avadIFZP6wRP-z4H1puLjGKkA_sSVntK64-lJiGlzWGWEzKGfpPXBB_Jruvy_VOoam8Rl7mPr9klBgjcpGEuBdIlNVIzDfQFH/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=16471115228504903003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJN4AFQCy9vJURW82PWQgoleQ/photos/AWCwydiDuqo-vAwtAqPEmES03V0k6eF_FhQJcymFGESdbkPTwG-PgMfflA5JhKfORQbfxhyBVVy8sl5OLtKttF9wRXgxJo2QQGm5-I4Y9mfTr5QZ0U3VgXFM8cBQwdG3ipRQnq-xsjK28xi5Kdz05EcXhw03G0ui5mJyWoIOGZTGknZtWJKa8UBTYJb5LFawv9Hl6wlh9v43W12prBevuOoCzpOvlftLjLa88zXeQuAfVNxOxsG4swrX3LMhgXQTeE8p9EkhYTyrC6pd_ShlvJ9YwOkCyVymadQVTry_cdykDGBruPSIvwx96ldQWwACPoF4jP9bz0ofhu7Zyw1W8BVDvDhGwJ1r2NdSLbKyAmsmjqfy5YBbl-sbVSjnztfbKxYTgABw-ZLum7IkZvLefRtZcK_VpXV50CrmgRUrue9kV3Zfd5Z07XyCB9yKc3K5kW6s/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=16471115228504903003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=16471115228504903003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=16471115228504903003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-27T15:08:31.478Z",
+          "notes": "Resultado automatico para \"estetica facial\" en San Miguel, Buenos Aires. Segmento: estetica."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=16471115228504903003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=16471115228504903003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=16471115228504903003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=16471115228504903003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=16471115228504903003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=16471115228504903003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=16471115228504903003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=16471115228504903003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=16471115228504903003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=16471115228504903003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=16471115228504903003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJIf5Lg2y9vJURXPBBEiL8cU0",
+    "name": "Magna Professional",
+    "slug": "magna-professional",
+    "category": "Store",
+    "is_vehicle_related": false,
+    "address": "Av. Dr. Ricardo Balbín 1520, B1663 San Miguel, Provincia de Buenos Aires, Argentina",
+    "city": "San Miguel, Buenos Aires",
+    "neighborhood_or_area": null,
+    "phone": "011 7361-1743",
+    "opening_hours": {
+      "raw": "Monday: 9:30 AM – 5:00 PM | Tuesday: 9:30 AM – 5:00 PM | Wednesday: 9:30 AM – 5:00 PM | Thursday: 9:30 AM – 5:00 PM | Friday: 9:30 AM – 5:00 PM | Saturday: 9:30 AM – 2:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.6,
+      "reviews_count": 129,
+      "source_url": "https://maps.google.com/?cid=5580518636554154076&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Los mejores! Alicia un genia, me recomendó todo lo mejor para mi pelo, me explicó con mucha amabilidad mis inquietudes. No los cambio por nada ☺️",
+        "author": "Florencia Dias Pereira",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/108561947689187246333/reviews"
+      },
+      {
+        "text": "Excelente 10/10. La señora es un amor y me orientó muchísimo en los productos para mí pelo. Súper recomendable!!",
+        "author": "Sabrina",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/118276661159647091743/reviews"
+      },
+      {
+        "text": "Super recomiendo excelente atención Alicia y su esposo muy amables excelente productos y precio",
+        "author": "Valeria Ferrer",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/117544207187006960430/reviews"
+      }
+    ],
+    "main_product_or_service": "cosmetologia",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJIf5Lg2y9vJURXPBBEiL8cU0/photos/AWCwydglluANAZXjqf_x26WrJ7NWvl5T046dalQN2cRCrZ4vslD4vpvURzJe24f2N_Uk5bBJ2UERM4XZcPpFiLUFR16rHtcbUc7-nZY3FbIT19lR1gtnjncE2r4yKjr7Rmgg-XzC03FqEFOH8zAjXRNgLRTqzo2MqwCVft7xA2zehJZOx9nnmnJQzTrLx6tyvaobUwwYI2uW3SzRpoCYmJyLkoAfpg6602Ih-uMY-WUCUc1ALN3Ual5-u2K74uEEJwVQSDftKJKjDyHLHsiPS_00OIzfv95TJ717t3xSBhK01R_mvku88rCZyLO6vKZmsR5RBiWjw-wGZ7G1uJDEYHEqflvdhWq2b_8nVuAynuAEcB0DOEdhfpEYxa8Ii1GoEDGaHMgFLkcFLvWoQDpTUTjk0I183CWO2OUvC6Bu7GPpvS-rx20pDfa0wvXmsiVhdPfB/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=5580518636554154076&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJIf5Lg2y9vJURXPBBEiL8cU0/photos/AWCwydgCZYAO-GyqCDjfTeDsVaugW8nxeyA-RzkoRzY8DQ5UDN47VHH1bc4BwTKvMNp56L9NhNaQKNvlmbE_WWWMzlqTySok9pN8jV8BLMyGJh8W5VDDE7tezixjKxYrKOHVBVGOifEWD7rlyzR0c49uvDRi-jX5YyHscys_htH2C1qK9M1a2m9aRFLy_3KPs9Z89NZ-40JtzdXHJBku5VoNcxSotKkf_B_Hvumyct8OxaeSDILqR0JkTCClSJ09tmsW3GZm_ZBEB7J-8Ul2ap9nSgsFG6sibTo9sqMBqnCIh4GhGH6ufDjv8m5LQ32SFIzvN8i_R1ikM7gFXY0IF55d2shAeHJZaZtPkt9hUQTpyVZObFriFset1_jbMXLRQTmANay1CBj5fT69g80oT5L0jp0X1GJGZpdfay1I7ho0ZV4IUQ/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=5580518636554154076&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJIf5Lg2y9vJURXPBBEiL8cU0/photos/AWCwydgT3mdRbOkioQQhjfCuAJu4Pi73yNgr3fRGciN6RCFgwn8SepoVI-cjiv6JiUCC6W9XVAAtolJY4kyvnl9JfrGzuEgeWyg4QrgR24it2DsDHxgyvZy-k_gsYyQ4BrNgUC-FXKr38hOwvwm02wCn0o-ORHa3vyIRZfJ_exJR8J4I2A84URgXpPqR3GJ0yLpkxJm1PSy78qx3rj1HVkKgwY__Cca-Cbip0UNZylM-W0JKNJkBmJFesiAkPsnYUiR_0RmwZJnpunQ-II6BRmEyDqLV-UM6JCcgEjOzaB0POu1zo0jnchfZnggeQ-BlxmCQawoLTdAd884GtWHcHdisI5bH34Em44RjRNubPePfCdZ6D3g7JGtlYNR3Z-IsChiHVgkam-UIzHshaf_od8HIm1q3ODL2P3X_eMvFhX7BszEZfg/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=5580518636554154076&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=5580518636554154076&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=5580518636554154076&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-27T15:08:31.478Z",
+          "notes": "Resultado automatico para \"cosmetologia\" en San Miguel, Buenos Aires. Segmento: estetica."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=5580518636554154076&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=5580518636554154076&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=5580518636554154076&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=5580518636554154076&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=5580518636554154076&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=5580518636554154076&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=5580518636554154076&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=5580518636554154076&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=5580518636554154076&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=5580518636554154076&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=5580518636554154076&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJMyp5sOS9vJURHYnFHIpgmek",
+    "name": "Malibú Estética by Delfina",
+    "slug": "malibu-estetica-by-delfina",
+    "category": "Beauty Salon",
+    "is_vehicle_related": false,
+    "address": "San Luis 1142, B1663 San Miguel, Provincia de Buenos Aires, Argentina",
+    "city": "San Miguel, Buenos Aires",
+    "neighborhood_or_area": null,
+    "phone": "011 6678-0615",
+    "opening_hours": {
+      "raw": "Monday: 8:00 AM – 8:00 PM | Tuesday: 8:00 AM – 8:00 PM | Wednesday: 8:00 AM – 8:00 PM | Thursday: 8:00 AM – 8:00 PM | Friday: 8:00 AM – 8:00 PM | Saturday: 8:00 AM – 8:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.9,
+      "reviews_count": 13,
+      "source_url": "https://maps.google.com/?cid=16832591228578400541&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Fui por la depilacion, mi primera vez, y los resultados se super notan desde el primer momento, los precios son accesibles y Delfi es muy amable y me hizo sentir en confianza desde la primera vez.\nTambien con ella me hice un lifting de pestañas, ESPECTACULAR el resultado me duró casi 2 meses.\n\nRealmente lo recomiendo, el espacio de trabajo cómodo, limpio y despues de cada sesión se mantiene la higiene.",
+        "author": "Lia Choi",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/109207921612580473222/reviews"
+      },
+      {
+        "text": "Excelente, estoy súper conforme. Soy clienta hace varios meses, primero fui por el lifting de pestañas (dura casi 2 meses) y hace 3 meses por la depilación definitiva veo los resultados desde la primer sesión, además de que Delfi es re atenta y amorosa!",
+        "author": "Mica",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/109099902266823686881/reviews"
+      },
+      {
+        "text": "Muy buen lugar!! Me atendí por depilación y también por un baño de crema para el pelo y lo super recomiendo!! Muy cálida la atención",
+        "author": "Micaela Salicrú",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/103429958200973362488/reviews"
+      }
+    ],
+    "main_product_or_service": "depilacion definitiva",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJMyp5sOS9vJURHYnFHIpgmek/photos/AWCwydi2501dlOf5Q8Io5vzFvULR18JEgBGB78UpcSTcICRGe7MProNUfFymlSA4Q4uXbn6wCKWq6qC16EHfE7OGpqu_GPaIUW4wb0aTfN87rzDyvwBhhj_KN21zptFa9cyPLjpiCEMzE_a0-ZNFIh5ZHOPN0Cen9LDEoE3SmXFzFNNBvbpTaDfL-QOSPc5_U-dtnQK2d73ES4u2517S3GMh7tKMNnQo61THsU5cLxe5MaerVEXO81xfT1P_969D1ugCBS3Cid5pnWe4jLaf_mD5EVo-gzNh8JwMwr2vL49l3VA6XyVkOwiBtRatF-wA0OQqUZk7HoK_C46BaDfqJnZMwxjFptlq7g84Z3elzDth2r2Xcgxq-cmBOSS65ksRBApaW3ixwKc9lbw8RGJai--0JtH5fuD3Ar_nVAqjfOR7RfxFWw/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=16832591228578400541&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJMyp5sOS9vJURHYnFHIpgmek/photos/AWCwydjrby8Dgzy0OLXkBxHZDY0wzlofopn9IuowcF36xxEKAQEPrAqDSNl8YNDH51lQdxjY0gFGqYEJIzS21aKbiww4WISpv72f3dB2d2K2o-RBhe5BJyUw5JRbtVEkE6QXB-JZKSG-RxGt0ox7nugoP_XURh1E-NfbfYN3PA9sZx8fD83E9cV640EFl79UfbcSc30lL3TzOyrIPV11sOSTztpwZGREMYq4AWj5tGTOK-VsLHeMPdTxdtW4w6lDSMtPrT_lQ9K5VsdyHEhqIw1hpr_yUzaWzNAALfJ8xoEdhNyBefFND3ZP6V_FXWVoe1snJ8MXGCYtMcl7mXtIfSbkS_qI1ucaz-2bRfiuE5BDOGowi8rZ1a4W2W-Ma7fpPo_DQ0y5DsGDuHGzvcH8jUBDaMoAwOuO9R0JR2kF-11JIkDfcJ-T/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=16832591228578400541&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJMyp5sOS9vJURHYnFHIpgmek/photos/AWCwydgO84xi5mQgXLmKvKbEBiolhqe5NjA9I_SJBMZ4TddDt10TPSYkujILyKvaUBD-3B-Sl26Trot0FgFRY4JzacySw_5c1i0MGW65z48wCqCSMJpAUlrZg6CrCK-o3rKU4Dj4PvnHKnUKGPC76XX-u1qZceLNa1FfPDIZzzfiV9-w-kYvWiH6c2mTQEWzMTxLRXS-VRGYucFNjzeoKPX6vglFKEuYSvRBcezTrSHrzAuoN7HtAsVuqXysqlPJ_gx6QBLTrUhPnzFKilck445GbXQEBMAIIglIBPy6HgeniyJv4hSJ4qHdygKl28qyCM6DbW6pvo6DzKvaVEvJWi5kpPPCpJwsQQkKVXgCEQ-8HkOPvq7yWippU5nTEFrMT_QWY5_pfJ5fdP8fiZAopXnu0pKy7w_sWNMZPIceU59ISRsxF_lW/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=16832591228578400541&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=16832591228578400541&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=16832591228578400541&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-27T15:08:31.478Z",
+          "notes": "Resultado automatico para \"depilacion definitiva\" en San Miguel, Buenos Aires. Segmento: estetica."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=16832591228578400541&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=16832591228578400541&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=16832591228578400541&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=16832591228578400541&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=16832591228578400541&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=16832591228578400541&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=16832591228578400541&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=16832591228578400541&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=16832591228578400541&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=16832591228578400541&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=16832591228578400541&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJk2hEpsS9vJURxjh8Cs2F7aA",
+    "name": "Skin Studio",
+    "slug": "skin-studio",
+    "category": "Beauty Salon",
+    "is_vehicle_related": false,
+    "address": "Maestro Ángel D'Elía 1244, B1663 San Miguel, Provincia de Buenos Aires, Argentina",
+    "city": "San Miguel, Buenos Aires",
+    "neighborhood_or_area": null,
+    "phone": null,
+    "opening_hours": {
+      "raw": "Monday: 8:00 AM – 8:00 PM | Tuesday: 8:00 AM – 8:00 PM | Wednesday: 8:00 AM – 8:00 PM | Thursday: 8:00 AM – 8:00 PM | Friday: 8:00 AM – 8:00 PM | Saturday: 8:00 AM – 7:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.9,
+      "reviews_count": 118,
+      "source_url": "https://maps.google.com/?cid=11596071731239598278&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Hoy me atendí por primera vez, me quedó la carita perfecta .\nMuy amorosas todas las chicas y predispuestas a ayudar. ☺️☺️ volveré el mes que viene 💪🏼",
+        "author": "Carla Narvaez",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/106311913413304406632/reviews"
+      },
+      {
+        "text": "Excelente lugar! Conocí a Fany cuando inicio con Gala y me pone muy feliz todo lo que logró con empeño y esmero. Hermoso el equipo, y muy buena atención no las cambio por nada 😍",
+        "author": "calle falsa",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/100300408472927222449/reviews"
+      },
+      {
+        "text": "Realmente un sueño atenderse acá! Son recontra delicados todos los pasos. Muy lindo el espacio también. 100% recomendable . Me atendió sol que es un amor !",
+        "author": "Jimena F Garrido",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/112519288668781929750/reviews"
+      }
+    ],
+    "main_product_or_service": "centro de estetica",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJk2hEpsS9vJURxjh8Cs2F7aA/photos/AWCwydjTcgIXOz4IU_ud5y2Mx7YaglUhtph-On3OjAD0xClAwANpUoxNUAzUQqIYu3ge1XRjuAN_OjloOjsjDGKkp6tYSJOv1-u1uvS3YOA_sS2c0yjvJ_cWlZi2FE2eex26dhlsdQMvaF4PlEaxWTwCD55AAnw_YWwbeHYVmx2SuZXxJqM7qm4SOuTvWugKxEl_4z0X-7DkcUE4opNYD-TCSLyAuAWpfHAl8eX3K62XsSP92DIDr9BTVdH3Nw3QG9fLUSCTwewY1IAl3AbliiTj-P0eLZ5TYDDEqu68DuoZYR2o8cEG_I0FN8t8dRHRDpfmVRg2uoR0fOZa5WLa0JtSxhgfaKwrrwjTq96arvXwwUbylo5i8NDTuBYbtnJdzqVqQ3Uj5U48Jm0SiVL7L9XwDFpdUWuUtuMXRZ2tIi0HvSyFMPnJ6Jaa5Wd5qJSngEe9/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=11596071731239598278&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJk2hEpsS9vJURxjh8Cs2F7aA/photos/AWCwydh26egHf3Gr35WeZ4VxgSW4_kMT67IrJFLKCkxKFZtO8Z9-YlgAZ5Q9Lesvm0heTsZoxwmWGJMdj0CDbk1NBr5nffK_JOkuAsCzoxvxLotVYN81bUZ9oPSmlI3jAzYiDUwqbKtFR3HrRalYUZCwcLi_hUahM7e1MXtHsIZ9kj-jwTBiXksMJqRMGScfQS0XZLN-cLPJKBz6965jw_eiFumqr6E56v_lsXRRWxoVhPfoIbpCfA3GqmcPHDUbXxRO2PWkAbEdkrRR2UkJn9YL0Zas-GiC5IshzhsChSPXBh8vu_mSfwkYwoRtAXnyHOHuC1DFxh_QT5O2Ai9C2zwWXf7J2SOzI1PrVCc3LtCEfzNe6ioSL-RfOkJ0fk8pni2LZoLN8D2UWRttvayPVTFS4ogBg-nyHWhPPS2pXAd4yKslIzxXRwVvEWhnzfzbfzbb/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=11596071731239598278&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJk2hEpsS9vJURxjh8Cs2F7aA/photos/AWCwydhvhbEJPWEfGf8WG1nIFCDOsSlGzeW_LMOLl-WeYpOXSsglq6E7X-jdRCC2OMQHkCXXi1K2jB2raI4V00ehHa0l4MePXgZsBAtRxPNXhBlX73hJl0P3MT4HijU7HMlmsT5j4G8_I0zp_B4yCP3xNmMb9czcgJF_0kAhkEMCRMt-FBNBCPyb0-jQaYF6JSxundI23q7BHUQHYATWnw7vBFm3dGufxTNUqrqHA2P21aOkDdum1IaAQ4IDbFUklOoQZyH2jvYOKhHQuJ-rLvq7QF2veXzhxmnuDW4l4RsaTQd6Kr8r7Be7zDVWYM8Znr9orMsk8DtjZ5ypDzy8WLGvTXBXNJwNgrTRqBlH8TOcSyXpEhkYzKcVDzfe-xQG6fNbzCP0wwvnUU0aGhTsp64iah8_SOVApRmS-f6U4hI270MvMg/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=11596071731239598278&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=11596071731239598278&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 0.9,
+    "missing_data_reason": "telefono",
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=11596071731239598278&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-27T15:08:31.478Z",
+          "notes": "Resultado automatico para \"centro de estetica\" en San Miguel, Buenos Aires. Segmento: estetica."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=11596071731239598278&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=11596071731239598278&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=11596071731239598278&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=11596071731239598278&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=11596071731239598278&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=11596071731239598278&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=11596071731239598278&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=11596071731239598278&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=11596071731239598278&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=11596071731239598278&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJ-_DH1We9vJUR2COX2DaI-K4",
+    "name": "Lunática Estética",
+    "slug": "lunatica-estetica",
+    "category": "Beauty Salon",
+    "is_vehicle_related": false,
+    "address": "D'elia 1606, B1663 San Miguel, Provincia de Buenos Aires, Argentina",
+    "city": "San Miguel, Buenos Aires",
+    "neighborhood_or_area": null,
+    "phone": "011 3826-1223",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 7:30 PM | Tuesday: 9:00 AM – 7:30 PM | Wednesday: 9:00 AM – 7:30 PM | Thursday: 9:00 AM – 7:30 PM | Friday: 9:00 AM – 7:30 PM | Saturday: 9:00 AM – 7:30 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.8,
+      "reviews_count": 34,
+      "source_url": "https://maps.google.com/?cid=12607976925967098840&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Excelente atención! El tratamiento de 10 y para sacar turno fue muy rápido ❤️",
+        "author": "luana carrara",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/114945502900315682555/reviews"
+      },
+      {
+        "text": "Excelente atención y profesionalismo! Muy recomendable !",
+        "author": "Analia Dalessandro",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/113669266504589370184/reviews"
+      },
+      {
+        "text": "La atención es excelente,  por profesionales  en todo lo referido al cuidado corporal y afines. Buena relación precio y calidad del servicio. Muy recomendable.",
+        "author": "Patricia Ledesma",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/113775962890994583876/reviews"
+      }
+    ],
+    "main_product_or_service": "estetica facial",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ-_DH1We9vJUR2COX2DaI-K4/photos/AWCwydhnFdHLN030uteJW0K5chEcm8EWiWjNzkuL3FdDf1XrEiGjQ2PfMK8NIksfEOHr9pzQKsUFOvNksZ4pzFdEeJ1bjJqvsC0puZOvJb-5U1qFQOkfw2c8kDCDUaJByjJiA_dFJBVCiPWK8OvYMtVh_5Fgu9kdCYy2t_yfSTkXWOBpAVKzPAQEca7bMc3-yn7ET_4mCjWrpXMPHg5DhMs1bNEZoGjqIvFXBpUof9k9FxjMQRa72c44OfsAgK2mp0gp-izMioQJkgLNGTHs70avknvJizglztDWpCFFkDsysLjofkdHxgJba9FhY4_folcVSH7dP-OkTzi4uvj9xCpwgyxf3PvrF650u08gGwCzO84WgUh-0gf_o1GXaIc25Xo9YrKLBid80L1tiDRqr4mktVJpHFKCDZBDvVeIFXN4LjdJ3C86FIRiklwJ42KqzDk2/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=12607976925967098840&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ-_DH1We9vJUR2COX2DaI-K4/photos/AWCwydgMwXS8UXQa8Cp4r-r7PzvqA5vCB5TWkFhrD6GGTta3mPMQEGCm9skkwW7QldAylGwFzWzYBmFjX3Xut3xtRv5tLNKIMhNtuIMDDhLDqUaBoEQ-0GNvSwxh2RVDnxU3y-RlzEauujx91WqJ3ABOVVpznixPGTkmAGbDBSGbl9pYKhnqn7jqag1Z8-yvUNO7GKlW4hLM2TFAQHXEDhjDozv4A4xt_Qj0WS1U0ZQ8k1ThvT24cFOifbZvj7G6ic3THeYQUsF9xjCV_UkpuQfoPgnjYOxTq853E7jrR6kXxRf-5MwX6NCe98ziSw9gweVbAePX9hv_fwIJml5PHXgWn34tYT8GorlxcJ-EzzRU8dVufHpz1X0XKuW1L-25jU-B67zZvPuy04iy00SOscq9Gm7RLS1woX99qv3E_mG8dVOqlw/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=12607976925967098840&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ-_DH1We9vJUR2COX2DaI-K4/photos/AWCwydg630dw1dMGOpKtH3XdAf7k6iaLY66xQ8q6v4BwIXaozFPv3H2-X_x8kwITEdTz17UNkF_e3yEyssJXYhMsrXcr0GG-GIq5aA_FOYyekY6oQrpGYhEye81O0NW106_d-msMnikyE67IRqedrwwDIJBNdBTeuu-iLTxO-SPkv2bBAP0EGt622cE3dtvBnFJX1ZIsGJyFGOSJLNZZDY_a1UTLtoOcqcV4_YqKWDsKs-5Og0RKzra0wjcrwDnloR6tgK1i4kYcTmpMxtFkoHmQSBUR4Q0Q-Qp1Vc0LcNEJCU1Dx338vnGQnFmgBMAWQ--PxJIsl_0SwbbweNeay7PhqH0kBg5BZbGcBlTS7fZ9N7YhYyVuO4Kboi-dTXPqjMLQxjGxjzWrjTOlYYU1mz6vAd7A1AO_4NH7O-Ikb6FjQg8/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=12607976925967098840&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=12607976925967098840&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=12607976925967098840&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-27T15:08:31.478Z",
+          "notes": "Resultado automatico para \"estetica facial\" en San Miguel, Buenos Aires. Segmento: estetica."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=12607976925967098840&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=12607976925967098840&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=12607976925967098840&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=12607976925967098840&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=12607976925967098840&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=12607976925967098840&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=12607976925967098840&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=12607976925967098840&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=12607976925967098840&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=12607976925967098840&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=12607976925967098840&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJWaks8xK9vJURfkDhOU2JpCs",
+    "name": "Gaia Salud Y Estética",
+    "slug": "gaia-salud-y-estetica",
+    "category": "Educational Institution",
+    "is_vehicle_related": false,
+    "address": "Maestro Ángel D'Elía 1674, B1663GJK San Miguel, Provincia de Buenos Aires, Argentina",
+    "city": "San Miguel, Buenos Aires",
+    "neighborhood_or_area": null,
+    "phone": "011 6069-0832",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 7:00 PM | Tuesday: 9:00 AM – 7:00 PM | Wednesday: 9:00 AM – 7:00 PM | Thursday: 9:00 AM – 7:00 PM | Friday: 9:00 AM – 7:00 PM | Saturday: 9:00 AM – 7:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.6,
+      "reviews_count": 46,
+      "source_url": "https://maps.google.com/?cid=3144789404587999358&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "1000 %  recomendable ame este lugar  ! Yanina muy amable resolvió enseguida un turno que se adaptará a mis horarios!! Naty una excelente profesional, la sesión estuvo súper ,muy  atenta a cada pedacito de mi zona a tratar !! Vayan no se van arrepentir!! 🥰♥️♥️",
+        "author": "valeria ocanto",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/113993187646573496057/reviews"
+      },
+      {
+        "text": "Imagina que has viajado a través de varios lugares en busca del lugar perfecto que cumpla con tus expectativas de un tratamiento de belleza excepcional. Después de una búsqueda exhaustiva, finalmente descubres un centro de estética que destaca por su ambiente acogedor y su reputación impecable.\n\nAl entrar, te reciben con una cálida bienvenida y te hacen sentir como en casa de inmediato. El personal es profesional, amable y está completamente dedicado a brindarte la mejor experiencia posible. Te guían a través de cada paso del tratamiento con precisión y cuidado, asegurándose de que te sientas cómoda y relajada en todo momento.\n\nEl tratamiento en sí es una experiencia transformadora. Desde el momento en que comienza, puedes sentir cómo el estrés y las preocupaciones se desvanecen, mientras te sumerges en un oasis de tranquilidad y rejuvenecimiento. Cada producto utilizado es de la más alta calidad, y el conocimiento experto del personal garantiza resultados sorprendentes.\n\nA medida que el tratamiento llega a su fin, te miras en el espejo y quedas asombrada por la transformación. Tu piel irradia luminosidad y vitalidad, y te sientes más segura y radiante que nunca. Es evidente que el viaje valió la pena cada kilómetro, ya que has encontrado el lugar perfecto para cuidar de ti misma y realzar tu belleza interior y exterior.\n\nSales del centro de estética con una sonrisa en el rostro y el corazón lleno de gratitud. Sabes que has encontrado un tesoro en este lugar y que regresarás una y otra vez para experimentar la magia que solo este centro puede ofrecer “Gracias Gaia, gracias Griselda“",
+        "author": "Andrea enriquez larre",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/116449426536390493213/reviews"
+      },
+      {
+        "text": "Excelente atención desde el minuto uno. Llamás y te asesoran sobre todos los tratamientos, costos, beneficios y demás. En el primer turno te podés sacar cuanta duda te quede antes de comenzar, y si no estás del todo convencida el equipo te ayuda a ver cuál es la mejor decisoón para tu situación en particular.\nHace cinco años los encontré por este medio. Con muchas ganas de hacerme delineado definitivo en párpados superiores, color en labios y microblading en cejas. Tmbn tenía muchas dudas. El resultado fue óptimo. Hace unos meses volví para hacerme retoque. No tengo más que agradecimiento para Gri y todo su equipo. ¡Son unas genías! Las super recomiendo",
+        "author": "Marcela Beatriz Gonzalez",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/102572352978429943334/reviews"
+      }
+    ],
+    "main_product_or_service": "cosmetologia",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJWaks8xK9vJURfkDhOU2JpCs/photos/AWCwydijb75KnjCD0kUaKI2N1fK5H8usESgPXbXWlkpWn7OpZqucz794656k1Jo-ymS-8vuj8RJHBCK6jalqPV1OsDLN-2-Ghcy-JyxjmgTTtq97FHN39eN1ObfwDX_59sODXuFXIxFoY_2NPSCQmH7UaYiqduIRq5WB_KywrdfZ8x9XX2CLJ8sgNwqOcSMroxBzLTtVmnQWz0PKL7VUeHIk7LK_ath0vUDs2NTD6xuaBiWcuLaiGhJNvaEE64LpDXfFlZsvSjK986kexvJjleJXSExAVx1yUasBr8tUTvZHVukgyo0DJFJAR_rLm_iFKvoFiFi9ekYu9vbW1XTVcuyNIj-p393tmHGelPXiOwZjhmVsNT8r87CEk7iJ6nEkS1l1AcWn1yibg_d_zbz1wdTRVtrxkaf2vR76F9bxKaWOu26ptQ/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=3144789404587999358&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJWaks8xK9vJURfkDhOU2JpCs/photos/AWCwydi3gjGIChj2P4QnnFUAPCXRt9XH8N7tZPwvtDnczmkVA7rRP9TYsNXETkdkQM2jaNSenDZhRgRV7EKebB1qvoIVbJ5U2mPMqpU6lFiBp_s46rZnGDPoaCq9BqjbhMAadDm6529jawR1i0ZzxQP5E_XuBs3GT2D_WT9uharfXJ8yYWoIRf8KfJDAsoModN4dfbDike9MAYEciFpmTj1jk-MzK0DhhxnUi_MNr8pY5oFq6EVTMZT98ve4EB_fZKvfqVw0gCWAQIrtsXBYJ7eMxrIJtCamj720tkJwJP63ZHghgT3WYJmI0aqPpg3J8QK-hyUwR8Wtq6Rlu3fEXVLOCAwmP5brZf9UvjXhofVv2kVg1tPN5OAKJK2n3lAaUWQIAe_30fdQSc4rIHh4YkzMlxTlFmKR76H2zadJldL8YEvnmY3b/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=3144789404587999358&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJWaks8xK9vJURfkDhOU2JpCs/photos/AWCwydidywlwcE6WBo1JTWXqhkGHWd3uAHioQeBdxjH3pDXYVGiZaoCBzPVzW6SbqyCNICt9x51QYij3phhAR3W_uo9_hzyffj9NwKeEJeAFrfFk7tq1BbUW7wPSttxWLq1z5IlIBWBZ6QRk9E8LfGiO65VNDDPsM26CNJhrVamL-IO19KMjy2uRiLTHzkmUD66lgqHkeUcKYM2Et1Iop0tOVpjEdiXMVWwQp9D0-TUNZqbkS629v49QnGBhZud3i25OBqYgyIH8O4RLs4J_DZ3e8S0pt_i24u4TavfDSh5Vk8j0vAG3R96nV3oNatoz6aU4yLPCPCX_4M5JE8PWnWdidUpP2tNrVJlstJclW_uOmT108YfZWBly5GxuTKiMeJvIAeRPtZ4G_8e6D5vFLKeIKaNqeNchZUrYN3Dg9S46KZjx8kVc/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=3144789404587999358&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=3144789404587999358&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=3144789404587999358&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-27T15:08:31.478Z",
+          "notes": "Resultado automatico para \"cosmetologia\" en San Miguel, Buenos Aires. Segmento: estetica."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=3144789404587999358&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=3144789404587999358&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=3144789404587999358&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=3144789404587999358&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=3144789404587999358&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=3144789404587999358&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=3144789404587999358&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=3144789404587999358&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=3144789404587999358&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=3144789404587999358&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=3144789404587999358&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJV6LUVFO9vJURN6YMRFClJ1c",
+    "name": "LACA BEAUTY SAN MIGUEL",
+    "slug": "laca-beauty-san-miguel",
+    "category": "negocio local",
+    "is_vehicle_related": false,
+    "address": "Maestro Ángel D'Elía 1383, B1663 San Miguel, Provincia de Buenos Aires, Argentina",
+    "city": "San Miguel, Buenos Aires",
+    "neighborhood_or_area": null,
+    "phone": "011 2184-4114",
+    "opening_hours": {
+      "raw": "Monday: 10:00 AM – 7:00 PM | Tuesday: 9:00 AM – 7:00 PM | Wednesday: 10:00 AM – 7:00 PM | Thursday: 10:00 AM – 7:00 PM | Friday: 10:00 AM – 7:00 PM | Saturday: 10:00 AM – 7:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.7,
+      "reviews_count": 317,
+      "source_url": "https://maps.google.com/?cid=6280169969549092407&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Mala experiencia! Tenía expectativas altas ya que la marca es conocida y como profesional de la estética pensé que iban a hacer los protocolos como corresponden, que la atención y el ambiente sería agradable! Trata a las personas con una arrogancia y superioridad, sin aceptar q uno tiene conocimiento y sabe cuando algo no está bien realizado. Quizás este comentario no sirva, ya que hay que tener mucha humildad para aceptar que nadie es perfecto! Y cuando mejorar. Dejan en mal la marca lamentablemente.",
+        "author": "Yamarpied Marin",
+        "rating": 1,
+        "source_url": "https://www.google.com/maps/contrib/102370600016188079612/reviews"
+      },
+      {
+        "text": "Buena la atención de la recepcionista , pero me fui a hacer una limpieza y la verdad fue demaciado basicamente, meses anteriores me hice una limpieza en otro lugar y cuando salí el cambio se súper notaba, acá sentí que me pasaron un pincel , exfoliante a lo último protector y nada más . No me gustó para nada , no recomiendo la limpieza ahí .",
+        "author": "Nicole Torres",
+        "rating": 2,
+        "source_url": "https://www.google.com/maps/contrib/115627080333991697254/reviews"
+      },
+      {
+        "text": "Lo súper recomiendo! Me levanto a la mañana y veo los resultados que obtuve y estoy feliz 😀!!!",
+        "author": "virginia paladini",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/100355754913985850816/reviews"
+      }
+    ],
+    "main_product_or_service": "depilacion definitiva",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJV6LUVFO9vJURN6YMRFClJ1c/photos/AWCwydjderWW6wWSpZaweRtg6Ck5GAAZ8bbufz-PauYFG8oZq2GV6QjY6KS70IW7z6zMc289FCVbAq_4GIHjaoU0gaKhKXbSMg6ySkfifJL7feuUgntVhQ5-1LR2FUUpM2CojWoLuu570jH3D0eBKK8krNXitE68C2vqa5pTskBG3QN-CLmCFqZC6NtkUescTo3eSPK4jBGiyr3Cmci6uKbevZBsCewbY_M-RBUTDFmDpyJoGf2k5jpEtZ8uECcTBywYO8Kqhh6z1eLpP2YYIQI77a4RrisM2ux5w5Fji8cCa3pd2zbAm_BRDnA0pOqZBIKrrgxWpkMGkLr80766RZBfmTD_5FldnNOT9CkDHtIJCCVYWmI4C__CvnqHjupOTdB_BkJDq7g9uDUWjezdQa_sOQeVZG_qJCXN6Nz2vLPPi843iGA/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=6280169969549092407&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJV6LUVFO9vJURN6YMRFClJ1c/photos/AWCwydg-lDhE2vSpH3MapPLRrZxy54Rb9EZLEvatx0FrH5KFftwTO_4tcQeon0Kp2cj8J7RFams_mt964tjmN5jFPM2AUoDHSpzBofMjHKxdj5L-sqB8xfi9B7NuKoLrEV3PcdU9WCExa8EmQJuZs6CvfG3qJAGh-lp0zBwFZwWWgRHr5bVOegN1tGmTA8zFp1EfzOyU1GPWiBcEC1PTCLF-NEr1pW5M54j6xA_actIJMUpQL2JQpohgs5mF1nitUY-yeLoiq7CYeA7V3sBK_UB6Z85VWjxmnxau1GW5D6LJL3R93Rq8gpig65nNDYJ4bngYXLYa5eLADjHaRchc_XfB58OwhE-w7_dB20cRzq-aTsYEADjweuLLvmwQyVj6jjFqsbIAojuxMyxn-orvo-45ZptKU7mC4D2cL5H9VWx9J0O2OgK7/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=6280169969549092407&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJV6LUVFO9vJURN6YMRFClJ1c/photos/AWCwydg1djTUZM7Ly0RQqrSqOH7RnhK2yxEoFIOPi0eVx54-0ivtqK0WNUuVS4MEqiRq7XdGZxNscKx8Om1NqtWXePVyZl_05BGuQpGp9Sr2US6lP8kXsUEq1ojNxYSVaaMwj8fsHX58hyDYEGJb9RMyGPNDcqqqBMTzstpu4SYHLLQQjJh9eEIm-7c0IIW4zTvfUcNfb7uJ9dJ5sj6CaTsCf0LcKQKgzAqkjmGt5_ENcE4r-Hfroken9mOKYGpVgBlm0EoTUqtf-ps33tQ9m5HQtIHojSflux-BUcScCLZ4NF9W1zSWBbrq7LCP6HMiF729-lzjRpElFDchxAO0PCxSSkMXtAoeV5dr332myXaF_zTXEoWSB8-JMwq5ERRoO0aNCzaerDGzihgLDj3Hr-_KHx5cWEGnzyyLKVv5zcT3Ou5Fag/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=6280169969549092407&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=6280169969549092407&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=6280169969549092407&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-27T15:08:31.478Z",
+          "notes": "Resultado automatico para \"depilacion definitiva\" en San Miguel, Buenos Aires. Segmento: estetica."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=6280169969549092407&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=6280169969549092407&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=6280169969549092407&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=6280169969549092407&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=6280169969549092407&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=6280169969549092407&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=6280169969549092407&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=6280169969549092407&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=6280169969549092407&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=6280169969549092407&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=6280169969549092407&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJIzO1u8HKvJURvt4lKV2-CBk",
+    "name": "Ymajine Group",
+    "slug": "ymajine-group",
+    "category": "Beauty Salon",
+    "is_vehicle_related": false,
+    "address": "Concejal Tribulato 1224, B1663 San Miguel, Provincia de Buenos Aires, Argentina",
+    "city": "San Miguel, Buenos Aires",
+    "neighborhood_or_area": null,
+    "phone": "011 3474-2562",
+    "opening_hours": {
+      "raw": "Monday: 1:00 – 6:30 PM | Tuesday: 9:30 AM – 7:00 PM | Wednesday: 9:30 AM – 7:00 PM | Thursday: 9:30 AM – 7:00 PM | Friday: 9:30 AM – 7:00 PM | Saturday: 9:00 AM – 7:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.3,
+      "reviews_count": 58,
+      "source_url": "https://maps.google.com/?cid=1803900958093467326&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Excelente atención del señor Diego en el sector peluquería.",
+        "author": "Erika V. Paul",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/116629088179396523507/reviews"
+      },
+      {
+        "text": "Muy buena atención, el salón es grande para mantener la distancia social cumplen con el protocolo como corresponde. Atienden con turno previo.",
+        "author": "Valentina Ayala",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/109204314731477788950/reviews"
+      },
+      {
+        "text": "Diego es el mejor colorista y estilista. Siempre cuido de no hacer desastres con mi pelo y recomendarme lo mejor Yo me atendí con el muchos ańos en el local de Av Callao. Lástima que San Miguel me queda muy lejos.",
+        "author": "Isa Argentina",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/114799351462834586878/reviews"
+      }
+    ],
+    "main_product_or_service": "cosmetologia",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJIzO1u8HKvJURvt4lKV2-CBk/photos/AWCwydg3pGgSn9Pi540y8YL60Nw6bmTXpLajdn1dOJVLx_vuS4p2OAaz7u_fHRgbGXgBQI8YInjrQabtPhEXGeBcKsCOAnBdrfXkJ0ISNpPPOBlHoc1f3ZuszyE2HpCUUZWwt9y70S4dBlTq2V5xpgy78cgHdxTPhVs7tEKk34azD9RsioGgRPFAkEcedgLR_aLav3BKYYl01dGAaIcTfve2w9_mFP_QyQo00EWfpt4iquxrc6bc7STIUGxn5wm9X-nJmeWamkz-oSAtIV4a4aIwCyI2EqJMyxHm9cTO7cG_9PT_49osZRaEoLErgiIFeCPAgqmKDSRx4wa_Y4DI7CiAtJtcn79g8he3X1Id3Dwoiwro16BPgjiN9G_pC1aNDqCf2gSDhnB9HMJaM36XR9TLZ5Z2iMG3Exh7a4oDRHQ1rLr1nw/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=1803900958093467326&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJIzO1u8HKvJURvt4lKV2-CBk/photos/AWCwydj2unm8zS9woMkZtazZSve9VNSPxGIX5YtxRZPjNCHh5qMdnKt9paDfavhJS4BvowkBgqLFYA2iMiGxjNALmdMyn0VNVFKWaOAA2tP4J7L7CtdtobCiJC2_pITnb5ZXBVCDiZa38C2XM5DWPnG-NZBv6r3m5LMQ--0Fy_z1eGpJ_-7SfoM-90rj9BfPKHA-erLNrUokPIzwhWccTpwGVWSjVTQ7UTLyJaLcITm1iY206-QwAhOJEh3gTfMGNIPS85xQnsCzLx2mcGh0Kzhm6CMqmYd_BhMkA1T1v5PhvOSds-WEafaspXeryvs3YDs7fwPwS3C0Rz6dF4M7x6OtXNuhw41k0obrQa6CqeXSLYdkfSXPiIFpAoSPPy3vAl039B_hLVH1EtUYm3A7Mi40vDdNZ5183EJBGbMyJP3GtuskgfRm/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=1803900958093467326&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJIzO1u8HKvJURvt4lKV2-CBk/photos/AWCwydgB4Z7XDHd7QFn-TSigcbxNWBZUuUtJvdidHSBAZ7WPfBPuQ2HNlTooOT1muJsFsVSKRQv_E-Ph3mlV7Ol9XbTW-uP39pO3DC8Q_-AkhmvmClo0m1hRohaFfTVjT8v22jIiT7pkmx1pR3BK7wr9Dt1ajJdOsCJUcDj73Gsn3CejWXIlqKPwNfhfZtyV4-BYczvWr4FmL685_cvgepzP76-RrurP5aQVBi6TuVt6O9VBTu6IE0CunX_0gcX_CS9Uqk9ThLLeJYNwGayg8JJaP7xtBDx2CmewQhgSV4DHLWk9IlXpHdEVk811AM8xyTyr8aR48orSuq7PIvo-xi4RRVlnrNScJGawPBqX8KmhBmqD1TrVU_DimIyoeBuH2SzTOEBX0ExVQw2uShNGdOsG0V-vmrUx-PomT0z28KRtPsoLdA/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=1803900958093467326&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=1803900958093467326&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=1803900958093467326&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-27T15:08:31.478Z",
+          "notes": "Resultado automatico para \"cosmetologia\" en San Miguel, Buenos Aires. Segmento: estetica."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=1803900958093467326&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=1803900958093467326&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=1803900958093467326&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=1803900958093467326&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=1803900958093467326&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=1803900958093467326&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=1803900958093467326&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=1803900958093467326&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=1803900958093467326&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=1803900958093467326&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=1803900958093467326&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJSzWKT-m9vJUR6s861LLGq2k",
+    "name": "Sabrina Estetic",
+    "slug": "sabrina-estetic",
+    "category": "Beauty Salon",
+    "is_vehicle_related": false,
+    "address": "Rodríguez Pena 1050, B1663 San Miguel, Provincia de Buenos Aires, Argentina",
+    "city": "San Miguel, Buenos Aires",
+    "neighborhood_or_area": null,
+    "phone": "011 5993-1393",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 8:00 PM | Tuesday: 9:00 AM – 8:00 PM | Wednesday: 9:00 AM – 8:00 PM | Thursday: 9:00 AM – 8:00 PM | Friday: 9:00 AM – 8:00 PM | Saturday: 9:00 AM – 8:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 5,
+      "reviews_count": 10,
+      "source_url": "https://maps.google.com/?cid=7614398066367057898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Hace años que vengo y todo da resultado, valores super accesibles, no la cambio por nada",
+        "author": "Rosario Garcia",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/115860909315968510466/reviews"
+      },
+      {
+        "text": "Excelente atención!!!!! Muy calidad y profesional Sabrina!!! Los tratamientos son efectivos y usan máquinas propias!!!!",
+        "author": "jorgelina travierso",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/101106370751599968261/reviews"
+      },
+      {
+        "text": "Si quieren buena atención, buena onda y resultados 100% efectivos tienen que conocer este lugar,feliz de haberlas encontrado",
+        "author": "Andrea Heredia",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/113453412992147415581/reviews"
+      }
+    ],
+    "main_product_or_service": "depilacion definitiva",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJSzWKT-m9vJUR6s861LLGq2k/photos/AWCwydhNzIUYGMjbWCYbhc5xjfbjKdg9gLCjHflOTCKLHpzdS39VOrV1soycPwlE70PGHQs1v7fmAey1pxo42AjUuuSFvlq9bYeSK0UKPKr5_7PaSjSJ0WnLgHa7Mx6ycGo3q_7-3DLIrCBIyxQajVAbEUF9Gkw22JFgg3px6vVn6UeSqpqNBcFTeKhiNowck5UxJjVN1-f5sJheAhqUCNGmSRPM9pZC1ufyVsTeV0q6vbKa2w3ob4a21ou-NgWaxIJReS6agb51Xx-fEHjkWI25jTdPT7YjoxJ0rPGx50Lat0ZB2u0tTKRzy2eUWCwa2MKHtZcO-KPMLfmBa2ZmD4p0VOGcsul7WuddcS5aX7u7kNxT3V8TWX86As0FDHd18wH4mASWscqGcwi4xBD5JhCoECJrMcNxihC1t1O6UmGLUio4TdKtXc2F96Iv5CwCmA/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=7614398066367057898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJSzWKT-m9vJUR6s861LLGq2k/photos/AWCwydhklVOmX9M16vm7IL5mfNTugbQafIBSi50GQAoiiiaywFFPhtvDS299HwSda4Yx0vVsC1L9a0UxPSQxYtyir0VIBoGutGELKC8587glAGkJ5pfo2-j0NcQn-LfD1gHwmL1GQQzVTV07Td6x0PnKv-zq3t-5_qV6E9DbgqjTu4FfX7oxUrYuWw-qXVdoHmG4bKg-hJ7R8QYrln_144eTIrSDt---UaVIgYEvx6NshaS67CuUxmoDnPg9_PRigsKzL56UWoQoPva_TkAYfaFOvhwWZHpPxmxCFo_P4cS4QfKLr6R8BXoX_641GLrliJe9N5lioZR0IBf1E8brZ3pFQwDQGqZCMMQwUvCbsR7F1e2yVUAdl52DEvqu2kVaJTWfsUmXYFc3r-TKQvWSwsVYRZNpZSzeRF9M4rNDgNis8ZJbmraI/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=7614398066367057898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJSzWKT-m9vJUR6s861LLGq2k/photos/AWCwydhjafLMbq4JEEQzFLBLTemJTDkmIKZoTk0HvUB5sIPbGESDvhj4kleuxWstfEXnfQhrwWbkKMxQzqzbxKlK14usO6Fc4cC7s8QoVvyL1kNhm3p-r_Q4FONit5ygxsgTB989E3sWFpk-0csv3KtZxmeY13yrOv_bwOeACG33z16NAjmYooCU9SmoVpfthYQSb0PDIb1ISLmWcwcYMB1XZD6TCIiEBGnbJu4KRIN3DOoekGGONqCG9LwMAqAnA9f0qrYxyX0CoLQaN-vytBeLyx_VkhR20xiW2fkCSQ3I74Wy-eOHrWVSVCkUSwANo0mnulrpr_YRQHqBjwpmeUsRGv7wVJQ_uutYKyr1Bt1hIMkkj7IXJDoo39sP9Rh_Wls8efGqD1daD5bP-S-FJclqFTdfqOEgISxDceyyG6pSpLBSa9Uq/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=7614398066367057898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=7614398066367057898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=7614398066367057898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-27T15:08:31.478Z",
+          "notes": "Resultado automatico para \"depilacion definitiva\" en San Miguel, Buenos Aires. Segmento: estetica."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=7614398066367057898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=7614398066367057898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=7614398066367057898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=7614398066367057898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=7614398066367057898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=7614398066367057898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=7614398066367057898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=7614398066367057898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=7614398066367057898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=7614398066367057898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=7614398066367057898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  }
+]
