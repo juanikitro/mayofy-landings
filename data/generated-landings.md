@@ -39,6 +39,16 @@ Listado versionado para evitar volver a investigar o generar el mismo negocio.
 | --- | --- | --- | --- | --- | --- |
 | The King Shine — Estética Vehicular | Veinticinco de Mayo | Car detailing / Lavadero | [Google Maps](<https://www.google.com/maps/place/The+KingShine/@-35.434211,-60.1737776,17z/data=!4m6!3m5!1s0x95be6128a9b72941:0x1f7d9b906c07dccb!8m2!3d-35.434211!4d-60.1737776!16s%2Fg%2F11vkp5s3dl>) · [Instagram](<https://www.instagram.com/thekingshine_/>) · [WhatsApp](<https://wa.link/g7t6b9>) · [Teléfono](<tel:2345522167>) · [Otro 1](<https://shineapp-web.vercel.app/publica/the-king-shine>) | [/king-shine/the-king-shine/](<https://mayofy.vercel.app/king-shine/the-king-shine/>) | authored |
 
+## san-miguel-alta-conversion
+
+| Negocio | Ciudad | Rubro | Links del negocio | Landing | Estado |
+| --- | --- | --- | --- | --- | --- |
+| ALTOS -food concept- | San Miguel, Buenos Aires | Restaurant | [Google Maps](<https://maps.google.com/?cid=7205717880678031614&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA>) · [Teléfono](<tel:01170845458>) · [Otro 1](<https://unsplash.com/photos/photo-1558030006-450675393462>) | [/san-miguel-alta-conversion/altos-food-concept/](<https://mayofy.vercel.app/san-miguel-alta-conversion/altos-food-concept/>) | generated |
+| Baum San Miguel | San Miguel, Buenos Aires | Bar | [Google Maps](<https://maps.google.com/?cid=5352381942134629159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA>) · [Otro 1](<https://unsplash.com/photos/photo-1669698274953-9001989b86db>) | [/san-miguel-alta-conversion/baum-san-miguel/](<https://mayofy.vercel.app/san-miguel-alta-conversion/baum-san-miguel/>) | generated |
+| Federico Eventos | San Miguel, Buenos Aires | Event Venue | [Google Maps](<https://maps.google.com/?cid=3726049373391402898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA>) · [Teléfono](<tel:01164851800>) · [Otro 1](<https://unsplash.com/photos/photo-1561593367-66c79c2294e6>) | [/san-miguel-alta-conversion/federico-eventos/](<https://mayofy.vercel.app/san-miguel-alta-conversion/federico-eventos/>) | generated |
+| Parrilla Adry | San Miguel, Buenos Aires | Fast Food Restaurant | [Google Maps](<https://maps.google.com/?cid=4400893304183108831&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA>) · [Teléfono](<tel:01138134187>) · [Otro 1](<https://unsplash.com/photos/photo-1554433607-66b5efe9d304>) | [/san-miguel-alta-conversion/parrilla-adry/](<https://mayofy.vercel.app/san-miguel-alta-conversion/parrilla-adry/>) | generated |
+| PATO'S | San Miguel, Buenos Aires | Takeout Restaurant | [Google Maps](<https://maps.google.com/?cid=8694100519632333022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA>) · [Teléfono](<tel:01144552543>) · [Otro 1](<https://unsplash.com/photos/photo-1624128082323-beb6b8b508db>) | [/san-miguel-alta-conversion/pato-s/](<https://mayofy.vercel.app/san-miguel-alta-conversion/pato-s/>) | generated |
+
 ## santiago-automotor
 
 | Negocio | Ciudad | Rubro | Links del negocio | Landing | Estado |

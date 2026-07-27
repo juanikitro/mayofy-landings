@@ -499,6 +499,161 @@
       "last_generated_at": null
     },
     {
+      "business_id": "google-ChIJ3ZENk7O9vJUR_qB-JTza_2M",
+      "place_id": "ChIJ3ZENk7O9vJUR_qB-JTza_2M",
+      "name": "ALTOS -food concept-",
+      "slug": "altos-food-concept",
+      "city": "San Miguel, Buenos Aires",
+      "address": "Belgrano 980, B1663 San Miguel, Provincia de Buenos Aires, Argentina",
+      "category": "Restaurant",
+      "phone": "011 7084-5458",
+      "run": "san-miguel-alta-conversion",
+      "status": "generated",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=7205717880678031614&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:01170845458",
+        "facebook": null,
+        "email": null,
+        "otros": [
+          "https://unsplash.com/photos/photo-1558030006-450675393462"
+        ]
+      },
+      "landing": {
+        "local_path": "generated/san-miguel-alta-conversion/altos-food-concept",
+        "public_path": "/san-miguel-alta-conversion/altos-food-concept/",
+        "public_url": "https://mayofy.vercel.app/san-miguel-alta-conversion/altos-food-concept/",
+        "frontend_source": "data/frontends/san-miguel-alta-conversion/altos-food-concept"
+      },
+      "first_generated_at": "2026-07-27T19:10:10.179Z",
+      "last_generated_at": "2026-07-27T19:10:10.179Z"
+    },
+    {
+      "business_id": "google-ChIJ9RiuJQ-9vJURJ2MmqwR7R0o",
+      "place_id": "ChIJ9RiuJQ-9vJURJ2MmqwR7R0o",
+      "name": "Baum San Miguel",
+      "slug": "baum-san-miguel",
+      "city": "San Miguel, Buenos Aires",
+      "address": "GOA, Maestro Ángel D'Elía 1145, B1663 San Miguel, Provincia de Buenos Aires, Argentina",
+      "category": "Bar",
+      "phone": null,
+      "run": "san-miguel-alta-conversion",
+      "status": "generated",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=5352381942134629159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": null,
+        "facebook": null,
+        "email": null,
+        "otros": [
+          "https://unsplash.com/photos/photo-1669698274953-9001989b86db"
+        ]
+      },
+      "landing": {
+        "local_path": "generated/san-miguel-alta-conversion/baum-san-miguel",
+        "public_path": "/san-miguel-alta-conversion/baum-san-miguel/",
+        "public_url": "https://mayofy.vercel.app/san-miguel-alta-conversion/baum-san-miguel/",
+        "frontend_source": "data/frontends/san-miguel-alta-conversion/baum-san-miguel"
+      },
+      "first_generated_at": "2026-07-27T19:10:10.179Z",
+      "last_generated_at": "2026-07-27T19:10:10.179Z"
+    },
+    {
+      "business_id": "google-ChIJ_5L2ZzmXvJURkreP5CmWtTM",
+      "place_id": "ChIJ_5L2ZzmXvJURkreP5CmWtTM",
+      "name": "Federico Eventos",
+      "slug": "federico-eventos",
+      "city": "San Miguel, Buenos Aires",
+      "address": "C. El Zonda 2249, B1663 San Miguel, Provincia de Buenos Aires, Argentina",
+      "category": "Event Venue",
+      "phone": "011 6485-1800",
+      "run": "san-miguel-alta-conversion",
+      "status": "generated",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=3726049373391402898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:01164851800",
+        "facebook": null,
+        "email": null,
+        "otros": [
+          "https://unsplash.com/photos/photo-1561593367-66c79c2294e6"
+        ]
+      },
+      "landing": {
+        "local_path": "generated/san-miguel-alta-conversion/federico-eventos",
+        "public_path": "/san-miguel-alta-conversion/federico-eventos/",
+        "public_url": "https://mayofy.vercel.app/san-miguel-alta-conversion/federico-eventos/",
+        "frontend_source": "data/frontends/san-miguel-alta-conversion/federico-eventos"
+      },
+      "first_generated_at": "2026-07-27T19:10:10.179Z",
+      "last_generated_at": "2026-07-27T19:10:10.179Z"
+    },
+    {
+      "business_id": "google-ChIJ-050yC2WvJUR37Q6qiQdEz0",
+      "place_id": "ChIJ-050yC2WvJUR37Q6qiQdEz0",
+      "name": "Parrilla Adry",
+      "slug": "parrilla-adry",
+      "city": "San Miguel, Buenos Aires",
+      "address": "1663, B1663 San Miguel, Provincia de Buenos Aires, Argentina",
+      "category": "Fast Food Restaurant",
+      "phone": "011 3813-4187",
+      "run": "san-miguel-alta-conversion",
+      "status": "generated",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=4400893304183108831&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:01138134187",
+        "facebook": null,
+        "email": null,
+        "otros": [
+          "https://unsplash.com/photos/photo-1554433607-66b5efe9d304"
+        ]
+      },
+      "landing": {
+        "local_path": "generated/san-miguel-alta-conversion/parrilla-adry",
+        "public_path": "/san-miguel-alta-conversion/parrilla-adry/",
+        "public_url": "https://mayofy.vercel.app/san-miguel-alta-conversion/parrilla-adry/",
+        "frontend_source": "data/frontends/san-miguel-alta-conversion/parrilla-adry"
+      },
+      "first_generated_at": "2026-07-27T19:10:10.179Z",
+      "last_generated_at": "2026-07-27T19:10:10.179Z"
+    },
+    {
+      "business_id": "google-ChIJ3wzoHSmWvJUR3mg5-lump3g",
+      "place_id": "ChIJ3wzoHSmWvJUR3mg5-lump3g",
+      "name": "PATO'S",
+      "slug": "pato-s",
+      "city": "San Miguel, Buenos Aires",
+      "address": "Av. Dr. Ricardo Balbín 4585, B1663NFG Gran Buenos Aires, Provincia de Buenos Aires, Argentina",
+      "category": "Takeout Restaurant",
+      "phone": "011 4455-2543",
+      "run": "san-miguel-alta-conversion",
+      "status": "generated",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=8694100519632333022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:01144552543",
+        "facebook": null,
+        "email": null,
+        "otros": [
+          "https://unsplash.com/photos/photo-1624128082323-beb6b8b508db"
+        ]
+      },
+      "landing": {
+        "local_path": "generated/san-miguel-alta-conversion/pato-s",
+        "public_path": "/san-miguel-alta-conversion/pato-s/",
+        "public_url": "https://mayofy.vercel.app/san-miguel-alta-conversion/pato-s/",
+        "frontend_source": "data/frontends/san-miguel-alta-conversion/pato-s"
+      },
+      "first_generated_at": "2026-07-27T19:10:10.179Z",
+      "last_generated_at": "2026-07-27T19:10:10.179Z"
+    },
+    {
       "business_id": "google-ChIJaWdb5QvFYpYRNC9yPxq32X4",
       "place_id": "ChIJaWdb5QvFYpYRNC9yPxq32X4",
       "name": "Infinity X Car Detail",
