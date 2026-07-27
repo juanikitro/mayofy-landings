@@ -3,11 +3,15 @@ import path from "node:path";
 import { archetypeIds, type Business } from "../content/business-schema.js";
 import { businessDatasetSchema } from "../content/business-schema.js";
 import { loadBusinesses } from "../content/load-businesses.js";
+import { landingUrl, loadRegistry, matchesRegistry } from "./generated-registry.js";
 
 type Args = {
   input: string;
   out: string;
   limit: number;
+  registryPath: string;
+  includeGenerated: boolean;
+  allowGenerated: boolean;
 };
 
 const typographyByArchetype: Record<string, { primary: string; secondary: string }> = {
@@ -51,6 +55,9 @@ function parseArgs(argv: string[]): Args {
     input: requiredValue("--input"),
     out: requiredValue("--out"),
     limit: Number(valueAfter("--limit", "10")),
+    registryPath: valueAfter("--registry", "data/generated-landings.json"),
+    includeGenerated: argv.includes("--include-generated"),
+    allowGenerated: argv.includes("--allow-generated"),
   };
 }
 
@@ -93,7 +100,22 @@ async function main(): Promise<void> {
     throw new Error(`Shortlist has ${shortlist.length} business(es), need ${args.limit}.`);
   }
 
-  const promoted = shortlist.slice(0, args.limit).map(promoteBusiness);
+  const selected = shortlist.slice(0, args.limit);
+  if (!args.allowGenerated && !args.includeGenerated) {
+    const registry = await loadRegistry(args.registryPath);
+    const existing = selected
+      .map((business) => ({ business, match: matchesRegistry(business, registry) }))
+      .filter((item) => item.match !== null);
+    if (existing.length > 0) {
+      throw new Error(
+        `Cannot promote businesses that already have a landing:\n${existing
+          .map((item) => `- ${item.business.name}: ${landingUrl(item.match!) ?? item.match!.landing.public_path}`)
+          .join("\n")}\nUse --allow-generated to force promotion.`,
+      );
+    }
+  }
+
+  const promoted = selected.map(promoteBusiness);
   const parsed = businessDatasetSchema.parse(promoted);
 
   await mkdir(path.dirname(args.out), { recursive: true });

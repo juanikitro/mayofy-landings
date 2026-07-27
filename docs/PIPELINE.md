@@ -100,7 +100,7 @@ El comando escribe:
 Promover los 10 negocios al dataset final:
 
 ```bash
-npm run promote -- --input data/intake/<run>-shortlist.json --out data/<run>-businesses.json
+npm run promote -- --input data/intake/<run>-shortlist.json --out data/<run>-businesses.json --limit 10
 npm run validate:data -- data/<run>-businesses.json
 ```
 
@@ -147,6 +147,19 @@ Variables opcionales:
 $env:LOCAL_WEB_SEARCH_MIN_RATING="4.3"
 $env:LOCAL_WEB_SEARCH_MIN_REVIEWS="10"
 ```
+
+## Registro de landings generadas
+
+`data/generated-landings.json` es la fuente versionada para saber qué negocios ya tienen landing; `data/generated-landings.md` es su listado legible. El registro se construye desde los datasets aprobados, los site specs y los manifests disponibles, por lo que no depende solo de `generated/`, que no se versiona.
+
+```bash
+npm run registry:sync
+npm run registry:sync -- --check
+```
+
+La busqueda y el shortlist consultan el registro por defecto y se puede cambiar con `--registry <path>`. Para incluir a propósito negocios ya registrados, pasar `--include-generated`; `promote` mantiene un bloqueo duro y requiere `--allow-generated` para forzar la promocion. Luego `generate` actualiza por merge las entradas de la tanda y conserva su primera fecha de generacion. Usar esos escapes solo al rehacer una landing conocida.
+
+`registry:sync --check` sirve para CI: falla si el JSON o el listado Markdown quedaron desactualizados. Cuando un manifest no existe en el entorno, el registro conserva una entrada previamente marcada como `generated` en lugar de perder la evidencia por la ausencia del artefacto ignorado.
 
 ## Fase 4: frontend de agente
 
