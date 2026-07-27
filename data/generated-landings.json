@@ -1,0 +1,879 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "business_id": "google-ChIJ03sUl4uhvJURSTqoLihfDxg",
+      "place_id": "ChIJ03sUl4uhvJURSTqoLihfDxg",
+      "name": "CALDERAS YA !!! SERVICE 24 Hs.",
+      "slug": "calderas-ya-service-24-hs",
+      "city": "Benavidez",
+      "address": "Blvd. de Todos los Santos 100, B1623 Benavidez, Provincia de Buenos Aires, Argentina",
+      "category": "General Contractor",
+      "phone": "011 3356-8147",
+      "run": "amba-alta-conversion",
+      "status": "authored",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=1733709007747037769&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:01133568147",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/amba-alta-conversion/calderas-ya-service-24-hs",
+        "public_path": "/amba-alta-conversion/calderas-ya-service-24-hs/",
+        "public_url": null,
+        "frontend_source": "data/frontends/amba-alta-conversion/calderas-ya-service-24-hs"
+      },
+      "first_generated_at": null,
+      "last_generated_at": null
+    },
+    {
+      "business_id": "google-ChIJzZkh1FDLvJURuhG8Q3bE5uc",
+      "place_id": "ChIJzZkh1FDLvJURuhG8Q3bE5uc",
+      "name": "Cerrajería La Madrileña",
+      "slug": "cerrajeria-la-madrilena",
+      "city": "Cdad. Autónoma de Buenos Aires",
+      "address": "Tacuarí 790, C1071 Cdad. Autónoma de Buenos Aires, Argentina",
+      "category": "Locksmith",
+      "phone": "011 5908-8773",
+      "run": "amba-alta-conversion",
+      "status": "authored",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=16710259479626387898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:01159088773",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/amba-alta-conversion/cerrajeria-la-madrilena",
+        "public_path": "/amba-alta-conversion/cerrajeria-la-madrilena/",
+        "public_url": null,
+        "frontend_source": "data/frontends/amba-alta-conversion/cerrajeria-la-madrilena"
+      },
+      "first_generated_at": null,
+      "last_generated_at": null
+    },
+    {
+      "business_id": "google-ChIJfyiFOQDLvJUR7uLOvjE8YU4",
+      "place_id": "ChIJfyiFOQDLvJUR7uLOvjE8YU4",
+      "name": "Depilación Definitiva (Guapísimas Depilación)",
+      "slug": "depilacion-definitiva-guapisimas-depilacion",
+      "city": "Cdad. Autónoma de Buenos Aires",
+      "address": "Charcas 3371, C1425 Cdad. Autónoma de Buenos Aires, Argentina",
+      "category": "Medical Clinic",
+      "phone": "011 2276-0979",
+      "run": "amba-alta-conversion",
+      "status": "authored",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=5647861592051606254&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:01122760979",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/amba-alta-conversion/depilacion-definitiva-guapisimas-depilacion",
+        "public_path": "/amba-alta-conversion/depilacion-definitiva-guapisimas-depilacion/",
+        "public_url": null,
+        "frontend_source": "data/frontends/amba-alta-conversion/depilacion-definitiva-guapisimas-depilacion"
+      },
+      "first_generated_at": null,
+      "last_generated_at": null
+    },
+    {
+      "business_id": "google-ChIJW3ukkESHGpYRuNvepYeDAmo",
+      "place_id": "ChIJW3ukkESHGpYRuNvepYeDAmo",
+      "name": "Alquiler Ropa Para Nieve",
+      "slug": "alquiler-ropa-para-nieve",
+      "city": "San Carlos de Bariloche",
+      "address": "Las Americas 359, R8402 Dina Huapi, Río Negro, Argentina",
+      "category": "Clothing Store",
+      "phone": "0294 453-0283",
+      "run": "bariloche-ski",
+      "status": "authored",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=7638812536600452024&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:02944530283",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/bariloche-ski/alquiler-ropa-para-nieve",
+        "public_path": "/bariloche-ski/alquiler-ropa-para-nieve/",
+        "public_url": null,
+        "frontend_source": "data/frontends/bariloche-ski/alquiler-ropa-para-nieve"
+      },
+      "first_generated_at": null,
+      "last_generated_at": null
+    },
+    {
+      "business_id": "google-ChIJWULyUB97GpYRZ0GUFdvs8mM",
+      "place_id": "ChIJWULyUB97GpYRZ0GUFdvs8mM",
+      "name": "Aluguel Ropa para nieve",
+      "slug": "aluguel-ropa-para-nieve",
+      "city": "San Carlos de Bariloche",
+      "address": "Libertad 290 Loc 9, R8400 San Carlos de Bariloche, Río Negro, Argentina",
+      "category": "Services",
+      "phone": "0294 590-6607",
+      "run": "bariloche-ski",
+      "status": "authored",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=7202079179822874983&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:02945906607",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/bariloche-ski/aluguel-ropa-para-nieve",
+        "public_path": "/bariloche-ski/aluguel-ropa-para-nieve/",
+        "public_url": null,
+        "frontend_source": "data/frontends/bariloche-ski/aluguel-ropa-para-nieve"
+      },
+      "first_generated_at": null,
+      "last_generated_at": null
+    },
+    {
+      "business_id": "google-ChIJi7WvSQBxGpYRH3RIELkAnrw",
+      "place_id": "ChIJi7WvSQBxGpYRH3RIELkAnrw",
+      "name": "Bari Snow",
+      "slug": "bari-snow",
+      "city": "San Carlos de Bariloche",
+      "address": "Francisco de Biedma 55, R8400 San Carlos de Bariloche, Río Negro, Argentina",
+      "category": "Store",
+      "phone": "0294 421-2523",
+      "run": "bariloche-ski",
+      "status": "authored",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=13591301520292869151&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:02944212523",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/bariloche-ski/bari-snow",
+        "public_path": "/bariloche-ski/bari-snow/",
+        "public_url": null,
+        "frontend_source": "data/frontends/bariloche-ski/bari-snow"
+      },
+      "first_generated_at": null,
+      "last_generated_at": null
+    },
+    {
+      "business_id": "google-ChIJLbC7y3V7GpYRqK2niuemXbQ",
+      "place_id": "ChIJLbC7y3V7GpYRqK2niuemXbQ",
+      "name": "El Russo Rental",
+      "slug": "el-russo-rental",
+      "city": "San Carlos de Bariloche",
+      "address": "Palacios 222 Local 18/19/20/21, R8400 San Carlos de Bariloche, Río Negro, Argentina",
+      "category": "Services",
+      "phone": "0294 466-1318",
+      "run": "bariloche-ski",
+      "status": "authored",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=12996727613055020456&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:02944661318",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/bariloche-ski/el-russo-rental",
+        "public_path": "/bariloche-ski/el-russo-rental/",
+        "public_url": null,
+        "frontend_source": "data/frontends/bariloche-ski/el-russo-rental"
+      },
+      "first_generated_at": null,
+      "last_generated_at": null
+    },
+    {
+      "business_id": "google-ChIJC6B38shxGpYRL1Pr4RpX5nk",
+      "place_id": "ChIJC6B38shxGpYRL1Pr4RpX5nk",
+      "name": "Epic Bariloche",
+      "slug": "epic-bariloche",
+      "city": "San Carlos de Bariloche",
+      "address": "R8400 San Carlos de Bariloche, Río Negro Province, Argentina",
+      "category": "Services",
+      "phone": "03543 15-60-6807",
+      "run": "bariloche-ski",
+      "status": "authored",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=8783803896203793199&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:0354315606807",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/bariloche-ski/epic-bariloche",
+        "public_path": "/bariloche-ski/epic-bariloche/",
+        "public_url": null,
+        "frontend_source": "data/frontends/bariloche-ski/epic-bariloche"
+      },
+      "first_generated_at": null,
+      "last_generated_at": null
+    },
+    {
+      "business_id": "google-ChIJH8JeX0NxGpYRd2b79AeyPpc",
+      "place_id": "ChIJH8JeX0NxGpYRd2b79AeyPpc",
+      "name": "Nestor Ski",
+      "slug": "nestor-ski",
+      "city": "San Carlos de Bariloche",
+      "address": "Frente a plaza Catalina Reynal, Base, Acceso A Cerro Catedral, R8400 San Carlos de Bariloche, Río Negro, Argentina",
+      "category": "Services",
+      "phone": "0294 460-9302",
+      "run": "bariloche-ski",
+      "status": "authored",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=10898343895527810679&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:02944609302",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/bariloche-ski/nestor-ski",
+        "public_path": "/bariloche-ski/nestor-ski/",
+        "public_url": null,
+        "frontend_source": "data/frontends/bariloche-ski/nestor-ski"
+      },
+      "first_generated_at": null,
+      "last_generated_at": null
+    },
+    {
+      "business_id": "google-ChIJaUSB-G17GpYRB7RJDo88-1M",
+      "place_id": "ChIJaUSB-G17GpYRB7RJDo88-1M",
+      "name": "Sandrik - Alquiler ropa nieve",
+      "brand_name": "Sandrik",
+      "slug": "sandrik-alquiler-ropa-nieve",
+      "city": "San Carlos de Bariloche",
+      "address": "Sargento A. Rolando 277, San Martín 297, R8400 San Carlos de Bariloche, Río Negro, Argentina",
+      "category": "Clothing Store",
+      "phone": "0294 466-1332",
+      "run": "bariloche-ski",
+      "status": "authored",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=6051497109420094471&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:02944661332",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/bariloche-ski/sandrik-alquiler-ropa-nieve",
+        "public_path": "/bariloche-ski/sandrik-alquiler-ropa-nieve/",
+        "public_url": null,
+        "frontend_source": "data/frontends/bariloche-ski/sandrik-alquiler-ropa-nieve"
+      },
+      "first_generated_at": null,
+      "last_generated_at": null
+    },
+    {
+      "business_id": "google-ChIJf4qhOgx7GpYREEzF6DsyzHk",
+      "place_id": "ChIJf4qhOgx7GpYREEzF6DsyzHk",
+      "name": "SRN.Rental Alquiler de Ropa de nieve - Ski & snowboard",
+      "brand_name": "SRN Rental",
+      "slug": "srn-rental-alquiler-de-ropa-de-nieve-ski-snowboard",
+      "city": "San Carlos de Bariloche",
+      "address": "Av. de los Pioneros 3757, R8400 San Carlos de Bariloche, Río Negro, Argentina",
+      "category": "Services",
+      "phone": "0294 15-433-8535",
+      "run": "bariloche-ski",
+      "status": "authored",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=8776445006727957520&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:0294154338535",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/bariloche-ski/srn-rental-alquiler-de-ropa-de-nieve-ski-snowboard",
+        "public_path": "/bariloche-ski/srn-rental-alquiler-de-ropa-de-nieve-ski-snowboard/",
+        "public_url": null,
+        "frontend_source": "data/frontends/bariloche-ski/srn-rental-alquiler-de-ropa-de-nieve-ski-snowboard"
+      },
+      "first_generated_at": null,
+      "last_generated_at": null
+    },
+    {
+      "business_id": "google-ChIJYxh23nF7GpYR7AY6HnN37w0",
+      "place_id": "ChIJYxh23nF7GpYR7AY6HnN37w0",
+      "name": "Tierra de Mestizos Rental",
+      "slug": "tierra-de-mestizos-rental",
+      "city": "San Carlos de Bariloche",
+      "address": "Francisco Pascasio Moreno 262, R8400 San Carlos de Bariloche, Río Negro, Argentina",
+      "category": "Services",
+      "phone": "0294 479-1637",
+      "run": "bariloche-ski",
+      "status": "authored",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=1004152578238973676&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:02944791637",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/bariloche-ski/tierra-de-mestizos-rental",
+        "public_path": "/bariloche-ski/tierra-de-mestizos-rental/",
+        "public_url": null,
+        "frontend_source": "data/frontends/bariloche-ski/tierra-de-mestizos-rental"
+      },
+      "first_generated_at": null,
+      "last_generated_at": null
+    },
+    {
+      "business_id": "google-ChIJ4fkyfGB6GpYRf63Rv3ucqYs",
+      "place_id": "ChIJ4fkyfGB6GpYRf63Rv3ucqYs",
+      "name": "Travesías Ropa De Nieve",
+      "slug": "travesias-ropa-de-nieve",
+      "city": "San Carlos de Bariloche",
+      "address": "Av. de los Pioneros 4567, R8400 San Carlos de Bariloche, Río Negro, Argentina",
+      "category": "Clothing Store",
+      "phone": "0294 441-4490",
+      "run": "bariloche-ski",
+      "status": "authored",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=10063746897649184127&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:02944414490",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/bariloche-ski/travesias-ropa-de-nieve",
+        "public_path": "/bariloche-ski/travesias-ropa-de-nieve/",
+        "public_url": null,
+        "frontend_source": "data/frontends/bariloche-ski/travesias-ropa-de-nieve"
+      },
+      "first_generated_at": null,
+      "last_generated_at": null
+    },
+    {
+      "business_id": "google-ChIJWVVlan-jMpQRYjdNl9aOKds",
+      "place_id": "ChIJWVVlan-jMpQRYjdNl9aOKds",
+      "name": "Autocentro CarDetail",
+      "slug": "autocentro-cardetail",
+      "city": "Córdoba",
+      "address": "Puvr Olimpia 1851, X5000 Córdoba, Argentina",
+      "category": "negocio local",
+      "phone": "0351 15-265-8259",
+      "run": "cordoba-conversion",
+      "status": "authored",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=15792310620663920482&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:0351152658259",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/cordoba-conversion/autocentro-cardetail",
+        "public_path": "/cordoba-conversion/autocentro-cardetail/",
+        "public_url": null,
+        "frontend_source": "data/frontends/cordoba-conversion/autocentro-cardetail"
+      },
+      "first_generated_at": null,
+      "last_generated_at": null
+    },
+    {
+      "business_id": "google-ChIJqyfxNjmZMpQRdiRnTRv5uXY",
+      "place_id": "ChIJqyfxNjmZMpQRdiRnTRv5uXY",
+      "name": "Lubricentro Power Ful II",
+      "slug": "lubricentro-power-ful-ii",
+      "city": "Córdoba",
+      "address": "Manuel Cardeñosa 3875, X5009EXU Córdoba, Argentina",
+      "category": "Car repair and maintenance service",
+      "phone": "0351 351-7691",
+      "run": "cordoba-conversion",
+      "status": "authored",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=8555142862825006198&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:03513517691",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/cordoba-conversion/lubricentro-power-ful-ii",
+        "public_path": "/cordoba-conversion/lubricentro-power-ful-ii/",
+        "public_url": null,
+        "frontend_source": "data/frontends/cordoba-conversion/lubricentro-power-ful-ii"
+      },
+      "first_generated_at": null,
+      "last_generated_at": null
+    },
+    {
+      "business_id": "google-ChIJCURt-D6YMpQRtFgR9fQuZXY",
+      "place_id": "ChIJCURt-D6YMpQRtFgR9fQuZXY",
+      "name": "Taller SR. Chapa y pintura",
+      "slug": "taller-sr-chapa-y-pintura",
+      "city": "Córdoba",
+      "address": "Juan de Santiso y Moscoso 760, X5000 Córdoba, Argentina",
+      "category": "Car repair and maintenance service",
+      "phone": "0351 549-1346",
+      "run": "cordoba-conversion",
+      "status": "authored",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=8531276698741725364&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:03515491346",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/cordoba-conversion/taller-sr-chapa-y-pintura",
+        "public_path": "/cordoba-conversion/taller-sr-chapa-y-pintura/",
+        "public_url": null,
+        "frontend_source": "data/frontends/cordoba-conversion/taller-sr-chapa-y-pintura"
+      },
+      "first_generated_at": null,
+      "last_generated_at": null
+    },
+    {
+      "business_id": "google-thekingshine-g11vkp5s3dl",
+      "place_id": "thekingshine-g11vkp5s3dl",
+      "name": "The King Shine — Estética Vehicular",
+      "slug": "the-king-shine",
+      "city": "Veinticinco de Mayo",
+      "address": "Calle 11 entre 25 y 26, B6660 Veinticinco de Mayo, Provincia de Buenos Aires",
+      "category": "Car detailing / Lavadero",
+      "phone": "2345 52-2167",
+      "run": "king-shine",
+      "status": "authored",
+      "business_links": {
+        "google_maps": "https://www.google.com/maps/place/The+KingShine/@-35.434211,-60.1737776,17z/data=!4m6!3m5!1s0x95be6128a9b72941:0x1f7d9b906c07dccb!8m2!3d-35.434211!4d-60.1737776!16s%2Fg%2F11vkp5s3dl",
+        "instagram": "https://www.instagram.com/thekingshine_/",
+        "whatsapp": "https://wa.link/g7t6b9",
+        "phone": "tel:2345522167",
+        "facebook": null,
+        "email": null,
+        "otros": [
+          "https://shineapp-web.vercel.app/publica/the-king-shine"
+        ]
+      },
+      "landing": {
+        "local_path": "generated/king-shine/the-king-shine",
+        "public_path": "/king-shine/the-king-shine/",
+        "public_url": null,
+        "frontend_source": "data/frontends/king-shine/the-king-shine"
+      },
+      "first_generated_at": null,
+      "last_generated_at": null
+    },
+    {
+      "business_id": "google-ChIJaWdb5QvFYpYRNC9yPxq32X4",
+      "place_id": "ChIJaWdb5QvFYpYRNC9yPxq32X4",
+      "name": "Infinity X Car Detail",
+      "slug": "infinity-x-car-detail",
+      "city": "Santiago de Chile",
+      "address": "Manuel Barrios 6050, 7560369 Las Condes, Región Metropolitana, Chile",
+      "category": "Sporting Goods Store",
+      "phone": "9 4935 0078",
+      "run": "santiago-automotor",
+      "status": "authored",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=9140538242086612788&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:949350078",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/santiago-automotor/infinity-x-car-detail",
+        "public_path": "/santiago-automotor/infinity-x-car-detail/",
+        "public_url": null,
+        "frontend_source": "data/frontends/santiago-automotor/infinity-x-car-detail"
+      },
+      "first_generated_at": null,
+      "last_generated_at": null
+    },
+    {
+      "business_id": "google-ChIJQ7Uje3LFYpYRHo1MUdeq4WU",
+      "place_id": "ChIJQ7Uje3LFYpYRHo1MUdeq4WU",
+      "name": "Lavado de autos El Cafetero 2",
+      "slug": "lavado-de-autos-el-cafetero-2",
+      "city": "Santiago de Chile",
+      "address": "San Isidro 827, 8330729 Santiago, Región Metropolitana, Chile",
+      "category": "Car Wash",
+      "phone": "9 9065 4600",
+      "run": "santiago-automotor",
+      "status": "authored",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=7341336709349281054&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:990654600",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/santiago-automotor/lavado-de-autos-el-cafetero-2",
+        "public_path": "/santiago-automotor/lavado-de-autos-el-cafetero-2/",
+        "public_url": null,
+        "frontend_source": "data/frontends/santiago-automotor/lavado-de-autos-el-cafetero-2"
+      },
+      "first_generated_at": null,
+      "last_generated_at": null
+    },
+    {
+      "business_id": "google-ChIJx3dSsZjFYpYR9-uj3z7VQdw",
+      "place_id": "ChIJx3dSsZjFYpYR9-uj3z7VQdw",
+      "name": "VAPOR CAR",
+      "slug": "vapor-car",
+      "city": "Santiago de Chile",
+      "address": "Av. Vicuña Mackenna 665, 8330435 Santiago, Región Metropolitana, Chile",
+      "category": "Car Wash",
+      "phone": "9 5246 9350",
+      "run": "santiago-automotor",
+      "status": "authored",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=15871201027847089143&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:952469350",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/santiago-automotor/vapor-car",
+        "public_path": "/santiago-automotor/vapor-car/",
+        "public_url": null,
+        "frontend_source": "data/frontends/santiago-automotor/vapor-car"
+      },
+      "first_generated_at": null,
+      "last_generated_at": null
+    },
+    {
+      "business_id": "google-ChIJ0xPlavcfkZURPlVFKnFXVHw",
+      "place_id": "ChIJ0xPlavcfkZURPlVFKnFXVHw",
+      "name": "BILOBA CENTRO DE ESTÉTICA",
+      "slug": "biloba-centro-de-estetica",
+      "city": "Tandil",
+      "address": "4 de Abril 795, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+      "category": "Beauty Salon",
+      "phone": "0249 460-5835",
+      "run": "tandil",
+      "status": "authored",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=8958881702298867006&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:02494605835",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/tandil/biloba-centro-de-estetica",
+        "public_path": "/tandil/biloba-centro-de-estetica/",
+        "public_url": null,
+        "frontend_source": "data/frontends/tandil/biloba-centro-de-estetica"
+      },
+      "first_generated_at": null,
+      "last_generated_at": null
+    },
+    {
+      "business_id": "google-ChIJu415AgAfkZURQtF3szbPeLA",
+      "place_id": "ChIJu415AgAfkZURQtF3szbPeLA",
+      "name": "Biodent Odontologia Tandil - Dra Valeria Guzzanti",
+      "slug": "biodent-odontologia-tandil-dra-valeria-guzzanti",
+      "city": "Tandil",
+      "address": "Montevideo 1475, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+      "category": "Dental Clinic",
+      "phone": "0249 436-9999",
+      "run": "tandil",
+      "status": "authored",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=12716141381726753090&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:02494369999",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/tandil/biodent-odontologia-tandil-dra-valeria-guzzanti",
+        "public_path": "/tandil/biodent-odontologia-tandil-dra-valeria-guzzanti/",
+        "public_url": null,
+        "frontend_source": "data/frontends/tandil/biodent-odontologia-tandil-dra-valeria-guzzanti"
+      },
+      "first_generated_at": null,
+      "last_generated_at": null
+    },
+    {
+      "business_id": "google-ChIJkftE_pgfkZUR1ceDCua7tUI",
+      "place_id": "ChIJkftE_pgfkZUR1ceDCua7tUI",
+      "name": "Cerrajeria Zuzulich",
+      "slug": "cerrajeria-zuzulich",
+      "city": "Tandil",
+      "address": "Belgrano 129, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+      "category": "Locksmith",
+      "phone": "0249 449-8213",
+      "run": "tandil",
+      "status": "authored",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:02494498213",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/tandil/cerrajeria-zuzulich",
+        "public_path": "/tandil/cerrajeria-zuzulich/",
+        "public_url": null,
+        "frontend_source": "data/frontends/tandil/cerrajeria-zuzulich"
+      },
+      "first_generated_at": null,
+      "last_generated_at": null
+    },
+    {
+      "business_id": "google-ChIJk1ED8JMfkZUR4cft0k-WAYU",
+      "place_id": "ChIJk1ED8JMfkZUR4cft0k-WAYU",
+      "name": "Consultorio Veterinario Fernandez",
+      "slug": "consultorio-veterinario-fernandez",
+      "city": "Tandil",
+      "address": "Gral. Paz 542, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+      "category": "Veterinary Care",
+      "phone": "0249 444-4777",
+      "run": "tandil",
+      "status": "authored",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:02494444777",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/tandil/consultorio-veterinario-fernandez",
+        "public_path": "/tandil/consultorio-veterinario-fernandez/",
+        "public_url": null,
+        "frontend_source": "data/frontends/tandil/consultorio-veterinario-fernandez"
+      },
+      "first_generated_at": null,
+      "last_generated_at": null
+    },
+    {
+      "business_id": "google-ChIJV8MZl586M0oRTgGUHoBVWss",
+      "place_id": "ChIJV8MZl586M0oRTgGUHoBVWss",
+      "name": "Electricista Dario Gerez",
+      "slug": "electricista-dario-gerez",
+      "city": "Tandil",
+      "address": "Chacabuco 1235, C7000 Tandil, Provincia de Buenos Aires, Argentina",
+      "category": "Electrician",
+      "phone": "0249 460-5301",
+      "run": "tandil",
+      "status": "authored",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=14653118346360521038&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:02494605301",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/tandil/electricista-dario-gerez",
+        "public_path": "/tandil/electricista-dario-gerez/",
+        "public_url": null,
+        "frontend_source": "data/frontends/tandil/electricista-dario-gerez"
+      },
+      "first_generated_at": null,
+      "last_generated_at": null
+    },
+    {
+      "business_id": "google-ChIJrfGdiJsfkZURT-mTqsAYjKQ",
+      "place_id": "ChIJrfGdiJsfkZURT-mTqsAYjKQ",
+      "name": "Estudio Bertucci Abogados",
+      "slug": "estudio-bertucci-abogados",
+      "city": "Tandil",
+      "address": "Alberdi 828, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+      "category": "Consultant",
+      "phone": "0249 411-6653",
+      "run": "tandil",
+      "status": "authored",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=11856879134734281039&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:02494116653",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/tandil/estudio-bertucci-abogados",
+        "public_path": "/tandil/estudio-bertucci-abogados/",
+        "public_url": null,
+        "frontend_source": "data/frontends/tandil/estudio-bertucci-abogados"
+      },
+      "first_generated_at": null,
+      "last_generated_at": null
+    },
+    {
+      "business_id": "google-ChIJ6XJGlusfkZURy1XJPcng-yM",
+      "place_id": "ChIJ6XJGlusfkZURy1XJPcng-yM",
+      "name": "María y Sol Peluquería",
+      "slug": "maria-y-sol-peluqueria",
+      "city": "Tandil",
+      "address": "11 de Septiembre 388, B7000BHH Tandil, Provincia de Buenos Aires, Argentina",
+      "category": "Hair Salon",
+      "phone": "0249 454-4542",
+      "run": "tandil",
+      "status": "authored",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=2592913165411505611&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:02494544542",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/tandil/maria-y-sol-peluqueria",
+        "public_path": "/tandil/maria-y-sol-peluqueria/",
+        "public_url": null,
+        "frontend_source": "data/frontends/tandil/maria-y-sol-peluqueria"
+      },
+      "first_generated_at": null,
+      "last_generated_at": null
+    },
+    {
+      "business_id": "google-ChIJUU2JcPwhkZURtjC3M7AJU7s",
+      "place_id": "ChIJUU2JcPwhkZURtjC3M7AJU7s",
+      "name": "OX Sports",
+      "slug": "ox-sports",
+      "city": "Tandil",
+      "address": "Gral. Rodríguez 1649, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+      "category": "Gym",
+      "phone": "0249 437-3891",
+      "run": "tandil",
+      "status": "authored",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=13498143160546046134&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:02494373891",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/tandil/ox-sports",
+        "public_path": "/tandil/ox-sports/",
+        "public_url": null,
+        "frontend_source": "data/frontends/tandil/ox-sports"
+      },
+      "first_generated_at": null,
+      "last_generated_at": null
+    },
+    {
+      "business_id": "google-ChIJJxVwIvsfkZURLdbl6BbEd1E",
+      "place_id": "ChIJJxVwIvsfkZURLdbl6BbEd1E",
+      "name": "Petrogas Glp",
+      "slug": "petrogas-glp",
+      "city": "Tandil",
+      "address": "Tierra del Fuego 1355, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+      "category": "Manufacturer",
+      "phone": "0249 449-4068",
+      "run": "tandil",
+      "status": "authored",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=5870376241976432173&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:02494494068",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/tandil/petrogas-glp",
+        "public_path": "/tandil/petrogas-glp/",
+        "public_url": null,
+        "frontend_source": "data/frontends/tandil/petrogas-glp"
+      },
+      "first_generated_at": null,
+      "last_generated_at": null
+    },
+    {
+      "business_id": "google-ChIJu-M1JiwfkZURnNgTvQiDxog",
+      "place_id": "ChIJu-M1JiwfkZURnNgTvQiDxog",
+      "name": "Plomero Gasista Mauro Veron",
+      "slug": "plomero-gasista-mauro-veron",
+      "city": "Tandil",
+      "address": "Primera Junta 1507, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+      "category": "Plumber",
+      "phone": "0249 451-4325",
+      "run": "tandil",
+      "status": "authored",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=9855708908102080668&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": null,
+        "whatsapp": null,
+        "phone": "tel:02494514325",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/tandil/plomero-gasista-mauro-veron",
+        "public_path": "/tandil/plomero-gasista-mauro-veron/",
+        "public_url": null,
+        "frontend_source": "data/frontends/tandil/plomero-gasista-mauro-veron"
+      },
+      "first_generated_at": null,
+      "last_generated_at": null
+    }
+  ]
+}

@@ -11,6 +11,7 @@
     "research:instagram": "tsx src/research/enrich-instagram.ts",
     "shortlist": "tsx src/research/shortlist-businesses.ts",
     "promote": "tsx src/research/promote-shortlist.ts",
+    "registry:sync": "tsx src/research/sync-generated-registry.ts",
     "agent:briefs": "tsx scripts/create-agent-briefs.ts",
     "validate:specs": "tsx src/site-specs/validate-site-specs.ts",
     "compose:local": "tsx src/site-specs/compose-site-specs.ts --provider local",
