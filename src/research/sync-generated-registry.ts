@@ -1,7 +1,7 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { flagValue } from "../generated-output.js";
-import { buildRegistry, loadRegistry, renderRegistryJson, renderRegistryMarkdown } from "./generated-registry.js";
+import { buildRegistry, defaultPublicBaseUrl, loadRegistry, renderRegistryJson, renderRegistryMarkdown } from "./generated-registry.js";
 
 type Args = {
   out: string;
@@ -20,7 +20,7 @@ function parseArgs(argv: string[]): Args {
     out: flagValue(argv, "--out", path.join("data", "generated-landings.json")) ?? path.join("data", "generated-landings.json"),
     dataDir: flagValue(argv, "--data-dir", "data") ?? "data",
     generatedDir: flagValue(argv, "--generated-dir", "generated") ?? "generated",
-    baseUrl: flagValue(argv, "--base-url"),
+    baseUrl: flagValue(argv, "--base-url", defaultPublicBaseUrl),
     check: argv.includes("--check"),
   };
 }

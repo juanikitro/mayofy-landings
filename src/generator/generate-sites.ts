@@ -7,6 +7,7 @@ import { resolveDesign } from "../design/palette.js";
 import { flagValue, resolveGeneratedDir } from "../generated-output.js";
 import {
   buildRegistryEntry,
+  defaultPublicBaseUrl,
   loadRegistry,
   matchesRegistry,
   mergeGeneratedEntries,
@@ -30,6 +31,7 @@ type Args = {
   requireAgentFrontends: boolean;
   requireDesignBrief: boolean;
   registryPath: string;
+  baseUrl: string | null;
   noRegistry: boolean;
 };
 
@@ -64,6 +66,7 @@ function parseArgs(argv: string[]): Args {
     requireAgentFrontends: argv.includes("--require-agent-frontends"),
     requireDesignBrief: argv.includes("--require-design-brief"),
     registryPath: flagValue(argv, "--registry", path.join("data", "generated-landings.json")) ?? path.join("data", "generated-landings.json"),
+    baseUrl: flagValue(argv, "--base-url", defaultPublicBaseUrl),
     noRegistry: argv.includes("--no-registry"),
   };
 }
@@ -75,7 +78,7 @@ function datasetPathFromArgs(argv: string[]): string {
       continue;
     }
 
-    if (["--out", "--session", "--run", "--specs", "--city", "--registry"].includes(value)) {
+    if (["--out", "--session", "--run", "--specs", "--city", "--registry", "--base-url"].includes(value)) {
       index += 1;
       continue;
     }
@@ -311,6 +314,7 @@ async function updateGeneratedRegistry(
         business,
         run,
         generatedDir: path.dirname(args.outDir),
+        baseUrl: args.baseUrl,
         frontendSource: spec?.agent_frontend?.source_dir ?? manifestSite?.agent_frontend_source ?? null,
         hasManifest: Boolean(manifestSite),
         previousEntry: matchesRegistry(business, previous),

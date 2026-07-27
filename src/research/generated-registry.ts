@@ -5,6 +5,9 @@ import { approvedBusinesses, loadBusinesses } from "../content/load-businesses.j
 import type { Business } from "../content/business-schema.js";
 import { loadSiteSpecs } from "../site-specs/load-site-specs.js";
 
+// Single Vercel project publishing every landing as /<run>/<slug>/, same base the final study uses.
+export const defaultPublicBaseUrl = "https://mayofy.vercel.app";
+
 export const generatedLandingStatusSchema = z.enum(["planned", "authored", "generated"]);
 
 export const businessLinksSchema = z.object({

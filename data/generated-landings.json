@@ -24,7 +24,7 @@
       "landing": {
         "local_path": "generated/amba-alta-conversion/calderas-ya-service-24-hs",
         "public_path": "/amba-alta-conversion/calderas-ya-service-24-hs/",
-        "public_url": null,
+        "public_url": "https://mayofy.vercel.app/amba-alta-conversion/calderas-ya-service-24-hs/",
         "frontend_source": "data/frontends/amba-alta-conversion/calderas-ya-service-24-hs"
       },
       "first_generated_at": null,
@@ -53,7 +53,7 @@
       "landing": {
         "local_path": "generated/amba-alta-conversion/cerrajeria-la-madrilena",
         "public_path": "/amba-alta-conversion/cerrajeria-la-madrilena/",
-        "public_url": null,
+        "public_url": "https://mayofy.vercel.app/amba-alta-conversion/cerrajeria-la-madrilena/",
         "frontend_source": "data/frontends/amba-alta-conversion/cerrajeria-la-madrilena"
       },
       "first_generated_at": null,
@@ -82,7 +82,7 @@
       "landing": {
         "local_path": "generated/amba-alta-conversion/depilacion-definitiva-guapisimas-depilacion",
         "public_path": "/amba-alta-conversion/depilacion-definitiva-guapisimas-depilacion/",
-        "public_url": null,
+        "public_url": "https://mayofy.vercel.app/amba-alta-conversion/depilacion-definitiva-guapisimas-depilacion/",
         "frontend_source": "data/frontends/amba-alta-conversion/depilacion-definitiva-guapisimas-depilacion"
       },
       "first_generated_at": null,
@@ -111,7 +111,7 @@
       "landing": {
         "local_path": "generated/bariloche-ski/alquiler-ropa-para-nieve",
         "public_path": "/bariloche-ski/alquiler-ropa-para-nieve/",
-        "public_url": null,
+        "public_url": "https://mayofy.vercel.app/bariloche-ski/alquiler-ropa-para-nieve/",
         "frontend_source": "data/frontends/bariloche-ski/alquiler-ropa-para-nieve"
       },
       "first_generated_at": null,
@@ -140,7 +140,7 @@
       "landing": {
         "local_path": "generated/bariloche-ski/aluguel-ropa-para-nieve",
         "public_path": "/bariloche-ski/aluguel-ropa-para-nieve/",
-        "public_url": null,
+        "public_url": "https://mayofy.vercel.app/bariloche-ski/aluguel-ropa-para-nieve/",
         "frontend_source": "data/frontends/bariloche-ski/aluguel-ropa-para-nieve"
       },
       "first_generated_at": null,
@@ -169,7 +169,7 @@
       "landing": {
         "local_path": "generated/bariloche-ski/bari-snow",
         "public_path": "/bariloche-ski/bari-snow/",
-        "public_url": null,
+        "public_url": "https://mayofy.vercel.app/bariloche-ski/bari-snow/",
         "frontend_source": "data/frontends/bariloche-ski/bari-snow"
       },
       "first_generated_at": null,
@@ -198,7 +198,7 @@
       "landing": {
         "local_path": "generated/bariloche-ski/el-russo-rental",
         "public_path": "/bariloche-ski/el-russo-rental/",
-        "public_url": null,
+        "public_url": "https://mayofy.vercel.app/bariloche-ski/el-russo-rental/",
         "frontend_source": "data/frontends/bariloche-ski/el-russo-rental"
       },
       "first_generated_at": null,
@@ -227,7 +227,7 @@
       "landing": {
         "local_path": "generated/bariloche-ski/epic-bariloche",
         "public_path": "/bariloche-ski/epic-bariloche/",
-        "public_url": null,
+        "public_url": "https://mayofy.vercel.app/bariloche-ski/epic-bariloche/",
         "frontend_source": "data/frontends/bariloche-ski/epic-bariloche"
       },
       "first_generated_at": null,
@@ -256,7 +256,7 @@
       "landing": {
         "local_path": "generated/bariloche-ski/nestor-ski",
         "public_path": "/bariloche-ski/nestor-ski/",
-        "public_url": null,
+        "public_url": "https://mayofy.vercel.app/bariloche-ski/nestor-ski/",
         "frontend_source": "data/frontends/bariloche-ski/nestor-ski"
       },
       "first_generated_at": null,
@@ -286,7 +286,7 @@
       "landing": {
         "local_path": "generated/bariloche-ski/sandrik-alquiler-ropa-nieve",
         "public_path": "/bariloche-ski/sandrik-alquiler-ropa-nieve/",
-        "public_url": null,
+        "public_url": "https://mayofy.vercel.app/bariloche-ski/sandrik-alquiler-ropa-nieve/",
         "frontend_source": "data/frontends/bariloche-ski/sandrik-alquiler-ropa-nieve"
       },
       "first_generated_at": null,
@@ -316,7 +316,7 @@
       "landing": {
         "local_path": "generated/bariloche-ski/srn-rental-alquiler-de-ropa-de-nieve-ski-snowboard",
         "public_path": "/bariloche-ski/srn-rental-alquiler-de-ropa-de-nieve-ski-snowboard/",
-        "public_url": null,
+        "public_url": "https://mayofy.vercel.app/bariloche-ski/srn-rental-alquiler-de-ropa-de-nieve-ski-snowboard/",
         "frontend_source": "data/frontends/bariloche-ski/srn-rental-alquiler-de-ropa-de-nieve-ski-snowboard"
       },
       "first_generated_at": null,
@@ -345,7 +345,7 @@
       "landing": {
         "local_path": "generated/bariloche-ski/tierra-de-mestizos-rental",
         "public_path": "/bariloche-ski/tierra-de-mestizos-rental/",
-        "public_url": null,
+        "public_url": "https://mayofy.vercel.app/bariloche-ski/tierra-de-mestizos-rental/",
         "frontend_source": "data/frontends/bariloche-ski/tierra-de-mestizos-rental"
       },
       "first_generated_at": null,
@@ -374,7 +374,7 @@
       "landing": {
         "local_path": "generated/bariloche-ski/travesias-ropa-de-nieve",
         "public_path": "/bariloche-ski/travesias-ropa-de-nieve/",
-        "public_url": null,
+        "public_url": "https://mayofy.vercel.app/bariloche-ski/travesias-ropa-de-nieve/",
         "frontend_source": "data/frontends/bariloche-ski/travesias-ropa-de-nieve"
       },
       "first_generated_at": null,
@@ -403,7 +403,7 @@
       "landing": {
         "local_path": "generated/cordoba-conversion/autocentro-cardetail",
         "public_path": "/cordoba-conversion/autocentro-cardetail/",
-        "public_url": null,
+        "public_url": "https://mayofy.vercel.app/cordoba-conversion/autocentro-cardetail/",
         "frontend_source": "data/frontends/cordoba-conversion/autocentro-cardetail"
       },
       "first_generated_at": null,
@@ -432,7 +432,7 @@
       "landing": {
         "local_path": "generated/cordoba-conversion/lubricentro-power-ful-ii",
         "public_path": "/cordoba-conversion/lubricentro-power-ful-ii/",
-        "public_url": null,
+        "public_url": "https://mayofy.vercel.app/cordoba-conversion/lubricentro-power-ful-ii/",
         "frontend_source": "data/frontends/cordoba-conversion/lubricentro-power-ful-ii"
       },
       "first_generated_at": null,
@@ -461,7 +461,7 @@
       "landing": {
         "local_path": "generated/cordoba-conversion/taller-sr-chapa-y-pintura",
         "public_path": "/cordoba-conversion/taller-sr-chapa-y-pintura/",
-        "public_url": null,
+        "public_url": "https://mayofy.vercel.app/cordoba-conversion/taller-sr-chapa-y-pintura/",
         "frontend_source": "data/frontends/cordoba-conversion/taller-sr-chapa-y-pintura"
       },
       "first_generated_at": null,
@@ -492,7 +492,7 @@
       "landing": {
         "local_path": "generated/king-shine/the-king-shine",
         "public_path": "/king-shine/the-king-shine/",
-        "public_url": null,
+        "public_url": "https://mayofy.vercel.app/king-shine/the-king-shine/",
         "frontend_source": "data/frontends/king-shine/the-king-shine"
       },
       "first_generated_at": null,
@@ -521,7 +521,7 @@
       "landing": {
         "local_path": "generated/santiago-automotor/infinity-x-car-detail",
         "public_path": "/santiago-automotor/infinity-x-car-detail/",
-        "public_url": null,
+        "public_url": "https://mayofy.vercel.app/santiago-automotor/infinity-x-car-detail/",
         "frontend_source": "data/frontends/santiago-automotor/infinity-x-car-detail"
       },
       "first_generated_at": null,
@@ -550,7 +550,7 @@
       "landing": {
         "local_path": "generated/santiago-automotor/lavado-de-autos-el-cafetero-2",
         "public_path": "/santiago-automotor/lavado-de-autos-el-cafetero-2/",
-        "public_url": null,
+        "public_url": "https://mayofy.vercel.app/santiago-automotor/lavado-de-autos-el-cafetero-2/",
         "frontend_source": "data/frontends/santiago-automotor/lavado-de-autos-el-cafetero-2"
       },
       "first_generated_at": null,
@@ -579,7 +579,7 @@
       "landing": {
         "local_path": "generated/santiago-automotor/vapor-car",
         "public_path": "/santiago-automotor/vapor-car/",
-        "public_url": null,
+        "public_url": "https://mayofy.vercel.app/santiago-automotor/vapor-car/",
         "frontend_source": "data/frontends/santiago-automotor/vapor-car"
       },
       "first_generated_at": null,
@@ -608,7 +608,7 @@
       "landing": {
         "local_path": "generated/tandil/biloba-centro-de-estetica",
         "public_path": "/tandil/biloba-centro-de-estetica/",
-        "public_url": null,
+        "public_url": "https://mayofy.vercel.app/tandil/biloba-centro-de-estetica/",
         "frontend_source": "data/frontends/tandil/biloba-centro-de-estetica"
       },
       "first_generated_at": null,
@@ -637,7 +637,7 @@
       "landing": {
         "local_path": "generated/tandil/biodent-odontologia-tandil-dra-valeria-guzzanti",
         "public_path": "/tandil/biodent-odontologia-tandil-dra-valeria-guzzanti/",
-        "public_url": null,
+        "public_url": "https://mayofy.vercel.app/tandil/biodent-odontologia-tandil-dra-valeria-guzzanti/",
         "frontend_source": "data/frontends/tandil/biodent-odontologia-tandil-dra-valeria-guzzanti"
       },
       "first_generated_at": null,
@@ -666,7 +666,7 @@
       "landing": {
         "local_path": "generated/tandil/cerrajeria-zuzulich",
         "public_path": "/tandil/cerrajeria-zuzulich/",
-        "public_url": null,
+        "public_url": "https://mayofy.vercel.app/tandil/cerrajeria-zuzulich/",
         "frontend_source": "data/frontends/tandil/cerrajeria-zuzulich"
       },
       "first_generated_at": null,
@@ -695,7 +695,7 @@
       "landing": {
         "local_path": "generated/tandil/consultorio-veterinario-fernandez",
         "public_path": "/tandil/consultorio-veterinario-fernandez/",
-        "public_url": null,
+        "public_url": "https://mayofy.vercel.app/tandil/consultorio-veterinario-fernandez/",
         "frontend_source": "data/frontends/tandil/consultorio-veterinario-fernandez"
       },
       "first_generated_at": null,
@@ -724,7 +724,7 @@
       "landing": {
         "local_path": "generated/tandil/electricista-dario-gerez",
         "public_path": "/tandil/electricista-dario-gerez/",
-        "public_url": null,
+        "public_url": "https://mayofy.vercel.app/tandil/electricista-dario-gerez/",
         "frontend_source": "data/frontends/tandil/electricista-dario-gerez"
       },
       "first_generated_at": null,
@@ -753,7 +753,7 @@
       "landing": {
         "local_path": "generated/tandil/estudio-bertucci-abogados",
         "public_path": "/tandil/estudio-bertucci-abogados/",
-        "public_url": null,
+        "public_url": "https://mayofy.vercel.app/tandil/estudio-bertucci-abogados/",
         "frontend_source": "data/frontends/tandil/estudio-bertucci-abogados"
       },
       "first_generated_at": null,
@@ -782,7 +782,7 @@
       "landing": {
         "local_path": "generated/tandil/maria-y-sol-peluqueria",
         "public_path": "/tandil/maria-y-sol-peluqueria/",
-        "public_url": null,
+        "public_url": "https://mayofy.vercel.app/tandil/maria-y-sol-peluqueria/",
         "frontend_source": "data/frontends/tandil/maria-y-sol-peluqueria"
       },
       "first_generated_at": null,
@@ -811,7 +811,7 @@
       "landing": {
         "local_path": "generated/tandil/ox-sports",
         "public_path": "/tandil/ox-sports/",
-        "public_url": null,
+        "public_url": "https://mayofy.vercel.app/tandil/ox-sports/",
         "frontend_source": "data/frontends/tandil/ox-sports"
       },
       "first_generated_at": null,
@@ -840,7 +840,7 @@
       "landing": {
         "local_path": "generated/tandil/petrogas-glp",
         "public_path": "/tandil/petrogas-glp/",
-        "public_url": null,
+        "public_url": "https://mayofy.vercel.app/tandil/petrogas-glp/",
         "frontend_source": "data/frontends/tandil/petrogas-glp"
       },
       "first_generated_at": null,
@@ -869,7 +869,7 @@
       "landing": {
         "local_path": "generated/tandil/plomero-gasista-mauro-veron",
         "public_path": "/tandil/plomero-gasista-mauro-veron/",
-        "public_url": null,
+        "public_url": "https://mayofy.vercel.app/tandil/plomero-gasista-mauro-veron/",
         "frontend_source": "data/frontends/tandil/plomero-gasista-mauro-veron"
       },
       "first_generated_at": null,
