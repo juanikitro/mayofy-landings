@@ -92,4 +92,5 @@ jobs:
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           VERCEL_SCOPE: ${{ github.event.inputs.vercel_scope || secrets.VERCEL_SCOPE }}
+          VERCEL_PROJECT_NAME: ${{ vars.VERCEL_PROJECT_NAME }}
         run: node scripts/deploy-generated.mjs --dir dist/vercel-catalog
