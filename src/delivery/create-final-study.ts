@@ -551,14 +551,19 @@ function outreachPack(entry: BaseEntry, price: string): OutreachPack {
   return {
     initial_message: `Hola, espero te encuentres muy bien! Soy Juani, programador de Mayofy.
 
-Estuve viendo ${entry.business_name} y me llamó la atención ${entry.outreach_detail}. Noté que hoy la información del negocio está principalmente en ${entry.public_info_source}, así que armé una demo de sitio web para mostrar cómo podrían reunir todo en un solo lugar y facilitar las consultas de nuevos clientes.
+Estuve viendo ${entry.business_name} y me llamó la atención ${entry.outreach_detail}. Noté que hoy la información del negocio está principalmente en ${entry.public_info_source}, así que armé una demo de sitio web para mostrar cómo podrían reunir todo en un solo lugar con personalidad y facilitar las consultas de nuevos clientes.
 
 La página incluye sus servicios, trabajos realizados, reseñas, ubicación, horarios y accesos directos a WhatsApp e Instagram.
 
 La preparé usando información pública como punto de partida. Es una propuesta inicial y se puede personalizar por completo: imágenes, textos, colores, secciones y diseño.
 
+Junto con este mensaje les envío una captura de la página para que puedan verla rápidamente.
+
 Pueden verla acá:
 ${entry.landing_url}
+
+También pueden conocer algunos de nuestros trabajos en:
+https://mayofy.vercel.app
 
 La demo es sin compromiso. Si les interesa la idea, podemos coordinar una llamada breve para revisar qué cambiarían y contarles cómo sería adaptarla y dejarla publicada.
 
