@@ -1,0 +1,555 @@
+[
+  {
+    "id": "google-ChIJbbXpr0e9vJUR2iwRYSIt3Qc",
+    "name": "Plomero en san Miguel",
+    "slug": "plomero-en-san-miguel",
+    "category": "Plumber",
+    "is_vehicle_related": false,
+    "address": "Salerno 198, B1663 San Miguel, Provincia de Buenos Aires, Argentina",
+    "city": "San Miguel, Buenos Aires",
+    "neighborhood_or_area": null,
+    "phone": "011 6160-9403",
+    "opening_hours": {
+      "raw": "Monday: 8:00 AM – 6:00 PM | Tuesday: 8:00 AM – 6:00 PM | Wednesday: 8:00 AM – 6:00 PM | Thursday: 8:00 AM – 6:00 PM | Friday: 8:00 AM – 6:00 PM | Saturday: 9:00 AM – 1:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.4,
+      "reviews_count": 93,
+      "source_url": "https://maps.google.com/?cid=566658753799204058&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Lo contrate para limpiar el tanque de agua y todo espectacular, me acomodo el flotante que estaba muy bajo y habia unos cables pelados que empalmo",
+        "author": "Melvin Kucuk",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/100568110939854584346/reviews"
+      },
+      {
+        "text": "Hace un momento ayudó a mi mamá a solucionar un problema con el termotanque. Un genio!! muchas gracias!",
+        "author": "Nicole Ximena Alvarez",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/109871434666617563520/reviews"
+      },
+      {
+        "text": "Super recomendable .Francisco  .me guío y pude cambiar  la válvula de retención de mi bomba elevadora de agua . muchísimas gracias",
+        "author": "Fabian Brito",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/111565280335674211601/reviews"
+      }
+    ],
+    "main_product_or_service": "plomeria",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJbbXpr0e9vJUR2iwRYSIt3Qc/photos/AWCwydgHirA3q2qIkwgAQExWC8lUFy8dpv87S8TndTP9q8fcdCZAyB1QfvQZFQQti6TksVVUqVwm4Cy8-l4q9jWmQYyybxxjbEaQdFqquJRVUa7yHueX_mqE-gt0SLN33qIqTunTWV6Fqz9x-9awvH-QBQeRACt-kjW5c4h1G6s0bnEom5pdSCU_REaj5cCUkuQAcZmH9v74oz-pFNuDdFPy9AdCobRs-jz4lioPSbElr3nlCosDgyo8jCSkwsHTqxwfbGUJKfReCqraHqeAaoD_aEcCDPjEdyHgk71BhXFwoZmLNfsAhzjEBHp_n540ttL9l30sEcECE-Lz9XWYnZ6DtqJP6mE8-OoU6tp1q5OURrjSP6vuzfwwNgiXvYpcVcv_67pqkERt3Hv0TCcWbFG8xM5h28s7s9d0yW0U_qUsZA6Jhc_l/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=566658753799204058&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJbbXpr0e9vJUR2iwRYSIt3Qc/photos/AWCwydiqMFAHoksvCfNNLkjMFQBKXIVDZHBOqMSM1ZGYQb-gki0PZ6WkH7UEM4_zRK2DK22GnfLE5rL7LNcMsjOCfzRpMnNs7r-GALmaSIxyUWeN2_tvp4ZEqrasehrUoEmohjZQtpM0SYg29E_L-5k6nW4sm1JUVAlebptUtMnGpTaYcqIP20N3SetXidHJcZjtb42EYiuomWRaVUwd84fvDE6y3wLa7JOFExgeO4-EESHscP5z9Hgg0yR-LvMUv41ZYutoqcTUWhMTKBn2xQebKMwMVYjksy1hXr3R0I0q3kdhySCZ3N3krrbm5S2EJnqoIM0YiFcqcBpg5st4_LUFwZ1dzO3cP_L_1mFUN2KRVQ6PGKKIjqoiOlHk95aYA_O2SrRP6oemVanKbmB2i6kSKR51YcIdXW2onbmT8rqiYpt88Q/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=566658753799204058&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJbbXpr0e9vJUR2iwRYSIt3Qc/photos/AWCwydjRQDOE0ZBd8c44cOUk4zzA6nbXpMRCSWPNeaTEEbee5vAU3stGj2Ine3I61OPqgXgR2mEa0ocPowiNEC44CNTpPg-BJ83UkvYlkd8qPAzBfqOmgMlRnROHc34ze4tq59NtDMhOhFe9A1WpsR471fGcYh0VNjzk76m_XTSYj2RUzbcnNa875de7AdAx9YS8y72BB443i2s4mojuoSKOBbA675_dl6F-v8Y44uijqgOtH7VmFV_GCJNABQ-BHdJ_gWq7Qo-QJM9btPWjcdMRnIt1iF8XVEK1tA7Cm1soNqzGBDMB6gEeHytVkTi8xp3LFA5h2QEG2BbuJ_1ROOtW2DaG64xEnGgk4bgD5o6xX01HNNyKNB4Kc2IuJQqVGfPm17qOLOmYo3qvZFgmgn6_QX2UEc3vbMgZMEBZngxLxaPDPbaw/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=566658753799204058&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=566658753799204058&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=566658753799204058&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-27T15:07:37.823Z",
+          "notes": "Resultado automatico para \"plomeria\" en San Miguel, Buenos Aires. Segmento: plomeria."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=566658753799204058&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=566658753799204058&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=566658753799204058&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=566658753799204058&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=566658753799204058&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=566658753799204058&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=566658753799204058&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=566658753799204058&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=566658753799204058&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=566658753799204058&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=566658753799204058&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJuxYt9JTLvJURIywGIS2dBLE",
+    "name": "Plomero Gasista",
+    "slug": "plomero-gasista",
+    "category": "Services",
+    "is_vehicle_related": false,
+    "address": "Inclán 4278, C1258 Cdad. Autónoma de Buenos Aires, Argentina",
+    "city": "San Miguel, Buenos Aires",
+    "neighborhood_or_area": null,
+    "phone": "011 2747-5515",
+    "opening_hours": {
+      "raw": "Monday: Open 24 hours | Tuesday: Open 24 hours | Wednesday: Open 24 hours | Thursday: Open 24 hours | Friday: Open 24 hours | Saturday: Open 24 hours | Sunday: 9:00 AM – 1:00 PM",
+      "structured": {}
+    },
+    "rating": {
+      "value": 5,
+      "reviews_count": 70,
+      "source_url": "https://maps.google.com/?cid=12755492861773229091&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Excelente servicio. Muy profesional, puntual y responsable. Resolvío el problema rápido y dejó todo en perfectas condiciones. Se nota que sabe lo que hace y trabaja con prolijidad. Además, fue muy amable y claro al explicar todo. Totalmente recomendable 👍",
+        "author": "Franco Alexis Castillo Padilla",
+        "rating": 4,
+        "source_url": "https://www.google.com/maps/contrib/111712434887233089292/reviews"
+      },
+      {
+        "text": "Excelente servicio!! Un buen profesional Gustavo super recomendable, gran persona, prolijo con el trabajo y con el horario. :)",
+        "author": "Viki Vivanco",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/108668170252812950326/reviews"
+      },
+      {
+        "text": "Excelente servicio 10/10. Se nota la experiencia y el compromiso con lo que hace. Además, fue muy amable y cordial en todo momento, explicando todo con claridad. Trabaja de manera prolija y ordenada. Sin dudas lo recomiendo a cualquiera que necesite un plomero gasista de confianza. 👏🏻👏🏻👏🏻✨",
+        "author": "Alexis Geronimo",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/107794514060301752972/reviews"
+      }
+    ],
+    "main_product_or_service": "plomeria 24 horas",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJuxYt9JTLvJURIywGIS2dBLE/photos/AWCwydhb7f05ACD3XDBphhX_pkhNaKduOiuEAkbjQcvJWthllGuMKjfKvILe1_-qPBmktPL98pG5k7G563R8jA5shdTnFrC8sp3tzsiPHzkRAaTJOczEgvCJhhdJRYJC3nIpaH1GPcauOKVfUabk9mWXjnwiO15-3D6cjImSom_6TmY72Pju5Zmc_HUYOJ9s7h9X9XqVZn9wVpn-xJN9STgn7YZ-poSjb-YY2XD1hus32pG0f_WYwLO7HMEgi5sc6ZY8S7A78TR2mQjsOJnsD9EsFkZm1DrajHRDWtrGNayJAiNa0Fl6ce6sP7EXTopHAtILN9KK9Dxiqltqikid4lLogE9PqqEIK4TitZKWTb1dnL-V1WGoxMi0-oUQRUmNJ7ChrFkyiLygHdDdIhmPXdPFE38FDeNAdc7E513NNuaw690jgEW7vpV2NetRLxsDeHp1/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=12755492861773229091&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJuxYt9JTLvJURIywGIS2dBLE/photos/AWCwydgJa_n9i8llTlEF-m160ONWV5gekwHkkqpcAA1ApPBPIrmDpEsrJxUQpDlEPiyVkYJg-LMPsJN4TdVLMe5ERvsxLDaWaeUuNXCpRiVhrj12QZPp1_xPOmndOQHPjVqhJgdZybsne95bv2gSwiP0bOHrhJj__LRUFLpBx0MPUxGRpX_9HJiSZxGK_kKykLuOBONcX1yjlc3ltaGG0J87hTCqYa-RHqmRcnmPQ8UjrzMv91rKCNZnqmoqMfq_-s_GDlUjJ8YPzeKnZMoagY8eR15312nkljaK5GvS5ZbDmufMJndO_XHinaRws_5ZgeLRFTql_Fans0JFz01s131lSXq-I9yfv0WkY8y6S2aGAExah2DMKE00J-bIFMqPsOBCMjIKCEhCKWIpsJD_luE_To1f1WmHq_JmOgo3A2RCyKenTJBpDKVm81U09QEmFA/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=12755492861773229091&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJuxYt9JTLvJURIywGIS2dBLE/photos/AWCwydi5_ZXKpX0uUCnUMG28LWxIZNrjqLgjt0bjmpHAtGuWjgrQ7R5PsmXTEmg_BzoAiOH5Vlk-fkYPqU6suvm_Rk3BvWMPg_RuOk2AWkS6qpJhsXFvj05BJGG546oDE3wFeYjj5Kj1EsYI1jO9H78kYTw3h4IKFjSFRUWSQJ_txPdwW2lHYmKAPOR9uM_i8OyOoPbeTbEBUvbS4vcJMePWL9PkFEvvNM39_ZYnvbkBHB3Weevu2NiNE7mEH1w--snxf5xcE_1UGGqUkixw3m9h8MMnt0Nc0pBpfBc9cIYRukC4YH35ybgZFwjWP8a3qosrOR_AYbKpgZHjnR_gATpnewlNm9CAIB0epen6qgawRQhhOCSb0i7WZmtqUCnxpsSQ3gihNMfc04OhWUCkEh5ZQbMdu1qcELfJmZoNkw-uArV7oTrVQuQCkDlkuJmTQg/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=12755492861773229091&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=12755492861773229091&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=12755492861773229091&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-27T15:07:37.823Z",
+          "notes": "Resultado automatico para \"plomeria 24 horas\" en San Miguel, Buenos Aires. Segmento: plomeria."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=12755492861773229091&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=12755492861773229091&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=12755492861773229091&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=12755492861773229091&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=12755492861773229091&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=12755492861773229091&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=12755492861773229091&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=12755492861773229091&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=12755492861773229091&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=12755492861773229091&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=12755492861773229091&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJO8RzfXW9vJURL6ROQzbFKTQ",
+    "name": "CR - GASISTA MATRICULADO - Marcelo Rossini",
+    "slug": "cr-gasista-matriculado-marcelo-rossini",
+    "category": "Services",
+    "is_vehicle_related": false,
+    "address": "Libertad 1250, B1663 San Miguel, Provincia de Buenos Aires, Argentina",
+    "city": "San Miguel, Buenos Aires",
+    "neighborhood_or_area": null,
+    "phone": "011 3217-6459",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 7:00 PM | Tuesday: 9:00 AM – 7:00 PM | Wednesday: 9:00 AM – 7:00 PM | Thursday: 9:00 AM – 7:00 PM | Friday: 9:00 AM – 7:00 PM | Saturday: 9:00 AM – 1:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.8,
+      "reviews_count": 64,
+      "source_url": "https://maps.google.com/?cid=3758752200865522735&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Muy recomendables!!!. Un trabajo excelente, muy responsables y prolijos. Los llamé y vinieron al otro dia, al horario acordado, a pesar de que la estufa tuvo algún que otro inconveniente para encender, lo solucionaron y sin embargo me cobraron lo acordado. Escasean en este gremio personas asi. Sin dudas los volveré a llamar por cualquier otro trabajo. Para recomendar sin dudas. Gracias",
+        "author": "Juan Manuel Ribba",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/104882241787802767055/reviews"
+      },
+      {
+        "text": "Muy buen servicio! Los contacté porque necesitaba instalar una estufa y revisar cocina y termo. Me respondieron rápido, fueron muy prolijos con la instalación y claros con las explicaciones de funcionamiento. Los volvería a llamar en caso de necesitar algo. Muchas gracias!",
+        "author": "victoria hanriquez",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/102854355802756117770/reviews"
+      },
+      {
+        "text": "Excelente atención, envié un mensaje y en el mismo día obtuve respuesta por WS y nos visitaron resolviendo las dudas y problemas que teníamos con una estufa.\nVolveré  a llamarlos para dar mantenimiento al aire acondicionado también .",
+        "author": "Victor Olea",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/106669624907218290309/reviews"
+      }
+    ],
+    "main_product_or_service": "plomeria",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJO8RzfXW9vJURL6ROQzbFKTQ/photos/AWCwydhATfXubbrvfX5-UdAtVE-J9jYp9oj82DvmNgepxx3gxTiOC2nSgUo2rUiBhqQuBMTwv2J-2RmLD1KNpUps-vCyKFlSjE4rlUMiT9vzfIGAKIJWN88u_NnyUmUblkPxwlkWZx8SU1RGWouNZe09iUjOPZwOetIrUwGwbBWcdpTDLIg2nbidEs5mCPl0KWKO4ZXk6Agi32TywQvBVRg0wd2ALrmModJu9yRiK3nk9HwRXP-SjojGysTqyVxOwU3vJ1pyd2fBp-CnqTG1Juhi5gZpDe2Js3I34mnr0qZx1pjUlFbmD5M4bSCwDIHpyih3oeu07qWqulDnLu4lohB1bhUfFw7xcFG8yjzReuu91IOfa5qNLbcZVr5zcRpJh7h5WSDTlxhqmxY7kx1_L0iJYQuhxxTaUMgFwC9wXiybFq8Zxw/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=3758752200865522735&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJO8RzfXW9vJURL6ROQzbFKTQ/photos/AWCwydiNnI2D-6ULegcshAazFU3YoaqHaziOe70fkwsrFrJ6nnK0pP79d5i00x8tFR2p_RY8T5xsALsWsFNDA26CwcL-xHu8AYG_bhLJfpWmWMBwlQAhFKiOaE3YjU_TElYIpx3p1grYm8hlwBZweHJdQWqRXkNrGByeqOUzkFoLahgnvosCxIxhL0PNALuCLsLTovuQNTvMQU3gSRHT4V04mLUNrmJBiC78GA55R3cpjj7CPhSlgKSTlo3bpfOh1AlCQrTU69YVEsm-GxyzH6a0alvDnhgyeBQaRqqOS_MWV-ZikcMAD_Xk8pl5MTu788-e0d_obSV-whhTGD_zoXs_VdKSDKDJENasGJkaVYJQZctfzso8Ow_uYFQWqiGtRA81JH2lgHlvCWDjkUukPcMkNCWa6JMiiGtCbcwaWUgnA1CHF9Zx/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=3758752200865522735&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJO8RzfXW9vJURL6ROQzbFKTQ/photos/AWCwydihs7O_zpU7Ko5e4A4pjd_4c9AD0W-4yWUcskciCG8VEBSc3Yxsoa4fXVzW9dvDUfRSpmCcK1tj5T0j-PT7YpCZ4bKAYKB4S6BRsa4MmUHWRv3DvQHif4ZCo9jPGwh1t2v11lmhv2PCq7RFPAC_O3rb1buAcew6XFine3QnwYF5s2nS6MBWvINIeydgtUf9yADT-45_j1nqQvK2FXMJtbYo5uFSLoyc5SCxA3cGVfClZcSOI19lfxqNKqGPUc4i0BMFnw8FN35SLQIT7DaEfdclV7xu_e6-6XtCqTH6mkcHM1m24nDWCS_njQ6tvPf2vomfhQZZTvjXgXVT8A9cDY9BHNuQqYqdXY-x7Va6TXoj6JlFJWfZXchyrjAXeEncvo56hdj-2ju5_SlFrj3CrIfHbODAH9fVFbe3UYXKnHKHFJw/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=3758752200865522735&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=3758752200865522735&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=3758752200865522735&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-27T15:07:37.823Z",
+          "notes": "Resultado automatico para \"plomeria\" en San Miguel, Buenos Aires. Segmento: plomeria."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=3758752200865522735&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=3758752200865522735&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=3758752200865522735&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=3758752200865522735&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=3758752200865522735&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=3758752200865522735&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=3758752200865522735&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=3758752200865522735&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=3758752200865522735&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=3758752200865522735&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=3758752200865522735&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJNXzDRh29vJUR7acx_YNcaDU",
+    "name": "Instalaciones Z.S plomero gasista matriculado",
+    "slug": "instalaciones-z-s-plomero-gasista-matriculado",
+    "category": "Services",
+    "is_vehicle_related": false,
+    "address": "Sta. Ana 732, B1663 Muñiz, Provincia de Buenos Aires, Argentina",
+    "city": "San Miguel, Buenos Aires",
+    "neighborhood_or_area": null,
+    "phone": "011 6402-4225",
+    "opening_hours": {
+      "raw": "Monday: 8:00 AM – 5:00 PM | Tuesday: 7:00 AM – 5:00 PM | Wednesday: 7:00 AM – 5:00 PM | Thursday: 7:00 AM – 5:00 PM | Friday: 7:00 AM – 5:00 PM | Saturday: 7:00 AM – 5:00 PM | Sunday: 9:00 AM – 5:00 PM",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.5,
+      "reviews_count": 17,
+      "source_url": "https://maps.google.com/?cid=3848427603546449901&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Asistió a mi casa para arreglar el lavatorio del baño pero quedó perdiendo así que le avisé, me respondió ofreciéndome varios días para venir. Coordinamos 3 citas a las que por motivos diferentes, terminaba por no asistir.\nEsta última, ni siquiera me respondió más los mensajes ni las llamadas. 3 veces diferentes vacié mi tanque y sobre todo, cancelé compromisos para esperarlo y no vino. Una falta de respeto total. La plata no sobra y da mucha bronca que no se hagan cargo de un error cometido y que encima jueguen con el tiempo de uno.",
+        "author": "Malén Varco",
+        "rating": 1,
+        "source_url": "https://www.google.com/maps/contrib/102458710635539440980/reviews"
+      },
+      {
+        "text": "Muy buen plomero, pero preparate para coordinar un servicio y que no aparezca, no conteste whatsapp ni llamadas, y que responda de noche o al día siguiente. Es imposible!\nDurante 2 semanas coordinamos para que venga 4 días distintos, donde nunca apareció, cancelé el arreglo que tenia que realizar y buscar otro plomero.",
+        "author": "Andres Oviedo",
+        "rating": 1,
+        "source_url": "https://www.google.com/maps/contrib/106495799971202352510/reviews"
+      },
+      {
+        "text": "Sergio realizo una destapacion en la cañería de mi casa, que estaba tapada de sarro. Me dijo que si no destapaba no cobraba. Y con eficiencia Realizo la destapacion  muy recomendable.",
+        "author": "Adriana Baez",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/109043390634598146757/reviews"
+      }
+    ],
+    "main_product_or_service": "plomeria",
+    "photos": [],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=3848427603546449901&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 0.95,
+    "missing_data_reason": "fotos",
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=3848427603546449901&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-27T15:07:37.823Z",
+          "notes": "Resultado automatico para \"plomeria\" en San Miguel, Buenos Aires. Segmento: plomeria."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=3848427603546449901&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=3848427603546449901&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=3848427603546449901&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=3848427603546449901&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=3848427603546449901&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=3848427603546449901&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=3848427603546449901&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=3848427603546449901&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=3848427603546449901&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=3848427603546449901&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  }
+]

@@ -3,6 +3,7 @@ import path from "node:path";
 import type { Business } from "../content/business-schema.js";
 import { businessDatasetSchema } from "../content/business-schema.js";
 import { placeDetails, textSearch, type GooglePlaceDetails } from "./google-places.js";
+import { emptyRegistry, loadRegistry, matchesRegistry, matchesRegistryPlaceId } from "./generated-registry.js";
 import { slugify } from "./slug.js";
 
 type Args = {
@@ -15,6 +16,8 @@ type Args = {
   queries: string[];
   vehicleRelated: boolean;
   excludeTerms: string[];
+  registryPath: string;
+  includeGenerated: boolean;
 };
 
 const vehicleQueries = [
@@ -77,6 +80,8 @@ function parseArgs(argv: string[]): Args {
     queries,
     vehicleRelated: !argv.includes("--not-vehicle-related"),
     excludeTerms: splitList(valueAfter("--exclude", "")),
+    registryPath: valueAfter("--registry", path.join("data", "generated-landings.json")),
+    includeGenerated: argv.includes("--include-generated"),
   };
 }
 
@@ -221,6 +226,18 @@ function toBusinessCandidate(place: GooglePlaceDetails, query: string, args: Arg
   };
 }
 
+function registryIdentity(place: GooglePlaceDetails, args: Args) {
+  const name = place.displayName?.text ?? place.id;
+  return {
+    id: `google-${place.id}`,
+    name,
+    slug: slugify(name),
+    city: args.city,
+    address: place.formattedAddress ?? `${args.city}, ${args.country}`,
+    phone: place.nationalPhoneNumber ?? place.internationalPhoneNumber ?? null,
+  };
+}
+
 function shouldKeep(place: GooglePlaceDetails, minRating: number, minReviews: number, excludeTerms: string[], country: string): boolean {
   if (place.businessStatus && place.businessStatus !== "OPERATIONAL") return false;
   if (looksLikeChain(place, excludeTerms)) return false;
@@ -270,7 +287,10 @@ async function main(): Promise<void> {
 
   const minRating = Number(process.env.LOCAL_WEB_SEARCH_MIN_RATING ?? "4.3");
   const minReviews = Number(process.env.LOCAL_WEB_SEARCH_MIN_REVIEWS ?? "10");
+  const registry = args.includeGenerated ? emptyRegistry() : await loadRegistry(args.registryPath);
   const seen = new Map<string, { place: GooglePlaceDetails; query: string }>();
+  let skippedBeforeDetails = 0;
+  let skippedAfterDetails = 0;
 
   for (const query of args.queries) {
     const fullQuery = `${query} en ${args.city}, ${args.country}`;
@@ -280,7 +300,15 @@ async function main(): Promise<void> {
     for (const result of results) {
       if (acceptedForQuery >= args.perQueryLimit) break;
       if (!result.id || seen.has(result.id)) continue;
+      if (matchesRegistryPlaceId(result.id, registry)) {
+        skippedBeforeDetails += 1;
+        continue;
+      }
       const details = await placeDetails(result.id, apiKey);
+      if (matchesRegistry(registryIdentity(details, args), registry)) {
+        skippedAfterDetails += 1;
+        continue;
+      }
       if (shouldKeep(details, minRating, minReviews, args.excludeTerms, args.country)) {
         seen.set(result.id, { place: details, query });
         acceptedForQuery += 1;
@@ -294,6 +322,9 @@ async function main(): Promise<void> {
   await mkdir(path.dirname(args.out), { recursive: true });
   await writeFile(args.out, `${JSON.stringify(parsed, null, 2)}\n`, "utf8");
 
+  console.log(
+    `Skipped ${skippedBeforeDetails + skippedAfterDetails} already-generated business(es) (${skippedBeforeDetails} before details, ${skippedAfterDetails} after details).`,
+  );
   console.log(`Wrote ${parsed.length} candidate(s) to ${args.out}`);
 }
 

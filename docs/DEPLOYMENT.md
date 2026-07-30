@@ -4,7 +4,7 @@ El deploy a Vercel es automatico. No hay comando local que publique produccion.
 
 ## Modelo
 
-El repo despliega un solo proyecto Vercel: `ia-landing-generator` por defecto, tomado de `package.json`. No se crea un proyecto por landing.
+El repo despliega un solo proyecto Vercel. El nombre del proyecto lo fija la variable de repo `VERCEL_PROJECT_NAME` (Settings > Secrets and variables > Actions > Variables); si no está seteada, cae al `name` de `package.json`. Proyecto actual: `mayofy-landings` (https://mayofy-landings.vercel.app). No se crea un proyecto por landing.
 
 El sitio publicado contiene:
 
@@ -50,7 +50,7 @@ Si falla el gate tecnico, no se publica el catalogo. Si falla `qa:client`, el de
 - `GOOGLE_PLACES_API_KEY`
 - `VERCEL_SCOPE` opcional si se despliega dentro de un team/org.
 
-Tambien se puede definir `VERCEL_PROJECT_NAME` si se quiere usar otro proyecto. Si no existe, el script intenta crearlo.
+`VERCEL_PROJECT_NAME` esta seteada como variable de repo (no secret, no es sensible) en `mayofy-landings`. Si no existe el proyecto, el script intenta crearlo.
 
 ## `generated/`
 

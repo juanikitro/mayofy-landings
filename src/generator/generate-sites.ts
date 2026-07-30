@@ -5,6 +5,15 @@ import { approvedBusinesses, loadBusinesses } from "../content/load-businesses.j
 import { businessDisplayName } from "../content/business-name.js";
 import { resolveDesign } from "../design/palette.js";
 import { flagValue, resolveGeneratedDir } from "../generated-output.js";
+import {
+  buildRegistryEntry,
+  defaultPublicBaseUrl,
+  loadRegistry,
+  matchesRegistry,
+  mergeGeneratedEntries,
+  renderRegistryJson,
+  renderRegistryMarkdown,
+} from "../research/generated-registry.js";
 import { designBriefIssues } from "../site-specs/design-brief-rules.js";
 import { loadSiteSpecs } from "../site-specs/load-site-specs.js";
 import type { SiteSpec } from "../site-specs/schema.js";
@@ -21,6 +30,9 @@ type Args = {
   requireRealImages: boolean;
   requireAgentFrontends: boolean;
   requireDesignBrief: boolean;
+  registryPath: string;
+  baseUrl: string | null;
+  noRegistry: boolean;
 };
 
 type ManifestSite = {
@@ -53,6 +65,9 @@ function parseArgs(argv: string[]): Args {
     requireRealImages: argv.includes("--require-real-images"),
     requireAgentFrontends: argv.includes("--require-agent-frontends"),
     requireDesignBrief: argv.includes("--require-design-brief"),
+    registryPath: flagValue(argv, "--registry", path.join("data", "generated-landings.json")) ?? path.join("data", "generated-landings.json"),
+    baseUrl: flagValue(argv, "--base-url", defaultPublicBaseUrl),
+    noRegistry: argv.includes("--no-registry"),
   };
 }
 
@@ -63,7 +78,7 @@ function datasetPathFromArgs(argv: string[]): string {
       continue;
     }
 
-    if (["--out", "--session", "--run", "--specs", "--city"].includes(value)) {
+    if (["--out", "--session", "--run", "--specs", "--city", "--registry", "--base-url"].includes(value)) {
       index += 1;
       continue;
     }
@@ -276,6 +291,48 @@ function designGateFailureDetails(spec: SiteSpec | undefined): string[] {
   return details;
 }
 
+function registryMarkdownPath(jsonPath: string): string {
+  return jsonPath.replace(/\.json$/iu, ".md") === jsonPath ? `${jsonPath}.md` : jsonPath.replace(/\.json$/iu, ".md");
+}
+
+async function updateGeneratedRegistry(
+  args: Args,
+  businesses: Awaited<ReturnType<typeof loadBusinesses>>,
+  specs: Map<string, SiteSpec>,
+  manifest: ManifestSite[],
+): Promise<void> {
+  const previous = await loadRegistry(args.registryPath);
+  const timestamp = new Date().toISOString();
+  const run = path.basename(args.outDir);
+  const manifestByBusinessId = new Map(manifest.map((site) => [site.business_id, site]));
+  const generatedEntries = businesses
+    .filter((business) => !business.is_mock)
+    .map((business) => {
+      const spec = specs.get(business.id);
+      const manifestSite = manifestByBusinessId.get(business.id);
+      return buildRegistryEntry({
+        business,
+        run,
+        generatedDir: path.dirname(args.outDir),
+        baseUrl: args.baseUrl,
+        frontendSource: spec?.agent_frontend?.source_dir ?? manifestSite?.agent_frontend_source ?? null,
+        hasManifest: Boolean(manifestSite),
+        previousEntry: matchesRegistry(business, previous),
+        timestamp,
+      });
+    });
+  const registry = mergeGeneratedEntries(previous, generatedEntries, timestamp);
+  const markdownPath = registryMarkdownPath(args.registryPath);
+
+  await mkdir(path.dirname(args.registryPath), { recursive: true });
+  await mkdir(path.dirname(markdownPath), { recursive: true });
+  await Promise.all([
+    writeFile(args.registryPath, renderRegistryJson(registry), "utf8"),
+    writeFile(markdownPath, renderRegistryMarkdown(registry, markdownPath), "utf8"),
+  ]);
+  console.log(`Updated generated registry with ${generatedEntries.length} landing(s).`);
+}
+
 async function main(): Promise<void> {
   const args = parseArgs(process.argv);
   const businesses = approvedBusinesses(await loadBusinesses(args.datasetPath));
@@ -377,6 +434,15 @@ async function main(): Promise<void> {
 
   await writeFile(path.join(args.outDir, "manifest.json"), `${JSON.stringify({ sites: manifest }, null, 2)}\n`, "utf8");
   await writeFile(path.join(args.outDir, "index.html"), renderIndexPage(manifest), "utf8");
+  if (!args.allowMock && !args.noRegistry) {
+    try {
+      await updateGeneratedRegistry(args, businesses, specs, manifest);
+    } catch (error) {
+      console.warn(
+        `Warning: generated sites succeeded but the registry was not updated: ${error instanceof Error ? error.message : String(error)}`,
+      );
+    }
+  }
   console.log(`Generated ${manifest.length} site(s) in ${args.outDir}`);
 }
 

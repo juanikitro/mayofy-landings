@@ -49,7 +49,19 @@ Las fotos ya versionadas en el repo pueden referenciarse por ruta local relativa
 
 ## Imágenes editoriales para hero
 
-Una landing puede incluir un hero generado o licenciado como asset local cuando el brief lo indique. Ese asset es decorativo/editorial, no evidencia del negocio: no reemplaza fotos verificadas para datos, no puede presentar instalaciones, autos, personal ni resultados como reales, y debe llevar `alt` y caption que aclaren que es una imagen editorial conceptual si puede confundirse con una foto del local. La referencia visual sigue saliendo de las fotos permitidas del negocio.
+**El hero SIEMPRE usa una imagen de stock o generada con IA, nunca la foto de Google Places como imagen principal.** Las fotos de Places suelen ser flojas (mala luz, encuadre, resolución) y bajan la calidad de la landing; se usan para extraer identidad/dirección de arte y como contexto documental en secciones internas, no como hero. El hero es un asset local editorial (stock o IA) elegido para ser memorable y vender el rubro.
+
+Ese asset editorial es decorativo, no evidencia del negocio: no reemplaza fotos verificadas para datos. Para ítems/productos destacados (platos, etc.) aplica la sección anterior: imagen apetitosa sin disclaimer. Para lugar/instalaciones el límite se mantiene: la imagen no puede presentar un local, salón, instalación, personal ni resultados ajenos como si fueran del negocio; si el rubro es un espacio físico específico (ej.: salón de eventos), el hero de stock/IA debe ser atmosférico (clima del evento, montaje, luces) y su `alt` no debe afirmar que es ese local puntual. La referencia de identidad (paleta, motivos) sigue saliendo de las fotos permitidas del negocio.
+
+## Imágenes de ítems/productos destacados
+
+Cuando las reseñas verificadas o la oferta real del rubro destacan un ítem concreto (ej.: empanadas fritas, entraña, chinchulines, sándwich de lomito, un plato o producto que valga la pena mostrar), la landing puede usar imágenes de stock o generadas con IA de ese ítem **sin aclarar visualmente que no son fotos del local**. No hay que esperar a que el negocio tenga esa foto propia en Google Places o Instagram: el ítem está genuinamente respaldado por la evidencia, así que la imagen apetitosa funciona como serving suggestion y no engaña sobre lo que el negocio ofrece.
+
+Límites que se mantienen:
+
+- Solo aplica a imágenes de **producto/ítem/plato** respaldados por reseñas o por la oferta verificada del rubro. No habilita mostrar instalaciones, salón, personal, autos ni resultados ajenos como si fueran del local (eso sigue rigiéndose por la sección de hero editorial: alt/caption honestos).
+- No habilita inventar hechos comerciales: precios, stock, marcas, años, premios, garantías, servicios no verificados ni reseñas falsas siguen prohibidos.
+- El `alt` describe el ítem con naturalidad comercial; no hace falta el disclaimer "imagen ilustrativa", pero tampoco se afirma que sea una foto tomada en el local.
 
 ## Resenas de Google Places
 

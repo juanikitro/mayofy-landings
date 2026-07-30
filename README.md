@@ -33,9 +33,13 @@ npm run compose:local -- --input data/<run>-businesses.json --out data/site-spec
 npm run validate:data -- data/<run>-businesses.json
 npm run generate -- data/<run>-businesses.json --specs data/site-specs/<run>-site-specs.json --session <run>
 npm run qa -- --session <run> --expected-count 10
+npm run registry:sync
+npm run registry:sync -- --check
 ```
 
 El deploy es automatico en push a `main` via `.github/workflows/deploy-vercel.yml` (ver `docs/DEPLOYMENT.md`); no hay comando local de deploy. Vercel usa un solo proyecto (`ia-landing-generator`) y publica cada landing como `/<run>/<slug>/`.
+
+`npm run registry:sync` actualiza `data/generated-landings.json` y su listado Markdown. Los comandos de busqueda, shortlist y promocion lo consultan por defecto para no repetir un negocio; se puede indicar otro archivo con `--registry <path>`.
 
 Para componer la direccion visual/copy con OpenAI:
 
@@ -91,7 +95,7 @@ Shortlist automatico y promocion al dataset final:
 
 ```bash
 npm run shortlist -- --input data/intake/<run>-candidates.json --out data/intake/<run>-shortlist.json --limit 10
-npm run promote -- --input data/intake/<run>-shortlist.json --out data/<run>-businesses.json
+npm run promote -- --input data/intake/<run>-shortlist.json --out data/<run>-businesses.json --limit 10
 npm run compose:local -- --input data/<run>-businesses.json --out data/site-specs/<run>-site-specs.json
 npm run validate:data -- data/<run>-businesses.json
 npm run generate -- data/<run>-businesses.json --specs data/site-specs/<run>-site-specs.json --session <run>
@@ -100,20 +104,20 @@ npm run qa -- --session <run> --expected-count 10
 
 ## Flujo
 
-1. Buscar candidatos reales con `npm run search -- --city "<Ciudad>" --out data/intake/<run>-candidates.json`.
-2. Generar shortlist con `npm run shortlist -- --input data/intake/<run>-candidates.json --out data/intake/<run>-shortlist.json`.
-3. Promover 10 negocios con `npm run promote -- --input data/intake/<run>-shortlist.json --out data/<run>-businesses.json`.
+1. Buscar candidatos reales con `npm run search -- --city "<Ciudad>" --out data/intake/<run>-candidates.json`; los negocios del registro se saltean antes de pedir detalles a Google Places.
+2. Generar shortlist con `npm run shortlist -- --input data/intake/<run>-candidates.json --out data/intake/<run>-shortlist.json`; el reporte deja constancia de los descartados que ya tienen landing.
+3. Promover 10 negocios con `npm run promote -- --input data/intake/<run>-shortlist.json --out data/<run>-businesses.json --limit 10`; el comando bloquea una promocion repetida salvo `--allow-generated`.
 4. Preparar briefs con `npm run agent:briefs -- --input data/<run>-businesses.json --specs data/site-specs/<run>-site-specs.json --out data/agent-briefs/<run> --city "<Ciudad>" --segment "<Rubro>"`.
 5. Etapa `design-director` (el agente de la sesión — Claude, o Codex si corre en Codex — con la skill IMPECCABLE `shape`/`critique`, register `brand`): elige `conversion_template`, completa `design_brief` con `designed_by: "claude-code" o "codex"` y define la dirección visual de cada landing; Codex implementa el frontend a partir de ese brief.
 6. El agente agrega `agent_frontend` en `data/site-specs/<run>-site-specs.json`.
 7. Validar specs con `npm run validate:specs -- --businesses data/<run>-businesses.json --specs data/site-specs/<run>-site-specs.json` y el gate de diseño con `npm run qa:design -- --businesses data/<run>-businesses.json --specs data/site-specs/<run>-site-specs.json`.
 8. Validar que no haya datos inventados ni negocios con sitio propio.
-9. Generar una carpeta de sesion en `generated/<sesion>/`; adentro queda una carpeta por negocio (`generated/<sesion>/<slug>/`) con todo su codigo.
+9. Generar una carpeta de sesion en `generated/<sesion>/`; adentro queda una carpeta por negocio (`generated/<sesion>/<slug>/`) con todo su codigo y se actualiza el registro versionado.
 10. Ejecutar QA de contenido, datos y frontends authored.
 11. Ejecutar `npm run qa:client`, `npm run qa:impeccable -- generated/<run>` (detector anti-slop) y revisar screenshots desktop/mobile.
 12. Generar el estudio final con `npm run study:final -- --session <run> --businesses data/<run>-businesses.json --price "[PRECIO]"`; el Markdown queda en `generated/<sesion>/final-study.md`.
 13. El workflow de deploy publica un unico proyecto Vercel con catalogo interno y URLs separadas por landing.
 
-`generated/` es salida reproducible local/CI y no debe versionarse. Las fuentes versionadas son datasets, specs y `data/frontends/**`.
+`generated/` es salida reproducible local/CI y no debe versionarse. Las fuentes versionadas son datasets, specs, `data/frontends/**` y el registro durable `data/generated-landings.{json,md}`.
 
 Ver detalles en `docs/PIPELINE.md`, `docs/DATA_RULES.md`, `docs/DESIGN_STANDARDS.md`, `docs/CLIENT_READINESS_QA.md` y `docs/DEPLOYMENT.md`.

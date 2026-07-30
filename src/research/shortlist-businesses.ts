@@ -3,6 +3,8 @@ import path from "node:path";
 import type { Business } from "../content/business-schema.js";
 import { businessDatasetSchema } from "../content/business-schema.js";
 import { loadBusinesses } from "../content/load-businesses.js";
+import { emptyRegistry, loadRegistry, matchesRegistry, renderLandingLink } from "./generated-registry.js";
+import type { GeneratedLandingEntry } from "./generated-registry.js";
 
 type Args = {
   input: string;
@@ -11,6 +13,8 @@ type Args = {
   terms: string[];
   excludeTerms: string[];
   title: string;
+  registryPath: string;
+  includeGenerated: boolean;
 };
 
 type ScoredBusiness = {
@@ -120,6 +124,8 @@ function parseArgs(argv: string[]): Args {
     terms: splitList(valueAfter("--terms", strongVehicleTerms.join("|"))),
     excludeTerms: splitList(valueAfter("--exclude", "")),
     title: valueAfter("--title", "Shortlist"),
+    registryPath: valueAfter("--registry", "data/generated-landings.json"),
+    includeGenerated: argv.includes("--include-generated"),
   };
 }
 
@@ -293,7 +299,12 @@ function selectDiverse(scored: ScoredBusiness[], limit: number): ScoredBusiness[
   return selected;
 }
 
-function renderReport(scored: ScoredBusiness[], title: string): string {
+function renderReport(
+  scored: ScoredBusiness[],
+  title: string,
+  excludedGenerated: Array<{ business: Business; landing: GeneratedLandingEntry }>,
+  reportPath: string,
+): string {
   const lines = [`# ${title}`, "", `Generated at: ${new Date().toISOString()}`, ""];
 
   for (const [index, item] of scored.entries()) {
@@ -307,13 +318,29 @@ function renderReport(scored: ScoredBusiness[], title: string): string {
     lines.push("");
   }
 
+  if (excludedGenerated.length > 0) {
+    lines.push("## Descartados: ya tiene landing", "");
+    for (const item of excludedGenerated) {
+      lines.push(`- ${item.business.name}: ${renderLandingLink(item.landing, reportPath)}`);
+    }
+    lines.push("");
+  }
+
   return `${lines.join("\n")}\n`;
 }
 
 async function main(): Promise<void> {
   const args = parseArgs(process.argv);
   const candidates = await loadBusinesses(args.input);
-  const scored = dedupe(candidates.filter((business) => isEligible(business, args.excludeTerms)).map((business) => scoreBusiness(business, args.terms))).sort((a, b) => {
+  const registry = args.includeGenerated ? emptyRegistry() : await loadRegistry(args.registryPath);
+  const excludedGenerated: Array<{ business: Business; landing: GeneratedLandingEntry }> = [];
+  const candidatesWithoutGenerated = candidates.filter((business) => {
+    const match = matchesRegistry(business, registry);
+    if (!match) return true;
+    excludedGenerated.push({ business, landing: match });
+    return false;
+  });
+  const scored = dedupe(candidatesWithoutGenerated.filter((business) => isEligible(business, args.excludeTerms)).map((business) => scoreBusiness(business, args.terms))).sort((a, b) => {
     if (b.score !== a.score) return b.score - a.score;
     if (b.business.rating.value !== a.business.rating.value) return b.business.rating.value - a.business.rating.value;
     return b.business.rating.reviews_count - a.business.rating.reviews_count;
@@ -331,10 +358,12 @@ async function main(): Promise<void> {
   }));
 
   const parsed = businessDatasetSchema.parse(shortlist);
+  const reportPath = args.out.replace(/\.json$/i, ".report.md");
   await mkdir(path.dirname(args.out), { recursive: true });
   await writeFile(args.out, `${JSON.stringify(parsed, null, 2)}\n`, "utf8");
-  await writeFile(args.out.replace(/\.json$/i, ".report.md"), renderReport(selected, args.title), "utf8");
+  await writeFile(reportPath, renderReport(selected, args.title, excludedGenerated, reportPath), "utf8");
 
+  console.log(`Skipped ${excludedGenerated.length} business(es) already present in the generated registry.`);
   console.log(`Wrote ${parsed.length} shortlisted business(es) to ${args.out}`);
 }
 

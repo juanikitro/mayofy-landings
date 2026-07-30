@@ -1,0 +1,133 @@
+[
+  {
+    "id": "google-ChIJ2zH133K9vJURwOoXVMRIPIE",
+    "name": "HONEKER PROPIEDADES",
+    "slug": "honeker-propiedades",
+    "category": "Real Estate Agency",
+    "is_vehicle_related": false,
+    "address": "B1663NDP, Av. Dr. Ricardo Balbín 1875, B1663NDP San Miguel, Provincia de Buenos Aires, Argentina",
+    "city": "San Miguel, Buenos Aires",
+    "neighborhood_or_area": null,
+    "phone": "011 15-6722-4601",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 5:00 PM | Tuesday: 9:00 AM – 5:00 PM | Wednesday: 9:00 AM – 5:00 PM | Thursday: 9:00 AM – 5:00 PM | Friday: 9:00 AM – 5:00 PM | Saturday: 9:00 AM – 1:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.4,
+      "reviews_count": 71,
+      "source_url": "https://maps.google.com/?cid=9312398137556986560&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "para dedicarse a la atención al cliente hay que tener vocación, y no solo contestar con desgano. Es imposible confiarle la venta y/o alquiler de una propiedad a una inmobiliaria que atiende asi a los futuros compradores y/o inquilinos. Ojala nunca tengan que cruzarse con gente que los atiendan asi.",
+        "author": "Fabricio Gomez",
+        "rating": 1,
+        "source_url": "https://www.google.com/maps/contrib/107432460921428795350/reviews"
+      },
+      {
+        "text": "Pésima atención, nos acabamos de ir más de 10 minutos esperando a ser atendidas",
+        "author": "Gilda Giordano",
+        "rating": 1,
+        "source_url": "https://www.google.com/maps/contrib/113156872397030745942/reviews"
+      },
+      {
+        "text": "Honeker propiedades la mejor!!! Lejos,10 años casi con ellos y jamás tuve un problema super recomendable y no soy amiga de nadie de ahí.solo clienta gracias Honeker",
+        "author": "Claudia Gutierrez",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/100535631714992287549/reviews"
+      }
+    ],
+    "main_product_or_service": "inmobiliaria",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ2zH133K9vJURwOoXVMRIPIE/photos/AWCwydhU2WEkmD6G9j8JM2vbUkqy8PmekCQ-a-_KjfuCg1GdjtHsV-XI8RVu0vzxYplhyXvaGma_IwEn-FGpguT9dnCWaiU1xoD7gOmZpMNWiWfa3kK8_y1nXhWLs4V4mE_BbGmHmiZD1grFq-iIt5XmymefCKqs-sKgd0voqHUo0mDSAF_OWucLQFK5Y2X_tItUUaRhLRVHkSVJhcQHmiq00oKyonr3R1gOJ56Rx015p6OgqjWEjvt0leIveAFXQNXdIyoAT3RKSXJV5kwnQYaT2g6v4Cly0nkkzlglgu8K6shhlwj5AiZS1uiTuJRdOqc_2rJfN7VSMsqDIHyrhkqn4B8AGpXpeU_71zvc_zVAQeiDeID2ULsIXNIHsZ3iiQamvj4MvxLl_jiae6jZO1AjLKSJ00hbwiyHQaWhzALjRPnS7G8/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=9312398137556986560&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=9312398137556986560&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=9312398137556986560&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-27T15:21:15.811Z",
+          "notes": "Resultado automatico para \"inmobiliaria\" en San Miguel, Buenos Aires. Segmento: inmobiliaria."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=9312398137556986560&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=9312398137556986560&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=9312398137556986560&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=9312398137556986560&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=9312398137556986560&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=9312398137556986560&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=9312398137556986560&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=9312398137556986560&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=9312398137556986560&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=9312398137556986560&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=9312398137556986560&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  }
+]
