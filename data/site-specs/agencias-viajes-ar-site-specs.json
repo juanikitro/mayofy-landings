@@ -1,0 +1,1857 @@
+[
+  {
+    "business_id": "google-ChIJb07qArart5URWu9D5FKzUhY",
+    "slug": "sauco-viajes",
+    "visual_mood": "neighborhood-direct",
+    "composition": "poster-bay",
+    "headline": "El grupo se armó. Vos sumate.",
+    "subheadline": "Salidas grupales acompañadas desde Rosario, con coordinadoras pendientes del grupo las 24 horas y un guía que cuenta la ciudad por dentro. 5,0 en Google con 65 reseñas. Av. Carlos Pellegrini 338, de lunes a viernes de 9:30 a 17:30.",
+    "primary_cta": "Llamar a la agencia",
+    "secondary_cta": "Cómo llegar",
+    "service_tags": [
+      "Salidas grupales",
+      "Coordinadoras en el viaje",
+      "Guía en destino",
+      "Sale y vuelve a Rosario"
+    ],
+    "proof_points": [
+      "5,0 en Google con 65 reseñas",
+      "Lunes a viernes de 9:30 a 17:30",
+      "Av. Carlos Pellegrini 338, Rosario",
+      "\"Cumplieron el contrato punto por punto\" (Viviana Massa)"
+    ],
+    "resource_title": "Antes de sumarte al grupo",
+    "resource_items": [
+      "Quién te acompaña: las coordinadoras que las reseñas nombran por su nombre.",
+      "De dónde sale: el viaje arranca y termina en Rosario.",
+      "Con quién hablás: teléfono directo a la oficina de Pellegrini 338."
+    ],
+    "review_heading": "Lo que cuenta el grupo que ya viajó",
+    "contact_heading": "Llamá y preguntá por la próxima salida",
+    "image_prompt": "Hero editorial: skyline de una gran ciudad al anochecer con luz cálida, el destino que describen las reseñas del grupo, con el titular dentro de un globo de diálogo lila. Las tres fotos verificadas de Google Places (el grupo con sus carteles de globo de diálogo, la ciudad de cuento, la casa de fantasía) entran más abajo como contexto documental, con alt honesto que no atribuye el lugar a la agencia.",
+    "design_notes": "Dirección 'Cartel de globo de diálogo': el sistema visual sale de los carteles impresos que el propio grupo levanta en sus fotos (lila y celeste sobre blanco). Par tipográfico Anybody (display, ancho expandido) + Asap (cuerpo). Superficie papel blanco frío, lila plano comprometido, celeste de apoyo y cobre del techo del castillo solo en el CTA de llamar. Template editorial-local-story.",
+    "conversion_template": "editorial-local-story",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Le vende a la persona de Rosario que quiere viajar lejos y no sola: Sauco arma el grupo, lo acompaña y lo trae de vuelta. La página convierte 65 reseñas de 5 estrellas en una llamada preguntando por la próxima salida.",
+      "visual_thesis": "'Cartel de globo de diálogo': la identidad sale de los carteles impresos que el grupo levanta en sus propias fotos, en lila y celeste sobre blanco. El globo de diálogo es el motivo estructural de toda la página (titular, reseñas y remates viven dentro de un globo con su cola), con Anybody en ancho expandido para el display y Asap para el cuerpo. Superficie papel blanco frío #F6F4F8 (nunca crema), lila plano #6B54A6 en bloques grandes, celeste #7CC3E0 de apoyo y cobre #C0522A, el color de los techos del castillo de sus fotos, reservado exclusivamente al CTA de llamar.",
+      "copy_voice": "Español argentino, vos, cálido y gregario, con la alegría de un grupo que se hizo amigo viajando. Frases cortas y humanas. El ángulo sale de las reseñas: acompañamiento las 24 horas, coordinadoras con nombre, contrato cumplido punto por punto.",
+      "layout_signature": "Hero a sangre con el destino al anochecer y el titular dentro de un globo de diálogo gigante, con rating y CTA de llamar arriba del fold. Después, franja de cómo viaja el grupo con la foto de los carteles; sección de quién acompaña en columnas asimétricas; reseñas literales en globos de distintos tamaños y rotaciones mínimas; ficha de contacto con horario, dirección y link a Maps junto a la dirección. Barra sticky de llamada en mobile.",
+      "asset_plan": "Hero editorial local en assets/hero.jpg. Las tres fotos verificadas de Google Places (foto-1 el grupo con los carteles, foto-2 y foto-3 destinos) entran como contexto documental con alt honesto. Globos de diálogo, colas de globo, borde de tijera y textura de papel impreso resueltos en SVG y CSS inline.",
+      "ai_fill_plan": {
+        "copy": [
+          "Escribir el texto de cada globo con la voz del grupo, sin inventar destinos, fechas ni cupos.",
+          "Convertir las reseñas en microcopy de decisión: qué preguntar por teléfono antes de sumarse.",
+          "Nombrar las secciones con lenguaje de viaje grupal, sin frases institucionales."
+        ],
+        "imagery": [
+          "Usar imagen editorial de destino para el hero y textura de papel impreso en CSS para el resto de la página.",
+          "Dibujar los globos de diálogo, su cola y las marcas de recorte en SVG inline, tomados de los carteles del grupo."
+        ],
+        "boundaries": [
+          "no inventar precios, cupos, fechas de salida, destinos nuevos, hoteles, aerolíneas ni cantidad de viajes realizados.",
+          "no atribuir a la agencia lugares, personas ni resultados que no estén en sus fotos verificadas: el alt del hero describe el destino, no una salida propia.",
+          "no citar reseñas que no estén en el dataset ni cambiar su texto o su autor."
+        ]
+      },
+      "anti_patterns": [
+        "Grilla de tres tarjetas iguales con ícono arriba, título y párrafo.",
+        "Fondo crema o beige por reflejo en vez del papel blanco frío de sus carteles.",
+        "Degradés violetas o glows de color: el lila es plano, impreso, como la tinta del cartel.",
+        "Chips eyebrow en mayúsculas con tracking amplio sobre cada sección.",
+        "Hero con foto de oficina o captura de ficha de Maps.",
+        "Bordes laterales gruesos de color como acento en tarjetas."
+      ],
+      "rewrite_targets": [
+        "Reemplazar el hero neutro por el globo de diálogo con el destino y la prueba social arriba del fold.",
+        "Hacer que el CTA de llamar sea el elemento más caliente de la página, en cobre sobre blanco.",
+        "Convertir el bloque de servicios en 'cómo viaja el grupo', con las coordinadoras y el guía que nombran las reseñas.",
+        "Mostrar horario, dirección y link a Maps dentro de la ficha de contacto, no sueltos en la página."
+      ]
+    },
+    "commercial": {
+      "tone": "premium-detailing",
+      "customer_type": "Adultos de Rosario y la región que quieren un viaje largo, acompañado y con todo resuelto.",
+      "hero_claim": "El grupo se armó. Vos sumate.",
+      "trust_bar": [
+        {
+          "label": "Valoración",
+          "title": "5,0 / 5",
+          "body": "65 reseñas en Google",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Horario",
+          "title": "Lunes a viernes",
+          "body": "De 9:30 a 17:30",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Oficina",
+          "title": "Av. Carlos Pellegrini 338",
+          "body": "Rosario, Santa Fe",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Teléfono",
+          "title": "0341 598-2505",
+          "body": "Atención directa de la agencia",
+          "meta": "Dato verificado"
+        }
+      ],
+      "service_cards": [
+        {
+          "label": "Grupal",
+          "title": "Salidas en grupo",
+          "body": "Viajes para recorrer acompañado de punta a punta, como el viaje a Nueva York que cuentan las tres reseñas publicadas."
+        },
+        {
+          "label": "Acompañamiento",
+          "title": "Coordinadoras en el viaje",
+          "body": "Las reseñas nombran a Nati, Joa, Leo y Sofi, pendientes del grupo las 24 horas."
+        },
+        {
+          "label": "Destino",
+          "title": "Un guía que cuenta la ciudad",
+          "body": "Octavio, el guía que mencionan dos reseñas, suma relatos y secretos de cada lugar."
+        },
+        {
+          "label": "Salida",
+          "title": "Arranca en Rosario",
+          "body": "Una reseña lo dice así: se disfruta desde la salida de Rosario hasta el regreso."
+        }
+      ],
+      "why_choose": [
+        {
+          "title": "Lo que firman, lo cumplen",
+          "body": "\"Cumplieron el contrato punto por punto\", escribió Viviana Massa en Google."
+        },
+        {
+          "title": "Nunca estás sola en el viaje",
+          "body": "El acompañamiento las 24 horas aparece en las tres reseñas publicadas."
+        },
+        {
+          "title": "Un grupo con buena onda",
+          "body": "\"Fue una fiesta compartir con un grupo con tanta buena onda\", cuenta Susana Inés Pasqualini."
+        }
+      ],
+      "packages": [
+        {
+          "name": "Próxima salida grupal",
+          "price_label": "A consultar",
+          "body": "Preguntá qué salida se está armando, cómo se viaja y qué queda por confirmar.",
+          "items": [
+            "Fecha de salida a confirmar",
+            "Cupos por teléfono",
+            "Sale y vuelve a Rosario"
+          ]
+        },
+        {
+          "name": "Grupo ya armado",
+          "price_label": "Se cotiza por grupo",
+          "body": "Si el grupo ya existe, la agencia arma el viaje sobre ese armado.",
+          "items": [
+            "Cantidad de pasajeros",
+            "Destino a definir con la agencia",
+            "Coordinación durante el viaje"
+          ]
+        },
+        {
+          "name": "Consulta por teléfono",
+          "price_label": "Se conversa en el momento",
+          "body": "Un llamado para contar qué viaje tenés en la cabeza y qué opciones hay.",
+          "items": [
+            "Teléfono directo de la agencia",
+            "Atención en Pellegrini 338",
+            "Lunes a viernes de 9:30 a 17:30"
+          ]
+        }
+      ],
+      "gallery": [
+        {
+          "label": "El grupo",
+          "title": "Los carteles que viajan con el grupo",
+          "body": "Foto publicada por la agencia: el grupo con sus carteles en una ciudad de cuento."
+        },
+        {
+          "label": "Destino",
+          "title": "Ciudades que parecen de cuento",
+          "body": "Otra imagen publicada por la agencia de un viaje ya hecho."
+        },
+        {
+          "label": "Recuerdo",
+          "title": "La postal que queda",
+          "body": "Tercera foto publicada por la agencia en su ficha de Google."
+        }
+      ],
+      "process": [
+        {
+          "step": "1",
+          "title": "Llamás",
+          "body": "Contás qué viaje tenés ganas de hacer y con quién."
+        },
+        {
+          "step": "2",
+          "title": "Te cuentan la salida",
+          "body": "Qué grupo se está armando, cómo se viaja y qué queda por confirmar."
+        },
+        {
+          "step": "3",
+          "title": "Te sumás",
+          "body": "Quedás en contacto con la agencia hasta el día de la salida."
+        },
+        {
+          "step": "4",
+          "title": "Viajás acompañado",
+          "body": "Las coordinadoras viajan con el grupo, de la salida al regreso."
+        }
+      ],
+      "final_cta": {
+        "title": "¿Preguntamos por la próxima salida?",
+        "body": "Un llamado a la oficina de Pellegrini 338 y te cuentan qué grupo se está armando.",
+        "primary_label": "Llamar al 0341 598-2505",
+        "secondary_label": "Cómo llegar"
+      }
+    },
+    "creative": {
+      "concept": "Una sitio clara para convertir una busqueda local en una consulta concreta. Direccion comercial para Clientes locales que necesitan entender el servicio, llamar y llegar sin friccion.",
+      "audience": "Clientes locales que necesitan entender el servicio, llamar y llegar sin friccion.",
+      "visual_direction": "Servicio local con jerarquia fuerte, datos arriba, pasos claros y tarjetas de accion.",
+      "layout": "mechanic-ledger",
+      "texture": "service-ledger",
+      "hero_angle": "Una sitio clara para convertir una busqueda local en una consulta concreta.",
+      "hero_cards": [
+        {
+          "label": "Prueba social",
+          "value": "5.0 / 5",
+          "note": "Dato verificado"
+        },
+        {
+          "label": "Rubro",
+          "value": "Travel Agency",
+          "note": "Base verificada"
+        },
+        {
+          "label": "Agenda",
+          "value": "Lunes a Viernes; Sabado, Domingo cerrado",
+          "note": "Dato verificado"
+        },
+        {
+          "label": "Contacto",
+          "value": "Telefono directo",
+          "note": "0341 598-2505"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Servicios",
+          "title": "Datos claros para decidir",
+          "body": "El sitio ordena datos publicos relevantes y deja como a confirmar cualquier dato comercial no verificado.",
+          "items": [
+            {
+              "label": "Servicio",
+              "value": "viajes grupales acompañados",
+              "note": "El servicio principal se muestra sin agregar prestaciones no verificadas."
+            },
+            {
+              "label": "Contacto",
+              "value": "Consulta directa",
+              "note": "Telefono, direccion y horario se ordenan para reducir friccion."
+            },
+            {
+              "label": "Prueba",
+              "value": "Referencias publicas",
+              "note": "Rating y resenas reales sostienen la decision."
+            }
+          ]
+        },
+        {
+          "type": "process",
+          "eyebrow": "Proceso",
+          "title": "De consulta a turno sin perder contexto",
+          "body": "El usuario entiende que informacion enviar, que se confirma y como avanzar.",
+          "items": [
+            {
+              "label": "01",
+              "value": "Contar la necesidad",
+              "note": "El visitante consulta el servicio principal."
+            },
+            {
+              "label": "02",
+              "value": "Confirmar disponibilidad",
+              "note": "El negocio valida horario, alcance y datos."
+            },
+            {
+              "label": "03",
+              "value": "Coordinar visita",
+              "note": "Direccion y contacto quedan visibles."
+            }
+          ]
+        },
+        {
+          "type": "metric-grid",
+          "eyebrow": "Confianza",
+          "title": "Datos reales arriba, informacion a confirmar separada",
+          "body": "El sitio combina fuentes verificadas con opciones comerciales que se completan antes de publicar.",
+          "items": [
+            {
+              "label": "Prueba social",
+              "value": "5.0 / 5",
+              "note": "65 resenas registradas en las fuentes disponibles."
+            },
+            {
+              "label": "Rubro",
+              "value": "Travel Agency",
+              "note": "El sitio debe vender el servicio principal sin sumar prestaciones no confirmadas."
+            },
+            {
+              "label": "Agenda",
+              "value": "Lunes a Viernes; Sabado, Domingo cerrado",
+              "note": "Horario publicado para orientar la primera consulta."
+            },
+            {
+              "label": "Contacto",
+              "value": "Telefono directo",
+              "note": "CTA preparado para llamar desde el celular sin buscar el dato en otro lado."
+            }
+          ]
+        },
+        {
+          "type": "material-story",
+          "eyebrow": "Direccion visual",
+          "title": "El sitio se apoya en imagen real y escenas seguras de contexto.",
+          "body": "Cuando los datos o fotos son pobres, la composicion puede sumar atmosfera, textura y proceso sin atribuir esos recursos al negocio.",
+          "items": [
+            {
+              "label": "Foto real",
+              "value": "Usar como prueba",
+              "note": "Priorizar la mejor imagen publica disponible."
+            },
+            {
+              "label": "Apoyo visual",
+              "value": "Poblar contexto",
+              "note": "Herramientas, material, mostrador o proceso sin marcas falsas."
+            },
+            {
+              "label": "Cliente",
+              "value": "Siguiente paso claro",
+              "note": "Consultar"
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Accion",
+          "title": "Sauco Viajes: el proximo paso es simple",
+          "body": "Llama, confirma disponibilidad y lleva el auto con el dato clave ya resuelto: travel agency, direccion y horario.",
+          "items": [
+            {
+              "label": "CTA",
+              "value": "Consultar",
+              "note": "0341 598-2505"
+            },
+            {
+              "label": "Ubicacion",
+              "value": "Av. Carlos Pellegrini 338, S2000 Rosario, Santa Fe, Argentina"
+            },
+            {
+              "label": "Horario",
+              "value": "Lunes a Viernes; Sabado, Domingo cerrado"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/agencias-viajes-ar/sauco-viajes",
+      "notes": "Dirección 'Cartel de globo de diálogo': papel blanco frío, lila plano y celeste de los carteles del propio grupo, cobre solo en el CTA. Anybody + Asap. Template editorial-local-story."
+    }
+  },
+  {
+    "business_id": "google-ChIJuwvmfcPDG5QRcmfSkuGTe_o",
+    "slug": "almendra-viajes-salta",
+    "visual_mood": "precision-service",
+    "composition": "route-card",
+    "headline": "El norte, con alguien que te contesta",
+    "subheadline": "Excursiones por Salta y Jujuy con coordinadores propios y choferes que hacen de guía. Las reseñas nombran Cafayate y sus bodegas, Cachi, Salinas Grandes, Purmamarca, Tilcara, Humahuaca, Iruya, el dique Cabra Corral y el Tren a las Nubes. 4,8 en Google con 82 reseñas, de lunes a sábado de 11 a 22.",
+    "primary_cta": "Llamar ahora",
+    "secondary_cta": "Escribir por WhatsApp",
+    "service_tags": [
+      "Excursiones por Salta",
+      "Quebrada y puna de Jujuy",
+      "Coordinadores propios",
+      "Choferes que hacen de guía"
+    ],
+    "proof_points": [
+      "4,8 en Google con 82 reseñas",
+      "Lunes a sábado de 11 a 22",
+      "\"Los choferes, unos guías súper preparados\" (Fernando Pazos)",
+      "Excursiones nombradas en las reseñas: Cafayate, Cachi, Salinas Grandes, Iruya"
+    ],
+    "resource_title": "Antes de reservar la excursión",
+    "resource_items": [
+      "A quién le escribís: el mismo número atiende el teléfono y el WhatsApp de la agencia.",
+      "Qué excursiones aparecen en las reseñas: Cafayate, Cachi, Salinas Grandes, Purmamarca, Tilcara, Humahuaca e Iruya.",
+      "Cómo coordinan: una reseña cuenta que el día antes se comunican y arreglan horarios."
+    ],
+    "review_heading": "Lo que escribieron los que ya subieron al cerro",
+    "contact_heading": "Preguntá por la excursión que querés hacer",
+    "image_prompt": "Hero editorial: los cerros estratificados del altiplano argentino a plena luz, con las bandas de color rosa, ocre y jade que definen la paleta, y el titular en letras monumentales tipo cartel de destino. Las tres fotos verificadas de Google Places (los carteles de Hornocal, Cachi y Purmamarca) ilustran el menú de excursiones como contexto documental, con alt honesto.",
+    "design_notes": "Dirección 'Cartel de destino': el sistema sale de los carteles monumentales de nombre de pueblo de sus tres fotos (Hornocal, Cachi, Purmamarca). Par tipográfico League Spartan (display, letra fundida) + Petrona (cuerpo). Fondo drenched azul de cielo de altura, tipografía color piedra y terracota de las urnas de barro de Cachi solo en el CTA. Bandas del Hornocal dibujadas en SVG inline, nunca como degradé. Template visual-menu.",
+    "conversion_template": "visual-menu",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Le vende una excursión concreta al viajero que ya está en Salta o llega en pocos días y hoy tiene que animarse a mandarle un mensaje a un desconocido por red social. La página le da a la agencia el lugar propio que sus reseñas piden a gritos.",
+      "visual_thesis": "'Cartel de destino': cada bloque se construye como uno de esos carteles monumentales de nombre de pueblo que aparecen en sus tres fotos, con League Spartan en peso pesado haciendo de letra fundida y Petrona para el cuerpo. Superficie drenched en azul de cielo de altura #0B2E52, tipografía en piedra #EFE6D8, azul cobalto #2E6FA8 para paneles y terracota #D4622A, el color de las urnas de barro de Cachi, reservado al CTA. Las bandas de color del Hornocal (rosa, ocre, jade, piedra) se dibujan en SVG inline como firma gráfica.",
+      "copy_voice": "Español argentino, vos, de anfitrión salteño: cálido, concreto y orgulloso del cerro. Nombra lugares reales y explica cómo se resuelve cada duda. El ángulo sale de las reseñas: alguien que contesta siempre, choferes que explican cada quebrada, coordinación el día antes de salir.",
+      "layout_signature": "Hero a sangre con el cerro y el nombre del norte en letras monumentales, rating y dos remates (llamar y WhatsApp) arriba del fold. Después, menú visual de excursiones donde cada destino es un cartel con su nombre en letra fundida y su foto verificada; franja de cómo coordinan; reseñas literales sobre panel piedra; ficha de contacto con horario, dirección y link a Maps junto a la dirección. Barra sticky de llamada en mobile.",
+      "asset_plan": "Hero editorial de cerros estratificados en assets/hero.jpg. Las tres fotos verificadas (carteles de Hornocal, Cachi y Purmamarca) ilustran el menú de excursiones. Bandas del Hornocal, arco de adobe y silueta de cardón resueltas en SVG inline.",
+      "ai_fill_plan": {
+        "copy": [
+          "Escribir el menú de excursiones con los destinos que ya aparecen en las reseñas, aclarando que salen de ahí.",
+          "Convertir la fricción del DM en copy de decisión: cómo se reserva, cómo se coordina, quién contesta.",
+          "Nombrar secciones con vocabulario del norte, sin frases institucionales."
+        ],
+        "imagery": [
+          "Usar imagen editorial de cerros para el hero y las bandas estratificadas del Hornocal en SVG inline como textura.",
+          "Dibujar el arco de adobe, la silueta de cardón y las letras monumentales con CSS y SVG, sin depender de assets externos."
+        ],
+        "boundaries": [
+          "no inventar precios, duración, cupos, horarios de salida, hoteles ni excursiones que no estén nombradas en las reseñas.",
+          "no afirmar que el cerro del hero es una excursión propia: el alt describe el paisaje del altiplano, no una salida de la agencia.",
+          "no citar reseñas que no estén en el dataset ni cambiar su texto o su autor.",
+          "no publicar la dirección de Instagram como si fuera la dirección de la oficina."
+        ]
+      },
+      "anti_patterns": [
+        "Degradé de colores para simular el cerro en vez de bandas dibujadas en SVG.",
+        "Fondo crema o beige en vez del azul de altura comprometido.",
+        "Chips eyebrow en mayúsculas con tracking amplio sobre cada sección.",
+        "Grilla de tarjetas idénticas para las excursiones, todas del mismo tamaño.",
+        "Marcadores numerados 01 / 02 / 03 como andamiaje de secciones.",
+        "Prometer precios, cupos o fechas que la agencia no publica."
+      ],
+      "rewrite_targets": [
+        "Convertir el hero en un cartel de destino con el rating y los dos canales de contacto arriba del fold.",
+        "Reemplazar la lista de servicios por un menú de excursiones con nombre propio y foto.",
+        "Hacer del CTA de contacto el único elemento terracota de la página.",
+        "Poner el horario amplio de atención como argumento de conversión, porque atiende hasta las 22."
+      ]
+    },
+    "commercial": {
+      "tone": "urban-custom",
+      "customer_type": "Viajeros que llegan a Salta y quieren resolver excursiones al norte con alguien que responda rápido.",
+      "hero_claim": "El norte, con alguien que te contesta.",
+      "trust_bar": [
+        {
+          "label": "Valoración",
+          "title": "4,8 / 5",
+          "body": "82 reseñas en Google",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Atención",
+          "title": "Lunes a sábado",
+          "body": "De 11 a 22",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Teléfono",
+          "title": "0387 591-1711",
+          "body": "El mismo número atiende WhatsApp",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Base",
+          "title": "Salta capital",
+          "body": "Pje. Santa Victoria 715",
+          "meta": "Dato verificado"
+        }
+      ],
+      "service_cards": [
+        {
+          "label": "Valles Calchaquíes",
+          "title": "Cafayate y Cachi",
+          "body": "Las bodegas de Cafayate y el pueblo de Cachi aparecen nombrados en las reseñas de la agencia."
+        },
+        {
+          "label": "Jujuy",
+          "title": "Purmamarca, Tilcara y Humahuaca",
+          "body": "La quebrada completa, tal como la enumera una reseña de ocho días de recorrido."
+        },
+        {
+          "label": "Puna",
+          "title": "Salinas Grandes",
+          "body": "El salar figura entre los destinos que los pasajeros mencionan por escrito."
+        },
+        {
+          "label": "Iruya",
+          "title": "El pueblo colgado del cerro",
+          "body": "\"Muy linda la excursión, unos paisajes increíbles\", escribió Sonia Foglia sobre Iruya."
+        },
+        {
+          "label": "Cerca de Salta",
+          "title": "Cabra Corral y Tren a las Nubes",
+          "body": "Dos salidas más que las reseñas nombran dentro del mismo recorrido."
+        }
+      ],
+      "why_choose": [
+        {
+          "title": "Contestan aunque los encuentres por red social",
+          "body": "\"Contactamos por facebook con todo el temor que eso implica\", cuenta Fernando Pazos, y termina agradeciendo la atención diaria."
+        },
+        {
+          "title": "El chofer también explica",
+          "body": "Las reseñas describen choferes preparados que cuentan cada ladera, quebrada, valle y yunga."
+        },
+        {
+          "title": "Coordinan el día antes",
+          "body": "\"Un día antes se comunican y coordinan horarios\", escribió Geraldine Larroude."
+        }
+      ],
+      "packages": [
+        {
+          "name": "Excursión de un día",
+          "price_label": "A consultar",
+          "body": "Consultá por una de las excursiones que ya hacen y cómo se reserva.",
+          "items": [
+            "Destino a elegir con la agencia",
+            "Horario que se coordina el día antes",
+            "Coordinador de la agencia en la salida"
+          ]
+        },
+        {
+          "name": "Varios días de norte",
+          "price_label": "Según la excursión",
+          "body": "Recorridos que combinan Salta y Jujuy, como los que describen las reseñas.",
+          "items": [
+            "Combinación de destinos",
+            "Coordinadores propios",
+            "Consultas por teléfono o WhatsApp"
+          ]
+        },
+        {
+          "name": "Grupo o familia",
+          "price_label": "Se cotiza por grupo",
+          "body": "Si viajan varios, la agencia arma el recorrido sobre ese grupo.",
+          "items": [
+            "Cantidad de pasajeros",
+            "Días disponibles",
+            "Puntos de encuentro a coordinar"
+          ]
+        }
+      ],
+      "gallery": [
+        {
+          "label": "Hornocal",
+          "title": "El cerro de catorce colores",
+          "body": "Foto publicada por la agencia junto al cartel de Hornocal."
+        },
+        {
+          "label": "Cachi",
+          "title": "El cartel de Cachi",
+          "body": "Foto publicada por la agencia con el arco de adobe y los cardones."
+        },
+        {
+          "label": "Purmamarca",
+          "title": "Purmamarca, Jujuy",
+          "body": "Foto publicada por la agencia frente al cartel del pueblo."
+        }
+      ],
+      "process": [
+        {
+          "step": "1",
+          "title": "Escribís o llamás",
+          "body": "Contás qué días tenés y qué querés ver del norte."
+        },
+        {
+          "step": "2",
+          "title": "Te pasan la información",
+          "body": "La agencia te dice qué excursión entra en esos días y qué falta confirmar."
+        },
+        {
+          "step": "3",
+          "title": "Coordinan el horario",
+          "body": "El día antes se comunican para arreglar hora y punto de encuentro."
+        },
+        {
+          "step": "4",
+          "title": "Salís con el coordinador",
+          "body": "Un coordinador de la agencia acompaña la excursión."
+        }
+      ],
+      "final_cta": {
+        "title": "Contale qué querés ver del norte",
+        "body": "Atienden de lunes a sábado de 11 a 22, por teléfono o por WhatsApp al mismo número.",
+        "primary_label": "Llamar al 0387 591-1711",
+        "secondary_label": "Escribir por WhatsApp"
+      }
+    },
+    "creative": {
+      "concept": "Una sitio clara para convertir una busqueda local en una consulta concreta. Direccion comercial para Clientes locales que necesitan entender el servicio, llamar y llegar sin friccion.",
+      "audience": "Clientes locales que necesitan entender el servicio, llamar y llegar sin friccion.",
+      "visual_direction": "Servicio local con jerarquia fuerte, datos arriba, pasos claros y tarjetas de accion.",
+      "layout": "mechanic-ledger",
+      "texture": "service-ledger",
+      "hero_angle": "Una sitio clara para convertir una busqueda local en una consulta concreta.",
+      "hero_cards": [
+        {
+          "label": "Prueba social",
+          "value": "4.8 / 5",
+          "note": "Dato verificado"
+        },
+        {
+          "label": "Rubro",
+          "value": "Travel Agency",
+          "note": "Base verificada"
+        },
+        {
+          "label": "Agenda",
+          "value": "Lunes a Sabado; Domingo cerrado",
+          "note": "Dato verificado"
+        },
+        {
+          "label": "Contacto",
+          "value": "Telefono directo",
+          "note": "0387 591-1711"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Servicios",
+          "title": "Datos claros para decidir",
+          "body": "El sitio ordena datos publicos relevantes y deja como a confirmar cualquier dato comercial no verificado.",
+          "items": [
+            {
+              "label": "Servicio",
+              "value": "excursiones por Salta y el norte argentino",
+              "note": "El servicio principal se muestra sin agregar prestaciones no verificadas."
+            },
+            {
+              "label": "Contacto",
+              "value": "Consulta directa",
+              "note": "Telefono, direccion y horario se ordenan para reducir friccion."
+            },
+            {
+              "label": "Prueba",
+              "value": "Referencias publicas",
+              "note": "Rating y resenas reales sostienen la decision."
+            }
+          ]
+        },
+        {
+          "type": "process",
+          "eyebrow": "Proceso",
+          "title": "De consulta a turno sin perder contexto",
+          "body": "El usuario entiende que informacion enviar, que se confirma y como avanzar.",
+          "items": [
+            {
+              "label": "01",
+              "value": "Contar la necesidad",
+              "note": "El visitante consulta el servicio principal."
+            },
+            {
+              "label": "02",
+              "value": "Confirmar disponibilidad",
+              "note": "El negocio valida horario, alcance y datos."
+            },
+            {
+              "label": "03",
+              "value": "Coordinar visita",
+              "note": "Direccion y contacto quedan visibles."
+            }
+          ]
+        },
+        {
+          "type": "metric-grid",
+          "eyebrow": "Confianza",
+          "title": "Datos reales arriba, informacion a confirmar separada",
+          "body": "El sitio combina fuentes verificadas con opciones comerciales que se completan antes de publicar.",
+          "items": [
+            {
+              "label": "Prueba social",
+              "value": "4.8 / 5",
+              "note": "82 resenas registradas en las fuentes disponibles."
+            },
+            {
+              "label": "Rubro",
+              "value": "Travel Agency",
+              "note": "El sitio debe vender el servicio principal sin sumar prestaciones no confirmadas."
+            },
+            {
+              "label": "Agenda",
+              "value": "Lunes a Sabado; Domingo cerrado",
+              "note": "Horario publicado para orientar la primera consulta."
+            },
+            {
+              "label": "Contacto",
+              "value": "Telefono directo",
+              "note": "CTA preparado para llamar desde el celular sin buscar el dato en otro lado."
+            }
+          ]
+        },
+        {
+          "type": "material-story",
+          "eyebrow": "Direccion visual",
+          "title": "El sitio se apoya en imagen real y escenas seguras de contexto.",
+          "body": "Cuando los datos o fotos son pobres, la composicion puede sumar atmosfera, textura y proceso sin atribuir esos recursos al negocio.",
+          "items": [
+            {
+              "label": "Foto real",
+              "value": "Usar como prueba",
+              "note": "Priorizar la mejor imagen publica disponible."
+            },
+            {
+              "label": "Apoyo visual",
+              "value": "Poblar contexto",
+              "note": "Herramientas, material, mostrador o proceso sin marcas falsas."
+            },
+            {
+              "label": "Cliente",
+              "value": "Siguiente paso claro",
+              "note": "Consultar"
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Accion",
+          "title": "Almendra Viajes Salta: el proximo paso es simple",
+          "body": "Llama, confirma disponibilidad y lleva el auto con el dato clave ya resuelto: travel agency, direccion y horario.",
+          "items": [
+            {
+              "label": "CTA",
+              "value": "Consultar",
+              "note": "0387 591-1711"
+            },
+            {
+              "label": "Ubicacion",
+              "value": "Salta capital Pje santa victoria 715, altura rioja 2200, A4400 Salta, Argentina"
+            },
+            {
+              "label": "Horario",
+              "value": "Lunes a Sabado; Domingo cerrado"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/agencias-viajes-ar/almendra-viajes-salta",
+      "notes": "Dirección 'Cartel de destino': azul de cielo de altura drenched, letras piedra monumentales y terracota de Cachi solo en el CTA. League Spartan + Petrona. Template visual-menu."
+    }
+  },
+  {
+    "business_id": "google-ChIJdf9B2TvmopURpoO-qAvjSj0",
+    "slug": "tienda-de-viajes",
+    "visual_mood": "workshop-trust",
+    "composition": "split-command",
+    "headline": "Lo que te venden, es lo que es",
+    "subheadline": "La frase es de Constanza Piscopo en Google, después de viajar varias veces con la agencia. Viajes armados a medida desde la casona de calle 11: Bariloche, El Calafate, Ushuaia y el destino que quieras. 4,6 con 60 reseñas, de lunes a viernes de 9 a 16.",
+    "primary_cta": "Llamar a la agencia",
+    "secondary_cta": "Escribir por WhatsApp",
+    "service_tags": [
+      "Viajes a medida",
+      "Argentina y exterior",
+      "Atención personal",
+      "Seguimiento durante el viaje"
+    ],
+    "proof_points": [
+      "4,6 en Google con 60 reseñas",
+      "Lunes a viernes de 9 a 16",
+      "Calle 11 769, entre 47 y 48, La Plata",
+      "\"Les consulté en horario fuera de atención y me mandaron respuesta\" (Jorge Minetto)"
+    ],
+    "resource_title": "Lo que conviene tener a mano antes de llamar",
+    "resource_items": [
+      "El destino que tenés en la cabeza, aunque sea aproximado.",
+      "Las fechas posibles y cuántos viajan.",
+      "Si ya reservaste algo por tu cuenta, para que lo tengan en cuenta."
+    ],
+    "review_heading": "Tres viajes contados por quienes los hicieron",
+    "contact_heading": "Pasá por la casona de calle 11 o llamá",
+    "image_prompt": "Hero editorial: un glaciar patagónico con los cerros detrás, uno de los destinos que las reseñas verificadas nombran (El Calafate). Las tres fotos de Google Places (la fachada verde salvia con el cartel metálico, el hall con el avioncito amarillo, la recepción de piso ajedrezado) entran como contexto documental de la agencia, con alt honesto.",
+    "design_notes": "Dirección 'Casona de damero': verde salvia de la fachada, molduras blancas, tinta azul del cartel y el avioncito amarillo del logo como único color caliente. Par tipográfico Prata (display) + Alegreya Sans (cuerpo). Motivo: el piso ajedrezado de la recepción como patrón SVG y el avión como marca de recorrido. Template service-diagnostic.",
+    "conversion_template": "service-diagnostic",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Le vende a la familia platense que quiere delegar el armado de un viaje grande y necesita saber que del otro lado hay una persona que responde. La página convierte una reputación de boca en boca en una consulta concreta.",
+      "visual_thesis": "'Casona platense de damero': la identidad se extrae de la casona real de calle 11, con su revoque verde salvia y sus molduras blancas, la tinta azul del cartel y el avioncito amarillo del logo. Superficie de yeso verdoso frío #E7ECE1, tinta azul #14294F para todo el texto, salvia #5F6E55 en bloques y molduras, y amarillo azafrán #E9A317 (el avión) como único color caliente, exclusivo del CTA. El piso ajedrezado de la recepción se dibuja como patrón SVG inline y organiza los cortes de sección. Par tipográfico Prata para el display y Alegreya Sans para el cuerpo.",
+      "copy_voice": "Español argentino, vos, sobrio y hospitalario, de agencia con oficio y puerta a la calle. Frases de trato personal, sin épica. El ángulo sale de las reseñas: te atienden por nombre, responden fuera de horario y lo que venden es lo que es.",
+      "layout_signature": "Hero partido: a la izquierda el titular en Prata con la cita atribuida y los dos remates; a la derecha la foto editorial del destino con una franja de damero como zócalo. Después, bloque de diagnóstico (qué necesitan saber para armar el viaje) en dos columnas asimétricas; destinos que nombran las reseñas como fichas de recorrido con el avión; reseñas literales sobre panel salvia; ficha de contacto con horario, dirección y link a Maps junto a la dirección. Barra sticky de llamada en mobile.",
+      "asset_plan": "Hero editorial de glaciar en assets/hero.jpg. Las tres fotos verificadas de la casona (fachada, hall y recepción) se usan como contexto documental de la agencia. Damero, molduras y avión resueltos en SVG y CSS inline.",
+      "ai_fill_plan": {
+        "copy": [
+          "Escribir el bloque de diagnóstico como preguntas que la agencia necesita para cotizar, sin prometer respuestas.",
+          "Convertir las reseñas en argumentos de confianza sin exagerar lo que dicen.",
+          "Nombrar secciones con vocabulario de casona y mostrador, no de plataforma."
+        ],
+        "imagery": [
+          "Usar imagen editorial del destino nombrado en las reseñas para el hero y el damero SVG como textura de la casa.",
+          "Dibujar el avión, las molduras y los filetes en SVG inline, tomados del cartel y del hall reales."
+        ],
+        "boundaries": [
+          "no inventar precios, cuotas, financiación, aerolíneas, hoteles, años de trayectoria ni cantidad de viajes vendidos.",
+          "no afirmar que el glaciar del hero es una salida propia: el alt describe el destino que nombran las reseñas.",
+          "no citar reseñas que no estén en el dataset ni cambiar su texto o su autor."
+        ]
+      },
+      "anti_patterns": [
+        "Fondo crema o beige por reflejo en vez del yeso verdoso de la fachada.",
+        "Serif en itálica gigante como display, que convierte la casona en revista de moda.",
+        "Chips eyebrow en mayúsculas con tracking amplio sobre cada sección.",
+        "Tres tarjetas iguales con ícono, título y párrafo.",
+        "Bordes laterales gruesos de color como acento."
+      ],
+      "rewrite_targets": [
+        "Poner la cita de la reseña como titular y atribuirla, en vez de un eslogan propio.",
+        "Reemplazar el bloque de servicios por un diagnóstico de lo que la agencia necesita saber.",
+        "Hacer del amarillo del avión el único color caliente y usarlo solo en el CTA.",
+        "Mostrar horario, dirección y link a Maps en la ficha de contacto."
+      ]
+    },
+    "commercial": {
+      "tone": "bodyshop-craft",
+      "customer_type": "Familias y parejas de La Plata que quieren delegar el armado de un viaje grande.",
+      "hero_claim": "Lo que te venden, es lo que es.",
+      "trust_bar": [
+        {
+          "label": "Valoración",
+          "title": "4,6 / 5",
+          "body": "60 reseñas en Google",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Horario",
+          "title": "Lunes a viernes",
+          "body": "De 9 a 16",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Casona",
+          "title": "Calle 11 769",
+          "body": "Entre 47 y 48, La Plata",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Contacto",
+          "title": "0221 424-6300",
+          "body": "WhatsApp 221 303-8874",
+          "meta": "Dato verificado"
+        }
+      ],
+      "service_cards": [
+        {
+          "label": "A medida",
+          "title": "El viaje se arma con vos",
+          "body": "Las reseñas describen viajes programados con la agencia según lo que necesitaba cada familia."
+        },
+        {
+          "label": "Patagonia",
+          "title": "Bariloche, El Calafate y Ushuaia",
+          "body": "Los tres destinos aparecen nombrados por los pasajeros que dejaron reseña."
+        },
+        {
+          "label": "Exterior",
+          "title": "Fuera del país también",
+          "body": "La agencia trabaja destinos de Argentina y del exterior."
+        },
+        {
+          "label": "Durante el viaje",
+          "title": "Te responden en el camino",
+          "body": "Una reseña cuenta una consulta resuelta fuera del horario de atención, con respuesta del operador."
+        }
+      ],
+      "why_choose": [
+        {
+          "title": "Te atienden por nombre",
+          "body": "\"La atención de Josefina fue excelente\", escribió Alejandro Toloy sobre su viaje a Bariloche."
+        },
+        {
+          "title": "Resuelven el imprevisto",
+          "body": "Jorge Minetto cuenta un error de equipaje resuelto con una respuesta fuera de horario."
+        },
+        {
+          "title": "Repiten clientes",
+          "body": "\"Viajamos varias veces con la agencia y no tuvimos ningún problema\", dice Constanza Piscopo."
+        }
+      ],
+      "packages": [
+        {
+          "name": "Viaje familiar armado",
+          "price_label": "A consultar",
+          "body": "Contás destino, fechas y cuántos son, y la agencia arma la propuesta.",
+          "items": [
+            "Destino y fechas a definir",
+            "Cantidad de pasajeros",
+            "Propuesta armada por la agencia"
+          ]
+        },
+        {
+          "name": "Escapada corta",
+          "price_label": "Según el destino",
+          "body": "Para pocos días, con lo justo resuelto y sin vueltas.",
+          "items": [
+            "Días disponibles",
+            "Traslados a coordinar",
+            "Consulta por teléfono o WhatsApp"
+          ]
+        },
+        {
+          "name": "Viaje al exterior",
+          "price_label": "Se cotiza según el destino",
+          "body": "La agencia trabaja destinos fuera del país sobre lo que vos necesitás.",
+          "items": [
+            "Destino a definir",
+            "Documentación a consultar con la agencia",
+            "Seguimiento durante el viaje"
+          ]
+        }
+      ],
+      "gallery": [
+        {
+          "label": "Fachada",
+          "title": "La casona de calle 11",
+          "body": "Foto de la fachada verde con el cartel metálico de la agencia."
+        },
+        {
+          "label": "Hall",
+          "title": "El hall de entrada",
+          "body": "Foto del hall con el cartel azul y el avión amarillo de la marca."
+        },
+        {
+          "label": "Mostrador",
+          "title": "El piso ajedrezado",
+          "body": "Foto de la recepción, con el damero que da nombre a la dirección visual."
+        }
+      ],
+      "process": [
+        {
+          "step": "1",
+          "title": "Llamás o escribís",
+          "body": "Contás a dónde querés ir y con qué fechas."
+        },
+        {
+          "step": "2",
+          "title": "Te hacen las preguntas justas",
+          "body": "Cuántos viajan, qué buscan y qué ya tienen resuelto."
+        },
+        {
+          "step": "3",
+          "title": "Recibís la propuesta",
+          "body": "La agencia arma el viaje sobre esos datos."
+        },
+        {
+          "step": "4",
+          "title": "Viajás con respaldo",
+          "body": "Si algo se mueve en el camino, hay a quién consultarle."
+        }
+      ],
+      "final_cta": {
+        "title": "Contale a dónde querés ir",
+        "body": "La casona de calle 11 atiende de lunes a viernes de 9 a 16, por teléfono o WhatsApp.",
+        "primary_label": "Llamar al 0221 424-6300",
+        "secondary_label": "Escribir por WhatsApp"
+      }
+    },
+    "creative": {
+      "concept": "Una sitio clara para convertir una busqueda local en una consulta concreta. Direccion comercial para Clientes locales que necesitan entender el servicio, llamar y llegar sin friccion.",
+      "audience": "Clientes locales que necesitan entender el servicio, llamar y llegar sin friccion.",
+      "visual_direction": "Servicio local con jerarquia fuerte, datos arriba, pasos claros y tarjetas de accion.",
+      "layout": "mechanic-ledger",
+      "texture": "service-ledger",
+      "hero_angle": "Una sitio clara para convertir una busqueda local en una consulta concreta.",
+      "hero_cards": [
+        {
+          "label": "Prueba social",
+          "value": "4.6 / 5",
+          "note": "Dato verificado"
+        },
+        {
+          "label": "Rubro",
+          "value": "Travel Agency",
+          "note": "Base verificada"
+        },
+        {
+          "label": "Agenda",
+          "value": "Lunes a Viernes; Sabado, Domingo cerrado",
+          "note": "Dato verificado"
+        },
+        {
+          "label": "Contacto",
+          "value": "Telefono directo",
+          "note": "0221 424-6300"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Servicios",
+          "title": "Datos claros para decidir",
+          "body": "El sitio ordena datos publicos relevantes y deja como a confirmar cualquier dato comercial no verificado.",
+          "items": [
+            {
+              "label": "Servicio",
+              "value": "viajes a medida a destinos de Argentina y el exterior",
+              "note": "El servicio principal se muestra sin agregar prestaciones no verificadas."
+            },
+            {
+              "label": "Contacto",
+              "value": "Consulta directa",
+              "note": "Telefono, direccion y horario se ordenan para reducir friccion."
+            },
+            {
+              "label": "Prueba",
+              "value": "Referencias publicas",
+              "note": "Rating y resenas reales sostienen la decision."
+            }
+          ]
+        },
+        {
+          "type": "process",
+          "eyebrow": "Proceso",
+          "title": "De consulta a turno sin perder contexto",
+          "body": "El usuario entiende que informacion enviar, que se confirma y como avanzar.",
+          "items": [
+            {
+              "label": "01",
+              "value": "Contar la necesidad",
+              "note": "El visitante consulta el servicio principal."
+            },
+            {
+              "label": "02",
+              "value": "Confirmar disponibilidad",
+              "note": "El negocio valida horario, alcance y datos."
+            },
+            {
+              "label": "03",
+              "value": "Coordinar visita",
+              "note": "Direccion y contacto quedan visibles."
+            }
+          ]
+        },
+        {
+          "type": "metric-grid",
+          "eyebrow": "Confianza",
+          "title": "Datos reales arriba, informacion a confirmar separada",
+          "body": "El sitio combina fuentes verificadas con opciones comerciales que se completan antes de publicar.",
+          "items": [
+            {
+              "label": "Prueba social",
+              "value": "4.6 / 5",
+              "note": "60 resenas registradas en las fuentes disponibles."
+            },
+            {
+              "label": "Rubro",
+              "value": "Travel Agency",
+              "note": "El sitio debe vender el servicio principal sin sumar prestaciones no confirmadas."
+            },
+            {
+              "label": "Agenda",
+              "value": "Lunes a Viernes; Sabado, Domingo cerrado",
+              "note": "Horario publicado para orientar la primera consulta."
+            },
+            {
+              "label": "Contacto",
+              "value": "Telefono directo",
+              "note": "CTA preparado para llamar desde el celular sin buscar el dato en otro lado."
+            }
+          ]
+        },
+        {
+          "type": "material-story",
+          "eyebrow": "Direccion visual",
+          "title": "El sitio se apoya en imagen real y escenas seguras de contexto.",
+          "body": "Cuando los datos o fotos son pobres, la composicion puede sumar atmosfera, textura y proceso sin atribuir esos recursos al negocio.",
+          "items": [
+            {
+              "label": "Foto real",
+              "value": "Usar como prueba",
+              "note": "Priorizar la mejor imagen publica disponible."
+            },
+            {
+              "label": "Apoyo visual",
+              "value": "Poblar contexto",
+              "note": "Herramientas, material, mostrador o proceso sin marcas falsas."
+            },
+            {
+              "label": "Cliente",
+              "value": "Siguiente paso claro",
+              "note": "Consultar"
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Accion",
+          "title": "Tienda de Viajes: el proximo paso es simple",
+          "body": "Llama, confirma disponibilidad y lleva el auto con el dato clave ya resuelto: travel agency, direccion y horario.",
+          "items": [
+            {
+              "label": "CTA",
+              "value": "Consultar",
+              "note": "0221 424-6300"
+            },
+            {
+              "label": "Ubicacion",
+              "value": "C. 11 769 e 47 y 48, B1900 La Plata, Provincia de Buenos Aires, Argentina"
+            },
+            {
+              "label": "Horario",
+              "value": "Lunes a Viernes; Sabado, Domingo cerrado"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/agencias-viajes-ar/tienda-de-viajes",
+      "notes": "Dirección 'Casona platense de damero': yeso verdoso, tinta azul, salvia y el amarillo del avión solo en el CTA, con damero SVG. Prata + Alegreya Sans. Template service-diagnostic."
+    }
+  },
+  {
+    "business_id": "google-ChIJh7CO1G8uo5URXIah4mqs93o",
+    "slug": "viq-viajes",
+    "visual_mood": "fleet-utility",
+    "composition": "service-ledger",
+    "headline": "Te pasan a buscar por tu casa",
+    "subheadline": "Salidas grupales en micro desde Quilmes a termas, sierras y playa, con choferes propios y servicio puerta a puerta. 4,8 en Google con 29 reseñas. Av. 12 de Octubre, Quilmes.",
+    "primary_cta": "Llamar al 011 4254-0508",
+    "secondary_cta": "Cómo llegar",
+    "service_tags": [
+      "Salidas en micro",
+      "Termas",
+      "Sierras y playa",
+      "Puerta a puerta"
+    ],
+    "proof_points": [
+      "4,8 en Google con 29 reseñas",
+      "Servicio puerta a puerta, destacado por los pasajeros",
+      "Av. 12 de Octubre, Quilmes",
+      "\"Un lujo esta empresa, atendido por su dueño\" (faby b)"
+    ],
+    "resource_title": "Lo que se pregunta por teléfono",
+    "resource_items": [
+      "Qué salida está armada y para qué fecha.",
+      "Desde qué punto te pasan a buscar.",
+      "Qué queda incluido en esa salida y qué se abona aparte."
+    ],
+    "review_heading": "Lo que cuentan los pasajeros",
+    "contact_heading": "Llamá y preguntá por la próxima salida",
+    "image_prompt": "Hero editorial: una pileta de agua turquesa entre palmeras con luz cálida de mañana, el clima de las termas que nombran las reseñas. Las tres fotos verificadas de Google Places (el parque termal con el arcoíris en la bruma, la laguna y el cartel de entrada a Villa Elisa) entran como contexto documental de las salidas, con alt honesto.",
+    "design_notes": "Dirección 'Pizarra de salidas': el sistema sale del agua turquesa del parque termal y del arcoíris en la bruma de sus fotos. Par tipográfico Darker Grotesque (display alto y angosto) + Epilogue (cuerpo). Fondo drenched verde termal profundo, paneles en turquesa medio, arena en detalles y coral caliente solo en el CTA. La página se organiza como una pizarra de salidas con guías punteadas. Template catalog-counter.",
+    "conversion_template": "catalog-counter",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Le vende la próxima salida corta al vecino de la zona sur del Gran Buenos Aires que quiere irse un fin de semana sin manejar ni organizar nada. La página funciona como la pizarra de salidas que la agencia hoy no tiene dónde publicar.",
+      "visual_thesis": "'Pizarra de salidas a las termas': la identidad sale del agua turquesa del parque termal y del arcoíris en la bruma de sus propias fotos. Superficie drenched en verde termal profundo #0B4A50, paneles en turquesa medio #12656B, arena de vereda de pileta #D9CFBB en detalles finos y coral #FF6A3D, el extremo cálido del arcoíris, reservado al CTA de llamar. Todo el cuerpo de la página se estructura como una pizarra de salidas con guías punteadas entre destino y dato, con Darker Grotesque alto y angosto para el display y Epilogue para el cuerpo. Ondas de agua en SVG inline como única textura.",
+      "copy_voice": "Español argentino, vos, práctico y cálido, de mostrador de barrio: dice a dónde se va, desde dónde sale y a quién hay que llamar. El ángulo sale de las reseñas: puerta a puerta, choferes propios, atiende el dueño.",
+      "layout_signature": "Hero a sangre con el agua turquesa y el titular del puerta a puerta, con rating y CTA de llamar arriba del fold. Debajo, la pizarra de salidas como bloque protagonista, con destino a la izquierda, guía punteada y dato a la derecha; franja de cómo funciona el puerta a puerta; reseñas literales en panel turquesa; ficha de contacto con dirección, link a Maps y la aclaración honesta de que el horario de atención se confirma por teléfono. Barra sticky de llamada en mobile.",
+      "asset_plan": "Hero editorial de pileta entre palmeras en assets/hero.jpg. Las tres fotos verificadas (parque termal con arcoíris, laguna y cartel de entrada al pueblo) ilustran las salidas como contexto documental. Ondas de agua, arco fino de arcoíris y guías punteadas de pizarra resueltas en SVG y CSS inline.",
+      "ai_fill_plan": {
+        "copy": [
+          "Escribir la pizarra de salidas con los destinos que nombran las reseñas y dejar el resto como consulta telefónica.",
+          "Convertir el puerta a puerta en el argumento central de conversión, con lenguaje de vecino.",
+          "Redactar la ficha de contacto reconociendo que el horario de atención no está publicado, sin inventarlo."
+        ],
+        "imagery": [
+          "Usar imagen editorial de agua termal para el hero y ondas de agua en SVG inline como textura de fondo.",
+          "Dibujar el arco fino del arcoíris y las guías punteadas de la pizarra en SVG y CSS, sin assets externos."
+        ],
+        "boundaries": [
+          "no inventar horarios de atención, precios, fechas de salida, hoteles, cupos ni cantidad de años de la empresa.",
+          "no publicar un número de WhatsApp: el teléfono verificado es una línea fija y no hay evidencia pública de WhatsApp.",
+          "no afirmar que la pileta del hero es un alojamiento propio de la agencia: el alt describe el clima de las termas.",
+          "no citar reseñas que no estén en el dataset ni cambiar su texto o su autor."
+        ]
+      },
+      "anti_patterns": [
+        "Degradés turquesa o glows de color sobre el fondo oscuro.",
+        "Texto de color vivo cian sobre el fondo profundo, que baja el contraste y se lee como plantilla.",
+        "Tarjetas iguales para cada destino, en vez de renglones de pizarra con jerarquía real.",
+        "Chips eyebrow en mayúsculas con tracking amplio sobre cada sección.",
+        "Inventar un horario de atención para llenar la ficha de contacto."
+      ],
+      "rewrite_targets": [
+        "Poner el puerta a puerta como titular, porque es lo que los pasajeros destacan.",
+        "Reemplazar la grilla de servicios por una pizarra de salidas legible de un pantallazo.",
+        "Hacer del coral del CTA el único color caliente de la página.",
+        "Resolver la falta de horario publicado con una línea honesta que empuje a llamar."
+      ]
+    },
+    "commercial": {
+      "tone": "fast-local",
+      "customer_type": "Vecinos de Quilmes y la zona sur que quieren una salida corta sin manejar ni organizar nada.",
+      "hero_claim": "Te pasan a buscar por tu casa.",
+      "trust_bar": [
+        {
+          "label": "Valoración",
+          "title": "4,8 / 5",
+          "body": "29 reseñas en Google",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Teléfono",
+          "title": "011 4254-0508",
+          "body": "Atención directa de la empresa",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Salida",
+          "title": "Av. 12 de Octubre",
+          "body": "Quilmes, Buenos Aires",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Servicio",
+          "title": "Puerta a puerta",
+          "body": "Lo destacan los pasajeros en Google",
+          "meta": "Dato verificado"
+        }
+      ],
+      "service_cards": [
+        {
+          "label": "Termas",
+          "title": "Termas de Villa Elisa",
+          "body": "\"Hermoso lugar, hermoso el apart, comida deliciosa\", escribió Patricia sobre esta salida."
+        },
+        {
+          "label": "Termas",
+          "title": "Termas de Concepción",
+          "body": "Claudia de los Ángeles Molina cuenta ahí su primer viaje con la empresa."
+        },
+        {
+          "label": "Sierras y playa",
+          "title": "Sierras y costa",
+          "body": "Las salidas programadas incluyen sierras y playa además de las termas."
+        },
+        {
+          "label": "Micro",
+          "title": "Choferes de la casa",
+          "body": "Las reseñas nombran a los choferes por su apodo y destacan su trato."
+        }
+      ],
+      "why_choose": [
+        {
+          "title": "No manejás ni organizás",
+          "body": "El servicio puerta a puerta es lo primero que destacan dos de las tres reseñas publicadas."
+        },
+        {
+          "title": "Atiende el dueño",
+          "body": "\"Un lujo esta empresa, atendido por su dueño, atento a cualquier necesidad de los pasajeros\", dice faby b."
+        },
+        {
+          "title": "Pasajeros que vuelven",
+          "body": "\"Hace varios años que viajamos con Viq Viajes\", cierra la misma reseña."
+        }
+      ],
+      "packages": [
+        {
+          "name": "Salida a las termas",
+          "price_label": "A consultar",
+          "body": "Preguntá qué salida a termas está armada y para cuándo.",
+          "items": [
+            "Destino termal a confirmar",
+            "Fecha de salida por teléfono",
+            "Puerta a puerta desde tu domicilio"
+          ]
+        },
+        {
+          "name": "Escapada de fin de semana",
+          "price_label": "Según la salida",
+          "body": "Sierras o playa, con el micro y el alojamiento coordinados por la empresa.",
+          "items": [
+            "Días de la salida",
+            "Punto de encuentro a coordinar",
+            "Consulta telefónica"
+          ]
+        },
+        {
+          "name": "Grupo armado",
+          "price_label": "Se cotiza por grupo",
+          "body": "Si ya son un grupo, la empresa arma la salida sobre esa cantidad.",
+          "items": [
+            "Cantidad de pasajeros",
+            "Destino a definir",
+            "Recorrido de recogida a coordinar"
+          ]
+        }
+      ],
+      "gallery": [
+        {
+          "label": "Termas",
+          "title": "El parque termal",
+          "body": "Foto publicada por la empresa de una de las salidas a termas."
+        },
+        {
+          "label": "Paisaje",
+          "title": "La laguna del recorrido",
+          "body": "Otra imagen publicada por la empresa de una salida."
+        },
+        {
+          "label": "Llegada",
+          "title": "La entrada al pueblo",
+          "body": "Foto publicada por la empresa a la llegada del micro."
+        }
+      ],
+      "process": [
+        {
+          "step": "1",
+          "title": "Llamás",
+          "body": "Preguntás qué salida está armada y para qué fecha."
+        },
+        {
+          "step": "2",
+          "title": "Reservás tu lugar",
+          "body": "La empresa te confirma el cupo y el punto de recogida."
+        },
+        {
+          "step": "3",
+          "title": "Te pasan a buscar",
+          "body": "El micro te levanta en el punto acordado, puerta a puerta."
+        },
+        {
+          "step": "4",
+          "title": "Volvés sin manejar",
+          "body": "El mismo servicio te devuelve al punto de partida."
+        }
+      ],
+      "final_cta": {
+        "title": "¿Cuál es la próxima salida?",
+        "body": "Un llamado al 011 4254-0508 y te cuentan qué está armado y desde dónde te pasan a buscar.",
+        "primary_label": "Llamar al 011 4254-0508",
+        "secondary_label": "Cómo llegar"
+      }
+    },
+    "creative": {
+      "concept": "Una sitio clara para convertir una busqueda local en una consulta concreta. Direccion comercial para Clientes locales que necesitan entender el servicio, llamar y llegar sin friccion.",
+      "audience": "Clientes locales que necesitan entender el servicio, llamar y llegar sin friccion.",
+      "visual_direction": "Servicio local con jerarquia fuerte, datos arriba, pasos claros y tarjetas de accion.",
+      "layout": "mechanic-ledger",
+      "texture": "service-ledger",
+      "hero_angle": "Una sitio clara para convertir una busqueda local en una consulta concreta.",
+      "hero_cards": [
+        {
+          "label": "Prueba social",
+          "value": "4.8 / 5",
+          "note": "Dato verificado"
+        },
+        {
+          "label": "Rubro",
+          "value": "Travel Agency",
+          "note": "Base verificada"
+        },
+        {
+          "label": "Agenda",
+          "value": "Horario a confirmar",
+          "note": "a confirmar"
+        },
+        {
+          "label": "Contacto",
+          "value": "Telefono directo",
+          "note": "011 4254-0508"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Servicios",
+          "title": "Datos claros para decidir",
+          "body": "El sitio ordena datos publicos relevantes y deja como a confirmar cualquier dato comercial no verificado.",
+          "items": [
+            {
+              "label": "Servicio",
+              "value": "salidas grupales en micro a termas, sierras y playa",
+              "note": "El servicio principal se muestra sin agregar prestaciones no verificadas."
+            },
+            {
+              "label": "Contacto",
+              "value": "Consulta directa",
+              "note": "Telefono, direccion y horario se ordenan para reducir friccion."
+            },
+            {
+              "label": "Prueba",
+              "value": "Referencias publicas",
+              "note": "Rating y resenas reales sostienen la decision."
+            }
+          ]
+        },
+        {
+          "type": "process",
+          "eyebrow": "Proceso",
+          "title": "De consulta a turno sin perder contexto",
+          "body": "El usuario entiende que informacion enviar, que se confirma y como avanzar.",
+          "items": [
+            {
+              "label": "01",
+              "value": "Contar la necesidad",
+              "note": "El visitante consulta el servicio principal."
+            },
+            {
+              "label": "02",
+              "value": "Confirmar disponibilidad",
+              "note": "El negocio valida horario, alcance y datos."
+            },
+            {
+              "label": "03",
+              "value": "Coordinar visita",
+              "note": "Direccion y contacto quedan visibles."
+            }
+          ]
+        },
+        {
+          "type": "metric-grid",
+          "eyebrow": "Confianza",
+          "title": "Datos reales arriba, informacion a confirmar separada",
+          "body": "El sitio combina fuentes verificadas con opciones comerciales que se completan antes de publicar.",
+          "items": [
+            {
+              "label": "Prueba social",
+              "value": "4.8 / 5",
+              "note": "29 resenas registradas en las fuentes disponibles."
+            },
+            {
+              "label": "Rubro",
+              "value": "Travel Agency",
+              "note": "El sitio debe vender el servicio principal sin sumar prestaciones no confirmadas."
+            },
+            {
+              "label": "Agenda",
+              "value": "Horario a confirmar",
+              "note": "Horario publicado para orientar la primera consulta."
+            },
+            {
+              "label": "Contacto",
+              "value": "Telefono directo",
+              "note": "CTA preparado para llamar desde el celular sin buscar el dato en otro lado."
+            }
+          ]
+        },
+        {
+          "type": "material-story",
+          "eyebrow": "Direccion visual",
+          "title": "El sitio se apoya en imagen real y escenas seguras de contexto.",
+          "body": "Cuando los datos o fotos son pobres, la composicion puede sumar atmosfera, textura y proceso sin atribuir esos recursos al negocio.",
+          "items": [
+            {
+              "label": "Foto real",
+              "value": "Usar como prueba",
+              "note": "Priorizar la mejor imagen publica disponible."
+            },
+            {
+              "label": "Apoyo visual",
+              "value": "Poblar contexto",
+              "note": "Herramientas, material, mostrador o proceso sin marcas falsas."
+            },
+            {
+              "label": "Cliente",
+              "value": "Siguiente paso claro",
+              "note": "Consultar"
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Accion",
+          "title": "Viq Viajes: el proximo paso es simple",
+          "body": "Llama, confirma disponibilidad y lleva el auto con el dato clave ya resuelto: travel agency, direccion y horario.",
+          "items": [
+            {
+              "label": "CTA",
+              "value": "Consultar",
+              "note": "011 4254-0508"
+            },
+            {
+              "label": "Ubicacion",
+              "value": "Av. 12 de Octubre, B1879 Gran Buenos Aires, Provincia de Buenos Aires, Argentina"
+            },
+            {
+              "label": "Horario",
+              "value": "Horario a confirmar"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/agencias-viajes-ar/viq-viajes",
+      "notes": "Dirección 'Pizarra de salidas': verde termal drenched, paneles turquesa y coral solo en el CTA, cuerpo estructurado como pizarra de salidas. Darker Grotesque + Epilogue. Template catalog-counter."
+    }
+  },
+  {
+    "business_id": "google-ChIJeTtvOGxcIpQR-Q43kTjmvFU",
+    "slug": "junaza-viajes-y-turismo",
+    "visual_mood": "roadside-urgent",
+    "composition": "photo-board",
+    "headline": "Una agencia con buenos sentimientos",
+    "subheadline": "La frase está en su propio cartel, en el centro de Tucumán. Viajes grupales, estudiantiles y de egresados atendidos por sus dueños. 4,3 en Google con 24 reseñas. San Martín 667, piso 3, oficina F, de lunes a viernes de 9 a 17 y sábados de 9 a 13.",
+    "primary_cta": "Llamar ahora",
+    "secondary_cta": "Escribir por WhatsApp",
+    "service_tags": [
+      "Viajes de egresados",
+      "Turismo estudiantil",
+      "Salidas grupales",
+      "Atienden los dueños"
+    ],
+    "proof_points": [
+      "4,3 en Google con 24 reseñas",
+      "Lunes a viernes de 9 a 17, sábados de 9 a 13",
+      "\"Excelente atención y más por sus propios dueños\" (Jorge Kairuz)",
+      "San Martín 667, piso 3, oficina F, Tucumán"
+    ],
+    "resource_title": "Lo que mirás antes de decidir el viaje del grupo",
+    "resource_items": [
+      "Cuántos son y en qué fecha quieren viajar.",
+      "Qué tipo de viaje buscan: egresados, estudiantil o salida grupal.",
+      "Quién acompaña al grupo durante el viaje."
+    ],
+    "review_heading": "Lo que dicen los que ya viajaron con ellos",
+    "contact_heading": "Escribí y armamos el viaje del grupo",
+    "image_prompt": "Hero editorial: un micro de larga distancia con las luces encendidas antes de salir, en penumbra de madrugada, el clima de una salida grupal. Las fotos verificadas de Google Places (la vidriera con el cartel de la agencia, el tag de la marca y los folletos de destinos) entran como contexto documental de la agencia, con alt honesto y sin reproducir marcas de terceros.",
+    "design_notes": "Dirección 'Vidriera empapelada': el sistema sale de la vidriera real llena de folletos, el cartel con la frase propia de la agencia y el tag pintado de la marca. Par tipográfico Bungee (display de cartelería) + Rubik (cuerpo). Fondo granito oscuro del frente del local, fichas de folleto en hueso, verde lima de la marca como único color caliente en el CTA. Template hero-proof-offer.",
+    "conversion_template": "hero-proof-offer",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Le vende el viaje del curso a la familia o al delegado de un grupo de egresados de Tucumán que necesita algo concreto para mostrar en la reunión de padres. La página reemplaza la vidriera de folletos por algo que se manda por mensaje.",
+      "visual_thesis": "'Vidriera empapelada': la identidad sale del frente real del local, con su granito oscuro, la vidriera cubierta de folletos de destinos y el tag pintado de la marca en lima, cian y amarillo. Superficie granito #23262A, paneles #31363B, fichas de folleto en hueso #F1F0EC apenas rotadas y superpuestas como en la vidriera, y verde lima #B9D91E, el color del logo, como único color caliente, exclusivo del CTA. El cian de la marca aparece solo en formas SVG, nunca como texto sobre el fondo oscuro. Par tipográfico Bungee para el display de cartelería y Rubik para el cuerpo.",
+      "copy_voice": "Español argentino, vos, de mostrador tucumano: cercano, directo y con calidez de dueño que atiende. El ángulo sale de las reseñas: atienden los dueños, muestran todos los viajes que hacen y nunca hubo un inconveniente.",
+      "layout_signature": "Hero a sangre con el micro antes de salir y la frase del cartel como titular en Bungee, con rating y dos remates arriba del fold. Después, tablero de fichas de folleto apenas rotadas con los tipos de viaje; franja de por qué elegirlos con las citas literales; bloque de qué llevar a la reunión de padres; reseñas en fichas de hueso; ficha de contacto con horario, dirección y link a Maps junto a la dirección. Barra sticky de llamada en mobile.",
+      "asset_plan": "Hero editorial del micro en assets/hero.jpg. Las fotos verificadas del frente del local se usan como contexto documental, recortadas para no reproducir marcas de terceros de los folletos ajenos. Tag de la marca, cinta de folleto, chinches y el panel del cartel resueltos en SVG y CSS inline, sin glows.",
+      "ai_fill_plan": {
+        "copy": [
+          "Escribir las fichas de folleto con los tipos de viaje verificados, sin inventar destinos ni fechas.",
+          "Convertir la atención de los dueños en el argumento central de confianza.",
+          "Redactar el bloque de la reunión de padres como preguntas que conviene llevar hechas."
+        ],
+        "imagery": [
+          "Usar imagen editorial de un micro antes de salir para el hero y fichas de folleto en CSS para el cuerpo.",
+          "Dibujar el tag de la marca, las chinches y la cinta de papel en SVG inline, tomados de la vidriera real."
+        ],
+        "boundaries": [
+          "no inventar precios, cuotas, financiación, destinos, hoteles, cupos ni años de trayectoria.",
+          "no reproducir marcas, logos ni precios de los folletos de terceros que aparecen en las fotos del local.",
+          "no usar la dirección vieja que figura en el cartel de la vidriera: la dirección verificada es San Martín 667, piso 3, oficina F.",
+          "no citar reseñas que no estén en el dataset ni cambiar su texto o su autor."
+        ]
+      },
+      "anti_patterns": [
+        "Glows de color o sombras luminosas sobre el fondo oscuro.",
+        "Texto cian vivo sobre el granito, que se lee como plantilla oscura genérica.",
+        "Chips eyebrow en mayúsculas con tracking amplio sobre cada sección.",
+        "Grilla de tarjetas idénticas en vez de fichas de folleto superpuestas.",
+        "Cuerpos de texto en mayúsculas por usar la tipografía de cartelería fuera del titular."
+      ],
+      "rewrite_targets": [
+        "Usar la frase del propio cartel como titular en vez de un eslogan inventado.",
+        "Reemplazar el bloque de servicios por el tablero de folletos de la vidriera.",
+        "Hacer del lima del CTA el único color caliente de la página.",
+        "Agregar el bloque de qué llevar a la reunión de padres, que es donde se decide el viaje."
+      ]
+    },
+    "commercial": {
+      "tone": "parts-counter",
+      "customer_type": "Familias, delegados de curso y grupos de Tucumán que están decidiendo un viaje de egresados o una salida grupal.",
+      "hero_claim": "Una agencia con buenos sentimientos.",
+      "trust_bar": [
+        {
+          "label": "Valoración",
+          "title": "4,3 / 5",
+          "body": "24 reseñas en Google",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Horario",
+          "title": "Lunes a viernes de 9 a 17",
+          "body": "Sábados de 9 a 13",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Oficina",
+          "title": "San Martín 667",
+          "body": "Piso 3, oficina F, Tucumán",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Contacto",
+          "title": "0381 430-7696",
+          "body": "WhatsApp 381 500-8374",
+          "meta": "Dato verificado"
+        }
+      ],
+      "service_cards": [
+        {
+          "label": "Egresados",
+          "title": "Viajes de egresados",
+          "body": "Uno de los tipos de viaje que la agencia declara en sus fichas públicas."
+        },
+        {
+          "label": "Estudiantil",
+          "title": "Turismo estudiantil",
+          "body": "Salidas de curso y viajes de estudio, también declarados públicamente."
+        },
+        {
+          "label": "Grupos",
+          "title": "Salidas grupales",
+          "body": "\"Nos mostraron todos los viajes que hacen\", escribió Estela Carrillo."
+        },
+        {
+          "label": "Excursiones",
+          "title": "Locales, nacionales e internacionales",
+          "body": "El alcance que la propia agencia informa en el registro sectorial."
+        }
+      ],
+      "why_choose": [
+        {
+          "title": "Atienden los dueños",
+          "body": "\"Excelente atención y más por sus propios dueños\", dice Jorge Kairuz en Google."
+        },
+        {
+          "title": "Te muestran todo antes",
+          "body": "Estela Carrillo cuenta que les mostraron todos los viajes que hacen."
+        },
+        {
+          "title": "Sin sobresaltos",
+          "body": "\"Los viajes con esta agencia los realizamos siempre sin ningún inconveniente\", escribió Susana Myriam Gutiérrez."
+        }
+      ],
+      "packages": [
+        {
+          "name": "Viaje de egresados",
+          "price_label": "A consultar",
+          "body": "Contás cuántos son y de qué curso, y la agencia arma la propuesta.",
+          "items": [
+            "Cantidad de estudiantes",
+            "Fechas posibles",
+            "Acompañamiento a coordinar"
+          ]
+        },
+        {
+          "name": "Salida estudiantil",
+          "price_label": "Según la salida",
+          "body": "Viajes de estudio y salidas de curso más cortas.",
+          "items": [
+            "Días de la salida",
+            "Grupo y edades",
+            "Consulta por teléfono o WhatsApp"
+          ]
+        },
+        {
+          "name": "Grupo de amigos o familia",
+          "price_label": "Se cotiza por grupo",
+          "body": "Salidas grupales para grupos ya armados.",
+          "items": [
+            "Cantidad de pasajeros",
+            "Destino a definir con la agencia",
+            "Punto de salida a coordinar"
+          ]
+        }
+      ],
+      "gallery": [
+        {
+          "label": "Vidriera",
+          "title": "El frente de la agencia",
+          "body": "Foto del local en el centro de Tucumán, con el cartel de la agencia."
+        },
+        {
+          "label": "Marca",
+          "title": "El tag de la marca",
+          "body": "Detalle del logo pintado en la vidriera del local."
+        },
+        {
+          "label": "Mostrador",
+          "title": "Los folletos del mostrador",
+          "body": "Foto del material que la agencia tiene sobre el mostrador."
+        }
+      ],
+      "process": [
+        {
+          "step": "1",
+          "title": "Escribís o llamás",
+          "body": "Contás qué grupo son y qué viaje están pensando."
+        },
+        {
+          "step": "2",
+          "title": "Te muestran los viajes",
+          "body": "La agencia te pasa las opciones que maneja para ese grupo."
+        },
+        {
+          "step": "3",
+          "title": "Lo llevás a la reunión",
+          "body": "Con la propuesta en mano, el grupo decide."
+        },
+        {
+          "step": "4",
+          "title": "Viajan acompañados",
+          "body": "La agencia coordina la salida del grupo."
+        }
+      ],
+      "final_cta": {
+        "title": "Contanos cómo es el grupo",
+        "body": "Atienden de lunes a viernes de 9 a 17 y sábados de 9 a 13, por teléfono o WhatsApp.",
+        "primary_label": "Llamar al 0381 430-7696",
+        "secondary_label": "Escribir por WhatsApp"
+      }
+    },
+    "creative": {
+      "concept": "Una sitio clara para convertir una busqueda local en una consulta concreta. Direccion comercial para Clientes locales que necesitan entender el servicio, llamar y llegar sin friccion.",
+      "audience": "Clientes locales que necesitan entender el servicio, llamar y llegar sin friccion.",
+      "visual_direction": "Servicio local con jerarquia fuerte, datos arriba, pasos claros y tarjetas de accion.",
+      "layout": "mechanic-ledger",
+      "texture": "service-ledger",
+      "hero_angle": "Una sitio clara para convertir una busqueda local en una consulta concreta.",
+      "hero_cards": [
+        {
+          "label": "Prueba social",
+          "value": "4.3 / 5",
+          "note": "Dato verificado"
+        },
+        {
+          "label": "Rubro",
+          "value": "Travel Agency",
+          "note": "Base verificada"
+        },
+        {
+          "label": "Agenda",
+          "value": "Lunes a Sabado; Domingo cerrado",
+          "note": "Dato verificado"
+        },
+        {
+          "label": "Contacto",
+          "value": "Telefono directo",
+          "note": "0381 430-7696"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Servicios",
+          "title": "Datos claros para decidir",
+          "body": "El sitio ordena datos publicos relevantes y deja como a confirmar cualquier dato comercial no verificado.",
+          "items": [
+            {
+              "label": "Servicio",
+              "value": "viajes grupales, estudiantiles y de egresados",
+              "note": "El servicio principal se muestra sin agregar prestaciones no verificadas."
+            },
+            {
+              "label": "Contacto",
+              "value": "Consulta directa",
+              "note": "Telefono, direccion y horario se ordenan para reducir friccion."
+            },
+            {
+              "label": "Prueba",
+              "value": "Referencias publicas",
+              "note": "Rating y resenas reales sostienen la decision."
+            }
+          ]
+        },
+        {
+          "type": "process",
+          "eyebrow": "Proceso",
+          "title": "De consulta a turno sin perder contexto",
+          "body": "El usuario entiende que informacion enviar, que se confirma y como avanzar.",
+          "items": [
+            {
+              "label": "01",
+              "value": "Contar la necesidad",
+              "note": "El visitante consulta el servicio principal."
+            },
+            {
+              "label": "02",
+              "value": "Confirmar disponibilidad",
+              "note": "El negocio valida horario, alcance y datos."
+            },
+            {
+              "label": "03",
+              "value": "Coordinar visita",
+              "note": "Direccion y contacto quedan visibles."
+            }
+          ]
+        },
+        {
+          "type": "metric-grid",
+          "eyebrow": "Confianza",
+          "title": "Datos reales arriba, informacion a confirmar separada",
+          "body": "El sitio combina fuentes verificadas con opciones comerciales que se completan antes de publicar.",
+          "items": [
+            {
+              "label": "Prueba social",
+              "value": "4.3 / 5",
+              "note": "24 resenas registradas en las fuentes disponibles."
+            },
+            {
+              "label": "Rubro",
+              "value": "Travel Agency",
+              "note": "El sitio debe vender el servicio principal sin sumar prestaciones no confirmadas."
+            },
+            {
+              "label": "Agenda",
+              "value": "Lunes a Sabado; Domingo cerrado",
+              "note": "Horario publicado para orientar la primera consulta."
+            },
+            {
+              "label": "Contacto",
+              "value": "Telefono directo",
+              "note": "CTA preparado para llamar desde el celular sin buscar el dato en otro lado."
+            }
+          ]
+        },
+        {
+          "type": "material-story",
+          "eyebrow": "Direccion visual",
+          "title": "El sitio se apoya en imagen real y escenas seguras de contexto.",
+          "body": "Cuando los datos o fotos son pobres, la composicion puede sumar atmosfera, textura y proceso sin atribuir esos recursos al negocio.",
+          "items": [
+            {
+              "label": "Foto real",
+              "value": "Usar como prueba",
+              "note": "Priorizar la mejor imagen publica disponible."
+            },
+            {
+              "label": "Apoyo visual",
+              "value": "Poblar contexto",
+              "note": "Herramientas, material, mostrador o proceso sin marcas falsas."
+            },
+            {
+              "label": "Cliente",
+              "value": "Siguiente paso claro",
+              "note": "Consultar"
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Accion",
+          "title": "Junaza Viajes: el proximo paso es simple",
+          "body": "Llama, confirma disponibilidad y lleva el auto con el dato clave ya resuelto: travel agency, direccion y horario.",
+          "items": [
+            {
+              "label": "CTA",
+              "value": "Consultar",
+              "note": "0381 430-7696"
+            },
+            {
+              "label": "Ubicacion",
+              "value": "Gral. José de San Martín 667 Piso 3 Of F, T4000 San Miguel de Tucumán, Tucumán, Argentina"
+            },
+            {
+              "label": "Horario",
+              "value": "Lunes a Sabado; Domingo cerrado"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/agencias-viajes-ar/junaza-viajes-y-turismo",
+      "notes": "Dirección 'Vidriera empapelada': granito oscuro, fichas de folleto en hueso y verde lima de la marca solo en el CTA. Bungee + Rubik. Template hero-proof-offer."
+    }
+  }
+]

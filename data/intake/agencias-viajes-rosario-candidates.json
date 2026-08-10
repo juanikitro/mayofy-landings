@@ -1,0 +1,727 @@
+[
+  {
+    "id": "google-ChIJSZXNmBqrt5URoCXFCsBwBqQ",
+    "name": "Kata Travel & Catalinas Viajes",
+    "slug": "kata-travel-catalinas-viajes",
+    "category": "Travel Agency",
+    "is_vehicle_related": false,
+    "address": "Sarmiento 1264, S2000CMV Rosario, Santa Fe, Argentina",
+    "city": "Rosario",
+    "neighborhood_or_area": null,
+    "phone": "0341 447-7403",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 4:30 PM | Tuesday: 9:00 AM – 4:30 PM | Wednesday: 9:00 AM – 4:30 PM | Thursday: 9:00 AM – 4:30 PM | Friday: 9:00 AM – 4:30 PM | Saturday: 9:30 AM – 1:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.3,
+      "reviews_count": 675,
+      "source_url": "https://maps.google.com/?cid=11819258242197169568&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Maravillosos días! Impactante creación de Dios, que hizo y sostiene tanta maravilla!!!!\nMuy recomendable la empresa y el NOA",
+        "author": "Roberto Carlos Murúa",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/110321890329815060820/reviews"
+      },
+      {
+        "text": "Viajamos  a Mar del Plata. Nos alojamos en el hotel Flamingo, contratamos régimen de pensión completa. El servicio no fue el ofrecido por la Empresa, era un unico menú, principalmente pastas y platos reducidos.\nHice un comentario en IG, que en forma inmediata fue borrado. En esta oportunidad, no lo recomiendo.",
+        "author": "Nan Ceru",
+        "rating": 2,
+        "source_url": "https://www.google.com/maps/contrib/109436502148151035431/reviews"
+      },
+      {
+        "text": "Quería hacerle llegar nuestro más sincero agradecimiento por la atención brindada a Ariana Martínez. Valoramos enormemente su excelente predisposición, así como su ayuda constante para resolver todas nuestras dudas.\nCuentan con un excelente servicio; sin duda volveríamos a elegirlos.",
+        "author": "Melina Trejo",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/115933814883472010057/reviews"
+      }
+    ],
+    "main_product_or_service": "agencia de viajes",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJSZXNmBqrt5URoCXFCsBwBqQ/photos/AWCwydjABokQzRSfTkHwsugcUdvzTrFLlMQpdoCwd2LzGchCVtNLxlNuk4vy4bZucWP8sBEwjiuFXDgeBKK-dKd72wncxCxFXH5mLwJXzOlWVc2vJ3UloDs3p45cgxUYXWCb0i_8ogitlabLAXUZya6oQt5MrH4lhl4i_ZSXYsjIzjzulKyREyTx4E6yZ2ZYMU8HiQMSRBXw6kfSTHaYp3iCu1qFRDadXYMI4QJO7wH7TK09fbJHguQs_zgvA3w5sIwba8FqsVOJlde-NyddTizJEqBqr3FBzq6mr7OnwJn12JvztJnK21hSYmoDS8gSiSf52mbYwdFmWJrlRvtJTLwm64-TyH6NnHx9bzZ6OY1oTHHxjgqXB180kYhr9k2dIP_dOaFj_JhSH0bTX6_q1JhBBXpa38nMzbblhAfk04dSY8g/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=11819258242197169568&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJSZXNmBqrt5URoCXFCsBwBqQ/photos/AWCwydg0IF-6BPimwdP-jHEbg8dvY3HMFVA-8MnypeKTbPsR7keeZ4qASJT9Eq-1CSgoLv5MpQY4ekpld3Zha3i7crK6v-__qxLJfZx4be7dhAbbbiZDnlBhMynYX9chN4G0uTdZZexhLdkOSR6oFWrTR5BCkYi5HRbFeSxeT3m2G3h1g3vhN5H2zmOuaJFAE12tlJicBtwyYTTDdrv49OgGZdr82Q82P7m9QfqQtJH9qq20LVyCJQoq8wq0VAlZu9SAmngNE0sJrBNaXOXzShYY-V3v09et0O3U6DuTKIr4TZgGAvOnPuoOWYrAWEjiEvrEX0ZKVg37Ix7RDkfqCxdf7mNOebzfztiLRtaaCgQ2ZyReiN6cbsQJPvQ6nkfywBSbyptdQfhsb0Pw2TcrvV5PcH_HPquRYMIVVl0ot62rkdI/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=11819258242197169568&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJSZXNmBqrt5URoCXFCsBwBqQ/photos/AWCwydhR667kaV9MKOh_2zpZSUmS4Gl7XxtQvzPBTwt9HJbokNsfdKhiX1_5TMcW44zW8U__U79weED_-NDEnXbD9_cNz-HEW3vyF9220CUK_yPLB-SrOpg2ZtC_VIm8EojiPJDogUTsupKUCNPpSLl7bFXULdNBKbtHJ6kZaFpVwb9Ks8k3AXg11zIrvhO0Ud8UbeZMCKwki6ae7RVL1iyaACXellxvS9ZTy9ce7UacyUMEt_tiwcXDmLXudVkd1d2OOHgEfGLaOiam1hNp3iE3DIVldCl8nrTe96RyRnNu1hw2hnyz08X7KJFdkm5N8Dv82oLuo75Zul5UPZhu8-LjZH-r8KPCzjpR5_p8nrciONKPCYiAbwzTsrY5WnF0ndVj54b-zIxH1RbN-akcj6TePmKtuaoouogwIM95Gq_k_yllAg/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=11819258242197169568&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=11819258242197169568&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=11819258242197169568&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-08-10T16:57:18.984Z",
+          "notes": "Resultado automatico para \"agencia de viajes\" en Rosario. Segmento: agencias de viajes y turismo."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=11819258242197169568&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=11819258242197169568&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=11819258242197169568&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=11819258242197169568&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=11819258242197169568&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=11819258242197169568&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=11819258242197169568&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=11819258242197169568&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=11819258242197169568&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=11819258242197169568&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=11819258242197169568&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJvTzgeRyrt5URl9eUKc6fgNo",
+    "name": "Lozada Viajes Rosario",
+    "slug": "lozada-viajes-rosario",
+    "category": "Travel Agency",
+    "is_vehicle_related": false,
+    "address": "Corrientes 631 Piso 1, oficina F, S2000 Rosario, Santa Fe, Argentina",
+    "city": "Rosario",
+    "neighborhood_or_area": null,
+    "phone": "0341 15-275-3942",
+    "opening_hours": {
+      "raw": "Monday: 9:30 AM – 5:00 PM | Tuesday: 9:30 AM – 5:00 PM | Wednesday: 9:30 AM – 5:00 PM | Thursday: 9:30 AM – 5:00 PM | Friday: 9:30 AM – 5:00 PM | Saturday: Closed | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.7,
+      "reviews_count": 100,
+      "source_url": "https://maps.google.com/?cid=15744760005096953751&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Viajamos en pareja a Samaná, una semana todo incluído en un hotel de la red Viva solo adultos en este caso...\nLa experiencia fue hermosa, el lugar es soñado sin sargazo, el hotel un 10.\nCon respecto a las chicas de la agencia, desde el primer momento la atención fue muy buena, rápida y respondiendo todas las dudas, luego con el viaje ya contratado la atención siguió siendo igual que no suele pasar...nos hicieron el check para la ida y para la vuelta sin tener que está pidiendoles ellas solas me escribieron.\nTodo un 10! Seguramente sigamos viajando con ellos.",
+        "author": "Rocio Porciel",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/112287173094731862680/reviews"
+      },
+      {
+        "text": "Viajamos en familia a Bayahibe y todo salió excelente,la pasamos super bien!!\nQuiero destacar la atención de Emilia que estuvo en todos los detalles, incluso cuando tuvimos un mal entendido con el transfer ella nos atendió enseguida y supo ayudarnos.\nGracias por todo!!",
+        "author": "Maria Sol Paglia",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/107455588664407043998/reviews"
+      },
+      {
+        "text": "Excelente el acompañamiento, dedicación desde el día uno para la elección del lugar, dos vuelos y hotel. Súper recomendado. Yo viaje a bayahibe 22 de mayo 2026. Los volvería a elegir !",
+        "author": "Madelein Laure",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/117199200303273625273/reviews"
+      }
+    ],
+    "main_product_or_service": "agencia de viajes",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJvTzgeRyrt5URl9eUKc6fgNo/photos/AWCwydhHDQy68xjly_Jpl1txBA7WUMZZKkWSArGmqVynRzTymjfAn6YyW9ai3f7Tulri4LfxpjRn_VHtla1JelmaFglZWl-W_Um2xITpbKkm7S7o0zeStw7U-GEgKijqouePbkqLXpxFuZiOxNZesx9paW0PLj6F-GG1x8BCo1Nh1ovknrIZ94CihoeYXEoOOLy85l8mhey0OlEh96J-s0ucP2NtiwGIFaV3pD4PhA5MCDiiY3MbDpizhEmA-ol9LBs0IPCVwpBWZ3eKm0Fnc0cDCwUPdr0aLmc2HajrY065K-axXuhuk6sHPUSI3b2xJVZtdcdUoVFLno_oNkvQCiHhYkweRxHWJAZsmktD5VnD1FfyOCb3hjRkLo0ulHCmFNqOaEip4Si-9AUPAmZ_tUUT-slV-cKZrJ9_1jTQzPUXDEF-3RPsfVbxFy-_pGf2OmiX/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=15744760005096953751&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJvTzgeRyrt5URl9eUKc6fgNo/photos/AWCwydhrMnBJOQ0S3F17ts7cSR70BYdSw4f7bb15m-APGbu4kzzViuK2O1NaIOuE3tvb0iLRWG8fg6i3UjYrcGOqFiABuyOCHEYQYO4nfHGtzbIbvBmmrxZYaRPjOW-7RAkqsFRxifLJPNSYEwWBhND3SiMdc4vyYX3P_kaoPGWyooCfzFbbesq3KAw0yVa6AflFD_6Pob7hd5Ncq1570bvZ85v1Uhw67pMMzrKmmtQmGYdp1qr8Gm0QEY0xY3nAywr5EOoWJcyUoBPPH5WkpYKb38N_vBgrAPnGCFhSuVh6ax5THYI-A6M1jjAImcb31IA-ttpkShzPGPR4HGVypfBA3WY1vE0Y0nravZgcwIwriaUE1lm_32QKOnFfA5R85l6ONOpMAk9x_onWnJayLkxA7Spe0RiwxGY3_WubegN3aKX5DYyj0Z0QCv8plY0mqxAh/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=15744760005096953751&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJvTzgeRyrt5URl9eUKc6fgNo/photos/AWCwydj3sz2ipBbPdSqwEp0HgR7zYX-ickXV4VFZ-A0OEDhBBZeH_3BHdlUZ4KQiIk6d75FIdeDOXrh0GsJTwc2rm5jSJztBZhIRF8LRJ1oHukDF6cktkM5mp-VJkbW-6OON9OfUvnnun8P9M78LL21ooKUGBqslTjfFYfhSTikoDiQzOTSuFFjYhKFy4aJ4f2SM7W90EfYDlV7GMXrlzgofCengCoHJbybQOqb77rZGhFrC01pBPgg-KfxUydI8wvGSAb9XaXJE54RVj7Bu05RM3a_j2nyFP9jWoNO8urBSCQQsLJgyQUomq9_dr5leMcNTFAhxENHqU9mWkaeLtebSZi8Vlg498Pfw1-r5-FLBKizVEeTbwuCo16blmeMbw5OI8lDHfKapDnspRxg7h9zv7XmCpA0dWpY0YzuXwLpzc7ra-Ybl5HXZJmS0y8IYng/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=15744760005096953751&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=15744760005096953751&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=15744760005096953751&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-08-10T16:57:18.985Z",
+          "notes": "Resultado automatico para \"agencia de viajes\" en Rosario. Segmento: agencias de viajes y turismo."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=15744760005096953751&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=15744760005096953751&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=15744760005096953751&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=15744760005096953751&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=15744760005096953751&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=15744760005096953751&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=15744760005096953751&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=15744760005096953751&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=15744760005096953751&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=15744760005096953751&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=15744760005096953751&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJidCXlz-rt5URv-w90o3X6To",
+    "name": "Desde Rosario Turismo",
+    "slug": "desde-rosario-turismo",
+    "category": "Travel Agency",
+    "is_vehicle_related": false,
+    "address": "Santa Fe 1261 Piso 1 - Oficina 122, S2001RYK Rosario, Santa Fe, Argentina",
+    "city": "Rosario",
+    "neighborhood_or_area": null,
+    "phone": "0341 217-5509",
+    "opening_hours": {
+      "raw": "Monday: 10:00 AM – 5:00 PM | Tuesday: 10:00 AM – 5:00 PM | Wednesday: 10:00 AM – 5:00 PM | Thursday: 10:00 AM – 5:00 PM | Friday: 10:00 AM – 5:00 PM | Saturday: Closed | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.7,
+      "reviews_count": 29,
+      "source_url": "https://maps.google.com/?cid=4245161127891037375&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Muy lindo todo y mucha ansiedad  pero salió todo perfecto !!!",
+        "author": "Mónica Méndez",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/114724661531196871564/reviews"
+      },
+      {
+        "text": "Muy bueno la atencion y los lugares donde vamos",
+        "author": "Gladys Ferreira",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/110242918197534731939/reviews"
+      },
+      {
+        "text": "Muy amables y económico. Por los precios que tienen la calidad es exelente, fuimos a mar del plata al hotel del paseo y estubo todo muy bien",
+        "author": "Giuliana Bartolucci",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/111271774523810373028/reviews"
+      }
+    ],
+    "main_product_or_service": "agencia de viajes",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJidCXlz-rt5URv-w90o3X6To/photos/AWCwydi9MvtjB7PZtOCx2TrBUdrsec4upeiiL-SWvNiCyQqUX4a_MvVeEIW6YroVipLpU0Jhy26HsSLW85stXX6R0I6w-ZgF8eNitIXE1Wtfa-yR2r5V8PmdqNU0BIiefZ7RSgF7LrcC9d-36zWW-MsEsYcQJYR-dMBbeO9tm7CU6RUUqHimyvuJqZPc-VBr4HMFjSxTYqPFFGv1F734rP2cML748qxfQXVIuINr8Dw2ZY5fDwNpqdXIW-hI4A-R2SQqHd0S8E3ZSQc9au6cbVAC54mGB2AR4iDN4FGsThij3mbHsKe-DXOSyDO-50dUYMtYJRv5p-NTZ0u6z7U9jVHf0teyyo0qIWb9KcLpZ5zN_viW8GkWkylrf0oGCSr9F87h73qNU44ZwbuI5MKM3MV6DTJI7JOcF_qBtTWL_rsyPrhG5w/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=4245161127891037375&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJidCXlz-rt5URv-w90o3X6To/photos/AWCwydhoQAt5jhI6dj5JsFFay4oc_Y12xv5YWCS5BF9j5sDhAcg4FxGcSaZbN12sYl76QJZrHUv9TEoHfNlepQJIsWSJ_P6xXn3j_mYIYnnpwfT89fQA1_bRZbExww8jWinUvU0un53kuB55InZY-lQ0mIFWjIh1BC1LtmV5LPlUk17CdM5yv-IPaOs31of0dHybioqOC-hdJLFLrAd4b4Udec7huugYPZ4ilU-Avo-i5aVAfOCquDJySs7Ziuuq5J0SVOkrn-Ob20krG6L-bGKx2E86NgvVau65yjHZwlGIVHNoZ18_lfaVzJmOtCAFSUYxuTbgkjC9lzRilDA9LxJyO1khxRunfzpfG93CejQBxb3Jn_5rwyHs07pO3R2MhAmu8bZyYgZYe9gEkIxQ4K04zsayjVzee-77qOwY3KXMHh1-MiA/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=4245161127891037375&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJidCXlz-rt5URv-w90o3X6To/photos/AWCwydha8haqP32oeZyhv1je54VZ4RN91FTXKrM_wH4ISkqIIqEwua6DjjshFLyqeH8W_AbyU5IJz58cSYVPctjkzlxQZ_fLujbZnO3_9NvzVa5U9aJa430G7oAuaGAGs0PR5kO-VMtqWfjlxAleaKuHfv2Xf97RepklUiBvGZtp7sDGrHFCkZcBh0U1wiF5rDh_dPRl-IyChek-n2ycdVSWaRqBzupQYJSpDkutja4jP7zSD53T3ierpZzTXPiHjB3G3nuq5ZgLaRZhK1dE9sCosuBS63RX4lPRzCFPVpN9ZMkXO0Nh7rm8nmeLnpU2bA0zli1sUsUH8zyYXHOME-KTMswaCIu0cRBn5jFQwTf2KTsOR9hhloDljjbPY8BJNJCxF4qdBRBJe2W-9mfcydhRHX36nMRIgfmOtKcqNNoaEzI7tA/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=4245161127891037375&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=4245161127891037375&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=4245161127891037375&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-08-10T16:57:18.985Z",
+          "notes": "Resultado automatico para \"agencia de viajes\" en Rosario. Segmento: agencias de viajes y turismo."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=4245161127891037375&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=4245161127891037375&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=4245161127891037375&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=4245161127891037375&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=4245161127891037375&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=4245161127891037375&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=4245161127891037375&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=4245161127891037375&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=4245161127891037375&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=4245161127891037375&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=4245161127891037375&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJb07qArart5URWu9D5FKzUhY",
+    "name": "Sauco Viajes",
+    "slug": "sauco-viajes",
+    "category": "Travel Agency",
+    "is_vehicle_related": false,
+    "address": "Av. Carlos Pellegrini 338, S2000 Rosario, Santa Fe, Argentina",
+    "city": "Rosario",
+    "neighborhood_or_area": null,
+    "phone": "0341 598-2505",
+    "opening_hours": {
+      "raw": "Monday: 9:30 AM – 5:30 PM | Tuesday: 9:30 AM – 5:30 PM | Wednesday: 9:30 AM – 5:30 PM | Thursday: 9:30 AM – 5:30 PM | Friday: 9:30 AM – 5:30 PM | Saturday: Closed | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 5,
+      "reviews_count": 65,
+      "source_url": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Este maravilloso viaje a New York fue mi tercera visita a la ciudad y mi primer  experiencia como integrante de un numeroso grupo.\nPude disfrutarlo de una forma diferente a la que acostumbraba, incorporando conocimientos y secretos en los relatos de nuestro guia Octavio que tuvo una inmensa paciencia. Gracias!!\nQuiero destacar la excelente organizacion, dedicacion ,alegria y  calidez con la que nos acompañaron Nati, Joa, Leo y Sofi, siempre atentas en todos los detalles.\nRecomiendo a SAUCO en la eleccion de agencia de viajes.\nViajaria nuevamente con ellas!!\nFelicitaciones lo hacen muy bien!!",
+        "author": "SILVIA BRACCHI",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/117204648744492362145/reviews"
+      },
+      {
+        "text": "No se puede explicar con palabras lo vivido en el\nViaje a Nueva York 2026 organizado por Sauco , cumplieron el contrato punto por punto , esto en lo que se refiere a lo legal.\nEn lo humano Nati, Joa , Leo y Sofi , las coordinadoras , estuvieron 24 hs pendientes de las necesidades del grupo siempre atentas , divertidas, dispuestas a hacer pasar un momento INOLVIDABLE a todos.\nQueria tambien mencionar a Octavio el guia , que\nCon su conocimiento profundo de NY nos regalo\nlas mejores historias.\nGracias a todas las divinas ,Nati, Joa, Leo y Sofi\npor lo que me hicieron vivir.\nEn fin!!!!, no duden en sumarse a los viajes de esta empresa.\n\nVivi.",
+        "author": "Viviana Massa",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/103740813365947530562/reviews"
+      },
+      {
+        "text": "Viajar a New York fue maravilloso, disfrutamos desde la salida de Rosario hasta el regreso. Fue una fiesta compartir con un grupo con tanta buena onda y mi agradecimiento hacia Nati,  Joa, Sofi y Leo que nos acompañaron, guiaron y cuidaron todo el tiempo.\nEn realidad no tengo un solo punto negativo,  fue todo conocimiento,  y diversión.  Muchas gracias SAUCO VIAJES",
+        "author": "Susana Ines Pasqualini",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/105518950480167778103/reviews"
+      }
+    ],
+    "main_product_or_service": "agencia de viajes",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJb07qArart5URWu9D5FKzUhY/photos/AWCwydhGnxLQPL2FEhqMMWWZ9dZ2pQPhMAdTwk33gI0VtkCaGXdhL4sjQargB2Hrgi2jzqcxEb4UvxOdFEPs_5GveL-j_FQCBGz0rz6bHe4LfNwMGi4eHr-g7QeBe00zpcFZWGbjQjriXa9MJzB4eZ5RCf14jspvHKvJeoRah2m6xk-K0K5nz3Zh__qJxXKk7GKX6jQzJhvQTAyNn-QmWV2QQ0RIkOkWqHEKM3SDJuAP9g6sR-u8DGGDboEiZeXNhaWNwN_LjP-eq3leIdHp5gaAskNNmqjNbdXJVxV6yX-vrDgOEnOvnVNj5T_N-L-NceuSYyDXGOfrriPkqN8xk4Fh0ddxaXKLMarqyixc8bMFbn6vcjxzS41Ipio1illl6nUYJLLKXKWy8BZ8txzxwxeLzTLwf2kakEDIQjunhXWpCE36V5Mb/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJb07qArart5URWu9D5FKzUhY/photos/AWCwydgoASzS68umwlA90r6l5YZiDxaT50HtiLlswNRvGvsCENWBFCUax0492PS3qbzkLml_w6rm-LU664IHvoQ0SwT4v17ifSPnd_ycB7hXY4-o3-X7tvIDujpijShYWfEaxxDUx9bN8pi6YlK70h9kc47gF1UTRW2mVjOtkVUSqkQEZLMSVMr422yixXd3oeWBz2KiFaS7F7JSocXS2j1CAHJCk1cTRDaCSwlzByf4QD0bVOrvMYhT_bE0FNaMntCK92i8C48tkGbt8bcTdvYtYieUcJBsLHK54TfAq_7brfwYAJcsGnBWy4gebPKoVpi9U3lg9y9TzdNXTDjya1ZzXQ4hAkiNNtbqf5_k9QuPJaR8iLSNQAqNc5UiwiK-quvwLqP_0tBLaQKO1aLrDGQ-Zvo8KNOyK_QAl5lPKt-U-wvQPzTX/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJb07qArart5URWu9D5FKzUhY/photos/AWCwydiedXP-JbKS-EZ7Tw22Wh9cJRrvU4_tsHr37jPrXmJsJSjcbUybGzo_gv8l9w6qMx0_7OattxtMlCFgDMT2ZAr5xEfEhZ1-kdXUCUuBkV7Joj-nZCON94eUFcpTAJa4W2f-XTqnm0JqnccAEwhIGG9D4_octEu5ujkCekrlCoVFA77ogSEfVRDyO_pgC_e3fDZCpRFfu2EQM__sKjxR79IblBuK-F3rPgrIZ8adBE__rencnSjfmUMmFXF8dIOAvXc80y2NUFFfyoPsF05XDYDGQCJE5omtqTm2M5jHMzGWlCRWLobSY9iLZiV6cLeqATBDtR0X6c3zCdCs6OTJ7Y5DBpn_ySGDpMpo6LZdqw79xX9LDmBfyVWk69QlLzNkGyG2OgalA4CuiJIxTZ1_LXuGVUL7UbUpy8-SwmbQgHAyPAHT/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-08-10T16:57:18.985Z",
+          "notes": "Resultado automatico para \"agencia de viajes\" en Rosario. Segmento: agencias de viajes y turismo."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJ37Ydp_-qt5URy7ZAKAzmNqw",
+    "name": "Rosario Sport Travel",
+    "slug": "rosario-sport-travel",
+    "category": "Travel Agency",
+    "is_vehicle_related": false,
+    "address": "Montevideo 40, S2000BRB Rosario, Santa Fe, Argentina",
+    "city": "Rosario",
+    "neighborhood_or_area": null,
+    "phone": "0341 449-9653",
+    "opening_hours": {
+      "raw": "Monday: 9:30 AM – 5:30 PM | Tuesday: 9:30 AM – 5:30 PM | Wednesday: 9:30 AM – 5:30 PM | Thursday: 9:30 AM – 5:30 PM | Friday: 9:30 AM – 5:30 PM | Saturday: Closed | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.9,
+      "reviews_count": 97,
+      "source_url": "https://maps.google.com/?cid=12409358763155306187&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Viajé a Natal con mi familia, excelente asesoramiento por parte de Rosana, me ofreció un paquete a la medida de lo que estábamos buscando! Todo excelente: la atención de la agencia, los vuelos elegidos, el hotel seleccionado, el cumplimiento de los transfer. Cada detalle hizo de nuestro viaje unas vacaciones inolvidables!! Muchas gracias Rosario Sport Travel!! Sigan brindando tan buen servicio, así dan ganas de seguir viajando!!! Ya los recomendé a varias amigas:)",
+        "author": "Ana Lia",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/106359859842874094361/reviews"
+      },
+      {
+        "text": "Excelente atención ☺️, todo coordinado y muy buenos alojamientos. Muy agradecidas!!!",
+        "author": "vilma bertino",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/109617508994042215891/reviews"
+      },
+      {
+        "text": "No es la primera vez que viajo con la Agencia, siempre tienen muy buena atención, tanto Rosana como Tania, mi último viaje salió excelente, tienen muy buena predisposición si necesitas hacer alguna consulta o tenés algún inconveniente tanto en el viaje como antes, te explican todo, procuran satisfacer todas tus necesidades. Muy recomendable.\nNuevamente he viajado con ésta empresa, en 2026 y como siempre, excelente servicio, siempre respondieron cordialmente a mis necesidades y cambios aún estando de viaje. La recomiéndo sin lugar a dudas.",
+        "author": "Veronica Morini",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/101865268135042154265/reviews"
+      }
+    ],
+    "main_product_or_service": "agencia de viajes",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ37Ydp_-qt5URy7ZAKAzmNqw/photos/AWCwydga-ET0AJwM5noB1zamp71VZlRVPfF3mtVSJJlo-SlbvEgLwdmKDOwQDSGosJQMxE9uHfdCQw4MAzXizPZaAKEwsz2zDj7qN8UihGqPgnP3Zjv2HN1qzB5TFsgZp05BVTy-BcBMkjkpRkd9R1-tz5T0bWvwRxF1I-SPVJ5shuaWKW9M1PIJllWJsBIu_9nfU0RwGNe8BJf6V77pQGTpjdMLTT0DuN0q-Z8ps49jXogJo3xPPoEZoAb2bOZbaliQP9sVrYPuUAhIxIJJ6A87Aje2J8yab4NuX8hkXlqk-RKtd_i3T7LWVKOHv9_TlkOJqpdTnoFhavDsqQNjeLf4RDCJQ3Ga_g3h2vVcf9-72TOe81uFUpIXNch5hVmfB7BHMvmS-1nJh_juOm8A_6vff4HDwyv4BXmneD82EFw--48gEg/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=12409358763155306187&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ37Ydp_-qt5URy7ZAKAzmNqw/photos/AWCwydjuWwZjiP2NBqmh7APyVbFgOGWwm6fKs_koSFjKh2sFcjQM9k0Y0jJmH56cxlBZ-0IUOHUacGdabZ2bUyb-DsFrO6bKr1H94P3oQ-fAXYHk3TgCh-R91RQyVA-ZoQGEVBws65tdUvy_W0_HOSdvxXddoL7uaiXzGOZsyYZpr35ZYvpmZE1Fw3q43PJx0LkrzATbpvDAgwgVOX8GuzyOIVu6nJgGgPb2crZ1RTnO71KcYYMXPNxzk3qdzzGm1kUO5lEiCnhygW-CVuVA0LJvek0zMYEbXujKq8Vgp2nHGIdV_1yApm1oe9bmiRXVAifeHiT1boNc53obVoRFCqL5hUJfyqJ6NCqXt5ccyLbgwjtT5Z3OMnvvnBoWFEcPbY8xoNotnG6s1AOmDoOkjSdoj8lMJ2qj_Z6BvBYRZua-OWUaUg/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=12409358763155306187&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ37Ydp_-qt5URy7ZAKAzmNqw/photos/AWCwydhKrZabg0lEwBQS4KP-XI01enAIFDrZJw2ZpvkAFxghwcVvRHoG1OMYFWpZXhdE2a1ahbQI4NARVgyIRo9pUjBUSt9sYYeA5KnAvbiyIEu1FdM8KAYXfsuMFnQDlTxz_eFBQ5Pizb-yz14ZFie-46GX_XFva_1sdCGvRFuMEuP8iSEnl_TkUoHo72CqtFEaVDkpf8HV156xfIsvQ-ZioojpfoI6_9N_VpC9Uao5aj0JsPo35ZUnEY41D6YODZOV3sY4zteQ8iAYAK-tX7onJNSMmnNLoXoJR7dRXMtuhyfAG8kdPby9y58FTapFwJXir1el_JGapTLAyuUbSAlsunZzdp4y-Cq7WHkCfNNHZGatGhet3D8idSJGOFSFamA8RCu5FFCJNsUG6Y7vg-2o5lC7dXVs2dOz8iSABZhgYaCQSg/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=12409358763155306187&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=12409358763155306187&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=12409358763155306187&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-08-10T16:57:18.985Z",
+          "notes": "Resultado automatico para \"agencia de viajes\" en Rosario. Segmento: agencias de viajes y turismo."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=12409358763155306187&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=12409358763155306187&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=12409358763155306187&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=12409358763155306187&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=12409358763155306187&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=12409358763155306187&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=12409358763155306187&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=12409358763155306187&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=12409358763155306187&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=12409358763155306187&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=12409358763155306187&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  }
+]

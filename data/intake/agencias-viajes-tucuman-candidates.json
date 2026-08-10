@@ -1,0 +1,1293 @@
+[
+  {
+    "id": "google-ChIJnQ8RVw9cIpQRj0BcJvJCEdk",
+    "name": "Bizkaia Viajes",
+    "slug": "bizkaia-viajes",
+    "category": "Travel Agency",
+    "is_vehicle_related": false,
+    "address": "Juan Bautista Alberdi 247, T4000 San Miguel de Tucumán, Tucumán, Argentina",
+    "city": "San Miguel de Tucumán",
+    "neighborhood_or_area": null,
+    "phone": "0381 673-5656",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 8:00 PM | Tuesday: 9:00 AM – 8:00 PM | Wednesday: 9:00 AM – 8:00 PM | Thursday: 9:00 AM – 8:00 PM | Friday: 9:00 AM – 8:00 PM | Saturday: Closed | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.9,
+      "reviews_count": 30,
+      "source_url": "https://maps.google.com/?cid=15641356588627542159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Cuando hice un viaje con mi familia, tuve una excelente atención, me despejaron todas las dudas y pase unas hermosas vacaciones. Totalmente recomendable.",
+        "author": "Armando Cerrutti",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/100830026046206611452/reviews"
+      },
+      {
+        "text": "La atención muy profesional de Mariel (su dueña) y la empatía con el cliente para encontrar siempre una solución para que tu experiencia viajera sea siempre la mejor. Más que recomendable ...",
+        "author": "Marcelo Lopez",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/112276620919711147230/reviews"
+      },
+      {
+        "text": "Las dueñas unas genias . Juli excelente asesora de viajes !!!! Volveremos a viajar muy prontito",
+        "author": "Mariel Cristina Roberti",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/106686933635534240554/reviews"
+      }
+    ],
+    "main_product_or_service": "agencia de viajes",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJnQ8RVw9cIpQRj0BcJvJCEdk/photos/AWCwydhit9IT0mpxqHEeiiRgtqTaPKBP8h0URdgNR3hTWXAZcymcgI5p1tBmxpSVo9Ngft-WvpP-L0y7KQDsUcoshjqWFoiHrWY09rl2b5Nm3aFBtmcbefKFthvr08c6R-PBOSL39cdqxTV4i5M_org0FW3x4rGD3_SC6GnwG_WAIBF_sDVI-1M47LQypgTRRLW1kGbKTD5NreymPtL86H_fOwDVIYf1oLHRIPptEPtDEZBY_zjJBR0_A3VpQeWqu2ZIIYH0orBqWQ-5xjb506uelTR-TLLExA2vwlLQoQCXZzZ9r1XODvg_0zdoFZinSifltzR-usUTxRRmDYGJuQfDGAWmnKPe4n_gBK9JZsyAM6JxABUh-jzRslfor3u664GiZNr0GGggf4I4FOZuxvqk2jx62Q2nZCKJWegoYWppc3357xqX9IRU4BRuZYs3Yw/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=15641356588627542159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJnQ8RVw9cIpQRj0BcJvJCEdk/photos/AWCwydhpDH-h0xb_RFTQ6Rm77FZxCA7-v35d0vEInJz5ShqhauCN08oudJR5K6VJmWfq_lykrC9WRSXmeRId9_8EIXTdHTwkmLTUEokcyIRku7u_qfHwR8k0eexGCE2QS91n2wqzACMM2sxAlRuibvTAWoa6n6pXzWxIXppH8Sova9d68OSEl_392Fq0V4zIVgkH-php07aXNpHQZuqZaj-4ikX8SBm2rtsLwDw4JH_DnZl26rQWKpXFxm_Jb8cDt8OONOpOBDKF-lFh1Y3xxMYZO5zhxIKxRaznHql--BkPUimZ78AwydsV7UlCByh8RgqEZuJOfWm0R5Ia_StCQXZoVKTLMX0s5XByiVIlgGfUfC7ME2hXzITM04Aut8d66x0vMKmPye_bEmetbrwiymLozx3_woZPLE5BXgvAz_Oic_KfCQ/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=15641356588627542159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJnQ8RVw9cIpQRj0BcJvJCEdk/photos/AWCwydjtZUujiSsbcTtLn2SzkAPldQmR1Ov3HYyswfH3C3wyrpr1g4twPzZboOdHFWV6uEpspM7w-q8vnG70VhcjNL6ExcEPs-a1xd9YJ98MdkPsiwm_gRLOrnZSQuma3-tVHsbTSc6FjKDa4N0UgjA_O8fAQJ08S2555ATqJ8cvXz_a59-UawJcqHT4Nnrr1H6qBM_35LcAFhJR1oQrb4kIitzv16VYyDvj7rSsFpFDamXRwKcjmjbjCfKBR19l-vrt8oj0WHUJautqWvSV2E8xA29a6ZBXitM9upzlYArfyu_jP3tNX612H9Ab10NptwKz5VsKZPpA_Csh4eHcEQuym-j1sm9Kvy6Ch8F5834N6T07h2sGcI0T0mFHgreGS7rAQfSRTJ-688L3rx8e11316yl1WvUWASeA8KwMT3yKpD2sJG8cqIvtodyhOVmUF7Jk/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=15641356588627542159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=15641356588627542159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=15641356588627542159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-08-10T17:00:18.185Z",
+          "notes": "Resultado automatico para \"agencia de viajes\" en San Miguel de Tucumán. Segmento: agencias de viajes y turismo."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=15641356588627542159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=15641356588627542159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=15641356588627542159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=15641356588627542159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=15641356588627542159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=15641356588627542159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=15641356588627542159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=15641356588627542159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=15641356588627542159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=15641356588627542159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=15641356588627542159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJqSo_UxFcIpQRBEtXzeKcMsk",
+    "name": "Exdel Turismo",
+    "slug": "exdel-turismo",
+    "category": "Travel Agency",
+    "is_vehicle_related": false,
+    "address": "Galeria Maipu, Pcia de Mendoza 764 Loc 7, T4000 San Miguel de Tucumán, Tucumán, Argentina",
+    "city": "San Miguel de Tucumán",
+    "neighborhood_or_area": null,
+    "phone": "0381 256-0838",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 1:00 PM, 3:00 – 6:00 PM | Tuesday: 9:00 AM – 1:00 PM, 3:00 – 6:00 PM | Wednesday: 9:00 AM – 1:00 PM, 3:00 – 6:00 PM | Thursday: 9:00 AM – 1:00 PM, 3:00 – 6:00 PM | Friday: 9:00 AM – 1:00 PM, 3:00 – 6:00 PM | Saturday: Closed | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.8,
+      "reviews_count": 32,
+      "source_url": "https://maps.google.com/?cid=14497822648380640004&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Siempre viajo con ellas. Las experiencias fueron altamente positivas. La elección de transportes excelentes, los hoteles recomendados excelentes. Y Paula siempre pendiente de todos los destinos elegidos.",
+        "author": "Norma Alzogaray",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/117124997375667689445/reviews"
+      },
+      {
+        "text": "Excelente servicio\nLos vuelvo a elegir continuamente",
+        "author": "liliana del valle julian",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/107129032769800453407/reviews"
+      },
+      {
+        "text": "Magnífica atención. Excelente compromiso y acompañamiento con sus clientes.",
+        "author": "Susana Pizarro",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/112900520763415301671/reviews"
+      }
+    ],
+    "main_product_or_service": "agencia de turismo",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJqSo_UxFcIpQRBEtXzeKcMsk/photos/AWCwydgxhfgVAGGp0_BOs7H9KZiydNTQ_v0GzvKogTyPQhlthwKKEJicSk-onfXFEnUjYj145mlNavomcpM6GrsyyeDpcOzUFVamZ3-XiZ8R1kSfd_9GUGwhKHXTFo8k3HjAOIA3szCnZfvJM8QnnlDaqa901vLjS_QIQOLnGZ1lQQByOjxlgcwz5eMcAfShrKiiT-DcyPkEGP0QJ2VnZDGGw9GXnRZSnJeluNWWqe2vogU719jrF1XYMQmO4EnwTBB_deWTQ7Ne_Z2M1I3VoeOueIzpKtahi5Z6cSbB44LKAu5XGTqmNk-7DitdJaiYZKlUdRix-JuEEAq-jFj2BbAlXNAkqari9YtUlUg6_n8Z1CaANTjB6snsnKWUnolszgttuwnW7ZdGTDU0W1OtG1Q-X3uKKQCd_jYoxImKyfpvzcdLEVKQkoLLUndQ7DqRqtX-/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=14497822648380640004&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJqSo_UxFcIpQRBEtXzeKcMsk/photos/AWCwydjnh1hgf4FQvsvA0beMWAxYfIuqvpHFTr8oRjq-unOqT0HQihv2C5w1gWiZAejNzV6_S5lxrJgzRHFtThDGym1ayNQaDuo24DGbOENDZj7JP3UWpv2tJS7IYF9dHOpJSenn1q3AIebDgZXryvgmlQM0zmEL5o0pwtnqs3FZR19qMORslL8fv2PhHmb1Q6lSARXiF6nbLCIhqL8LZCCDEZnOB0bOVY5qJwDe_pgOnkQsr5gAY8fHNbz_L6myH5vOWaOAbfbTV0CXKJQ0X93LodjBw9feK2AuLWUz83x8dPSwKNrUFoF-r9PHXsPWTGUjP_TrBAHSNOQv4Z1H3f-cdaR0UtAw3UT0H15avXmyb_UBDMVDCdPoR7DypdncwgkY85cWfWG-s8JdrjFd_kxg7n1yKIZ8f1l5B5-xsZkUjfyHFUEmT-EV-emgye40Cufq/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=14497822648380640004&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJqSo_UxFcIpQRBEtXzeKcMsk/photos/AWCwydhiEQ9rG9wfdfexsySHuzX7ad51YfLNe7zXdH7CeARbL7F8U-6mXhVWVtyILx_7jLmokxe7wzWh1mhmC2IQTLAkbdYr5YLtYGCQNxpSEDKRCTx995qDdjHinyAWW-w-Wzi0hmRxfruokZjb-tpHYU3lAP0vCYohUfoSz2V1XmniHjIQuNFPeLaHl9c67H6jSVoJkJogGrEr2ylvxVMWifUYC1h59B9DQpidjprrjYLkd_HIocoEbdfZQWWLrYi5_ymf3QPj_KjENn2S1q5oYsGtPkKYl3K1ZF2G-1K8jG92wqy7NiJd5M2jqOeG9FCX-63WiZ-G4SzqVFYLBWUJ5SmoDAOtn22aPFgWegpGEE8rn21aSolvf6fo5g9S8XN0Ly6fK8HCebc4MT7Gkz5jUH_RepN0Ag-I7nsEzK3umXL02SYHXEwmYGy2SUMNLzYd/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=14497822648380640004&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=14497822648380640004&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=14497822648380640004&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-08-10T17:00:18.187Z",
+          "notes": "Resultado automatico para \"agencia de turismo\" en San Miguel de Tucumán. Segmento: agencias de viajes y turismo."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=14497822648380640004&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=14497822648380640004&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=14497822648380640004&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=14497822648380640004&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=14497822648380640004&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=14497822648380640004&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=14497822648380640004&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=14497822648380640004&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=14497822648380640004&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=14497822648380640004&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=14497822648380640004&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJvXevdH1dIpQRbzZCH4sh0uQ",
+    "name": "Ruta 40 Viajes y Turismo",
+    "slug": "ruta-40-viajes-y-turismo",
+    "category": "Tour Agency",
+    "is_vehicle_related": false,
+    "address": "Pcia de Mendoza 148, T4000 San Miguel de Tucumán, Tucumán, Argentina",
+    "city": "San Miguel de Tucumán",
+    "neighborhood_or_area": null,
+    "phone": "0381 402-8078",
+    "opening_hours": {
+      "raw": "Monday: 9:30 AM – 8:00 PM | Tuesday: 9:30 AM – 8:00 PM | Wednesday: 9:30 AM – 8:00 PM | Thursday: 9:30 AM – 8:00 PM | Friday: 9:30 AM – 8:00 PM | Saturday: 9:30 AM – 1:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.5,
+      "reviews_count": 23,
+      "source_url": "https://maps.google.com/?cid=16488278067165410927&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Viajamos el 18/01 una hermosa experiencia! Destacamos la excelencia del trato,simpatía y predisposición del coordinador Ramiro. Muy agradecidos. Sin duda recomendaría la empresa! ( el unico inconveniente, el aire acondicionado en el piso de arriba del micro no fue suficiente). A los choferes muchas gracias por su manera de conducir!!",
+        "author": "Ce Salazar",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/103403289902162921041/reviews"
+      },
+      {
+        "text": "Nos gustaría poder ver más películas aptas para familias  durante el viaje, solo pusieron 2 y una de mal gusto. La franja horaria entre que se deja la habitación y nos retira el micro es muy amplia y eso no nos gusta. La atención de Ramiro durante el viaje fue muy buena y amable.",
+        "author": "Rosalia Loza",
+        "rating": 3,
+        "source_url": "https://www.google.com/maps/contrib/112478452523939804694/reviews"
+      },
+      {
+        "text": "Desde las 19 de la tarde esperando el colectivo para que los chicos  del club san martin pueden viajar.  Son las 1 de la mañana y todavía no pueden partir del complejo por falta de papeles  de los colectivos.\nNiños de 9 años ,  10  y adolescentes esperando   por  más de 6 horas.  Sin la cena que les correspondia y lo más importante  sin los papeles correspondientes.",
+        "author": "Mari Gabriela Pollano",
+        "rating": 1,
+        "source_url": "https://www.google.com/maps/contrib/107150411906427936201/reviews"
+      }
+    ],
+    "main_product_or_service": "operador turistico",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJvXevdH1dIpQRbzZCH4sh0uQ/photos/AWCwydgu3kL5-3lizfeNrxE_oCsnxQfchFlVLPjPAoSbbje0IFDhPtFGGVOUgLXQW6--tTtKKW0IASt1XsUS6DKUq0GiBvRLxno08UAdoJOxjd2TlEBcTAOu6XDcz1N6ugj5w0psmCOvi3AjyCkdQDxi--ub_71vzuz02eAmOQslSPc-lRCt-eW7EGAjdFUPz2yQ_9WjR5RVVd7_TDXYhAhZGZRk76IM_1lKZuDW66QSwKS7VZZtWMlx1MRtCIYDKywfpof8uVTCSUWSJZ3dsURTpZcduQ7a0KzgCRan8AHgfWqxKS4XnMNy2yG1gIxaCDEe8gPf0iPNMfH2wzwavXtrMylcR-5fapL3eY0GtWiXTTMSuNBP8N_IttJlZJ-7y9Bp6IS5qcF6-uKQ00fI1Hyd5b9ckZSY5crD2htnKMv9xv9b1qhp/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=16488278067165410927&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJvXevdH1dIpQRbzZCH4sh0uQ/photos/AWCwydhECSxtONYZDx4Yh8Lcy-mkB5_igkJS0Q2IPAK7mP_PgsipWUZF1uceAHZ1wzxm51-VGgsBARR2luW1NTfViuxUpFybxVXS8Haso8K5gyEAp05kNCuKiVrWfl0AyPvMIfZQKjxe7JYD8J2je5rlZFAL5mKNP4oZsZ7TNfyzvIGp9IUUSxQdLo7pvbBXFp9nEsVNSCTYoX7TxrDVYPm0xQVFJGBujeuvdJQp-C8dwuPCfKbeSC9UeZt7wkmWIFlf8rC5k_NmkZY0dMIPvRVV-4VnD4JGSVD377gBuvL5PMdmnJMitpvTCsygn06UvAf6WAIgi1tP9d23IDyXw-H60l3B4OJttab_oR9V8wttJX4QdXv4uxXue4gEA-2hhIdXIA0PcRD34AMWLzgrqDnbT-Jrewz9D6LYDG0z2PhzyqwVFSIlyP40f6-Ervi0H1MF/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=16488278067165410927&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJvXevdH1dIpQRbzZCH4sh0uQ/photos/AWCwydjgqd0vjNYdJijgfoQNayjv3OQbCjwj-Qq_iIH7Cuzs2GMVeSos1MKJK7eFxW3yHuQ2-mCQRfFFkEeEUo61s3OPUbiFQi2TrgG0OZZKzGBW4KnhpwqdVbSSuTICz3XCysdWlCd1ZtTPzmpfRg-5-ReUYQNbUaqZQAyNKhKaEGdPtOtLujS_fEIZBdIFzWm69b4KYTJRtEg_zOHCvM2rYY2DgTHNxXsFpoltFRBDhdHbgjg-OB4gTRsOe3Y7WGdAgNwf7iTFB4DG5526H33MF6aGOGDj-RkZcHEBEvtzkrnYCBMqV2PbLZwjfGC-bPIppvPYsOeFYkprl35iC6o7uYBfHvzJFgBWkvYaYEA--ssPjXSeiC1XZ9tcwvRm2yelkkKG5O5H7V9DEpRbCV5j03t4yb6S7MNByaCOYdHZbxwOJWvEp9HNVDZ-OliOYkYK/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=16488278067165410927&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=16488278067165410927&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=16488278067165410927&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-08-10T17:00:18.187Z",
+          "notes": "Resultado automatico para \"operador turistico\" en San Miguel de Tucumán. Segmento: agencias de viajes y turismo."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=16488278067165410927&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=16488278067165410927&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=16488278067165410927&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=16488278067165410927&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=16488278067165410927&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=16488278067165410927&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=16488278067165410927&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=16488278067165410927&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=16488278067165410927&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=16488278067165410927&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=16488278067165410927&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJsepE2xhcIpQRCOLSiZey3JU",
+    "name": "Ago Viajes Empresa de Viajes & Turismo",
+    "slug": "ago-viajes-empresa-de-viajes-turismo",
+    "category": "Travel Agency",
+    "is_vehicle_related": false,
+    "address": "Marcos Paz 194, T4000 San Miguel de Tucumán, Tucumán, Argentina",
+    "city": "San Miguel de Tucumán",
+    "neighborhood_or_area": null,
+    "phone": "0381 534-0714",
+    "opening_hours": {
+      "raw": "Monday: 10:00 AM – 1:30 PM | Tuesday: 10:00 AM – 1:30 PM | Wednesday: 10:00 AM – 1:30 PM | Thursday: 10:00 AM – 1:30 PM | Friday: 10:00 AM – 1:30 PM | Saturday: Closed | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.5,
+      "reviews_count": 32,
+      "source_url": "https://maps.google.com/?cid=10798702370449711624&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Solicité un presupuesto de pasajes aéreos (no me interesaba si vencía en el día, necesitaba un papel que de el valor en dólares de los mismos). La mujer que me atendió me pidió e-mail para enviarmelo, en teoria a la brevedad. Ya pasaron 4 semanas y jamás me llegó el presupuesto que solicité. Cuando llegue al local, no había NI UN CLIENTE, las mujeres estaban conversando, tomando mate, mirando facebook. Por lo que deduzco que no están atareados de tanto trabajo. Qué tanto puede demorar una persona, que se dedica al rubro, en buscar el precio de un vuelo y tipearlo en un Word. Por favor.. Al dia siguiente fui a otra agencia, me hicieron el presupuesto EN EL ACTO.\nClaramente no recomendaría jamás esta agencia, al dueño/a le diría que sus empleadas no trabajan, y jamás les compraría nada.",
+        "author": "Paula Salazar",
+        "rating": 1,
+        "source_url": "https://www.google.com/maps/contrib/109910319402728254499/reviews"
+      },
+      {
+        "text": "Adriana Cohen! mi gran maestra en este rubro , gracias profe !\nSaludos desde  BsAS. Fui alumna suya en Inst San Miguel",
+        "author": "Maria Salazar",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/101470119306732709948/reviews"
+      },
+      {
+        "text": "Excelente atención, ofrecen muy buenos paquetes de viaje, son serios y honestos.",
+        "author": "Mirta Elda Sema",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/101473625097102954394/reviews"
+      }
+    ],
+    "main_product_or_service": "viajes y turismo",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJsepE2xhcIpQRCOLSiZey3JU/photos/AWCwydiGnbH2FPxnXCpbwJWfdl8d_gBzYqJp06aPPSRVLDZvnua6WVJzKqKRGQyv31jmdC5sAAs26-_i-yb52S8p9XScrGvVV7v-9wmVOVbSzinkH97p67AfC7pEwWps0I9dd550I2nDgcULp908YLdNDhdLpolo8dRUXM10AQg1AmAjkEd23ndUQ_uIFYTDeD7mVF7TEVlLJynl7awAnEtVPBBZ53jaFJGKbM-rBod9NrMhsY1pa1Rn0OFen9lJxxJcynsbE38eg0KkmBvaZ1DOPdS7s322ZXpZoc4_wR13ILIVGBff0KykKycnCk3QdxB0TcgfyKIDDxfwehuVP7FEzxI5ImdaH3_1k1jtjocWBiK8TmvCZv6Wwn9pnH6NpVB24dVdq5ZVq1luR9lAl47B52JHv7HAQuWBVVgP8WOA4Ih-7A/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=10798702370449711624&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=10798702370449711624&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=10798702370449711624&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-08-10T17:00:18.187Z",
+          "notes": "Resultado automatico para \"viajes y turismo\" en San Miguel de Tucumán. Segmento: agencias de viajes y turismo."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=10798702370449711624&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=10798702370449711624&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=10798702370449711624&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=10798702370449711624&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=10798702370449711624&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=10798702370449711624&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=10798702370449711624&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=10798702370449711624&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=10798702370449711624&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=10798702370449711624&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=10798702370449711624&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJU8kjVUJcIpQRtJwx2-MciLM",
+    "name": "Carola Tours",
+    "slug": "carola-tours",
+    "category": "Travel Agency",
+    "is_vehicle_related": false,
+    "address": "Juan Gregorio de las Heras 375, T4000 San Miguel de Tucumán, Tucumán, Argentina",
+    "city": "San Miguel de Tucumán",
+    "neighborhood_or_area": null,
+    "phone": "0381 431-1479",
+    "opening_hours": {
+      "raw": "Monday: 9:30 AM – 1:30 PM, 4:30 – 7:30 PM | Tuesday: 9:30 AM – 1:30 PM, 4:30 – 7:30 PM | Wednesday: 9:30 AM – 1:30 PM, 4:30 – 7:30 PM | Thursday: 9:30 AM – 1:30 PM, 4:30 – 7:30 PM | Friday: 9:30 AM – 1:30 PM, 4:30 – 7:30 PM | Saturday: Closed | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.9,
+      "reviews_count": 24,
+      "source_url": "https://maps.google.com/?cid=12936621694582365364&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Excelentes experiencias!",
+        "author": "Matias Kotler",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/112837177195260768631/reviews"
+      },
+      {
+        "text": "Exelente atención y asesoramiento. Los servicios que presta son de primera, y disponen de gran variedad de tours.",
+        "author": "Juan José A. Paz",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/107373992258075692962/reviews"
+      },
+      {
+        "text": "Me solucionaron todo siempre. Muy buen servicio!",
+        "author": "Cintia Rojas Gago",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/117629585063471321288/reviews"
+      }
+    ],
+    "main_product_or_service": "excursiones",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJU8kjVUJcIpQRtJwx2-MciLM/photos/AWCwydj7EKW-hErzwotzvNS2Wo9bIL7LwyoRLtUF0nQV80w-eo_qj3IxSxRBSG1rGEnY6qqmcTG3NepCCsKQGKNxGrBx3kordq_xRAs4P3Im8B79tDcepIWFgJWOWL3XZF2KL8sprNJ_DQ7-TvlQsaLA5UDEGvAcRUYCKNgfE1fj8jxkGQLPDrYvXGHN4DQd0Yr9Mvq8_6X_PpFgeT-MmWsTtpuFLsy6pxo1QoxtoNs1PE47h0i5Elm0CLQGwuG6Zyt6x4LoZkoN14iIBL6x2q3dspPRlvHAjux_bBO4zsJH4egZufvFQiy6bkTqdFxNf807NkGsN6uuq0PNR38RNqTOm5Qu4VZd8FdDTc8eQW_CmWb4BU0qd4evf47t7jwTxA9fFMGBGWXhkIN3NQzsp1Hous-hx0oKGG7pqZppEL2dNZOo7es/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=12936621694582365364&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJU8kjVUJcIpQRtJwx2-MciLM/photos/AWCwydjMr1F21M8uidG_I-BToz9RKWMI7VWTrcVdIGFoqQRNtXUr7AObtPytDjS4p87OmB3zbvr-UoS-If_cftwOGI_l29xvWQYXWZv8_NuGYGjxvGDshbcm7hyoYfV-bD8YSzAmVmz6Uh5ksj9wx_sDTIQanQPcxPZs3J05-I7yPMVG4t6qLXSMn_36OeQWjoBiZa6Fc4Ac7DPre36s7xgRComda9cMq-sRkFCM8mRk_CWbKKOE51QlSvevuECIDGu2q5xyCUOON1ukGqlEJugsRJjIPS_Mxh-JOCbjBzpQlRQ8pAe1cJ88GmUZz3wnK6Z0hvQWplD3D-_iYR0-WJ4ck4fCXBturZhQVCgnULE3FwQdM5Y2Ab9RClLWdFIIop2k796hixQNHavLmZJYnwyJPjsCDBhhPdWVI00qoErb7KCQJQ/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=12936621694582365364&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJU8kjVUJcIpQRtJwx2-MciLM/photos/AWCwydgM1uT8efs19Fa-N0JwdQ7mXkhhNkufQa_cKeT-7CJ1nkhOb72Qzwb0rAlafcU2emxk7NOSg-bZ3pC9mxGYPRQ-v4jCfucrpKUPC9nxouhjbftyefUXHulZHrGIvRRoF81dg99LfgsmtG5A18Y5J4_Uwji01z2W0lMDPVHobGJKGf7TZiqS4nhrIQsMJj5oJ1-3kPvMYZex9AXsrxnj1YpoQW1SeFojx2oWFwl4Sl2lcl6aJ-NY4m0W_0sI0hKyhme2mstlwoaOUhXWiqEB12rEbaE8tBLXNHw2NkO_fNF2EsuG44hBW9yti9VwaKH8jrPYBmk9g0LUlIpHCUwaGaPkmDdr6hV7GkY3rSAJPcBUQCiTJlNywYFYfd6lcdl9EaxjtU14jG8BREZmsQLRoKjTf-vWpWgKhSxbjpqNXbs5OkE/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=12936621694582365364&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=12936621694582365364&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=12936621694582365364&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-08-10T17:00:18.187Z",
+          "notes": "Resultado automatico para \"excursiones\" en San Miguel de Tucumán. Segmento: agencias de viajes y turismo."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=12936621694582365364&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=12936621694582365364&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=12936621694582365364&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=12936621694582365364&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=12936621694582365364&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=12936621694582365364&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=12936621694582365364&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=12936621694582365364&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=12936621694582365364&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=12936621694582365364&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=12936621694582365364&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJZ-sgnRFcIpQR1yd0a2JxGY0",
+    "name": "Tafi Travel",
+    "slug": "tafi-travel",
+    "category": "Travel Agency",
+    "is_vehicle_related": false,
+    "address": "ILB San Miguel de Tucumán Tucumán AR, Batalla de Chacabuco 9, T4000 San Miguel de Tucumán, Tucumán, Argentina",
+    "city": "San Miguel de Tucumán",
+    "neighborhood_or_area": null,
+    "phone": "0381 422-7982",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 2:00 PM, 3:00 – 6:00 PM | Tuesday: 9:00 AM – 2:00 PM, 3:00 – 6:00 PM | Wednesday: 9:00 AM – 2:00 PM, 3:00 – 6:00 PM | Thursday: 9:00 AM – 2:00 PM, 3:00 – 6:00 PM | Friday: 9:00 AM – 2:00 PM, 3:00 – 6:00 PM | Saturday: 9:00 AM – 1:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.7,
+      "reviews_count": 92,
+      "source_url": "https://maps.google.com/?cid=10167282301289113559&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Poyrweyioirsyiouy",
+        "author": "Jose Romano",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/116204155153743515525/reviews"
+      },
+      {
+        "text": "Cómodo, muy ágil la atención. Ofrecen sugerencias sobre servicios y empresas que tienen promociones. Al contar con acceso a casi todas las empresas, es la mejor opción de compra. Si vives en el centro de Tucumán, no debes pagar el extra que te cobran las plataformas de compra on-line. Además, resulta más práctico hacer devolución, en caso de necesitarlo.",
+        "author": "María Luisa Bossolasco",
+        "rating": 4,
+        "source_url": "https://www.google.com/maps/contrib/105616315472866604588/reviews"
+      },
+      {
+        "text": "Muy atentos los chicos siempre ofreciendo todas las opciones, gran servicio para los que necesitamos viajar regularmente",
+        "author": "emilia altamirano",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/104420142792239460029/reviews"
+      }
+    ],
+    "main_product_or_service": "agencia de viajes",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJZ-sgnRFcIpQR1yd0a2JxGY0/photos/AWCwydi1-Gdy8hfetNGf1xqGJnSMj9EIUm_-POslpUITjOySIw82_D0uWYSn5VQdUmu3cFZIh-GKm_FGF8lGa1W9jDpPyPub3srJONbbnh4Yl7hdJVulF9iVn3-tTZ_WHdkZYNGX0K78tSxnpyKlg9aMcWVP4MJVbjVo3RJqSJJESLOMUS-HCiy7ttU-3zQiMAal7mp4oXKuJdksmDFFlqwLSfEvXy8qQXYpyFaGLPAKxbDKgM0JO1837nN_wNLKR21_tbPbutJJiLKmMMTNOk0g_8M37u7_cciJotZCMqf5LniB8HXdavO82x5sFU1laNUanWqmw7J3ixn1eZ7b_yVeiABgyhmOIk9ls1BinuHI3Ge4qSokYlLprDYtSkucetxPc2n00vp_XF93sVmV0Cz16s28WEsfKVAtIZ2PMm9qoCwF4VD3/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=10167282301289113559&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJZ-sgnRFcIpQR1yd0a2JxGY0/photos/AWCwydh1Jmgdzx-GBCYrq_ELggGYl7G3EsFIJm2yvXjYV2z2jgOdZN8EsTv-Y1vJf6zXff7i4xA4tEW4twu1VfAL6RYPW6HrTAnOP2uqbBEBckjtAqvXATjh7DvkoWMfD2ekqEuZzom0DoPvwBhdfZN8_b525j7_gyTMHPEsDvna4Uf1AK6otxVmCWft70GGCPOkNXpJ813HMI3GEzu1lkJ9GPFSvuvFk_H22HzdqX0emDACydyUYqL6hHLaeGZAtcNo_tepTFS2RBoFZPfdgtx8W5TNSgBtjuAdNiCuI6JtFaBKiKRmaGnxS6-diwVde4qogOe42xmh-z5kEMI8MEgfIzmep8wpoWrZjBaeXzoMJGwwK4UuBPy4L7FAVoWx6fBeQqghELu_ydA3NjouE8jLjFrtkr--W-YRW2LeNEYht8fesYiBe2rQkc93JG8kjQ/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=10167282301289113559&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJZ-sgnRFcIpQR1yd0a2JxGY0/photos/AWCwydhMQYlUPDFxFEPmG_TlsW61yKUBxH1-7OuoB4omPDV0wdM3G4eh90F0iUuzP8-W7fhYeb_9BV-6jibk5HW4zVilrLKM1MA23fznQxPVzkY2CeMRTSlQasAd6-hzjxMU8Fy7qrvkxvenZJB9G3advH3iakbG6HLzntwfTZtBTuiMzSimvwaMyc4AH6cKoVFYFApLJKADZTLqbJ6KDjGOgk37yNhljF_jANgh_xFxx8iY5zRHcTDk27_Zl4CN7QOV_AMeFNd_DDNPH1F5HO7YRQIbj-0dUxqCMeQXU2J55jMvBnJPKyyIQWgmwjlGrZVS4x6HQRSlzoSedI6Ib9ezpCSJ_-rDLcg1tDnHb2VUCbCepxuioxP7ij2tQ3U-yOKvibNHXmkEC6RIRnrUmVLawZjroiwYpvHGC4kaAjNSLG7QrvUMC4pQVvMR1K47ekgG/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=10167282301289113559&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=10167282301289113559&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=10167282301289113559&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-08-10T17:00:18.187Z",
+          "notes": "Resultado automatico para \"agencia de viajes\" en San Miguel de Tucumán. Segmento: agencias de viajes y turismo."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=10167282301289113559&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=10167282301289113559&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=10167282301289113559&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=10167282301289113559&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=10167282301289113559&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=10167282301289113559&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=10167282301289113559&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=10167282301289113559&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=10167282301289113559&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=10167282301289113559&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=10167282301289113559&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJd64DiTVdIpQRw5dYTQ1Goo4",
+    "name": "Alas Turismo",
+    "slug": "alas-turismo",
+    "category": "Travel Agency",
+    "is_vehicle_related": false,
+    "address": "Lamadrid 456 8C, T4000 San Miguel de Tucumán, Tucumán, Argentina",
+    "city": "San Miguel de Tucumán",
+    "neighborhood_or_area": null,
+    "phone": "0381 361-5907",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM | Tuesday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM | Wednesday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM | Thursday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM | Friday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM | Saturday: Closed | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 5,
+      "reviews_count": 80,
+      "source_url": "https://maps.google.com/?cid=10277854322559064003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Muy agradecida con Alas, fueron unos días increíbles. Quiero rescatar q la empresa nos acompañó en cada paso de una manera activa. Desde el asesoramiento previo, como en la estadía y en el regreso, atentos en cada momentos lo que nos permitió relajarnos y sentir la seguridad q siento, los diferencia ante los otros. Cada servicio fue de primera! Muchas gracias! Los súper recomiendo",
+        "author": "Dolores Varela",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/111376156070879887240/reviews"
+      },
+      {
+        "text": "Siempre realizo mis viajes con esta empresa !!! La recomiendo por su responsabilidad y rápida respuesta a todas las dudas que surgen y mas aun por el acompañamiento durante la estadía!!!! Seguiré viajando y seguro será con ellos !!!! Gracias Yara Budeguer por ser tan amable !!!",
+        "author": "Patricia Garcia Arancibia",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/115895248199201169241/reviews"
+      },
+      {
+        "text": "Fantástica experiencia , todo impecable al más mínimo detalle Yara siempre atenta a todo y súper amable . El hotel divino y súper bien ubicado en eagle beach al frente del súper food donde encontras todo lo necesario.Repetiriamos sin pensarlo gracias",
+        "author": "Laura Gomez",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/116408246318729464183/reviews"
+      }
+    ],
+    "main_product_or_service": "excursiones",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJd64DiTVdIpQRw5dYTQ1Goo4/photos/AWCwydif5gC5mgUPanv0Ftfe6QM-OQ0fXkMu_pvaBbEl2O7EYTFaACSpUDx8T0kwFY1gU7tsQBrvH9ByM7cQija4DbctQzTNmcbyadvrL-7I5VBm8UTmJV-ir2bC7h7WX88mMo2GNLMRGvljOf0z-57DLjt80L-Oyw8y-c7ths3JgD0ZZlFAmnkra5zIgVOYut7RqKQ_n1pLJvntVARQdw-lS_5DNWknmkN_fmO0YUTOjsVckYDYoXuBfKvVkbkD9oohRQofC6Oj_gQff16zyVj0nmgyXdCzDHxRClQxTzP1EcRhvM7Q_bVp1pB7_CtMpGHnvvAg2XOJDiJlSqYuhCiMN2PMzGVyr2poLoY51WVPsTliAz2-aflBIiErcAviZ_JxX9MORFF0SQ-rmJLcoBd3meG0NWUNWoehBXgi6cWe4yoGDw/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=10277854322559064003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJd64DiTVdIpQRw5dYTQ1Goo4/photos/AWCwydhkuw2y0pGiv67D_wszVx3s44l2urd1KU8rIEz8O9ppLW5Rw-wtStxmElAQOiQOk-i2XjgfR7t_7qNsqrMSI4G1QiC5jNhoCAvvi0JoLbR2jZLf5r1GSjTupCfWoIQdaf11rm9UkRrlOBGMvLlOtwkd98GxhvTBlWFd2Bh5gaSbUGtOnGqR-ZqxWfcLaZlT_hwGZKS48bM0L6gVH-rongYvprG4rCM9KpNm_qfV21qIgy8TYhjBC2iBsmB4UXKsrXy9AfhLv3oFSatcdluj8Dy_sHaoFcwG2W7RgFxDC0Axcwfp2iAAJQCXAWPmfhO_E9uULYdHp14OW1PuOveavT_ur04w7tgKMdQo4N3LJ9dgJ0qjuVREwHgjYzsaj6zVJgLlatM2KJAGJb7aSjNbQOgnNKabBUsSLlxHQYXCApYgUw/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=10277854322559064003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJd64DiTVdIpQRw5dYTQ1Goo4/photos/AWCwydimlSUF3xr-FVPEvw8ob_Ei806O_pY6i9rgZjppPPdg-JQcQooNqRYL7Pk2bnF3zHGNbhEjcdLKcjQ2jKK3zLHfKGzHZBmyqi889OTZ3Ql0CUEeu3pz59D6cKOkg28wInm2_jKTJRDWcRIcdiqEbm_mmm8dQjdPopAVZlJwEhwZ8Xaro8Zh2IFzVVYDseEL1oiFYVAUpFvuLVYPK21X4fLmF4SNq0ddF0vcYHgovsKWN0RiVLH_D2_h-bLah7un4mdXFgdZHJpKG1WW7PWOs5qfZ31WAFJDryDsR6CRcaAPdpTYagR6jDOqdrANdWaDGASyKuZ5QyxF7BAnhJomRB8p4Y_Jy6qk3F4IYy4lYUOCnzFt-1Rem5Tg2HcMgbg8n2yG8OrxQAxb0tpMPOwikRWLwNa5PtfB2dtGMMMN1zgzrdY3uFmlHP6x3VFpBg/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=10277854322559064003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=10277854322559064003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=10277854322559064003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-08-10T17:00:18.187Z",
+          "notes": "Resultado automatico para \"excursiones\" en San Miguel de Tucumán. Segmento: agencias de viajes y turismo."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=10277854322559064003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=10277854322559064003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=10277854322559064003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=10277854322559064003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=10277854322559064003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=10277854322559064003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=10277854322559064003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=10277854322559064003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=10277854322559064003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=10277854322559064003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=10277854322559064003&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJKex1lxtcIpQR6wT9D1b7KCg",
+    "name": "Ravello Turismo",
+    "slug": "ravello-turismo",
+    "category": "Travel Agency",
+    "is_vehicle_related": false,
+    "address": "Gral. José de San Martín 623 Piso 6, oficina 2, T4000 San Miguel de Tucumán, Tucumán, Argentina",
+    "city": "San Miguel de Tucumán",
+    "neighborhood_or_area": null,
+    "phone": "0381 662-2181",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 6:00 PM | Tuesday: 9:00 AM – 6:00 PM | Wednesday: 9:00 AM – 6:00 PM | Thursday: 9:00 AM – 6:00 PM | Friday: 9:00 AM – 6:00 PM | Saturday: 9:00 AM – 1:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.3,
+      "reviews_count": 43,
+      "source_url": "https://maps.google.com/?cid=2893839107639543019&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "La mejor! la pasamos muy bien en nuestro destino",
+        "author": "Lucas Emmanuel Diaz",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/105667742308191655122/reviews"
+      },
+      {
+        "text": "Aquí estamos en Camboriu, esperando hace 5 hs el \"Bus 5 estrellas de última generación\" que ofrecía el paquete. Una total burla y engaño con choferes inexpertos que con su irresponsabilidad nos hicieron perder un dia entero de 7 dias!. Lo peor de todo la respuesta de la empresa lavándose las manos. Un desastre el ómnibus para semejante viaje. Realmente decepcionante, NO SE DEJEN ENGAÑAR!!!",
+        "author": "Gabriela Castro",
+        "rating": 1,
+        "source_url": "https://www.google.com/maps/contrib/104454620111646693846/reviews"
+      },
+      {
+        "text": "No voy a decir que la pasé totalmente mal durante mi pasado viaje Las Grutas- Bariloche, pero sí que hubieron cosas que me hacen decidir no volver a darles mi confianza a esta empresa. Falta de comunicación grupal por parte del coordinador, los horarios no se cumplieron, cobros extras no mencionados con antelación, me rompieron la valija porque tiraban el equipaje como querían, sobreprecio en las excursiones, nunca recibí el voucher. Eso es cuidar al cliente? Revean estas cuestiones.",
+        "author": "Isabel Corbalán",
+        "rating": 1,
+        "source_url": "https://www.google.com/maps/contrib/106122534401969664291/reviews"
+      }
+    ],
+    "main_product_or_service": "agencia de viajes",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJKex1lxtcIpQR6wT9D1b7KCg/photos/AWCwydhHUBUAIFTBpENxexbuRV0nFa4rBXitwYWZ7c2krbGhKnTttgzz7ivoVF-UDsNiGJ5GyW5P-HDRdJ_S8RB2kES51woi6zmzY7Twi48RtM441zwC8H4w6vEuGjq3lDoApFxcsl3D_87eexZDmz1lrc2yybvp6qdpzfCZxNne_FSm6KCkxHqjz7Xj2RrwuHcDZO5IGeTrh_0jkxsjZG3kHb8m9A_vWFGbkywu-ZClHZN2Jyb2pUSGJwKBgI3NP-hS1ec7vNR-IYs_s2VmshPQnBi07OsRO77vE5rV5EUIMqRiumUAJEBr53R5LF2axv44vbtBDvG_9jAEgNcu6TM-1idqXLisI1x8B1G8xe39sbQxDJzuvLnFmeJ3QzeaYffAROh8YplRMydWMtQmIag-ZLE4NYn3RCb4Y7w4uhJiRXWspA/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=2893839107639543019&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJKex1lxtcIpQR6wT9D1b7KCg/photos/AWCwydhrOhQBwnLXbGXZeWiP-xye2E-ovCtYNrhnD7ts05qqGmVQNGBEoLSiZrWtcx1k6wVeh2b2K_4wrh7IUQZefJMllVuZq8iXqIWZ-jxfn59eDGY5VmyzGC7EhVyDMK_ZTdn-GyG6DmPgMaI62nk0CYLNsvwhpZLH5difB22Wtl9R-YbaMKn3cQRlYuzE-DMDlYnrDAa1FWPFpSjWZ7JgHIhOeQiDidppUS4XSlyh09rPISn8D2bFY34jF85XUlVQgy1BcLiE5Nq1S2-6q-Va2BbkfYVC84A90Ff0c_d-6xAkQODAIv6DmjQ0o7j9kvmIMLnx5c40H8TCSTsZalsPS01ChXr0ssZOiwNQhB_-gOPj8x7gcgqL94h6lBsgwQJi28ApfOvFfMOylRzDb4iAO0ZodPpEz7oujZC2D8W-pIkHxQ/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=2893839107639543019&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJKex1lxtcIpQR6wT9D1b7KCg/photos/AWCwydgS0786lemB9_rO0ERqZSZJBa_u-S1RjO8ubseyKVvE2c_559zVGUEC478D_oc-rmvLBV01uVKgJjr0INFQ_OpuO_UR0FZV0msLvwUmtenVw-o0BU584ps9SZhPU6hNVLfYaVUN0iYNRoQVUaow3L0k2nH0_fBy4XDcOME3Xh4ia2QTFbwIQgdZpQYIpdVLmYNHpgXEj6l6XGzU63fe_0aJO0GrrmvhFMt7zNKW26ZXCuax5DfSOTXmuOsMWVJBQvu4_O2-6nxTUCvGpdVazr_4rfLMxk75FqQMNS8vuzZJwH_BZLuZGeJSTg5sGdDp6UnkixSMX-hcTRFn3haWweZ_7rKB3mJFdqfvVt-fWzhKPV6K9LOTvZoHr2c14rsSXqTGXK4hp8aOvKY_uS1Fed2R-TAunnLkCW-l92jgmwc/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=2893839107639543019&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=2893839107639543019&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=2893839107639543019&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-08-10T17:00:18.187Z",
+          "notes": "Resultado automatico para \"agencia de viajes\" en San Miguel de Tucumán. Segmento: agencias de viajes y turismo."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=2893839107639543019&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=2893839107639543019&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=2893839107639543019&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=2893839107639543019&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=2893839107639543019&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=2893839107639543019&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=2893839107639543019&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=2893839107639543019&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=2893839107639543019&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=2893839107639543019&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=2893839107639543019&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJeTtvOGxcIpQR-Q43kTjmvFU",
+    "name": "Junaza Viajes y Turismo",
+    "slug": "junaza-viajes-y-turismo",
+    "category": "Travel Agency",
+    "is_vehicle_related": false,
+    "address": "Gral. José de San Martín 667 Piso 3 Of F, T4000 San Miguel de Tucumán, Tucumán, Argentina",
+    "city": "San Miguel de Tucumán",
+    "neighborhood_or_area": null,
+    "phone": "0381 430-7696",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 5:00 PM | Tuesday: 9:00 AM – 5:00 PM | Wednesday: 9:00 AM – 5:00 PM | Thursday: 9:00 AM – 5:00 PM | Friday: 9:00 AM – 5:00 PM | Saturday: 9:00 AM – 1:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.3,
+      "reviews_count": 24,
+      "source_url": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Excelente atención y más por sus propios dueños, precios de viajes acorde a la situación,  muy recomendable.",
+        "author": "Jorge Kairuz",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/111069480879793202467/reviews"
+      },
+      {
+        "text": "Excelente atención. Nos mostraron todos los viajes que hacen.  Se nota que son muy responsables.",
+        "author": "Estela Carrillo",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/118178525445153960533/reviews"
+      },
+      {
+        "text": "Calidez en la atención. Los viajes con esta agencia lo realizamos siempre sin  ningún inconveniente. Todo muy lindo",
+        "author": "Susana Myriam Gutierrez",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/108028855393645647194/reviews"
+      }
+    ],
+    "main_product_or_service": "agencia de viajes",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJeTtvOGxcIpQR-Q43kTjmvFU/photos/AWCwydgncRUI6DaS7k8hA3aUnI1W3rBKtIYIqlazlXRE_tOkTZKxlp8Cqg7MYcCACx3DeXt3Iy7H8FdquYcs5bGw_qjVndF02TMC5m-FQ7l4S7k32BMowMGUlqRYudmXefv3EYlPYNisT5FmQ-upZ9iS11nesoUC0hFbCkRcnTrqQWmj1d2OWNlX0nIlfDYD4T2oEFi-iJFfscixj8KdgfHqnIMG3xPCvOSE2e1BDWCquRua058PdFF3XPxnEnX0PrzYpJ-wDM8XsoZxR1d8Hm6yT9nJ7iinxx4qljNCrcazC0ki8L-qzQ_VX1DFo9f5_8IFUkkRKAj25Y3wjtx3-Ft_WpFatRestDEqO42upB9r5kZSgTw9yckpJl8OxIv4tCoI06hEm9hXMU-eOE4cikss8iJ3y6CInOAdR9uAq5vakfKeKaQC/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJeTtvOGxcIpQR-Q43kTjmvFU/photos/AWCwydiblReaSRbWj_r0WSLeO32PKHWhIgAedm6CCoFlv-OynvBfQGbxiP1LSn_y6lu7c9JdQiPsIdhHBs0VDGKs0Bx5gHqncI1WFw3SrTDIuN5UcEve1jEVOaR9mBt-hCkCCHCRaTxQobWTBJlJmrh1CFyDRWlUOEsqaWqSKyvKOHZRWSFcqqIUVrMs1vfIE5WxKmWSu5LTmYg4SXSLA1zK0PE9phMkGFrdcv1_bJNsPaZiY4fkULbU-CY1O0SL4Vb5UgBrlppl7BbUAYUODEzRwqo3bTNnHHz8KcWZ4n6pIco_MkGn9vaZiEKLBlHPZ2b_gONvRfgPuODf-sOAWKc4gxTqys4SVK0tIFwXgqtRLDH0bg9fFihhJaFwSfi3utUs6z9lbxw860Wv4a0Xw0ap2GFUn2HgbDze4TS2x1DPVrNsloBO/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJeTtvOGxcIpQR-Q43kTjmvFU/photos/AWCwydhMGlUlzlRrJIiyONb0KzweoHLTOe6kx7ua67MHiSdp696VtGVFeTWkKLBA3gpeazirABUyc-MdvdwGT2l7CTY0WbVT36QaOW7PbDLvxNHof-b2TngxkiTkJFMeJdUMZNnGorkjVGuVZCGupIT1_ugDmV80FA701g341xoLFTTHXX4Ij0VxNUw46wdsctgo4kSzY3cAmDsgbr8lZtSE346e3o-W838xZhRJ7tTui2EApNuBBZ5cE7so2fiNSn3_Sf0NCLkXZoZiMl3OXuSyaD7efOtlTF2d-7fAuvOPgCanRM1Ne8Z1CGix9G7UpNBt3BsKl0WynZQCj0FDfaa_VUnKcSf5qjixVw0RE2hBr0dpbJqOSwOzWL63Ot_Xunp8P3HxhGGPLpUsKV4TxObXRyEit-H1diHElgvC8eY35NkI9A/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-08-10T17:00:18.188Z",
+          "notes": "Resultado automatico para \"agencia de viajes\" en San Miguel de Tucumán. Segmento: agencias de viajes y turismo."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  }
+]

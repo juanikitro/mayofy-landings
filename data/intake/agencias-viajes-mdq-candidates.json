@@ -1,0 +1,437 @@
+[
+  {
+    "id": "google-ChIJgTC1LarehJURmAWENUzN9NU",
+    "name": "Cartagena Viajes",
+    "slug": "cartagena-viajes",
+    "category": "Travel Agency",
+    "is_vehicle_related": false,
+    "address": "Belgrano 3360, B7600GLB Mar del Plata, Provincia de Buenos Aires, Argentina",
+    "city": "Mar del Plata",
+    "neighborhood_or_area": null,
+    "phone": "0223 496-1001",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 6:00 PM | Tuesday: 9:00 AM – 6:00 PM | Wednesday: 9:00 AM – 5:00 PM | Thursday: 9:00 AM – 6:00 PM | Friday: 9:00 AM – 5:00 PM | Saturday: Closed | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.4,
+      "reviews_count": 41,
+      "source_url": "https://maps.google.com/?cid=15417173151595103640&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Mug byeno",
+        "author": "Marcela Re",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/106852538257355823358/reviews"
+      },
+      {
+        "text": "Gran experiencia con la agencia Sebastián organizó todo haciendo que mi viaje fuera genial. Gran servicio, profesionalismo y calidez 100% recomendable, mil gracias!!",
+        "author": "Vanesa Chiesa",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/112715697576284430838/reviews"
+      },
+      {
+        "text": "Excelente atención de Sebastián, quién no solo nos atendió en mar del plata sino que también nos acompaño en el viaje a Federacion, cumpliendo perfectamente con todo lo pactado. El micro y choferes 10 puntos. Ya repetiremos!!!",
+        "author": "Carlos Ainchil",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/102137903156885814921/reviews"
+      }
+    ],
+    "main_product_or_service": "agencia de viajes",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJgTC1LarehJURmAWENUzN9NU/photos/AWCwydgVZ34jENhAF3067TGXVaKKPRq9oUAItxaIbArWlvZsJ-6yrn2lvl3yGuxutORr1-DXuudKXUfAbc_URDj0uBprgzmJMwobIeb04h7D0HxqSK-v0fl3q7lttpvAowehc-pU3vwXf54Iklw-YOHx1KeGbbJY-QQsUPF4815k1m5MRmqihCLvvR2NHrqbCabnVfZvmE7PMfNe26Nebt8suduPx-8vwIrQSHIC492byCPetFd-Wt8XkNkN-I7nREA6a66J81b5gZ3BxipSklhIw4eayhVlClbstvrB7ju0RG19Y6P0jInvWLjRoatA1Bz2VfB5eg3TVikWzRB39l1uOGmZkzeOtDqz_fjkuVODK26oA1z4itxHZhNiT3jkAimWxDBAzArL7GVI82xJAGlpEBULa_OhgvTqa9_aj9irEbKnWJGa/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=15417173151595103640&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJgTC1LarehJURmAWENUzN9NU/photos/AWCwydhfDZIoLMqSegnuZQtP2RP24zgEP0AN4ldfnemI3qm-n67liMViKyacfIbL2LsoJ2utZwVgkXE66-2wzuyHScvigEC4OkRIXFKleshELqFyY2DOAemeaDaWNh6bb1TpNXmNWLpF75MkCGwS2DNogTNrn0zMAgPlT-TLk3OFWAfZkLs7rKGlfZVaOZvQWGooQzltQHQRbNOXR9-lDOD6KMlqLotm9D6CVK1edMa4Y7hZ5dz6MkGN9iJ__ZRV6026-Clh8Ss3CXaWERxEd98PwNh4NeO6dj0HwieneCy7MzQ7KH5PxWJtRIG8pBCowchsKZQ0DgdmOcMbVouriNyjsxVDupA1uPXPmxo0R4qOUfpW2pL0NdaNt1B0YSIGdFq1ndLiLpwsjsuiS4nqypq3u3SsUPFkV5IRsteWiCp0XiFPyVJR/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=15417173151595103640&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJgTC1LarehJURmAWENUzN9NU/photos/AWCwydhNsFU6dFxFQb8wxZLq_BdspE1phzNwxerzm2MI-V2a7m3Nr1gzQplzgj6FHN237QImNIA4CzyVpE6UtPzwzvuFZ5elgK1atXzzIxwJo80pRpQ_HkWB4pkNHhSsgsmYzQF3dJA9BdIOYHG3tdh7O3eKuLbjl5VX0dLPFOEePi2QHvpMfSnKxwStQCmaj5MURQBf6FbOm4lMGNUXfgJ0xLBxS3RMI0P3rT_nwo11rywh1rdrKI9aspDQXmD0VdpJ9jCV7LdYQVagapL1qj__yX5tagfkh-r__k_iEvrl_UFPz6u8LgJP1suMBQgav_6zAZ2Pjfs5j5-JC3kJuQIFf6ipZMhrk63DnDPL2IQoNOqmpsT2BPz2eb85P5A2_Q6VrvtkUHfg6aAsVtqCEaRDrHArOlBB-aC5DsHCKGxYOd8/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=15417173151595103640&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=15417173151595103640&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=15417173151595103640&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-08-10T16:58:38.365Z",
+          "notes": "Resultado automatico para \"agencia de viajes\" en Mar del Plata. Segmento: agencias de viajes y turismo."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=15417173151595103640&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=15417173151595103640&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=15417173151595103640&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=15417173151595103640&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=15417173151595103640&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=15417173151595103640&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=15417173151595103640&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=15417173151595103640&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=15417173151595103640&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=15417173151595103640&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=15417173151595103640&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJqQ0E2CTchJURtwPIx56c4VQ",
+    "name": "New Trips",
+    "slug": "new-trips",
+    "category": "Travel Agency",
+    "is_vehicle_related": false,
+    "address": "Alvarado 1252, B7600 Mar del Plata, Provincia de Buenos Aires, Argentina",
+    "city": "Mar del Plata",
+    "neighborhood_or_area": null,
+    "phone": "011 15-6048-6000",
+    "opening_hours": {
+      "raw": "Monday: 10:00 AM – 6:00 PM | Tuesday: 10:00 AM – 6:00 PM | Wednesday: 10:00 AM – 6:00 PM | Thursday: 10:00 AM – 6:00 PM | Friday: 10:00 AM – 6:00 PM | Saturday: Closed | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.7,
+      "reviews_count": 173,
+      "source_url": "https://maps.google.com/?cid=6116341974716384183&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Carisimooo",
+        "author": "Walter mdp",
+        "rating": 1,
+        "source_url": "https://www.google.com/maps/contrib/115050224211228516821/reviews"
+      },
+      {
+        "text": "Es una empresa que te facilita el que puedas viajar se hace responsable mucho y muy bien de los chicos los acompaña. La asistencia médica estuvo en todo momento. Y la verdad que mi hija la pasó genial se la súper recomiendo ella viajó a Córdoba y no le faltó absolutamente nada.10 puntos!!!",
+        "author": "Mlu 2023",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/104493055800590454892/reviews"
+      },
+      {
+        "text": "Una empresa muy confiable muy accesible excelente atención siempre ! Y son como.una familia ya que cuidaron a nuestros hijos como si fueran propios !!! Gracias gracias",
+        "author": "andrea Natalia",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/112351653606699914513/reviews"
+      }
+    ],
+    "main_product_or_service": "operador turistico",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJqQ0E2CTchJURtwPIx56c4VQ/photos/AWCwydg3PBmQG_LenXdRpRc-lqPW8qiRjtuz1uj84CfemDjSpS8Ea2JmE-QLIkA3EMaNe09BIrtteot8sxsU4gb1BQORbaOUy9sNPQ1mtlImkpekLx0t1ZVXZ03fNqx0L0RL-rRzy4a2fdDUXP10P9RkzOMbIgmGtFFjI2fqPuk80zfT9j5d_6hR6NTkk3APtZN8jRLgcztnI5P4L5j2mG13M2TLmjsk7La36inB1atpgPRSw8cKRfvNwKyItM1uuduXhGzuDLR6dI0I9GG3xpiwWSJS2nJ0jUdvhNgKGs2XvOavAp-Hl9aYIgQ5T2f_whb9LJyUDIO2PwlBbh9ONXs1yJ1pg2BxtOV_i6suSv587l59to1Gqr4GO-uAJ44ltWHVBJweQRDK7ye7Lsy4p3mQBBX2FKLO4s-gqoIdZ4MagmTWV7xU/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=6116341974716384183&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJqQ0E2CTchJURtwPIx56c4VQ/photos/AWCwydhvek2-Hx70OTloHIP-he9P3VPI8JAGHhNh3Vd8GBE7FAeCF426kd0_O_qrjLK4flkSOKEkAIooJNyHJQ-aidegT13VFqL4lQ4MuxOEzy6E082Wq9Eft1j3Lh3-CONc6K8X496gOm1l_p3Vs2BasPu-Q_qHlJwKs1SK0F38PmZepsUljGiAcjBpoi0cz163F0gMKfLBvnWb7ZoTlTFXit9AXH-gx8Yj8xg7DCdZKvm9-O-qLPnOMMwHOJhnmfwq4atMXdEO_4HaQzj7yPaE13IhFK8XZEyr51DeVt7q53FMYCmhpt_NP3nd_DK8a0tDmZv6EjxkJmo7UGH2CnGoMZUBllaMlslU7cKub-0tc5i7UVKl4yTJ0K3D2N66qbAIBKI9zYlBoahNvAMhuxITcahfHMJpBM8wwI--o08BlWWUTwZ3Md09vrQBDQHpEw/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=6116341974716384183&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJqQ0E2CTchJURtwPIx56c4VQ/photos/AWCwydi_S-4pjU2fe04SlqUdZPIU-pc4WbkVdOkiUSYldStL0veGw-QRNuEt34UgGUjBhYjgzf-U7nz7OQUSZUpDD0ICpJ5pezlBftTrr27Rn4Y3z7kvj0JJTQKMrcsMhv__9arQofEDe7r6iAiYEsICPxaS4lq54cKusxwqkbQvaZhSdsCs2XZueWE3IJXDVNItlK3VYPlq5ByPrdlqa_mvYUtg9Ug_Y2f1VVEx6ieKfkBtDqhmqeXvfY8wLF2eZkelW37gZZyp7qkYSMf3ZzGndsXKp_qhvvyeZnR_65j3jJ_7IOOXP1LAZQxHhgdZg9NpWMaDmzGXbnUqa06HjX2h1PrxyhAc4anR2TO7vg1tiG_t7O1QahL1Itw_wtnHbkdYDg7DVnWKFzRUCQ4b2_e1H0t-9POVblxYQvji1dZ5Be-bW14M/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=6116341974716384183&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=6116341974716384183&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=6116341974716384183&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-08-10T16:58:38.366Z",
+          "notes": "Resultado automatico para \"operador turistico\" en Mar del Plata. Segmento: agencias de viajes y turismo."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=6116341974716384183&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=6116341974716384183&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=6116341974716384183&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=6116341974716384183&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=6116341974716384183&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=6116341974716384183&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=6116341974716384183&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=6116341974716384183&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=6116341974716384183&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=6116341974716384183&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=6116341974716384183&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJmaBTnznchJUR2ianJ9R_K-E",
+    "name": "Casa La Torre",
+    "slug": "casa-la-torre",
+    "category": "Homestay",
+    "is_vehicle_related": false,
+    "address": "EPH, Mendoza 2334, B7600 Mar del Plata, Provincia de Buenos Aires, Argentina",
+    "city": "Mar del Plata",
+    "neighborhood_or_area": null,
+    "phone": "0223 557-2891",
+    "opening_hours": {
+      "raw": "Monday: Open 24 hours | Tuesday: Open 24 hours | Wednesday: Open 24 hours | Thursday: Open 24 hours | Friday: Open 24 hours | Saturday: Open 24 hours | Sunday: Open 24 hours",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.4,
+      "reviews_count": 174,
+      "source_url": "https://maps.google.com/?cid=16225202631707403994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "I have no idea how this hostel has a high rating. Actually this one star is only for the staff working there, apart from that it is not good at all. The beds are terrible, pillows are almost flat, mattresses are dirty, even the lockers didn’t have hinges to lock them from, one staff had to bring someone to fix it. Bathrooms’ doors don’t even lock and the door was almost broken. The whole place looked dirty and very old, it looked like it could collapse any moment. And the morning we were leaving and were in a rush to get to the bus station, there was no running water, so we couldn’t even shower (not a big loss, the showers were horrendous). The location is good tho!",
+        "author": "Sherif Amer",
+        "rating": 1,
+        "source_url": "https://www.google.com/maps/contrib/100681200485774408307/reviews"
+      },
+      {
+        "text": "The staff was very kind and attentive.",
+        "author": "Maria Ximena Olarte",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/114669300423206541064/reviews"
+      },
+      {
+        "text": "Un hostel genial, con su mistica nordica. Al lado de la emblematica torre del agua de Mar del Plata este lugar dá una vista única a la mísma y a su predio. El hospedaje está muy bien. Tíene una entrada cálida con sillones confortables y lindero el comedor que invita a compartir. Cocína amplia y equipada. Habitaciones compartidas, muy comodas y calefaccionadas. Posee un patio con espacio para estar y parrilla. También terraza con espacio para sentarse y apreciar la vista.\n\nRecomendado.",
+        "author": "Nicolas Iglesias",
+        "rating": 4,
+        "source_url": "https://www.google.com/maps/contrib/101812732439434778335/reviews"
+      }
+    ],
+    "main_product_or_service": "turismo estudiantil",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJmaBTnznchJUR2ianJ9R_K-E/photos/AWCwydjrviJtGWXTppecHpKRdZymqRG-IXvaEoW4hMltXfudvjaLUjiVfIpA8tXQCjG4OWe8XjOikswOEoGQAT7f08PXRR55lgShd95XsKGANed2Ga1rbcyFxrehQLKoZQKGyAlag_2HRFzil1awzMSCrTF5e--0Q-Yj16QncBis4ihfjBfah7O5S3C8tAlmq4CPQObQFyY5pZqMpvhveG6lGGywu_oVZux_CCIHas4bvSVCa64YpYZDlRk0FDRtdSqBtMgVKUxvOA4XsNJk-iS-2RJutaeL4vUJbvJoPOwN_JR7VkHQHFMAiPNaryZTfxqKwFCfk8fgg0WmJBPNGWqR8eVqtlGEP0AwLVAuwkdMKNlMMMxwtK4s4LM-vT7NILtyojy9xd_MPOE3HxdnrtNuaWaWUvKDejqNljlTq6_I9C2DKVN8/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=16225202631707403994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJmaBTnznchJUR2ianJ9R_K-E/photos/AWCwydgg8ijJDsjxuETCDlBKsSoqoWbtw69W8fQseUNsJvKE-_LAEXJ3iste2BiCHnglKhjcNY9ISf7W-nrLNliYgzMnxNnwAFo5t3zRmTt9gBh0lZ-21OSYTPc36FBuIyYkyhbzP78LCH7jK7kNGgoPUGTFTSHFieanBHHeh3TPCeuiiGIBVm-1pB47mJUsS4Bps5FM_uKvKZx0tMa3B96QrMzjBJlhyuyrow9QcE4spvWdxWMyupBZcbu_JqrnzvZATugt6GNsSLt76JaVBBGWT8gxC5_PfoNXnhDBZ97SJK6Ky2Q_eCsATWybtAjo-9t2IF4AbcsBdMb-krwwA4sy3jM0ncrNUQfGk8jXlAMMhv_ey0WNTlRtzWcuSnK5NfYun6eTm0CmtMASymUT0h6_Z9L4jbyansUTHjatNTtyZgMB_lTP/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=16225202631707403994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJmaBTnznchJUR2ianJ9R_K-E/photos/AWCwydi-jwoz36OVrMIYftDUHvpj8KUYIDgEoCyMak5A6fyVHNSBdI44YdXjrwthdmaqlokMoWGmfCIseL_rarmdFpDrKxjNpiMqaI1YFAlygeMI_OnGW_vR600h2rMg2isjHKR4KI6ALSPfVZ8GcXaN-ZE6vsGk8mKwEPM1_kio_cBTZY5iijdO_XFID2lGwoc7aDuFSNT553q5ccSDkl3ol_hRgahk8sRAg-XG6oVGh5szQeXm_RCXoqcQ_-O9SYQPYlZyGxkI0UHMjx777Lmw9B3IfuedSnRwY8Vy0Fbj9M5wIBBf-tAqvRDbxjhbDjgCRrSPD6Avyhv1RfUVYD0goc5H_hVMdMkzbV65eeiRhBlvnpcfFZcqHTSP4QlC_p3pCVIinjgmwhpG_a0hGx05tehadifdptnMDxLVFjGL9QnUkw/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=16225202631707403994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=16225202631707403994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=16225202631707403994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-08-10T16:58:38.366Z",
+          "notes": "Resultado automatico para \"turismo estudiantil\" en Mar del Plata. Segmento: agencias de viajes y turismo."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=16225202631707403994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=16225202631707403994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=16225202631707403994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=16225202631707403994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=16225202631707403994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=16225202631707403994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=16225202631707403994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=16225202631707403994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=16225202631707403994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=16225202631707403994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=16225202631707403994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  }
+]

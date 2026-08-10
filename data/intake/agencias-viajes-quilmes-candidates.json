@@ -1,0 +1,398 @@
+[
+  {
+    "id": "google-ChIJhdeUo50vo5UR4YbX88qKeas",
+    "name": "Viajes Fornabaio - Vuelos baratos",
+    "slug": "viajes-fornabaio-vuelos-baratos",
+    "category": "Travel Agency",
+    "is_vehicle_related": false,
+    "address": "Av. Rivadavia 292, B1878 Quilmes, Provincia de Buenos Aires, Argentina",
+    "city": "Quilmes",
+    "neighborhood_or_area": null,
+    "phone": "011 4257-8788",
+    "opening_hours": {
+      "raw": "Monday: 10:00 AM – 1:00 PM, 3:00 – 6:30 PM | Tuesday: 10:00 AM – 1:00 PM, 3:00 – 6:30 PM | Wednesday: 10:00 AM – 1:00 PM, 3:00 – 6:30 PM | Thursday: 10:00 AM – 1:00 PM, 3:00 – 6:30 PM | Friday: 10:00 AM – 1:00 PM, 3:00 – 6:30 PM | Saturday: 10:00 AM – 1:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.7,
+      "reviews_count": 64,
+      "source_url": "https://maps.google.com/?cid=12356059656946681569&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Julian un genio. Viajamos varías veces con la agencia  y en todas las oportunidades fue excelente. Siempre en todos los detalles y excelentemente organizado. Totalmente recomendable!!",
+        "author": "Marce",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/114527873523466770473/reviews"
+      },
+      {
+        "text": "Una agencia muy responsable. Con gente seria y comprometida para para que el que vieje tenga su mejor experiencia. Recomendable",
+        "author": "Damian Montes",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/101804503318356017730/reviews"
+      },
+      {
+        "text": "Muy buena atención siempre, viajamos hace años con la agencia. Los mejores precios y opciones, te arman el viaje a tu medida.",
+        "author": "Yanina Provazza",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/113232946128958122973/reviews"
+      }
+    ],
+    "main_product_or_service": "agencia de viajes",
+    "photos": [],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=12356059656946681569&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 0.95,
+    "missing_data_reason": "fotos",
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=12356059656946681569&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-08-10T17:00:50.664Z",
+          "notes": "Resultado automatico para \"agencia de viajes\" en Quilmes. Segmento: agencias de viajes y turismo."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=12356059656946681569&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=12356059656946681569&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=12356059656946681569&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=12356059656946681569&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=12356059656946681569&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=12356059656946681569&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=12356059656946681569&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=12356059656946681569&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=12356059656946681569&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=12356059656946681569&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJh7CO1G8uo5URXIah4mqs93o",
+    "name": "Viq Viajes",
+    "slug": "viq-viajes",
+    "category": "Travel Agency",
+    "is_vehicle_related": false,
+    "address": "Av. 12 de Octubre, B1879 Gran Buenos Aires, Provincia de Buenos Aires, Argentina",
+    "city": "Quilmes",
+    "neighborhood_or_area": null,
+    "phone": "011 4254-0508",
+    "opening_hours": {
+      "raw": null,
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.8,
+      "reviews_count": 29,
+      "source_url": "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Excelente servicio!! Termas de Villa Elisa: Hermoso lugar, hermoso el apart, comida deliciosa, el chofer Cali un genio!! Gracias!!!",
+        "author": "Patricia",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/103782162344304690272/reviews"
+      },
+      {
+        "text": "Excelente servicio.\nEs el primer viaje que hago con ellos\nA termas de Concepción.\nToda la atención es muy buena.\nTe hacen sentir especial.\nEl servicio puerta a puerta es para destacar.\nSeguramente vuelvo a viajar con ellos.\nLo recomiendo",
+        "author": "Claudia de los Angeles Molina",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/108536891939937259370/reviews"
+      },
+      {
+        "text": "Un lujo está empresa atendido por su dueño, atento a cualquier necesidad de los pasajeros, hoteles de primera, excelentes chóferes, servicio totalmente recomendable. Hace varios años q viajamos con Viq Viajes. Gracias totales!",
+        "author": "faby b",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/103330529920040661015/reviews"
+      }
+    ],
+    "main_product_or_service": "viajes y turismo",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJh7CO1G8uo5URXIah4mqs93o/photos/AWCwydhZTxst8pZgnUCxDuZf-m6iAiF-zvTvKDJXYv-XbQud6NShHoYajiMYANYZHEbZ1dUW1o9RJXhr0bvHDHjTZeMTBQxCjoQGQRSy_y50JhyHG97AZik5nSDz8RWsPrr0NtfPXyc4W1VPvyHGMqqtJBvBHnIAYXvljX5Xo5fkhqBSmc_9F9hUGAmjiEIplIdJSKfjN77Lchp1OS22vd0GkaJ0div9EdC0AHuLQvAmHKQXXSIxhbC5Sov5ZZOLojkplPI3hNYuOoC0V0-4626LX17l_tQOnGiN94eQCcEdhKSHvxRkKbPtLA1lnDk7wSx6xUoFAqiw1NzdpLk0ZRbvmLzFMpz2kQx90gAkEa2gKL9HaH9OYNPO9dejOf-jV4MuWP5ME3ylwV6oe0aqeL08gcQ-HcKtMiS0l5g7CV7Fz_rvTIfBbDCMw8oFZ3jWtg/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJh7CO1G8uo5URXIah4mqs93o/photos/AWCwydiwz7WYw2olxFTdn2f_6QZObB5E0nApOJ1_AoCKPbqq8kTNjk_lEarxZTN6Of56XuwhqKUEficEBsO-1NwUlHE18XAcggBr8kEOMPFKfaknGE73P-k353B3jBSZoQDiUflL4gVNu6dqZd7DQCFCbwRAfP9ZYxK6Qlp9it7gczEdpjk76zAq9GxLbS50HkDcMrYIr6PTrewSERQBT_a56gizGA2ZPdVeVpysND3jVs0rtro7Uzp2woygAp3nh2il-BM6hJ2wxgJJvzt5M60WrK3KLpYO9JOvCSxBh7jH1Og_7nSPrnKqrvWW3Yp89JyBoTy9vDpegJpxC-KVrJq59-xvnkO7qf9MVYguASHwt3cGMfaO-FwlIMyWYLQQ2n9q-g0wUtaexjIPBGh2K2OcRFdvXSfPdg_CuryWbmFIauk/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJh7CO1G8uo5URXIah4mqs93o/photos/AWCwydhH9kTVTb42YuviW1pVW9RaNkyNAy8vEuH-ExTQZ3tSFqfNDxyUdKIsfaPpweevt0zySiOZUsW8DOivVmCYwYvk8LQeyUpagXfg6gBLFeMEqKgnLk_iCVX9J6jR2rFwgKhtXYfC12QKij26r0XnCktA6O9EMAc-Ac52bvT-n-sFFy1j6Aea7NAgRYCXXRxmEwkbZUhMpaacs8NX7u64FVasC7bR6FPiFlTctPE_ERmxltZIjAUjUI4aToyxNdtnVxLbFzv6cv41ILno-dSwG5jj1Yv0jtI5jWSP7LdWPeay9BE2s9Fjf8Lhvdg0B1LE38lfrJr5fIJr3Bo6A-OJos82d1DbwQn01XIBOVn4n5xe4YVrC1RuOla5b8HGpymMpS7GuCNJlHcd_rnZwNQzsF-RPc0NlS_3g2wpSHZsGIPM3Q8CG-AoFKtTTxqj4A/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 0.9,
+    "missing_data_reason": "horarios",
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-08-10T17:00:50.666Z",
+          "notes": "Resultado automatico para \"viajes y turismo\" en Quilmes. Segmento: agencias de viajes y turismo."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJw6wyTkAuo5URlErJbpzq2x4",
+    "name": "Travel Quil",
+    "slug": "travel-quil",
+    "category": "Tour Agency",
+    "is_vehicle_related": false,
+    "address": "Alem 259, B1878KHE Quilmes, Provincia de Buenos Aires, Argentina",
+    "city": "Quilmes",
+    "neighborhood_or_area": null,
+    "phone": "011 3978-5355",
+    "opening_hours": {
+      "raw": "Monday: 10:00 AM – 1:00 PM, 3:30 – 6:00 PM | Tuesday: 10:00 AM – 1:00 PM, 3:30 – 6:00 PM | Wednesday: 10:00 AM – 1:00 PM, 3:30 – 6:00 PM | Thursday: 10:00 AM – 1:00 PM, 3:30 – 6:00 PM | Friday: 10:00 AM – 1:00 PM, 3:30 – 6:00 PM | Saturday: Closed | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.3,
+      "reviews_count": 31,
+      "source_url": "https://maps.google.com/?cid=2223628798631955092&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Excelente atención de David... cumplieron con todo ...hice un viaje soñado con mi familia ... gracias por todo",
+        "author": "maria castro",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/115032509184630904433/reviews"
+      },
+      {
+        "text": "Nuestra experiencia con la agencia es altamente satisfactoria, hace años que los elegimos y cumplieron en todo lo que nos ofrecieron, cabe destacar el buen trato de su dueño David quien personalmente se involucra  y busca opciones que puedan satisfacer al cliente, siempre con excelente predisposición, ofreciendo el mejor servicio, y haciendo que cada viaje sea un sueño realizado, Gracias por cumplir en todo lo que prometen, los recomiendo por la excele",
+        "author": "Alejandra Mariotti",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/106325291634687651755/reviews"
+      },
+      {
+        "text": "Tuve la mejor experiencia, cumplieron todas mis expectativas y me acompañaron desde el pre y post viaje, la atención es excelente, duda que tengas, duda que despejan, todo siempre en un ambiente super respetuoso y amigable, sin dudas, la mejor empresa en la zona sur",
+        "author": "Rosales Giuliana",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/110594772654306545331/reviews"
+      }
+    ],
+    "main_product_or_service": "agencia de viajes",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJw6wyTkAuo5URlErJbpzq2x4/photos/AWCwydgqxcJ9LUrY9o6arztgJzW6dPs7My1ZmMWn1KAIIUaxGKuqQKwW44iP3ERTqk3oDBslukRMNq5ozzhEW66i7E6wvlen6SqSeU3EvvtFUciWzFwXCYSFoyYCWipMdY3qpy3ryrWYV3obP-TBwf5h_oT8tz20c1jjjURtKw6jisPr1ziB4SoUix4Tjbh5_AWzoBn-pJekhSur-ZHRYHTT4GwdWj6TFduaSq3crdrRg4lVtD4fXcooqmeprHdkcP_FFRWdFnGzltonEdmqhW5khhmf_MKA4lippabkg8dGzLZeVkXLqn439IubPMh3Ib_UyanqJMtYRdV7ix9Y1TBu2mKoFXD7Cl6kkBBouNukKY1PtNWWyeNNeWDM1t6iqiH5YRVyNectT1jotPcrv9Aez86_gn4244BABWKRC8_T3_eQWTyvMDTiWjccflLwsLpN/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=2223628798631955092&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJw6wyTkAuo5URlErJbpzq2x4/photos/AWCwydjQ1f5MXrX2ZGTT_GCagocns1IQqXXWc3fhQLlFZI3Ig-gfg2UHGajjz0WhYtD3TVGMKTM-i8KXd215z_eJ9A3JPdS8VHJ3SvgEJQu0FwDdfdMUU3DRInvtQSvKszljzActAf1atq0fGY1-uWtBGwEBqubtRCprw1AS4OSEUvXdIV0r-ObaD-l7-1z9VNkxpxr8qVagofdTzA8KOt_KWb9noi3ZHc_uelJzfq5b3IN895LlpTxTYL1kgQDSSCgt0Zxul69a12JOwGvyquzDC52eBVf7mrEIV2WbWVlad43U7k3HmFzjNXbAXHEkuorXEkr8ZUlZ48C631iG60n9_qLQzmEEsD8iIBOo3pouFBdq4GTYcYGXrTVA0NrR61w2m3WU1Kyta3c6YSXktKvxNuZqaWJ0ICMPBde3Vv1yCoTXQ5PR6DiyRTykPcvDjD2J/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=2223628798631955092&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=2223628798631955092&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=2223628798631955092&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-08-10T17:00:50.666Z",
+          "notes": "Resultado automatico para \"agencia de viajes\" en Quilmes. Segmento: agencias de viajes y turismo."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=2223628798631955092&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=2223628798631955092&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=2223628798631955092&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=2223628798631955092&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=2223628798631955092&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=2223628798631955092&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=2223628798631955092&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=2223628798631955092&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=2223628798631955092&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=2223628798631955092&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=2223628798631955092&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  }
+]

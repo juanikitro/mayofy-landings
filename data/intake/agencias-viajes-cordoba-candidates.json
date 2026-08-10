@@ -1,0 +1,577 @@
+[
+  {
+    "id": "google-ChIJ6QvhTYyiMpQRN0quHJkW9cY",
+    "name": "Nucleo Turismo",
+    "slug": "nucleo-turismo",
+    "category": "Travel Agency",
+    "is_vehicle_related": false,
+    "address": "Chile 250, X5000 Córdoba, Argentina",
+    "city": "Córdoba",
+    "neighborhood_or_area": null,
+    "phone": "0351 460-2272",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 5:00 PM | Tuesday: 9:00 AM – 5:00 PM | Wednesday: 9:00 AM – 5:00 PM | Thursday: 9:00 AM – 5:00 PM | Friday: 9:00 AM – 5:00 PM | Saturday: Closed | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.9,
+      "reviews_count": 32,
+      "source_url": "https://maps.google.com/?cid=14336389835670833719&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Ya hemos viajado varias veces con la empresa y muchos son los destinos a recomendar, pero en cada uno de ellos hemos recibido la misma excelentísima atención y cuidados para todos los detalles. Recomiendan no solo los sitios para hospedarse o excursiones sino que te asesoran para cada día y conocen mucho de cada destino.\nHay siempre atención en cada detalle y están atentos a cada consulta. Venden más que un paquete o viaje turístico, es una experiencia espectacular y completa.\n\nVolveremos a viajar y les recomiendo confiar en ellos para cada viaje que elijan. Esta vez nos toco pasear por Patagonia, cada detalle y día fueron pensados para nuestra solicitud, viajamos en un pequeño grupo y se encargaron de organizar todo para nosotros.\nExcelente!!!",
+        "author": "Arq. Lorena Barrionuevo",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/101616424872902656871/reviews"
+      },
+      {
+        "text": "Excelente atención la de esta agencia. Walter un genio total. Me consiguió el vuelo más barato para ir a Barcelona. Todo un lujo las conexiones y escalas. Muy recomendaba esta agencia",
+        "author": "Colo Punk",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/101000836554475245583/reviews"
+      },
+      {
+        "text": "Excelente atención!! Y muy buen\nServicio y asesoramiento  ya llevamos años viajando con esta agencia a distintos destinos y siempre fue una gran experiencia",
+        "author": "Maria Jose Rafael",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/109826368669645887153/reviews"
+      }
+    ],
+    "main_product_or_service": "agencia de turismo",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ6QvhTYyiMpQRN0quHJkW9cY/photos/AWCwydhQQM_G2kxdzc0lEYGJ2Hr3V-fWKw_yip6NbdUTl1b5cv7B_vVkmBfdKTNtKb1Aygab0awTmEE1e5ZCrlp8psIshB6fqnvmBgE71ckytuId308j14W8yBznaaVvpzVQj0epAxCuVO3zRDKxh6BchhOAoKsrEhLgsVM3tIiOL0-5OT50Qo3KR0BhlEncKmTaZtVjVoT-iJyFRPK9dMax5c_rebcNe8wcniYtcjLI8W8VWluiKL7pbssKMH-YZw1kik-ggzAmY957sO6_CQvX407CGVPmaiIEch6CprAmY3VtDp6lHoFYPzBlMgIChy9tZ0jH7HZuvOEutPdVkQhhjbeZjiKJhcs4HiJmQognOyZzWUe662Z06ZWQCRLecA3FjnLR4L-c72o7bcgRbHnN-Mf-SKA92xPXNxPFEMKAxLg/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=14336389835670833719&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ6QvhTYyiMpQRN0quHJkW9cY/photos/AWCwydjxjwLyXSNMNCzwBwqygzsbrIw97F5WGg1aN4IDQxXpmUiPJbRnGsV6MhC1clmbXGsCzwqXPm30LHRmOz2NtPUJ0WwwsfjHiPoOuHr5MJsD5FH2Q46IUT7tTLcA3N1dbFVzbPxfltW6qY_fbtVWocF8iuqlAMaJI-BM465s4S5a5-jBPip8zBB0PtPOJidPbsd3JyH1Pbm79SILBucGblz7i3NrZcLzllNR7d0wuH2iveHoLgQgaA6_IoDC0FA6rqSvxjPPWxzozqpX9xVn2QX3kzA-Dxmwz7MAC67TxpN63yZMhek05xiMbPXMpTkjFc5WrqVhvX5_Cnr4wEWcTf8aN4l-Eq90BU0Q_OK7Is7-TqQD7oJzquT_O6RC6zEgGoG5PY-TFtRXvKOAx4iNmjKO5yf3qXjpUMP4EACSR3lppQ/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=14336389835670833719&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ6QvhTYyiMpQRN0quHJkW9cY/photos/AWCwydh-LVEGqhZVTihRZ_aFPyjPkU7laRMcM7QgrDGZIuyNjpYiZFEBfjyiAOWpyqDjPPsuBTpAC9sDZVfd6oRMAIeZyNxMwyYgF8xkpaS3umOOGN7ptFl6V1ND7tkBs3YRKyPnsekunT0H4bFdOEzp8Qn5Mbv0ZqmftT9SfiLIVKWRlAMYtYKlDV_-3yR-EaYOzhkVrdwlmD7M_96fIzOkkzddTYmzWJaOK5LJSaXrPbHzsYSvsVVUVrqVGRoT5hZ_APXJHZODLnjpc6nrwJFirr9vL5O0nMGxDkgvDghFyJjmaztaZMfAAo2jaMXVKqukzVgVbbCHysUqG1rB_JHaIQP7ZjEZSSzKE4Gq0wDhjSKKdo8U98CtxWkfuNLD8fO_IvrF9TJNJoRWhHsZNEiI0jVah2WOIFRQVpRbR7AmZL4/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=14336389835670833719&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=14336389835670833719&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=14336389835670833719&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-08-10T16:56:50.041Z",
+          "notes": "Resultado automatico para \"agencia de turismo\" en Córdoba. Segmento: agencias de viajes y turismo."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=14336389835670833719&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=14336389835670833719&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=14336389835670833719&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=14336389835670833719&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=14336389835670833719&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=14336389835670833719&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=14336389835670833719&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=14336389835670833719&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=14336389835670833719&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=14336389835670833719&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=14336389835670833719&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJhYv6THuYMpQROTlUX5A_wRA",
+    "name": "Vanblur - Residencia de Estudiantes -",
+    "slug": "vanblur-residencia-de-estudiantes",
+    "category": "Hostel",
+    "is_vehicle_related": false,
+    "address": "Pje. Santos Vega 1064, X5000JEI Córdoba, Argentina",
+    "city": "Córdoba",
+    "neighborhood_or_area": null,
+    "phone": "0351 471-6410",
+    "opening_hours": {
+      "raw": null,
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.5,
+      "reviews_count": 51,
+      "source_url": "https://maps.google.com/?cid=1207316064419199289&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Residencia Universitaria digna de todas las recomendaciones positivas, un lugar pensado para estudiar lejos de casa",
+        "author": "Abel Bordoli",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/110133324425774103037/reviews"
+      },
+      {
+        "text": "La experiencia en el lugar fue excelente.\nDurante el tiempo que estuve, todo de diez.\nEl dueño bastante responsable y atento a las necesidades de cada uno.\nLa zona es bastante tranquila y es un lugar es bastante seguro.\nLa casa es amplia y muy cómoda.\nImpecable todo, sin dudas, una de las mejores residencias de Córdoba. Gracias!",
+        "author": "Lila Chávez",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/113275937619014732293/reviews"
+      },
+      {
+        "text": "Súper recomendable la residencia, mi hijo estuvo 1 año y todo fue excelente. Muy lindo grupo.  Es un lugar ideal, zona residencial, muy tranquila y segura. El dueño, Daniel, excepcional, súper atento a los chicos y sus necesidades, está en todos los detalles y hasta les festeja los cumpleaños!!! Vivimos, como familia , realmente una muy linda experiencia. Gracias Daniel por todo 😊",
+        "author": "Carolina Acquesta",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/111239966177481200578/reviews"
+      }
+    ],
+    "main_product_or_service": "turismo estudiantil",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJhYv6THuYMpQROTlUX5A_wRA/photos/AWCwydgxvYuCYNJsDOltwHWhVuUiesO4hBRNVZKs9d9E3hfOtbGt7OjOvA5aHL5qncNhPRHbtyQsYHXPVGSsuC3hI1jFnVIgp07CuZNXLAhfB8XKq6uNdmOA709Usf4ktsu8IRRCbAVWP1HvdlvU4yFZCS9dmzD8Yqfb3UeDQqsNmZTEsEvB--RQkEyQe8DcPs7nBhEjmFnnDEG1iU0dyxEBV4NyY2P38kbI8juFUFzvDxA0k1LbcwGHfJm9BZOOz4eIDpLEYO-tUpcYd-GZCbtOvyPSPc_SS7qJPGTZRQTfPKB7mCe969kOuqoaP0h4Au3RsEydoguN-93JX021OWBu_6d5H8qad_Yh1xkdeTroJHm1txXbhEpe6d3QpTdkoRlCtPIIoROCiqjl1fyVG2RyLNeI0tQb1l5mwufNd62z8axoV4uO/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=1207316064419199289&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJhYv6THuYMpQROTlUX5A_wRA/photos/AWCwydiexbEWXAKaZVlGjo0WwdY8DfswqFD0SkSB3wK4wQKXsqJPSwO0ZE2bjNXVlfFjE6EiFquLy5Pp_bUaCfUI__9NfjKnL6j3CGaa7ZjelDbub2I588K5j9B35eOrd26kJT3jR0Xa72tSuOJg8lcMYxF9sQhGwttQAfnp7lyagfnVmCkNifeTChqfzn8sY563szD1LOVTomSPb3QzX-2A9iPfQ2duEcO3l8UiigLEi4YN5Zf5Ujc1Z8PONBLJuu0s-cbSMRSxS_jFtOA5tHbUFE21h07nIIP36yqDupHDE8VMMDA6X0TGh8XgX402BLZ-bCCcmzylZQguguAC5J3DrevxRpEIeH_fCGV4fHaPhYb_2cmmu4lND5e8DMU4b1YFOtCEBi7ifRIp5Fv_iODbIlLckmS2pU0NpJTqXwxmCy13ig/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=1207316064419199289&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJhYv6THuYMpQROTlUX5A_wRA/photos/AWCwydirHg4TJOuAzU-dj_TXBxy5VJ4nV7TBh9MI6cWbP6OngS_aS3JzJvp7135ICWLWPC97p3kzIRclpYtFDhNw55WioWORzSDai9h3MPKzFHXcxwvtvJvMw6qOh59NewXXUS1x8V-OvsrGKJMBmmz0w2zb5dQdFYnvHpUv9hdayNwjkxSexG1OkqWIruNQpCcvbVi1Iuc6wsuJ0muLpJc61Rg8uNl3E35btXgF-9zlXr1LLP-BSIpAjpSoWhvTVxqMGnaa5-qbgDBiiIjTiQhYlEIS-PMUmPRAhcQ02QnuvGB_XP7q6BuK-nhiQY17QQH0Qe2XuXY2On7kCmnbZbfRV6-TXbYJ0TK1tIERiGsqcgdphu-G2aZbwbinH61Rn1ccamSHjzqy3r7_mxALuCfI1S-F7Y7YnufpPjVy07unLpJaEjS_/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=1207316064419199289&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=1207316064419199289&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 0.9,
+    "missing_data_reason": "horarios",
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=1207316064419199289&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-08-10T16:56:50.042Z",
+          "notes": "Resultado automatico para \"turismo estudiantil\" en Córdoba. Segmento: agencias de viajes y turismo."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=1207316064419199289&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=1207316064419199289&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=1207316064419199289&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=1207316064419199289&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=1207316064419199289&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=1207316064419199289&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=1207316064419199289&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=1207316064419199289&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=1207316064419199289&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=1207316064419199289&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJT3-ABgmZMpQRfvKeI6msEHI",
+    "name": "ALOHA Residencia - Home Sweet Home",
+    "slug": "aloha-residencia-home-sweet-home",
+    "category": "Lodging",
+    "is_vehicle_related": false,
+    "address": "Libertad 1454, X5000 Córdoba, Argentina",
+    "city": "Córdoba",
+    "neighborhood_or_area": null,
+    "phone": "0351 591-1185",
+    "opening_hours": {
+      "raw": "Monday: Open 24 hours | Tuesday: Open 24 hours | Wednesday: Open 24 hours | Thursday: Open 24 hours | Friday: Open 24 hours | Saturday: Open 24 hours | Sunday: Open 24 hours",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.9,
+      "reviews_count": 47,
+      "source_url": "https://maps.google.com/?cid=8219259162398225022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Exelente experiencia. Mi hija vivio todo el\nAño en la locación y se sintió súper segura. La atención del dueño es espectacular y se preocupa por sus huéspedes como si fueran de su familia. Totalmente recomendable sobre todo si no sos de Córdoba y te preocupa el entorno de la capital cordobesa",
+        "author": "Pablo Cerezuela",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/102853429649799761916/reviews"
+      },
+      {
+        "text": "Excelente! La residencia ofrece un ambiente seguro y acogedor, ideal para concentrarse en los estudios y relajarse. La seguridad es impecable, y la dedicación de Manuel se nota en cada detalle, desde la limpieza hasta el bienestar de las residentes. Altamente recomendable.",
+        "author": "Marcos Escobar",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/111430141280464735820/reviews"
+      },
+      {
+        "text": "Excelente lugar, atención y prestaciones. Ubicación perfecta . Mi hija estuvo en la residencia y no tenemos nada más que decir que es un lugar hermoso. Muy recomendable.",
+        "author": "Carlos Zoppi",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/111813910650256743630/reviews"
+      }
+    ],
+    "main_product_or_service": "turismo estudiantil",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJT3-ABgmZMpQRfvKeI6msEHI/photos/AWCwydjeSmZ6vHA-I9fZr7w9wF7p7PQNImqyzyf6CHFrB3UFIXE9e6iaYowMT4ViKjLRj6xIkpQM19Kz54XXMc-ncnZpOplae6m_gnBGhf-xfjgGjGmkiCSRpt9rV-tWZr8RvMeyM4NEUzhZIzVTMb5FIDT-PVgq0mNHTk-1XNvbQeHlUSOlPzwJsOytptLO0ifaEXennHEDplL0qC6xF26afVFQ52nWEve_CGAnWD3I9aZNXMXfMvpC0NDFbX43kdAdhpqLM3Yu5dYmWnx1766puPHo-NxJN9tzTcILHDjWdRE96qZIKn1hI-V-LMiVyjDmbH7Qd-3tFbTzhhyGyD3lSAvMmd1eOigh726_ZhqbmfHIyk6pxhWX7ogJYtBf5M959lEfcLTVDdDmAPBKNV6l0etXG831xwXf5GC8ikt3iDfyvw/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=8219259162398225022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJT3-ABgmZMpQRfvKeI6msEHI/photos/AWCwydiKGpmU8_UtBlft0ANgYV5TMODdCn7c157I3s6H1_1s-Wf1FaEaUGbJzNilYO7wOOPALhbc1xLUJm3WfPf9ZWa1cTSAb1eQLRWcSvxK2I64TTVXNscfqwSJeajfSoPcDJa79NLpNmTPStVW0Qv0wJ-izuuqDJGnGpj9g18epQl_SzzA7kajcKjFRucIGuDfsRpPzYCw_vFCKvjIPqmPHKvWfKQTXZld1KEcWfod_Bfv7AupVcd0NN5SLTF6p6ZwSdYVanhOkkqf2ZUduxwHbuGs7Y4Dtq3SOZiag9Rhc4QvP6IXJlUuuAIhAelk_RtJe6I_dUTT_I1MXnkFoL9T5mi03BWrc-UKijuZvOYTaT7PFxk1TiWuogYc4VJNofI6SLCW1oLT6tTBgCXyLZwF2xwbhL6TSy3YzmZh98NccmAZTPs/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=8219259162398225022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJT3-ABgmZMpQRfvKeI6msEHI/photos/AWCwydj5Q5b6niXA0zi7Emv7O2sKAafdaF15PbM2GsGouw7WjrS6R4Ef2AtJ4ZE3ctlSldsXhT33TwuqnvqUTbUK9qcsEGDLNT2TnbHRi0lJ5d_iYcBicW97IAczFSUk7Pvcd5Mg80fjVvvDrXawhylUPaqd_Wujeb5E2kPK92ZiEyQkrCGHgfhpx7sseDLXybpEC5ZGFNT3oO7yRBnufncsai6RufTiuGpoWijPC6_RJbB-dNgBS7t9SOTsPRjOShAVQcNtU_LWhFbade3_eslnZCmN_JeKVlUyPF9pTQ2fKpCesL5d_VUosPPqXqw9zGnbp5D9FFhYjVR3TqhU8A71kokPhHP6GPbxC_tzwJfqyYx8sIQz6Z5_OKfPyXSMgg7ps7OvIVkqTZmOVjdTOu6iKEpuBd8FDCpUMYVCxmdmhQWnLJl6/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=8219259162398225022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=8219259162398225022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=8219259162398225022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-08-10T16:56:50.042Z",
+          "notes": "Resultado automatico para \"turismo estudiantil\" en Córdoba. Segmento: agencias de viajes y turismo."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=8219259162398225022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=8219259162398225022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=8219259162398225022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=8219259162398225022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=8219259162398225022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=8219259162398225022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=8219259162398225022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=8219259162398225022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=8219259162398225022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=8219259162398225022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=8219259162398225022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJ_XlSEIKiMpQRUl1Sw53s3ss",
+    "name": "Jetbus Lugares & Turismo",
+    "slug": "jetbus-lugares-turismo",
+    "category": "Travel Agency",
+    "is_vehicle_related": false,
+    "address": "9 de Julio 333 Local 12 Galería Vía Nueva, Centro, X5000EMG Córdoba, Argentina",
+    "city": "Córdoba",
+    "neighborhood_or_area": null,
+    "phone": "0351 423-9999",
+    "opening_hours": {
+      "raw": "Monday: 10:00 AM – 6:00 PM | Tuesday: 10:00 AM – 6:00 PM | Wednesday: 10:00 AM – 6:00 PM | Thursday: 10:00 AM – 6:00 PM | Friday: 10:00 AM – 6:00 PM | Saturday: Closed | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.3,
+      "reviews_count": 21,
+      "source_url": "https://maps.google.com/?cid=14690439196860112210&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Qué lindo conocer gente que trabaja con compromiso y seriedad. Te resuelven todos los inconvenientes que pudiesen aparecer. Te sugieren y acompañan.\nMe sacó el sombrero con la guía Analia, la verdadera Número 1.",
+        "author": "Hernán Suárez",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/110234197076801759490/reviews"
+      },
+      {
+        "text": "Más de 14 años con el colegio elegimos viajar con la empresa! Todos los años superando las expectativas y buscando mayor servicio y calidad. Gracias Luis ! Y la coordinadora Analia es la mejor compañía,  resolviendo y acompañando a nosotros los profes y las necesidades de cada estudiante. Genia Ana! Gracias.",
+        "author": "Maria Belen Caprari",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/102121220047438419881/reviews"
+      },
+      {
+        "text": "Analía la mejor coordinadora, ayuda a los niños y adolescentes y les hace entender cada historia importante para la\nArgentina tambien los ama una banda y los proteja con su vida\nAtte: Paez Benjamín y Jano franco",
+        "author": "Jano Franco",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/104160978434091800156/reviews"
+      }
+    ],
+    "main_product_or_service": "turismo estudiantil",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ_XlSEIKiMpQRUl1Sw53s3ss/photos/AWCwydgvi9-PZhOW_7KSZA_6YIZxy_lf9GJC1cSdSXHHeIeTv0sn_1WIOUIAbF8lhQpIuw6bUmShnurgm9E59bFOG62sDrtjMekYhsSx2j-11Dern17d7yQ_EYvkgA7yMGlkzg61j4HPaw2OvFT6wGS8ZQuK4TRV_AwDOJUdhnRtKvImQdi6S7bJBVZnQp0TTWnAkcTCKXV3DFjptgwH-bTK2BExYFhDqExHuIwt_LSziqIQb03KYojq9mhAY-fwQXKls7vpOi9O-si3Vf4lgVvCFrXt_FioedQIJrJTU0mz51fjJ6ufuQdxAovDTrQe4UnkxR0uwmDbbvj13n35v5NCmqoe1xAc49wLcMYARITXGDO2H87HsPlIU-SejAQW764lJD7TxDCVqyI_NQfFz9PlFfbV5yCj8GIVBRM5WaSLhKdZRw/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=14690439196860112210&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ_XlSEIKiMpQRUl1Sw53s3ss/photos/AWCwydiOulktP7tKGzqsKTUtK6yBpI0JDYO9wQRw-c2104_G-aZIquEKHMQpczAyvYbPaKnoFGgS8gzOxV2XMdZNtBOUkKoOmIybz40v8cOdQ2v0dsrnmOlhbvjN7wJvtQ6DuQNowpgw5ErmmjHNa3zOaf2A6fdCFyb0ksCZs-DtOvd4XBpbQ562qZr7ZrErxJWsE8uRSfjrZCr2491ARHwDDwA86VJnNT90VjMhuTotIpczLV1F4niVDJBfk08WEKzz2gD_hr7z8tPFHwqfAekoaRvXAAcYz6o8Oc5ylBiOIBR91wDoUFBsWvWMrOA3VzHqU_LRkQNAI0J8HbRHjtCrT15zo5imOMhYaHW9a4h0xDC6NXwr3F45hnY7f7yVSfvzdJHtyu-yi08Za90FTkHMVEMUafKpPbhUPazEJps9Py9MrA/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=14690439196860112210&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ_XlSEIKiMpQRUl1Sw53s3ss/photos/AWCwydht-n769J1GA8wM8QA6cNfXPvYntr7LNbo58QXNHbACGRtsUxj1cQYo9AhbTSeez8Ro6xHIirYjbl_K0R3iyOErl7uizIpuZgn7A3M45NlauVQ5jVgQwVLv_SNXPi6itXPzcOs0f58qMzJ6QoaQ8yzDkf2vLdfGOWX8wnuZnX_SV8Delx_WQqyvQ6CDc0aEPtwTrxDsdT4zy0nnarCcKeei2IaVmz8g7F1LtwpDkaaHlwtM8Q-BMh5HB6oViaauMCw9friO4z3z6Ru-E9FP7lB2dJ03CA86wFZOS4Vadh31g4mOdgZ3jVoYugnZowwkTitjluZvMDyIR4z1fK4JpY0L2Dys1SZOyex3nesGDzBtQ4kn3Opktz1b8I_NeV1FQrviYZlcHRhYOlXXBp5JkJmRJRd0xvLnrNexZl0CGAC-L0-f/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=14690439196860112210&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=14690439196860112210&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=14690439196860112210&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-08-10T16:56:50.042Z",
+          "notes": "Resultado automatico para \"turismo estudiantil\" en Córdoba. Segmento: agencias de viajes y turismo."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=14690439196860112210&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=14690439196860112210&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=14690439196860112210&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=14690439196860112210&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=14690439196860112210&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=14690439196860112210&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=14690439196860112210&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=14690439196860112210&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=14690439196860112210&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=14690439196860112210&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=14690439196860112210&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  }
+]

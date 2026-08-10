@@ -2,6 +2,153 @@
   "version": 1,
   "entries": [
     {
+      "business_id": "google-ChIJuwvmfcPDG5QRcmfSkuGTe_o",
+      "place_id": "ChIJuwvmfcPDG5QRcmfSkuGTe_o",
+      "name": "Almendra viajes salta",
+      "brand_name": "Almendra Viajes Salta",
+      "slug": "almendra-viajes-salta",
+      "city": "Salta",
+      "address": "Salta capital Pje santa victoria 715, altura rioja 2200, A4400 Salta, Argentina",
+      "category": "Travel Agency",
+      "phone": "0387 591-1711",
+      "run": "agencias-viajes-ar",
+      "status": "generated",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": "https://www.instagram.com/almendraviajessalta/",
+        "whatsapp": null,
+        "phone": "tel:03875911711",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/agencias-viajes-ar/almendra-viajes-salta",
+        "public_path": "/agencias-viajes-ar/almendra-viajes-salta/",
+        "public_url": "https://mayofy.vercel.app/agencias-viajes-ar/almendra-viajes-salta/",
+        "frontend_source": "data/frontends/agencias-viajes-ar/almendra-viajes-salta"
+      },
+      "first_generated_at": "2026-08-10T18:22:09.469Z",
+      "last_generated_at": "2026-08-10T21:05:16.980Z"
+    },
+    {
+      "business_id": "google-ChIJeTtvOGxcIpQR-Q43kTjmvFU",
+      "place_id": "ChIJeTtvOGxcIpQR-Q43kTjmvFU",
+      "name": "Junaza Viajes y Turismo",
+      "brand_name": "Junaza Viajes",
+      "slug": "junaza-viajes-y-turismo",
+      "city": "San Miguel de Tucumán",
+      "address": "Gral. José de San Martín 667 Piso 3 Of F, T4000 San Miguel de Tucumán, Tucumán, Argentina",
+      "category": "Travel Agency",
+      "phone": "0381 430-7696",
+      "run": "agencias-viajes-ar",
+      "status": "generated",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": "https://www.instagram.com/junazaviajes/",
+        "whatsapp": null,
+        "phone": "tel:03814307696",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/agencias-viajes-ar/junaza-viajes-y-turismo",
+        "public_path": "/agencias-viajes-ar/junaza-viajes-y-turismo/",
+        "public_url": "https://mayofy.vercel.app/agencias-viajes-ar/junaza-viajes-y-turismo/",
+        "frontend_source": "data/frontends/agencias-viajes-ar/junaza-viajes-y-turismo"
+      },
+      "first_generated_at": "2026-08-10T18:22:09.469Z",
+      "last_generated_at": "2026-08-10T21:05:16.980Z"
+    },
+    {
+      "business_id": "google-ChIJb07qArart5URWu9D5FKzUhY",
+      "place_id": "ChIJb07qArart5URWu9D5FKzUhY",
+      "name": "Sauco Viajes",
+      "slug": "sauco-viajes",
+      "city": "Rosario",
+      "address": "Av. Carlos Pellegrini 338, S2000 Rosario, Santa Fe, Argentina",
+      "category": "Travel Agency",
+      "phone": "0341 598-2505",
+      "run": "agencias-viajes-ar",
+      "status": "generated",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": "https://www.instagram.com/saucoviajes/",
+        "whatsapp": null,
+        "phone": "tel:03415982505",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/agencias-viajes-ar/sauco-viajes",
+        "public_path": "/agencias-viajes-ar/sauco-viajes/",
+        "public_url": "https://mayofy.vercel.app/agencias-viajes-ar/sauco-viajes/",
+        "frontend_source": "data/frontends/agencias-viajes-ar/sauco-viajes"
+      },
+      "first_generated_at": "2026-08-10T18:22:09.469Z",
+      "last_generated_at": "2026-08-10T21:05:16.980Z"
+    },
+    {
+      "business_id": "google-ChIJdf9B2TvmopURpoO-qAvjSj0",
+      "place_id": "ChIJdf9B2TvmopURpoO-qAvjSj0",
+      "name": "Tienda de Viajes",
+      "slug": "tienda-de-viajes",
+      "city": "La Plata",
+      "address": "C. 11 769 e 47 y 48, B1900 La Plata, Provincia de Buenos Aires, Argentina",
+      "category": "Travel Agency",
+      "phone": "0221 424-6300",
+      "run": "agencias-viajes-ar",
+      "status": "generated",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=4416592023805395878&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": "https://www.instagram.com/tiendadeviajes/",
+        "whatsapp": null,
+        "phone": "tel:02214246300",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/agencias-viajes-ar/tienda-de-viajes",
+        "public_path": "/agencias-viajes-ar/tienda-de-viajes/",
+        "public_url": "https://mayofy.vercel.app/agencias-viajes-ar/tienda-de-viajes/",
+        "frontend_source": "data/frontends/agencias-viajes-ar/tienda-de-viajes"
+      },
+      "first_generated_at": "2026-08-10T18:22:09.469Z",
+      "last_generated_at": "2026-08-10T21:05:16.980Z"
+    },
+    {
+      "business_id": "google-ChIJh7CO1G8uo5URXIah4mqs93o",
+      "place_id": "ChIJh7CO1G8uo5URXIah4mqs93o",
+      "name": "Viq Viajes",
+      "slug": "viq-viajes",
+      "city": "Quilmes",
+      "address": "Av. 12 de Octubre, B1879 Gran Buenos Aires, Provincia de Buenos Aires, Argentina",
+      "category": "Travel Agency",
+      "phone": "011 4254-0508",
+      "run": "agencias-viajes-ar",
+      "status": "generated",
+      "business_links": {
+        "google_maps": "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "instagram": "https://www.instagram.com/viqviajesoficial/",
+        "whatsapp": null,
+        "phone": "tel:01142540508",
+        "facebook": null,
+        "email": null,
+        "otros": []
+      },
+      "landing": {
+        "local_path": "generated/agencias-viajes-ar/viq-viajes",
+        "public_path": "/agencias-viajes-ar/viq-viajes/",
+        "public_url": "https://mayofy.vercel.app/agencias-viajes-ar/viq-viajes/",
+        "frontend_source": "data/frontends/agencias-viajes-ar/viq-viajes"
+      },
+      "first_generated_at": "2026-08-10T18:22:09.469Z",
+      "last_generated_at": "2026-08-10T21:05:16.980Z"
+    },
+    {
       "business_id": "google-ChIJ03sUl4uhvJURSTqoLihfDxg",
       "place_id": "ChIJ03sUl4uhvJURSTqoLihfDxg",
       "name": "CALDERAS YA !!! SERVICE 24 Hs.",

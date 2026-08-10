@@ -1,0 +1,1028 @@
+[
+  {
+    "id": "google-ChIJb07qArart5URWu9D5FKzUhY",
+    "name": "Sauco Viajes",
+    "slug": "sauco-viajes",
+    "category": "Travel Agency",
+    "is_vehicle_related": false,
+    "address": "Av. Carlos Pellegrini 338, S2000 Rosario, Santa Fe, Argentina",
+    "city": "Rosario",
+    "neighborhood_or_area": null,
+    "phone": "0341 598-2505",
+    "opening_hours": {
+      "raw": "Monday: 9:30 AM – 5:30 PM | Tuesday: 9:30 AM – 5:30 PM | Wednesday: 9:30 AM – 5:30 PM | Thursday: 9:30 AM – 5:30 PM | Friday: 9:30 AM – 5:30 PM | Saturday: Closed | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 5,
+      "reviews_count": 65,
+      "source_url": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Este maravilloso viaje a New York fue mi tercera visita a la ciudad y mi primer  experiencia como integrante de un numeroso grupo.\nPude disfrutarlo de una forma diferente a la que acostumbraba, incorporando conocimientos y secretos en los relatos de nuestro guia Octavio que tuvo una inmensa paciencia. Gracias!!\nQuiero destacar la excelente organizacion, dedicacion ,alegria y  calidez con la que nos acompañaron Nati, Joa, Leo y Sofi, siempre atentas en todos los detalles.\nRecomiendo a SAUCO en la eleccion de agencia de viajes.\nViajaria nuevamente con ellas!!\nFelicitaciones lo hacen muy bien!!",
+        "author": "SILVIA BRACCHI",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/117204648744492362145/reviews"
+      },
+      {
+        "text": "No se puede explicar con palabras lo vivido en el\nViaje a Nueva York 2026 organizado por Sauco , cumplieron el contrato punto por punto , esto en lo que se refiere a lo legal.\nEn lo humano Nati, Joa , Leo y Sofi , las coordinadoras , estuvieron 24 hs pendientes de las necesidades del grupo siempre atentas , divertidas, dispuestas a hacer pasar un momento INOLVIDABLE a todos.\nQueria tambien mencionar a Octavio el guia , que\nCon su conocimiento profundo de NY nos regalo\nlas mejores historias.\nGracias a todas las divinas ,Nati, Joa, Leo y Sofi\npor lo que me hicieron vivir.\nEn fin!!!!, no duden en sumarse a los viajes de esta empresa.\n\nVivi.",
+        "author": "Viviana Massa",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/103740813365947530562/reviews"
+      },
+      {
+        "text": "Viajar a New York fue maravilloso, disfrutamos desde la salida de Rosario hasta el regreso. Fue una fiesta compartir con un grupo con tanta buena onda y mi agradecimiento hacia Nati,  Joa, Sofi y Leo que nos acompañaron, guiaron y cuidaron todo el tiempo.\nEn realidad no tengo un solo punto negativo,  fue todo conocimiento,  y diversión.  Muchas gracias SAUCO VIAJES",
+        "author": "Susana Ines Pasqualini",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/105518950480167778103/reviews"
+      }
+    ],
+    "main_product_or_service": "viajes grupales acompañados",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJb07qArart5URWu9D5FKzUhY/photos/AWCwydhGnxLQPL2FEhqMMWWZ9dZ2pQPhMAdTwk33gI0VtkCaGXdhL4sjQargB2Hrgi2jzqcxEb4UvxOdFEPs_5GveL-j_FQCBGz0rz6bHe4LfNwMGi4eHr-g7QeBe00zpcFZWGbjQjriXa9MJzB4eZ5RCf14jspvHKvJeoRah2m6xk-K0K5nz3Zh__qJxXKk7GKX6jQzJhvQTAyNn-QmWV2QQ0RIkOkWqHEKM3SDJuAP9g6sR-u8DGGDboEiZeXNhaWNwN_LjP-eq3leIdHp5gaAskNNmqjNbdXJVxV6yX-vrDgOEnOvnVNj5T_N-L-NceuSYyDXGOfrriPkqN8xk4Fh0ddxaXKLMarqyixc8bMFbn6vcjxzS41Ipio1illl6nUYJLLKXKWy8BZ8txzxwxeLzTLwf2kakEDIQjunhXWpCE36V5Mb/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by automatic promotion configuration."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJb07qArart5URWu9D5FKzUhY/photos/AWCwydgoASzS68umwlA90r6l5YZiDxaT50HtiLlswNRvGvsCENWBFCUax0492PS3qbzkLml_w6rm-LU664IHvoQ0SwT4v17ifSPnd_ycB7hXY4-o3-X7tvIDujpijShYWfEaxxDUx9bN8pi6YlK70h9kc47gF1UTRW2mVjOtkVUSqkQEZLMSVMr422yixXd3oeWBz2KiFaS7F7JSocXS2j1CAHJCk1cTRDaCSwlzByf4QD0bVOrvMYhT_bE0FNaMntCK92i8C48tkGbt8bcTdvYtYieUcJBsLHK54TfAq_7brfwYAJcsGnBWy4gebPKoVpi9U3lg9y9TzdNXTDjya1ZzXQ4hAkiNNtbqf5_k9QuPJaR8iLSNQAqNc5UiwiK-quvwLqP_0tBLaQKO1aLrDGQ-Zvo8KNOyK_QAl5lPKt-U-wvQPzTX/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by automatic promotion configuration."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJb07qArart5URWu9D5FKzUhY/photos/AWCwydiedXP-JbKS-EZ7Tw22Wh9cJRrvU4_tsHr37jPrXmJsJSjcbUybGzo_gv8l9w6qMx0_7OattxtMlCFgDMT2ZAr5xEfEhZ1-kdXUCUuBkV7Joj-nZCON94eUFcpTAJa4W2f-XTqnm0JqnccAEwhIGG9D4_octEu5ujkCekrlCoVFA77ogSEfVRDyO_pgC_e3fDZCpRFfu2EQM__sKjxR79IblBuK-F3rPgrIZ8adBE__rencnSjfmUMmFXF8dIOAvXc80y2NUFFfyoPsF05XDYDGQCJE5omtqTm2M5jHMzGWlCRWLobSY9iLZiV6cLeqATBDtR0X6c3zCdCs6OTJ7Y5DBpn_ySGDpMpo6LZdqw79xX9LDmBfyVWk69QlLzNkGyG2OgalA4CuiJIxTZ1_LXuGVUL7UbUpy8-SwmbQgHAyPAHT/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by automatic promotion configuration."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "https://www.instagram.com/saucoviajes/",
+        "https://www.facebook.com/saucoviajes/",
+        "https://www.cuitonline.com/detalle/30717442926/sauco-viajes-s.-r.-l.html",
+        "https://mauroturismo.com.ar/agencia-turismo/sauco-viajes/"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID.",
+        "Busqueda web del nombre comercial + ciudad el 2026-08-10: no aparece dominio propio, solo Instagram (@saucoviajes), Facebook, fichas de directorios y registro societario.",
+        "Los canales publicos informan correo en dominio gratuito (gmail), señal de ausencia de dominio propio.",
+        "Directorio sectorial (mauroturismo) y camara regional (ARAV) listan la agencia sin URL de sitio propio."
+      ],
+      "notes": "Verificado el 2026-08-10: Google Places no informa websiteUri y la busqueda secundaria en Instagram, Facebook, directorios sectoriales y registro societario no encuentra dominio propio."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": true,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-08-10T16:57:18.985Z",
+          "notes": "Resultado automatico para \"agencia de viajes\" en Rosario. Segmento: agencias de viajes y turismo."
+        },
+        {
+          "label": "Verificacion secundaria de ausencia de sitio propio",
+          "url": "https://www.instagram.com/saucoviajes/",
+          "captured_at": "2026-08-10T00:00:00.000Z",
+          "notes": "Verificado el 2026-08-10: Google Places no informa websiteUri y la busqueda secundaria en Instagram, Facebook, directorios sectoriales y registro societario no encuentra dominio propio."
+        },
+        {
+          "label": "Instagram publico de la agencia",
+          "url": "https://www.instagram.com/saucoviajes/",
+          "captured_at": "2026-08-10T00:00:00.000Z",
+          "notes": "Perfil publico @saucoviajes verificado por nombre comercial y ciudad. Canal de contacto adicional al telefono publicado."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://www.instagram.com/saucoviajes/",
+          "notes": "Reseñas verificadas describen viajes grupales acompañados por coordinadoras y guia (Nueva York 2026); el perfil publico de Instagram y el de Facebook se presentan como agencia de viajes grupales de Rosario."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://www.instagram.com/saucoviajes/",
+          "notes": "Fuente revisada en la verificacion secundaria de ausencia de sitio propio."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://www.facebook.com/saucoviajes/",
+          "notes": "Fuente revisada en la verificacion secundaria de ausencia de sitio propio."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://www.cuitonline.com/detalle/30717442926/sauco-viajes-s.-r.-l.html",
+          "notes": "Fuente revisada en la verificacion secundaria de ausencia de sitio propio."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://mauroturismo.com.ar/agencia-turismo/sauco-viajes/",
+          "notes": "Fuente revisada en la verificacion secundaria de ausencia de sitio propio."
+        }
+      ]
+    },
+    "brand": {
+      "palette": {
+        "source": "photo",
+        "captured_from": "https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "dominant": "#101820",
+        "accent": "#d7a94b",
+        "supporting": [
+          "#f4f1ea",
+          "#52616f"
+        ]
+      },
+      "typography": {
+        "primary": "Archivo Narrow",
+        "secondary": "Merriweather Sans"
+      }
+    },
+    "site_plan": {
+      "archetype": "automotive-premium-dark",
+      "position": 1,
+      "rationale": "Automatic rotation to keep no more than two sites per archetype and avoid consecutive repeats."
+    }
+  },
+  {
+    "id": "google-ChIJuwvmfcPDG5QRcmfSkuGTe_o",
+    "name": "Almendra viajes salta",
+    "brand_name": "Almendra Viajes Salta",
+    "slug": "almendra-viajes-salta",
+    "category": "Travel Agency",
+    "is_vehicle_related": false,
+    "address": "Salta capital Pje santa victoria 715, altura rioja 2200, A4400 Salta, Argentina",
+    "city": "Salta",
+    "neighborhood_or_area": null,
+    "phone": "0387 591-1711",
+    "opening_hours": {
+      "raw": "Monday: 11:00 AM – 10:00 PM | Tuesday: 11:00 AM – 10:00 PM | Wednesday: 11:00 AM – 10:00 PM | Thursday: 11:00 AM – 10:00 PM | Friday: 11:00 AM – 10:00 PM | Saturday: 11:00 AM – 10:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.8,
+      "reviews_count": 82,
+      "source_url": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Contactamos por facebook con todo el temor que eso implica y nos encontramos con guillermo  que nos apadrino en cada recorrido de una manera digna de destacar y elogiar. No solo fue nuestro contacto diario ante una duda  en nuestros viajes a Cafayate y sus bodegas,, cachi,salinas grandes , Purmamarca ,Humahuaca,Tilcara,Maimara , Dique Cabra corral, tren a las nubes y más,sino el consejero de recorrer los más lindos lugares de salta para comer pasear y disfrutar al 100% toda las vacaciones. Fueron 8 dias atr y unicos . Los choferes unos guias  super preparados para brindar una info inigualable de cada lugar recorrido cada ladera,cada quebrada ,valle y yunga. Fui con mi pareja y un amigo y nos sentimos muy bien cuidados y acompañados y destaco aparte la predisposicion que me dio para asegurar el alquiler del departamento donde se ofrecio a ir a ver si no era una estafa. GRACIAS POR TANTA VOCACION . GRACIAS GRACIAS.",
+        "author": "Fernando Pazos",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/111913317138964410579/reviews"
+      },
+      {
+        "text": "Viajamos a Iruya con Hugo. Muy linda la excursión, unos paisajes increíbles. Hugo muy bien, nos explicó todo, nos tuvo paciencia y fue super claro. Un viaje super recomendable.\nGuillermo siempre muy atento y dispuesto a resolvernos todo",
+        "author": "sonia foglia",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/101766017294852616087/reviews"
+      },
+      {
+        "text": "Hermosa experiencia con los chicos hicimos dos excursiones, en las cuales nos llevaron coordinadores distintos de la empresa, todos súper amables y muy bien predispuestos.\nLos encontré por una publicación en instagram, consulte, me sacaron todas las dudas y enviaron info de la página para corroborar que eran ellos. El pago lo hice por transferencia varios días antes de viajar. Cuando llega la fecha, un día antes se comunican y coordinan horarios.\nCompletamente recomendables",
+        "author": "Geraldine Larroude",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/118302242274773880222/reviews"
+      }
+    ],
+    "main_product_or_service": "excursiones por Salta y el norte argentino",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJuwvmfcPDG5QRcmfSkuGTe_o/photos/AWCwydjJJhufqOMsfPi4K_yEdF-ORLA7N9w9NMRXl3WQ2XGmqYHjncv7EYmTjF8Bmukfh5KDh5I7drzJHNAAGi2erp3SQrFWgwbmlhhC7We5e30y4y_XLIaevdnyOOzLabe_xvflFB7J8bNTO9cTped4BCU_v5z4R9a8TwtM6EGzOPcrZla_0F8wnr968arnosmh-teooc1JcznxW-OE3u2ubw7zzUmQNvk8JhrX0EUeWnKWIyMz9b2_PV49XsCLHvD49DHVjsfs871d3B4GmY0Qj5xc0c6WERLaX9ijz92GhXBQk4bZ-dq0O0v8FbuNTidDhXpJfWUIsG4pdkXCJKnM7J6iGyUW_jXh9d8w2TML7l8ws0wW312rdGfIc0Dv9MWMcBD0OHC_WXjb7dXo2XrPAucESlCqWWOrEkkwC9XJDZXYm0XudFBBflNZ2lY9DA/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by automatic promotion configuration."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJuwvmfcPDG5QRcmfSkuGTe_o/photos/AWCwydjukDn8nJy7mxm564DSXaaqTqO685JhcxE2sBYeMtitUmv-dMhDH6o9P0toVOm8F0PLkFvMDUmGy6SeC6a4rKf4cfOlxoJKVSHHr7l8hS67rgqTv0zSfXjncKAUA0AySZn5sroU2hO14Gz495V03Qd5NmFNuQVYFzIpOX8w7yd3cICugZA_2l_QHNwWxZEDbvopUjriO8tbDkGSP4iDVJe1ma9bdtMtFpMMrbiTKfAMohPOyDZoWeOXnoznbU7Dpz6D8U_wGq_5Um-OwxhUk87qBWVJt7vOSqlc5A3OdAaK7HtjkuTK2ueXQ3boUtpDOe-Y5cLjWQ1wjzMHMB0CE_cIDdG1bb_JOy6uMZPXX9m43G8d3JHsmB8bWh7hvro3CFGmzxKRrug5bJxQF0i5SvacUWCyfEhM46_wJspTeWuw6mwqdAnJYMqF8wlpHesG/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by automatic promotion configuration."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJuwvmfcPDG5QRcmfSkuGTe_o/photos/AWCwydgLWMqOni2ZxEA721rfGPrgzT6gjHJHJ3Pb4SYoLQp3zv1a8p_qZcIImo68vVcEV3IqtJRUOGd763_-C19D1hhJHSk0nRdYmT_x2EiAgZb38YCxy2dSbnpQktVN051ssO6_3DvCde6kBatbsnpzZIy83AFsSBoG-DpzmtQR3S5cduzl4TaYgZnKC1Z1YkYYEIkMoIynQxDwdQ2fSzDIfHIVG0E6thshw_ZfLsSOFG2cILVSrmDVjJffVKO6CxGp-o_yjWrYVpDcv2TRWenhsEQ1Ya_NLznps5Q0-Bhcey3-0Lxbc3RzB09g8fiXUK5VvlyQqBS7pqJqDqWD3GJVHFS7I91JNK2M20ASSkFNAOLj3yi04qUE9l0MP-HFCjhFRIz9UJcYHWD54ZHoMsRg3U0qoCFqbZfD7M5i3JP8OjHowZ7uwKFOGRMMBW5_PA/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by automatic promotion configuration."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "https://www.instagram.com/almendraviajessalta/",
+        "https://mauroturismo.com/agencia-turismo/almendra-viajes-salta/",
+        "https://almendraviajes.tur.ar/inicio/"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID.",
+        "Busqueda web del nombre comercial + ciudad el 2026-08-10: no aparece dominio propio; los canales publicos son Instagram (@almendraviajessalta) y Facebook.",
+        "El dominio almendraviajes.tur.ar pertenece a otra empresa homonima de Rosario (Lavalle 593, Santa Fe), no a esta agencia de Salta: se descarta como sitio propio.",
+        "Dos reseñas verificadas describen haber contactado a la agencia por Facebook e Instagram por falta de otro canal propio."
+      ],
+      "notes": "Verificado el 2026-08-10: Google Places no informa websiteUri; la busqueda secundaria solo encuentra redes sociales y directorios, y el dominio homonimo almendraviajes.tur.ar es de otra empresa de Rosario."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": true,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-08-10T16:59:44.984Z",
+          "notes": "Resultado automatico para \"agencia de viajes\" en Salta. Segmento: agencias de viajes y turismo."
+        },
+        {
+          "label": "Verificacion secundaria de ausencia de sitio propio",
+          "url": "https://www.instagram.com/almendraviajessalta/",
+          "captured_at": "2026-08-10T00:00:00.000Z",
+          "notes": "Verificado el 2026-08-10: Google Places no informa websiteUri; la busqueda secundaria solo encuentra redes sociales y directorios, y el dominio homonimo almendraviajes.tur.ar es de otra empresa de Rosario."
+        },
+        {
+          "label": "Instagram publico de la agencia",
+          "url": "https://www.instagram.com/almendraviajessalta/",
+          "captured_at": "2026-08-10T00:00:00.000Z",
+          "notes": "Perfil publico @almendraviajessalta verificado por nombre comercial y ciudad. Publica el mismo numero que Google Places como contacto de WhatsApp: https://wa.me/5493875911711"
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://www.instagram.com/almendraviajessalta/",
+          "notes": "Reseñas verificadas nombran excursiones a Cafayate, Cachi, Salinas Grandes, Purmamarca, Humahuaca, Tilcara, Iruya, Dique Cabra Corral y Tren a las Nubes; el perfil publico de Instagram publica esas mismas excursiones."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://www.instagram.com/almendraviajessalta/",
+          "notes": "Fuente revisada en la verificacion secundaria de ausencia de sitio propio."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://mauroturismo.com/agencia-turismo/almendra-viajes-salta/",
+          "notes": "Fuente revisada en la verificacion secundaria de ausencia de sitio propio."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://almendraviajes.tur.ar/inicio/",
+          "notes": "Fuente revisada en la verificacion secundaria de ausencia de sitio propio."
+        },
+        {
+          "field": "name",
+          "source_url": "https://www.instagram.com/almendraviajessalta/",
+          "notes": "El perfil publico de Instagram usa el nombre comercial ALMENDRA VIAJES SALTA; se corrige solo la capitalizacion del displayName de Google Places."
+        }
+      ]
+    },
+    "brand": {
+      "palette": {
+        "source": "photo",
+        "captured_from": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "dominant": "#f7fbfa",
+        "accent": "#24746b",
+        "supporting": [
+          "#163b40",
+          "#d9ebe7"
+        ]
+      },
+      "typography": {
+        "primary": "Nunito Sans",
+        "secondary": "Literata"
+      }
+    },
+    "site_plan": {
+      "archetype": "local-clean-service",
+      "position": 2,
+      "rationale": "Automatic rotation to keep no more than two sites per archetype and avoid consecutive repeats."
+    }
+  },
+  {
+    "id": "google-ChIJdf9B2TvmopURpoO-qAvjSj0",
+    "name": "Tienda de Viajes",
+    "slug": "tienda-de-viajes",
+    "category": "Travel Agency",
+    "is_vehicle_related": false,
+    "address": "C. 11 769 e 47 y 48, B1900 La Plata, Provincia de Buenos Aires, Argentina",
+    "city": "La Plata",
+    "neighborhood_or_area": null,
+    "phone": "0221 424-6300",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 4:00 PM | Tuesday: 9:00 AM – 4:00 PM | Wednesday: 9:00 AM – 4:00 PM | Thursday: 9:00 AM – 4:00 PM | Friday: 9:00 AM – 4:00 PM | Saturday: Closed | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.6,
+      "reviews_count": 60,
+      "source_url": "https://maps.google.com/?cid=4416592023805395878&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "10 puntos todo. Programé un viaje con la familia a Bariloche, salió todo muy bien y la atención de Josefina fué excelente. En la medida que pueda, volveré a organizar un viaje con la empresa nuevamente.",
+        "author": "Alejandro Toloy",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/117303969072127078400/reviews"
+      },
+      {
+        "text": "Fuimos al Calafate y Ushuaia.  Muy cordiales en la atención.  Todo salió de acuerdo a lo esperado, incluso hubo un error de Aerolíneas en cuanto al equipaje en bodega, les consulté en horario fuera de atención y me mandaron respuesta del operador que todo estaba correcto.  Es importante saber que tenés el respaldo de una agencia que se ocupa ante cualquier inconveniente... gracias y volveremos a confiar en Uds.",
+        "author": "Jorge Minetto",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/111823196861394808624/reviews"
+      },
+      {
+        "text": "Excelente todo!!!\nLa atención,  la organización de los viajes, los valores.\nViajamos varias veces con la agencia y no tuvimos  ningún problema .\nLo que te venden, es lo que es. Muy recomendable\nSiempre agradecida!",
+        "author": "Constanza Piscopo",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/109777088378711796083/reviews"
+      }
+    ],
+    "main_product_or_service": "viajes a medida a destinos de Argentina y el exterior",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJdf9B2TvmopURpoO-qAvjSj0/photos/AWCwydio6S71VvuzE9CJtZ6Rg963K43BZ6JW1xru9SqESeHR6NQ3PXRGJ_BXLcLlrxILOd4hf3yvM23Ly9vBHxoV73o6cruNF7H0AYp7RwkDlc8RllYyog8Ohn6EtIA-ulReUDBIlUgDBnX7YqmbcNAHpwL-ye9L5oi1lQBvN4UrARaiXzwLa6IjlxUlniWX3o25NnbbIw98t8DocJzZDdAkRx-JunNiMyEaw1llTbulooL93mtCvcAfQJVriRYUyODX6hyOrA0Jehw4odFs--4TTT3TCYOY9ckmbi_lMlz0QH2nS7PDcST8oryAqfF7t1O_C0LDZUbpAVY7cVKQGH3aJ-6rzKMHRqgVxsU_P7Ev0v4Nfp6FdCdHlE0qw5K-aI6NZWV4Ma66so4APIv1L80r8BVEUdPuMgh2436omvR3QFXDiHtTo3xCjTKggDaDHf33/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=4416592023805395878&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by automatic promotion configuration."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJdf9B2TvmopURpoO-qAvjSj0/photos/AWCwydjbxan1dOTf8VtLW4AaMo5PBCmEAdVYi2m1bxfT0Hkkf2pOFbfd2DL-bsrd4TpxJfkOFUG2shxOkoTbEtMalJND5G4TxLfWgwHd5OYx-1Gn1CeYfGeb3WIzw6GP7fZBqmwu1L56-AJATpN76zfeEBMVJqg_1ihuSL5ue7X80TYK68j8NXI1Jo7hcT37CrczlqBvXKbuR5to7-uwRGJSNakHE5W0u14uVNHDO8VzUcLjOmMr69EWoYw6NjRO_3gYKIQNdrcunY54Cywt-ZwVl6rsJcDhLehUFILEnHRfWVwFloCO8pL2oh0h7hnWrQrs-0BsIMdcQEbHJbni2g5V1izfpwnSuFWUPUrDjuJlHPRdbSN51Nvy4qrsvncwkT89am097pICB1ZOke947CWdSztBowklQjYPDU-ssYQrpZPIPIVfzNSL0EmxkheOgzI4/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=4416592023805395878&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by automatic promotion configuration."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJdf9B2TvmopURpoO-qAvjSj0/photos/AWCwydgSbYd_oNOmDKWJS8UViolzc6wmCP5hpN_wFqUfbKkp5BoEPLMpqrZ6NhUkzCOsuc711TmXVbhZ3TJGudA5yLSVUtOlrYYhh-3soFhd2g-xyt28dfvLFuTLxvQkSpqZMeQd-WhOIhXJtXvF1kLxbztuVYUpcNbmIZkPNPrVVxNTED6HxKd4AvHPLP-BwPCLJ-igzfx7HhxHKyNViYkJhf9zqsp_5szZnFuyev6x1G9VJxdbrji-lvazoDP4CAVPsSJcI4Y1sxT_reOdO44L3OrRddfGS_c11ApYN01X3KaJaW464nuzVutajt5SY9cyXM41jK4ICaNugsqlnRYd-2mVfZEHvE6yK-8L7VdqadTtfmRUfZ8WIPsKZq8VXzisOwt9QTez0UH0RicC2l4UVCbktjPh3g5gjRum4j_7v78JOmEQHjtfapy8a2DQHz6V/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=4416592023805395878&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by automatic promotion configuration."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=4416592023805395878&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "https://www.instagram.com/tiendadeviajes/",
+        "https://www.facebook.com/tiendadeviajes/",
+        "https://mauroturismo.com/agencia-turismo/tienda-de-viajes/",
+        "https://comercios.indicelaplata.com.ar/agencias_de_viajes_y_turismo.php"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID.",
+        "Busqueda web del nombre comercial + ciudad el 2026-08-10: no aparece dominio propio, solo Instagram (@tiendadeviajes), Facebook y fichas de directorios platenses.",
+        "Directorio sectorial (mauroturismo) publica telefono y WhatsApp de la agencia sin URL de sitio propio.",
+        "Guia comercial de agencias de viaje de La Plata lista la agencia sin sitio propio."
+      ],
+      "notes": "Verificado el 2026-08-10: Google Places no informa websiteUri y la busqueda secundaria en Instagram, Facebook, directorio sectorial y guias platenses no encuentra dominio propio."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": true,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=4416592023805395878&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-08-10T16:59:10.722Z",
+          "notes": "Resultado automatico para \"agencia de viajes\" en La Plata. Segmento: agencias de viajes y turismo."
+        },
+        {
+          "label": "Verificacion secundaria de ausencia de sitio propio",
+          "url": "https://www.instagram.com/tiendadeviajes/",
+          "captured_at": "2026-08-10T00:00:00.000Z",
+          "notes": "Verificado el 2026-08-10: Google Places no informa websiteUri y la busqueda secundaria en Instagram, Facebook, directorio sectorial y guias platenses no encuentra dominio propio."
+        },
+        {
+          "label": "Instagram publico de la agencia",
+          "url": "https://www.instagram.com/tiendadeviajes/",
+          "captured_at": "2026-08-10T00:00:00.000Z",
+          "notes": "Perfil publico @tiendadeviajes verificado por nombre comercial, direccion y ciudad. El directorio sectorial publica WhatsApp 221 303-8874: https://wa.me/5492213038874"
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=4416592023805395878&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=4416592023805395878&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=4416592023805395878&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=4416592023805395878&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=4416592023805395878&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=4416592023805395878&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=4416592023805395878&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=4416592023805395878&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=4416592023805395878&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=4416592023805395878&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://www.instagram.com/tiendadeviajes/",
+          "notes": "Reseñas verificadas describen viajes armados a medida a Bariloche, El Calafate y Ushuaia con seguimiento durante el viaje; el perfil publico de Instagram y las fichas locales describen viajes a medida."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://www.instagram.com/tiendadeviajes/",
+          "notes": "Fuente revisada en la verificacion secundaria de ausencia de sitio propio."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://www.facebook.com/tiendadeviajes/",
+          "notes": "Fuente revisada en la verificacion secundaria de ausencia de sitio propio."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://mauroturismo.com/agencia-turismo/tienda-de-viajes/",
+          "notes": "Fuente revisada en la verificacion secundaria de ausencia de sitio propio."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://comercios.indicelaplata.com.ar/agencias_de_viajes_y_turismo.php",
+          "notes": "Fuente revisada en la verificacion secundaria de ausencia de sitio propio."
+        }
+      ]
+    },
+    "brand": {
+      "palette": {
+        "source": "photo",
+        "captured_from": "https://maps.google.com/?cid=4416592023805395878&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "dominant": "#2d2a26",
+        "accent": "#d94f30",
+        "supporting": [
+          "#f4efe6",
+          "#7a7168"
+        ]
+      },
+      "typography": {
+        "primary": "IBM Plex Sans Condensed",
+        "secondary": "Source Serif 4"
+      }
+    },
+    "site_plan": {
+      "archetype": "industrial-garage",
+      "position": 3,
+      "rationale": "Automatic rotation to keep no more than two sites per archetype and avoid consecutive repeats."
+    }
+  },
+  {
+    "id": "google-ChIJh7CO1G8uo5URXIah4mqs93o",
+    "name": "Viq Viajes",
+    "slug": "viq-viajes",
+    "category": "Travel Agency",
+    "is_vehicle_related": false,
+    "address": "Av. 12 de Octubre, B1879 Gran Buenos Aires, Provincia de Buenos Aires, Argentina",
+    "city": "Quilmes",
+    "neighborhood_or_area": null,
+    "phone": "011 4254-0508",
+    "opening_hours": {
+      "raw": null,
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.8,
+      "reviews_count": 29,
+      "source_url": "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Excelente servicio!! Termas de Villa Elisa: Hermoso lugar, hermoso el apart, comida deliciosa, el chofer Cali un genio!! Gracias!!!",
+        "author": "Patricia",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/103782162344304690272/reviews"
+      },
+      {
+        "text": "Excelente servicio.\nEs el primer viaje que hago con ellos\nA termas de Concepción.\nToda la atención es muy buena.\nTe hacen sentir especial.\nEl servicio puerta a puerta es para destacar.\nSeguramente vuelvo a viajar con ellos.\nLo recomiendo",
+        "author": "Claudia de los Angeles Molina",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/108536891939937259370/reviews"
+      },
+      {
+        "text": "Un lujo está empresa atendido por su dueño, atento a cualquier necesidad de los pasajeros, hoteles de primera, excelentes chóferes, servicio totalmente recomendable. Hace varios años q viajamos con Viq Viajes. Gracias totales!",
+        "author": "faby b",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/103330529920040661015/reviews"
+      }
+    ],
+    "main_product_or_service": "salidas grupales en micro a termas, sierras y playa",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJh7CO1G8uo5URXIah4mqs93o/photos/AWCwydhZTxst8pZgnUCxDuZf-m6iAiF-zvTvKDJXYv-XbQud6NShHoYajiMYANYZHEbZ1dUW1o9RJXhr0bvHDHjTZeMTBQxCjoQGQRSy_y50JhyHG97AZik5nSDz8RWsPrr0NtfPXyc4W1VPvyHGMqqtJBvBHnIAYXvljX5Xo5fkhqBSmc_9F9hUGAmjiEIplIdJSKfjN77Lchp1OS22vd0GkaJ0div9EdC0AHuLQvAmHKQXXSIxhbC5Sov5ZZOLojkplPI3hNYuOoC0V0-4626LX17l_tQOnGiN94eQCcEdhKSHvxRkKbPtLA1lnDk7wSx6xUoFAqiw1NzdpLk0ZRbvmLzFMpz2kQx90gAkEa2gKL9HaH9OYNPO9dejOf-jV4MuWP5ME3ylwV6oe0aqeL08gcQ-HcKtMiS0l5g7CV7Fz_rvTIfBbDCMw8oFZ3jWtg/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by automatic promotion configuration."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJh7CO1G8uo5URXIah4mqs93o/photos/AWCwydiwz7WYw2olxFTdn2f_6QZObB5E0nApOJ1_AoCKPbqq8kTNjk_lEarxZTN6Of56XuwhqKUEficEBsO-1NwUlHE18XAcggBr8kEOMPFKfaknGE73P-k353B3jBSZoQDiUflL4gVNu6dqZd7DQCFCbwRAfP9ZYxK6Qlp9it7gczEdpjk76zAq9GxLbS50HkDcMrYIr6PTrewSERQBT_a56gizGA2ZPdVeVpysND3jVs0rtro7Uzp2woygAp3nh2il-BM6hJ2wxgJJvzt5M60WrK3KLpYO9JOvCSxBh7jH1Og_7nSPrnKqrvWW3Yp89JyBoTy9vDpegJpxC-KVrJq59-xvnkO7qf9MVYguASHwt3cGMfaO-FwlIMyWYLQQ2n9q-g0wUtaexjIPBGh2K2OcRFdvXSfPdg_CuryWbmFIauk/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by automatic promotion configuration."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJh7CO1G8uo5URXIah4mqs93o/photos/AWCwydhH9kTVTb42YuviW1pVW9RaNkyNAy8vEuH-ExTQZ3tSFqfNDxyUdKIsfaPpweevt0zySiOZUsW8DOivVmCYwYvk8LQeyUpagXfg6gBLFeMEqKgnLk_iCVX9J6jR2rFwgKhtXYfC12QKij26r0XnCktA6O9EMAc-Ac52bvT-n-sFFy1j6Aea7NAgRYCXXRxmEwkbZUhMpaacs8NX7u64FVasC7bR6FPiFlTctPE_ERmxltZIjAUjUI4aToyxNdtnVxLbFzv6cv41ILno-dSwG5jj1Yv0jtI5jWSP7LdWPeay9BE2s9Fjf8Lhvdg0B1LE38lfrJr5fIJr3Bo6A-OJos82d1DbwQn01XIBOVn4n5xe4YVrC1RuOla5b8HGpymMpS7GuCNJlHcd_rnZwNQzsF-RPc0NlS_3g2wpSHZsGIPM3Q8CG-AoFKtTTxqj4A/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by automatic promotion configuration."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "https://www.instagram.com/viqviajesoficial/",
+        "https://www.facebook.com/VIQviajesTurismo/",
+        "https://www.laguiadequilmes.com/id/3445-viq-viajes",
+        "https://saeoepturismo.com.ar/agencia-de-viaje-y-turismo-viq-viajes/"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID.",
+        "Busqueda web del nombre comercial + ciudad el 2026-08-10: no aparece dominio propio, solo Instagram (@viqviajesoficial), Facebook, un Linktree de redes y fichas de directorios locales.",
+        "Las fichas publicas informan correo en dominio gratuito (hotmail), señal de ausencia de dominio propio.",
+        "Directorio sectorial de agencias de viaje lista la agencia sin URL de sitio propio."
+      ],
+      "notes": "Verificado el 2026-08-10: Google Places no informa websiteUri y la busqueda secundaria en Instagram, Facebook, Linktree y directorios locales/sectoriales no encuentra dominio propio."
+    },
+    "data_quality_score": 0.9,
+    "missing_data_reason": "horarios: Google Places no publica horario de atencion; confirmar con el negocio antes de comunicarlo.",
+    "approved_for_generation": true,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-08-10T17:00:50.666Z",
+          "notes": "Resultado automatico para \"viajes y turismo\" en Quilmes. Segmento: agencias de viajes y turismo."
+        },
+        {
+          "label": "Verificacion secundaria de ausencia de sitio propio",
+          "url": "https://www.instagram.com/viqviajesoficial/",
+          "captured_at": "2026-08-10T00:00:00.000Z",
+          "notes": "Verificado el 2026-08-10: Google Places no informa websiteUri y la busqueda secundaria en Instagram, Facebook, Linktree y directorios locales/sectoriales no encuentra dominio propio."
+        },
+        {
+          "label": "Instagram publico de la agencia",
+          "url": "https://www.instagram.com/viqviajesoficial/",
+          "captured_at": "2026-08-10T00:00:00.000Z",
+          "notes": "Perfil publico @viqviajesoficial verificado por nombre comercial y ciudad. No se encontro numero de WhatsApp publicado con evidencia: el telefono verificado es una linea fija, asi que el contacto directo queda por telefono."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://www.laguiadequilmes.com/id/3445-viq-viajes",
+          "notes": "Reseñas verificadas nombran salidas a Termas de Villa Elisa y Termas de Concepcion con servicio puerta a puerta y choferes propios; la ficha publica local describe salidas de fin de semana y excursiones de un dia a termas, sierras y playa."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://www.instagram.com/viqviajesoficial/",
+          "notes": "Fuente revisada en la verificacion secundaria de ausencia de sitio propio."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://www.facebook.com/VIQviajesTurismo/",
+          "notes": "Fuente revisada en la verificacion secundaria de ausencia de sitio propio."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://www.laguiadequilmes.com/id/3445-viq-viajes",
+          "notes": "Fuente revisada en la verificacion secundaria de ausencia de sitio propio."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://saeoepturismo.com.ar/agencia-de-viaje-y-turismo-viq-viajes/",
+          "notes": "Fuente revisada en la verificacion secundaria de ausencia de sitio propio."
+        }
+      ]
+    },
+    "brand": {
+      "palette": {
+        "source": "photo",
+        "captured_from": "https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "dominant": "#f8f7f3",
+        "accent": "#2f5d62",
+        "supporting": [
+          "#1d2528",
+          "#d7d2c8"
+        ]
+      },
+      "typography": {
+        "primary": "Aptos",
+        "secondary": "Georgia"
+      }
+    },
+    "site_plan": {
+      "archetype": "minimal-professional",
+      "position": 4,
+      "rationale": "Automatic rotation to keep no more than two sites per archetype and avoid consecutive repeats."
+    }
+  },
+  {
+    "id": "google-ChIJeTtvOGxcIpQR-Q43kTjmvFU",
+    "name": "Junaza Viajes y Turismo",
+    "brand_name": "Junaza Viajes",
+    "slug": "junaza-viajes-y-turismo",
+    "category": "Travel Agency",
+    "is_vehicle_related": false,
+    "address": "Gral. José de San Martín 667 Piso 3 Of F, T4000 San Miguel de Tucumán, Tucumán, Argentina",
+    "city": "San Miguel de Tucumán",
+    "neighborhood_or_area": null,
+    "phone": "0381 430-7696",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 5:00 PM | Tuesday: 9:00 AM – 5:00 PM | Wednesday: 9:00 AM – 5:00 PM | Thursday: 9:00 AM – 5:00 PM | Friday: 9:00 AM – 5:00 PM | Saturday: 9:00 AM – 1:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.3,
+      "reviews_count": 24,
+      "source_url": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Excelente atención y más por sus propios dueños, precios de viajes acorde a la situación,  muy recomendable.",
+        "author": "Jorge Kairuz",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/111069480879793202467/reviews"
+      },
+      {
+        "text": "Excelente atención. Nos mostraron todos los viajes que hacen.  Se nota que son muy responsables.",
+        "author": "Estela Carrillo",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/118178525445153960533/reviews"
+      },
+      {
+        "text": "Calidez en la atención. Los viajes con esta agencia lo realizamos siempre sin  ningún inconveniente. Todo muy lindo",
+        "author": "Susana Myriam Gutierrez",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/108028855393645647194/reviews"
+      }
+    ],
+    "main_product_or_service": "viajes grupales, estudiantiles y de egresados",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJeTtvOGxcIpQR-Q43kTjmvFU/photos/AWCwydgncRUI6DaS7k8hA3aUnI1W3rBKtIYIqlazlXRE_tOkTZKxlp8Cqg7MYcCACx3DeXt3Iy7H8FdquYcs5bGw_qjVndF02TMC5m-FQ7l4S7k32BMowMGUlqRYudmXefv3EYlPYNisT5FmQ-upZ9iS11nesoUC0hFbCkRcnTrqQWmj1d2OWNlX0nIlfDYD4T2oEFi-iJFfscixj8KdgfHqnIMG3xPCvOSE2e1BDWCquRua058PdFF3XPxnEnX0PrzYpJ-wDM8XsoZxR1d8Hm6yT9nJ7iinxx4qljNCrcazC0ki8L-qzQ_VX1DFo9f5_8IFUkkRKAj25Y3wjtx3-Ft_WpFatRestDEqO42upB9r5kZSgTw9yckpJl8OxIv4tCoI06hEm9hXMU-eOE4cikss8iJ3y6CInOAdR9uAq5vakfKeKaQC/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by automatic promotion configuration."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJeTtvOGxcIpQR-Q43kTjmvFU/photos/AWCwydiblReaSRbWj_r0WSLeO32PKHWhIgAedm6CCoFlv-OynvBfQGbxiP1LSn_y6lu7c9JdQiPsIdhHBs0VDGKs0Bx5gHqncI1WFw3SrTDIuN5UcEve1jEVOaR9mBt-hCkCCHCRaTxQobWTBJlJmrh1CFyDRWlUOEsqaWqSKyvKOHZRWSFcqqIUVrMs1vfIE5WxKmWSu5LTmYg4SXSLA1zK0PE9phMkGFrdcv1_bJNsPaZiY4fkULbU-CY1O0SL4Vb5UgBrlppl7BbUAYUODEzRwqo3bTNnHHz8KcWZ4n6pIco_MkGn9vaZiEKLBlHPZ2b_gONvRfgPuODf-sOAWKc4gxTqys4SVK0tIFwXgqtRLDH0bg9fFihhJaFwSfi3utUs6z9lbxw860Wv4a0Xw0ap2GFUn2HgbDze4TS2x1DPVrNsloBO/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by automatic promotion configuration."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJeTtvOGxcIpQR-Q43kTjmvFU/photos/AWCwydhMGlUlzlRrJIiyONb0KzweoHLTOe6kx7ua67MHiSdp696VtGVFeTWkKLBA3gpeazirABUyc-MdvdwGT2l7CTY0WbVT36QaOW7PbDLvxNHof-b2TngxkiTkJFMeJdUMZNnGorkjVGuVZCGupIT1_ugDmV80FA701g341xoLFTTHXX4Ij0VxNUw46wdsctgo4kSzY3cAmDsgbr8lZtSE346e3o-W838xZhRJ7tTui2EApNuBBZ5cE7so2fiNSn3_Sf0NCLkXZoZiMl3OXuSyaD7efOtlTF2d-7fAuvOPgCanRM1Ne8Z1CGix9G7UpNBt3BsKl0WynZQCj0FDfaa_VUnKcSf5qjixVw0RE2hBr0dpbJqOSwOzWL63Ot_Xunp8P3HxhGGPLpUsKV4TxObXRyEit-H1diHElgvC8eY35NkI9A/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by automatic promotion configuration."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "https://www.instagram.com/junazaviajes/",
+        "https://www.facebook.com/junazaviajesok/",
+        "https://www.agenciasturismo.com.ar/agencia/junaza-viajes-y-turismo",
+        "https://www.tucumanturismo.gob.ar/agencias"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID.",
+        "Busqueda web del nombre comercial + ciudad el 2026-08-10: no aparece dominio propio, solo Instagram (@junazaviajes), Facebook y fichas de directorios.",
+        "El listado oficial de agencias del Ente Tucuman Turismo no publica sitio web propio para la agencia.",
+        "La ficha publica sectorial informa telefono y WhatsApp sin URL de sitio propio."
+      ],
+      "notes": "Verificado el 2026-08-10: Google Places no informa websiteUri y la busqueda secundaria en Instagram, Facebook, directorio sectorial y listado oficial provincial no encuentra dominio propio."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": true,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-08-10T17:00:18.188Z",
+          "notes": "Resultado automatico para \"agencia de viajes\" en San Miguel de Tucumán. Segmento: agencias de viajes y turismo."
+        },
+        {
+          "label": "Verificacion secundaria de ausencia de sitio propio",
+          "url": "https://www.instagram.com/junazaviajes/",
+          "captured_at": "2026-08-10T00:00:00.000Z",
+          "notes": "Verificado el 2026-08-10: Google Places no informa websiteUri y la busqueda secundaria en Instagram, Facebook, directorio sectorial y listado oficial provincial no encuentra dominio propio."
+        },
+        {
+          "label": "Instagram publico de la agencia",
+          "url": "https://www.instagram.com/junazaviajes/",
+          "captured_at": "2026-08-10T00:00:00.000Z",
+          "notes": "Perfil publico @junazaviajes verificado por nombre comercial y ciudad. La ficha sectorial publica WhatsApp +54 9 381 500-8374: https://wa.me/5493815008374"
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://www.agenciasturismo.com.ar/agencia/junaza-viajes-y-turismo",
+          "notes": "La ficha publica sectorial detalla excursiones locales, nacionales e internacionales, turismo estudiantil, salidas grupales y viajes de egresados; las reseñas verificadas describen viajes grupales atendidos por sus dueños."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://www.instagram.com/junazaviajes/",
+          "notes": "Fuente revisada en la verificacion secundaria de ausencia de sitio propio."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://www.facebook.com/junazaviajesok/",
+          "notes": "Fuente revisada en la verificacion secundaria de ausencia de sitio propio."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://www.agenciasturismo.com.ar/agencia/junaza-viajes-y-turismo",
+          "notes": "Fuente revisada en la verificacion secundaria de ausencia de sitio propio."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://www.tucumanturismo.gob.ar/agencias",
+          "notes": "Fuente revisada en la verificacion secundaria de ausencia de sitio propio."
+        },
+        {
+          "field": "name",
+          "source_url": "https://www.instagram.com/junazaviajes/",
+          "notes": "Los canales publicos (Instagram @junazaviajes, pagina de Facebook y fichas de directorios) usan el nombre comercial Junaza Viajes; el displayName de Google Places agrega el rubro."
+        }
+      ]
+    },
+    "brand": {
+      "palette": {
+        "source": "photo",
+        "captured_from": "https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "dominant": "#111111",
+        "accent": "#ffbf1f",
+        "supporting": [
+          "#f2f2f0",
+          "#7d7b76"
+        ]
+      },
+      "typography": {
+        "primary": "Oswald",
+        "secondary": "Atkinson Hyperlegible"
+      }
+    },
+    "site_plan": {
+      "archetype": "bold-hero-photo",
+      "position": 5,
+      "rationale": "Automatic rotation to keep no more than two sites per archetype and avoid consecutive repeats."
+    }
+  }
+]

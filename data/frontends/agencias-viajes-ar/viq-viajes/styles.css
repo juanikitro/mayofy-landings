@@ -1,0 +1,337 @@
+/* ═══════════════════════════════════════════════════════════════
+   Viq Viajes · "Pizarra de salidas a las termas"
+   El sistema sale del agua turquesa del parque termal y del arcoíris
+   en la bruma de sus propias fotos. El cuerpo de la página es una
+   pizarra de salidas: destino, guía punteada, dato.
+   ═══════════════════════════════════════════════════════════════ */
+
+:root {
+  --agua: #0b4a50;
+  --agua-2: #093c41;
+  --agua-3: #072f33;
+  --panel: #12656b;
+  --arena: #d9cfbb;
+  --arena-2: #efe7d8;
+  --hueso: #f2f7f5;
+  --coral: #ff6a3d;
+  --coral-txt: #ff9a6e;
+  --tinta: #101010;
+
+  --disp: "Darker Grotesque", "Arial Narrow", sans-serif;
+  --body: "Epilogue", "Segoe UI", sans-serif;
+
+  --pad: 1.35rem;
+  --band: 3.6rem;
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@media (min-width: 700px) { :root { --pad: 2.6rem; --band: 5rem; } }
+@media (min-width: 1080px) { :root { --pad: 4.4rem; --band: 6.4rem; } }
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+
+body.viq {
+  margin: 0;
+  background: var(--agua);
+  color: var(--hueso);
+  font-family: var(--body);
+  font-size: 1.04rem;
+  line-height: 1.66;
+}
+
+img { max-width: 100%; display: block; }
+a { color: inherit; }
+
+h1, h2, h3 {
+  font-family: var(--disp);
+  font-weight: 900;
+  line-height: 0.9;
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+  margin: 0;
+}
+
+:focus-visible { outline: 3px solid var(--coral-txt); outline-offset: 3px; }
+
+.viq-skip {
+  position: absolute; left: -9999px; top: 0;
+  background: var(--coral); color: var(--tinta);
+  padding: 0.7rem 1.1rem; font-family: var(--disp); font-weight: 800; font-size: 1.1rem;
+  z-index: 99;
+}
+.viq-skip:focus { left: 0.6rem; top: 0.6rem; }
+
+/* ── Mástil ─────────────────────────────────────────────── */
+.viq-mast {
+  position: sticky; top: 0; z-index: 50;
+  display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+  padding: 0.66rem var(--pad);
+  background: rgba(7, 47, 51, 0.94);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid rgba(242, 247, 245, 0.2);
+}
+.viq-mast__brand {
+  font-family: var(--disp); font-weight: 900; font-size: 1.5rem;
+  letter-spacing: -0.01em; color: var(--hueso);
+}
+.viq-mast__call {
+  font-family: var(--disp); font-weight: 800; font-size: 1.15rem;
+  text-decoration: none; color: var(--tinta); background: var(--coral);
+  padding: 0.34rem 1.05rem; border-radius: 3px;
+}
+
+/* ── Hero ───────────────────────────────────────────────── */
+.viq-hero {
+  position: relative;
+  min-height: 92svh;
+  display: grid; align-items: end;
+  padding: 5rem var(--pad) 6rem;
+  isolation: isolate;
+}
+.viq-hero__img {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: cover; object-position: 50% 62%; z-index: -2;
+}
+.viq-hero__wash {
+  position: absolute; inset: 0; z-index: -1;
+  background:
+    linear-gradient(184deg, rgba(7, 47, 51, 0.72) 0%, rgba(9, 60, 65, 0.34) 40%, rgba(11, 74, 80, 0.9) 80%, var(--agua) 100%),
+    linear-gradient(94deg, rgba(7, 34, 37, 0.86) 0%, rgba(7, 34, 37, 0.38) 48%, rgba(7, 34, 37, 0.05) 78%);
+}
+.viq-hero__in { max-width: 56rem; position: relative; }
+
+.viq-over {
+  margin: 0 0 1rem;
+  font-family: var(--disp); font-weight: 800; font-size: 1.24rem;
+  color: var(--coral-txt);
+}
+.viq-hero h1 {
+  font-size: 3.1rem;
+  color: #fff;
+  text-shadow: 0 4px 26px rgba(4, 24, 26, 0.5);
+}
+.viq-lead {
+  max-width: 38rem;
+  margin: 1.6rem 0 0;
+  font-size: 1.12rem;
+  line-height: 1.64;
+  color: #eaf4f1;
+}
+.viq-score {
+  display: flex; align-items: baseline; gap: 0.55rem; flex-wrap: wrap;
+  margin: 1.5rem 0 0; font-size: 1rem;
+}
+.viq-score strong {
+  font-family: var(--disp); font-weight: 900; font-size: 2.5rem; line-height: 1;
+  color: #fff;
+}
+.viq-score__st { color: var(--arena); letter-spacing: 0.08em; }
+
+.viq-acts { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 1.8rem; }
+.viq-hot, .viq-cool {
+  font-family: var(--disp); font-weight: 800; font-size: 1.28rem;
+  text-decoration: none; padding: 0.66rem 1.5rem; border-radius: 3px;
+  transition: transform 0.35s var(--ease), background-color 0.35s var(--ease);
+}
+.viq-hot { background: var(--coral); color: var(--tinta); box-shadow: 0 14px 30px rgba(4, 24, 26, 0.42); }
+.viq-hot:hover { background: #ff8259; transform: translateY(-2px); }
+.viq-cool { background: transparent; color: var(--hueso); border: 2px solid rgba(242, 247, 245, 0.55); }
+.viq-cool:hover { border-color: #fff; transform: translateY(-2px); }
+
+.viq-ripple {
+  position: absolute; left: 0; right: 0; bottom: -1px;
+  width: 100%; height: 46px; z-index: 1; display: block;
+}
+
+/* ── La pizarra ─────────────────────────────────────────── */
+.viq-board { padding: var(--band) var(--pad); background: var(--agua); }
+.viq-board__head { max-width: 44rem; margin-bottom: 2.6rem; }
+.viq-board h2 { font-size: 2.4rem; }
+.viq-board__head p { margin: 1rem 0 0; color: #cfe3df; }
+
+.viq-rows { list-style: none; margin: 0; padding: 0; }
+.viq-rows li {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.25rem 1rem;
+  padding: 1.5rem 0.2rem;
+  border-top: 1px solid rgba(242, 247, 245, 0.22);
+  align-items: baseline;
+}
+.viq-rows li:last-child { border-bottom: 1px solid rgba(242, 247, 245, 0.22); }
+@media (min-width: 820px) {
+  .viq-rows li { grid-template-columns: 8.5rem auto 1fr auto; }
+}
+.viq-rows__zone {
+  font-family: var(--disp); font-weight: 800; font-size: 1.16rem;
+  color: var(--arena);
+}
+.viq-rows__dest {
+  font-family: var(--disp); font-weight: 900; font-size: 2.05rem;
+  line-height: 1; color: #fff; letter-spacing: -0.02em;
+}
+.viq-rows__dot {
+  display: none;
+  height: 0;
+  border-bottom: 2px dotted rgba(242, 247, 245, 0.4);
+  transform: translateY(-0.35rem);
+}
+@media (min-width: 820px) { .viq-rows__dot { display: block; } }
+.viq-rows__data { color: #d8e9e5; font-size: 1rem; }
+
+.viq-board__foot {
+  margin: 2rem 0 0;
+  font-family: var(--disp); font-weight: 800; font-size: 1.4rem;
+  color: var(--arena);
+}
+.viq-board__foot a { color: var(--coral-txt); text-decoration: underline; text-underline-offset: 4px; }
+
+/* ── Puerta a puerta ────────────────────────────────────── */
+.viq-door { padding: var(--band) var(--pad); background: var(--panel); }
+.viq-door__in { max-width: 68rem; }
+.viq-door h2 { font-size: 2.4rem; margin-bottom: 2.2rem; }
+.viq-door ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 1.5rem; }
+@media (min-width: 880px) { .viq-door ol { grid-template-columns: repeat(4, 1fr); } }
+.viq-door li { padding-top: 1.2rem; border-top: 3px solid var(--arena); }
+.viq-door li span {
+  display: block;
+  font-family: var(--disp); font-weight: 900; font-size: 2.6rem; line-height: 1;
+  color: var(--arena);
+}
+.viq-door h3 { font-size: 1.5rem; margin: 0.5rem 0 0.5rem; color: #fff; }
+.viq-door li p { margin: 0; color: #e4f1ee; }
+
+/* ── Reseñas ────────────────────────────────────────────── */
+.viq-voices { padding: var(--band) var(--pad); background: var(--arena-2); color: #21201c; }
+.viq-voices h2 { font-size: 2.4rem; color: #16332f; margin-bottom: 2.2rem; }
+.viq-voices__grid { display: grid; gap: 1.3rem; }
+@media (min-width: 860px) { .viq-voices__grid { grid-template-columns: repeat(3, 1fr); } }
+.viq-voices blockquote {
+  position: relative;
+  margin: 0; background: #fff; padding: 1.7rem 1.7rem 1.9rem;
+}
+.viq-voices blockquote::after {
+  content: "";
+  position: absolute; inset: auto 0 0 0; height: 5px;
+  background: var(--coral);
+}
+.viq-voices blockquote p { margin: 0 0 1.1rem; line-height: 1.62; color: #24231f; }
+.viq-voices footer {
+  font-family: var(--disp); font-weight: 800; font-size: 1.16rem; color: #16332f;
+}
+.viq-voices footer span { color: var(--coral); }
+
+/* ── Galería ────────────────────────────────────────────── */
+.viq-gal { padding: var(--band) var(--pad); background: var(--agua-2); }
+.viq-gal h2 { font-size: 2.2rem; margin-bottom: 2rem; }
+.viq-gal__grid { display: grid; gap: 1.2rem; }
+@media (min-width: 860px) { .viq-gal__grid { grid-template-columns: 1.35fr 1fr 1fr; } }
+.viq-gal figure { margin: 0; }
+.viq-gal img {
+  width: 100%; height: 260px; object-fit: cover; border-radius: 4px;
+}
+.viq-gal figcaption { margin-top: 0.7rem; font-size: 0.95rem; color: #cfe3df; }
+
+/* ── Qué preguntar ──────────────────────────────────────── */
+.viq-ask { padding: var(--band) var(--pad); background: var(--agua-3); }
+.viq-ask__in { max-width: 58rem; }
+.viq-ask h2 { font-size: 2.1rem; margin-bottom: 1.7rem; }
+.viq-ask ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 1px; background: rgba(242, 247, 245, 0.18); }
+.viq-ask li {
+  background: var(--agua-3);
+  padding: 1.3rem 1.4rem 1.3rem 2rem;
+  position: relative;
+  color: #eaf4f1;
+}
+.viq-ask li::before {
+  content: ""; position: absolute; left: 0.4rem; top: 1.85rem;
+  width: 10px; height: 10px; border-radius: 50%; background: var(--coral);
+}
+
+/* ── Ficha ──────────────────────────────────────────────── */
+.viq-card { padding: var(--band) var(--pad); background: var(--agua); }
+.viq-card__in { display: grid; gap: 2.4rem; }
+@media (min-width: 900px) { .viq-card__in { grid-template-columns: 0.95fr 1.05fr; align-items: start; } }
+.viq-card h2 { font-size: 2.3rem; }
+.viq-card__tel {
+  display: block; margin: 1.1rem 0 1.3rem;
+  font-family: var(--disp); font-weight: 900; font-size: 2.9rem;
+  letter-spacing: -0.025em; color: var(--coral-txt); text-decoration: none;
+}
+.viq-card__tel:hover { color: #ffb391; }
+.viq-card__data { margin: 0; display: grid; gap: 1px; background: rgba(242, 247, 245, 0.2); }
+.viq-card__data > div { background: var(--agua); padding: 1.4rem 1.5rem; }
+.viq-card__data dt {
+  font-family: var(--disp); font-weight: 800; font-size: 1.16rem;
+  color: var(--arena); margin-bottom: 0.4rem;
+}
+.viq-card__data dd { margin: 0; color: #eaf4f1; }
+.viq-maps, .viq-card__data a {
+  color: var(--coral-txt); font-weight: 600;
+  text-decoration: underline; text-underline-offset: 3px;
+}
+.viq-maps { display: inline-block; margin-top: 0.55rem; }
+
+/* ── Footer ─────────────────────────────────────────────── */
+.viq-foot {
+  padding: 2.3rem var(--pad) 5.6rem;
+  background: var(--agua-3);
+  border-top: 1px solid rgba(242, 247, 245, 0.18);
+  display: flex; flex-wrap: wrap; gap: 0.7rem 1.5rem;
+  justify-content: space-between; align-items: baseline;
+  font-size: 0.95rem; color: #cfe3df;
+}
+.viq-foot p { margin: 0; }
+.viq-foot__brand span { color: var(--arena); }
+.viq-foot__me a { color: #fff; text-decoration: underline; text-underline-offset: 3px; }
+
+/* ── Barra sticky mobile ────────────────────────────────── */
+.viq-bar {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 60;
+  display: grid; border-top: 2px solid var(--agua-3);
+}
+.viq-bar a {
+  text-align: center; padding: 0.85rem 0.5rem;
+  font-family: var(--disp); font-weight: 900; font-size: 1.35rem;
+  text-decoration: none; background: var(--coral); color: var(--tinta);
+}
+@media (min-width: 780px) { .viq-bar { display: none; } }
+
+/* ── Escala tipográfica por breakpoint ──────────────────── */
+@media (min-width: 700px) {
+  .viq-hero h1 { font-size: 4.4rem; }
+  .viq-board h2, .viq-door h2, .viq-voices h2 { font-size: 3rem; }
+  .viq-card h2 { font-size: 2.8rem; }
+  .viq-gal h2, .viq-ask h2 { font-size: 2.6rem; }
+  .viq-rows__dest { font-size: 2.4rem; }
+  .viq-card__tel { font-size: 3.6rem; }
+}
+@media (min-width: 1080px) {
+  .viq-hero h1 { font-size: 6rem; }
+  .viq-board h2, .viq-door h2, .viq-voices h2 { font-size: 3.5rem; }
+  .viq-card h2 { font-size: 3.2rem; }
+  .viq-gal h2, .viq-ask h2 { font-size: 2.9rem; }
+  .viq-rows__dest { font-size: 2.9rem; }
+  .viq-card__tel { font-size: 4.2rem; }
+}
+
+/* ── Motion ─────────────────────────────────────────────── */
+@media (prefers-reduced-motion: no-preference) {
+  .js-on [data-rise] { opacity: 0; transform: translateY(16px); }
+  .js-on .viq-hero.is-on [data-rise] {
+    opacity: 1; transform: none;
+    transition: opacity 0.72s var(--ease), transform 0.72s var(--ease);
+  }
+  .js-on .viq-hero.is-on [data-rise="1"] { transition-delay: 0.04s; }
+  .js-on .viq-hero.is-on [data-rise="2"] { transition-delay: 0.13s; }
+  .js-on .viq-hero.is-on [data-rise="3"] { transition-delay: 0.28s; }
+  .js-on .viq-hero.is-on [data-rise="4"] { transition-delay: 0.38s; }
+  .js-on .viq-hero.is-on [data-rise="5"] { transition-delay: 0.46s; }
+
+  .js-on [data-reveal] { opacity: 0; transform: translateY(18px); }
+  .js-on [data-reveal].is-on {
+    opacity: 1; transform: none;
+    transition: opacity 0.66s var(--ease), transform 0.66s var(--ease);
+  }
+}

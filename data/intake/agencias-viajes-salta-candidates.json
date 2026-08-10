@@ -1,0 +1,147 @@
+[
+  {
+    "id": "google-ChIJuwvmfcPDG5QRcmfSkuGTe_o",
+    "name": "Almendra viajes salta",
+    "slug": "almendra-viajes-salta",
+    "category": "Travel Agency",
+    "is_vehicle_related": false,
+    "address": "Salta capital Pje santa victoria 715, altura rioja 2200, A4400 Salta, Argentina",
+    "city": "Salta",
+    "neighborhood_or_area": null,
+    "phone": "0387 591-1711",
+    "opening_hours": {
+      "raw": "Monday: 11:00 AM – 10:00 PM | Tuesday: 11:00 AM – 10:00 PM | Wednesday: 11:00 AM – 10:00 PM | Thursday: 11:00 AM – 10:00 PM | Friday: 11:00 AM – 10:00 PM | Saturday: 11:00 AM – 10:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.8,
+      "reviews_count": 82,
+      "source_url": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Contactamos por facebook con todo el temor que eso implica y nos encontramos con guillermo  que nos apadrino en cada recorrido de una manera digna de destacar y elogiar. No solo fue nuestro contacto diario ante una duda  en nuestros viajes a Cafayate y sus bodegas,, cachi,salinas grandes , Purmamarca ,Humahuaca,Tilcara,Maimara , Dique Cabra corral, tren a las nubes y más,sino el consejero de recorrer los más lindos lugares de salta para comer pasear y disfrutar al 100% toda las vacaciones. Fueron 8 dias atr y unicos . Los choferes unos guias  super preparados para brindar una info inigualable de cada lugar recorrido cada ladera,cada quebrada ,valle y yunga. Fui con mi pareja y un amigo y nos sentimos muy bien cuidados y acompañados y destaco aparte la predisposicion que me dio para asegurar el alquiler del departamento donde se ofrecio a ir a ver si no era una estafa. GRACIAS POR TANTA VOCACION . GRACIAS GRACIAS.",
+        "author": "Fernando Pazos",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/111913317138964410579/reviews"
+      },
+      {
+        "text": "Viajamos a Iruya con Hugo. Muy linda la excursión, unos paisajes increíbles. Hugo muy bien, nos explicó todo, nos tuvo paciencia y fue super claro. Un viaje super recomendable.\nGuillermo siempre muy atento y dispuesto a resolvernos todo",
+        "author": "sonia foglia",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/101766017294852616087/reviews"
+      },
+      {
+        "text": "Hermosa experiencia con los chicos hicimos dos excursiones, en las cuales nos llevaron coordinadores distintos de la empresa, todos súper amables y muy bien predispuestos.\nLos encontré por una publicación en instagram, consulte, me sacaron todas las dudas y enviaron info de la página para corroborar que eran ellos. El pago lo hice por transferencia varios días antes de viajar. Cuando llega la fecha, un día antes se comunican y coordinan horarios.\nCompletamente recomendables",
+        "author": "Geraldine Larroude",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/118302242274773880222/reviews"
+      }
+    ],
+    "main_product_or_service": "agencia de viajes",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJuwvmfcPDG5QRcmfSkuGTe_o/photos/AWCwydjJJhufqOMsfPi4K_yEdF-ORLA7N9w9NMRXl3WQ2XGmqYHjncv7EYmTjF8Bmukfh5KDh5I7drzJHNAAGi2erp3SQrFWgwbmlhhC7We5e30y4y_XLIaevdnyOOzLabe_xvflFB7J8bNTO9cTped4BCU_v5z4R9a8TwtM6EGzOPcrZla_0F8wnr968arnosmh-teooc1JcznxW-OE3u2ubw7zzUmQNvk8JhrX0EUeWnKWIyMz9b2_PV49XsCLHvD49DHVjsfs871d3B4GmY0Qj5xc0c6WERLaX9ijz92GhXBQk4bZ-dq0O0v8FbuNTidDhXpJfWUIsG4pdkXCJKnM7J6iGyUW_jXh9d8w2TML7l8ws0wW312rdGfIc0Dv9MWMcBD0OHC_WXjb7dXo2XrPAucESlCqWWOrEkkwC9XJDZXYm0XudFBBflNZ2lY9DA/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJuwvmfcPDG5QRcmfSkuGTe_o/photos/AWCwydjukDn8nJy7mxm564DSXaaqTqO685JhcxE2sBYeMtitUmv-dMhDH6o9P0toVOm8F0PLkFvMDUmGy6SeC6a4rKf4cfOlxoJKVSHHr7l8hS67rgqTv0zSfXjncKAUA0AySZn5sroU2hO14Gz495V03Qd5NmFNuQVYFzIpOX8w7yd3cICugZA_2l_QHNwWxZEDbvopUjriO8tbDkGSP4iDVJe1ma9bdtMtFpMMrbiTKfAMohPOyDZoWeOXnoznbU7Dpz6D8U_wGq_5Um-OwxhUk87qBWVJt7vOSqlc5A3OdAaK7HtjkuTK2ueXQ3boUtpDOe-Y5cLjWQ1wjzMHMB0CE_cIDdG1bb_JOy6uMZPXX9m43G8d3JHsmB8bWh7hvro3CFGmzxKRrug5bJxQF0i5SvacUWCyfEhM46_wJspTeWuw6mwqdAnJYMqF8wlpHesG/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJuwvmfcPDG5QRcmfSkuGTe_o/photos/AWCwydgLWMqOni2ZxEA721rfGPrgzT6gjHJHJ3Pb4SYoLQp3zv1a8p_qZcIImo68vVcEV3IqtJRUOGd763_-C19D1hhJHSk0nRdYmT_x2EiAgZb38YCxy2dSbnpQktVN051ssO6_3DvCde6kBatbsnpzZIy83AFsSBoG-DpzmtQR3S5cduzl4TaYgZnKC1Z1YkYYEIkMoIynQxDwdQ2fSzDIfHIVG0E6thshw_ZfLsSOFG2cILVSrmDVjJffVKO6CxGp-o_yjWrYVpDcv2TRWenhsEQ1Ya_NLznps5Q0-Bhcey3-0Lxbc3RzB09g8fiXUK5VvlyQqBS7pqJqDqWD3GJVHFS7I91JNK2M20ASSkFNAOLj3yi04qUE9l0MP-HFCjhFRIz9UJcYHWD54ZHoMsRg3U0qoCFqbZfD7M5i3JP8OjHowZ7uwKFOGRMMBW5_PA/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-08-10T16:59:44.984Z",
+          "notes": "Resultado automatico para \"agencia de viajes\" en Salta. Segmento: agencias de viajes y turismo."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "city",
+          "source_url": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived from the requested city and Google Places formattedAddress context."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  }
+]

@@ -2,6 +2,16 @@
 
 Listado versionado para evitar volver a investigar o generar el mismo negocio.
 
+## agencias-viajes-ar
+
+| Negocio | Ciudad | Rubro | Links del negocio | Landing | Estado |
+| --- | --- | --- | --- | --- | --- |
+| Almendra Viajes Salta | Salta | Travel Agency | [Google Maps](<https://maps.google.com/?cid=18049182528657581938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA>) · [Instagram](<https://www.instagram.com/almendraviajessalta/>) · [Teléfono](<tel:03875911711>) | [/agencias-viajes-ar/almendra-viajes-salta/](<https://mayofy.vercel.app/agencias-viajes-ar/almendra-viajes-salta/>) | generated |
+| Junaza Viajes | San Miguel de Tucumán | Travel Agency | [Google Maps](<https://maps.google.com/?cid=6178065919474339577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA>) · [Instagram](<https://www.instagram.com/junazaviajes/>) · [Teléfono](<tel:03814307696>) | [/agencias-viajes-ar/junaza-viajes-y-turismo/](<https://mayofy.vercel.app/agencias-viajes-ar/junaza-viajes-y-turismo/>) | generated |
+| Sauco Viajes | Rosario | Travel Agency | [Google Maps](<https://maps.google.com/?cid=1608545185523035994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA>) · [Instagram](<https://www.instagram.com/saucoviajes/>) · [Teléfono](<tel:03415982505>) | [/agencias-viajes-ar/sauco-viajes/](<https://mayofy.vercel.app/agencias-viajes-ar/sauco-viajes/>) | generated |
+| Tienda de Viajes | La Plata | Travel Agency | [Google Maps](<https://maps.google.com/?cid=4416592023805395878&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA>) · [Instagram](<https://www.instagram.com/tiendadeviajes/>) · [Teléfono](<tel:02214246300>) | [/agencias-viajes-ar/tienda-de-viajes/](<https://mayofy.vercel.app/agencias-viajes-ar/tienda-de-viajes/>) | generated |
+| Viq Viajes | Quilmes | Travel Agency | [Google Maps](<https://maps.google.com/?cid=8860740366943487580&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA>) · [Instagram](<https://www.instagram.com/viqviajesoficial/>) · [Teléfono](<tel:01142540508>) | [/agencias-viajes-ar/viq-viajes/](<https://mayofy.vercel.app/agencias-viajes-ar/viq-viajes/>) | generated |
+
 ## amba-alta-conversion
 
 | Negocio | Ciudad | Rubro | Links del negocio | Landing | Estado |
