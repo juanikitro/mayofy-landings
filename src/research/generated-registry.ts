@@ -6,7 +6,10 @@ import type { Business } from "../content/business-schema.js";
 import { loadSiteSpecs } from "../site-specs/load-site-specs.js";
 
 // Single Vercel project publishing every landing as /<run>/<slug>/, same base the final study uses.
-export const defaultPublicBaseUrl = "https://mayofy.vercel.app";
+// Dominio del catalogo de landings (proyecto Vercel `mayofy-landings`, ver
+// docs/DEPLOYMENT.md). No confundir con https://mayofy.vercel.app, que es el sitio
+// propio de Mayofy y se usa como link de portfolio en los mensajes de outreach.
+export const defaultPublicBaseUrl = "https://mayofy-landings.vercel.app";
 
 export const generatedLandingStatusSchema = z.enum(["planned", "authored", "generated"]);
 

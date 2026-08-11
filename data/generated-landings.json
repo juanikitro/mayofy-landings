@@ -25,7 +25,7 @@
       "landing": {
         "local_path": "generated/agencias-viajes-ar/almendra-viajes-salta",
         "public_path": "/agencias-viajes-ar/almendra-viajes-salta/",
-        "public_url": "https://mayofy.vercel.app/agencias-viajes-ar/almendra-viajes-salta/",
+        "public_url": "https://mayofy-landings.vercel.app/agencias-viajes-ar/almendra-viajes-salta/",
         "frontend_source": "data/frontends/agencias-viajes-ar/almendra-viajes-salta"
       },
       "first_generated_at": "2026-08-10T18:22:09.469Z",
@@ -55,7 +55,7 @@
       "landing": {
         "local_path": "generated/agencias-viajes-ar/junaza-viajes-y-turismo",
         "public_path": "/agencias-viajes-ar/junaza-viajes-y-turismo/",
-        "public_url": "https://mayofy.vercel.app/agencias-viajes-ar/junaza-viajes-y-turismo/",
+        "public_url": "https://mayofy-landings.vercel.app/agencias-viajes-ar/junaza-viajes-y-turismo/",
         "frontend_source": "data/frontends/agencias-viajes-ar/junaza-viajes-y-turismo"
       },
       "first_generated_at": "2026-08-10T18:22:09.469Z",
@@ -84,7 +84,7 @@
       "landing": {
         "local_path": "generated/agencias-viajes-ar/sauco-viajes",
         "public_path": "/agencias-viajes-ar/sauco-viajes/",
-        "public_url": "https://mayofy.vercel.app/agencias-viajes-ar/sauco-viajes/",
+        "public_url": "https://mayofy-landings.vercel.app/agencias-viajes-ar/sauco-viajes/",
         "frontend_source": "data/frontends/agencias-viajes-ar/sauco-viajes"
       },
       "first_generated_at": "2026-08-10T18:22:09.469Z",
@@ -113,7 +113,7 @@
       "landing": {
         "local_path": "generated/agencias-viajes-ar/tienda-de-viajes",
         "public_path": "/agencias-viajes-ar/tienda-de-viajes/",
-        "public_url": "https://mayofy.vercel.app/agencias-viajes-ar/tienda-de-viajes/",
+        "public_url": "https://mayofy-landings.vercel.app/agencias-viajes-ar/tienda-de-viajes/",
         "frontend_source": "data/frontends/agencias-viajes-ar/tienda-de-viajes"
       },
       "first_generated_at": "2026-08-10T18:22:09.469Z",
@@ -142,7 +142,7 @@
       "landing": {
         "local_path": "generated/agencias-viajes-ar/viq-viajes",
         "public_path": "/agencias-viajes-ar/viq-viajes/",
-        "public_url": "https://mayofy.vercel.app/agencias-viajes-ar/viq-viajes/",
+        "public_url": "https://mayofy-landings.vercel.app/agencias-viajes-ar/viq-viajes/",
         "frontend_source": "data/frontends/agencias-viajes-ar/viq-viajes"
       },
       "first_generated_at": "2026-08-10T18:22:09.469Z",
@@ -158,7 +158,7 @@
       "category": "General Contractor",
       "phone": "011 3356-8147",
       "run": "amba-alta-conversion",
-      "status": "authored",
+      "status": "generated",
       "business_links": {
         "google_maps": "https://maps.google.com/?cid=1733709007747037769&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
         "instagram": null,
@@ -171,11 +171,11 @@
       "landing": {
         "local_path": "generated/amba-alta-conversion/calderas-ya-service-24-hs",
         "public_path": "/amba-alta-conversion/calderas-ya-service-24-hs/",
-        "public_url": "https://mayofy.vercel.app/amba-alta-conversion/calderas-ya-service-24-hs/",
+        "public_url": "https://mayofy-landings.vercel.app/amba-alta-conversion/calderas-ya-service-24-hs/",
         "frontend_source": "data/frontends/amba-alta-conversion/calderas-ya-service-24-hs"
       },
-      "first_generated_at": null,
-      "last_generated_at": null
+      "first_generated_at": "2026-08-11T00:43:41.163Z",
+      "last_generated_at": "2026-08-11T00:43:41.163Z"
     },
     {
       "business_id": "google-ChIJzZkh1FDLvJURuhG8Q3bE5uc",
@@ -187,7 +187,7 @@
       "category": "Locksmith",
       "phone": "011 5908-8773",
       "run": "amba-alta-conversion",
-      "status": "authored",
+      "status": "generated",
       "business_links": {
         "google_maps": "https://maps.google.com/?cid=16710259479626387898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
         "instagram": null,
@@ -200,11 +200,11 @@
       "landing": {
         "local_path": "generated/amba-alta-conversion/cerrajeria-la-madrilena",
         "public_path": "/amba-alta-conversion/cerrajeria-la-madrilena/",
-        "public_url": "https://mayofy.vercel.app/amba-alta-conversion/cerrajeria-la-madrilena/",
+        "public_url": "https://mayofy-landings.vercel.app/amba-alta-conversion/cerrajeria-la-madrilena/",
         "frontend_source": "data/frontends/amba-alta-conversion/cerrajeria-la-madrilena"
       },
-      "first_generated_at": null,
-      "last_generated_at": null
+      "first_generated_at": "2026-08-11T00:43:41.163Z",
+      "last_generated_at": "2026-08-11T00:43:41.163Z"
     },
     {
       "business_id": "google-ChIJfyiFOQDLvJUR7uLOvjE8YU4",
@@ -216,7 +216,7 @@
       "category": "Medical Clinic",
       "phone": "011 2276-0979",
       "run": "amba-alta-conversion",
-      "status": "authored",
+      "status": "generated",
       "business_links": {
         "google_maps": "https://maps.google.com/?cid=5647861592051606254&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
         "instagram": null,
@@ -229,11 +229,11 @@
       "landing": {
         "local_path": "generated/amba-alta-conversion/depilacion-definitiva-guapisimas-depilacion",
         "public_path": "/amba-alta-conversion/depilacion-definitiva-guapisimas-depilacion/",
-        "public_url": "https://mayofy.vercel.app/amba-alta-conversion/depilacion-definitiva-guapisimas-depilacion/",
+        "public_url": "https://mayofy-landings.vercel.app/amba-alta-conversion/depilacion-definitiva-guapisimas-depilacion/",
         "frontend_source": "data/frontends/amba-alta-conversion/depilacion-definitiva-guapisimas-depilacion"
       },
-      "first_generated_at": null,
-      "last_generated_at": null
+      "first_generated_at": "2026-08-11T00:43:41.163Z",
+      "last_generated_at": "2026-08-11T00:43:41.163Z"
     },
     {
       "business_id": "google-ChIJW3ukkESHGpYRuNvepYeDAmo",
@@ -245,7 +245,7 @@
       "category": "Clothing Store",
       "phone": "0294 453-0283",
       "run": "bariloche-ski",
-      "status": "authored",
+      "status": "generated",
       "business_links": {
         "google_maps": "https://maps.google.com/?cid=7638812536600452024&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
         "instagram": null,
@@ -258,11 +258,11 @@
       "landing": {
         "local_path": "generated/bariloche-ski/alquiler-ropa-para-nieve",
         "public_path": "/bariloche-ski/alquiler-ropa-para-nieve/",
-        "public_url": "https://mayofy.vercel.app/bariloche-ski/alquiler-ropa-para-nieve/",
+        "public_url": "https://mayofy-landings.vercel.app/bariloche-ski/alquiler-ropa-para-nieve/",
         "frontend_source": "data/frontends/bariloche-ski/alquiler-ropa-para-nieve"
       },
-      "first_generated_at": null,
-      "last_generated_at": null
+      "first_generated_at": "2026-08-11T00:43:41.163Z",
+      "last_generated_at": "2026-08-11T00:43:41.163Z"
     },
     {
       "business_id": "google-ChIJWULyUB97GpYRZ0GUFdvs8mM",
@@ -274,7 +274,7 @@
       "category": "Services",
       "phone": "0294 590-6607",
       "run": "bariloche-ski",
-      "status": "authored",
+      "status": "generated",
       "business_links": {
         "google_maps": "https://maps.google.com/?cid=7202079179822874983&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
         "instagram": null,
@@ -287,11 +287,11 @@
       "landing": {
         "local_path": "generated/bariloche-ski/aluguel-ropa-para-nieve",
         "public_path": "/bariloche-ski/aluguel-ropa-para-nieve/",
-        "public_url": "https://mayofy.vercel.app/bariloche-ski/aluguel-ropa-para-nieve/",
+        "public_url": "https://mayofy-landings.vercel.app/bariloche-ski/aluguel-ropa-para-nieve/",
         "frontend_source": "data/frontends/bariloche-ski/aluguel-ropa-para-nieve"
       },
-      "first_generated_at": null,
-      "last_generated_at": null
+      "first_generated_at": "2026-08-11T00:43:41.163Z",
+      "last_generated_at": "2026-08-11T00:43:41.163Z"
     },
     {
       "business_id": "google-ChIJi7WvSQBxGpYRH3RIELkAnrw",
@@ -303,7 +303,7 @@
       "category": "Store",
       "phone": "0294 421-2523",
       "run": "bariloche-ski",
-      "status": "authored",
+      "status": "generated",
       "business_links": {
         "google_maps": "https://maps.google.com/?cid=13591301520292869151&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
         "instagram": null,
@@ -316,11 +316,11 @@
       "landing": {
         "local_path": "generated/bariloche-ski/bari-snow",
         "public_path": "/bariloche-ski/bari-snow/",
-        "public_url": "https://mayofy.vercel.app/bariloche-ski/bari-snow/",
+        "public_url": "https://mayofy-landings.vercel.app/bariloche-ski/bari-snow/",
         "frontend_source": "data/frontends/bariloche-ski/bari-snow"
       },
-      "first_generated_at": null,
-      "last_generated_at": null
+      "first_generated_at": "2026-08-11T00:43:41.163Z",
+      "last_generated_at": "2026-08-11T00:43:41.163Z"
     },
     {
       "business_id": "google-ChIJLbC7y3V7GpYRqK2niuemXbQ",
@@ -332,7 +332,7 @@
       "category": "Services",
       "phone": "0294 466-1318",
       "run": "bariloche-ski",
-      "status": "authored",
+      "status": "generated",
       "business_links": {
         "google_maps": "https://maps.google.com/?cid=12996727613055020456&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
         "instagram": null,
@@ -345,11 +345,11 @@
       "landing": {
         "local_path": "generated/bariloche-ski/el-russo-rental",
         "public_path": "/bariloche-ski/el-russo-rental/",
-        "public_url": "https://mayofy.vercel.app/bariloche-ski/el-russo-rental/",
+        "public_url": "https://mayofy-landings.vercel.app/bariloche-ski/el-russo-rental/",
         "frontend_source": "data/frontends/bariloche-ski/el-russo-rental"
       },
-      "first_generated_at": null,
-      "last_generated_at": null
+      "first_generated_at": "2026-08-11T00:43:41.163Z",
+      "last_generated_at": "2026-08-11T00:43:41.163Z"
     },
     {
       "business_id": "google-ChIJC6B38shxGpYRL1Pr4RpX5nk",
@@ -361,7 +361,7 @@
       "category": "Services",
       "phone": "03543 15-60-6807",
       "run": "bariloche-ski",
-      "status": "authored",
+      "status": "generated",
       "business_links": {
         "google_maps": "https://maps.google.com/?cid=8783803896203793199&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
         "instagram": null,
@@ -374,11 +374,11 @@
       "landing": {
         "local_path": "generated/bariloche-ski/epic-bariloche",
         "public_path": "/bariloche-ski/epic-bariloche/",
-        "public_url": "https://mayofy.vercel.app/bariloche-ski/epic-bariloche/",
+        "public_url": "https://mayofy-landings.vercel.app/bariloche-ski/epic-bariloche/",
         "frontend_source": "data/frontends/bariloche-ski/epic-bariloche"
       },
-      "first_generated_at": null,
-      "last_generated_at": null
+      "first_generated_at": "2026-08-11T00:43:41.163Z",
+      "last_generated_at": "2026-08-11T00:43:41.163Z"
     },
     {
       "business_id": "google-ChIJH8JeX0NxGpYRd2b79AeyPpc",
@@ -390,7 +390,7 @@
       "category": "Services",
       "phone": "0294 460-9302",
       "run": "bariloche-ski",
-      "status": "authored",
+      "status": "generated",
       "business_links": {
         "google_maps": "https://maps.google.com/?cid=10898343895527810679&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
         "instagram": null,
@@ -403,11 +403,11 @@
       "landing": {
         "local_path": "generated/bariloche-ski/nestor-ski",
         "public_path": "/bariloche-ski/nestor-ski/",
-        "public_url": "https://mayofy.vercel.app/bariloche-ski/nestor-ski/",
+        "public_url": "https://mayofy-landings.vercel.app/bariloche-ski/nestor-ski/",
         "frontend_source": "data/frontends/bariloche-ski/nestor-ski"
       },
-      "first_generated_at": null,
-      "last_generated_at": null
+      "first_generated_at": "2026-08-11T00:43:41.163Z",
+      "last_generated_at": "2026-08-11T00:43:41.163Z"
     },
     {
       "business_id": "google-ChIJaUSB-G17GpYRB7RJDo88-1M",
@@ -420,7 +420,7 @@
       "category": "Clothing Store",
       "phone": "0294 466-1332",
       "run": "bariloche-ski",
-      "status": "authored",
+      "status": "generated",
       "business_links": {
         "google_maps": "https://maps.google.com/?cid=6051497109420094471&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
         "instagram": null,
@@ -433,11 +433,11 @@
       "landing": {
         "local_path": "generated/bariloche-ski/sandrik-alquiler-ropa-nieve",
         "public_path": "/bariloche-ski/sandrik-alquiler-ropa-nieve/",
-        "public_url": "https://mayofy.vercel.app/bariloche-ski/sandrik-alquiler-ropa-nieve/",
+        "public_url": "https://mayofy-landings.vercel.app/bariloche-ski/sandrik-alquiler-ropa-nieve/",
         "frontend_source": "data/frontends/bariloche-ski/sandrik-alquiler-ropa-nieve"
       },
-      "first_generated_at": null,
-      "last_generated_at": null
+      "first_generated_at": "2026-08-11T00:43:41.163Z",
+      "last_generated_at": "2026-08-11T00:43:41.163Z"
     },
     {
       "business_id": "google-ChIJf4qhOgx7GpYREEzF6DsyzHk",
@@ -450,7 +450,7 @@
       "category": "Services",
       "phone": "0294 15-433-8535",
       "run": "bariloche-ski",
-      "status": "authored",
+      "status": "generated",
       "business_links": {
         "google_maps": "https://maps.google.com/?cid=8776445006727957520&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
         "instagram": null,
@@ -463,11 +463,11 @@
       "landing": {
         "local_path": "generated/bariloche-ski/srn-rental-alquiler-de-ropa-de-nieve-ski-snowboard",
         "public_path": "/bariloche-ski/srn-rental-alquiler-de-ropa-de-nieve-ski-snowboard/",
-        "public_url": "https://mayofy.vercel.app/bariloche-ski/srn-rental-alquiler-de-ropa-de-nieve-ski-snowboard/",
+        "public_url": "https://mayofy-landings.vercel.app/bariloche-ski/srn-rental-alquiler-de-ropa-de-nieve-ski-snowboard/",
         "frontend_source": "data/frontends/bariloche-ski/srn-rental-alquiler-de-ropa-de-nieve-ski-snowboard"
       },
-      "first_generated_at": null,
-      "last_generated_at": null
+      "first_generated_at": "2026-08-11T00:43:41.163Z",
+      "last_generated_at": "2026-08-11T00:43:41.163Z"
     },
     {
       "business_id": "google-ChIJYxh23nF7GpYR7AY6HnN37w0",
@@ -479,7 +479,7 @@
       "category": "Services",
       "phone": "0294 479-1637",
       "run": "bariloche-ski",
-      "status": "authored",
+      "status": "generated",
       "business_links": {
         "google_maps": "https://maps.google.com/?cid=1004152578238973676&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
         "instagram": null,
@@ -492,11 +492,11 @@
       "landing": {
         "local_path": "generated/bariloche-ski/tierra-de-mestizos-rental",
         "public_path": "/bariloche-ski/tierra-de-mestizos-rental/",
-        "public_url": "https://mayofy.vercel.app/bariloche-ski/tierra-de-mestizos-rental/",
+        "public_url": "https://mayofy-landings.vercel.app/bariloche-ski/tierra-de-mestizos-rental/",
         "frontend_source": "data/frontends/bariloche-ski/tierra-de-mestizos-rental"
       },
-      "first_generated_at": null,
-      "last_generated_at": null
+      "first_generated_at": "2026-08-11T00:43:41.163Z",
+      "last_generated_at": "2026-08-11T00:43:41.163Z"
     },
     {
       "business_id": "google-ChIJ4fkyfGB6GpYRf63Rv3ucqYs",
@@ -508,7 +508,7 @@
       "category": "Clothing Store",
       "phone": "0294 441-4490",
       "run": "bariloche-ski",
-      "status": "authored",
+      "status": "generated",
       "business_links": {
         "google_maps": "https://maps.google.com/?cid=10063746897649184127&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
         "instagram": null,
@@ -521,11 +521,11 @@
       "landing": {
         "local_path": "generated/bariloche-ski/travesias-ropa-de-nieve",
         "public_path": "/bariloche-ski/travesias-ropa-de-nieve/",
-        "public_url": "https://mayofy.vercel.app/bariloche-ski/travesias-ropa-de-nieve/",
+        "public_url": "https://mayofy-landings.vercel.app/bariloche-ski/travesias-ropa-de-nieve/",
         "frontend_source": "data/frontends/bariloche-ski/travesias-ropa-de-nieve"
       },
-      "first_generated_at": null,
-      "last_generated_at": null
+      "first_generated_at": "2026-08-11T00:43:41.163Z",
+      "last_generated_at": "2026-08-11T00:43:41.163Z"
     },
     {
       "business_id": "google-ChIJWVVlan-jMpQRYjdNl9aOKds",
@@ -537,7 +537,7 @@
       "category": "negocio local",
       "phone": "0351 15-265-8259",
       "run": "cordoba-conversion",
-      "status": "authored",
+      "status": "generated",
       "business_links": {
         "google_maps": "https://maps.google.com/?cid=15792310620663920482&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
         "instagram": null,
@@ -550,11 +550,11 @@
       "landing": {
         "local_path": "generated/cordoba-conversion/autocentro-cardetail",
         "public_path": "/cordoba-conversion/autocentro-cardetail/",
-        "public_url": "https://mayofy.vercel.app/cordoba-conversion/autocentro-cardetail/",
+        "public_url": "https://mayofy-landings.vercel.app/cordoba-conversion/autocentro-cardetail/",
         "frontend_source": "data/frontends/cordoba-conversion/autocentro-cardetail"
       },
-      "first_generated_at": null,
-      "last_generated_at": null
+      "first_generated_at": "2026-08-11T00:43:41.163Z",
+      "last_generated_at": "2026-08-11T00:43:41.163Z"
     },
     {
       "business_id": "google-ChIJqyfxNjmZMpQRdiRnTRv5uXY",
@@ -566,7 +566,7 @@
       "category": "Car repair and maintenance service",
       "phone": "0351 351-7691",
       "run": "cordoba-conversion",
-      "status": "authored",
+      "status": "generated",
       "business_links": {
         "google_maps": "https://maps.google.com/?cid=8555142862825006198&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
         "instagram": null,
@@ -579,11 +579,11 @@
       "landing": {
         "local_path": "generated/cordoba-conversion/lubricentro-power-ful-ii",
         "public_path": "/cordoba-conversion/lubricentro-power-ful-ii/",
-        "public_url": "https://mayofy.vercel.app/cordoba-conversion/lubricentro-power-ful-ii/",
+        "public_url": "https://mayofy-landings.vercel.app/cordoba-conversion/lubricentro-power-ful-ii/",
         "frontend_source": "data/frontends/cordoba-conversion/lubricentro-power-ful-ii"
       },
-      "first_generated_at": null,
-      "last_generated_at": null
+      "first_generated_at": "2026-08-11T00:43:41.163Z",
+      "last_generated_at": "2026-08-11T00:43:41.163Z"
     },
     {
       "business_id": "google-ChIJCURt-D6YMpQRtFgR9fQuZXY",
@@ -595,7 +595,7 @@
       "category": "Car repair and maintenance service",
       "phone": "0351 549-1346",
       "run": "cordoba-conversion",
-      "status": "authored",
+      "status": "generated",
       "business_links": {
         "google_maps": "https://maps.google.com/?cid=8531276698741725364&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
         "instagram": null,
@@ -608,11 +608,11 @@
       "landing": {
         "local_path": "generated/cordoba-conversion/taller-sr-chapa-y-pintura",
         "public_path": "/cordoba-conversion/taller-sr-chapa-y-pintura/",
-        "public_url": "https://mayofy.vercel.app/cordoba-conversion/taller-sr-chapa-y-pintura/",
+        "public_url": "https://mayofy-landings.vercel.app/cordoba-conversion/taller-sr-chapa-y-pintura/",
         "frontend_source": "data/frontends/cordoba-conversion/taller-sr-chapa-y-pintura"
       },
-      "first_generated_at": null,
-      "last_generated_at": null
+      "first_generated_at": "2026-08-11T00:43:41.163Z",
+      "last_generated_at": "2026-08-11T00:43:41.163Z"
     },
     {
       "business_id": "google-thekingshine-g11vkp5s3dl",
@@ -624,7 +624,7 @@
       "category": "Car detailing / Lavadero",
       "phone": "2345 52-2167",
       "run": "king-shine",
-      "status": "authored",
+      "status": "generated",
       "business_links": {
         "google_maps": "https://www.google.com/maps/place/The+KingShine/@-35.434211,-60.1737776,17z/data=!4m6!3m5!1s0x95be6128a9b72941:0x1f7d9b906c07dccb!8m2!3d-35.434211!4d-60.1737776!16s%2Fg%2F11vkp5s3dl",
         "instagram": "https://www.instagram.com/thekingshine_/",
@@ -639,11 +639,11 @@
       "landing": {
         "local_path": "generated/king-shine/the-king-shine",
         "public_path": "/king-shine/the-king-shine/",
-        "public_url": "https://mayofy.vercel.app/king-shine/the-king-shine/",
+        "public_url": "https://mayofy-landings.vercel.app/king-shine/the-king-shine/",
         "frontend_source": "data/frontends/king-shine/the-king-shine"
       },
-      "first_generated_at": null,
-      "last_generated_at": null
+      "first_generated_at": "2026-08-11T00:43:41.163Z",
+      "last_generated_at": "2026-08-11T00:43:41.163Z"
     },
     {
       "business_id": "google-ChIJ3ZENk7O9vJUR_qB-JTza_2M",
@@ -670,7 +670,7 @@
       "landing": {
         "local_path": "generated/san-miguel-alta-conversion/altos-food-concept",
         "public_path": "/san-miguel-alta-conversion/altos-food-concept/",
-        "public_url": "https://mayofy.vercel.app/san-miguel-alta-conversion/altos-food-concept/",
+        "public_url": "https://mayofy-landings.vercel.app/san-miguel-alta-conversion/altos-food-concept/",
         "frontend_source": "data/frontends/san-miguel-alta-conversion/altos-food-concept"
       },
       "first_generated_at": "2026-07-27T19:10:10.179Z",
@@ -701,7 +701,7 @@
       "landing": {
         "local_path": "generated/san-miguel-alta-conversion/baum-san-miguel",
         "public_path": "/san-miguel-alta-conversion/baum-san-miguel/",
-        "public_url": "https://mayofy.vercel.app/san-miguel-alta-conversion/baum-san-miguel/",
+        "public_url": "https://mayofy-landings.vercel.app/san-miguel-alta-conversion/baum-san-miguel/",
         "frontend_source": "data/frontends/san-miguel-alta-conversion/baum-san-miguel"
       },
       "first_generated_at": "2026-07-27T19:10:10.179Z",
@@ -732,7 +732,7 @@
       "landing": {
         "local_path": "generated/san-miguel-alta-conversion/federico-eventos",
         "public_path": "/san-miguel-alta-conversion/federico-eventos/",
-        "public_url": "https://mayofy.vercel.app/san-miguel-alta-conversion/federico-eventos/",
+        "public_url": "https://mayofy-landings.vercel.app/san-miguel-alta-conversion/federico-eventos/",
         "frontend_source": "data/frontends/san-miguel-alta-conversion/federico-eventos"
       },
       "first_generated_at": "2026-07-27T19:10:10.179Z",
@@ -763,7 +763,7 @@
       "landing": {
         "local_path": "generated/san-miguel-alta-conversion/parrilla-adry",
         "public_path": "/san-miguel-alta-conversion/parrilla-adry/",
-        "public_url": "https://mayofy.vercel.app/san-miguel-alta-conversion/parrilla-adry/",
+        "public_url": "https://mayofy-landings.vercel.app/san-miguel-alta-conversion/parrilla-adry/",
         "frontend_source": "data/frontends/san-miguel-alta-conversion/parrilla-adry"
       },
       "first_generated_at": "2026-07-27T19:10:10.179Z",
@@ -794,7 +794,7 @@
       "landing": {
         "local_path": "generated/san-miguel-alta-conversion/pato-s",
         "public_path": "/san-miguel-alta-conversion/pato-s/",
-        "public_url": "https://mayofy.vercel.app/san-miguel-alta-conversion/pato-s/",
+        "public_url": "https://mayofy-landings.vercel.app/san-miguel-alta-conversion/pato-s/",
         "frontend_source": "data/frontends/san-miguel-alta-conversion/pato-s"
       },
       "first_generated_at": "2026-07-27T19:10:10.179Z",
@@ -810,7 +810,7 @@
       "category": "Sporting Goods Store",
       "phone": "9 4935 0078",
       "run": "santiago-automotor",
-      "status": "authored",
+      "status": "generated",
       "business_links": {
         "google_maps": "https://maps.google.com/?cid=9140538242086612788&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
         "instagram": null,
@@ -823,11 +823,11 @@
       "landing": {
         "local_path": "generated/santiago-automotor/infinity-x-car-detail",
         "public_path": "/santiago-automotor/infinity-x-car-detail/",
-        "public_url": "https://mayofy.vercel.app/santiago-automotor/infinity-x-car-detail/",
+        "public_url": "https://mayofy-landings.vercel.app/santiago-automotor/infinity-x-car-detail/",
         "frontend_source": "data/frontends/santiago-automotor/infinity-x-car-detail"
       },
-      "first_generated_at": null,
-      "last_generated_at": null
+      "first_generated_at": "2026-08-11T00:43:41.163Z",
+      "last_generated_at": "2026-08-11T00:43:41.163Z"
     },
     {
       "business_id": "google-ChIJQ7Uje3LFYpYRHo1MUdeq4WU",
@@ -839,7 +839,7 @@
       "category": "Car Wash",
       "phone": "9 9065 4600",
       "run": "santiago-automotor",
-      "status": "authored",
+      "status": "generated",
       "business_links": {
         "google_maps": "https://maps.google.com/?cid=7341336709349281054&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
         "instagram": null,
@@ -852,11 +852,11 @@
       "landing": {
         "local_path": "generated/santiago-automotor/lavado-de-autos-el-cafetero-2",
         "public_path": "/santiago-automotor/lavado-de-autos-el-cafetero-2/",
-        "public_url": "https://mayofy.vercel.app/santiago-automotor/lavado-de-autos-el-cafetero-2/",
+        "public_url": "https://mayofy-landings.vercel.app/santiago-automotor/lavado-de-autos-el-cafetero-2/",
         "frontend_source": "data/frontends/santiago-automotor/lavado-de-autos-el-cafetero-2"
       },
-      "first_generated_at": null,
-      "last_generated_at": null
+      "first_generated_at": "2026-08-11T00:43:41.163Z",
+      "last_generated_at": "2026-08-11T00:43:41.163Z"
     },
     {
       "business_id": "google-ChIJx3dSsZjFYpYR9-uj3z7VQdw",
@@ -868,7 +868,7 @@
       "category": "Car Wash",
       "phone": "9 5246 9350",
       "run": "santiago-automotor",
-      "status": "authored",
+      "status": "generated",
       "business_links": {
         "google_maps": "https://maps.google.com/?cid=15871201027847089143&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
         "instagram": null,
@@ -881,11 +881,11 @@
       "landing": {
         "local_path": "generated/santiago-automotor/vapor-car",
         "public_path": "/santiago-automotor/vapor-car/",
-        "public_url": "https://mayofy.vercel.app/santiago-automotor/vapor-car/",
+        "public_url": "https://mayofy-landings.vercel.app/santiago-automotor/vapor-car/",
         "frontend_source": "data/frontends/santiago-automotor/vapor-car"
       },
-      "first_generated_at": null,
-      "last_generated_at": null
+      "first_generated_at": "2026-08-11T00:43:41.163Z",
+      "last_generated_at": "2026-08-11T00:43:41.163Z"
     },
     {
       "business_id": "google-ChIJ0xPlavcfkZURPlVFKnFXVHw",
@@ -897,7 +897,7 @@
       "category": "Beauty Salon",
       "phone": "0249 460-5835",
       "run": "tandil",
-      "status": "authored",
+      "status": "generated",
       "business_links": {
         "google_maps": "https://maps.google.com/?cid=8958881702298867006&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
         "instagram": null,
@@ -910,11 +910,11 @@
       "landing": {
         "local_path": "generated/tandil/biloba-centro-de-estetica",
         "public_path": "/tandil/biloba-centro-de-estetica/",
-        "public_url": "https://mayofy.vercel.app/tandil/biloba-centro-de-estetica/",
+        "public_url": "https://mayofy-landings.vercel.app/tandil/biloba-centro-de-estetica/",
         "frontend_source": "data/frontends/tandil/biloba-centro-de-estetica"
       },
-      "first_generated_at": null,
-      "last_generated_at": null
+      "first_generated_at": "2026-08-11T00:43:41.163Z",
+      "last_generated_at": "2026-08-11T00:43:41.163Z"
     },
     {
       "business_id": "google-ChIJu415AgAfkZURQtF3szbPeLA",
@@ -926,7 +926,7 @@
       "category": "Dental Clinic",
       "phone": "0249 436-9999",
       "run": "tandil",
-      "status": "authored",
+      "status": "generated",
       "business_links": {
         "google_maps": "https://maps.google.com/?cid=12716141381726753090&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
         "instagram": null,
@@ -939,11 +939,11 @@
       "landing": {
         "local_path": "generated/tandil/biodent-odontologia-tandil-dra-valeria-guzzanti",
         "public_path": "/tandil/biodent-odontologia-tandil-dra-valeria-guzzanti/",
-        "public_url": "https://mayofy.vercel.app/tandil/biodent-odontologia-tandil-dra-valeria-guzzanti/",
+        "public_url": "https://mayofy-landings.vercel.app/tandil/biodent-odontologia-tandil-dra-valeria-guzzanti/",
         "frontend_source": "data/frontends/tandil/biodent-odontologia-tandil-dra-valeria-guzzanti"
       },
-      "first_generated_at": null,
-      "last_generated_at": null
+      "first_generated_at": "2026-08-11T00:43:41.163Z",
+      "last_generated_at": "2026-08-11T00:43:41.163Z"
     },
     {
       "business_id": "google-ChIJkftE_pgfkZUR1ceDCua7tUI",
@@ -955,7 +955,7 @@
       "category": "Locksmith",
       "phone": "0249 449-8213",
       "run": "tandil",
-      "status": "authored",
+      "status": "generated",
       "business_links": {
         "google_maps": "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
         "instagram": null,
@@ -968,11 +968,11 @@
       "landing": {
         "local_path": "generated/tandil/cerrajeria-zuzulich",
         "public_path": "/tandil/cerrajeria-zuzulich/",
-        "public_url": "https://mayofy.vercel.app/tandil/cerrajeria-zuzulich/",
+        "public_url": "https://mayofy-landings.vercel.app/tandil/cerrajeria-zuzulich/",
         "frontend_source": "data/frontends/tandil/cerrajeria-zuzulich"
       },
-      "first_generated_at": null,
-      "last_generated_at": null
+      "first_generated_at": "2026-08-11T00:43:41.163Z",
+      "last_generated_at": "2026-08-11T00:43:41.163Z"
     },
     {
       "business_id": "google-ChIJk1ED8JMfkZUR4cft0k-WAYU",
@@ -984,7 +984,7 @@
       "category": "Veterinary Care",
       "phone": "0249 444-4777",
       "run": "tandil",
-      "status": "authored",
+      "status": "generated",
       "business_links": {
         "google_maps": "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
         "instagram": null,
@@ -997,11 +997,11 @@
       "landing": {
         "local_path": "generated/tandil/consultorio-veterinario-fernandez",
         "public_path": "/tandil/consultorio-veterinario-fernandez/",
-        "public_url": "https://mayofy.vercel.app/tandil/consultorio-veterinario-fernandez/",
+        "public_url": "https://mayofy-landings.vercel.app/tandil/consultorio-veterinario-fernandez/",
         "frontend_source": "data/frontends/tandil/consultorio-veterinario-fernandez"
       },
-      "first_generated_at": null,
-      "last_generated_at": null
+      "first_generated_at": "2026-08-11T00:43:41.163Z",
+      "last_generated_at": "2026-08-11T00:43:41.163Z"
     },
     {
       "business_id": "google-ChIJV8MZl586M0oRTgGUHoBVWss",
@@ -1013,7 +1013,7 @@
       "category": "Electrician",
       "phone": "0249 460-5301",
       "run": "tandil",
-      "status": "authored",
+      "status": "generated",
       "business_links": {
         "google_maps": "https://maps.google.com/?cid=14653118346360521038&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
         "instagram": null,
@@ -1026,11 +1026,11 @@
       "landing": {
         "local_path": "generated/tandil/electricista-dario-gerez",
         "public_path": "/tandil/electricista-dario-gerez/",
-        "public_url": "https://mayofy.vercel.app/tandil/electricista-dario-gerez/",
+        "public_url": "https://mayofy-landings.vercel.app/tandil/electricista-dario-gerez/",
         "frontend_source": "data/frontends/tandil/electricista-dario-gerez"
       },
-      "first_generated_at": null,
-      "last_generated_at": null
+      "first_generated_at": "2026-08-11T00:43:41.163Z",
+      "last_generated_at": "2026-08-11T00:43:41.163Z"
     },
     {
       "business_id": "google-ChIJrfGdiJsfkZURT-mTqsAYjKQ",
@@ -1042,7 +1042,7 @@
       "category": "Consultant",
       "phone": "0249 411-6653",
       "run": "tandil",
-      "status": "authored",
+      "status": "generated",
       "business_links": {
         "google_maps": "https://maps.google.com/?cid=11856879134734281039&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
         "instagram": null,
@@ -1055,11 +1055,11 @@
       "landing": {
         "local_path": "generated/tandil/estudio-bertucci-abogados",
         "public_path": "/tandil/estudio-bertucci-abogados/",
-        "public_url": "https://mayofy.vercel.app/tandil/estudio-bertucci-abogados/",
+        "public_url": "https://mayofy-landings.vercel.app/tandil/estudio-bertucci-abogados/",
         "frontend_source": "data/frontends/tandil/estudio-bertucci-abogados"
       },
-      "first_generated_at": null,
-      "last_generated_at": null
+      "first_generated_at": "2026-08-11T00:43:41.163Z",
+      "last_generated_at": "2026-08-11T00:43:41.163Z"
     },
     {
       "business_id": "google-ChIJ6XJGlusfkZURy1XJPcng-yM",
@@ -1071,7 +1071,7 @@
       "category": "Hair Salon",
       "phone": "0249 454-4542",
       "run": "tandil",
-      "status": "authored",
+      "status": "generated",
       "business_links": {
         "google_maps": "https://maps.google.com/?cid=2592913165411505611&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
         "instagram": null,
@@ -1084,11 +1084,11 @@
       "landing": {
         "local_path": "generated/tandil/maria-y-sol-peluqueria",
         "public_path": "/tandil/maria-y-sol-peluqueria/",
-        "public_url": "https://mayofy.vercel.app/tandil/maria-y-sol-peluqueria/",
+        "public_url": "https://mayofy-landings.vercel.app/tandil/maria-y-sol-peluqueria/",
         "frontend_source": "data/frontends/tandil/maria-y-sol-peluqueria"
       },
-      "first_generated_at": null,
-      "last_generated_at": null
+      "first_generated_at": "2026-08-11T00:43:41.163Z",
+      "last_generated_at": "2026-08-11T00:43:41.163Z"
     },
     {
       "business_id": "google-ChIJUU2JcPwhkZURtjC3M7AJU7s",
@@ -1100,7 +1100,7 @@
       "category": "Gym",
       "phone": "0249 437-3891",
       "run": "tandil",
-      "status": "authored",
+      "status": "generated",
       "business_links": {
         "google_maps": "https://maps.google.com/?cid=13498143160546046134&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
         "instagram": null,
@@ -1113,11 +1113,11 @@
       "landing": {
         "local_path": "generated/tandil/ox-sports",
         "public_path": "/tandil/ox-sports/",
-        "public_url": "https://mayofy.vercel.app/tandil/ox-sports/",
+        "public_url": "https://mayofy-landings.vercel.app/tandil/ox-sports/",
         "frontend_source": "data/frontends/tandil/ox-sports"
       },
-      "first_generated_at": null,
-      "last_generated_at": null
+      "first_generated_at": "2026-08-11T00:43:41.163Z",
+      "last_generated_at": "2026-08-11T00:43:41.163Z"
     },
     {
       "business_id": "google-ChIJJxVwIvsfkZURLdbl6BbEd1E",
@@ -1129,7 +1129,7 @@
       "category": "Manufacturer",
       "phone": "0249 449-4068",
       "run": "tandil",
-      "status": "authored",
+      "status": "generated",
       "business_links": {
         "google_maps": "https://maps.google.com/?cid=5870376241976432173&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
         "instagram": null,
@@ -1142,11 +1142,11 @@
       "landing": {
         "local_path": "generated/tandil/petrogas-glp",
         "public_path": "/tandil/petrogas-glp/",
-        "public_url": "https://mayofy.vercel.app/tandil/petrogas-glp/",
+        "public_url": "https://mayofy-landings.vercel.app/tandil/petrogas-glp/",
         "frontend_source": "data/frontends/tandil/petrogas-glp"
       },
-      "first_generated_at": null,
-      "last_generated_at": null
+      "first_generated_at": "2026-08-11T00:43:41.163Z",
+      "last_generated_at": "2026-08-11T00:43:41.163Z"
     },
     {
       "business_id": "google-ChIJu-M1JiwfkZURnNgTvQiDxog",
@@ -1158,7 +1158,7 @@
       "category": "Plumber",
       "phone": "0249 451-4325",
       "run": "tandil",
-      "status": "authored",
+      "status": "generated",
       "business_links": {
         "google_maps": "https://maps.google.com/?cid=9855708908102080668&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
         "instagram": null,
@@ -1171,11 +1171,11 @@
       "landing": {
         "local_path": "generated/tandil/plomero-gasista-mauro-veron",
         "public_path": "/tandil/plomero-gasista-mauro-veron/",
-        "public_url": "https://mayofy.vercel.app/tandil/plomero-gasista-mauro-veron/",
+        "public_url": "https://mayofy-landings.vercel.app/tandil/plomero-gasista-mauro-veron/",
         "frontend_source": "data/frontends/tandil/plomero-gasista-mauro-veron"
       },
-      "first_generated_at": null,
-      "last_generated_at": null
+      "first_generated_at": "2026-08-11T00:43:41.163Z",
+      "last_generated_at": "2026-08-11T00:43:41.163Z"
     }
   ]
 }
