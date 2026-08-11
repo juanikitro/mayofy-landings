@@ -19,7 +19,7 @@ import { loadSiteSpecs } from "../site-specs/load-site-specs.js";
 import type { SiteSpec } from "../site-specs/schema.js";
 import { copyAgentFrontend } from "./agent-frontend.js";
 import { renderBusinessPage } from "./html.js";
-import { prepareHeroImage } from "./image-assets.js";
+import { authoredHeroImage, prepareHeroImage } from "./image-assets.js";
 import { renderStyles } from "./styles.js";
 
 type Args = {
@@ -379,7 +379,14 @@ async function main(): Promise<void> {
       agentFrontendSource = copied.sourceDir;
     }
 
-    const heroImage = await prepareHeroImage(business, siteDir, args.requireRealImages && !args.allowMock);
+    // Si el frontend escrito por agente ya trae su portada versionada, se respeta:
+    // descargar la foto de Places ahi no aporta y pisaba ese archivo (ver
+    // `docs/DATA_RULES.md` sobre el hero editorial). Los frontends que no traen
+    // portada propia siguen dependiendo de la descarga, y el renderer de fallback
+    // tambien, asi que en esos casos no cambia nada.
+    const heroImage = spec?.agent_frontend
+      ? await authoredHeroImage(siteDir)
+      : await prepareHeroImage(business, siteDir, args.requireRealImages && !args.allowMock);
 
     if (!spec?.agent_frontend) {
       await writeFile(path.join(siteDir, "index.html"), renderBusinessPage(business, archetype, design, heroImage.heroSrc, spec), "utf8");

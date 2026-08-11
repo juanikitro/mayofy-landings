@@ -4,8 +4,34 @@ import type { Business } from "../content/business-schema.js";
 
 export type PreparedImage = {
   heroSrc: string;
-  status: "downloaded" | "placeholder" | "mock";
+  status: "downloaded" | "placeholder" | "mock" | "authored";
 };
+
+// Nombres de portada que puede traer un frontend escrito por agente, en orden de preferencia.
+const authoredHeroNames = ["portada.jpg", "portada.webp", "portada.png", "hero.jpg", "hero.webp", "hero.png"];
+
+/**
+ * Portada que trae el propio frontend escrito por agente, si existe.
+ *
+ * Cuando el frontend ya versiona su portada en `data/frontends/<run>/<slug>/assets/`,
+ * descargar la foto de Google Places no aporta nada y ademas pisaba ese archivo, que
+ * es justo lo que `docs/DATA_RULES.md` prohibe para el hero. Devuelve `null` cuando el
+ * frontend no trae portada propia: esos sitios siguen dependiendo de la descarga.
+ */
+export async function authoredHeroImage(siteDir: string): Promise<PreparedImage> {
+  for (const name of authoredHeroNames) {
+    try {
+      if ((await stat(path.join(siteDir, "assets", name))).isFile()) {
+        return { heroSrc: `./assets/${name}`, status: "authored" };
+      }
+    } catch {
+      // Probamos el siguiente nombre.
+    }
+  }
+  // El frontend no usa una portada con nombre conocido: sus imagenes son las que
+  // referencie su propio HTML. `heroSrc` solo lo consume el renderer de fallback.
+  return { heroSrc: "./index.html", status: "authored" };
+}
 
 function isGooglePlacePhoto(url: string): boolean {
   return url.startsWith("https://places.googleapis.com/v1/") && url.includes("/media");
