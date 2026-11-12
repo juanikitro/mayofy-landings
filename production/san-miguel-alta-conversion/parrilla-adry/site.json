@@ -1,0 +1,297 @@
+{
+  "id": "google-ChIJ-050yC2WvJUR37Q6qiQdEz0",
+  "name": "Parrilla Adry",
+  "slug": "parrilla-adry",
+  "archetype": "minimal-professional",
+  "palette": {
+    "dominant": "#f8f7f3",
+    "accent": "#2f5d62",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "Aptos",
+    "secondary": "Georgia"
+  },
+  "hero_image": {
+    "heroSrc": "./assets/hero.jpg",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJ-050yC2WvJUR37Q6qiQdEz0",
+    "slug": "parrilla-adry",
+    "visual_mood": "roadside-urgent",
+    "composition": "route-card",
+    "headline": "Parrilla Adry: el lomito al paso rodeado de verde en San Miguel",
+    "subheadline": "Parada obligada para un lomito completo bien hecho, con buena atención y ambiente al aire libre. Pedí para comer ahí o para llevar. Cerrado los domingos.",
+    "primary_cta": "Llamar ahora",
+    "secondary_cta": "Cómo llegar",
+    "service_tags": [
+      "Sándwich de lomito",
+      "Parrilla al paso",
+      "Al plato o para llevar",
+      "Ambiente al aire libre"
+    ],
+    "proof_points": [
+      "4,7 en Google con 269 reseñas",
+      "\"Recomendadísimo el sándwich de lomito, todo de excelente calidad\" — reseña real",
+      "Parrilla al paso en San Miguel, rodeada de verde",
+      "Abierta de lunes a sábado (domingos cerrado)"
+    ],
+    "resource_title": "Antes de parar a comer",
+    "resource_items": [
+      "Teléfono directo para encargar el lomito y pasar a buscarlo.",
+      "Horario visible: de lunes a sábado, con noche de viernes y sábado.",
+      "Reseñas reales que destacan el lomito y la atención."
+    ],
+    "review_heading": "Lo que dicen los que ya pararon a comer",
+    "contact_heading": "Encargá tu lomito o pasá a comer",
+    "image_prompt": "Hero editorial diurno al aire libre: primer plano de sándwich de lomito completo jugoso recién hecho sobre parrilla, con verde de fondo y humo. La foto del lomito —ítem estrella de las reseñas— puede ser stock o imagen generada como serving suggestion, sin afirmar que es del local. Fotos reales de Google Places del puesto y el entorno verde para contexto.",
+    "design_notes": "Dirección 'Parrilla al paso rodeada de verde': humo, lomito y entorno verde. Paleta verde pino drenched + carbón con acento ember-amarillo caliente en CTA (distinta de ALTOS, que es vino/noche). Par Big Shoulders Display (display condensado de cartel de ruta) + Source Serif 4 (cuerpo). Template hero-proof-offer.",
+    "conversion_template": "hero-proof-offer",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Le vende el lomito al paso —parada rápida y rica— al que anda por la zona de San Miguel y decide en el celu si encarga y para a comer o se lo lleva.",
+      "visual_thesis": "Parrilla al paso rodeada de verde: humo, brasa y entorno abierto. Paleta verde pino drenched con carbón y un ember-amarillo caliente reservado al CTA; claramente distinta del vino nocturno de ALTOS. Par tipográfico Big Shoulders Display de cartel de ruta + Source Serif 4. El lomito y el verde mandan.",
+      "copy_voice": "Español argentino, vos, de parada de ruta, directo y con hambre. Sale de las reseñas reales (lomito recomendadísimo, buena atención, mucho verde). Sin institucionalismo ni frases genéricas.",
+      "layout_signature": "Hero con foto dominante del lomito y prueba social (4,7 · 269) arriba del fold, con guiño al entorno verde; secciones de qué comer y cómo (al plato o para llevar), franja de reseñas literales con autor, y contacto con teléfono como elemento gráfico y domingo cerrado visible. Barra sticky de llamada en mobile.",
+      "asset_plan": "Fotos reales del puesto y del verde (Google Places) como contexto. Hero y tarjetas pueden usar stock o imagen generada del sándwich de lomito —ítem estrella de reseñas— como serving suggestion, sin disclaimer. Textura de humo, brasa y follaje en CSS/SVG.",
+      "ai_fill_plan": {
+        "copy": [
+          "Convertir reseñas reales en microcopy de pedido: qué lomito pedir, para comer ahí o llevar.",
+          "Nombrar secciones y CTAs con voz de parrilla al paso, sin inventar carta ni precios.",
+          "Escribir la oferta como recorrido de parada rápida, no como lista con precios inventados."
+        ],
+        "imagery": [
+          "Generar o licenciar una foto apetitosa del sándwich de lomito como serving suggestion, sin aclarar que no es del local.",
+          "Usar textura de humo, brasa y verde en CSS/SVG para dar atmósfera de parada al aire libre."
+        ],
+        "boundaries": [
+          "no inventar precios, stock, marcas, años, premios, garantías, servicios ni reseñas que no estén en los datos verificados del negocio.",
+          "no presentar imágenes de instalaciones, salón, personal ni resultados de otro lugar como si fueran del local: eso sí lleva alt/caption honesto."
+        ]
+      },
+      "anti_patterns": [
+        "Fondo crema/beige por reflejo en vez de la paleta verde comprometida.",
+        "Compartir sistema visual con ALTOS (la otra parrilla): debe ser verde/día, no vino/noche.",
+        "Hero de ficha de Maps en vez de foto de lomito que da hambre.",
+        "Eyebrows tracked-caps o marcadores 01/02/03 sobre cada sección.",
+        "Inventar precios o servicios (ej.: sanitario, delivery) no verificados."
+      ],
+      "rewrite_targets": [
+        "Reemplazar la dirección automotriz del fallback por parrilla al paso real.",
+        "Diferenciar la paleta y el hero de ALTOS para que no parezcan la misma tanda.",
+        "Hacer que el hero venda el lomito y el verde en los primeros 5 segundos.",
+        "Mostrar el domingo cerrado y el horario como dato operativo claro."
+      ]
+    },
+    "commercial": {
+      "tone": "fast-local",
+      "customer_type": "Personas que andan por la zona y buscan una parrilla al paso para comer o llevar.",
+      "hero_claim": "Una parada de lomito para llamar, consultar y pasar.",
+      "trust_bar": [
+        {
+          "label": "Valoración",
+          "title": "4,7 / 5",
+          "body": "269 reseñas",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Horario",
+          "title": "Horario publicado",
+          "body": "Lun-jue 10:00 a. m. – 4:00 p. m.; vie 10:00 a. m. – 4:00 p. m. y 7:30 p. m. – 12:30 a. m.; sáb 10:00 a. m. – 5:00 p. m. y 7:30 p. m. – 12:30 a. m.; dom cerrado.",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Contacto",
+          "title": "Teléfono directo",
+          "body": "011 3813-4187",
+          "meta": "Dato verificado"
+        }
+      ],
+      "service_cards": [
+        {
+          "label": "Elegir",
+          "title": "Sándwich de lomito",
+          "body": "La información publicada destaca sándwich de lomito."
+        },
+        {
+          "label": "Consultar",
+          "title": "Parrilla al paso",
+          "body": "Teléfono, dirección y horario quedan visibles para decidir sin buscar otro dato."
+        },
+        {
+          "label": "Pasar",
+          "title": "Entorno verde",
+          "body": "El siguiente paso se resuelve con contacto directo y la ubicación del negocio."
+        }
+      ],
+      "why_choose": [
+        {
+          "title": "Datos visibles",
+          "body": "Valoración, horario, dirección y contacto aparecen juntos."
+        },
+        {
+          "title": "Reseñas con autor",
+          "body": "“Uno de nuestros lugares favoritos, sabes que si venís acá vas a comer riquísimo. Todo de excelente calidad 😍🥪 Recomendadisimooo el sandwich de lomito” — Nahir Fernandez."
+        },
+        {
+          "title": "Próximo paso claro",
+          "body": "Llamar para consultar y avanzar."
+        }
+      ],
+      "packages": [
+        {
+          "name": "Para decidir hoy",
+          "price_label": "Sin precios publicados",
+          "body": "Información útil para hacer la consulta antes de pasar.",
+          "items": [
+            "Horario publicado",
+            "Dirección",
+            "Contacto directo"
+          ]
+        },
+        {
+          "name": "Consulta directa",
+          "price_label": "A confirmar con el negocio",
+          "body": "La llamada permite confirmar disponibilidad sin prometer datos no publicados.",
+          "items": [
+            "Necesidad",
+            "Horario",
+            "Siguiente paso"
+          ]
+        }
+      ],
+      "gallery": [
+        {
+          "label": "Contexto",
+          "title": "Imagen principal",
+          "body": "La composición visual acompaña la decisión de contacto.",
+          "meta": "Uso editorial acorde al brief"
+        },
+        {
+          "label": "Señal local",
+          "title": "Dirección y horario",
+          "body": "Información operativa visible para llegar sin vueltas.",
+          "meta": "1663, B1663 San Miguel, Provincia de Buenos Aires, Argentina"
+        }
+      ],
+      "process": [
+        {
+          "step": "Contacto",
+          "title": "Llamar",
+          "body": "Elegí el canal publicado."
+        },
+        {
+          "step": "Consulta",
+          "title": "Confirmar disponibilidad",
+          "body": "El negocio confirma el dato que falta."
+        },
+        {
+          "step": "Visita",
+          "title": "Pasar por el lugar",
+          "body": "La dirección y el horario quedan visibles."
+        }
+      ],
+      "final_cta": {
+        "title": "Una parada de lomito para llamar, consultar y pasar.",
+        "body": "1663, B1663 San Miguel, Provincia de Buenos Aires, Argentina. Lun-jue 10:00 a. m. – 4:00 p. m.; vie 10:00 a. m. – 4:00 p. m. y 7:30 p. m. – 12:30 a. m.; sáb 10:00 a. m. – 5:00 p. m. y 7:30 p. m. – 12:30 a. m.; dom cerrado.",
+        "primary_label": "Llamar y consultar",
+        "secondary_label": "Cómo llegar"
+      },
+      "editable_note": "No se publican precios, promociones, capacidad ni servicios que no estén confirmados."
+    },
+    "creative": {
+      "concept": "Una parada de lomito para llamar, consultar y pasar.",
+      "audience": "Personas que andan por la zona y buscan una parrilla al paso para comer o llevar.",
+      "visual_direction": "Parrilla al paso rodeada de verde: humo, brasa y entorno abierto. Paleta verde pino drenched con carbón y un ember-amarillo caliente reservado al CTA; claramente distinta del vino nocturno de ALTOS. Par tipográfico Big Shoulders Display de cartel de ruta + Source Serif 4. El lomito y el verde mandan.",
+      "layout": "roadside-rescue",
+      "texture": "road-markings",
+      "hero_angle": "Una parada de lomito para llamar, consultar y pasar.",
+      "hero_cards": [
+        {
+          "label": "Valoración",
+          "value": "4,7 / 5",
+          "note": "269 reseñas"
+        },
+        {
+          "label": "Horario",
+          "value": "Horario publicado",
+          "note": "Lun-jue 10:00 a. m. – 4:00 p. m.; vie 10:00 a. m. – 4:00 p. m. y 7:30 p. m. – 12:30 a. m.; sáb 10:00 a. m. – 5:00 p. m. y 7:30 p. m. – 12:30 a. m.; dom cerrado."
+        },
+        {
+          "label": "Contacto",
+          "value": "011 3813-4187",
+          "note": "Canal publicado"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Para decidir",
+          "title": "Lo que buscás, a mano",
+          "body": "La información pública se ordena alrededor de la acción de contacto.",
+          "items": [
+            {
+              "label": "Elegir",
+              "value": "Sándwich de lomito",
+              "note": "La información publicada destaca sándwich de lomito."
+            },
+            {
+              "label": "Consultar",
+              "value": "Parrilla al paso",
+              "note": "Teléfono, dirección y horario quedan visibles para decidir sin buscar otro dato."
+            },
+            {
+              "label": "Pasar",
+              "value": "Entorno verde",
+              "note": "El siguiente paso se resuelve con contacto directo y la ubicación del negocio."
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Reseñas",
+          "title": "Lo dicen quienes ya fueron",
+          "body": "Una reseña literal aporta una señal concreta para decidir.",
+          "items": [
+            {
+              "label": "Opinión",
+              "value": "Uno de nuestros lugares favoritos, sabes que si venís acá vas a comer riquísimo. Todo de excelente calidad 😍🥪 Recomendadisimooo el sandwich de lomito",
+              "note": "Nahir Fernandez"
+            },
+            {
+              "label": "Valoración",
+              "value": "4,7 / 5",
+              "note": "269 reseñas"
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Contacto",
+          "title": "Llegar o consultar sin vueltas",
+          "body": "Dirección, horario y contacto quedan visibles en el cierre.",
+          "items": [
+            {
+              "label": "Contacto",
+              "value": "011 3813-4187"
+            },
+            {
+              "label": "Horario",
+              "value": "Lun-jue 10:00 a. m. – 4:00 p. m.; vie 10:00 a. m. – 4:00 p. m. y 7:30 p. m. – 12:30 a. m.; sáb 10:00 a. m. – 5:00 p. m. y 7:30 p. m. – 12:30 a. m.; dom cerrado."
+            },
+            {
+              "label": "Dirección",
+              "value": "1663, B1663 San Miguel, Provincia de Buenos Aires, Argentina"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/san-miguel-alta-conversion/parrilla-adry",
+      "notes": "Dirección 'Parrilla al paso rodeada de verde': humo, lomito y entorno verde. Paleta verde pino drenched + carbón con acento ember-amarillo caliente en CTA (distinta de ALTOS, que es vino/noche). Par Big Shoulders Display (display condensado de cartel de ruta) + Source Serif 4 (cuerpo). Template hero-proof-offer."
+    }
+  }
+}

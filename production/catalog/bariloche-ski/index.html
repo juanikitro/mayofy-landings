@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="es-AR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <title>bariloche-ski</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #171713;
+        --muted: #67675d;
+        --line: #d8d2c3;
+        --canvas: #f6f3ea;
+        --surface: #fffdf7;
+        --accent: #b6402c;
+        --accent-2: #1f6c66;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background:
+          linear-gradient(120deg, rgba(182, 64, 44, 0.11), transparent 34%),
+          linear-gradient(300deg, rgba(31, 108, 102, 0.12), transparent 38%),
+          repeating-linear-gradient(90deg, rgba(23, 23, 19, 0.045), rgba(23, 23, 19, 0.045) 1px, transparent 1px, transparent 54px),
+          var(--canvas);
+        color: var(--ink);
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+      main { width: min(1180px, calc(100% - 32px)); margin: 0 auto; padding: 36px 0 56px; }
+      a { color: inherit; }
+      .topbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+        margin-bottom: 30px;
+      }
+      .brand { font-weight: 900; letter-spacing: 0.08em; text-transform: uppercase; font-size: 0.76rem; color: var(--muted); }
+      h1 { margin: 0; max-width: 880px; font-size: clamp(2.25rem, 6vw, 5.9rem); line-height: 0.95; letter-spacing: 0; }
+      h2 { margin: 0; font-size: clamp(1.35rem, 3vw, 2.45rem); line-height: 1.02; letter-spacing: 0; }
+      h3 { margin: 22px 0 8px; font-size: 1rem; }
+      p { line-height: 1.55; }
+      .lead { max-width: 650px; color: var(--muted); font-size: 1.03rem; }
+      .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-top: 26px; }
+      .card {
+        display: grid;
+        min-height: 190px;
+        grid-template-rows: auto 1fr auto;
+        gap: 18px;
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: color-mix(in srgb, var(--surface) 94%, transparent);
+        text-decoration: none;
+        box-shadow: 0 1px 0 rgba(23, 23, 19, 0.04);
+      }
+      a.card:hover { border-color: var(--accent); box-shadow: 0 16px 36px rgba(23, 23, 19, 0.12); transform: translateY(-2px); }
+      .meta { display: flex; flex-wrap: wrap; gap: 8px; color: var(--muted); font-size: 0.82rem; font-weight: 760; }
+      .pill { border: 1px solid var(--line); border-radius: 999px; padding: 5px 8px; background: #ffffffa8; }
+      .links { display: flex; flex-wrap: wrap; gap: 10px; }
+      .button,
+      .logout {
+        appearance: none;
+        border: 1px solid var(--ink);
+        border-radius: 999px;
+        background: var(--ink);
+        color: white;
+        padding: 10px 14px;
+        font: inherit;
+        font-weight: 800;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .button.secondary { background: transparent; color: var(--ink); border-color: var(--line); }
+      .message-actions { margin: 8px 0 10px; }
+      .section {
+        margin-top: 18px;
+        padding: 20px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--surface);
+      }
+      .login-shell {
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 24px;
+      }
+      .login {
+        width: min(440px, 100%);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--surface);
+        padding: 24px;
+        box-shadow: 0 24px 70px rgba(23, 23, 19, 0.13);
+      }
+      label { display: block; margin: 14px 0 6px; color: var(--muted); font-weight: 800; font-size: 0.84rem; }
+      input {
+        width: 100%;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: white;
+        padding: 12px;
+        font: inherit;
+      }
+      .error { min-height: 22px; color: var(--accent); font-weight: 800; }
+      pre { white-space: pre-wrap; font: inherit; background: #f1eee4; border-radius: 6px; padding: 12px; overflow: auto; }
+      ul { padding-left: 21px; }
+      li { margin: 6px 0; }
+      @media (max-width: 860px) {
+        .grid { grid-template-columns: 1fr; }
+        .topbar { align-items: flex-start; }
+      }
+    </style>
+  </head>
+  <body><script>
+(() => {
+  if (localStorage.getItem("ia-landing-generator.catalog-auth") !== "ok") {
+    location.replace("/");
+  }
+})();
+</script><main>
+      <div class="topbar"><a class="button secondary" href="/catalog/">Todas las sesiones</a><button class="logout" type="button" onclick="localStorage.removeItem("ia-landing-generator.catalog-auth");location.href='/'">Salir</button></div>
+      <h1>bariloche-ski</h1>
+      <p class="lead">10 landings listas para compartir con URL publica directa.</p>
+      <section class="grid" aria-label="Landings de bariloche-ski"><article class="card">
+        <div class="meta">
+          <span class="pill">ski shop</span>
+          <span class="pill">4.3 (162)</span>
+          <span class="pill">agent-static</span>
+        </div>
+        <div>
+          <h2>Sandrik</h2>
+          <p class="lead">El local de barrio donde toda la familia se equipa de nieve antes de subir, con perchero real y atención paciente.</p>
+        </div>
+        <div class="links">
+          <a class="button" href="/bariloche-ski/sandrik-alquiler-ropa-nieve/">Abrir landing</a>
+          <a class="button secondary" href="/catalog/bariloche-ski/sandrik-alquiler-ropa-nieve/estudio/">Estudio</a>
+        </div>
+      </article><article class="card">
+        <div class="meta">
+          <span class="pill">alquiler de equipos de nieve</span>
+          <span class="pill">5.0 (61)</span>
+          <span class="pill">agent-static</span>
+        </div>
+        <div>
+          <h2>SRN Rental</h2>
+          <p class="lead">El alquiler que te saca el miedo a la primera vez: equipos nuevos, atención bilingüe y acompañamiento real.</p>
+        </div>
+        <div class="links">
+          <a class="button" href="/bariloche-ski/srn-rental-alquiler-de-ropa-de-nieve-ski-snowboard/">Abrir landing</a>
+          <a class="button secondary" href="/catalog/bariloche-ski/srn-rental-alquiler-de-ropa-de-nieve-ski-snowboard/estudio/">Estudio</a>
+        </div>
+      </article><article class="card">
+        <div class="meta">
+          <span class="pill">alquiler de tablas de snowboard</span>
+          <span class="pill">4.8 (50)</span>
+          <span class="pill">agent-static</span>
+        </div>
+        <div>
+          <h2>Nestor Ski</h2>
+          <p class="lead">El puesto al pie del cerro que te resuelve el equipo y el guardado el mismo día que esquiás.</p>
+        </div>
+        <div class="links">
+          <a class="button" href="/bariloche-ski/nestor-ski/">Abrir landing</a>
+          <a class="button secondary" href="/catalog/bariloche-ski/nestor-ski/estudio/">Estudio</a>
+        </div>
+      </article><article class="card">
+        <div class="meta">
+          <span class="pill">alquiler de botas de ski</span>
+          <span class="pill">4.8 (37)</span>
+          <span class="pill">agent-static</span>
+        </div>
+        <div>
+          <h2>El Russo Rental</h2>
+          <p class="lead">El ropero de nieve donde salís equipado completo y con trato de familia.</p>
+        </div>
+        <div class="links">
+          <a class="button" href="/bariloche-ski/el-russo-rental/">Abrir landing</a>
+          <a class="button secondary" href="/catalog/bariloche-ski/el-russo-rental/estudio/">Estudio</a>
+        </div>
+      </article><article class="card">
+        <div class="meta">
+          <span class="pill">alquiler de equipos de nieve</span>
+          <span class="pill">4.5 (330)</span>
+          <span class="pill">agent-static</span>
+        </div>
+        <div>
+          <h2>Tierra de Mestizos Rental</h2>
+          <p class="lead">El almacén de equipos con tanto volumen de reseñas que el primerizo entra tranquilo.</p>
+        </div>
+        <div class="links">
+          <a class="button" href="/bariloche-ski/tierra-de-mestizos-rental/">Abrir landing</a>
+          <a class="button secondary" href="/catalog/bariloche-ski/tierra-de-mestizos-rental/estudio/">Estudio</a>
+        </div>
+      </article><article class="card">
+        <div class="meta">
+          <span class="pill">ski shop</span>
+          <span class="pill">4.3 (209)</span>
+          <span class="pill">agent-static</span>
+        </div>
+        <div>
+          <h2>Epic Bariloche</h2>
+          <p class="lead">El taller freeride donde tu tabla sale a punto y guardás el equipo entre jornadas.</p>
+        </div>
+        <div class="links">
+          <a class="button" href="/bariloche-ski/epic-bariloche/">Abrir landing</a>
+          <a class="button secondary" href="/catalog/bariloche-ski/epic-bariloche/estudio/">Estudio</a>
+        </div>
+      </article><article class="card">
+        <div class="meta">
+          <span class="pill">alquiler de equipos de nieve</span>
+          <span class="pill">4.7 (18)</span>
+          <span class="pill">agent-static</span>
+        </div>
+        <div>
+          <h2>Aluguel Ropa para nieve</h2>
+          <p class="lead">La estación de ropa de nieve que recibe al viajero en su idioma y con paciencia.</p>
+        </div>
+        <div class="links">
+          <a class="button" href="/bariloche-ski/aluguel-ropa-para-nieve/">Abrir landing</a>
+          <a class="button secondary" href="/catalog/bariloche-ski/aluguel-ropa-para-nieve/estudio/">Estudio</a>
+        </div>
+      </article><article class="card">
+        <div class="meta">
+          <span class="pill">alquiler de ropa de nieve</span>
+          <span class="pill">4.9 (17)</span>
+          <span class="pill">agent-static</span>
+        </div>
+        <div>
+          <h2>Alquiler Ropa Para Nieve</h2>
+          <p class="lead">El alquiler que aparece cuando el resto cerró y te lleva la ropa hasta la puerta.</p>
+        </div>
+        <div class="links">
+          <a class="button" href="/bariloche-ski/alquiler-ropa-para-nieve/">Abrir landing</a>
+          <a class="button secondary" href="/catalog/bariloche-ski/alquiler-ropa-para-nieve/estudio/">Estudio</a>
+        </div>
+      </article><article class="card">
+        <div class="meta">
+          <span class="pill">ski shop</span>
+          <span class="pill">4.6 (78)</span>
+          <span class="pill">agent-static</span>
+        </div>
+        <div>
+          <h2>Bari Snow</h2>
+          <p class="lead">El local céntrico donde el dueño ajusta tu tabla antes de que salgas a la nieve.</p>
+        </div>
+        <div class="links">
+          <a class="button" href="/bariloche-ski/bari-snow/">Abrir landing</a>
+          <a class="button secondary" href="/catalog/bariloche-ski/bari-snow/estudio/">Estudio</a>
+        </div>
+      </article><article class="card">
+        <div class="meta">
+          <span class="pill">alquiler de ropa de nieve</span>
+          <span class="pill">4.7 (15)</span>
+          <span class="pill">agent-static</span>
+        </div>
+        <div>
+          <h2>Travesías Ropa De Nieve</h2>
+          <p class="lead">La bitácora de viaje que resuelve ropa, traslados y excursiones en una sola parada.</p>
+        </div>
+        <div class="links">
+          <a class="button" href="/bariloche-ski/travesias-ropa-de-nieve/">Abrir landing</a>
+          <a class="button secondary" href="/catalog/bariloche-ski/travesias-ropa-de-nieve/estudio/">Estudio</a>
+        </div>
+      </article></section>
+    </main></body>
+</html>

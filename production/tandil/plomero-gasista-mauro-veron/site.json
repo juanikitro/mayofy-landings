@@ -1,0 +1,176 @@
+{
+  "id": "google-ChIJu-M1JiwfkZURnNgTvQiDxog",
+  "name": "Plomero Gasista Mauro Veron",
+  "slug": "plomero-gasista-mauro-veron",
+  "archetype": "industrial-garage",
+  "palette": {
+    "dominant": "#2d2a26",
+    "accent": "#d94f30",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "IBM Plex Sans Condensed",
+    "secondary": "Source Serif 4"
+  },
+  "hero_image": {
+    "heroSrc": "./index.html",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJu-M1JiwfkZURnNgTvQiDxog",
+    "slug": "plomero-gasista-mauro-veron",
+    "visual_mood": "workshop-trust",
+    "composition": "service-ledger",
+    "headline": "Mauro Verón, plomero y gasista que llega el mismo día en Tandil",
+    "subheadline": "Urgencias de plomería y gas en Primera Junta 1507, con 4.8 sobre 5 en 24 reseñas y jueves de atención las 24 horas.",
+    "primary_cta": "Llamar al 0249 451-4325",
+    "secondary_cta": "Ver zona de trabajo",
+    "service_tags": [
+      "Destapaciones",
+      "Reparación de canillas",
+      "Gasista matriculado",
+      "Tanques de agua"
+    ],
+    "proof_points": [
+      "4.8 sobre 5 en 24 reseñas de Google",
+      "Primera Junta 1507, Tandil",
+      "Jueves abierto las 24 horas, resto de la semana de 8 a 18",
+      "\"Los llamé y en el mismo día vinieron, me explicaron el problema y lo arreglaron en el acto\" — Aaron Lauda"
+    ],
+    "resource_title": "Antes de llamar",
+    "resource_items": [
+      "Contá el problema por teléfono para que lleguen con las herramientas correctas.",
+      "Los jueves hay atención las 24 horas, el resto de la semana de 8 a 18.",
+      "Trabajos de plomería y de gas matriculado, en un mismo llamado."
+    ],
+    "review_heading": "Lo que cuentan los clientes de Mauro",
+    "contact_heading": "Llamá y coordiná la visita",
+    "image_prompt": "Obra en construcción con cañerías de PVC naranja instaladas en pared de ladrillo visto, herramientas de plomero apoyadas, luz natural de obra.",
+    "design_notes": "Ficha de obra en terracota y ladrillo: cañerías naranjas reales, ladrillo visto, mortero. Fjalla One + Vollkorn, paleta terracota, crema y azul tinta de plano.",
+    "conversion_template": "urgent-call-first",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Plomero y gasista matriculado de Tandil que convierte una urgencia de cañería o gas en un llamado que se resuelve el mismo día.",
+      "visual_thesis": "Ficha de obra en terracota y ladrillo: la foto real de las cañerías de PVC naranja instaladas en la pared de ladrillo visto se vuelve la textura y el color de toda la página. Display Fjalla One condensado tipo cartel de obra, cuerpo Vollkorn serif cálido como una libreta de trabajo. Paleta terracota, crema de mortero y azul tinta de plano como acento del CTA.",
+      "copy_voice": "Español argentino de obra, concreto y sin vueltas, apoyado en lo que cuentan los clientes reales.",
+      "layout_signature": "Template urgent-call-first: hero con la foto real de la instalación de cañerías, titular directo y botón de llamada como elemento más grande de la página; debajo franja horaria destacando el jueves 24 horas, tablero de servicios tipo ficha de obra, reseñas de clientes y contacto final con mapa.",
+      "asset_plan": "Foto real de las cañerías de PVC naranja en la pared de ladrillo (foto-3) como hero; foto-1 y foto-2 como fotos de trabajo adicionales con captions; textura de ladrillo visto en CSS como fondo de sección, sin stock externo.",
+      "ai_fill_plan": {
+        "copy": [
+          "Microcopy de la franja horaria derivado del dato real de jueves 24 horas",
+          "Encabezados de bloque como 'Ficha de obra' sin inventar certificaciones no verificadas"
+        ],
+        "imagery": [
+          "Textura de ladrillo visto en CSS de fondo",
+          "Línea de cañería en SVG como separador de secciones"
+        ],
+        "boundaries": [
+          "No decir 'urgencias 24hs todos los días': la evidencia real es solo jueves 24 horas",
+          "No inventar precios ni marcas de materiales",
+          "Solo citar las 3 reseñas verificadas con autor exacto"
+        ]
+      },
+      "anti_patterns": [
+        "Fuentes genéricas como Inter, Roboto o Arial",
+        "Gradiente violeta sobre blanco",
+        "Afirmar disponibilidad 24 horas todos los días sin evidencia",
+        "Fotos de stock de plomería en vez de la obra real"
+      ],
+      "rewrite_targets": [
+        "El botón de llamada tiene que ser el elemento visual más caliente de todo el hero",
+        "El dato del jueves 24 horas necesita destacarse, no perderse en el texto",
+        "Las reseñas reales deben leerse antes del formulario de contacto, no después"
+      ]
+    },
+    "creative": {
+      "concept": "El plomero y gasista de Tandil que llega el mismo día que lo llamás.",
+      "audience": "Vecinos de Tandil con una pérdida de agua, destapación urgente o instalación de gas que necesitan resolver ya.",
+      "visual_direction": "Foto real de cañerías de PVC naranja en pared de ladrillo, textura de obra, tipografía de cartel de construcción.",
+      "layout": "mechanic-ledger",
+      "texture": "primer-dust",
+      "hero_angle": "Plomero y gasista matriculado en Tandil con 4.8 sobre 5 en 24 reseñas y atención de urgencia los jueves las 24 horas.",
+      "hero_cards": [
+        {
+          "label": "Reseñas",
+          "value": "4.8★ en 24 opiniones",
+          "note": "Perfil público de Google"
+        },
+        {
+          "label": "Zona",
+          "value": "Primera Junta 1507, Tandil"
+        },
+        {
+          "label": "Contacto",
+          "value": "0249 451-4325"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Trabajos que resuelve",
+          "title": "Plomería y gas en un mismo llamado",
+          "body": "Destapaciones, canillas, tanques de agua e instalaciones de gas matriculadas.",
+          "items": [
+            {
+              "label": "Destapaciones",
+              "value": "Con máquina, el mismo día"
+            },
+            {
+              "label": "Canillas y pérdidas",
+              "value": "Reparación en el acto"
+            },
+            {
+              "label": "Tanques de agua",
+              "value": "Arreglo e instalación"
+            },
+            {
+              "label": "Gas matriculado",
+              "value": "Instalaciones habilitadas"
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Clientes de Mauro",
+          "title": "Puntual y resolutivo",
+          "body": "Lo que cuentan quienes ya lo llamaron.",
+          "items": [
+            {
+              "label": "Camila Burgos",
+              "value": "Muy buena atención. Resolutivo y profesional. 100% recomendable, de ahora en más sabemos a quién llamar."
+            },
+            {
+              "label": "Emilio Ibarra",
+              "value": "Groso total, trabajan muy buen y rapido. Me arreglaron el tanque de agua y las canillas que perdian."
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Contacto directo",
+          "title": "Llamá y contá el problema",
+          "body": "Teléfono directo, con el jueves de atención las 24 horas bien visible.",
+          "items": [
+            {
+              "label": "Llamar",
+              "value": "0249 451-4325"
+            },
+            {
+              "label": "Jueves",
+              "value": "Atención las 24 horas"
+            },
+            {
+              "label": "Resto de la semana",
+              "value": "De 8 a 18, sábados de 8:30 a 13"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/tandil/plomero-gasista-mauro-veron",
+      "notes": "Ficha de obra en terracota y ladrillo: foto real de cañerías como hero, Fjalla One + Vollkorn, textura de ladrillo visto en CSS."
+    }
+  }
+}

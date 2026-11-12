@@ -1,0 +1,297 @@
+{
+  "id": "google-ChIJ3wzoHSmWvJUR3mg5-lump3g",
+  "name": "PATO'S",
+  "slug": "pato-s",
+  "archetype": "industrial-garage",
+  "palette": {
+    "dominant": "#2d2a26",
+    "accent": "#d94f30",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "IBM Plex Sans Condensed",
+    "secondary": "Source Serif 4"
+  },
+  "hero_image": {
+    "heroSrc": "./assets/hero.jpg",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJ3wzoHSmWvJUR3mg5-lump3g",
+    "slug": "pato-s",
+    "visual_mood": "neighborhood-direct",
+    "composition": "service-ledger",
+    "headline": "PATO'S: empanadas fritas y tartas recién hechas para llevar",
+    "subheadline": "La rotisería de San Miguel donde está todo a tiempo y calentito. Empanadas fritas, tartas y comida casera sobre Av. Balbín 4585. Llamá y pasá a retirar.",
+    "primary_cta": "Llamar y encargar",
+    "secondary_cta": "Cómo llegar",
+    "service_tags": [
+      "Empanadas fritas",
+      "Tartas caseras",
+      "Comida para llevar",
+      "Rotisería"
+    ],
+    "proof_points": [
+      "4,7 en Google con 561 reseñas",
+      "\"Todo impecable, muy rico y a tiempo y calentito\" — reseña real",
+      "Av. Dr. Ricardo Balbín 4585, San Miguel",
+      "Atiende de martes a sábado (domingos cerrado)"
+    ],
+    "resource_title": "Para encargar bien",
+    "resource_items": [
+      "Teléfono directo para pedir y retirar sin esperar.",
+      "Horario de atención visible: cerrado los domingos.",
+      "Reseñas reales que destacan las empanadas y las tartas."
+    ],
+    "review_heading": "Lo que recomiendan los clientes de siempre",
+    "contact_heading": "Encargá y pasá a retirar",
+    "image_prompt": "Hero editorial diurno: primer plano de empanadas fritas doradas apiladas y tartas caseras recién horneadas sobre mostrador, luz natural de mediodía. Estas fotos de los ítems destacados en reseñas (empanadas fritas, tartas) pueden ser stock o imagen generada como serving suggestion, sin afirmar que son del local. Fotos reales de Google Places del mostrador para contexto.",
+    "design_notes": "Dirección 'Rotisería de mediodía': comida para llevar, honesta y apetitosa, luz de día. Paleta LIGHT comprometida — rojo tomate + mostaza con tinta marrón, off-white tintado al rubro (no crema por reflejo). Par Alfa Slab One (display, cartel de deli) + Hanken Grotesk (cuerpo). Template catalog-counter (mostrador/menú).",
+    "conversion_template": "catalog-counter",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Le vende el almuerzo o la cena resuelta —empanadas fritas y tartas caseras para llevar— al vecino apurado de San Miguel que quiere encargar rápido y pasar a retirar calentito.",
+      "visual_thesis": "Rotisería de mediodía: cartel de deli honesto y apetitoso con luz de día. Paleta light comprometida de rojo tomate y mostaza sobre off-white tintado al rubro (jamás crema por reflejo), tinta marrón para el cuerpo. Par tipográfico Alfa Slab One de marquesina de rotisería + Hanken Grotesk. El mostrador y el producto mandan.",
+      "copy_voice": "Español argentino, vos, de barrio y directo. Da hambre y empuja a llamar y encargar. Sale de las reseñas reales (todo a tiempo y calentito, empanadas, tartas). Sin frases genéricas.",
+      "layout_signature": "Hero con foto dominante de empanadas fritas y tartas y CTA de llamar arriba del fold; catálogo de mostrador por secciones (empanadas, tartas, casera), franja de reseñas literales con autor, y bloque de horario/contacto con el domingo cerrado bien visible. Barra sticky de llamada en mobile.",
+      "asset_plan": "Foto real del mostrador (Google Places) como contexto. Hero y tarjetas de producto usan stock o imagen generada de empanadas fritas y tartas —ítems destacados en reseñas— como serving suggestion, sin disclaimer. Textura de papel manteca y menú de deli en CSS.",
+      "ai_fill_plan": {
+        "copy": [
+          "Convertir reseñas reales en microcopy de pedido: qué encargar, cómo retirar, en qué horario.",
+          "Nombrar secciones del catálogo y CTAs con voz de rotisería, sin inventar precios ni combos.",
+          "Escribir la oferta como carta de mostrador honesta, no como lista con precios inventados."
+        ],
+        "imagery": [
+          "Generar o licenciar fotos apetitosas de empanadas fritas y tartas caseras como serving suggestion, sin aclarar que no son del local.",
+          "Usar textura de papel manteca y cartel de deli en CSS/SVG para dar carácter propio."
+        ],
+        "boundaries": [
+          "no inventar precios, stock, marcas, años, premios, garantías, servicios ni reseñas que no estén en los datos verificados del negocio.",
+          "no presentar imágenes de instalaciones, salón, personal ni resultados de otro lugar como si fueran del local: eso sí lleva alt/caption honesto."
+        ]
+      },
+      "anti_patterns": [
+        "Fondo crema/beige por reflejo en vez de la paleta tomate/mostaza comprometida.",
+        "Hero de ficha de Maps en vez de foto de producto que da hambre.",
+        "Grilla de tres tarjetas iguales con ícono + título + texto.",
+        "Eyebrows tracked-caps o marcadores 01/02/03 sobre cada sección.",
+        "Inventar precios, combos o envíos que no están verificados."
+      ],
+      "rewrite_targets": [
+        "Reemplazar la dirección automotriz del fallback por rotisería real.",
+        "Hacer que el hero venda empanadas y tartas en los primeros 5 segundos.",
+        "Poner el CTA de llamar y encargar como color más caliente, repetido en el scroll.",
+        "Mostrar el domingo cerrado y el horario como dato operativo claro."
+      ]
+    },
+    "commercial": {
+      "tone": "fast-local",
+      "customer_type": "Vecinos que quieren encargar comida para llevar y retirarla en San Miguel.",
+      "hero_claim": "Llamar, encargar y retirar la comida a tiempo y calentita.",
+      "trust_bar": [
+        {
+          "label": "Valoración",
+          "title": "4,7 / 5",
+          "body": "561 reseñas",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Horario",
+          "title": "Horario publicado",
+          "body": "Lun 10:00 a. m. – 3:00 p. m.; mar-vie 10:00 a. m. – 1:00 p. m.; sáb 10:00 a. m. – 1:00 p. m. y 7:00 – 11:00 p. m.; dom cerrado.",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Contacto",
+          "title": "Teléfono directo",
+          "body": "011 4455-2543",
+          "meta": "Dato verificado"
+        }
+      ],
+      "service_cards": [
+        {
+          "label": "Elegir",
+          "title": "Empanadas fritas",
+          "body": "La información publicada destaca empanadas fritas."
+        },
+        {
+          "label": "Consultar",
+          "title": "Tartas",
+          "body": "Teléfono, dirección y horario quedan visibles para decidir sin buscar otro dato."
+        },
+        {
+          "label": "Pasar",
+          "title": "Comida para llevar",
+          "body": "El siguiente paso se resuelve con contacto directo y la ubicación del negocio."
+        }
+      ],
+      "why_choose": [
+        {
+          "title": "Datos visibles",
+          "body": "Valoración, horario, dirección y contacto aparecen juntos."
+        },
+        {
+          "title": "Reseñas con autor",
+          "body": "“Todo impecable muy rico todo y haciendo el pedido tienen todo a tiempo y calentito.” — Mar."
+        },
+        {
+          "title": "Próximo paso claro",
+          "body": "Llamar para consultar y avanzar."
+        }
+      ],
+      "packages": [
+        {
+          "name": "Para decidir hoy",
+          "price_label": "Sin precios publicados",
+          "body": "Información útil para hacer la consulta antes de pasar.",
+          "items": [
+            "Horario publicado",
+            "Dirección",
+            "Contacto directo"
+          ]
+        },
+        {
+          "name": "Consulta directa",
+          "price_label": "A confirmar con el negocio",
+          "body": "La llamada permite confirmar disponibilidad sin prometer datos no publicados.",
+          "items": [
+            "Necesidad",
+            "Horario",
+            "Siguiente paso"
+          ]
+        }
+      ],
+      "gallery": [
+        {
+          "label": "Contexto",
+          "title": "Imagen principal",
+          "body": "La composición visual acompaña la decisión de contacto.",
+          "meta": "Uso editorial acorde al brief"
+        },
+        {
+          "label": "Señal local",
+          "title": "Dirección y horario",
+          "body": "Información operativa visible para llegar sin vueltas.",
+          "meta": "Av. Dr. Ricardo Balbín 4585, B1663NFG Gran Buenos Aires, Provincia de Buenos Aires, Argentina"
+        }
+      ],
+      "process": [
+        {
+          "step": "Contacto",
+          "title": "Llamar",
+          "body": "Elegí el canal publicado."
+        },
+        {
+          "step": "Consulta",
+          "title": "Confirmar disponibilidad",
+          "body": "El negocio confirma el dato que falta."
+        },
+        {
+          "step": "Visita",
+          "title": "Pasar por el lugar",
+          "body": "La dirección y el horario quedan visibles."
+        }
+      ],
+      "final_cta": {
+        "title": "Llamar, encargar y retirar la comida a tiempo y calentita.",
+        "body": "Av. Dr. Ricardo Balbín 4585, B1663NFG Gran Buenos Aires, Provincia de Buenos Aires, Argentina. Lun 10:00 a. m. – 3:00 p. m.; mar-vie 10:00 a. m. – 1:00 p. m.; sáb 10:00 a. m. – 1:00 p. m. y 7:00 – 11:00 p. m.; dom cerrado.",
+        "primary_label": "Llamar y encargar",
+        "secondary_label": "Cómo llegar"
+      },
+      "editable_note": "No se publican precios, promociones, capacidad ni servicios que no estén confirmados."
+    },
+    "creative": {
+      "concept": "Llamar, encargar y retirar la comida a tiempo y calentita.",
+      "audience": "Vecinos que quieren encargar comida para llevar y retirarla en San Miguel.",
+      "visual_direction": "Rotisería de mediodía: cartel de deli honesto y apetitoso con luz de día. Paleta light comprometida de rojo tomate y mostaza sobre off-white tintado al rubro (jamás crema por reflejo), tinta marrón para el cuerpo. Par tipográfico Alfa Slab One de marquesina de rotisería + Hanken Grotesk. El mostrador y el producto mandan.",
+      "layout": "parts-counter",
+      "texture": "service-ledger",
+      "hero_angle": "Llamar, encargar y retirar la comida a tiempo y calentita.",
+      "hero_cards": [
+        {
+          "label": "Valoración",
+          "value": "4,7 / 5",
+          "note": "561 reseñas"
+        },
+        {
+          "label": "Horario",
+          "value": "Horario publicado",
+          "note": "Lun 10:00 a. m. – 3:00 p. m.; mar-vie 10:00 a. m. – 1:00 p. m.; sáb 10:00 a. m. – 1:00 p. m. y 7:00 – 11:00 p. m.; dom cerrado."
+        },
+        {
+          "label": "Contacto",
+          "value": "011 4455-2543",
+          "note": "Canal publicado"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Para decidir",
+          "title": "Lo que buscás, a mano",
+          "body": "La información pública se ordena alrededor de la acción de contacto.",
+          "items": [
+            {
+              "label": "Elegir",
+              "value": "Empanadas fritas",
+              "note": "La información publicada destaca empanadas fritas."
+            },
+            {
+              "label": "Consultar",
+              "value": "Tartas",
+              "note": "Teléfono, dirección y horario quedan visibles para decidir sin buscar otro dato."
+            },
+            {
+              "label": "Pasar",
+              "value": "Comida para llevar",
+              "note": "El siguiente paso se resuelve con contacto directo y la ubicación del negocio."
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Reseñas",
+          "title": "Lo dicen quienes ya fueron",
+          "body": "Una reseña literal aporta una señal concreta para decidir.",
+          "items": [
+            {
+              "label": "Opinión",
+              "value": "Todo impecable muy rico todo y haciendo el pedido tienen todo a tiempo y calentito.",
+              "note": "Mar"
+            },
+            {
+              "label": "Valoración",
+              "value": "4,7 / 5",
+              "note": "561 reseñas"
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Contacto",
+          "title": "Llegar o consultar sin vueltas",
+          "body": "Dirección, horario y contacto quedan visibles en el cierre.",
+          "items": [
+            {
+              "label": "Contacto",
+              "value": "011 4455-2543"
+            },
+            {
+              "label": "Horario",
+              "value": "Lun 10:00 a. m. – 3:00 p. m.; mar-vie 10:00 a. m. – 1:00 p. m.; sáb 10:00 a. m. – 1:00 p. m. y 7:00 – 11:00 p. m.; dom cerrado."
+            },
+            {
+              "label": "Dirección",
+              "value": "Av. Dr. Ricardo Balbín 4585, B1663NFG Gran Buenos Aires, Provincia de Buenos Aires, Argentina"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/san-miguel-alta-conversion/pato-s",
+      "notes": "Dirección 'Rotisería de mediodía': comida para llevar, honesta y apetitosa, luz de día. Paleta LIGHT comprometida — rojo tomate + mostaza con tinta marrón, off-white tintado al rubro (no crema por reflejo). Par Alfa Slab One (display, cartel de deli) + Hanken Grotesk (cuerpo). Template catalog-counter (mostrador/menú)."
+    }
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "id": "google-ChIJu415AgAfkZURQtF3szbPeLA",
+  "name": "Biodent Odontologia Tandil - Dra Valeria Guzzanti",
+  "slug": "biodent-odontologia-tandil-dra-valeria-guzzanti",
+  "archetype": "modern-conversion-landing",
+  "palette": {
+    "dominant": "#0c1f24",
+    "accent": "#36c5a1",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "Manrope",
+    "secondary": "Bitter"
+  },
+  "hero_image": {
+    "heroSrc": "./index.html",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJu415AgAfkZURQtF3szbPeLA",
+    "slug": "biodent-odontologia-tandil-dra-valeria-guzzanti",
+    "visual_mood": "precision-service",
+    "composition": "poster-bay",
+    "headline": "BioDent: la clínica de la Dra. Valeria Guzzanti que Tandil recomienda con 5 sobre 5",
+    "subheadline": "Odontología general en Montevideo 1475, con consultorio moderno y luminoso y reseñas de pacientes locales y de paso por Tandil.",
+    "primary_cta": "Llamar al 0249 436-9999",
+    "secondary_cta": "Ver fachada en Montevideo 1475",
+    "service_tags": [
+      "Odontología general",
+      "Atención de urgencias dentales",
+      "Consultorio moderno",
+      "Atención en español e inglés"
+    ],
+    "proof_points": [
+      "5 sobre 5 en 39 reseñas de Google",
+      "Montevideo 1475, Tandil",
+      "\"El profesionalismo de la doc Valeria es inigualable, atención muy cálida, además el consultorio es hermoso y luminoso\" — Andrea Guadagnini",
+      "Consultada incluso por turistas de paso: \"I was travelling in Argentina... surprised by the excellent treatment that I received\" — Nick Quinlan"
+    ],
+    "resource_title": "Antes de tu consulta",
+    "resource_items": [
+      "Llamá al consultorio para coordinar el horario de tu turno.",
+      "El consultorio recibe tanto pacientes de Tandil como visitantes de paso.",
+      "Fachada moderna en Montevideo 1475, fácil de ubicar por el cartel BioDent."
+    ],
+    "review_heading": "Lo que cuentan los pacientes",
+    "contact_heading": "Llamá para coordinar tu turno",
+    "image_prompt": "Fachada moderna de consultorio odontológico con revestimiento claro, puerta de madera y cartel BioDent Odontología, luz de día.",
+    "design_notes": "Fachada clínica en cal y roble: revestimiento claro, puerta de madera real, tipografía clínica elegante. Newsreader + Work Sans, acento verde azulado de confianza.",
+    "conversion_template": "hero-proof-offer",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Consultorio odontológico de Tandil con reputación de 5 sobre 5 que convierte la búsqueda de un dentista de confianza en un llamado para pedir turno.",
+      "visual_thesis": "Fachada clínica en cal y roble: la foto real de la fachada moderna con revestimiento claro y puerta de madera se convierte en el hero de la página. Display Newsreader serif contemporáneo con carácter clínico, cuerpo Work Sans limpio y legible. Paleta cal cálida, tinta carbón y verde azulado de confianza como acento del CTA, tomado del tono profesional de la clínica.",
+      "copy_voice": "Español argentino cálido y profesional, con una mención breve a la confianza que también generó en un paciente de habla inglesa, sin perder foco en el público local.",
+      "layout_signature": "Template hero-proof-offer: hero con la foto real de la fachada, rating de 5 sobre 5 destacado, franja de reseñas con la cita de Andrea Guadagnini como protagonista, y contacto final con teléfono y dirección repetidos.",
+      "asset_plan": "Foto real de la fachada (foto-1) como hero; foto-2 y foto-3 como apoyo con captions; línea fina tipo revestimiento arquitectónico en CSS como separador de secciones, sin stock externo de consultorios genéricos.",
+      "ai_fill_plan": {
+        "copy": [
+          "Microcopy derivado de las reseñas reales sobre calidez y modernidad del consultorio",
+          "Encabezados de sección como 'Sobre la clínica' sin inventar especialidades no verificadas"
+        ],
+        "imagery": [
+          "Línea fina tipo revestimiento arquitectónico como separador",
+          "Textura sutil de luz cálida en CSS para el header"
+        ],
+        "boundaries": [
+          "No inventar horarios de atención: el dato no está verificado, invitar a llamar para coordinar",
+          "No inventar especialidades (endodoncia, implantes, ortodoncia) sin evidencia en los datos verificados",
+          "No inventar precios ni cobertura de obras sociales"
+        ]
+      },
+      "anti_patterns": [
+        "Fuentes genéricas como Inter, Roboto o Arial",
+        "Gradiente violeta sobre blanco",
+        "Iconografía genérica de diente de banco de imágenes",
+        "Inventar horarios de atención que no están verificados"
+      ],
+      "rewrite_targets": [
+        "El teléfono para pedir turno tiene que estar arriba del fold pese a no tener horario publicado",
+        "La fachada real moderna tiene que transmitir la sensación de 'consultorio luminoso' que mencionan las reseñas",
+        "La ausencia de horario verificado se resuelve invitando a llamar, nunca inventando un horario"
+      ]
+    },
+    "creative": {
+      "concept": "El consultorio odontológico de Tandil con fachada moderna y reputación de 5 estrellas.",
+      "audience": "Pacientes de Tandil y visitantes de paso que buscan un dentista confiable y bien valorado.",
+      "visual_direction": "Fachada real clara y moderna, puerta de madera, tipografía clínica elegante con acento verde azulado.",
+      "layout": "studio-detail",
+      "texture": "polished-glass",
+      "hero_angle": "Consultorio odontológico en Tandil con 5 sobre 5 en 39 reseñas y consultorio moderno y luminoso.",
+      "hero_cards": [
+        {
+          "label": "Reseñas",
+          "value": "5★ en 39 opiniones",
+          "note": "Perfil público de Google"
+        },
+        {
+          "label": "Dirección",
+          "value": "Montevideo 1475, Tandil"
+        },
+        {
+          "label": "Contacto",
+          "value": "0249 436-9999"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Atención odontológica",
+          "title": "Consultorio moderno en el centro de Tandil",
+          "body": "Odontología general con atención cálida y consultorio luminoso, según cuentan los pacientes.",
+          "items": [
+            {
+              "label": "Odontología general",
+              "value": "Atención de consultorio"
+            },
+            {
+              "label": "Urgencias dentales",
+              "value": "Consultá disponibilidad por teléfono"
+            },
+            {
+              "label": "Atención bilingüe",
+              "value": "También en inglés"
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Pacientes de la clínica",
+          "title": "Un consultorio hermoso y luminoso",
+          "body": "Lo que cuentan pacientes locales y de paso por Tandil.",
+          "items": [
+            {
+              "label": "Andrea Guadagnini",
+              "value": "El profesionalismo de la doc Valeria es inigualable, atención muy cálida, además el consultorio es hermoso y luminoso."
+            },
+            {
+              "label": "Nick Quinlan",
+              "value": "I was travelling in Argentina and a filling fell out... surprised by the excellent treatment that I received there. Would recommend them."
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Pedir turno",
+          "title": "Llamá para coordinar tu consulta",
+          "body": "Teléfono directo y dirección exacta en el centro de Tandil.",
+          "items": [
+            {
+              "label": "Llamar",
+              "value": "0249 436-9999"
+            },
+            {
+              "label": "Ir a la clínica",
+              "value": "Montevideo 1475, Tandil"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/tandil/biodent-odontologia-tandil-dra-valeria-guzzanti",
+      "notes": "Fachada clínica en cal y roble: foto real de la fachada como hero, Newsreader + Work Sans, acento verde azulado de confianza."
+    }
+  }
+}

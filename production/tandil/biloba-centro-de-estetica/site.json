@@ -1,0 +1,172 @@
+{
+  "id": "google-ChIJ0xPlavcfkZURPlVFKnFXVHw",
+  "name": "BILOBA CENTRO DE ESTÉTICA",
+  "slug": "biloba-centro-de-estetica",
+  "archetype": "classic-neighborhood-business",
+  "palette": {
+    "dominant": "#fff8ec",
+    "accent": "#8f3f2b",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "Libre Franklin",
+    "secondary": "Libre Baskerville"
+  },
+  "hero_image": {
+    "heroSrc": "./index.html",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJ0xPlavcfkZURPlVFKnFXVHw",
+    "slug": "biloba-centro-de-estetica",
+    "visual_mood": "precision-service",
+    "composition": "route-card",
+    "headline": "BILOBA Centro de Estética: el espacio de Tandil para exhalar la tensión",
+    "subheadline": "Masajes y tratamientos de estética en 4 de Abril 795, con 5 sobre 5 en 63 reseñas.",
+    "primary_cta": "Reservar al 0249 460-5835",
+    "secondary_cta": "Ver ubicación del centro",
+    "service_tags": [
+      "Masajes terapéuticos",
+      "Tratamientos de estética",
+      "Entrevista personalizada previa",
+      "Espacio de bienestar"
+    ],
+    "proof_points": [
+      "5 sobre 5 en 63 reseñas de Google",
+      "4 de Abril 795, Tandil",
+      "Lunes a viernes de 8:30 a 20:30, sábados de 9 a 18",
+      "\"Comienza la sesión con una entrevista completa que considera los aspectos particulares de cada uno\" — Andrea Dicósimo"
+    ],
+    "resource_title": "Cómo es tu primera sesión",
+    "resource_items": [
+      "La atención arranca con una entrevista personalizada antes del tratamiento.",
+      "Abierto de lunes a sábado, con horario corrido entre semana.",
+      "Natalia atiende cada sesión según las necesidades particulares de cada persona."
+    ],
+    "review_heading": "Lo que cuentan después de una sesión",
+    "contact_heading": "Reservá tu sesión en 4 de Abril 795",
+    "image_prompt": "Espacio de bienestar minimalista con tonos salvia y blanco, planta suculenta junto a una ventana con luz natural suave.",
+    "design_notes": "Respiración en salvia y piedra: verde salvia, blanco cálido, acento terracota suave para el CTA. Cormorant Garamond + Albert Sans, calma editorial de spa.",
+    "conversion_template": "service-diagnostic",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Centro de estética y masajes de Tandil con enfoque personalizado que convierte la búsqueda de un espacio de bienestar en una reserva de sesión.",
+      "visual_thesis": "Respiración en salvia y piedra: la estética suave y minimalista real del centro (tonos salvia, blanco, plantas) se traduce en un diseño editorial calmo. Display Cormorant Garamond serif fino para titulares, cuerpo Albert Sans para lectura clara. Paleta salvia y blanco cálido, con terracota suave como acento del CTA para que no se pierda en tanta calma.",
+      "copy_voice": "Español argentino calmo y cercano, apoyado en la idea real de la entrevista personalizada antes de cada sesión.",
+      "layout_signature": "Template service-diagnostic: hero calmo que presenta la entrevista personalizada como primer paso del servicio, franja de reseñas sobre el trato de Natalia, tratamientos ofrecidos y contacto final con horario corrido.",
+      "asset_plan": "Fotos reales del espacio y su estética de marca (salvia, blanco, plantas) como fondo e imágenes de apoyo; textura de ondas suaves en CSS para transmitir calma, sin stock externo genérico de spa.",
+      "ai_fill_plan": {
+        "copy": [
+          "Microcopy sobre la entrevista personalizada derivado de las reseñas reales",
+          "Encabezados de sección como 'Tu primera sesión' sin inventar tratamientos específicos no verificados"
+        ],
+        "imagery": [
+          "Textura de ondas suaves en CSS como fondo de sección",
+          "Motivo de hoja o línea vegetal en SVG como acento decorativo puntual"
+        ],
+        "boundaries": [
+          "No inventar tipos de masajes o tratamientos específicos no verificados en los datos",
+          "No inventar precios de sesión",
+          "No prometer resultados médicos ni terapéuticos específicos"
+        ]
+      },
+      "anti_patterns": [
+        "Fuentes genéricas como Inter, Roboto o Arial",
+        "Gradiente violeta sobre blanco",
+        "Tono de spa genérico sin el detalle real de la entrevista personalizada",
+        "Fotos de stock de velas y piedras calientes sin relación con el negocio real"
+      ],
+      "rewrite_targets": [
+        "El botón de reserva tiene que estar arriba del fold sin perderse en la calma visual",
+        "La entrevista personalizada previa tiene que ser el diferencial central, no una mención al pasar",
+        "El horario corrido de lunes a viernes debe quedar claro para coordinar sin llamadas de más"
+      ]
+    },
+    "creative": {
+      "concept": "El centro de estética de Tandil que empieza cada sesión escuchando lo que necesitás.",
+      "audience": "Personas de Tandil que buscan un espacio de bienestar y masajes con atención personalizada y de confianza.",
+      "visual_direction": "Paleta salvia y blanco cálido, plantas y luz natural, tipografía editorial calma.",
+      "layout": "studio-detail",
+      "texture": "water-ripple",
+      "hero_angle": "Centro de estética y masajes en Tandil con 5 sobre 5 en 63 reseñas y atención personalizada desde la primera entrevista.",
+      "hero_cards": [
+        {
+          "label": "Reseñas",
+          "value": "5★ en 63 opiniones",
+          "note": "Perfil público de Google"
+        },
+        {
+          "label": "Dirección",
+          "value": "4 de Abril 795, Tandil"
+        },
+        {
+          "label": "Contacto",
+          "value": "0249 460-5835"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Tu primera sesión",
+          "title": "Empieza con una entrevista personalizada",
+          "body": "Antes de cada tratamiento, se conversan tus necesidades particulares para adaptar la sesión.",
+          "items": [
+            {
+              "label": "Entrevista previa",
+              "value": "Se consideran tus necesidades particulares"
+            },
+            {
+              "label": "Masajes terapéuticos",
+              "value": "Con seguimiento profesional"
+            },
+            {
+              "label": "Espacio cálido",
+              "value": "Ambiente pensado para relajar"
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Después de una sesión",
+          "title": "La sensación de bienestar que dura días",
+          "body": "Lo que cuentan quienes ya vivieron la experiencia con Natalia.",
+          "items": [
+            {
+              "label": "Andrea Dicósimo",
+              "value": "La sensación de bienestar trasciende al día del masaje y se instala con el transcurrir de los días."
+            },
+            {
+              "label": "silvana bañuelo",
+              "value": "Natalia es una profesional que te hace sentir totalmente relajada. En un lugar cálido y muy agradable."
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Reservá tu sesión",
+          "title": "Llamá para coordinar tu horario",
+          "body": "Teléfono directo y horario corrido de lunes a viernes.",
+          "items": [
+            {
+              "label": "Reservar",
+              "value": "0249 460-5835"
+            },
+            {
+              "label": "Ir al centro",
+              "value": "4 de Abril 795, Tandil"
+            },
+            {
+              "label": "Horario",
+              "value": "Lunes a viernes 8:30 a 20:30"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/tandil/biloba-centro-de-estetica",
+      "notes": "Respiración en salvia y piedra: paleta salvia y blanco cálido, Cormorant Garamond + Albert Sans, ondas suaves en CSS, terracota de acento en el CTA."
+    }
+  }
+}

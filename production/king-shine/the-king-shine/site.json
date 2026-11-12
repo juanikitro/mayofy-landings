@@ -1,0 +1,99 @@
+{
+  "id": "google-thekingshine-g11vkp5s3dl",
+  "name": "The King Shine — Estética Vehicular",
+  "slug": "the-king-shine",
+  "archetype": "automotive-premium-dark",
+  "palette": {
+    "dominant": "#0b0b0d",
+    "accent": "#e01e26",
+    "source": "logo"
+  },
+  "typography": {
+    "primary": "Chakra Petch",
+    "secondary": "Saira"
+  },
+  "hero_image": {
+    "heroSrc": "./index.html",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-thekingshine-g11vkp5s3dl",
+    "slug": "the-king-shine",
+    "visual_mood": "precision-service",
+    "composition": "poster-bay",
+    "headline": "Un servicio, mil detalles.",
+    "subheadline": "The King Shine es la estética vehicular de Veinticinco de Mayo: lavados detallados, tratamientos acrílicos y cerámicos, abrillantado y recuperación de ópticas, con turnera online propia y 5,0 en Google.",
+    "primary_cta": "Pedir turno por WhatsApp",
+    "secondary_cta": "Reservar en la turnera online",
+    "service_tags": [
+      "Lavado detallado",
+      "Tratamiento acrílico y cerámico",
+      "Abrillantado y pulido",
+      "Limpieza interior y tapizados",
+      "Recuperación de ópticas"
+    ],
+    "proof_points": [
+      "5,0 sobre 5 en Google (2 reseñas)",
+      "Lunes a viernes de 8:00 a 19:00, sábados de 8:00 a 16:00",
+      "Calle 11 entre 25 y 26, Veinticinco de Mayo",
+      "\"Excelente servicio y calidad!\" — Enzo Torres, Local Guide"
+    ],
+    "resource_title": "Datos útiles antes de reservar",
+    "resource_items": [
+      "La turnera online muestra precios por tipo de vehículo: moto, auto, camioneta, combi y camión.",
+      "WhatsApp directo 2345 52-2167, el mismo número que figura en Google Maps.",
+      "Los trabajos se publican en el Instagram oficial @thekingshine_ (263 publicaciones).",
+      "Domingos cerrado: conviene reservar el turno del fin de semana con anticipación."
+    ],
+    "review_heading": "Lo que dicen en Google",
+    "contact_heading": "Reservá tu turno en Calle 11 entre 25 y 26",
+    "image_prompt": "Mercedes GLC Coupé gris oscuro recién detallada dentro del box de The King Shine, mural negro y rojo con el logo en la pared, piso de cemento alisado, luz fría de tiras LED reflejada en la carrocería.",
+    "design_notes": "Showroom de medianoche: negro boxes dominante, rojo King solo en CTAs, plata metálica del vinilo del cartel para display. Chakra Petch itálica + Saira. Hero póster con la GLC real y doble línea de velocidad del logo como motivo gráfico.",
+    "conversion_template": "visual-menu",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Estética vehicular premium de Veinticinco de Mayo que convierte al dueño que cuida su auto o camioneta en una reserva concreta, por WhatsApp o por su turnera online.",
+      "visual_thesis": "Showroom de medianoche: la landing es la vitrina del taller de noche, como la foto real de la fachada iluminada. Negro boxes (#0b0b0d) dominante con paneles carbón, el rojo King del logo (#e01e26) reservado exclusivamente para CTAs y acentos calientes, plata metálica (#c7c9cd) del vinilo del cartel para titulares. Display Chakra Petch en itálica bold (calcomanía racing, como el lettering del mural) + cuerpo Saira; duraciones y datos en Saira SemiCondensed con números tabulares. Motivo gráfico del oficio: tiras LED del box como gradientes verticales que 'se reflejan' en las superficies, y la doble línea de velocidad horizontal del logo como subrayado de secciones.",
+      "copy_voice": "Español argentino (vos), directo y orgulloso del oficio, sin humo: el slogan real del negocio 'Un servicio, mil detalles.' marca el tono. Términos del rubro (detailing, cerámico, abrillantado) explicados en una línea para el vecino no experto.",
+      "layout_signature": "Template visual-menu mobile-first: hero póster con la GLC real bajo overlay negro, logo arriba, slogan gigante en itálica, chips de rating 5,0 y ubicación, y doble CTA arriba del fold (WhatsApp rojo + turnera con borde plata); barra sticky inferior en mobile con WhatsApp y Turnos. Después: menú de servicios en dos boards (Lavadero / Detailing) con duración e incluye por card, sin precios —los precios viven en la turnera y cada card cierra ahí—; bloque de tratamientos premium de la bio (cerámico, abrillantado, interiores, ópticas) con las fotos reales de proceso; galería 'Trabajos del box' con las camionetas; las dos reseñas literales como placas metálicas; pasos de la turnera (elegís servicio, cargás vehículo y fecha, confirmás); cierre con fachada nocturna real, horarios completos, mapa y triple CTA WhatsApp / turnera / Instagram.",
+      "asset_plan": "Logo real (assets/logo-king-shine.jpg, fondo negro nativo) en header y footer. Hero: assets/hero-mercedes-glc.jpg con overlay. Proceso: tratamiento-ceramico.jpg, pulido-abrillantado.jpg, limpieza-interior.jpg. Galería: ranger-azul-box.jpg, camionetas-frente.jpg, amarok-servicios.jpg. Cierre/ubicación: fachada-nocturna.jpg. Tiras LED, líneas de velocidad y texturas de carbón en CSS/SVG inline; sin assets externos salvo Google Fonts.",
+      "ai_fill_plan": {
+        "copy": [
+          "Microcopy de secciones, chips y CTAs derivado de los datos verificados (servicios de la turnera, bio de IG, reseñas y horarios)",
+          "Explicaciones de una línea de cada servicio del rubro (qué es un cerámico, qué incluye un detallado) sin prometer resultados ni plazos no publicados",
+          "Encabezados de bloque con vocabulario del box ('El menú del box', 'Trabajos que salieron del box')"
+        ],
+        "imagery": [
+          "Tiras LED del techo como gradientes CSS verticales con brillo sutil sobre el hero y las cards",
+          "Doble línea de velocidad del logo como separador SVG inline de secciones",
+          "Textura de fibra de carbono / cemento alisado en CSS para fondos de paneles"
+        ],
+        "boundaries": [
+          "No inventar precios, stock, marcas, años de experiencia, premios, garantías, servicios ni reseñas: solo lo publicado en la turnera, la bio de IG y Maps",
+          "No mostrar precios en la landing: los precios viven en la turnera ShineApp y se confirman al reservar; la landing solo lista los cinco servicios publicados con su duración",
+          "La durabilidad de 12 meses solo aplica a Recuperación de Ópticas porque así lo publica la turnera; no extenderla a otros tratamientos",
+          "'Pre Venta' se menciona solo como servicio listado en la bio, sin describir alcance no publicado",
+          "No prometer turnos inmediatos, retiro a domicilio ni zonas de cobertura: no hay evidencia"
+        ]
+      },
+      "anti_patterns": [
+        "Fuentes genéricas (Inter, Roboto, Arial, system-ui, Space Grotesk)",
+        "Gradiente violeta sobre blanco o layout SaaS de tres cards",
+        "Stock de autos de lujo ajenos al negocio: las fotos son las reales del box",
+        "Rojo King usado como color de fondo masivo en vez de acento de CTA (el negro domina, como en el logo)",
+        "Composición de hero calcada de los golden samples de amba-alta-conversion"
+      ],
+      "rewrite_targets": [
+        "Primera landing del negocio: reemplazar la ausencia de sitio propio con una página que iguale la barra de los golden samples",
+        "Subir el slogan real 'Un servicio, mil detalles.' y el 5,0 de Google al hero como identidad y prueba",
+        "Tratar la turnera ShineApp como producto propio del negocio: cada card de servicio y el CTA secundario llevan a reservar",
+        "Hacer del WhatsApp real (wa.me/542345522167 con el texto precargado verificado) el elemento más caliente de la página"
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/king-shine/the-king-shine",
+      "notes": "Showroom de medianoche: negro boxes con rojo King solo en CTAs, Chakra Petch itálica + Saira, menú con los cinco servicios de la turnera (sin precios; se confirman al reservar), triple CTA WhatsApp / turnera ShineApp / Instagram, barra sticky mobile."
+    }
+  }
+}

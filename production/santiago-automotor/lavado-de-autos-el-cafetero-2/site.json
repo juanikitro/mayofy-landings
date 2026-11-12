@@ -1,0 +1,92 @@
+{
+  "id": "google-ChIJQ7Uje3LFYpYRHo1MUdeq4WU",
+  "name": "Lavado de autos El Cafetero 2",
+  "slug": "lavado-de-autos-el-cafetero-2",
+  "archetype": "industrial-garage",
+  "palette": {
+    "dominant": "#2d2a26",
+    "accent": "#d94f30",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "IBM Plex Sans Condensed",
+    "secondary": "Source Serif 4"
+  },
+  "hero_image": {
+    "heroSrc": "./assets/hero.jpg",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJQ7Uje3LFYpYRHo1MUdeq4WU",
+    "slug": "lavado-de-autos-el-cafetero-2",
+    "visual_mood": "neighborhood-direct",
+    "composition": "poster-bay",
+    "headline": "Tu auto, listo para seguir el día",
+    "subheadline": "Lavado de autos El Cafetero 2 está en San Isidro 827, con atención de lunes a sábado y horario de domingo.",
+    "primary_cta": "Consultar por teléfono",
+    "secondary_cta": "Ver el local",
+    "service_tags": [
+      "Lavadero de autos",
+      "Sala de espera",
+      "Atención en Santiago"
+    ],
+    "proof_points": [
+      "4.4 en 117 reseñas",
+      "Lunes a sábado, 9:00 a 19:00",
+      "Domingo, 10:00 a 15:00",
+      "San Isidro 827"
+    ],
+    "resource_title": "Horarios y llegada",
+    "resource_items": [
+      "Llamá al +56 9 9065 4600.",
+      "El local está en San Isidro 827.",
+      "Confirmá disponibilidad antes de ir."
+    ],
+    "review_heading": "Una espera cómoda, según sus reseñas",
+    "contact_heading": "Pasá por San Isidro",
+    "image_prompt": "Hero editorial conceptual: auto claro entrando a un lavadero urbano azul y amarillo, composición de afiche; no representa el local.",
+    "design_notes": "Cartel de barrio: azul eléctrico, amarillo vial, blanco y negro; Barlow Condensed + Lora; hero editorial como afiche y cintas de señalética.",
+    "conversion_template": "editorial-local-story",
+    "design_brief": {
+      "designed_by": "codex",
+      "market_position": "Lavadero de autos en Santiago centro para quienes quieren una alternativa de barrio con dirección, teléfono y horarios visibles antes de salir.",
+      "visual_thesis": "Cartel de barrio pintado a mano: la fachada azul, las letras amarillas, los murales y las banderas de las fotos dan un afiche urbano de alto día. Barlow Condensed crea titulares de marquesina y Lora aporta el contrapunto editorial; azul eléctrico, amarillo vial, blanco mate y negro.",
+      "copy_voice": "Español de Chile, cercano y concreto: pasar, llamar, auto, horario y local. La buena atención y la sala de espera aparecen únicamente como citas atribuidas de reseñas.",
+      "layout_signature": "Editorial-local-story: fachada completa como portada de afiche, bloque de contexto de San Isidro, secuencia de fotos en formato mural, tira de reseña atribuida y cierre de horarios con señalética de calle; el hero no usa split ni panel técnico.",
+      "asset_plan": "El hero usa un asset editorial local generado: auto claro y lavadero urbano azul/amarillo, sin logos y señalado como conceptual. La fachada y fotos verificadas aportan contexto documental. Cintas de tránsito, gotas y líneas de calle se hacen con CSS y SVG inline.",
+      "ai_fill_plan": {
+        "copy": [
+          "Microcopy de llegada y consulta que no agrega modalidades de atención.",
+          "Titulares de secciones que conectan horario, local y reseñas verificadas."
+        ],
+        "imagery": [
+          "Hero editorial local, conceptual y no atribuible al local.",
+          "Cintas de señalética, gotas y pintura mate en CSS sin crear una escena de servicio inexistente."
+        ],
+        "boundaries": [
+          "No inventar precios, stock, marcas, años, premios, garantías, servicios ni reseñas.",
+          "No afirmar que hay estacionamiento, café, tiempos de espera o servicios específicos.",
+          "La sala de espera se atribuye a la reseña y no se presenta como promesa."
+        ]
+      },
+      "anti_patterns": [
+        "Dark-glow",
+        "side-tab",
+        "eyebrow",
+        "marcadores numerados",
+        "tipografía genérica",
+        "estética SaaS sin rasgos del local"
+      ],
+      "rewrite_targets": [
+        "Dejar que la fachada y los murales determinen la paleta.",
+        "No ocultar el horario de domingo.",
+        "Distinguir la página mediante ritmo de afiche y foto mural."
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/santiago-automotor/lavado-de-autos-el-cafetero-2",
+      "notes": "Afiche de barrio azul y amarillo, con fachada real, mural de fotos y señalética de horario."
+    }
+  }
+}

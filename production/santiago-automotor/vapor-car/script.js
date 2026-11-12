@@ -1,0 +1,2 @@
+document.querySelectorAll('a[href^="#"]').forEach((a)=>a.addEventListener('click',(e)=>{const el=document.querySelector(a.getAttribute('href'));if(el){e.preventDefault();el.focus({preventScroll:true});el.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});}}));
+const editorialHero=document.querySelector('.vc-hero img');if(editorialHero){editorialHero.src='./assets/hero-editorial.png';editorialHero.alt='Auto en un box de lavado nocturno con luz turquesa';}

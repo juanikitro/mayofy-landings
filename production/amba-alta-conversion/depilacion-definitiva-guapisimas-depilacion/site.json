@@ -1,0 +1,172 @@
+{
+  "id": "google-ChIJfyiFOQDLvJUR7uLOvjE8YU4",
+  "name": "Depilación Definitiva (Guapísimas Depilación)",
+  "slug": "depilacion-definitiva-guapisimas-depilacion",
+  "archetype": "local-clean-service",
+  "palette": {
+    "dominant": "#f7fbfa",
+    "accent": "#24746b",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "Nunito Sans",
+    "secondary": "Literata"
+  },
+  "hero_image": {
+    "heroSrc": "./index.html",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJfyiFOQDLvJUR7uLOvjE8YU4",
+    "slug": "depilacion-definitiva-guapisimas-depilacion",
+    "visual_mood": "precision-service",
+    "composition": "photo-board",
+    "headline": "Depilación definitiva en Palermo, con turnos hasta las 20:30",
+    "subheadline": "Guapísimas atiende de lunes a sábado en Charcas 3371 con tecnología Soprano Ice y 5.0 sobre 5 en 85 reseñas.",
+    "primary_cta": "Llamar y reservar turno",
+    "secondary_cta": "Ver cómo llegar",
+    "service_tags": [
+      "Depilación definitiva",
+      "Tecnología Soprano Ice",
+      "Turnos de lunes a sábado",
+      "Horario extendido 8:00 a 20:30"
+    ],
+    "proof_points": [
+      "5.0 sobre 5 con 85 reseñas en Google",
+      "Lunes a sábado de 8:00 a 20:30",
+      "Charcas 3371, Palermo",
+      "\"Los resultados se ven en la primera sesión\" — Delfina Lopez Harburu"
+    ],
+    "resource_title": "Antes de reservar tu primera sesión",
+    "resource_items": [
+      "Horario extendido seis días por semana para encajar el turno sin reorganizar tu agenda.",
+      "Reseñas públicas con nombre que describen el trato del equipo.",
+      "Recepción con identidad propia: mariposa dorada y sillones rosa que aparecen en las fotos reales."
+    ],
+    "review_heading": "Lo que cuentan las clientas",
+    "contact_heading": "Reservá por teléfono y llegá fácil",
+    "image_prompt": "Recepción real de centro de depilación en Palermo con sillones rosa empolvado y mariposa dorada retroiluminada, luz cálida.",
+    "design_notes": "Boutique editorial de Palermo: crema, rosa empolvado, tinta espresso y dorado. Fraunces + Karla, mariposa en línea dorada como marca de agua, arcos y reveals suaves.",
+    "conversion_template": "editorial-local-story",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Depilación definitiva en Palermo que convierte a mujeres que comparan centros en una reserva telefónica, apoyada en 5.0 sobre 5 con 85 reseñas y horario extendido.",
+      "visual_thesis": "Boutique editorial de Palermo: la mariposa dorada y el rosa empolvado de la recepción real llevados a una revista femenina premium. Display serif Fraunces con itálicas de acento y cuerpo Karla; paleta crema, rosa empolvado, tinta espresso y dorado suave.",
+      "copy_voice": "Español argentino cálido y cercano, el mismo tono de las reseñas ('te sentís cuidada'), sin promesas clínicas.",
+      "layout_signature": "Template editorial-local-story: hero asimétrico con titular serif e itálica de acento, foto de recepción en marco de arco y chip 5.0★; después 'cómo es venir' en tres pasos suaves, banda de tecnología Soprano Ice, testimonios como cartas editoriales y cierre con horarios extendidos, dirección de Palermo y mapa.",
+      "asset_plan": "Fotos reales de la recepción (sillones rosa, mariposa dorada) como hero y cierre; gráfica Soprano Ice en su banda; mariposa de línea dorada en SVG como separador y marca de agua.",
+      "ai_fill_plan": {
+        "copy": [
+          "Microcopy de los tres pasos y CTAs de reserva",
+          "Encabezados editoriales de sección sin inventar servicios"
+        ],
+        "imagery": [
+          "Mariposa de línea en SVG dorado como textura y separador visual",
+          "Arcos y cápsulas redondeadas en CSS para las fotos de la recepción"
+        ],
+        "boundaries": [
+          "No inventar precios, promos, cantidad de sesiones, marcas ni reseñas",
+          "Sin claims médicos como indoloro o apto para todo tipo de piel",
+          "'Resultados desde la primera sesión' solo como cita de reseña"
+        ]
+      },
+      "anti_patterns": [
+        "Fucsia estridente de spa genérico",
+        "Fuentes sans genéricas como Inter o Roboto",
+        "Layout SaaS de tres cards",
+        "Stock de equipos de láser en lugar de la recepción real"
+      ],
+      "rewrite_targets": [
+        "Cambiar el copy heredado 'Medical Clinic en Tandil' por depilación definitiva en Palermo",
+        "Destacar el horario extendido de lunes a sábado de 8:00 a 20:30 como diferencial",
+        "Poner CTA de reserva telefónica arriba del fold"
+      ]
+    },
+    "creative": {
+      "concept": "Boutique de depilación con horario que se adapta: la estética de la recepción real llevada a la página.",
+      "audience": "Mujeres de Palermo y alrededores que comparan centros de depilación definitiva y reservan por teléfono.",
+      "visual_direction": "Rosa empolvado y dorado de las fotos reales, serif editorial con itálicas, mariposa de línea como separador.",
+      "layout": "studio-detail",
+      "texture": "polished-glass",
+      "hero_angle": "Depilación definitiva en Palermo con 5.0 sobre 5 y turnos de lunes a sábado hasta las 20:30.",
+      "hero_cards": [
+        {
+          "label": "Reseñas",
+          "value": "5.0★ en 85 opiniones",
+          "note": "Perfil público de Google"
+        },
+        {
+          "label": "Horario",
+          "value": "Lun a sáb, 8:00 a 20:30"
+        },
+        {
+          "label": "Ubicación",
+          "value": "Charcas 3371, Palermo"
+        }
+      ],
+      "sections": [
+        {
+          "type": "process",
+          "eyebrow": "Cómo es venir",
+          "title": "Tres pasos, cero vueltas",
+          "body": "Reservás por teléfono, venís a tu sesión y seguís el plan con el equipo.",
+          "items": [
+            {
+              "label": "Reservá",
+              "value": "Llamá al 011 2276-0979 y elegí horario entre las 8:00 y las 20:30"
+            },
+            {
+              "label": "Tu sesión",
+              "value": "Atención del equipo en Charcas 3371"
+            },
+            {
+              "label": "Seguimiento",
+              "value": "Moni informa y orienta, como cuentan las reseñas"
+            }
+          ]
+        },
+        {
+          "type": "material-story",
+          "eyebrow": "Equipamiento",
+          "title": "Tecnología Soprano Ice",
+          "body": "El equipo que muestran en su galería pública, presentado sin promesas infladas.",
+          "items": [
+            {
+              "label": "Plataforma",
+              "value": "Soprano Ice de Alma Lasers"
+            },
+            {
+              "label": "Sesiones",
+              "value": "Plan por sesiones según cada caso"
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Clientas reales",
+          "title": "Desde la primera sesión",
+          "body": "Tres reseñas públicas coinciden en lo mismo: resultados visibles temprano y un trato que hace volver.",
+          "items": [
+            {
+              "label": "Florencia Duarte",
+              "value": "Me encanta venir, me siento cuidada y acompañada."
+            },
+            {
+              "label": "Delfina Lopez Harburu",
+              "value": "Los resultados se ven en la primera sesión."
+            },
+            {
+              "label": "Eugenia Chaine",
+              "value": "Moni y su equipo son las mejores de Palermo!"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/amba-alta-conversion/depilacion-definitiva-guapisimas-depilacion",
+      "notes": "Boutique editorial: crema y rosa empolvado de la recepción real, Fraunces + Karla, mariposa dorada en SVG, testimonios como cartas y CTA de reserva telefónica."
+    }
+  }
+}

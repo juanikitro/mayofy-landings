@@ -1,0 +1,389 @@
+{
+  "id": "google-ChIJb07qArart5URWu9D5FKzUhY",
+  "name": "Sauco Viajes",
+  "slug": "sauco-viajes",
+  "archetype": "automotive-premium-dark",
+  "palette": {
+    "dominant": "#101820",
+    "accent": "#d7a94b",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "Archivo Narrow",
+    "secondary": "Merriweather Sans"
+  },
+  "hero_image": {
+    "heroSrc": "./assets/portada.jpg",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJb07qArart5URWu9D5FKzUhY",
+    "slug": "sauco-viajes",
+    "visual_mood": "neighborhood-direct",
+    "composition": "poster-bay",
+    "headline": "El grupo se armó. Vos sumate.",
+    "subheadline": "Salidas grupales acompañadas desde Rosario, con coordinadoras pendientes del grupo las 24 horas y un guía que cuenta la ciudad por dentro. 5,0 en Google con 65 reseñas. Av. Carlos Pellegrini 338, de lunes a viernes de 9:30 a 17:30.",
+    "primary_cta": "Llamar a la agencia",
+    "secondary_cta": "Cómo llegar",
+    "service_tags": [
+      "Salidas grupales",
+      "Coordinadoras en el viaje",
+      "Guía en destino",
+      "Sale y vuelve a Rosario"
+    ],
+    "proof_points": [
+      "5,0 en Google con 65 reseñas",
+      "Lunes a viernes de 9:30 a 17:30",
+      "Av. Carlos Pellegrini 338, Rosario",
+      "\"Cumplieron el contrato punto por punto\" (Viviana Massa)"
+    ],
+    "resource_title": "Antes de sumarte al grupo",
+    "resource_items": [
+      "Quién te acompaña: las coordinadoras que las reseñas nombran por su nombre.",
+      "De dónde sale: el viaje arranca y termina en Rosario.",
+      "Con quién hablás: teléfono directo a la oficina de Pellegrini 338."
+    ],
+    "review_heading": "Lo que cuenta el grupo que ya viajó",
+    "contact_heading": "Llamá y preguntá por la próxima salida",
+    "image_prompt": "Hero editorial: skyline de una gran ciudad al anochecer con luz cálida, el destino que describen las reseñas del grupo, con el titular dentro de un globo de diálogo lila. Las tres fotos verificadas de Google Places (el grupo con sus carteles de globo de diálogo, la ciudad de cuento, la casa de fantasía) entran más abajo como contexto documental, con alt honesto que no atribuye el lugar a la agencia.",
+    "design_notes": "Dirección 'Cartel de globo de diálogo': el sistema visual sale de los carteles impresos que el propio grupo levanta en sus fotos (lila y celeste sobre blanco). Par tipográfico Anybody (display, ancho expandido) + Asap (cuerpo). Superficie papel blanco frío, lila plano comprometido, celeste de apoyo y cobre del techo del castillo solo en el CTA de llamar. Template editorial-local-story.",
+    "conversion_template": "editorial-local-story",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Le vende a la persona de Rosario que quiere viajar lejos y no sola: Sauco arma el grupo, lo acompaña y lo trae de vuelta. La página convierte 65 reseñas de 5 estrellas en una llamada preguntando por la próxima salida.",
+      "visual_thesis": "'Cartel de globo de diálogo': la identidad sale de los carteles impresos que el grupo levanta en sus propias fotos, en lila y celeste sobre blanco. El globo de diálogo es el motivo estructural de toda la página (titular, reseñas y remates viven dentro de un globo con su cola), con Anybody en ancho expandido para el display y Asap para el cuerpo. Superficie papel blanco frío #F6F4F8 (nunca crema), lila plano #6B54A6 en bloques grandes, celeste #7CC3E0 de apoyo y cobre #C0522A, el color de los techos del castillo de sus fotos, reservado exclusivamente al CTA de llamar.",
+      "copy_voice": "Español argentino, vos, cálido y gregario, con la alegría de un grupo que se hizo amigo viajando. Frases cortas y humanas. El ángulo sale de las reseñas: acompañamiento las 24 horas, coordinadoras con nombre, contrato cumplido punto por punto.",
+      "layout_signature": "Hero a sangre con el destino al anochecer y el titular dentro de un globo de diálogo gigante, con rating y CTA de llamar arriba del fold. Después, franja de cómo viaja el grupo con la foto de los carteles; sección de quién acompaña en columnas asimétricas; reseñas literales en globos de distintos tamaños y rotaciones mínimas; ficha de contacto con horario, dirección y link a Maps junto a la dirección. Barra sticky de llamada en mobile.",
+      "asset_plan": "Hero editorial local en assets/hero.jpg. Las tres fotos verificadas de Google Places (foto-1 el grupo con los carteles, foto-2 y foto-3 destinos) entran como contexto documental con alt honesto. Globos de diálogo, colas de globo, borde de tijera y textura de papel impreso resueltos en SVG y CSS inline.",
+      "ai_fill_plan": {
+        "copy": [
+          "Escribir el texto de cada globo con la voz del grupo, sin inventar destinos, fechas ni cupos.",
+          "Convertir las reseñas en microcopy de decisión: qué preguntar por teléfono antes de sumarse.",
+          "Nombrar las secciones con lenguaje de viaje grupal, sin frases institucionales."
+        ],
+        "imagery": [
+          "Usar imagen editorial de destino para el hero y textura de papel impreso en CSS para el resto de la página.",
+          "Dibujar los globos de diálogo, su cola y las marcas de recorte en SVG inline, tomados de los carteles del grupo."
+        ],
+        "boundaries": [
+          "no inventar precios, cupos, fechas de salida, destinos nuevos, hoteles, aerolíneas ni cantidad de viajes realizados.",
+          "no atribuir a la agencia lugares, personas ni resultados que no estén en sus fotos verificadas: el alt del hero describe el destino, no una salida propia.",
+          "no citar reseñas que no estén en el dataset ni cambiar su texto o su autor."
+        ]
+      },
+      "anti_patterns": [
+        "Grilla de tres tarjetas iguales con ícono arriba, título y párrafo.",
+        "Fondo crema o beige por reflejo en vez del papel blanco frío de sus carteles.",
+        "Degradés violetas o glows de color: el lila es plano, impreso, como la tinta del cartel.",
+        "Chips eyebrow en mayúsculas con tracking amplio sobre cada sección.",
+        "Hero con foto de oficina o captura de ficha de Maps.",
+        "Bordes laterales gruesos de color como acento en tarjetas."
+      ],
+      "rewrite_targets": [
+        "Reemplazar el hero neutro por el globo de diálogo con el destino y la prueba social arriba del fold.",
+        "Hacer que el CTA de llamar sea el elemento más caliente de la página, en cobre sobre blanco.",
+        "Convertir el bloque de servicios en 'cómo viaja el grupo', con las coordinadoras y el guía que nombran las reseñas.",
+        "Mostrar horario, dirección y link a Maps dentro de la ficha de contacto, no sueltos en la página."
+      ]
+    },
+    "commercial": {
+      "tone": "premium-detailing",
+      "customer_type": "Adultos de Rosario y la región que quieren un viaje largo, acompañado y con todo resuelto.",
+      "hero_claim": "El grupo se armó. Vos sumate.",
+      "trust_bar": [
+        {
+          "label": "Valoración",
+          "title": "5,0 / 5",
+          "body": "65 reseñas en Google",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Horario",
+          "title": "Lunes a viernes",
+          "body": "De 9:30 a 17:30",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Oficina",
+          "title": "Av. Carlos Pellegrini 338",
+          "body": "Rosario, Santa Fe",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Teléfono",
+          "title": "0341 598-2505",
+          "body": "Atención directa de la agencia",
+          "meta": "Dato verificado"
+        }
+      ],
+      "service_cards": [
+        {
+          "label": "Grupal",
+          "title": "Salidas en grupo",
+          "body": "Viajes para recorrer acompañado de punta a punta, como el viaje a Nueva York que cuentan las tres reseñas publicadas."
+        },
+        {
+          "label": "Acompañamiento",
+          "title": "Coordinadoras en el viaje",
+          "body": "Las reseñas nombran a Nati, Joa, Leo y Sofi, pendientes del grupo las 24 horas."
+        },
+        {
+          "label": "Destino",
+          "title": "Un guía que cuenta la ciudad",
+          "body": "Octavio, el guía que mencionan dos reseñas, suma relatos y secretos de cada lugar."
+        },
+        {
+          "label": "Salida",
+          "title": "Arranca en Rosario",
+          "body": "Una reseña lo dice así: se disfruta desde la salida de Rosario hasta el regreso."
+        }
+      ],
+      "why_choose": [
+        {
+          "title": "Lo que firman, lo cumplen",
+          "body": "\"Cumplieron el contrato punto por punto\", escribió Viviana Massa en Google."
+        },
+        {
+          "title": "Nunca estás sola en el viaje",
+          "body": "El acompañamiento las 24 horas aparece en las tres reseñas publicadas."
+        },
+        {
+          "title": "Un grupo con buena onda",
+          "body": "\"Fue una fiesta compartir con un grupo con tanta buena onda\", cuenta Susana Inés Pasqualini."
+        }
+      ],
+      "packages": [
+        {
+          "name": "Próxima salida grupal",
+          "price_label": "A consultar",
+          "body": "Preguntá qué salida se está armando, cómo se viaja y qué queda por confirmar.",
+          "items": [
+            "Fecha de salida a confirmar",
+            "Cupos por teléfono",
+            "Sale y vuelve a Rosario"
+          ]
+        },
+        {
+          "name": "Grupo ya armado",
+          "price_label": "Se cotiza por grupo",
+          "body": "Si el grupo ya existe, la agencia arma el viaje sobre ese armado.",
+          "items": [
+            "Cantidad de pasajeros",
+            "Destino a definir con la agencia",
+            "Coordinación durante el viaje"
+          ]
+        },
+        {
+          "name": "Consulta por teléfono",
+          "price_label": "Se conversa en el momento",
+          "body": "Un llamado para contar qué viaje tenés en la cabeza y qué opciones hay.",
+          "items": [
+            "Teléfono directo de la agencia",
+            "Atención en Pellegrini 338",
+            "Lunes a viernes de 9:30 a 17:30"
+          ]
+        }
+      ],
+      "gallery": [
+        {
+          "label": "El grupo",
+          "title": "Los carteles que viajan con el grupo",
+          "body": "Foto publicada por la agencia: el grupo con sus carteles en una ciudad de cuento."
+        },
+        {
+          "label": "Destino",
+          "title": "Ciudades que parecen de cuento",
+          "body": "Otra imagen publicada por la agencia de un viaje ya hecho."
+        },
+        {
+          "label": "Recuerdo",
+          "title": "La postal que queda",
+          "body": "Tercera foto publicada por la agencia en su ficha de Google."
+        }
+      ],
+      "process": [
+        {
+          "step": "1",
+          "title": "Llamás",
+          "body": "Contás qué viaje tenés ganas de hacer y con quién."
+        },
+        {
+          "step": "2",
+          "title": "Te cuentan la salida",
+          "body": "Qué grupo se está armando, cómo se viaja y qué queda por confirmar."
+        },
+        {
+          "step": "3",
+          "title": "Te sumás",
+          "body": "Quedás en contacto con la agencia hasta el día de la salida."
+        },
+        {
+          "step": "4",
+          "title": "Viajás acompañado",
+          "body": "Las coordinadoras viajan con el grupo, de la salida al regreso."
+        }
+      ],
+      "final_cta": {
+        "title": "¿Preguntamos por la próxima salida?",
+        "body": "Un llamado a la oficina de Pellegrini 338 y te cuentan qué grupo se está armando.",
+        "primary_label": "Llamar al 0341 598-2505",
+        "secondary_label": "Cómo llegar"
+      }
+    },
+    "creative": {
+      "concept": "Una sitio clara para convertir una busqueda local en una consulta concreta. Direccion comercial para Clientes locales que necesitan entender el servicio, llamar y llegar sin friccion.",
+      "audience": "Clientes locales que necesitan entender el servicio, llamar y llegar sin friccion.",
+      "visual_direction": "Servicio local con jerarquia fuerte, datos arriba, pasos claros y tarjetas de accion.",
+      "layout": "mechanic-ledger",
+      "texture": "service-ledger",
+      "hero_angle": "Una sitio clara para convertir una busqueda local en una consulta concreta.",
+      "hero_cards": [
+        {
+          "label": "Prueba social",
+          "value": "5.0 / 5",
+          "note": "Dato verificado"
+        },
+        {
+          "label": "Rubro",
+          "value": "Travel Agency",
+          "note": "Base verificada"
+        },
+        {
+          "label": "Agenda",
+          "value": "Lunes a Viernes; Sabado, Domingo cerrado",
+          "note": "Dato verificado"
+        },
+        {
+          "label": "Contacto",
+          "value": "Telefono directo",
+          "note": "0341 598-2505"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Servicios",
+          "title": "Datos claros para decidir",
+          "body": "El sitio ordena datos publicos relevantes y deja como a confirmar cualquier dato comercial no verificado.",
+          "items": [
+            {
+              "label": "Servicio",
+              "value": "viajes grupales acompañados",
+              "note": "El servicio principal se muestra sin agregar prestaciones no verificadas."
+            },
+            {
+              "label": "Contacto",
+              "value": "Consulta directa",
+              "note": "Telefono, direccion y horario se ordenan para reducir friccion."
+            },
+            {
+              "label": "Prueba",
+              "value": "Referencias publicas",
+              "note": "Rating y resenas reales sostienen la decision."
+            }
+          ]
+        },
+        {
+          "type": "process",
+          "eyebrow": "Proceso",
+          "title": "De consulta a turno sin perder contexto",
+          "body": "El usuario entiende que informacion enviar, que se confirma y como avanzar.",
+          "items": [
+            {
+              "label": "01",
+              "value": "Contar la necesidad",
+              "note": "El visitante consulta el servicio principal."
+            },
+            {
+              "label": "02",
+              "value": "Confirmar disponibilidad",
+              "note": "El negocio valida horario, alcance y datos."
+            },
+            {
+              "label": "03",
+              "value": "Coordinar visita",
+              "note": "Direccion y contacto quedan visibles."
+            }
+          ]
+        },
+        {
+          "type": "metric-grid",
+          "eyebrow": "Confianza",
+          "title": "Datos reales arriba, informacion a confirmar separada",
+          "body": "El sitio combina fuentes verificadas con opciones comerciales que se completan antes de publicar.",
+          "items": [
+            {
+              "label": "Prueba social",
+              "value": "5.0 / 5",
+              "note": "65 resenas registradas en las fuentes disponibles."
+            },
+            {
+              "label": "Rubro",
+              "value": "Travel Agency",
+              "note": "El sitio debe vender el servicio principal sin sumar prestaciones no confirmadas."
+            },
+            {
+              "label": "Agenda",
+              "value": "Lunes a Viernes; Sabado, Domingo cerrado",
+              "note": "Horario publicado para orientar la primera consulta."
+            },
+            {
+              "label": "Contacto",
+              "value": "Telefono directo",
+              "note": "CTA preparado para llamar desde el celular sin buscar el dato en otro lado."
+            }
+          ]
+        },
+        {
+          "type": "material-story",
+          "eyebrow": "Direccion visual",
+          "title": "El sitio se apoya en imagen real y escenas seguras de contexto.",
+          "body": "Cuando los datos o fotos son pobres, la composicion puede sumar atmosfera, textura y proceso sin atribuir esos recursos al negocio.",
+          "items": [
+            {
+              "label": "Foto real",
+              "value": "Usar como prueba",
+              "note": "Priorizar la mejor imagen publica disponible."
+            },
+            {
+              "label": "Apoyo visual",
+              "value": "Poblar contexto",
+              "note": "Herramientas, material, mostrador o proceso sin marcas falsas."
+            },
+            {
+              "label": "Cliente",
+              "value": "Siguiente paso claro",
+              "note": "Consultar"
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Accion",
+          "title": "Sauco Viajes: el proximo paso es simple",
+          "body": "Llama, confirma disponibilidad y lleva el auto con el dato clave ya resuelto: travel agency, direccion y horario.",
+          "items": [
+            {
+              "label": "CTA",
+              "value": "Consultar",
+              "note": "0341 598-2505"
+            },
+            {
+              "label": "Ubicacion",
+              "value": "Av. Carlos Pellegrini 338, S2000 Rosario, Santa Fe, Argentina"
+            },
+            {
+              "label": "Horario",
+              "value": "Lunes a Viernes; Sabado, Domingo cerrado"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/agencias-viajes-ar/sauco-viajes",
+      "notes": "Dirección 'Cartel de globo de diálogo': papel blanco frío, lila plano y celeste de los carteles del propio grupo, cobre solo en el CTA. Anybody + Asap. Template editorial-local-story."
+    }
+  }
+}

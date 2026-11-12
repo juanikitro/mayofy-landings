@@ -1,0 +1,169 @@
+{
+  "id": "google-ChIJYxh23nF7GpYR7AY6HnN37w0",
+  "name": "Tierra de Mestizos Rental",
+  "slug": "tierra-de-mestizos-rental",
+  "archetype": "bold-hero-photo",
+  "palette": {
+    "dominant": "#111111",
+    "accent": "#ffbf1f",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "Oswald",
+    "secondary": "Atkinson Hyperlegible"
+  },
+  "hero_image": {
+    "heroSrc": "./assets/hero.jpg",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJYxh23nF7GpYR7AY6HnN37w0",
+    "slug": "tierra-de-mestizos-rental",
+    "visual_mood": "workshop-trust",
+    "composition": "service-ledger",
+    "headline": "El rental con más historia de reseñas para tu primera vez en la nieve",
+    "subheadline": "Tierra de Mestizos alquila equipos de nieve en Moreno 262, con gran variedad para elegir y 4.5 sobre 5 en 330 reseñas.",
+    "primary_cta": "Llamar al 0294 479-1637",
+    "secondary_cta": "Consultar disponibilidad",
+    "service_tags": [
+      "Alquiler de equipos de nieve",
+      "Gran variedad para elegir",
+      "Ideal para principiantes",
+      "Atención en el centro",
+      "Ski y snowboard"
+    ],
+    "proof_points": [
+      "4.5 sobre 5 con 330 reseñas en Google",
+      "Todos los días de 9 a 21 (confirmá el horario del día al llamar)",
+      "Francisco Pascasio Moreno 262, San Carlos de Bariloche",
+      "\"Great staff, very helpful and a lot of equipment to choose from! They turned out to be essential for us first timers in the snow\" — Bruno C"
+    ],
+    "resource_title": "Por qué llegan tantos primerizos",
+    "resource_items": [
+      "Mucha variedad de equipos para encontrar lo que te queda.",
+      "Atención pensada para quienes nunca pisaron la nieve.",
+      "330 reseñas públicas que puedes leer antes de decidir."
+    ],
+    "review_heading": "Lo que cuentan los que alquilaron por primera vez",
+    "contact_heading": "Llamá y coordiná tu equipo",
+    "image_prompt": "Foto real del local Tierra de Mestizos Rental en el centro de Bariloche con estantes llenos de equipos de nieve y mostrador de atención.",
+    "design_notes": "Almacén de montaña con volumen: pizarra profunda, azul glaciar y cian eléctrico en el CTA. Big Shoulders Display + Public Sans. Ledger de stock como motivo de confianza.",
+    "conversion_template": "catalog-counter",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Alquiler de equipos de nieve con gran volumen de reseñas en el centro de Bariloche que convierte al primerizo indeciso en un cliente que confía por cantidad de opiniones y variedad de equipo.",
+      "visual_thesis": "Almacén de montaña con volumen: la variedad de equipos y el peso de 330 reseñas del local real llevados a un mostrador tipo catálogo con libro de stock. Display Big Shoulders Display con cuerpo Public Sans; paleta de pizarra profunda, azul glaciar y cian eléctrico reservado para el CTA, con un ledger de stock como motivo de confianza.",
+      "copy_voice": "Español argentino claro y confiable, que apoya la decisión en la variedad y en el volumen de reseñas, sin exagerar.",
+      "layout_signature": "Template catalog-counter: hero con titular fuerte y contador de 330 reseñas, foto del local y CTA de llamada arriba del fold; después catálogo de equipos por categoría, banda de reseña de primerizos, ledger de disponibilidad y contacto con mapa al centro.",
+      "asset_plan": "Foto real del local lleno de equipos como imagen del hero; ledger de stock, íconos de equipo y curvas de nivel en SVG/CSS inline; textura de papel cuadriculado en CSS, sin assets externos salvo Google Fonts.",
+      "ai_fill_plan": {
+        "copy": [
+          "Microcopy del catálogo de equipos y CTAs apoyado en reseñas de variedad",
+          "Encabezados de sección como 'Catálogo de equipos' sin inventar stock ni precios"
+        ],
+        "imagery": [
+          "Ledger de disponibilidad y íconos de equipo en SVG de línea",
+          "Textura de papel cuadriculado y curvas de nivel en CSS como fondo"
+        ],
+        "boundaries": [
+          "No inventar precios, stock, marcas, años, premios, garantías, servicios ni reseñas",
+          "No publicar un horario fijo contradictorio: una reseña discute el horario, por eso se pide confirmar al llamar",
+          "No prometer clases ni instructores: no hay evidencia"
+        ]
+      },
+      "anti_patterns": [
+        "Fuentes genéricas como Inter, Roboto o Arial",
+        "Gradiente violeta sobre blanco",
+        "Layout SaaS de tres cards iguales",
+        "Stock de equipos de catálogo en lugar del local real lleno de equipo"
+      ],
+      "rewrite_targets": [
+        "Convertir las 330 reseñas en el argumento visual central de confianza",
+        "Ordenar la variedad de equipo como un catálogo real, no como tres cards",
+        "Reservar el cian eléctrico solo para el CTA de llamada"
+      ]
+    },
+    "creative": {
+      "concept": "El almacén de equipos con tanto volumen de reseñas que el primerizo entra tranquilo.",
+      "audience": "Principiantes y familias que buscan variedad de equipo en el centro y se guían por la cantidad de reseñas.",
+      "visual_direction": "Pizarra profunda, azul glaciar y cian eléctrico, ledger de stock y tipografía display robusta.",
+      "layout": "mechanic-ledger",
+      "texture": "service-ledger",
+      "hero_angle": "Gran variedad de equipos de nieve con 4.5 sobre 5 en 330 reseñas.",
+      "hero_cards": [
+        {
+          "label": "Reseñas",
+          "value": "4.5★ en 330 opiniones",
+          "note": "Perfil público de Google"
+        },
+        {
+          "label": "Horario",
+          "value": "Todos los días 9 a 21"
+        },
+        {
+          "label": "Dónde",
+          "value": "Moreno 262, centro"
+        }
+      ],
+      "sections": [
+        {
+          "type": "metric-grid",
+          "eyebrow": "Por qué confían",
+          "title": "El peso de las reseñas",
+          "body": "La cantidad de opiniones y la variedad de equipo son el argumento que repiten los primerizos.",
+          "items": [
+            {
+              "label": "330",
+              "value": "Reseñas públicas en Google"
+            },
+            {
+              "label": "4.5★",
+              "value": "Valoración promedio"
+            },
+            {
+              "label": "Centro",
+              "value": "A pasos del microcentro de Bariloche"
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Primera vez",
+          "title": "Esenciales para arrancar",
+          "body": "Quienes nunca esquiaron destacan la ayuda para elegir el equipo correcto.",
+          "items": [
+            {
+              "label": "Bruno C",
+              "value": "A lot of equipment to choose from! Essential for us first timers in the snow."
+            },
+            {
+              "label": "Maria do Carmo Silva Folego",
+              "value": "O atendimento do Luciano na loja foi perfeito. Ajudou nas escolhas."
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Contacto directo",
+          "title": "Coordiná tu equipo",
+          "body": "Teléfono, horario y mapa al centro para dejar tu equipo reservado.",
+          "items": [
+            {
+              "label": "Llamar",
+              "value": "0294 479-1637"
+            },
+            {
+              "label": "Ir al local",
+              "value": "Moreno 262, Bariloche"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/bariloche-ski/tierra-de-mestizos-rental",
+      "notes": "Almacén de montaña con volumen: Big Shoulders Display + Public Sans, pizarra y azul glaciar con cian eléctrico en el CTA, ledger de stock y foto real del local lleno de equipo."
+    }
+  }
+}

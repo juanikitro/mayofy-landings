@@ -1,0 +1,172 @@
+{
+  "id": "google-ChIJJxVwIvsfkZURLdbl6BbEd1E",
+  "name": "Petrogas Glp",
+  "slug": "petrogas-glp",
+  "archetype": "local-clean-service",
+  "palette": {
+    "dominant": "#f7fbfa",
+    "accent": "#24746b",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "Nunito Sans",
+    "secondary": "Literata"
+  },
+  "hero_image": {
+    "heroSrc": "./index.html",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJJxVwIvsfkZURLdbl6BbEd1E",
+    "slug": "petrogas-glp",
+    "visual_mood": "fleet-utility",
+    "composition": "route-card",
+    "headline": "Petrogas: garrafas y gas envasado a domicilio en toda la zona de Tandil",
+    "subheadline": "Distribuidor oficial de GLP en Tierra del Fuego 1355, con reparto puntual y 4.7 sobre 5 en 112 reseñas.",
+    "primary_cta": "Pedir garrafa al 0249 449-4068",
+    "secondary_cta": "Ver dirección del distribuidor",
+    "service_tags": [
+      "Garrafas de 10 kg",
+      "Reparto a domicilio",
+      "Distribuidor oficial GLP",
+      "Recambio de envase"
+    ],
+    "proof_points": [
+      "4.7 sobre 5 en 112 reseñas de Google",
+      "Tierra del Fuego 1355, Tandil",
+      "Lunes a viernes de 8 a 16, sábados de 8 a 12",
+      "\"Muy serviciales los repartidores, cumplen en tiempo y forma con la entrega y te ayudan a colocar la nueva garrafa\" — facundo zuasnabal"
+    ],
+    "resource_title": "Cómo pedir tu garrafa",
+    "resource_items": [
+      "Llamá al reparto y coordiná el horario de entrega en tu domicilio.",
+      "Tené a mano el envase vacío para el recambio.",
+      "Atención de lunes a sábado, sin reparto los domingos."
+    ],
+    "review_heading": "Lo que dicen los vecinos del reparto",
+    "contact_heading": "Pedí tu garrafa al 0249 449-4068",
+    "image_prompt": "Playa de distribución de gas envasado con oficina blanca y celeste tipo distribuidor oficial, cielo despejado, tanques y camión de reparto.",
+    "design_notes": "Playa de distribución bajo cielo celeste: azul YPF Gas, blanco, franjas de seguridad amarillo y negro. Staatliches + Nunito, tipografía de panel industrial.",
+    "conversion_template": "catalog-counter",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Distribuidor oficial de garrafas y gas envasado que convierte la necesidad urgente de 'gas a domicilio en Tandil' en un pedido telefónico directo.",
+      "visual_thesis": "Playa de distribución bajo cielo celeste: la foto real de la oficina blanca y celeste con cartel 'Distribuidor Oficial' se vuelve el fondo de un panel industrial. Display Staatliches en mayúsculas de cartel de ruta, cuerpo Nunito. Paleta azul YPF Gas, blanco, franjas amarillo y negro de seguridad como acento.",
+      "copy_voice": "Español argentino directo y práctico, de reparto y mostrador, sin tecnicismos de venta.",
+      "layout_signature": "Template catalog-counter: hero tipo panel de ruta con la foto real de la playa de distribución, CTA de pedido telefónico arriba del fold; debajo ficha de producto (garrafa de 10 kg), franja de reseñas de reparto puntual, pasos para pedir y contacto final con horario de atención.",
+      "asset_plan": "Foto real de la playa de distribución (foto-1) como hero; foto-2 y foto-3 como evidencia de la operación (tanques, reparto) con captions; franjas amarillo y negro tipo señalética de seguridad en SVG/CSS como textura, sin stock externo.",
+      "ai_fill_plan": {
+        "copy": [
+          "Microcopy de pasos para pedir la garrafa derivado del proceso real descrito en las reseñas",
+          "Encabezados de sección como 'Playa de distribución' sin inventar productos no verificados"
+        ],
+        "imagery": [
+          "Franjas de seguridad amarillo y negro en CSS",
+          "Textura de grilla técnica tipo panel industrial"
+        ],
+        "boundaries": [
+          "No inventar precios de garrafa: hay una reseña que menciona un precio pero no se muestra como precio oficial ni vigente",
+          "No usar la reseña negativa sobre el envase sucio como prueba social positiva",
+          "No prometer reparto los domingos: el horario real no lo incluye"
+        ]
+      },
+      "anti_patterns": [
+        "Fuentes genéricas como Inter, Roboto o Arial",
+        "Gradiente violeta sobre blanco",
+        "Mostrar el precio de $30.000 de la reseña negativa como precio de lista",
+        "Layout de landing SaaS con iconos genéricos de llama"
+      ],
+      "rewrite_targets": [
+        "El teléfono de pedido tiene que verse como el elemento más caliente del hero",
+        "Diferenciar claramente 'distribuidor oficial' de un negocio genérico de garrafas",
+        "Mostrar el horario real (sin domingos) para evitar pedidos fuera de horario"
+      ]
+    },
+    "creative": {
+      "concept": "El distribuidor oficial de gas que te lleva la garrafa a upa a domicilio en Tandil.",
+      "audience": "Familias y comercios de Tandil que se quedan sin gas y necesitan reparto confiable el mismo día.",
+      "visual_direction": "Foto real de la playa de distribución blanca y celeste, franjas de seguridad amarillo y negro, panel tipo cartel de ruta.",
+      "layout": "oil-bay",
+      "texture": "oil-label",
+      "hero_angle": "Distribuidor oficial de GLP en Tandil con reparto puntual y 4.7 sobre 5 en 112 reseñas.",
+      "hero_cards": [
+        {
+          "label": "Reseñas",
+          "value": "4.7★ en 112 opiniones",
+          "note": "Perfil público de Google"
+        },
+        {
+          "label": "Dirección",
+          "value": "Tierra del Fuego 1355, Tandil"
+        },
+        {
+          "label": "Contacto",
+          "value": "0249 449-4068"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Qué pedís",
+          "title": "Garrafas y gas envasado con reparto",
+          "body": "Recambio de garrafa de 10 kg a domicilio, con los repartidores ayudando a colocarla.",
+          "items": [
+            {
+              "label": "Garrafa de 10 kg",
+              "value": "Recambio a domicilio"
+            },
+            {
+              "label": "Reparto puntual",
+              "value": "Coordinado por teléfono"
+            },
+            {
+              "label": "Ayuda de colocación",
+              "value": "El repartidor te ayuda a instalarla"
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Reseñas de reparto",
+          "title": "Puntuales y serviciales",
+          "body": "Lo que cuentan los vecinos que ya pidieron su garrafa.",
+          "items": [
+            {
+              "label": "facundo zuasnabal",
+              "value": "Muy serviciales los repartidores, cumplen en tiempo y forma con la entrega y te ayudan a colocar la nueva garrafa."
+            },
+            {
+              "label": "Fertilizantes Petrotandil",
+              "value": "Excelente servicio de atención, muy buena calidad de el producto."
+            }
+          ]
+        },
+        {
+          "type": "process",
+          "eyebrow": "Cómo pedir",
+          "title": "Tres pasos para tu garrafa",
+          "body": "Del llamado a la entrega, sin vueltas.",
+          "items": [
+            {
+              "label": "1",
+              "value": "Llamá al 0249 449-4068 y pedí tu recambio"
+            },
+            {
+              "label": "2",
+              "value": "Coordiná el horario de entrega en tu domicilio"
+            },
+            {
+              "label": "3",
+              "value": "El repartidor te trae la garrafa y te ayuda a colocarla"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/tandil/petrogas-glp",
+      "notes": "Playa de distribución bajo cielo celeste: foto real de la oficina como hero, Staatliches + Nunito, franjas de seguridad amarillo y negro en CSS."
+    }
+  }
+}

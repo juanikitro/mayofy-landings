@@ -1,0 +1,172 @@
+{
+  "id": "google-ChIJV8MZl586M0oRTgGUHoBVWss",
+  "name": "Electricista Dario Gerez",
+  "slug": "electricista-dario-gerez",
+  "archetype": "minimal-professional",
+  "palette": {
+    "dominant": "#f8f7f3",
+    "accent": "#2f5d62",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "Aptos",
+    "secondary": "Georgia"
+  },
+  "hero_image": {
+    "heroSrc": "./index.html",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJV8MZl586M0oRTgGUHoBVWss",
+    "slug": "electricista-dario-gerez",
+    "visual_mood": "roadside-urgent",
+    "composition": "split-command",
+    "headline": "Darío Gerez, el electricista de Tandil que atiende las 24 horas",
+    "subheadline": "Instalaciones y urgencias eléctricas en Chacabuco 1235, con 5 sobre 5 en 17 reseñas y atención los 7 días.",
+    "primary_cta": "Llamar ahora al 0249 460-5301",
+    "secondary_cta": "Ver zona de cobertura",
+    "service_tags": [
+      "Urgencias eléctricas 24 hs",
+      "Instalaciones domiciliarias",
+      "Térmicas y disyuntores",
+      "Tableros eléctricos"
+    ],
+    "proof_points": [
+      "5 sobre 5 en 17 reseñas de Google",
+      "Atención las 24 horas, los 7 días de la semana",
+      "Chacabuco 1235, Tandil",
+      "\"Lo llamé a la 1 de la mañana porque se quemó la térmica de afuera, vinieron y lo arreglo en una hora\" — Lili Orellano"
+    ],
+    "resource_title": "Qué contar al llamar",
+    "resource_items": [
+      "Decí si es una urgencia (sin luz, olor a quemado) o una instalación programada.",
+      "Atención las 24 horas, todos los días de la semana.",
+      "Trabaja en domicilios de Tandil y alrededores."
+    ],
+    "review_heading": "Lo que cuentan después de una urgencia",
+    "contact_heading": "Llamá las 24 horas al 0249 460-5301",
+    "image_prompt": "Instalación eléctrica real en obra con caños corrugados azules sobre pared de ladrillo visto, de noche con una sola luz de trabajo encendida.",
+    "design_notes": "Panel eléctrico nocturno: fondo casi negro tipo tablero, ámbar de alerta y azul eléctrico como acentos. Teko + Space Mono, números tratados como lectura de tablero.",
+    "conversion_template": "urgent-call-first",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Electricista matriculado de Tandil disponible las 24 horas que convierte una urgencia eléctrica de madrugada en una llamada inmediata.",
+      "visual_thesis": "Panel eléctrico nocturno 24 horas: la foto real de la instalación con caños corrugados azules sobre ladrillo se trata como un tablero visto de noche. Display Teko alto y angosto como lectura de instrumento, cuerpo Space Mono monoespaciado como ficha técnica. Paleta casi negra de tablero, ámbar de alerta para el CTA y azul eléctrico frío como acento secundario.",
+      "copy_voice": "Español argentino directo y de confianza, apoyado en la reseña real del llamado a la 1 de la madrugada.",
+      "layout_signature": "Template urgent-call-first: hero oscuro tipo tablero con el teléfono como elemento más grande y luminoso de la página, disponible las 24 horas destacado arriba del fold; debajo servicios eléctricos, franja con la reseña de la urgencia nocturna, y contacto final repetido con el mismo peso visual.",
+      "asset_plan": "Foto real de la instalación eléctrica (foto-1) como hero tratada en tonos oscuros; foto-2 y foto-3 como evidencia de trabajo con captions; líneas de cableado en SVG ámbar como motivo gráfico recurrente, sin stock externo.",
+      "ai_fill_plan": {
+        "copy": [
+          "Microcopy de urgencia derivado de la reseña real del llamado nocturno",
+          "Encabezados de bloque como 'Tablero de servicios' sin inventar certificaciones"
+        ],
+        "imagery": [
+          "Líneas de cableado en SVG ámbar sobre fondo oscuro",
+          "Textura de grilla técnica tipo tablero eléctrico"
+        ],
+        "boundaries": [
+          "No inventar matrícula, marca de materiales ni certificaciones no verificadas",
+          "No inventar precios ni tarifas nocturnas",
+          "Solo citar las 3 reseñas verificadas con autor exacto"
+        ]
+      },
+      "anti_patterns": [
+        "Fuentes genéricas como Inter, Roboto o Arial",
+        "Gradiente violeta sobre blanco",
+        "Hero claro y aséptico que no transmita urgencia nocturna",
+        "Iconos genéricos de rayo de banco de imágenes"
+      ],
+      "rewrite_targets": [
+        "El teléfono tiene que ser visualmente el elemento más caliente de la página, de día y de noche",
+        "La disponibilidad 24/7 necesita estar en el primer scroll, no enterrada en el texto",
+        "La reseña de la 1 de la madrugada tiene que anclar el ángulo comercial de todo el hero"
+      ]
+    },
+    "creative": {
+      "concept": "El electricista de Tandil al que llamás a cualquier hora y llega.",
+      "audience": "Vecinos de Tandil con un corte de luz, térmica quemada o instalación urgente a cualquier hora del día o de la noche.",
+      "visual_direction": "Foto real de instalación eléctrica en tonos oscuros, cableado ámbar como motivo, tipografía de tablero técnico.",
+      "layout": "roadside-rescue",
+      "texture": "road-markings",
+      "hero_angle": "Electricista matriculado en Tandil disponible las 24 horas, los 7 días, con 5 sobre 5 en 17 reseñas.",
+      "hero_cards": [
+        {
+          "label": "Reseñas",
+          "value": "5★ en 17 opiniones",
+          "note": "Perfil público de Google"
+        },
+        {
+          "label": "Disponibilidad",
+          "value": "Las 24 horas, los 7 días"
+        },
+        {
+          "label": "Contacto",
+          "value": "0249 460-5301"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Servicios eléctricos",
+          "title": "De la urgencia a la instalación completa",
+          "body": "Térmicas, disyuntores, tableros e instalaciones domiciliarias, a cualquier hora.",
+          "items": [
+            {
+              "label": "Urgencias 24 hs",
+              "value": "Térmicas y disyuntores"
+            },
+            {
+              "label": "Instalaciones",
+              "value": "Domicilios completos"
+            },
+            {
+              "label": "Tableros eléctricos",
+              "value": "Armado y actualización"
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Una urgencia real",
+          "title": "A la 1 de la madrugada y llegó",
+          "body": "La reseña de Lili Orellano cuenta el momento exacto en el que Darío resolvió una urgencia de noche.",
+          "items": [
+            {
+              "label": "Lili Orellano",
+              "value": "Lo llamé a la 1 de la mañana porque se quemó la térmica de afuera, vinieron y lo arreglo en una hora. El trato muy respetuoso y cordial."
+            },
+            {
+              "label": "Juancruz Carro",
+              "value": "Un genio Darío, puntual, muy educado y muy prolijo, súper recomendado."
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Contacto directo",
+          "title": "Llamá a cualquier hora",
+          "body": "Teléfono directo con atención las 24 horas, los 7 días de la semana.",
+          "items": [
+            {
+              "label": "Llamar",
+              "value": "0249 460-5301"
+            },
+            {
+              "label": "Disponibilidad",
+              "value": "Las 24 horas, todos los días"
+            },
+            {
+              "label": "Zona",
+              "value": "Chacabuco 1235, Tandil y alrededores"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/tandil/electricista-dario-gerez",
+      "notes": "Panel eléctrico nocturno 24 horas: foto real oscurecida como hero, Teko + Space Mono, cableado ámbar en SVG sobre fondo casi negro."
+    }
+  }
+}

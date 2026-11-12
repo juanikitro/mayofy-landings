@@ -1,0 +1,209 @@
+{
+  "id": "google-ChIJWVVlan-jMpQRYjdNl9aOKds",
+  "name": "Autocentro CarDetail",
+  "slug": "autocentro-cardetail",
+  "archetype": "automotive-premium-dark",
+  "palette": {
+    "dominant": "#101820",
+    "accent": "#d7a94b",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "Archivo Narrow",
+    "secondary": "Merriweather Sans"
+  },
+  "hero_image": {
+    "heroSrc": "./index.html",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJWVVlan-jMpQRYjdNl9aOKds",
+    "slug": "autocentro-cardetail",
+    "visual_mood": "precision-service",
+    "composition": "photo-board",
+    "headline": "Cada detalle de tu auto, bajo la luz que no perdona",
+    "subheadline": "Auto Centro CarDetail atiende en Puvr Olimpia 1851, Córdoba Capital, con 5.0 sobre 5 en 92 reseñas y un box donde cada trabajo queda a la vista.",
+    "primary_cta": "Llamar y reservar turno",
+    "secondary_cta": "Ver ubicación en Maps",
+    "service_tags": [
+      "Detailing interior",
+      "Detailing y pulido exterior",
+      "Protección de pintura (PPF)",
+      "Preparación para entrega o venta"
+    ],
+    "proof_points": [
+      "5.0 sobre 5 con 92 reseñas en Google",
+      "Lunes a viernes de 9:00 a 18:30, sábados de 9:00 a 13:00",
+      "Puvr Olimpia 1851, Córdoba Capital",
+      "\"Facu y Mauri dejaron mi auto impecable... mi auto está más lindo que nunca\" — Maria del Rosario Castro Tomassini"
+    ],
+    "resource_title": "Antes de llevar el auto",
+    "resource_items": [
+      "Rating perfecto: 5.0 sobre 5 en 92 reseñas públicas de Google.",
+      "El box real se ve en fotos: piso ajedrezado, luces de trabajo y logo propio en la pared.",
+      "Turno telefónico directo, sin formularios ni vueltas."
+    ],
+    "review_heading": "Lo que dicen los que ya llevaron el auto",
+    "contact_heading": "Llamá y coordiná tu turno",
+    "image_prompt": "Foto real de box de detailing en Córdoba Capital con auto bajo luces de trabajo, piso ajedrezado y logo dorado de gota en la pared, de noche.",
+    "design_notes": "Bóveda de detailing nocturna: grafito profundo, gota dorada del logo real, piso ajedrezado, Bricolage Grotesque + Instrument Sans.",
+    "conversion_template": "hero-proof-offer",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Auto Centro CarDetail vende un turno de detailing premium para dueños de auto en Córdoba Capital que quieren ver el auto como recién salido de fábrica antes de venderlo, entregarlo o disfrutarlo, apoyado en un rating perfecto de 92 reseñas.",
+      "visual_thesis": "Bóveda de detailing nocturna: el box real, con piso ajedrezado, luces de trabajo y el logo dorado de la gota retroiluminado, se lleva a una landing oscura y pulida. Display Bricolage Grotesque en mayúsculas compactas, cuerpo Instrument Sans; paleta de grafito profundo, amarillo gota y blanco hueso, con un destello acero de los reflejos como acento frío.",
+      "copy_voice": "Español argentino directo y cuidado, hablándole a quien va a dejar el auto: estado, expectativa de resultado, turno. Sin tono de spa ni de dashboard.",
+      "layout_signature": "Template hero-proof-offer: hero de foto real bajo luces de box con overlay de grafito, rating 5.0★ y teléfono arriba del pliegue; después tablero de servicios evidenciados por las fotos reales (detailing, protección de pintura), banda de reseñas citadas, mosaico de resultado con las tres fotos reales del box y CTA de llamada repetido antes del cierre.",
+      "asset_plan": "Las tres fotos reales del box (Peugeot bajo luces de trabajo, Audi con film de protección recién aplicado, Jeep terminado en el box) como protagonistas del hero y del mosaico de resultado; el piso ajedrezado y la gota del logo se llevan a textura CSS/SVG de fondo; sin stock ni fotos genéricas de detailing.",
+      "ai_fill_plan": {
+        "copy": [
+          "Microcopy de la sección de servicios y CTAs basado en lo que muestran las fotos y dicen las reseñas reales",
+          "Encabezados de bloque en tono de mostrador de box, sin inventar productos ni marcas"
+        ],
+        "imagery": [
+          "Patrón de piso ajedrezado en CSS como textura de fondo del hero",
+          "Gota dorada en SVG de línea como separador de sección, inspirada en el logo real"
+        ],
+        "boundaries": [
+          "No inventar precios, marcas de productos, tiempos de entrega ni garantías",
+          "No afirmar servicios no evidenciados por las fotos, como polarizado o mecánica general",
+          "Los autos de las fotos (Peugeot, Audi, Jeep) se muestran como trabajos reales del box, sin nombrar a sus dueños"
+        ]
+      },
+      "anti_patterns": [
+        "Fuentes genéricas como Inter, Roboto o Arial",
+        "Gradiente violeta de SaaS",
+        "Cards genéricas de detailing sin relación con el box real",
+        "Piso o pared genéricos en vez del ajedrezado y el logo reales del local"
+      ],
+      "rewrite_targets": [
+        "Reemplazar el layout de cards estilo dashboard de la versión anterior por un hero fotográfico dominante",
+        "Sacar el copy meta sobre \"conversión\" y \"oportunidad comercial\" que tenía la versión anterior",
+        "Subir el 5.0 con 92 reseñas arriba del pliegue como prueba social inmediata",
+        "Usar las tres fotos reales del box en vez de los bloques de antes/durante/después genéricos que tenía la versión anterior"
+      ]
+    },
+    "creative": {
+      "concept": "El box real de Auto Centro, de noche, bajo las luces que no dejan pasar ni un detalle.",
+      "audience": "Dueños de auto de Córdoba Capital que quieren detailing premium antes de usar, vender o entregar el vehículo.",
+      "visual_direction": "Grafito profundo, piso ajedrezado, gota dorada retroiluminada y las tres fotos reales del box como protagonistas.",
+      "layout": "studio-detail",
+      "texture": "polished-glass",
+      "hero_angle": "Detailing premium en Córdoba Capital con 5.0 sobre 5 en 92 reseñas, foto real del box bajo luces de noche.",
+      "hero_cards": [
+        {
+          "label": "Reseñas",
+          "value": "5.0★ en 92 opiniones",
+          "note": "Perfil público de Google"
+        },
+        {
+          "label": "Horario",
+          "value": "Lun a vie, 9 a 18:30",
+          "note": "Sáb 9 a 13, dom cerrado"
+        },
+        {
+          "label": "Ubicación",
+          "value": "Puvr Olimpia 1851"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Servicios del box",
+          "title": "Lo que se ve en las fotos reales",
+          "body": "Interior, exterior y protección: cada servicio evidenciado por un trabajo real dentro del box.",
+          "items": [
+            {
+              "label": "Interior",
+              "value": "Detailing de habitáculo",
+              "note": "Butacas, alfombras y plásticos"
+            },
+            {
+              "label": "Exterior",
+              "value": "Pulido y brillo",
+              "note": "Terminación visible en las fotos"
+            },
+            {
+              "label": "Protección",
+              "value": "Film de protección (PPF)",
+              "note": "Instalación real registrada en fotos"
+            },
+            {
+              "label": "Entrega",
+              "value": "Listo para mostrar",
+              "note": "Venta o próximo dueño"
+            }
+          ]
+        },
+        {
+          "type": "material-story",
+          "eyebrow": "Resultado real",
+          "title": "Tres autos, tres resultados",
+          "body": "Las fotos del propio box muestran el trabajo terminado, sin necesidad de stock genérico.",
+          "items": [
+            {
+              "label": "Peugeot 208",
+              "value": "Bajo luces de trabajo",
+              "note": "Detailing exterior terminado"
+            },
+            {
+              "label": "Audi",
+              "value": "Film recién instalado",
+              "note": "Protección de pintura en proceso"
+            },
+            {
+              "label": "Jeep Wrangler",
+              "value": "Terminado en el box",
+              "note": "Detailing completo"
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Clientes reales",
+          "title": "Autos impecables, trato profesional",
+          "body": "Las reseñas públicas son el respaldo principal de la página.",
+          "items": [
+            {
+              "label": "Maria del Rosario Castro Tomassini",
+              "value": "Facu y Mauri dejaron mi auto impecable! Siempre atentos y profesionales."
+            },
+            {
+              "label": "Victor Hugo Ponce",
+              "value": "Excelente atención, muy bien el trabajo, muy conforme, gracias!!"
+            },
+            {
+              "label": "Francisco Achaval",
+              "value": "Lleve 3 autos y quedaron espectaculares. Super recomendable."
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Contacto directo",
+          "title": "Llamá, escribí o pasá por el box",
+          "body": "Teléfono, dirección y horario sin vueltas.",
+          "items": [
+            {
+              "label": "Llamar",
+              "value": "0351 15-265-8259"
+            },
+            {
+              "label": "Ir al box",
+              "value": "Puvr Olimpia 1851, Córdoba"
+            },
+            {
+              "label": "Horario",
+              "value": "Lun a vie 9 a 18:30, sáb 9 a 13"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/cordoba-conversion/autocentro-cardetail",
+      "notes": "Bóveda de detailing nocturna: grafito, gota dorada real, piso ajedrezado, Bricolage Grotesque + Instrument Sans, tres fotos reales del box."
+    }
+  }
+}

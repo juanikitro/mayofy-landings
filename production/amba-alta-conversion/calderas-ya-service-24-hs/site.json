@@ -1,0 +1,172 @@
+{
+  "id": "google-ChIJ03sUl4uhvJURSTqoLihfDxg",
+  "name": "CALDERAS YA !!! SERVICE 24 Hs.",
+  "slug": "calderas-ya-service-24-hs",
+  "archetype": "industrial-garage",
+  "palette": {
+    "dominant": "#2d2a26",
+    "accent": "#d94f30",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "IBM Plex Sans Condensed",
+    "secondary": "Source Serif 4"
+  },
+  "hero_image": {
+    "heroSrc": "./index.html",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJ03sUl4uhvJURSTqoLihfDxg",
+    "slug": "calderas-ya-service-24-hs",
+    "visual_mood": "roadside-urgent",
+    "composition": "split-command",
+    "headline": "¿La caldera no arranca? Primero te orientan por teléfono",
+    "subheadline": "Calderas YA atiende urgencias todos los días desde Benavídez, zona norte, con 5.0 sobre 5 en 43 reseñas.",
+    "primary_cta": "Llamar al 011 3356-8147",
+    "secondary_cta": "Ver horario y ubicación",
+    "service_tags": [
+      "Urgencias de calderas",
+      "Orientación telefónica primero",
+      "Calderas murales y termotanques",
+      "Todos los días de 1:00 a 23:30"
+    ],
+    "proof_points": [
+      "5.0 sobre 5 con 43 reseñas en Google",
+      "Todos los días de 1:00 a 23:30",
+      "Benavídez, Tigre, zona norte del GBA",
+      "\"Nos resolvió el problema por teléfono, guiándonos de que hacer\" — NUTRILAKE Nutricion"
+    ],
+    "resource_title": "Qué esperar cuando llamás",
+    "resource_items": [
+      "Primera orientación por teléfono: dos reseñas cuentan problemas resueltos sin visita.",
+      "Horario real publicado: todos los días de 1:00 a 23:30.",
+      "Foto real de sala de máquinas con dos calderas murales instaladas."
+    ],
+    "review_heading": "Partes de trabajo con nombre",
+    "contact_heading": "Un número, todos los días",
+    "image_prompt": "Sala de máquinas real con dos calderas murales instaladas y cañerías verdes, luz de trabajo.",
+    "design_notes": "Despacho de urgencia técnico: azul noche, celeste hielo y ámbar de alerta solo en CTA. Anton + Chivo, chips de estado tipo panel de caldera, número de teléfono como elemento gráfico central.",
+    "conversion_template": "urgent-call-first",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Service y urgencias de calderas en zona norte del GBA que convierte una emergencia de invierno en una llamada, con la orientación telefónica como diferencial.",
+      "visual_thesis": "Despacho de urgencia técnico: sala de máquinas nocturna con el teléfono como elemento gráfico central. Display condensada Anton y cuerpo Chivo; paleta de azul noche, celeste hielo y ámbar de alerta reservado solo para los CTAs, con verde cañería como acento de la foto real.",
+      "copy_voice": "Español argentino directo, técnico y tranquilizador; el mensaje que convierte es 'primero te orientamos por teléfono'.",
+      "layout_signature": "Template urgent-call-first: hero con titular condensado, teléfono enorme con tel: y chips de estado y rating arriba del fold; después 'cómo trabaja' en tres pasos donde el paso 1 es la orientación telefónica, foto real de sala de máquinas como prueba, reseñas como partes de trabajo y contacto con horario exacto.",
+      "asset_plan": "Foto real de instalación (dos calderas murales) como bloque de prueba y fondo parcial del hero con overlay azul; gráfica de atención en un paso; chips LED y grid técnico en CSS.",
+      "ai_fill_plan": {
+        "copy": [
+          "Microcopy de urgencia y de los tres pasos",
+          "Etiquetas de estado tipo panel de caldera sin inventar datos"
+        ],
+        "imagery": [
+          "Grid técnico de chapa como textura de fondo y líneas de cañería en CSS",
+          "Chips LED de estado en CSS sobre la foto real de sala de máquinas"
+        ],
+        "boundaries": [
+          "No inventar zonas de cobertura, tiempos de llegada, precios ni presupuestos",
+          "'24 hs' solo como parte del nombre; el horario real es de 1:00 a 23:30",
+          "'No me cobró' queda solo como cita de reseña, no como política del negocio"
+        ]
+      },
+      "anti_patterns": [
+        "Stock 3D de plomero genérico como protagonista",
+        "Fuentes genéricas como Arial o Roboto",
+        "Fondo plano sin atmósfera de sala de máquinas",
+        "Prometer '24hs' o tiempos de respuesta sin evidencia"
+      ],
+      "rewrite_targets": [
+        "Reemplazar el copy heredado por service de calderas real en Benavídez",
+        "Elevar la orientación telefónica al paso 1, citando a Marcos Cobos y NUTRILAKE",
+        "Tratar el teléfono como elemento gráfico central con tel:"
+      ]
+    },
+    "creative": {
+      "concept": "La respuesta inmediata cuando la caldera se rompe de noche en invierno: teléfono gigante y orientación primero.",
+      "audience": "Familias y encargados de zona norte del GBA sin agua caliente ni calefacción que necesitan respuesta hoy.",
+      "visual_direction": "Panel de caldera nocturno: azul profundo, chips LED de estado, ámbar solo para llamar, foto real de instalación como prueba.",
+      "layout": "roadside-rescue",
+      "texture": "service-ledger",
+      "hero_angle": "Urgencias de calderas todos los días en zona norte, con primera orientación por teléfono.",
+      "hero_cards": [
+        {
+          "label": "Reseñas",
+          "value": "5.0★ en 43 opiniones",
+          "note": "Perfil público de Google"
+        },
+        {
+          "label": "Disponibilidad",
+          "value": "Todos los días, 1:00 a 23:30"
+        },
+        {
+          "label": "Base",
+          "value": "Benavídez, Tigre"
+        }
+      ],
+      "sections": [
+        {
+          "type": "process",
+          "eyebrow": "Cómo trabaja",
+          "title": "Llamás, te orienta, se resuelve",
+          "body": "El diferencial que repiten las reseñas: antes de agendar visita, Mariano intenta destrabar el problema por teléfono.",
+          "items": [
+            {
+              "label": "1. Llamás",
+              "value": "011 3356-8147, todos los días"
+            },
+            {
+              "label": "2. Orientación",
+              "value": "Revisión guiada por teléfono, como cuentan Marcos y NUTRILAKE"
+            },
+            {
+              "label": "3. Visita",
+              "value": "Si hace falta, service en el equipo"
+            }
+          ]
+        },
+        {
+          "type": "material-story",
+          "eyebrow": "Trabajo real",
+          "title": "Sala de máquinas, no stock",
+          "body": "La foto del perfil muestra dos calderas murales instaladas con su distribución de cañerías.",
+          "items": [
+            {
+              "label": "Equipos",
+              "value": "Calderas murales y termotanques"
+            },
+            {
+              "label": "Registro",
+              "value": "Fotos de instalaciones en el perfil público"
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Reseñas",
+          "title": "Un viernes a la noche",
+          "body": "Las historias reales son de urgencias: fin de semana sin agua caliente, técnico que responde cuando nadie más lo hace.",
+          "items": [
+            {
+              "label": "Martín Gauna",
+              "value": "Tuve un problema con mi caldera un viernes a la noche... encontré a Mariano."
+            },
+            {
+              "label": "Marcos Cobos",
+              "value": "Se tomó la molestia de explicarme todo por teléfono. Un genio total."
+            },
+            {
+              "label": "NUTRILAKE Nutricion",
+              "value": "Nos resolvió el problema por teléfono, guiándonos de que hacer."
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/amba-alta-conversion/calderas-ya-service-24-hs",
+      "notes": "Despacho de urgencia técnico: azul noche con ámbar de alerta, Anton + Chivo, teléfono como elemento central, foto real de instalación como bloque de prueba."
+    }
+  }
+}

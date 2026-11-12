@@ -1,0 +1,247 @@
+/* Aluguel Ropa para nieve — "Cartel esmaltado de bienvenida": bem-vindos / bienvenidos.
+   Verde botella profundo sobre papel crema cálido, dorado como único acento (CTA e índices).
+   Sistema de cartel pintado: bordes gruesos, sombras duras offset y tipografía geométrica Syne.
+   Cálido, bilingüe y paciente; sin assets externos. */
+:root {
+  --alu-cream: #f7efdb;
+  --alu-cream-2: #fdf8ea;
+  --alu-panel: #fffdf6;
+  --alu-forest: #123d2b;
+  --alu-forest-2: #0d3021;
+  --alu-gold: #cf9a2c;
+  --alu-gold-deep: #ac7d18;
+  --alu-ink: #17281f;
+  --alu-ink-soft: rgba(23, 40, 31, 0.72);
+  --alu-ink-mut: rgba(23, 40, 31, 0.54);
+  --alu-line: rgba(18, 61, 43, 0.2);
+  --alu-line-soft: rgba(18, 61, 43, 0.1);
+  --alu-wrap: 1160px;
+  --alu-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --alu-hard: 12px 12px 0 rgba(18, 61, 43, 0.16);
+  --alu-hard-sm: 7px 7px 0 rgba(18, 61, 43, 0.14);
+  --alu-shadow: 0 30px 60px -40px rgba(18, 61, 43, 0.5);
+}
+
+* { box-sizing: border-box; }
+
+.alu {
+  margin: 0;
+  color: var(--alu-ink);
+  font-family: "Manrope", system-ui, sans-serif;
+  font-size: 18px;
+  line-height: 1.62;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  background:
+    radial-gradient(85% 60% at 88% -8%, rgba(207, 154, 44, 0.14), transparent 55%),
+    radial-gradient(70% 55% at 6% 4%, rgba(18, 61, 43, 0.07), transparent 55%),
+    linear-gradient(180deg, var(--alu-cream-2), var(--alu-cream));
+  background-attachment: fixed;
+}
+
+h1, h2, h3 {
+  font-family: "Syne", system-ui, sans-serif;
+  margin: 0;
+  line-height: 1.02;
+  letter-spacing: -0.01em;
+  font-weight: 800;
+}
+p { margin: 0; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+em { font-style: normal; color: var(--alu-gold-deep); }
+
+.alu-skip {
+  position: absolute; left: 14px; top: -70px; z-index: 90;
+  background: var(--alu-gold); color: #211701; padding: 10px 15px; border-radius: 8px;
+  text-decoration: none; font-weight: 800; transition: top 0.2s var(--alu-ease);
+}
+.alu-skip:focus { top: 12px; }
+:focus-visible { outline: 3px solid var(--alu-gold); outline-offset: 3px; border-radius: 6px; }
+
+.alu-kicker {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-weight: 800; text-transform: uppercase; letter-spacing: 0.16em; font-size: 0.72rem;
+  color: var(--alu-forest); margin-bottom: 16px;
+}
+.alu-kicker__rule { width: 26px; height: 2px; background: var(--alu-gold); }
+.alu-star { color: var(--alu-gold-deep); }
+
+.alu-btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  border-radius: 10px; padding: 15px 24px; font-weight: 800; font-size: 0.96rem;
+  text-decoration: none; border: 2px solid transparent;
+  transition: transform 0.22s var(--alu-ease), box-shadow 0.22s var(--alu-ease), background-color 0.22s var(--alu-ease), border-color 0.22s var(--alu-ease);
+}
+.alu-btn--gold { background: var(--alu-gold); color: #211701; box-shadow: var(--alu-hard-sm); }
+.alu-btn--gold:hover { transform: translate(-2px, -2px); background: var(--alu-gold-deep); box-shadow: 10px 10px 0 rgba(18, 61, 43, 0.18); }
+.alu-btn--line { border-color: var(--alu-forest); color: var(--alu-forest); background: var(--alu-panel); }
+.alu-btn--line:hover { transform: translate(-2px, -2px); background: var(--alu-forest); color: var(--alu-cream); box-shadow: var(--alu-hard-sm); }
+
+/* ---------- Header ---------- */
+.alu-top {
+  position: sticky; top: 0; z-index: 60; width: min(100% - 36px, var(--alu-wrap)); margin-inline: auto;
+  display: flex; align-items: center; gap: 18px; padding: 14px 0;
+}
+.alu-top::before { content: ""; position: absolute; inset: 0 -50vw; z-index: -1; background: rgba(247, 239, 219, 0.86); backdrop-filter: blur(12px); border-bottom: 2px solid var(--alu-forest); }
+.alu-brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: var(--alu-forest); }
+.alu-brand__mark { color: var(--alu-gold-deep); display: grid; place-items: center; }
+.alu-brand__word { font-family: "Syne"; font-weight: 800; font-size: 1.12rem; letter-spacing: -0.01em; }
+.alu-nav { margin-left: auto; display: flex; gap: 24px; }
+.alu-nav a { font-size: 0.8rem; font-weight: 700; text-decoration: none; color: var(--alu-ink-soft); transition: color 0.2s var(--alu-ease); }
+.alu-nav a:hover { color: var(--alu-gold-deep); }
+.alu-call {
+  font-size: 0.78rem; font-weight: 800; text-decoration: none; color: var(--alu-cream);
+  padding: 10px 15px; border-radius: 8px; background: var(--alu-forest);
+  display: inline-flex; align-items: center; gap: 7px; transition: background-color 0.2s var(--alu-ease), transform 0.2s var(--alu-ease);
+}
+.alu-call span { color: var(--alu-gold); font-size: 0.7em; }
+.alu-call:hover { background: var(--alu-forest-2); transform: translateY(-1px); }
+
+/* ---------- Hero ---------- */
+main { position: relative; z-index: 1; }
+.alu-hero {
+  position: relative; width: min(100% - 36px, var(--alu-wrap)); margin: clamp(30px, 5vw, 64px) auto 0;
+  display: grid; grid-template-columns: 1.05fr 0.9fr; gap: clamp(30px, 5vw, 60px); align-items: center;
+}
+.alu-hero__deco { position: absolute; z-index: -1; inset: -6% -4% auto -4%; width: 108%; height: 90%; color: var(--alu-forest); opacity: 0.12; pointer-events: none; }
+.alu-hero h1 { font-size: clamp(2.5rem, 6vw, 4.9rem); max-width: 13ch; }
+.alu-lead { margin-top: 24px; color: var(--alu-ink-soft); font-size: clamp(1.02rem, 1.6vw, 1.2rem); max-width: 52ch; }
+.alu-cta { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 30px; }
+.alu-hero__meta { margin-top: 26px; padding-top: 22px; border-top: 2px solid var(--alu-line); font-weight: 700; color: var(--alu-ink-soft); }
+
+/* Cartel enmarcado */
+.alu-frame { margin: 0; }
+.alu-frame__mat {
+  position: relative; background: var(--alu-forest); padding: 16px; border-radius: 16px;
+  box-shadow: var(--alu-hard), var(--alu-shadow);
+}
+.alu-frame__photo { position: relative; border-radius: 8px; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.2); }
+.alu-frame__photo img { width: 100%; height: 100%; min-height: 440px; object-fit: cover; filter: saturate(0.96) contrast(1.04); }
+.alu-frame__scrim { position: absolute; inset: 0; background: linear-gradient(200deg, rgba(13, 48, 33, 0) 45%, rgba(13, 48, 33, 0.45) 100%); }
+.alu-chip {
+  position: absolute; z-index: 2; background: var(--alu-gold); color: #211701;
+  font-weight: 800; font-size: 0.82rem; padding: 9px 14px; border-radius: 999px; box-shadow: var(--alu-hard-sm);
+}
+.alu-chip--rating { top: 30px; right: 4px; }
+.alu-frame__cap {
+  position: absolute; left: 28px; bottom: 30px; color: var(--alu-cream); font-weight: 700; font-size: 0.82rem;
+  background: rgba(13, 48, 33, 0.72); padding: 7px 12px; border-radius: 8px;
+}
+
+/* ---------- Section shell ---------- */
+.alu-services, .alu-lang, .alu-reviews, .alu-photos, .alu-contact {
+  width: min(100% - 36px, var(--alu-wrap)); margin-inline: auto; padding-block: clamp(60px, 8vw, 108px);
+}
+.alu-head { max-width: 720px; margin-bottom: clamp(28px, 4vw, 46px); }
+.alu-head h2 { font-size: clamp(2rem, 4.4vw, 3.4rem); }
+
+/* ---------- Servicios (filas señalizadas) ---------- */
+.alu-rows { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+.alu-row {
+  display: grid; grid-template-columns: 72px 0.85fr 1.25fr; gap: 22px; align-items: center;
+  background: var(--alu-forest); color: var(--alu-cream); border-radius: 14px; padding: 22px 26px;
+  box-shadow: var(--alu-hard-sm); transition: transform 0.24s var(--alu-ease);
+}
+.alu-row:hover { transform: translate(-3px, -3px); }
+.alu-row__idx { font-family: "Syne"; font-weight: 800; font-size: 2.4rem; color: var(--alu-gold); line-height: 1; }
+.alu-row h3 { font-size: 1.34rem; }
+.alu-row p { color: rgba(247, 239, 219, 0.78); font-size: 0.98rem; }
+
+/* ---------- Bilingüe ---------- */
+.alu-lang { display: grid; grid-template-columns: 1fr 0.85fr; gap: clamp(28px, 4vw, 56px); align-items: center; }
+.alu-lang__body { margin-top: 16px; color: var(--alu-ink-soft); max-width: 52ch; }
+.alu-steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.alu-steps li { display: flex; align-items: center; gap: 18px; background: var(--alu-panel); border: 2px solid var(--alu-line); border-radius: 14px; padding: 16px 22px; box-shadow: var(--alu-hard-sm); }
+.alu-steps__n { font-family: "Syne"; font-weight: 800; font-size: 1.9rem; color: var(--alu-gold-deep); line-height: 1; min-width: 42px; }
+.alu-steps__t { font-weight: 700; }
+
+/* ---------- Reseñas ---------- */
+.alu-reviews__meta { margin-top: 16px; color: var(--alu-ink-soft); max-width: 52ch; }
+.alu-reviews__grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 16px; align-items: stretch; }
+.alu-quote {
+  grid-row: span 2; margin: 0; background: var(--alu-panel); border: 2px solid var(--alu-forest);
+  border-radius: 16px; padding: clamp(28px, 3vw, 42px); box-shadow: var(--alu-hard);
+  display: flex; flex-direction: column; justify-content: center;
+}
+.alu-quote p { font-family: "Syne"; font-weight: 700; font-size: clamp(1.4rem, 2.2vw, 2rem); line-height: 1.16; }
+.alu-quote cite { display: block; margin-top: 22px; font-style: normal; font-weight: 800; color: var(--alu-gold-deep); font-size: 0.92rem; }
+.alu-cite { margin: 0; background: var(--alu-cream-2); border: 2px solid var(--alu-line); border-radius: 14px; padding: 24px; }
+.alu-cite blockquote { margin: 0; color: var(--alu-ink); font-size: 0.98rem; }
+.alu-cite figcaption { margin-top: 14px; font-weight: 800; color: var(--alu-forest); font-size: 0.86rem; }
+
+/* ---------- Fotos y orientación ---------- */
+.alu-photos { display: grid; grid-template-columns: 1fr 0.85fr; gap: clamp(28px, 4vw, 56px); align-items: center; }
+.alu-photos__text h2 { font-size: clamp(2rem, 3.8vw, 3.2rem); }
+.alu-photos__text p:not(.alu-kicker) { margin-top: 16px; color: var(--alu-ink-soft); max-width: 52ch; }
+.alu-locator { background: var(--alu-forest); color: var(--alu-cream); border-radius: 18px; padding: clamp(26px, 3vw, 36px); box-shadow: var(--alu-hard), var(--alu-shadow); }
+.alu-locator__map { width: 100%; height: auto; color: var(--alu-gold); background: rgba(255, 255, 255, 0.04); border-radius: 10px; }
+.alu-locator__meta { margin-top: 20px; display: flex; flex-direction: column; gap: 6px; }
+.alu-locator__addr { font-family: "Syne"; font-weight: 700; font-size: 1.2rem; }
+.alu-locator__hours { color: rgba(247, 239, 219, 0.78); font-weight: 600; }
+
+/* ---------- Contacto ---------- */
+.alu-contact { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 16px; align-items: stretch; }
+.alu-contact__main { background: var(--alu-panel); border: 2px solid var(--alu-forest); border-radius: 18px; padding: clamp(30px, 3.6vw, 44px); box-shadow: var(--alu-hard); }
+.alu-contact__main h2 { font-size: clamp(2rem, 3.8vw, 3.2rem); }
+.alu-contact__lead { margin-top: 16px; color: var(--alu-ink-soft); max-width: 52ch; }
+.alu-phone {
+  display: inline-flex; flex-direction: column; gap: 6px; margin: 28px 0; text-decoration: none; color: var(--alu-forest);
+  font-family: "Syne"; font-weight: 800; font-size: clamp(1.9rem, 5vw, 3rem); letter-spacing: -0.02em; transition: color 0.2s var(--alu-ease);
+}
+.alu-phone span { font-family: "Manrope"; font-weight: 800; font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--alu-ink-mut); }
+.alu-phone:hover { color: var(--alu-gold-deep); }
+.alu-contact__cta { display: flex; flex-wrap: wrap; gap: 14px; }
+.alu-ficha { background: var(--alu-forest); color: var(--alu-cream); border-radius: 18px; padding: clamp(28px, 3vw, 36px); box-shadow: var(--alu-hard); }
+.alu-ficha h3 { font-family: "Syne"; font-size: 1.5rem; color: var(--alu-gold); }
+.alu-ficha__list { margin: 18px 0 0; padding: 0; }
+.alu-ficha__list div { display: flex; flex-direction: column; gap: 3px; padding: 14px 0; border-top: 1px solid rgba(247, 239, 219, 0.18); }
+.alu-ficha__list div:first-child { border-top: 0; }
+.alu-ficha__list dt { font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(247, 239, 219, 0.66); font-weight: 700; }
+.alu-ficha__list dd { margin: 0; font-family: "Syne"; font-weight: 700; font-size: 1.02rem; }
+
+/* ---------- Footer ---------- */
+.alu-foot {
+  width: min(100% - 36px, var(--alu-wrap)); margin-inline: auto; padding: 30px 0 96px;
+  border-top: 2px solid var(--alu-forest); display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between;
+  color: var(--alu-ink-soft); font-weight: 700; font-size: 0.88rem;
+}
+
+/* ---------- Sticky móvil ---------- */
+.alu-sticky { position: fixed; left: 0; right: 0; bottom: 0; z-index: 70; display: none; gap: 10px; padding: 10px; background: rgba(247, 239, 219, 0.95); backdrop-filter: blur(12px); border-top: 2px solid var(--alu-forest); }
+.alu-sticky a { flex: 1; text-align: center; padding: 14px; border-radius: 10px; text-decoration: none; font-weight: 800; }
+.alu-sticky__call { background: var(--alu-gold); color: #211701; }
+.alu-sticky__sec { border: 2px solid var(--alu-forest); color: var(--alu-forest); }
+
+/* ---------- Reveal ---------- */
+[data-alu-reveal] { opacity: 0; transform: translateY(24px); transition: opacity 0.7s var(--alu-ease), transform 0.7s var(--alu-ease); }
+[data-alu-reveal].is-in { opacity: 1; transform: none; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 980px) {
+  .alu-hero { grid-template-columns: 1fr; gap: 36px; }
+  .alu-frame__photo img { min-height: 340px; }
+  .alu-lang { grid-template-columns: 1fr; }
+  .alu-reviews__grid { grid-template-columns: 1fr; }
+  .alu-quote { grid-row: auto; }
+  .alu-photos { grid-template-columns: 1fr; }
+  .alu-contact { grid-template-columns: 1fr; }
+}
+@media (max-width: 760px) {
+  .alu-nav { display: none; }
+  .alu-call { margin-left: auto; }
+  .alu-row { grid-template-columns: 56px 1fr; }
+  .alu-row p { grid-column: 2; }
+  .alu-sticky { display: flex; }
+}
+@media (max-width: 540px) {
+  .alu { font-size: 16px; }
+  .alu-foot { flex-direction: column; }
+  .alu-call { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-alu-reveal] { opacity: 1; transform: none; transition: none; }
+  .alu-btn, .alu-call, .alu-skip, .alu-row, .alu-phone { transition: none; }
+  html { scroll-behavior: auto; }
+}

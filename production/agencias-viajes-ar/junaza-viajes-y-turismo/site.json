@@ -1,0 +1,389 @@
+{
+  "id": "google-ChIJeTtvOGxcIpQR-Q43kTjmvFU",
+  "name": "Junaza Viajes",
+  "slug": "junaza-viajes-y-turismo",
+  "archetype": "bold-hero-photo",
+  "palette": {
+    "dominant": "#111111",
+    "accent": "#ffbf1f",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "Oswald",
+    "secondary": "Atkinson Hyperlegible"
+  },
+  "hero_image": {
+    "heroSrc": "./assets/portada.jpg",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJeTtvOGxcIpQR-Q43kTjmvFU",
+    "slug": "junaza-viajes-y-turismo",
+    "visual_mood": "roadside-urgent",
+    "composition": "photo-board",
+    "headline": "Una agencia con buenos sentimientos",
+    "subheadline": "La frase está en su propio cartel, en el centro de Tucumán. Viajes grupales, estudiantiles y de egresados atendidos por sus dueños. 4,3 en Google con 24 reseñas. San Martín 667, piso 3, oficina F, de lunes a viernes de 9 a 17 y sábados de 9 a 13.",
+    "primary_cta": "Llamar ahora",
+    "secondary_cta": "Escribir por WhatsApp",
+    "service_tags": [
+      "Viajes de egresados",
+      "Turismo estudiantil",
+      "Salidas grupales",
+      "Atienden los dueños"
+    ],
+    "proof_points": [
+      "4,3 en Google con 24 reseñas",
+      "Lunes a viernes de 9 a 17, sábados de 9 a 13",
+      "\"Excelente atención y más por sus propios dueños\" (Jorge Kairuz)",
+      "San Martín 667, piso 3, oficina F, Tucumán"
+    ],
+    "resource_title": "Lo que mirás antes de decidir el viaje del grupo",
+    "resource_items": [
+      "Cuántos son y en qué fecha quieren viajar.",
+      "Qué tipo de viaje buscan: egresados, estudiantil o salida grupal.",
+      "Quién acompaña al grupo durante el viaje."
+    ],
+    "review_heading": "Lo que dicen los que ya viajaron con ellos",
+    "contact_heading": "Escribí y armamos el viaje del grupo",
+    "image_prompt": "Hero editorial: un micro de larga distancia con las luces encendidas antes de salir, en penumbra de madrugada, el clima de una salida grupal. Las fotos verificadas de Google Places (la vidriera con el cartel de la agencia, el tag de la marca y los folletos de destinos) entran como contexto documental de la agencia, con alt honesto y sin reproducir marcas de terceros.",
+    "design_notes": "Dirección 'Vidriera empapelada': el sistema sale de la vidriera real llena de folletos, el cartel con la frase propia de la agencia y el tag pintado de la marca. Par tipográfico Bungee (display de cartelería) + Rubik (cuerpo). Fondo granito oscuro del frente del local, fichas de folleto en hueso, verde lima de la marca como único color caliente en el CTA. Template hero-proof-offer.",
+    "conversion_template": "hero-proof-offer",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Le vende el viaje del curso a la familia o al delegado de un grupo de egresados de Tucumán que necesita algo concreto para mostrar en la reunión de padres. La página reemplaza la vidriera de folletos por algo que se manda por mensaje.",
+      "visual_thesis": "'Vidriera empapelada': la identidad sale del frente real del local, con su granito oscuro, la vidriera cubierta de folletos de destinos y el tag pintado de la marca en lima, cian y amarillo. Superficie granito #23262A, paneles #31363B, fichas de folleto en hueso #F1F0EC apenas rotadas y superpuestas como en la vidriera, y verde lima #B9D91E, el color del logo, como único color caliente, exclusivo del CTA. El cian de la marca aparece solo en formas SVG, nunca como texto sobre el fondo oscuro. Par tipográfico Bungee para el display de cartelería y Rubik para el cuerpo.",
+      "copy_voice": "Español argentino, vos, de mostrador tucumano: cercano, directo y con calidez de dueño que atiende. El ángulo sale de las reseñas: atienden los dueños, muestran todos los viajes que hacen y nunca hubo un inconveniente.",
+      "layout_signature": "Hero a sangre con el micro antes de salir y la frase del cartel como titular en Bungee, con rating y dos remates arriba del fold. Después, tablero de fichas de folleto apenas rotadas con los tipos de viaje; franja de por qué elegirlos con las citas literales; bloque de qué llevar a la reunión de padres; reseñas en fichas de hueso; ficha de contacto con horario, dirección y link a Maps junto a la dirección. Barra sticky de llamada en mobile.",
+      "asset_plan": "Hero editorial del micro en assets/hero.jpg. Las fotos verificadas del frente del local se usan como contexto documental, recortadas para no reproducir marcas de terceros de los folletos ajenos. Tag de la marca, cinta de folleto, chinches y el panel del cartel resueltos en SVG y CSS inline, sin glows.",
+      "ai_fill_plan": {
+        "copy": [
+          "Escribir las fichas de folleto con los tipos de viaje verificados, sin inventar destinos ni fechas.",
+          "Convertir la atención de los dueños en el argumento central de confianza.",
+          "Redactar el bloque de la reunión de padres como preguntas que conviene llevar hechas."
+        ],
+        "imagery": [
+          "Usar imagen editorial de un micro antes de salir para el hero y fichas de folleto en CSS para el cuerpo.",
+          "Dibujar el tag de la marca, las chinches y la cinta de papel en SVG inline, tomados de la vidriera real."
+        ],
+        "boundaries": [
+          "no inventar precios, cuotas, financiación, destinos, hoteles, cupos ni años de trayectoria.",
+          "no reproducir marcas, logos ni precios de los folletos de terceros que aparecen en las fotos del local.",
+          "no usar la dirección vieja que figura en el cartel de la vidriera: la dirección verificada es San Martín 667, piso 3, oficina F.",
+          "no citar reseñas que no estén en el dataset ni cambiar su texto o su autor."
+        ]
+      },
+      "anti_patterns": [
+        "Glows de color o sombras luminosas sobre el fondo oscuro.",
+        "Texto cian vivo sobre el granito, que se lee como plantilla oscura genérica.",
+        "Chips eyebrow en mayúsculas con tracking amplio sobre cada sección.",
+        "Grilla de tarjetas idénticas en vez de fichas de folleto superpuestas.",
+        "Cuerpos de texto en mayúsculas por usar la tipografía de cartelería fuera del titular."
+      ],
+      "rewrite_targets": [
+        "Usar la frase del propio cartel como titular en vez de un eslogan inventado.",
+        "Reemplazar el bloque de servicios por el tablero de folletos de la vidriera.",
+        "Hacer del lima del CTA el único color caliente de la página.",
+        "Agregar el bloque de qué llevar a la reunión de padres, que es donde se decide el viaje."
+      ]
+    },
+    "commercial": {
+      "tone": "parts-counter",
+      "customer_type": "Familias, delegados de curso y grupos de Tucumán que están decidiendo un viaje de egresados o una salida grupal.",
+      "hero_claim": "Una agencia con buenos sentimientos.",
+      "trust_bar": [
+        {
+          "label": "Valoración",
+          "title": "4,3 / 5",
+          "body": "24 reseñas en Google",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Horario",
+          "title": "Lunes a viernes de 9 a 17",
+          "body": "Sábados de 9 a 13",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Oficina",
+          "title": "San Martín 667",
+          "body": "Piso 3, oficina F, Tucumán",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Contacto",
+          "title": "0381 430-7696",
+          "body": "WhatsApp 381 500-8374",
+          "meta": "Dato verificado"
+        }
+      ],
+      "service_cards": [
+        {
+          "label": "Egresados",
+          "title": "Viajes de egresados",
+          "body": "Uno de los tipos de viaje que la agencia declara en sus fichas públicas."
+        },
+        {
+          "label": "Estudiantil",
+          "title": "Turismo estudiantil",
+          "body": "Salidas de curso y viajes de estudio, también declarados públicamente."
+        },
+        {
+          "label": "Grupos",
+          "title": "Salidas grupales",
+          "body": "\"Nos mostraron todos los viajes que hacen\", escribió Estela Carrillo."
+        },
+        {
+          "label": "Excursiones",
+          "title": "Locales, nacionales e internacionales",
+          "body": "El alcance que la propia agencia informa en el registro sectorial."
+        }
+      ],
+      "why_choose": [
+        {
+          "title": "Atienden los dueños",
+          "body": "\"Excelente atención y más por sus propios dueños\", dice Jorge Kairuz en Google."
+        },
+        {
+          "title": "Te muestran todo antes",
+          "body": "Estela Carrillo cuenta que les mostraron todos los viajes que hacen."
+        },
+        {
+          "title": "Sin sobresaltos",
+          "body": "\"Los viajes con esta agencia los realizamos siempre sin ningún inconveniente\", escribió Susana Myriam Gutiérrez."
+        }
+      ],
+      "packages": [
+        {
+          "name": "Viaje de egresados",
+          "price_label": "A consultar",
+          "body": "Contás cuántos son y de qué curso, y la agencia arma la propuesta.",
+          "items": [
+            "Cantidad de estudiantes",
+            "Fechas posibles",
+            "Acompañamiento a coordinar"
+          ]
+        },
+        {
+          "name": "Salida estudiantil",
+          "price_label": "Según la salida",
+          "body": "Viajes de estudio y salidas de curso más cortas.",
+          "items": [
+            "Días de la salida",
+            "Grupo y edades",
+            "Consulta por teléfono o WhatsApp"
+          ]
+        },
+        {
+          "name": "Grupo de amigos o familia",
+          "price_label": "Se cotiza por grupo",
+          "body": "Salidas grupales para grupos ya armados.",
+          "items": [
+            "Cantidad de pasajeros",
+            "Destino a definir con la agencia",
+            "Punto de salida a coordinar"
+          ]
+        }
+      ],
+      "gallery": [
+        {
+          "label": "Vidriera",
+          "title": "El frente de la agencia",
+          "body": "Foto del local en el centro de Tucumán, con el cartel de la agencia."
+        },
+        {
+          "label": "Marca",
+          "title": "El tag de la marca",
+          "body": "Detalle del logo pintado en la vidriera del local."
+        },
+        {
+          "label": "Mostrador",
+          "title": "Los folletos del mostrador",
+          "body": "Foto del material que la agencia tiene sobre el mostrador."
+        }
+      ],
+      "process": [
+        {
+          "step": "1",
+          "title": "Escribís o llamás",
+          "body": "Contás qué grupo son y qué viaje están pensando."
+        },
+        {
+          "step": "2",
+          "title": "Te muestran los viajes",
+          "body": "La agencia te pasa las opciones que maneja para ese grupo."
+        },
+        {
+          "step": "3",
+          "title": "Lo llevás a la reunión",
+          "body": "Con la propuesta en mano, el grupo decide."
+        },
+        {
+          "step": "4",
+          "title": "Viajan acompañados",
+          "body": "La agencia coordina la salida del grupo."
+        }
+      ],
+      "final_cta": {
+        "title": "Contanos cómo es el grupo",
+        "body": "Atienden de lunes a viernes de 9 a 17 y sábados de 9 a 13, por teléfono o WhatsApp.",
+        "primary_label": "Llamar al 0381 430-7696",
+        "secondary_label": "Escribir por WhatsApp"
+      }
+    },
+    "creative": {
+      "concept": "Una sitio clara para convertir una busqueda local en una consulta concreta. Direccion comercial para Clientes locales que necesitan entender el servicio, llamar y llegar sin friccion.",
+      "audience": "Clientes locales que necesitan entender el servicio, llamar y llegar sin friccion.",
+      "visual_direction": "Servicio local con jerarquia fuerte, datos arriba, pasos claros y tarjetas de accion.",
+      "layout": "mechanic-ledger",
+      "texture": "service-ledger",
+      "hero_angle": "Una sitio clara para convertir una busqueda local en una consulta concreta.",
+      "hero_cards": [
+        {
+          "label": "Prueba social",
+          "value": "4.3 / 5",
+          "note": "Dato verificado"
+        },
+        {
+          "label": "Rubro",
+          "value": "Travel Agency",
+          "note": "Base verificada"
+        },
+        {
+          "label": "Agenda",
+          "value": "Lunes a Sabado; Domingo cerrado",
+          "note": "Dato verificado"
+        },
+        {
+          "label": "Contacto",
+          "value": "Telefono directo",
+          "note": "0381 430-7696"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Servicios",
+          "title": "Datos claros para decidir",
+          "body": "El sitio ordena datos publicos relevantes y deja como a confirmar cualquier dato comercial no verificado.",
+          "items": [
+            {
+              "label": "Servicio",
+              "value": "viajes grupales, estudiantiles y de egresados",
+              "note": "El servicio principal se muestra sin agregar prestaciones no verificadas."
+            },
+            {
+              "label": "Contacto",
+              "value": "Consulta directa",
+              "note": "Telefono, direccion y horario se ordenan para reducir friccion."
+            },
+            {
+              "label": "Prueba",
+              "value": "Referencias publicas",
+              "note": "Rating y resenas reales sostienen la decision."
+            }
+          ]
+        },
+        {
+          "type": "process",
+          "eyebrow": "Proceso",
+          "title": "De consulta a turno sin perder contexto",
+          "body": "El usuario entiende que informacion enviar, que se confirma y como avanzar.",
+          "items": [
+            {
+              "label": "01",
+              "value": "Contar la necesidad",
+              "note": "El visitante consulta el servicio principal."
+            },
+            {
+              "label": "02",
+              "value": "Confirmar disponibilidad",
+              "note": "El negocio valida horario, alcance y datos."
+            },
+            {
+              "label": "03",
+              "value": "Coordinar visita",
+              "note": "Direccion y contacto quedan visibles."
+            }
+          ]
+        },
+        {
+          "type": "metric-grid",
+          "eyebrow": "Confianza",
+          "title": "Datos reales arriba, informacion a confirmar separada",
+          "body": "El sitio combina fuentes verificadas con opciones comerciales que se completan antes de publicar.",
+          "items": [
+            {
+              "label": "Prueba social",
+              "value": "4.3 / 5",
+              "note": "24 resenas registradas en las fuentes disponibles."
+            },
+            {
+              "label": "Rubro",
+              "value": "Travel Agency",
+              "note": "El sitio debe vender el servicio principal sin sumar prestaciones no confirmadas."
+            },
+            {
+              "label": "Agenda",
+              "value": "Lunes a Sabado; Domingo cerrado",
+              "note": "Horario publicado para orientar la primera consulta."
+            },
+            {
+              "label": "Contacto",
+              "value": "Telefono directo",
+              "note": "CTA preparado para llamar desde el celular sin buscar el dato en otro lado."
+            }
+          ]
+        },
+        {
+          "type": "material-story",
+          "eyebrow": "Direccion visual",
+          "title": "El sitio se apoya en imagen real y escenas seguras de contexto.",
+          "body": "Cuando los datos o fotos son pobres, la composicion puede sumar atmosfera, textura y proceso sin atribuir esos recursos al negocio.",
+          "items": [
+            {
+              "label": "Foto real",
+              "value": "Usar como prueba",
+              "note": "Priorizar la mejor imagen publica disponible."
+            },
+            {
+              "label": "Apoyo visual",
+              "value": "Poblar contexto",
+              "note": "Herramientas, material, mostrador o proceso sin marcas falsas."
+            },
+            {
+              "label": "Cliente",
+              "value": "Siguiente paso claro",
+              "note": "Consultar"
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Accion",
+          "title": "Junaza Viajes: el proximo paso es simple",
+          "body": "Llama, confirma disponibilidad y lleva el auto con el dato clave ya resuelto: travel agency, direccion y horario.",
+          "items": [
+            {
+              "label": "CTA",
+              "value": "Consultar",
+              "note": "0381 430-7696"
+            },
+            {
+              "label": "Ubicacion",
+              "value": "Gral. José de San Martín 667 Piso 3 Of F, T4000 San Miguel de Tucumán, Tucumán, Argentina"
+            },
+            {
+              "label": "Horario",
+              "value": "Lunes a Sabado; Domingo cerrado"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/agencias-viajes-ar/junaza-viajes-y-turismo",
+      "notes": "Dirección 'Vidriera empapelada': granito oscuro, fichas de folleto en hueso y verde lima de la marca solo en el CTA. Bungee + Rubik. Template hero-proof-offer."
+    }
+  }
+}

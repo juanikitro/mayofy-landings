@@ -1,0 +1,169 @@
+{
+  "id": "google-ChIJC6B38shxGpYRL1Pr4RpX5nk",
+  "name": "Epic Bariloche",
+  "slug": "epic-bariloche",
+  "archetype": "cards-and-services",
+  "palette": {
+    "dominant": "#edf3f1",
+    "accent": "#285f4c",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "Sora",
+    "secondary": "Fraunces"
+  },
+  "hero_image": {
+    "heroSrc": "./assets/hero.jpg",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJC6B38shxGpYRL1Pr4RpX5nk",
+    "slug": "epic-bariloche",
+    "visual_mood": "precision-service",
+    "composition": "split-command",
+    "headline": "Ski y snowboard a punto, a pasos de la base del Cerro Catedral",
+    "subheadline": "Epic Bariloche alquila y prepara equipos, encera tablas y guarda tu material para varios días, con 4.3 sobre 5 en 209 reseñas.",
+    "primary_cta": "Llamar al 03543 15-60-6807",
+    "secondary_cta": "Consultar equipo y encerado",
+    "service_tags": [
+      "Alquiler de ski y snowboard",
+      "Encerado y puesta a punto",
+      "Guardado para varios días",
+      "Cerca de la base del cerro",
+      "Atención en inglés y español"
+    ],
+    "proof_points": [
+      "4.3 sobre 5 con 209 reseñas en Google",
+      "Todos los días de 8:30 a 18:30",
+      "A pasos de la base del Cerro Catedral, San Carlos de Bariloche",
+      "\"Pablo took a great care of me selecting the perfect board and waxing it. Great customer service from all staff, fair prices\" — Ales Cevela"
+    ],
+    "resource_title": "Para quien ya sabe lo que busca",
+    "resource_items": [
+      "Puesta a punto y encerado de tablas, según las reseñas de quienes alquilaron.",
+      "Guardado del equipo arriba para alquileres de varios días.",
+      "Personal que atiende en inglés y da referencias de la montaña."
+    ],
+    "review_heading": "Lo que cuentan riders y esquiadores",
+    "contact_heading": "Llamá antes de tu jornada en el cerro",
+    "image_prompt": "Foto real del local Epic Bariloche con tablas de snowboard y skis en bancos de preparación, cerca de la base del Cerro Catedral.",
+    "design_notes": "Taller freeride de montaña: carbón profundo, nieve y naranja seguridad en el CTA. Bricolage Grotesque + Spline Sans, datos en Martian Mono. Curvas de nivel topográficas como motivo.",
+    "conversion_template": "service-diagnostic",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Pro shop de ski y snowboard cerca de la base del Cerro Catedral que convierte al rider exigente en cliente que alquila, encera y guarda su equipo a pasos de las pistas.",
+      "visual_thesis": "Taller freeride de montaña: los bancos de preparación y el encerado del local real llevados a un mapa topográfico técnico. Display Bricolage Grotesque con cuerpo Spline Sans y datos en Martian Mono; paleta de carbón profundo, nieve y naranja seguridad reservado para el CTA, con curvas de nivel como motivo.",
+      "copy_voice": "Español argentino técnico y directo, de rider a rider, que habla de puesta a punto y logística sin marketing vacío.",
+      "layout_signature": "Template service-diagnostic: hero partido con titular técnico, foto del banco de preparación y CTA de llamada arriba del fold; después diagnóstico de servicios (alquiler, encerado, guardado), banda de reseña sobre 'the perfect board', panel de datos en mono y contacto con mapa a la base.",
+      "asset_plan": "Foto real del local con equipos en preparación como imagen del hero; curvas de nivel, íconos de tabla y ficha técnica en SVG/CSS inline; textura topográfica en CSS, sin assets externos salvo Google Fonts.",
+      "ai_fill_plan": {
+        "copy": [
+          "Microcopy técnico de servicios y CTAs apoyado en reseñas de encerado y guardado",
+          "Encabezados de sección como 'Puesta a punto' sin inventar precios ni marcas de tabla"
+        ],
+        "imagery": [
+          "Curvas de nivel y ficha técnica en SVG de línea",
+          "Textura topográfica y flechas de pendiente en CSS como fondo"
+        ],
+        "boundaries": [
+          "No inventar precios, stock, marcas, años, premios, garantías, servicios ni reseñas",
+          "No prometer clases de backcountry: las referencias solo se apoyan en la reseña citada",
+          "No afirmar medidas de guardado ni cantidad de casilleros"
+        ]
+      },
+      "anti_patterns": [
+        "Fuentes genéricas como Inter, Roboto o Arial",
+        "Gradiente violeta sobre blanco",
+        "Layout SaaS de tres cards iguales",
+        "Foto de stock de freeride en lugar del banco de preparación real"
+      ],
+      "rewrite_targets": [
+        "Poner el encerado y la puesta a punto como diferencial técnico, no como detalle",
+        "Subir el 4.3 con 209 reseñas y la cercanía a la base al hero",
+        "Reservar el naranja seguridad solo para el CTA de llamada"
+      ]
+    },
+    "creative": {
+      "concept": "El taller freeride donde tu tabla sale a punto y guardás el equipo entre jornadas.",
+      "audience": "Riders y esquiadores con experiencia que buscan equipo preparado cerca de la base del Catedral.",
+      "visual_direction": "Carbón profundo, nieve y naranja seguridad, curvas de nivel topográficas y datos en monoespaciada.",
+      "layout": "studio-detail",
+      "texture": "road-markings",
+      "hero_angle": "Alquiler, encerado y guardado de ski y snowboard con 4.3 sobre 5 en 209 reseñas.",
+      "hero_cards": [
+        {
+          "label": "Reseñas",
+          "value": "4.3★ en 209 opiniones",
+          "note": "Perfil público de Google"
+        },
+        {
+          "label": "Horario",
+          "value": "Todos los días 8:30 a 18:30"
+        },
+        {
+          "label": "Dónde",
+          "value": "Cerca de la base del cerro"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Puesta a punto",
+          "title": "Tu equipo listo para bajar",
+          "body": "Alquiler, encerado y guardado pensados para aprovechar cada jornada en el cerro.",
+          "items": [
+            {
+              "label": "Alquiler",
+              "value": "Tablas y skis para distintos niveles"
+            },
+            {
+              "label": "Encerado",
+              "value": "Puesta a punto antes de salir"
+            },
+            {
+              "label": "Guardado",
+              "value": "Dejá el equipo para alquileres de varios días"
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "De rider a rider",
+          "title": "La tabla perfecta, encerada",
+          "body": "Las reseñas destacan la atención técnica y las referencias de montaña.",
+          "items": [
+            {
+              "label": "Declan Walters",
+              "value": "Great gear and service, and great backcountry recommendations. The absolute best option."
+            },
+            {
+              "label": "Vincent Tang",
+              "value": "Dedicated storage area upstairs so you don't have to take all your gear on multi-day rentals."
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Contacto directo",
+          "title": "Coordiná tu jornada",
+          "body": "Teléfono, horario y mapa a la base para dejar tu equipo a punto.",
+          "items": [
+            {
+              "label": "Llamar",
+              "value": "03543 15-60-6807"
+            },
+            {
+              "label": "Ir al local",
+              "value": "A pasos de la base del Cerro Catedral"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/bariloche-ski/epic-bariloche",
+      "notes": "Taller freeride de montaña: Bricolage Grotesque + Spline Sans + Martian Mono, carbón y nieve con naranja seguridad en el CTA, curvas de nivel y foto real del banco de preparación."
+    }
+  }
+}

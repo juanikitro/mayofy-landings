@@ -1,0 +1,169 @@
+{
+  "id": "google-ChIJLbC7y3V7GpYRqK2niuemXbQ",
+  "name": "El Russo Rental",
+  "slug": "el-russo-rental",
+  "archetype": "minimal-professional",
+  "palette": {
+    "dominant": "#f8f7f3",
+    "accent": "#2f5d62",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "Aptos",
+    "secondary": "Georgia"
+  },
+  "hero_image": {
+    "heroSrc": "./assets/hero.jpg",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJLbC7y3V7GpYRqK2niuemXbQ",
+    "slug": "el-russo-rental",
+    "visual_mood": "neighborhood-direct",
+    "composition": "photo-board",
+    "headline": "Equipo de nieve completo, con María y Ernesto atendiendo cada detalle",
+    "subheadline": "El Russo Rental alquila ropa, calzado y guantes en Palacios 222, con muchos talles y estilos y 4.8 sobre 5 en 37 reseñas.",
+    "primary_cta": "Llamar al 0294 466-1318",
+    "secondary_cta": "Consultar talles y estilos",
+    "service_tags": [
+      "Alquiler de ropa de nieve",
+      "Calzado y guantes",
+      "Muchos talles y estilos",
+      "Equipo completo abrigado",
+      "Abierto de 9 a 21"
+    ],
+    "proof_points": [
+      "4.8 sobre 5 con 37 reseñas en Google",
+      "Todos los días de 9 a 21",
+      "Palacios 222, San Carlos de Bariloche",
+      "\"Várias opções de tamanhos, cores e estilos. Roupas bem conservadas e super quentes! Não passamos frio\" — Giovanna Fausto"
+    ],
+    "resource_title": "Qué te llevás del local",
+    "resource_items": [
+      "Equipo completo: ropa, calzado y guantes en una sola parada.",
+      "Muchos talles, colores y estilos para elegir con calma.",
+      "Atención de María y Ernesto, según las reseñas de quienes alquilaron."
+    ],
+    "review_heading": "Lo que cuentan quienes alquilaron acá",
+    "contact_heading": "Llamá o pasá por Palacios 222",
+    "image_prompt": "Foto real del local El Russo Rental en Bariloche con ropa de nieve colgada en variedad de colores y estilos, calzado y guantes a la vista, ambiente cálido.",
+    "design_notes": "Ropero cálido de nieve: crema tibio, ciruela profunda y coral en el CTA. Gabarito + Figtree. Parche bordado de nieve tipo souvenir como motivo.",
+    "conversion_template": "visual-menu",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Alquiler de ropa de nieve completa en el centro de Bariloche que convierte al visitante que no quiere pasar frío en una visita al local para salir equipado de arriba a abajo en una sola parada.",
+      "visual_thesis": "Ropero cálido de nieve: la variedad de colores y estilos del local real llevada a un menú visual acogedor tipo souvenir de montaña. Display Gabarito con cuerpo Figtree; paleta de crema tibio, ciruela profunda y coral reservado para el CTA, con parches bordados de nieve como motivo.",
+      "copy_voice": "Español argentino cercano y cálido, con nombre propio de los dueños, que transmite trato de familia.",
+      "layout_signature": "Template visual-menu: hero con titular a la izquierda, foto del ropero real a la derecha y CTA de llamada arriba del fold; después menú de prendas por tipo, banda de reseña sobre 'no passamos frío', parches de estilo y contacto con mapa al cierre.",
+      "asset_plan": "Foto real del local con la ropa colgada como imagen del hero; parches bordados, perchas y copos de nieve en SVG/CSS inline; textura de lana en CSS como fondo, sin assets externos salvo Google Fonts.",
+      "ai_fill_plan": {
+        "copy": [
+          "Microcopy del menú de prendas y CTAs apoyado en reseñas sobre talles y abrigo",
+          "Encabezados de sección como 'Ropero completo' sin inventar prendas ni marcas"
+        ],
+        "imagery": [
+          "Parches bordados y perchas en SVG de línea como motivo",
+          "Textura de lana y copos en CSS como fondo cálido"
+        ],
+        "boundaries": [
+          "No inventar precios, stock, marcas, años, premios, garantías, servicios ni reseñas",
+          "No prometer descuentos por agencia: una reseña aclara que ese descuento no era real",
+          "No afirmar envíos a domicilio: no hay evidencia"
+        ]
+      },
+      "anti_patterns": [
+        "Fuentes genéricas como Inter, Roboto o Arial",
+        "Gradiente violeta sobre blanco",
+        "Layout SaaS de tres cards iguales",
+        "Stock de ropa de esquí de catálogo en lugar del ropero real"
+      ],
+      "rewrite_targets": [
+        "Que la variedad de colores y estilos real ordene el menú visual",
+        "Subir el 4.8 con 37 reseñas y el equipo completo al hero",
+        "Reservar el coral solo para el CTA de llamada"
+      ]
+    },
+    "creative": {
+      "concept": "El ropero de nieve donde salís equipado completo y con trato de familia.",
+      "audience": "Turistas y familias que quieren alquilar ropa, calzado y guantes en una sola parada del centro.",
+      "visual_direction": "Crema tibio, ciruela y coral, parches bordados de nieve y tipografía redonda amable.",
+      "layout": "parts-counter",
+      "texture": "parts-shelf",
+      "hero_angle": "Equipo de nieve completo con muchos talles y estilos, y 4.8 sobre 5 en 37 reseñas.",
+      "hero_cards": [
+        {
+          "label": "Reseñas",
+          "value": "4.8★ en 37 opiniones",
+          "note": "Perfil público de Google"
+        },
+        {
+          "label": "Horario",
+          "value": "Todos los días 9 a 21"
+        },
+        {
+          "label": "Dónde",
+          "value": "Palacios 222, Bariloche"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "El ropero",
+          "title": "Todo lo que abriga, en una parada",
+          "body": "Ropa, calzado y guantes para no pasar frío en ninguna actividad, con talles y estilos para elegir.",
+          "items": [
+            {
+              "label": "Ropa de nieve",
+              "value": "Camperas y pantalones abrigados"
+            },
+            {
+              "label": "Calzado",
+              "value": "Para la nieve y el paseo"
+            },
+            {
+              "label": "Guantes y accesorios",
+              "value": "Para completar el equipo"
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Trato de familia",
+          "title": "María y Ernesto, atentos",
+          "body": "Las reseñas repiten la calidez de la atención y la calidad del equipo.",
+          "items": [
+            {
+              "label": "Florencia Passarello",
+              "value": "Todas las personas que me atendieron fueron amables y atentas. La ropa impecable!"
+            },
+            {
+              "label": "Romina",
+              "value": "Buena onda y atención. Podés tener la ropa completa más el calzado y guantes."
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Contacto directo",
+          "title": "Llamá o pasá por el local",
+          "body": "Teléfono, horario amplio y mapa para coordinar tu equipo.",
+          "items": [
+            {
+              "label": "Llamar",
+              "value": "0294 466-1318"
+            },
+            {
+              "label": "Ir al local",
+              "value": "Palacios 222, Bariloche"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/bariloche-ski/el-russo-rental",
+      "notes": "Ropero cálido de nieve: Gabarito + Figtree, crema y ciruela con coral en el CTA, parches bordados y foto real del local con ropa colgada."
+    }
+  }
+}

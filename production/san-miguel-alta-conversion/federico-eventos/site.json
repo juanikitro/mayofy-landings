@@ -1,0 +1,298 @@
+{
+  "id": "google-ChIJ_5L2ZzmXvJURkreP5CmWtTM",
+  "name": "Federico Eventos",
+  "slug": "federico-eventos",
+  "archetype": "bold-hero-photo",
+  "palette": {
+    "dominant": "#111111",
+    "accent": "#ffbf1f",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "Oswald",
+    "secondary": "Atkinson Hyperlegible"
+  },
+  "hero_image": {
+    "heroSrc": "./assets/hero.jpg",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJ_5L2ZzmXvJURkreP5CmWtTM",
+    "slug": "federico-eventos",
+    "visual_mood": "precision-service",
+    "composition": "split-command",
+    "headline": "Federico Eventos: el salón de San Miguel que de noche es otra cosa",
+    "subheadline": "Un salón amplio y preparado para cumpleaños, casamientos y todo tipo de evento, con una organización que los invitados destacan. Coordiná tu visita al salón.",
+    "primary_cta": "Llamar y consultar fecha",
+    "secondary_cta": "Cómo llegar",
+    "service_tags": [
+      "Salón de fiestas",
+      "Casamientos y cumpleaños",
+      "Eventos corporativos",
+      "Organización a cargo"
+    ],
+    "proof_points": [
+      "4,7 en Google con 83 reseñas",
+      "\"Todo muy organizado, cumplen con cada cosa que te dicen\" — reseña real",
+      "C. El Zonda 2249, San Miguel",
+      "Visitas al salón los viernes y sábados"
+    ],
+    "resource_title": "Antes de reservar tu evento",
+    "resource_items": [
+      "Teléfono directo para consultar fechas disponibles.",
+      "Horario de visitas al salón: viernes y sábados.",
+      "Reseñas reales que destacan la organización y la atención."
+    ],
+    "review_heading": "Lo que cuentan quienes ya festejaron acá",
+    "contact_heading": "Consultá disponibilidad para tu fecha",
+    "image_prompt": "Hero editorial nocturno: salón de fiestas amplio iluminado de noche, mesas montadas y luces cálidas, elegancia de evento. Priorizar la foto real del salón de Google Places como protagonista (es una instalación real del negocio). Apoyos con textura de luces y detalle de montaje; ninguna imagen puede presentar un salón ajeno como si fuera este.",
+    "design_notes": "Dirección 'Salón de noche': 'de noche es hermoso', organización impecable. Paleta azul medianoche + champagne/dorado suave como acento (sin glow slop). Par Bodoni Moda (display didone glamoroso) + Mulish (cuerpo). Template editorial-local-story. Ojo: las imágenes del salón deben ser del local real (instalación), no stock ajeno.",
+    "conversion_template": "editorial-local-story",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Le vende el salón para su fiesta —casamiento, cumpleaños, evento— a quien está organizando y decide en el celu si llama a consultar fecha y coordina una visita.",
+      "visual_thesis": "Salón de noche: glamour nocturno de evento, 'de noche es hermoso'. Paleta azul medianoche con un champagne/dorado suave de acento (nunca glow slop), tipografía didone Bodoni Moda para los títulos y Mulish para el cuerpo. La elegancia y la confianza en la organización mandan.",
+      "copy_voice": "Español argentino, vos, cálido y confiable, con aire de fiesta. Sale de las reseñas reales (todo organizado, cumplen, las mozas unas genias, de noche es hermoso). Evita solemnidad corporativa y frases genéricas.",
+      "layout_signature": "Hero con foto real del salón de noche dominante y prueba social (4,7 · 83) arriba del fold; historia local del salón y su organización, tipos de evento, franja de reseñas literales con autor, y contacto con teléfono como elemento gráfico y horario de visitas visible. Barra sticky de llamada en mobile.",
+      "asset_plan": "La foto real del salón (Google Places) es la protagonista, porque es una instalación real del negocio; no se reemplaza por stock de otro salón. Los apoyos son textura de luces y detalle en CSS/SVG. La latitud de imagen de stock/generada NO aplica a la instalación (eso sería presentar un lugar ajeno como propio).",
+      "ai_fill_plan": {
+        "copy": [
+          "Convertir reseñas reales en microcopy de decisión: qué consultar, cómo coordinar la visita.",
+          "Nombrar secciones y CTAs con voz de salón de fiestas, sin inventar capacidad, precios ni servicios.",
+          "Escribir los tipos de evento como recorrido honesto, sin listas de amenities inventadas."
+        ],
+        "imagery": [
+          "Usar la foto real del salón como imagen protagonista; no sustituir la instalación por stock ajeno.",
+          "Generar solo textura y detalle de luces/montaje en CSS/SVG para atmósfera, sin mostrar un salón que no sea este."
+        ],
+        "boundaries": [
+          "no inventar precios, stock, marcas, años, premios, garantías, servicios ni reseñas que no estén en los datos verificados del negocio.",
+          "no presentar imágenes de instalaciones, salón, personal ni resultados de otro lugar como si fueran del local: eso sí lleva alt/caption honesto.",
+          "no mostrar un salón, decoración o evento de otro lugar como si fuera Federico Eventos: la imagen del salón debe ser la real del negocio."
+        ]
+      },
+      "anti_patterns": [
+        "Glow dorado/violeta slop en vez de champagne sobrio sobre azul noche.",
+        "Usar stock de un salón ajeno como si fuera este local.",
+        "Hero de ficha de Maps en vez de la foto real del salón de noche.",
+        "Eyebrows tracked-caps o marcadores 01/02/03 sobre cada sección.",
+        "Inventar capacidad, precios, catering o amenities no verificados."
+      ],
+      "rewrite_targets": [
+        "Reemplazar la dirección automotriz del fallback por salón de eventos real.",
+        "Hacer protagonista la foto real del salón de noche en el hero.",
+        "Poner el CTA de llamar a consultar fecha como color más caliente, repetido en el scroll.",
+        "Mostrar el horario de visitas (vie/sáb) como dato operativo claro."
+      ]
+    },
+    "commercial": {
+      "tone": "fast-local",
+      "customer_type": "Personas que están organizando una fiesta y quieren consultar fecha para un salón en San Miguel.",
+      "hero_claim": "Consultar fecha y coordinar una visita al salón.",
+      "trust_bar": [
+        {
+          "label": "Valoración",
+          "title": "4,7 / 5",
+          "body": "83 reseñas",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Horario",
+          "title": "Horario publicado",
+          "body": "Viernes y sábado: 4:00 – 8:30 p. m. Lunes a jueves y domingo: cerrado.",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Contacto",
+          "title": "Teléfono directo",
+          "body": "011 6485-1800",
+          "meta": "Dato verificado"
+        }
+      ],
+      "service_cards": [
+        {
+          "label": "Elegir",
+          "title": "Salón de eventos",
+          "body": "La información publicada destaca salón de eventos."
+        },
+        {
+          "label": "Consultar",
+          "title": "Organización",
+          "body": "Teléfono, dirección y horario quedan visibles para decidir sin buscar otro dato."
+        },
+        {
+          "label": "Pasar",
+          "title": "Visita al salón",
+          "body": "El siguiente paso se resuelve con contacto directo y la ubicación del negocio."
+        }
+      ],
+      "why_choose": [
+        {
+          "title": "Datos visibles",
+          "body": "Valoración, horario, dirección y contacto aparecen juntos."
+        },
+        {
+          "title": "Reseñas con autor",
+          "body": "“Hermoso lugar amplio y cómodo completo para hacer todo tipo de eventos” — Julián andres Sanchez."
+        },
+        {
+          "title": "Próximo paso claro",
+          "body": "Llamar para consultar y avanzar."
+        }
+      ],
+      "packages": [
+        {
+          "name": "Para decidir hoy",
+          "price_label": "Sin precios publicados",
+          "body": "Información útil para hacer la consulta antes de pasar.",
+          "items": [
+            "Horario publicado",
+            "Dirección",
+            "Contacto directo"
+          ]
+        },
+        {
+          "name": "Consulta directa",
+          "price_label": "A confirmar con el negocio",
+          "body": "La llamada permite confirmar disponibilidad sin prometer datos no publicados.",
+          "items": [
+            "Necesidad",
+            "Horario",
+            "Siguiente paso"
+          ]
+        }
+      ],
+      "gallery": [
+        {
+          "label": "Contexto",
+          "title": "Imagen principal",
+          "body": "La composición visual acompaña la decisión de contacto.",
+          "meta": "Uso editorial acorde al brief"
+        },
+        {
+          "label": "Señal local",
+          "title": "Dirección y horario",
+          "body": "Información operativa visible para llegar sin vueltas.",
+          "meta": "C. El Zonda 2249, B1663 San Miguel, Provincia de Buenos Aires, Argentina"
+        }
+      ],
+      "process": [
+        {
+          "step": "Contacto",
+          "title": "Llamar",
+          "body": "Elegí el canal publicado."
+        },
+        {
+          "step": "Consulta",
+          "title": "Confirmar disponibilidad",
+          "body": "El negocio confirma el dato que falta."
+        },
+        {
+          "step": "Visita",
+          "title": "Pasar por el lugar",
+          "body": "La dirección y el horario quedan visibles."
+        }
+      ],
+      "final_cta": {
+        "title": "Consultar fecha y coordinar una visita al salón.",
+        "body": "C. El Zonda 2249, B1663 San Miguel, Provincia de Buenos Aires, Argentina. Viernes y sábado: 4:00 – 8:30 p. m. Lunes a jueves y domingo: cerrado.",
+        "primary_label": "Llamar y consultar fecha",
+        "secondary_label": "Cómo llegar"
+      },
+      "editable_note": "No se publican precios, promociones, capacidad ni servicios que no estén confirmados."
+    },
+    "creative": {
+      "concept": "Consultar fecha y coordinar una visita al salón.",
+      "audience": "Personas que están organizando una fiesta y quieren consultar fecha para un salón en San Miguel.",
+      "visual_direction": "Salón de noche: glamour nocturno de evento, 'de noche es hermoso'. Paleta azul medianoche con un champagne/dorado suave de acento (nunca glow slop), tipografía didone Bodoni Moda para los títulos y Mulish para el cuerpo. La elegancia y la confianza en la organización mandan.",
+      "layout": "studio-detail",
+      "texture": "polished-glass",
+      "hero_angle": "Consultar fecha y coordinar una visita al salón.",
+      "hero_cards": [
+        {
+          "label": "Valoración",
+          "value": "4,7 / 5",
+          "note": "83 reseñas"
+        },
+        {
+          "label": "Horario",
+          "value": "Horario publicado",
+          "note": "Viernes y sábado: 4:00 – 8:30 p. m. Lunes a jueves y domingo: cerrado."
+        },
+        {
+          "label": "Contacto",
+          "value": "011 6485-1800",
+          "note": "Canal publicado"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Para decidir",
+          "title": "Lo que buscás, a mano",
+          "body": "La información pública se ordena alrededor de la acción de contacto.",
+          "items": [
+            {
+              "label": "Elegir",
+              "value": "Salón de eventos",
+              "note": "La información publicada destaca salón de eventos."
+            },
+            {
+              "label": "Consultar",
+              "value": "Organización",
+              "note": "Teléfono, dirección y horario quedan visibles para decidir sin buscar otro dato."
+            },
+            {
+              "label": "Pasar",
+              "value": "Visita al salón",
+              "note": "El siguiente paso se resuelve con contacto directo y la ubicación del negocio."
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Reseñas",
+          "title": "Lo dicen quienes ya fueron",
+          "body": "Una reseña literal aporta una señal concreta para decidir.",
+          "items": [
+            {
+              "label": "Opinión",
+              "value": "Hermoso lugar amplio y cómodo completo para hacer todo tipo de eventos",
+              "note": "Julián andres Sanchez"
+            },
+            {
+              "label": "Valoración",
+              "value": "4,7 / 5",
+              "note": "83 reseñas"
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Contacto",
+          "title": "Llegar o consultar sin vueltas",
+          "body": "Dirección, horario y contacto quedan visibles en el cierre.",
+          "items": [
+            {
+              "label": "Contacto",
+              "value": "011 6485-1800"
+            },
+            {
+              "label": "Horario",
+              "value": "Viernes y sábado: 4:00 – 8:30 p. m. Lunes a jueves y domingo: cerrado."
+            },
+            {
+              "label": "Dirección",
+              "value": "C. El Zonda 2249, B1663 San Miguel, Provincia de Buenos Aires, Argentina"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/san-miguel-alta-conversion/federico-eventos",
+      "notes": "Dirección 'Salón de noche': 'de noche es hermoso', organización impecable. Paleta azul medianoche + champagne/dorado suave como acento (sin glow slop). Par Bodoni Moda (display didone glamoroso) + Mulish (cuerpo). Template editorial-local-story. Ojo: las imágenes del salón deben ser del local real (instalación), no stock ajeno."
+    }
+  }
+}

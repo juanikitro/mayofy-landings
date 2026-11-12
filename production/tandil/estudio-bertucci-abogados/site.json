@@ -1,0 +1,172 @@
+{
+  "id": "google-ChIJrfGdiJsfkZURT-mTqsAYjKQ",
+  "name": "Estudio Bertucci Abogados",
+  "slug": "estudio-bertucci-abogados",
+  "archetype": "local-clean-service",
+  "palette": {
+    "dominant": "#fbfaf6",
+    "accent": "#426b55",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "Nunito Sans",
+    "secondary": "Literata"
+  },
+  "hero_image": {
+    "heroSrc": "./index.html",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJrfGdiJsfkZURT-mTqsAYjKQ",
+    "slug": "estudio-bertucci-abogados",
+    "visual_mood": "neighborhood-direct",
+    "composition": "service-ledger",
+    "headline": "Estudio Bertucci Abogados: asesoramiento legal de confianza en el centro de Tandil",
+    "subheadline": "Consultas legales en Alberdi 828, con 5 sobre 5 en 14 reseñas y atención directa de Juan Pablo Bertucci.",
+    "primary_cta": "Llamar al 0249 411-6653",
+    "secondary_cta": "Ver ubicación en Alberdi 828",
+    "service_tags": [
+      "Consultas legales",
+      "Asesoramiento personalizado",
+      "Atención directa del profesional",
+      "Seguimiento de casos"
+    ],
+    "proof_points": [
+      "5 sobre 5 en 14 reseñas de Google",
+      "Alberdi 828, Tandil",
+      "Lunes a viernes de 9 a 13",
+      "\"Excelente profesional. Responsabilidad y compromiso\" — Martín Dick"
+    ],
+    "resource_title": "Antes de tu consulta",
+    "resource_items": [
+      "Llamá para coordinar un horario de consulta en el estudio.",
+      "Atención de lunes a viernes por la mañana, de 9 a 13.",
+      "El estudio está identificado con una placa en la fachada de Alberdi 828."
+    ],
+    "review_heading": "Lo que dicen los clientes del estudio",
+    "contact_heading": "Llamá para coordinar tu consulta",
+    "image_prompt": "Fachada de estudio jurídico en casa de barrio con revestimiento de piedra, placa 'Estudio Bertucci Abogados' y árbol frondoso, luz de día nublada.",
+    "design_notes": "Placa de estudio en la vereda de Alberdi: cal cálida, piedra natural, bronce de la placa como acento. Playfair Display + PT Serif, seriedad de estudio jurídico de barrio.",
+    "conversion_template": "service-diagnostic",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Estudio jurídico de barrio en Tandil, con atención directa del profesional, que convierte una consulta legal en un llamado para coordinar una reunión.",
+      "visual_thesis": "Placa de estudio en la vereda de Alberdi: la foto real de la fachada con revestimiento de piedra y la placa del estudio se convierte en el elemento de confianza del hero. Display Playfair Display serif clásico de estudio jurídico, cuerpo PT Serif para lectura formal. Paleta cal cálida, tinta azul noche para el texto y bronce de la placa real como acento del CTA.",
+      "copy_voice": "Español argentino formal pero cercano, sin jerga legal excesiva, apoyado en las reseñas reales sobre compromiso y profesionalismo.",
+      "layout_signature": "Template service-diagnostic: hero sobrio con la foto real de la fachada y la placa, planteo de 'consulta tu caso' como primer paso, franja de reseñas de clientes, áreas de atención y contacto final con horario matutino.",
+      "asset_plan": "Foto real de la fachada con la placa del estudio (foto-1) como hero; foto-2 y foto-3 como apoyo con captions; línea fina tipo marco de placa de bronce en CSS como separador de secciones, sin stock externo de balanzas o mazos genéricos.",
+      "ai_fill_plan": {
+        "copy": [
+          "Microcopy derivado de las reseñas reales sobre responsabilidad y compromiso profesional",
+          "Encabezados de sección como 'Consultá tu caso' sin inventar especialidades legales no verificadas"
+        ],
+        "imagery": [
+          "Línea fina tipo marco de placa de bronce como separador",
+          "Textura sutil de piedra en CSS para el fondo del hero"
+        ],
+        "boundaries": [
+          "No inventar precios, honorarios ni servicios o especialidades legales (laboral, penal, civil) que no estén verificados en los datos",
+          "No inventar premios, garantías ni resultados de casos",
+          "No inventar reseñas ni citar otras que no estén en el dataset verificado"
+        ]
+      },
+      "anti_patterns": [
+        "Fuentes genéricas como Inter, Roboto o Arial",
+        "Gradiente violeta sobre blanco",
+        "Iconografía genérica de balanza y mazo de banco de imágenes",
+        "Inventar especialidades legales que no están verificadas en los datos"
+      ],
+      "rewrite_targets": [
+        "El teléfono para consultar tiene que estar arriba del fold, con tono formal pero accesible",
+        "La fachada real con la placa tiene que transmitir la seriedad de un estudio establecido en el barrio",
+        "El horario matutino acotado (9 a 13) debe quedar claro para evitar llamados fuera de horario"
+      ]
+    },
+    "creative": {
+      "concept": "El estudio jurídico de barrio en Tandil donde te atiende directamente el profesional.",
+      "audience": "Vecinos de Tandil que necesitan asesoramiento legal de confianza y buscan un estudio establecido en el barrio.",
+      "visual_direction": "Fachada real con revestimiento de piedra y placa del estudio, paleta cal cálida y bronce, tipografía serif formal.",
+      "layout": "mechanic-ledger",
+      "texture": "service-ledger",
+      "hero_angle": "Estudio jurídico en Tandil con 5 sobre 5 en 14 reseñas y atención directa del profesional.",
+      "hero_cards": [
+        {
+          "label": "Reseñas",
+          "value": "5★ en 14 opiniones",
+          "note": "Perfil público de Google"
+        },
+        {
+          "label": "Dirección",
+          "value": "Alberdi 828, Tandil"
+        },
+        {
+          "label": "Contacto",
+          "value": "0249 411-6653"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Consultá tu caso",
+          "title": "Asesoramiento legal directo",
+          "body": "Atención personalizada de Juan Pablo Bertucci para consultas legales en el estudio de Alberdi 828.",
+          "items": [
+            {
+              "label": "Consulta inicial",
+              "value": "Coordinada por teléfono"
+            },
+            {
+              "label": "Atención directa",
+              "value": "Con el profesional del estudio"
+            },
+            {
+              "label": "Seguimiento",
+              "value": "De tu caso a lo largo del proceso"
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Clientes del estudio",
+          "title": "Responsabilidad y compromiso",
+          "body": "Lo que cuentan quienes ya consultaron en el estudio.",
+          "items": [
+            {
+              "label": "Martín Dick",
+              "value": "Excelente profecional. Responsabilidad y compromiso"
+            },
+            {
+              "label": "Sergio Orsatti",
+              "value": "Exelente atención por parte de Juan Pablo Bertuuci!"
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Coordiná tu consulta",
+          "title": "Llamá en horario de mañana",
+          "body": "Teléfono directo y horario de atención de lunes a viernes.",
+          "items": [
+            {
+              "label": "Llamar",
+              "value": "0249 411-6653"
+            },
+            {
+              "label": "Ir al estudio",
+              "value": "Alberdi 828, Tandil"
+            },
+            {
+              "label": "Horario",
+              "value": "Lunes a viernes de 9 a 13"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/tandil/estudio-bertucci-abogados",
+      "notes": "Placa de estudio en la vereda de Alberdi: foto real de la fachada como hero, Playfair Display + PT Serif, bronce de acento tomado de la placa real."
+    }
+  }
+}

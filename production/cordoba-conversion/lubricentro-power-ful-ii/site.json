@@ -1,0 +1,215 @@
+{
+  "id": "google-ChIJqyfxNjmZMpQRdiRnTRv5uXY",
+  "name": "Lubricentro Power Ful II",
+  "slug": "lubricentro-power-ful-ii",
+  "archetype": "industrial-garage",
+  "palette": {
+    "dominant": "#2d2a26",
+    "accent": "#d94f30",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "IBM Plex Sans Condensed",
+    "secondary": "Source Serif 4"
+  },
+  "hero_image": {
+    "heroSrc": "./index.html",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJqyfxNjmZMpQRdiRnTRv5uXY",
+    "slug": "lubricentro-power-ful-ii",
+    "visual_mood": "fleet-utility",
+    "composition": "route-card",
+    "headline": "Entrás con el aceite vencido, salís con el auto al día",
+    "subheadline": "Lubricentro Power Ful II atiende de lunes a sábado en Manuel Cardeñosa 3875, con 4.8 sobre 5 en 119 reseñas y las marcas que ves en su propia fachada: YPF, Shell, Castrol y Motul.",
+    "primary_cta": "Llamar y consultar turno",
+    "secondary_cta": "Ver ubicación",
+    "service_tags": [
+      "Cambio de aceite",
+      "Filtros de aceite y aire",
+      "Chequeo rápido de mantenimiento",
+      "Aceites YPF, Shell, Castrol y Motul"
+    ],
+    "proof_points": [
+      "4.8 sobre 5 con 119 reseñas en Google",
+      "Lunes a viernes de 8:30 a 20:00, sábados de 9:00 a 17:00",
+      "Manuel Cardeñosa 3875, Córdoba Capital",
+      "\"Excelente atención. Muy amables y muy buenos precios. 100% recomendables.!\" — Marina Cervera"
+    ],
+    "resource_title": "Antes de pasar por el lubricentro",
+    "resource_items": [
+      "Horario extendido de lunes a sábado para parar sin reorganizar el día.",
+      "Marcas visibles en la propia fachada: YPF, Shell, Castrol y Motul.",
+      "119 reseñas públicas que destacan la atención y la rapidez."
+    ],
+    "review_heading": "Lo que dicen en la ruta",
+    "contact_heading": "Parás, consultás y seguís viaje",
+    "image_prompt": "Foto real de fachada de lubricentro amarilla y negra en Córdoba Capital con tambores de aceite azul y rojo, mural pintado de auto deportivo, cartel de marcas YPF Shell Castrol Motul, luz de día.",
+    "design_notes": "Ruta de tambores de aceite: amarillo tambor, negro petróleo, rojo-naranja solo en el CTA, Staatliches + Jost.",
+    "conversion_template": "service-diagnostic",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Lubricentro Power Ful II vende una parada rápida de mantenimiento (cambio de aceite, filtros, chequeo) para conductores de Córdoba Capital que pasan sobre la marcha, apoyado en 4.8 sobre 5 en 119 reseñas y las marcas de aceite visibles en su propia fachada.",
+      "visual_thesis": "Ruta de tambores de aceite: la fachada amarilla y negra, los tambores azules y rojos y el mural pintado del auto deportivo se llevan a una landing tipo cartel de ruta. Display condensado Staatliches en mayúsculas, cuerpo geométrico Jost; paleta de amarillo tambor, negro petróleo y rojo-naranja de alerta reservado solo para el CTA, con azul de las marcas de la fachada como acento de fondo.",
+      "copy_voice": "Español argentino directo, de conductor a conductor: modelo, kilometraje, turno, sin vueltas.",
+      "layout_signature": "Template service-diagnostic: hero con la fachada real como fondo, franja de marcas (YPF, Shell, Castrol, Motul) como sello de confianza y teléfono arriba del pliegue; después el diagnóstico rápido en pasos (modelo, kilometraje, producto), foto real del auto en elevador como prueba de trabajo, reseñas como paradas de ruta y contacto final con horario extendido.",
+      "asset_plan": "Las tres fotos reales (fachada con tambores y mural, auto en elevador dentro del taller, cartel de marcas en la fachada) como hero, banda de autoridad y prueba de trabajo; los tambores de aceite y la franja de marcas se llevan a motivos SVG/CSS; ninguna marca de aceite se menciona salvo las visibles en la fachada real.",
+      "ai_fill_plan": {
+        "copy": [
+          "Microcopy del diagnóstico rápido (modelo, kilometraje, producto) sin inventar catálogo",
+          "Encabezados de ruta y parada rápida sin inventar stock ni precios"
+        ],
+        "imagery": [
+          "Silueta de tambor de aceite en SVG como separador visual de sección",
+          "Textura de franja diagonal amarilla y negra en CSS inspirada en la fachada real"
+        ],
+        "boundaries": [
+          "No inventar precios, promociones ni stock específico más allá de las marcas visibles en la fachada real",
+          "No prometer tiempo de espera ni turno inmediato sin evidencia",
+          "Las marcas YPF, Shell, Castrol y Motul se citan solo porque aparecen en el cartel real de la fachada"
+        ]
+      },
+      "anti_patterns": [
+        "Fuentes genéricas como Roboto, Arial o Space Grotesk",
+        "Gradiente violeta de SaaS",
+        "Bloques demo con precios entre corchetes, como tenía la versión anterior",
+        "Ilustración genérica de auto en vez de la fachada y el mural reales"
+      ],
+      "rewrite_targets": [
+        "Sacar los paquetes demo con precios editables entre corchetes que tenía la versión anterior",
+        "Usar la fachada real (tambores, mural, cartel de marcas) como hero en vez del layout genérico de tres cards",
+        "Subir el horario extendido (hasta las 20) y las marcas reales de la fachada como diferenciales",
+        "Simplificar el proceso a algo que se lee parado frente al mostrador, sin la densidad de placeholders de la versión anterior"
+      ]
+    },
+    "creative": {
+      "concept": "La parada de ruta que resuelve el mantenimiento sin bajarte del día.",
+      "audience": "Conductores de Córdoba Capital que necesitan cambio de aceite, filtros o un chequeo rápido con datos claros.",
+      "visual_direction": "Amarillo tambor, negro petróleo y rojo-naranja de alerta solo en el CTA, con la fachada real y sus marcas como protagonistas.",
+      "layout": "oil-bay",
+      "texture": "oil-label",
+      "hero_angle": "Cambio de aceite y mantenimiento rápido en Córdoba Capital, 4.8 sobre 5 en 119 reseñas, con las marcas YPF, Shell, Castrol y Motul.",
+      "hero_cards": [
+        {
+          "label": "Reseñas",
+          "value": "4.8★ en 119 opiniones",
+          "note": "Perfil público de Google"
+        },
+        {
+          "label": "Horario",
+          "value": "Lun a sáb",
+          "note": "Hasta las 20, sáb hasta las 17"
+        },
+        {
+          "label": "Marcas",
+          "value": "YPF · Shell · Castrol · Motul",
+          "note": "Cartel real de la fachada"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Servicios de parada rápida",
+          "title": "Lo que resolvés en una visita",
+          "body": "Aceite, filtros y chequeo, con las marcas que se ven en la propia fachada.",
+          "items": [
+            {
+              "label": "Aceite",
+              "value": "Cambio con datos del auto",
+              "note": "Modelo y kilometraje primero"
+            },
+            {
+              "label": "Filtros",
+              "value": "Aceite y aire",
+              "note": "Chequeo de consumibles"
+            },
+            {
+              "label": "Chequeo",
+              "value": "Mantenimiento rápido",
+              "note": "Sin bajarte del día"
+            },
+            {
+              "label": "Marcas",
+              "value": "YPF, Shell, Castrol, Motul",
+              "note": "Visibles en la fachada real"
+            }
+          ]
+        },
+        {
+          "type": "process",
+          "eyebrow": "Diagnóstico rápido",
+          "title": "De la llamada a la ruta de nuevo",
+          "body": "Cuatro pasos que se resuelven parado frente al mostrador.",
+          "items": [
+            {
+              "label": "01",
+              "value": "Contar modelo y km",
+              "note": "Datos básicos del auto"
+            },
+            {
+              "label": "02",
+              "value": "Confirmar producto",
+              "note": "Según marca disponible"
+            },
+            {
+              "label": "03",
+              "value": "Coordinar turno",
+              "note": "Lunes a sábado"
+            },
+            {
+              "label": "04",
+              "value": "Salir al día",
+              "note": "Mantenimiento resuelto"
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Reseñas de ruta",
+          "title": "Atención rápida, sin vueltas",
+          "body": "Tres reseñas públicas coinciden en la misma experiencia.",
+          "items": [
+            {
+              "label": "Marina Cervera",
+              "value": "Excelente atención. Muy amables y muy buenos precios. 100% recomendables.!"
+            },
+            {
+              "label": "Natali Quipildor",
+              "value": "Excelente atención de Seba, lo recomiendo."
+            },
+            {
+              "label": "Juan Brandalise",
+              "value": "Exelente atención, muy buenos precios, recomendables 100%."
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Contacto directo",
+          "title": "Llamá o pasá por el lubricentro",
+          "body": "Teléfono, dirección y horario extendido sin vueltas.",
+          "items": [
+            {
+              "label": "Llamar",
+              "value": "0351 351-7691"
+            },
+            {
+              "label": "Dirección",
+              "value": "Manuel Cardeñosa 3875, Córdoba"
+            },
+            {
+              "label": "Horario",
+              "value": "Lun a vie 8:30 a 20, sáb 9 a 17"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/cordoba-conversion/lubricentro-power-ful-ii",
+      "notes": "Ruta de tambores de aceite: amarillo, negro y rojo-naranja de CTA, Staatliches + Jost, fachada real con tambores, mural y cartel de marcas."
+    }
+  }
+}

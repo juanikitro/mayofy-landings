@@ -1,0 +1,169 @@
+{
+  "id": "google-ChIJW3ukkESHGpYRuNvepYeDAmo",
+  "name": "Alquiler Ropa Para Nieve",
+  "slug": "alquiler-ropa-para-nieve",
+  "archetype": "modern-conversion-landing",
+  "palette": {
+    "dominant": "#0c1f24",
+    "accent": "#36c5a1",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "Manrope",
+    "secondary": "Bitter"
+  },
+  "hero_image": {
+    "heroSrc": "./assets/hero.jpg",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJW3ukkESHGpYRuNvepYeDAmo",
+    "slug": "alquiler-ropa-para-nieve",
+    "visual_mood": "roadside-urgent",
+    "composition": "route-card",
+    "headline": "Ropa de nieve a cualquier hora, llevada hasta donde estés",
+    "subheadline": "Alquiler Ropa Para Nieve atiende las 24 horas en Dina Huapi y te acerca la indumentaria a tu alojamiento, con 4.9 sobre 5 en 17 reseñas.",
+    "primary_cta": "Llamar al 0294 453-0283",
+    "secondary_cta": "Reservar entrega a domicilio",
+    "service_tags": [
+      "Alquiler de ropa de nieve",
+      "Abierto las 24 horas",
+      "Entrega en tu alojamiento",
+      "Se adaptan a tus horarios",
+      "En Dina Huapi"
+    ],
+    "proof_points": [
+      "4.9 sobre 5 con 17 reseñas en Google",
+      "Abierto las 24 horas, todos los días",
+      "Las Américas 359, Dina Huapi, Río Negro",
+      "\"Nos trajo la ropa a la casa a las 00:00h. Tenía mucha variedad y a muy buen valor. Volveremos!!!\" — Nahue Dobos"
+    ],
+    "resource_title": "Por qué elegirlos cuando el resto cerró",
+    "resource_items": [
+      "Atención las 24 horas para resolver el equipo a último momento.",
+      "Te acercan la ropa a tu alojamiento y se adaptan a tus horarios.",
+      "Entrega y devolución flexibles, según las reseñas de quienes alquilaron."
+    ],
+    "review_heading": "Lo que cuentan quienes alquilaron a deshora",
+    "contact_heading": "Llamá a cualquier hora y coordiná la entrega",
+    "image_prompt": "Foto real del local Alquiler Ropa Para Nieve en Dina Huapi con ropa de nieve ordenada, ambiente nocturno cálido.",
+    "design_notes": "Servicio nocturno de nieve: azul noche profundo, hielo lunar y amarillo lámpara en el CTA. Zilla Slab + Mulish. Ruta de entrega y luna como motivo.",
+    "conversion_template": "urgent-call-first",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Alquiler de ropa de nieve 24 horas con entrega en el alojamiento que convierte al turista que necesita equipo a deshora en una llamada inmediata, apoyado en un 4.9 sobre 5 y en la flexibilidad real de horarios.",
+      "visual_thesis": "Servicio nocturno de nieve: la entrega a medianoche y la flexibilidad del negocio real llevadas a un tablero de despacho bajo la luna. Display Zilla Slab con cuerpo Mulish; paleta de azul noche profundo, hielo lunar y amarillo lámpara reservado para el CTA, con ruta de entrega y luna como motivo.",
+      "copy_voice": "Español argentino resolutivo y tranquilizador, de alguien que atiende cuando el resto cerró, sin dramatismo.",
+      "layout_signature": "Template urgent-call-first: hero nocturno con titular y CTA de llamada dominante arriba del fold, teléfono tratado como elemento gráfico; después tablero de cómo funciona la entrega, banda de reseña de la entrega a las 00:00 y contacto con mapa a Dina Huapi.",
+      "asset_plan": "Foto real del local como imagen del hero; luna, ruta de entrega y copos en SVG/CSS inline; textura de cielo nocturno en CSS, sin assets externos salvo Google Fonts.",
+      "ai_fill_plan": {
+        "copy": [
+          "Microcopy de disponibilidad 24hs y CTAs apoyado en reseñas de entrega flexible",
+          "Encabezados de sección como 'Cómo llega tu equipo' sin inventar zonas ni precios"
+        ],
+        "imagery": [
+          "Luna, faros y ruta de entrega en SVG de línea",
+          "Textura de cielo nocturno y copos en CSS como fondo"
+        ],
+        "boundaries": [
+          "No inventar precios, stock, marcas, años, premios, garantías, servicios ni reseñas",
+          "No prometer cobertura de zonas específicas: la entrega solo se apoya en las reseñas citadas",
+          "El horario 24hs se muestra tal como figura en el perfil público"
+        ]
+      },
+      "anti_patterns": [
+        "Fuentes genéricas como Inter, Roboto o Arial",
+        "Gradiente violeta sobre blanco",
+        "Layout SaaS de tres cards iguales",
+        "Estética de urgencia médica o alarma en lugar de servicio nocturno amable"
+      ],
+      "rewrite_targets": [
+        "Hacer del 24hs y la entrega a domicilio el eje visual, no un dato al pie",
+        "Tratar el teléfono como elemento gráfico central del hero",
+        "Reservar el amarillo lámpara solo para el CTA de llamada"
+      ]
+    },
+    "creative": {
+      "concept": "El alquiler que aparece cuando el resto cerró y te lleva la ropa hasta la puerta.",
+      "audience": "Turistas en Dina Huapi y Bariloche que necesitan equipo a deshora o prefieren recibirlo en el alojamiento.",
+      "visual_direction": "Azul noche, hielo lunar y amarillo lámpara, ruta de entrega y luna de línea, serif slab con carácter.",
+      "layout": "roadside-rescue",
+      "texture": "road-markings",
+      "hero_angle": "Ropa de nieve las 24 horas con entrega a domicilio y 4.9 sobre 5 en 17 reseñas.",
+      "hero_cards": [
+        {
+          "label": "Reseñas",
+          "value": "4.9★ en 17 opiniones",
+          "note": "Perfil público de Google"
+        },
+        {
+          "label": "Horario",
+          "value": "Las 24 horas, todos los días"
+        },
+        {
+          "label": "Dónde",
+          "value": "Las Américas 359, Dina Huapi"
+        }
+      ],
+      "sections": [
+        {
+          "type": "process",
+          "eyebrow": "Cómo funciona",
+          "title": "Tu equipo, a la hora que sea",
+          "body": "El recorrido que cuentan las reseñas: llamás, coordinan y te acercan la ropa a tu alojamiento.",
+          "items": [
+            {
+              "label": "01",
+              "value": "Llamás a cualquier hora y contás qué necesitás"
+            },
+            {
+              "label": "02",
+              "value": "Coordinan talles y horario que te queda cómodo"
+            },
+            {
+              "label": "03",
+              "value": "Te acercan la ropa y coordinan la devolución"
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "A deshora",
+          "title": "Aparecen cuando los necesitás",
+          "body": "Las reseñas cuentan entregas a medianoche y una atención que se adapta a tu viaje.",
+          "items": [
+            {
+              "label": "Solange Fernandez",
+              "value": "Nos trasladaron la indumentaria a nuestro punto más cómodo y se adecuaron a nuestros horarios."
+            },
+            {
+              "label": "Daniel Mamani",
+              "value": "Excelente servicio, la ropa impecable. Carla y Seba bien predispuestos al entregar y devolver."
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Contacto directo",
+          "title": "Llamá y coordiná",
+          "body": "Teléfono disponible las 24 horas y mapa a Dina Huapi para coordinar la entrega.",
+          "items": [
+            {
+              "label": "Llamar",
+              "value": "0294 453-0283"
+            },
+            {
+              "label": "Ir al local",
+              "value": "Las Américas 359, Dina Huapi"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/bariloche-ski/alquiler-ropa-para-nieve",
+      "notes": "Servicio nocturno de nieve: Zilla Slab + Mulish, azul noche con amarillo lámpara en el CTA, ruta de entrega y luna, foto real del local."
+    }
+  }
+}
