@@ -1,4 +1,4 @@
-name: Deploy landing catalog to Vercel
+name: Prepare Railway landing catalog
 
 on:
   push:
@@ -10,87 +10,56 @@ on:
       - "scripts/detect-deploy-runs.mjs"
       - "scripts/generate-deploy-runs.mjs"
       - "scripts/build-vercel-catalog.mjs"
-      - "scripts/deploy-generated.mjs"
       - "src/delivery/create-final-study.ts"
       - ".github/workflows/deploy-vercel.yml"
       - "package.json"
       - "package-lock.json"
   workflow_dispatch:
-    inputs:
-      run:
-        description: "Optional run name, for example cordoba-conversion. Empty deploys every deployable run."
-        required: false
-        type: string
-      vercel_scope:
-        description: "Optional Vercel team/org scope slug"
-        required: false
-        type: string
 
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: railway-catalog-publication
+  cancel-in-progress: false
 
 jobs:
-  detect:
+  prepare:
     runs-on: ubuntu-latest
-    outputs:
-      runs: ${{ steps.detect.outputs.runs }}
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
-
-      - name: Detect deployable runs
-        id: detect
-        run: |
-          node scripts/detect-deploy-runs.mjs \
-            --event-name "${{ github.event_name }}" \
-            --manual-run "${{ github.event.inputs.run }}" \
-            --before "${{ github.event.before }}" \
-            --after "${{ github.sha }}"
-
-  deploy:
-    needs: detect
-    if: ${{ needs.detect.outputs.runs != '[]' }}
-    runs-on: ubuntu-latest
-    concurrency:
-      group: deploy-vercel-catalog
-      cancel-in-progress: false
-    env:
-      RUNS_JSON: ${{ needs.detect.outputs.runs }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
-          # 22+ required by the impeccable detector (qa:impeccable advisory step).
-          node-version: 22
+          node-version: 24.13.0
           cache: npm
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Generate and validate runs
+      - run: npm ci
+      - name: Detect all deployable runs
+        id: detect
+        run: node scripts/detect-deploy-runs.mjs --event-name workflow_dispatch
+      - name: Generate and validate complete catalog
         env:
+          RUNS_JSON: ${{ steps.detect.outputs.runs }}
           GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
-        run: node scripts/generate-deploy-runs.mjs --runs "$RUNS_JSON" --client-readiness warn
-
-      # Advisory anti-slop scan of the generated runs. Non-blocking on purpose:
-      # historical non-golden tandas still carry slop, so this reports findings
-      # as a warning rather than gating the deploy. Flip continue-on-error to
-      # false once historical debt is cleared to make it a hard gate.
-      - name: IMPECCABLE anti-slop scan (advisory)
+        run: |
+          test "$RUNS_JSON" != '[]'
+          node scripts/generate-deploy-runs.mjs --runs "$RUNS_JSON" --client-readiness warn
+          node scripts/build-vercel-catalog.mjs --runs "$RUNS_JSON" --out dist/vercel-catalog
+      - name: IMPECCABLE advisory scan
         continue-on-error: true
         run: npm run qa:impeccable -- generated
-
-      - name: Build Vercel catalog
-        run: node scripts/build-vercel-catalog.mjs --runs "$RUNS_JSON" --out dist/vercel-catalog
-
-      - name: Deploy catalog to Vercel
-        env:
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-          VERCEL_SCOPE: ${{ github.event.inputs.vercel_scope || secrets.VERCEL_SCOPE }}
-          VERCEL_PROJECT_NAME: ${{ vars.VERCEL_PROJECT_NAME }}
-        run: node scripts/deploy-generated.mjs --dir dist/vercel-catalog
+      - name: Version verified public artifact
+        run: |
+          test -f dist/vercel-catalog/index.html
+          test -f dist/vercel-catalog/catalog/index.html
+          rm -rf production
+          mkdir production
+          cp -a dist/vercel-catalog/. production/
+          git add production
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Publish validated Railway catalog artifact"
+          git push origin HEAD:main

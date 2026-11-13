@@ -1,5 +1,10 @@
-# Railway migration
+# Railway publication
 
-production/ contains all 328 public files recovered and verified against Vercel deployment dpl_Bwqr3S4jSKFcaq2GWUM1kzV7t7Zr on 2026-11-12. The migration does not regenerate content or call Google Places. Caddy preserves noindex, nested directory indexes, compression and custom 404. Site files are editable directly under production/. Keep the generation workflow separate and validate the full catalog before replacing these files.
+Public catalog: https://landings.juanikitro.com (40 landings at migration).
+Production content is versioned under production/. Docker serves only that directory and replaces the former catalog and Mayofy origins with the Railway domains. ShineApp links remain unchanged because its migration is excluded.
 
-Production service web, port 8080; healthcheck /. Source remains available until joint owner validation of all migrated apps. New URL https://landings.juanikitro.com. Domain registration and DNS stay in Vercel.
+The generation workflow rebuilds all deployable runs, runs the existing validation gates, and commits the resulting public artifact. It no longer deploys to Vercel. Its GITHUB_TOKEN needs contents:write; existing GOOGLE_PLACES_API_KEY remains scoped to generation, never Docker runtime.
+
+Before enabling automatic publication: merge this migration branch after checks, connect Railway web to main without commit pin, and set watch patterns /production/**, /Dockerfile, /Caddyfile. Verify a generated-artifact commit triggers Railway. This end-to-end CI check is pending; the migration deploy is currently pinned.
+
+Recovery: redeploy a previously verified Railway deployment or pin its commit. The initial production/ artifact preserves the complete source. Do not delete the Vercel origin until joint acceptance.
