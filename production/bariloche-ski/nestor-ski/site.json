@@ -1,0 +1,169 @@
+{
+  "id": "google-ChIJH8JeX0NxGpYRd2b79AeyPpc",
+  "name": "Nestor Ski",
+  "slug": "nestor-ski",
+  "archetype": "industrial-garage",
+  "palette": {
+    "dominant": "#2d2a26",
+    "accent": "#d94f30",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "IBM Plex Sans Condensed",
+    "secondary": "Source Serif 4"
+  },
+  "hero_image": {
+    "heroSrc": "./assets/hero.jpg",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJH8JeX0NxGpYRd2b79AeyPpc",
+    "slug": "nestor-ski",
+    "visual_mood": "roadside-urgent",
+    "composition": "poster-bay",
+    "headline": "Alquilá y guardá tu equipo en la misma base del Cerro Catedral",
+    "subheadline": "Nestor Ski está frente a la plaza Catalina Reynal, en la base del cerro, con guardado de equipos, retiro y devolución fáciles y 4.8 sobre 5 en 50 reseñas.",
+    "primary_cta": "Llamar al 0294 460-9302",
+    "secondary_cta": "Consultar equipo en la base",
+    "service_tags": [
+      "Alquiler de ski y snowboard",
+      "Guardado de equipos en la base",
+      "Botas para adultos y chicos",
+      "Retiro y devolución simples",
+      "Atención en la base del cerro"
+    ],
+    "proof_points": [
+      "4.8 sobre 5 con 50 reseñas en Google",
+      "Todos los días de 9 a 17, en la base del cerro",
+      "Frente a plaza Catalina Reynal, base del Cerro Catedral",
+      "\"The best rental/gear service on base! Very at-home local feel. I used Nestor to keep my gear stored during my time in Bariloche\" — Rosemary Roberts"
+    ],
+    "resource_title": "Por qué conviene estar en la base",
+    "resource_items": [
+      "Guardás el equipo entre día y día sin cargarlo al alojamiento.",
+      "Retiro y devolución rápidos, a pasos de las pistas.",
+      "Botas para adultos y chicos, según las reseñas de quienes alquilaron."
+    ],
+    "review_heading": "Lo que cuentan quienes esquiaron en el cerro",
+    "contact_heading": "Llamá antes de subir al Catedral",
+    "image_prompt": "Foto real del puesto de Nestor Ski en la base del Cerro Catedral, con equipos de ski y snowboard y estantes de guardado, montaña nevada de fondo.",
+    "design_notes": "Refugio de base de cerro: grafito y madera con rojo señal en el CTA. Familjen Grotesk + Sofia Sans. Etiquetas de guardado tipo ticket de armario como motivo.",
+    "conversion_template": "hero-proof-offer",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Alquiler y guardado de equipos en la misma base del Cerro Catedral que convierte al esquiador que ya está en el cerro en un cliente que retira, guarda y devuelve sin cargar el equipo al centro.",
+      "visual_thesis": "Refugio en la base del cerro: la atención al pie de la montaña y los estantes de guardado reales llevados a un póster de refugio de nieve. Display Familjen Grotesk con cuerpo Sofia Sans; paleta de grafito, madera cálida y nieve, con rojo señal reservado para el CTA y etiquetas de guardado tipo ticket de armario.",
+      "copy_voice": "Español argentino directo y práctico, de montaña, que resuelve la logística del día de esquí sin vueltas.",
+      "layout_signature": "Template hero-proof-offer: hero póster con titular sobre la base del cerro, foto del puesto y CTA de llamada arriba del fold; después tablero de servicios con guardado destacado, banda de reseña sobre el 'at-home local feel', tickets de armario y contacto con mapa a la base.",
+      "asset_plan": "Foto real del puesto en la base como imagen del hero; etiquetas de armario, curvas de montaña y flechas de pista en SVG/CSS inline; textura de madera y nieve en CSS, sin assets externos salvo Google Fonts.",
+      "ai_fill_plan": {
+        "copy": [
+          "Microcopy de logística (retiro, guardado, devolución) y CTAs derivado de reseñas",
+          "Encabezados de sección como 'Guardado en la base' sin inventar precios ni casilleros"
+        ],
+        "imagery": [
+          "Etiquetas de armario y tickets en SVG como motivo visual",
+          "Montaña y flechas de pista de línea en CSS como textura de fondo"
+        ],
+        "boundaries": [
+          "No inventar precios, stock, marcas, años, premios, garantías, servicios ni reseñas",
+          "No afirmar cantidad de casilleros ni medidas: el guardado solo se apoya en las reseñas citadas",
+          "No prometer clases ni instructores: no hay evidencia"
+        ]
+      },
+      "anti_patterns": [
+        "Fuentes genéricas como Inter, Roboto o Arial",
+        "Gradiente violeta sobre blanco",
+        "Layout SaaS de tres cards iguales",
+        "Foto de stock de una pista europea en lugar del puesto real en la base"
+      ],
+      "rewrite_targets": [
+        "Hacer del guardado en la base el diferencial central, no un servicio más",
+        "Subir el 4.8 con 50 reseñas y la ubicación en la base al hero",
+        "Reservar el rojo señal solo para el CTA de llamada"
+      ]
+    },
+    "creative": {
+      "concept": "El puesto al pie del cerro que te resuelve el equipo y el guardado el mismo día que esquiás.",
+      "audience": "Esquiadores y snowboarders que ya están en el Cerro Catedral y quieren alquilar y guardar sin volver al centro.",
+      "visual_direction": "Grafito y madera con rojo señal, etiquetas de armario y montaña de línea, tipografía condensada práctica.",
+      "layout": "roadside-rescue",
+      "texture": "road-markings",
+      "hero_angle": "Alquiler y guardado de equipos en la base del Cerro Catedral, con 4.8 sobre 5 en 50 reseñas.",
+      "hero_cards": [
+        {
+          "label": "Reseñas",
+          "value": "4.8★ en 50 opiniones",
+          "note": "Perfil público de Google"
+        },
+        {
+          "label": "Horario",
+          "value": "Todos los días 9 a 17"
+        },
+        {
+          "label": "Dónde",
+          "value": "Base del Cerro Catedral"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Servicios en la base",
+          "title": "Todo a pasos de las pistas",
+          "body": "Alquiler, guardado y devolución sin cargar el equipo al alojamiento, lo que más valoran las reseñas.",
+          "items": [
+            {
+              "label": "Alquiler",
+              "value": "Ski y snowboard para adultos y chicos"
+            },
+            {
+              "label": "Guardado",
+              "value": "Dejá el equipo entre día y día en la base"
+            },
+            {
+              "label": "Botas",
+              "value": "Consultá tallas al llamar"
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Trato local",
+          "title": "Se siente como en casa",
+          "body": "Quienes alquilaron destacan la cercanía del equipo y lo fácil de retirar y devolver.",
+          "items": [
+            {
+              "label": "Brandon Danke",
+              "value": "Rented après ski boots, one of the few that rents them, for adults and kids. Great service."
+            },
+            {
+              "label": "Letícia Dias",
+              "value": "Alugamos equipamentos de ski. De 3 lugares que pesquisamos os preços, este estava melhor."
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Contacto directo",
+          "title": "Coordiná antes de subir",
+          "body": "Teléfono, horario y mapa a la base del cerro para dejar todo listo.",
+          "items": [
+            {
+              "label": "Llamar",
+              "value": "0294 460-9302"
+            },
+            {
+              "label": "Ir a la base",
+              "value": "Frente a plaza Catalina Reynal, Cerro Catedral"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/bariloche-ski/nestor-ski",
+      "notes": "Refugio de base de cerro: Familjen Grotesk + Sofia Sans, grafito y madera con rojo señal en el CTA, etiquetas de guardado y foto real del puesto en la base."
+    }
+  }
+}

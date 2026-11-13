@@ -1,0 +1,169 @@
+{
+  "id": "google-ChIJaUSB-G17GpYRB7RJDo88-1M",
+  "name": "Sandrik",
+  "slug": "sandrik-alquiler-ropa-nieve",
+  "archetype": "automotive-premium-dark",
+  "palette": {
+    "dominant": "#101820",
+    "accent": "#d7a94b",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "Archivo Narrow",
+    "secondary": "Merriweather Sans"
+  },
+  "hero_image": {
+    "heroSrc": "./assets/hero.jpg",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJaUSB-G17GpYRB7RJDo88-1M",
+    "slug": "sandrik-alquiler-ropa-nieve",
+    "visual_mood": "neighborhood-direct",
+    "composition": "photo-board",
+    "headline": "La ropa de nieve de Bariloche que te abriga toda la temporada",
+    "subheadline": "Sandrik alquila camperas, pantalones y equipo de nieve en Sargento Rolando 277, con todos los talles y 4.3 sobre 5 en 162 reseñas.",
+    "primary_cta": "Llamar al 0294 466-1332",
+    "secondary_cta": "Consultar talles y disponibilidad",
+    "service_tags": [
+      "Alquiler de ropa de nieve",
+      "Camperas y pantalones térmicos",
+      "Todos los talles",
+      "Equipo para esquí y caminatas",
+      "Atención familiar"
+    ],
+    "proof_points": [
+      "4.3 sobre 5 con 162 reseñas en Google",
+      "Todos los días de 9 a 13 y de 16 a 21",
+      "Sargento A. Rolando 277, San Carlos de Bariloche",
+      "\"Las camperas tienen muy lindo diseño, súper coloridas y muy abrigadas, telas de muy buena calidad, los equipos son nuevos\" — Hernán Dileo"
+    ],
+    "resource_title": "Antes de venir a equiparte",
+    "resource_items": [
+      "Horario partido todos los días: al mediodía cierra de 13 a 16.",
+      "Podés probarte todo con tranquilidad y elegir según la actividad: nieve, caminatas o paseo.",
+      "Reseñas públicas con nombre que describen la atención de la familia."
+    ],
+    "review_heading": "Lo que cuentan quienes se equiparon acá",
+    "contact_heading": "Llamá o pasá por Sargento Rolando 277",
+    "image_prompt": "Foto real del local de alquiler de ropa de nieve Sandrik en Bariloche, con perchas de camperas coloridas y equipo térmico ordenado por talles, luz cálida de interior.",
+    "design_notes": "Vidriera de ropa de nieve en colores: crema cálido, cobalto profundo y amarillo sol de las camperas reales. Unbounded para titulares redondeados + DM Sans de cuerpo. Grilla tipo perchero con chips de talle.",
+    "conversion_template": "visual-menu",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Alquiler de ropa de nieve familiar en el centro de Bariloche que convierte al turista que llega sin abrigo técnico en una visita al local para equiparse antes de subir al cerro.",
+      "visual_thesis": "Vidriera de camperas en color: la pared de ropa de nieve real, colorida y ordenada por talle, se vuelve un menú visual alegre. Display Unbounded de peso alto y redondez amable, cuerpo DM Sans; paleta de crema cálido, cobalto profundo y amarillo sol tomado de las camperas, con gris hielo de apoyo.",
+      "copy_voice": "Español argentino cálido y familiar, de local de barrio que te atiende con paciencia, sin tono de catálogo.",
+      "layout_signature": "Template visual-menu: hero con titular grande a la izquierda, foto del local a la derecha y CTA de llamada arriba del fold; después perchero de categorías de ropa como chips de talle, banda de reseñas de familia, franja de horario partido y contacto con mapa al cierre.",
+      "asset_plan": "Foto real del local como imagen principal del hero y del cierre; chips de talle, siluetas de campera y copo de nieve resueltos con SVG/CSS inline; textura de puntada de tela en el fondo, sin assets externos salvo Google Fonts.",
+      "ai_fill_plan": {
+        "copy": [
+          "Microcopy de secciones y CTAs derivado de las reseñas verificadas sobre atención y talles",
+          "Encabezados de bloque como 'Perchero de talles' sin inventar prendas ni marcas"
+        ],
+        "imagery": [
+          "Chips de talle y siluetas de campera en SVG de línea",
+          "Textura de puntada y copos de nieve en CSS como fondo suave"
+        ],
+        "boundaries": [
+          "No inventar precios, stock, marcas, años, premios, garantías, servicios ni reseñas",
+          "No afirmar envíos ni entregas a domicilio: no hay evidencia para este local",
+          "El ángulo 'súper coloridas y abrigadas' solo se apoya en la reseña citada de Hernán Dileo"
+        ]
+      },
+      "anti_patterns": [
+        "Fuentes genéricas como Inter, Roboto o Arial",
+        "Gradiente violeta sobre blanco",
+        "Layout SaaS de tres cards iguales",
+        "Stock de ropa de esquí de catálogo en lugar de la foto real del local"
+      ],
+      "rewrite_targets": [
+        "Que el color de las camperas reales mande la paleta, no un azul invierno cualquiera",
+        "Subir el 4.3 con 162 reseñas y el horario todos los días al hero",
+        "Dejar el CTA de llamada como el elemento más caliente de la pantalla"
+      ]
+    },
+    "creative": {
+      "concept": "El local de barrio donde toda la familia se equipa de nieve antes de subir, con perchero real y atención paciente.",
+      "audience": "Turistas y familias que llegan a Bariloche sin ropa de nieve y quieren alquilar todo cerca del centro.",
+      "visual_direction": "Camperas coloridas sobre crema cálido, chips de talle, tipografía redonda de peso alto y copos de nieve de línea.",
+      "layout": "parts-counter",
+      "texture": "parts-shelf",
+      "hero_angle": "Ropa de nieve para toda la familia en el centro de Bariloche, con todos los talles y 4.3 sobre 5 en 162 reseñas.",
+      "hero_cards": [
+        {
+          "label": "Reseñas",
+          "value": "4.3★ en 162 opiniones",
+          "note": "Perfil público de Google"
+        },
+        {
+          "label": "Horario",
+          "value": "Todos los días 9 a 13 y 16 a 21"
+        },
+        {
+          "label": "Dónde",
+          "value": "Sargento A. Rolando 277"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Qué se alquila",
+          "title": "Perchero de talles para toda la familia",
+          "body": "Ropa de nieve para elegir según la actividad, con talles para grandes y chicos y equipos que entregan impecables.",
+          "items": [
+            {
+              "label": "Camperas térmicas",
+              "value": "Coloridas y abrigadas, para nieve y paseo"
+            },
+            {
+              "label": "Pantalones de nieve",
+              "value": "Talles para adultos y chicos"
+            },
+            {
+              "label": "Accesorios",
+              "value": "Consultá en el mostrador qué necesitás para el día"
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Atención de la familia",
+          "title": "Amables y con paciencia",
+          "body": "Las reseñas repiten lo mismo: te ayudan a elegir sin apuro y volvés cada temporada.",
+          "items": [
+            {
+              "label": "Florencia Navarro",
+              "value": "El dueño súper amable y considerado. Este año vuelvo a elegirlos."
+            },
+            {
+              "label": "Evelin Ulloa",
+              "value": "La atención es un sueño: amables, pacientes y siempre dispuestos a ayudar."
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Contacto directo",
+          "title": "Llamá o pasá por el local",
+          "body": "Teléfono, mapa y horario partido bien claros para coordinar tu visita.",
+          "items": [
+            {
+              "label": "Llamar",
+              "value": "0294 466-1332"
+            },
+            {
+              "label": "Ir al local",
+              "value": "Sargento A. Rolando 277, Bariloche"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/bariloche-ski/sandrik-alquiler-ropa-nieve",
+      "notes": "Vidriera de ropa de nieve en color: Unbounded + DM Sans, paleta cobalto y amarillo sol sobre crema, perchero de talles y foto real del local."
+    }
+  }
+}

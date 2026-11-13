@@ -1,0 +1,217 @@
+{
+  "id": "google-ChIJCURt-D6YMpQRtFgR9fQuZXY",
+  "name": "Taller SR. Chapa y pintura",
+  "slug": "taller-sr-chapa-y-pintura",
+  "archetype": "local-clean-service",
+  "palette": {
+    "dominant": "#f7fbfa",
+    "accent": "#24746b",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "Nunito Sans",
+    "secondary": "Literata"
+  },
+  "hero_image": {
+    "heroSrc": "./index.html",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJCURt-D6YMpQRtFgR9fQuZXY",
+    "slug": "taller-sr-chapa-y-pintura",
+    "visual_mood": "workshop-trust",
+    "composition": "poster-bay",
+    "headline": "El taller que arregla autos en Córdoba desde 1975",
+    "subheadline": "Taller SR. Chapa y pintura trabaja en el mismo barrio desde 1975, con 4.8 sobre 5 en 188 reseñas y una cabina de pintura que se ve en cada trabajo terminado.",
+    "primary_cta": "Consultar mi reparación",
+    "secondary_cta": "Ver cómo llegar",
+    "service_tags": [
+      "Chapa y reparación de golpes",
+      "Pintura y terminación",
+      "Pulido y abrillantado",
+      "Evaluación con fotos"
+    ],
+    "proof_points": [
+      "4.8 sobre 5 con 188 reseñas en Google",
+      "En el mismo barrio desde 1975, según el letrero del taller",
+      "Lunes a viernes de 8:00 a 18:00, sábado y domingo cerrado",
+      "\"César was fantastic—professional, helpful, and honest... the job was completed within the promised timeframe\" — Saurabh Khanvilkar"
+    ],
+    "resource_title": "Antes de llevar el auto al taller",
+    "resource_items": [
+      "Trayectoria verificable: el propio letrero del taller marca 1975 como año de origen.",
+      "188 reseñas públicas, incluida una en inglés que destaca la honestidad del trato aun con la barrera del idioma.",
+      "Horario fijo de lunes a viernes para coordinar sin sorpresas."
+    ],
+    "review_heading": "Lo que cuentan, en cualquier idioma",
+    "contact_heading": "Consultá con fotos del golpe",
+    "image_prompt": "Foto real de cabina de pintura blanca con autos cubiertos en film protector, luces fluorescentes de taller, emblema rojo y negro de pistolas cruzadas en la pared, Córdoba Capital, luz de trabajo.",
+    "design_notes": "Placa de taller desde 1975: cabina blanca de baldosas, emblema rojo y negro de pistolas cruzadas, Libre Caslon Display + Public Sans, paleta porcelana / granate / negro tinta.",
+    "conversion_template": "editorial-local-story",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Taller SR. Chapa y pintura vende una consulta de reparación de carrocería para dueños de auto en Córdoba Capital que buscan un taller con trayectoria comprobada desde 1975 y 4.8 sobre 5 en 188 reseñas, antes de dejar el vehículo.",
+      "visual_thesis": "Placa de taller desde 1975: la cabina de pintura blanca y el emblema rojo y negro de las pistolas cruzadas se llevan a una landing con aire de chapa esmaltada de taller histórico. Display serif Libre Caslon Display en versalitas grandes, cuerpo Public Sans; paleta porcelana, granate del emblema y negro tinta, con gris de baldosa cerámica como textura de fondo.",
+      "copy_voice": "Español argentino directo y sobrio, de mecánico que no promete de más: fotos, alcance y turno, sin relleno.",
+      "layout_signature": "Template editorial-local-story: hero tipo placa esmaltada con el emblema de pistolas cruzadas recreado en SVG de línea, titular serif grande, rating 4.8★ y la reseña de Saurabh Khanvilkar como prueba de confianza que cruza el idioma; después cómo se evalúa un golpe en pasos, las tres fotos reales de la cabina como banda de autoridad, reseñas como fichas de taller y cierre de consulta con fotos arriba y abajo del pliegue.",
+      "asset_plan": "Las tres fotos reales de la cabina de pintura (auto plateado cubierto en preparación, camioneta azul en pintura, pickup blanca en pulverizado con la pistola en primer plano) como banda de autoridad y fondo parcial del hero; grid de baldosas cerámicas blancas en CSS; pistolas de pintura cruzadas recreadas en SVG de línea propio como motivo de sección, sin copiar el logo original pixel por pixel.",
+      "ai_fill_plan": {
+        "copy": [
+          "Microcopy de los pasos de evaluación con fotos (qué mandar, qué se confirma, cómo se coordina)",
+          "Encabezados tipo ficha de taller sin inventar plazos ni garantías de resultado"
+        ],
+        "imagery": [
+          "Grid de baldosas cerámicas en CSS como textura de fondo del hero y separadores",
+          "Pistolas de pintura cruzadas en SVG de línea como motivo de sección, inspirado en el emblema real sin reproducirlo"
+        ],
+        "boundaries": [
+          "No inventar precios, marcas de pintura, plazos de entrega ni garantías",
+          "\"Desde 1975\" se apoya solo en el letrero visible del propio taller en las fotos reales, sin agregar historia inventada",
+          "No prometer resultado idéntico al original: solo evaluación, alcance y criterio de terminación"
+        ]
+      },
+      "anti_patterns": [
+        "Fuentes genéricas como Arial, Roboto o Inter",
+        "Gradiente violeta de SaaS sobre fondo blanco",
+        "Placeholders crudos tipo \"[Presupuesto editable]\" o \"Foto a reemplazar\" visibles, como tenía la versión anterior",
+        "Foto de stock de chapista genérico en vez de la cabina real del taller"
+      ],
+      "rewrite_targets": [
+        "Sacar todos los placeholders demo/editable que tenía la versión anterior (paquetes con precios entre corchetes, galería \"foto a reemplazar\")",
+        "Usar las tres fotos reales de la cabina de pintura como prueba visual en vez de bloques genéricos de antes/después",
+        "Subir el dato \"desde 1975\" y la reseña en inglés de Saurabh Khanvilkar como prueba de confianza arriba del pliegue",
+        "Cambiar el tono de placeholder comercial de la versión anterior por una narrativa editorial de taller con oficio real"
+      ]
+    },
+    "creative": {
+      "concept": "Un taller que no necesita prometer nada porque lo viene demostrando desde 1975.",
+      "audience": "Dueños de auto en Córdoba Capital que necesitan evaluar un golpe, pintura o terminación antes de dejar el vehículo.",
+      "visual_direction": "Placa esmaltada de taller: porcelana, granate y negro tinta, baldosa cerámica real como textura, emblema de pistolas cruzadas como motivo gráfico.",
+      "layout": "bodyshop-craft",
+      "texture": "primer-dust",
+      "hero_angle": "Chapa y pintura con oficio desde 1975 en Córdoba Capital, 4.8 sobre 5 en 188 reseñas.",
+      "hero_cards": [
+        {
+          "label": "Reseñas",
+          "value": "4.8★ en 188 opiniones",
+          "note": "Perfil público de Google"
+        },
+        {
+          "label": "Trayectoria",
+          "value": "En el barrio desde 1975",
+          "note": "Letrero del propio taller"
+        },
+        {
+          "label": "Horario",
+          "value": "Lunes a viernes, 8 a 18"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Cómo se evalúa un golpe",
+          "title": "Chapa, pintura y un criterio de terminación",
+          "body": "La consulta se ordena por lo que muestran las fotos del daño, no por una lista de precios inventada.",
+          "items": [
+            {
+              "label": "Chapa",
+              "value": "Evaluación del daño",
+              "note": "Zona afectada y alcance real"
+            },
+            {
+              "label": "Pintura",
+              "value": "Terminación y color",
+              "note": "Ajuste sobre el vehículo real"
+            },
+            {
+              "label": "Pulido",
+              "value": "Abrillantado final",
+              "note": "Mencionado en reseñas de clientes"
+            },
+            {
+              "label": "Consulta",
+              "value": "Con fotos del golpe",
+              "note": "Primer paso antes de coordinar turno"
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Clientes reales",
+          "title": "La confianza cruza el idioma",
+          "body": "Tres reseñas públicas, una de ellas en inglés, coinciden en lo mismo: trabajo prolijo y trato honesto.",
+          "items": [
+            {
+              "label": "Saurabh Khanvilkar",
+              "value": "César was fantastic—professional, helpful, and honest. The job was completed within the promised timeframe."
+            },
+            {
+              "label": "Jeziel Ruani",
+              "value": "Me dejaron como nuevo el parachoques y hasta una limpieza incluida que parece un espejo del brillo."
+            },
+            {
+              "label": "Maximiliano Ocampo",
+              "value": "Realizaron un trabajo excelente, quedó prácticamente imperceptible."
+            }
+          ]
+        },
+        {
+          "type": "material-story",
+          "eyebrow": "La cabina, no el catálogo",
+          "title": "Tres autos, tres etapas del mismo oficio",
+          "body": "Preparación, pintura y pulverizado: el trabajo real dentro de la cabina blanca del taller.",
+          "items": [
+            {
+              "label": "Preparación",
+              "value": "Auto cubierto y listo",
+              "note": "Film protector antes de pintar"
+            },
+            {
+              "label": "Pintura",
+              "value": "Cabina en uso",
+              "note": "Camioneta en proceso de repintado"
+            },
+            {
+              "label": "Pulverizado",
+              "value": "Terminación pareja",
+              "note": "Pistola de pintura en primer plano"
+            }
+          ]
+        },
+        {
+          "type": "process",
+          "eyebrow": "De la consulta al turno",
+          "title": "Cuatro pasos, sin vueltas",
+          "body": "El usuario sabe qué mandar, qué se confirma y cómo sigue el proceso.",
+          "items": [
+            {
+              "label": "01",
+              "value": "Enviar fotos",
+              "note": "Golpe, lateral afectado o detalle de pintura"
+            },
+            {
+              "label": "02",
+              "value": "Separar alcance",
+              "note": "Se define si requiere visita o presupuesto"
+            },
+            {
+              "label": "03",
+              "value": "Coordinar turno",
+              "note": "Lunes a viernes, 8 a 18"
+            },
+            {
+              "label": "04",
+              "value": "Retirar con criterio",
+              "note": "Terminación evaluada antes de entregar"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/cordoba-conversion/taller-sr-chapa-y-pintura",
+      "notes": "Placa de taller desde 1975: porcelana, granate y negro tinta, Libre Caslon Display + Public Sans, emblema de pistolas cruzadas en SVG, tres fotos reales de la cabina de pintura."
+    }
+  }
+}

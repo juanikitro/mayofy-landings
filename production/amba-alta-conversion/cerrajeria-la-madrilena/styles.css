@@ -1,0 +1,950 @@
+/* ==========================================================================
+   Cerrajería La Madrileña — "Cartel de cerrajería porteña"
+   Papel crema + negro humo + amarillo señalética + rojo sello
+   ========================================================================== */
+
+:root {
+  --papel: #f5edda;
+  --papel-alto: #fbf6e9;
+  --negro: #171410;
+  --negro-suave: #241f18;
+  --amarillo: #ffc400;
+  --amarillo-hondo: #e8a800;
+  --rojo: #b8321a;
+  --tinta: #2a251d;
+  --tinta-media: #4d463a;
+  --stripe: repeating-linear-gradient(-45deg, var(--negro) 0 14px, var(--amarillo) 14px 28px);
+  --sombra-dura: 8px 8px 0 rgba(23, 20, 16, 0.9);
+  --font-display: "Archivo Black", sans-serif;
+  --font-body: "Barlow", sans-serif;
+  --font-label: "Barlow Semi Condensed", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--tinta);
+  background-color: var(--papel);
+  overflow-x: hidden;
+  padding-bottom: 72px; /* espacio para sticky bar mobile */
+}
+
+/* Grano de papel sobre toda la página */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  pointer-events: none;
+  opacity: 0.5;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3CfeComponentTransfer%3E%3CfeFuncA type='linear' slope='0.05'/%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+img { max-width: 100%; display: block; height: auto; }
+
+a { color: inherit; }
+
+.wrap {
+  width: min(1120px, 100% - 2.5rem);
+  margin-inline: auto;
+}
+
+/* ==========================================================================
+   Franja de obra
+   ========================================================================== */
+.obra-stripe {
+  height: 14px;
+  background: var(--stripe);
+}
+
+/* ==========================================================================
+   Topbar
+   ========================================================================== */
+.topbar {
+  background: var(--negro);
+  color: var(--papel);
+  border-bottom: 3px solid var(--amarillo);
+  position: relative;
+  z-index: 10;
+}
+
+.topbar-in {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.7rem 0;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  text-decoration: none;
+  min-width: 0;
+}
+
+.brand-key {
+  width: 44px;
+  flex: none;
+  color: var(--amarillo);
+}
+
+.brand-txt {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  letter-spacing: 0.01em;
+  line-height: 1.1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.brand-txt em {
+  display: block;
+  font-family: var(--font-label);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--amarillo);
+}
+
+.topbar-tel {
+  text-align: right;
+  text-decoration: none;
+  flex: none;
+}
+
+.tel-label {
+  display: block;
+  font-family: var(--font-label);
+  font-weight: 600;
+  font-size: 0.68rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(245, 237, 218, 0.65);
+}
+
+.tel-num {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--amarillo);
+}
+
+.topbar-tel:hover .tel-num { color: var(--papel-alto); }
+
+/* ==========================================================================
+   Hero
+   ========================================================================== */
+.hero {
+  position: relative;
+  padding: 3rem 0 4rem;
+  background:
+    radial-gradient(circle at 12% 8%, rgba(255, 196, 0, 0.14), transparent 40%),
+    radial-gradient(circle at 88% 92%, rgba(184, 50, 26, 0.07), transparent 45%),
+    var(--papel);
+}
+
+/* llave gigante de fondo */
+.hero::after {
+  content: "";
+  position: absolute;
+  right: -140px;
+  top: 30px;
+  width: 420px;
+  height: 420px;
+  opacity: 0.06;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 20'%3E%3Cpath d='M6 4a6 6 0 1 0 0 12c2.5 0 4.6-1.5 5.5-3.6h30.2v-2.2h-3.4V7h-2.6v3.2h-3.1V7.6h-2.6v2.6H11.5A6 6 0 0 0 6 4Zm0 3.2A2.8 2.8 0 1 1 6 12.8 2.8 2.8 0 0 1 6 7.2Z' fill='%23171410'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: rotate(-35deg);
+}
+
+.hero-grid {
+  display: grid;
+  gap: 2.5rem;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-label);
+  font-weight: 700;
+  font-size: 0.82rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--tinta-media);
+  border: 2px solid var(--negro);
+  padding: 0.35rem 0.8rem;
+  background: var(--papel-alto);
+  box-shadow: 4px 4px 0 var(--negro);
+  margin-bottom: 1.4rem;
+}
+
+.hero-kicker .dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--rojo);
+  flex: none;
+}
+
+.hero-title {
+  font-family: var(--font-display);
+  font-size: clamp(3rem, 11vw, 6.2rem);
+  line-height: 0.98;
+  text-transform: uppercase;
+  color: var(--negro);
+  letter-spacing: -0.01em;
+}
+
+.hero-title .line { display: block; }
+
+.marker {
+  background: linear-gradient(178deg, var(--amarillo) 0%, var(--amarillo-hondo) 100%);
+  color: var(--negro);
+  padding: 0 0.12em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.rojo { color: var(--rojo); }
+
+.hero-sub {
+  max-width: 34rem;
+  margin-top: 1.4rem;
+  font-size: 1.08rem;
+  color: var(--tinta-media);
+}
+
+.hero-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin-top: 1.8rem;
+}
+
+/* Botones */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: var(--font-label);
+  font-weight: 700;
+  font-size: 1.02rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.95rem 1.5rem;
+  border: 3px solid var(--negro);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn svg { width: 20px; height: 20px; flex: none; }
+
+.btn:hover,
+.btn:focus-visible {
+  transform: translate(-2px, -2px);
+}
+
+.btn:active { transform: translate(1px, 1px); }
+
+.btn-negro {
+  background: var(--negro);
+  color: var(--amarillo);
+  box-shadow: 5px 5px 0 var(--amarillo-hondo);
+}
+
+.btn-negro:hover { box-shadow: 8px 8px 0 var(--amarillo-hondo); }
+
+.btn-wsp {
+  background: var(--papel-alto);
+  color: var(--negro);
+  box-shadow: 5px 5px 0 rgba(23, 20, 16, 0.85);
+}
+
+.btn-wsp:hover { box-shadow: 8px 8px 0 rgba(23, 20, 16, 0.85); }
+
+.btn-amarillo {
+  background: var(--amarillo);
+  color: var(--negro);
+  border-color: var(--amarillo);
+  box-shadow: 5px 5px 0 rgba(255, 196, 0, 0.35);
+}
+
+.btn-amarillo:hover { box-shadow: 8px 8px 0 rgba(255, 196, 0, 0.35); }
+
+/* Chip de rating */
+.rating-chip {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+  margin-top: 1.6rem;
+  padding: 0.55rem 1rem;
+  border: 2px dashed var(--negro);
+  background: var(--papel-alto);
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 0.88rem;
+  text-decoration: none;
+  color: var(--tinta);
+}
+
+.rating-chip:hover { background: var(--amarillo); }
+
+.rating-chip .stars { color: var(--rojo); letter-spacing: 0.08em; }
+
+.chip-sep { color: var(--tinta-media); }
+
+/* Foto hero con marco */
+.hero-photo {
+  position: relative;
+  justify-self: center;
+  width: min(420px, 100%);
+}
+
+.hero-stripe {
+  position: absolute;
+  left: -12%;
+  right: -12%;
+  top: 58%;
+  height: 46px;
+  background: var(--stripe);
+  transform: rotate(-6deg);
+  z-index: -1;
+}
+
+.photo-frame {
+  position: relative;
+  border: 6px solid var(--negro);
+  background: var(--papel-alto);
+  box-shadow: var(--sombra-dura);
+  transform: rotate(2deg);
+  transition: transform 0.25s ease;
+}
+
+.photo-frame:hover { transform: rotate(0deg) scale(1.01); }
+
+.photo-frame img {
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: 55% 45%;
+}
+
+.frame-tag {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  background: var(--negro);
+  color: var(--amarillo);
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 0.78rem;
+  padding: 0.35rem 0.7rem;
+}
+
+/* ==========================================================================
+   Encabezados de sección
+   ========================================================================== */
+.sec-head { margin-bottom: 2.5rem; }
+
+.sec-kicker {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--rojo);
+  margin-bottom: 0.6rem;
+}
+
+.sec-kicker::before { content: "// "; }
+
+.sec-title {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 6vw, 3.4rem);
+  line-height: 1.02;
+  text-transform: uppercase;
+  color: var(--negro);
+}
+
+.sec-sub {
+  margin-top: 0.9rem;
+  color: var(--tinta-media);
+  max-width: 32rem;
+}
+
+/* ==========================================================================
+   Servicios — tablero de llaves
+   ========================================================================== */
+.servicios {
+  padding: 4.5rem 0 5rem;
+  background:
+    radial-gradient(rgba(23, 20, 16, 0.09) 1.5px, transparent 1.6px) 0 0 / 26px 26px,
+    var(--papel);
+  border-top: 3px solid var(--negro);
+}
+
+.tags-grid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.6rem 1.4rem;
+}
+
+/* Ficha tipo etiqueta de llavero */
+.tag {
+  position: relative;
+  background: var(--papel-alto);
+  border: 3px solid var(--negro);
+  padding: 2rem 1.3rem 1.3rem;
+  box-shadow: 6px 6px 0 rgba(23, 20, 16, 0.85);
+  transform-origin: 50% -8px;
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* agujero del llavero */
+.tag::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--papel);
+  border: 3px solid var(--negro);
+}
+
+/* argolla */
+.tag::after {
+  content: "";
+  position: absolute;
+  top: -11px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 3px solid var(--tinta-media);
+  border-bottom-color: transparent;
+}
+
+.tag:hover { transform: rotate(-2deg); }
+
+.tag:nth-child(even):hover { transform: rotate(2deg); }
+
+.tag-num {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  color: var(--papel-alto);
+  background: var(--rojo);
+  padding: 0.15rem 0.5rem;
+  margin-bottom: 0.7rem;
+}
+
+.tag h3 {
+  font-family: var(--font-label);
+  font-weight: 700;
+  font-size: 1.22rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--negro);
+  line-height: 1.2;
+  margin-bottom: 0.4rem;
+}
+
+.tag p {
+  font-size: 0.95rem;
+  color: var(--tinta-media);
+}
+
+/* ==========================================================================
+   Banda "a última hora"
+   ========================================================================== */
+.ultima {
+  background: var(--negro);
+  color: var(--papel);
+  position: relative;
+}
+
+.ultima-stripe { height: 16px; background: var(--stripe); }
+
+.ultima-in {
+  padding: 4.5rem 0;
+  max-width: 780px;
+  text-align: center;
+}
+
+.ultima-kicker {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--amarillo);
+  margin-bottom: 1rem;
+}
+
+.ultima-title {
+  font-family: var(--font-display);
+  font-size: clamp(2.1rem, 7vw, 3.8rem);
+  line-height: 1.02;
+  text-transform: uppercase;
+  color: var(--papel-alto);
+}
+
+.ultima-title .amarillo { color: var(--amarillo); }
+
+.ultima-quote {
+  margin: 2.2rem auto 0;
+  padding: 1.6rem 1.8rem;
+  border: 2px dashed rgba(245, 237, 218, 0.5);
+  background: var(--negro-suave);
+  max-width: 620px;
+}
+
+.ultima-quote p {
+  font-size: 1.15rem;
+  line-height: 1.55;
+  color: var(--papel-alto);
+  font-weight: 500;
+}
+
+.ultima-quote cite {
+  display: block;
+  margin-top: 0.9rem;
+  font-style: normal;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: rgba(245, 237, 218, 0.75);
+}
+
+.q-stars { color: var(--amarillo); }
+
+.ultima-cta { margin-top: 2.2rem; }
+
+.ultima-hs {
+  margin-top: 1rem;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: rgba(245, 237, 218, 0.7);
+}
+
+/* ==========================================================================
+   Trabajos
+   ========================================================================== */
+.trabajos {
+  padding: 4.5rem 0 5rem;
+}
+
+.trab-grid {
+  display: grid;
+  gap: 2rem;
+  align-items: start;
+}
+
+.trab-card {
+  border: 5px solid var(--negro);
+  background: var(--papel-alto);
+  box-shadow: var(--sombra-dura);
+}
+
+.trab-card:nth-child(1) { transform: rotate(-1deg); }
+.trab-card:nth-child(2) { transform: rotate(1.2deg); margin-top: 0; }
+
+.trab-card img {
+  width: 100%;
+  aspect-ratio: 16 / 11;
+  object-fit: cover;
+  border-bottom: 4px solid var(--negro);
+}
+
+.trab-card:nth-child(1) img { object-position: 50% 72%; }
+
+.trab-card figcaption {
+  padding: 1rem 1.2rem 1.2rem;
+  font-size: 0.98rem;
+  color: var(--tinta-media);
+}
+
+.cap-num {
+  display: block;
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 0.72rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--rojo);
+  margin-bottom: 0.35rem;
+}
+
+/* ==========================================================================
+   Reseñas — tickets
+   ========================================================================== */
+.resenas {
+  padding: 4.5rem 0 5rem;
+  background:
+    linear-gradient(rgba(255, 196, 0, 0.12), rgba(255, 196, 0, 0.12)),
+    var(--papel);
+  border-top: 3px solid var(--negro);
+  border-bottom: 3px solid var(--negro);
+}
+
+.tickets {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.6rem;
+}
+
+.ticket {
+  background: var(--papel-alto);
+  border: 2px dashed var(--negro);
+  padding: 1.4rem 1.4rem 1.6rem;
+  position: relative;
+  box-shadow: 5px 5px 0 rgba(23, 20, 16, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ticket:hover {
+  transform: translateY(-4px);
+  box-shadow: 8px 10px 0 rgba(23, 20, 16, 0.25);
+}
+
+/* muescas de troquel */
+.ticket::before,
+.ticket::after {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--papel);
+  border: 2px dashed var(--negro);
+  top: 50%;
+}
+
+.ticket::before { left: -11px; transform: translateY(-50%); border-left-color: transparent; }
+.ticket::after { right: -11px; transform: translateY(-50%); border-right-color: transparent; }
+
+.tk-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--tinta-media);
+  border-bottom: 2px dashed rgba(23, 20, 16, 0.35);
+  padding-bottom: 0.6rem;
+  margin-bottom: 0.9rem;
+}
+
+.tk-head span:last-child { color: var(--rojo); letter-spacing: 0.05em; }
+
+.ticket blockquote p {
+  font-size: 1rem;
+  line-height: 1.55;
+  color: var(--tinta);
+}
+
+.ticket cite {
+  display: block;
+  margin-top: 0.9rem;
+  font-style: normal;
+  font-family: var(--font-label);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.85rem;
+  color: var(--negro);
+}
+
+.ticket cite::before { content: "— "; color: var(--rojo); }
+
+.res-link { margin-top: 2rem; }
+
+.res-link a {
+  font-family: var(--font-label);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.95rem;
+  color: var(--negro);
+  text-decoration: none;
+  border-bottom: 3px solid var(--amarillo-hondo);
+  padding-bottom: 2px;
+}
+
+.res-link a:hover { background: var(--amarillo); }
+
+/* ==========================================================================
+   Contacto
+   ========================================================================== */
+.contacto { padding: 4.5rem 0 5rem; }
+
+.contacto-grid {
+  display: grid;
+  gap: 3rem;
+  align-items: start;
+}
+
+.cont-title { margin-bottom: 0.8rem; }
+
+.cont-dir {
+  color: var(--tinta-media);
+  font-size: 1.05rem;
+  margin-bottom: 1.6rem;
+}
+
+.cont-btns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+.cont-tel {
+  display: inline-block;
+  text-decoration: none;
+  border: 3px solid var(--negro);
+  background: var(--amarillo);
+  padding: 0.8rem 1.2rem;
+  box-shadow: 6px 6px 0 var(--negro);
+  transition: transform 0.15s ease;
+}
+
+.cont-tel:hover { transform: translate(-2px, -2px); }
+
+.cont-tel .tel-label { color: rgba(23, 20, 16, 0.7); }
+
+.tel-big {
+  display: block;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: clamp(1.5rem, 5.5vw, 2rem);
+  color: var(--negro);
+}
+
+/* Tabla de horarios tipo ticket */
+.horarios {
+  background: var(--papel-alto);
+  border: 2px dashed var(--negro);
+  padding: 1.6rem 1.6rem 1.2rem;
+  font-family: var(--font-mono);
+  box-shadow: 6px 6px 0 rgba(23, 20, 16, 0.2);
+  max-width: 420px;
+}
+
+.hs-head {
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--negro);
+  border-bottom: 2px dashed rgba(23, 20, 16, 0.35);
+  padding-bottom: 0.8rem;
+  margin-bottom: 0.4rem;
+}
+
+.hs-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.8rem 0;
+  border-bottom: 1px dashed rgba(23, 20, 16, 0.25);
+  font-size: 0.92rem;
+  font-weight: 500;
+}
+
+.hs-row:last-of-type { border-bottom: none; }
+
+.hs-val {
+  font-weight: 700;
+  text-align: right;
+  color: var(--negro);
+}
+
+.hs-val.cerrado { color: var(--rojo); }
+
+.hs-foot {
+  margin-top: 0.6rem;
+  text-align: center;
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  color: var(--tinta-media);
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+.footer {
+  background: var(--negro);
+  color: var(--papel);
+}
+
+.footer-in {
+  padding: 2.2rem 0 2.6rem;
+  text-align: center;
+}
+
+.foot-brand {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  font-size: 1.05rem;
+  color: var(--amarillo);
+}
+
+.foot-dir {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: rgba(245, 237, 218, 0.75);
+}
+
+.foot-dir a {
+  color: var(--amarillo);
+  text-decoration: none;
+  font-family: var(--font-mono);
+}
+
+.foot-dir a:hover { text-decoration: underline; }
+
+.foot-credit {
+  margin-top: 1.4rem;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: rgba(245, 237, 218, 0.55);
+}
+
+/* ==========================================================================
+   Sticky bar mobile
+   ========================================================================== */
+.sticky-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: 3px solid var(--negro);
+}
+
+.sticky-bar a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem 0.5rem;
+  font-family: var(--font-label);
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.sticky-bar svg { width: 20px; height: 20px; }
+
+.sb-call { background: var(--amarillo); color: var(--negro); }
+
+.sb-wsp { background: var(--negro); color: var(--papel-alto); }
+
+/* ==========================================================================
+   Animaciones
+   ========================================================================== */
+@keyframes subir {
+  from { opacity: 0; transform: translateY(22px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.rv-load {
+  animation: subir 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.d1 { animation-delay: 0.05s; }
+.d2 { animation-delay: 0.15s; }
+.d3 { animation-delay: 0.25s; }
+.d4 { animation-delay: 0.35s; }
+.d5 { animation-delay: 0.5s; }
+.d6 { animation-delay: 0.62s; }
+.d7 { animation-delay: 0.75s; }
+
+/* Revelado por scroll: solo si hay JS */
+.js .rv {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.65s cubic-bezier(0.22, 1, 0.36, 1), transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.js .rv.in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .rv-load { animation: none; }
+  .js .rv { opacity: 1; transform: none; transition: none; }
+  .btn, .photo-frame, .tag, .ticket, .cont-tel { transition: none; }
+  .btn:hover, .photo-frame:hover, .tag:hover, .tag:nth-child(even):hover,
+  .ticket:hover, .cont-tel:hover { transform: none; }
+}
+
+/* ==========================================================================
+   Desktop
+   ========================================================================== */
+@media (min-width: 760px) {
+  body { padding-bottom: 0; }
+
+  .sticky-bar { display: none; }
+
+  .hero { padding: 4.5rem 0 5.5rem; }
+
+  .hero-grid {
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 3.5rem;
+  }
+
+  .hero-photo { justify-self: end; }
+
+  .trab-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .trab-card:nth-child(2) { margin-top: 3.5rem; }
+
+  .contacto-grid {
+    grid-template-columns: 1.1fr 0.9fr;
+  }
+
+  .horarios { justify-self: end; margin-top: 3.2rem; }
+}
+
+@media (max-width: 420px) {
+  .brand-txt { font-size: 0.92rem; }
+  .topbar-tel .tel-label { display: none; }
+  .tel-num { font-size: 1rem; }
+}

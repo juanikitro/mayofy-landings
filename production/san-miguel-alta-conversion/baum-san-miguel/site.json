@@ -1,0 +1,298 @@
+{
+  "id": "google-ChIJ9RiuJQ-9vJURJ2MmqwR7R0o",
+  "name": "Baum San Miguel",
+  "slug": "baum-san-miguel",
+  "archetype": "local-clean-service",
+  "palette": {
+    "dominant": "#f7fbfa",
+    "accent": "#24746b",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "Nunito Sans",
+    "secondary": "Literata"
+  },
+  "hero_image": {
+    "heroSrc": "./assets/hero.jpg",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJ9RiuJQ-9vJURJ2MmqwR7R0o",
+    "slug": "baum-san-miguel",
+    "visual_mood": "precision-service",
+    "composition": "poster-bay",
+    "headline": "Baum: cerveza artesanal y bodegón de noche en San Miguel",
+    "subheadline": "El after de San Miguel: cerveza tirada, porciones enormes y buena onda hasta tarde. 4,3 en Google con más de 9.000 reseñas. Mirá el lugar en Instagram o vení a probarlo.",
+    "primary_cta": "Cómo llegar",
+    "secondary_cta": "Ver en Instagram",
+    "service_tags": [
+      "Cerveza artesanal",
+      "Cocina de bodegón",
+      "Salón de noche",
+      "Pedido desde el celu"
+    ],
+    "proof_points": [
+      "4,3 en Google con más de 9.000 reseñas",
+      "Abierto de noche, viernes y sábados hasta las 4",
+      "Maestro Ángel D'Elía 1145, San Miguel",
+      "\"Gran cerveza y porciones enormes, un must en la noche\" — reseña real"
+    ],
+    "resource_title": "Antes de venir a la noche",
+    "resource_items": [
+      "Horario nocturno visible: abre 18:30, viernes y sábado hasta las 4.",
+      "Dirección con cómo llegar para caer directo.",
+      "Instagram real del lugar para ver el ambiente antes de venir."
+    ],
+    "review_heading": "Lo que se cuenta de las noches en Baum",
+    "contact_heading": "Caé a la noche o mirá el lugar",
+    "image_prompt": "Hero editorial nocturno: chopp de cerveza artesanal ámbar con espuma y luz cálida sobre barra oscura, ambiente de salón lleno de noche. Fotos de apoyo de platos de bodegón (hamburguesa, picada) como serving suggestion con stock o imagen generada, sin afirmar que son del local. Fotos reales de Google Places del salón para contexto.",
+    "design_notes": "Dirección 'Cervecería de noche sanmiguelina': salón nocturno, prueba social masiva (9.393) como héroe, brillo ámbar de cerveza como acento caliente sin caer en dark-glow slop. Par Bebas Neue (display póster) + Bitter (cuerpo slab). Template hero-proof-offer. Sin teléfono verificado: CTA primario 'Cómo llegar', secundario Instagram real (@baumsanmiguel).",
+    "conversion_template": "hero-proof-offer",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Le vende una salida nocturna —cerveza artesanal y bodegón hasta tarde— al que busca after en San Miguel y decide en el celu si cae esta noche o mira primero el lugar.",
+      "visual_thesis": "Cervecería de noche sanmiguelina: salón nocturno casi-negro con un ámbar cálido de cerveza como único acento caliente, prueba social masiva (9.000+ reseñas) tratada como héroe gráfico. Par tipográfico Bebas Neue de póster de bar + Bitter de cuerpo. Nada de glow violeta ni dark-slop: el ámbar es luz de barra, no efecto.",
+      "copy_voice": "Español argentino, vos, nocturno y relajado. Habla de after, cerveza tirada y porciones grandes con la energía de las reseñas reales. Evita solemnidad y frases genéricas.",
+      "layout_signature": "Hero con foto de cerveza y el número 9.000+ reseñas como elemento tipográfico dominante; oferta clara (cerveza artesanal, bodegón, pedido por celu), franja de reseñas literales, y contacto sin teléfono: botón grande 'Cómo llegar' a Maps y 'Ver en Instagram' verificado. Barra sticky en mobile con esas dos acciones.",
+      "asset_plan": "Foto real del salón (Google Places) para contexto nocturno. Hero y tarjetas de plato pueden usar stock o imagen generada de cerveza artesanal y platos de bodegón como serving suggestion, sin disclaimer. Sin teléfono: nunca inventar un número; el contacto es Maps + Instagram real. Textura de barra y luz cálida en CSS.",
+      "ai_fill_plan": {
+        "copy": [
+          "Convertir reseñas reales en microcopy de after: qué tomar, qué picar, hasta qué hora.",
+          "Nombrar secciones y CTAs con voz de bar de noche, sin inventar eventos ni promos.",
+          "Escribir la oferta como recorrido (cerveza, cocina, ambiente) sin precios inventados."
+        ],
+        "imagery": [
+          "Generar o licenciar fotos apetitosas de cerveza artesanal y platos de bodegón como serving suggestion, sin aclarar que no son del local.",
+          "Usar textura de luz de barra nocturna y espuma en CSS/SVG para atmósfera propia."
+        ],
+        "boundaries": [
+          "no inventar precios, stock, marcas, años, premios, garantías, servicios ni reseñas que no estén en los datos verificados del negocio.",
+          "no presentar imágenes de instalaciones, salón, personal ni resultados de otro lugar como si fueran del local: eso sí lleva alt/caption honesto.",
+          "no inventar un teléfono ni un WhatsApp: el negocio no publicó teléfono, el contacto verificado es Google Maps y el Instagram @baumsanmiguel."
+        ]
+      },
+      "anti_patterns": [
+        "Glow violeta o dark-glow slop en vez de luz cálida de barra.",
+        "Inventar un teléfono o WhatsApp que el negocio no publicó.",
+        "Hero de ficha de Maps en vez de foto que transmita la noche.",
+        "Eyebrows tracked-caps o marcadores 01/02/03 sobre cada sección.",
+        "Grilla de tarjetas iguales sin jerarquía."
+      ],
+      "rewrite_targets": [
+        "Reemplazar la dirección automotriz del fallback por cervecería de noche real.",
+        "Usar los 9.000+ reseñas como prueba social protagonista del hero.",
+        "Resolver el contacto sin teléfono con Maps + Instagram como acciones calientes.",
+        "Transmitir la franja horaria nocturna como dato operativo claro."
+      ]
+    },
+    "commercial": {
+      "tone": "fast-local",
+      "customer_type": "Personas que buscan una salida nocturna en San Miguel y quieren ubicar el bar.",
+      "hero_claim": "Una salida de noche con cerveza, comida y dirección a mano.",
+      "trust_bar": [
+        {
+          "label": "Valoración",
+          "title": "4,3 / 5",
+          "body": "9.393 reseñas",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Horario",
+          "title": "Horario publicado",
+          "body": "Lun-jue 6:30 p. m. – 2:00 a. m.; vie-sáb hasta 4:00 a. m.; dom hasta 12:00 a. m.",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Contacto",
+          "title": "Cómo llegar e Instagram",
+          "body": "El contacto publicado es Maps e Instagram @baumsanmiguel.",
+          "meta": "Dato verificado"
+        }
+      ],
+      "service_cards": [
+        {
+          "label": "Elegir",
+          "title": "Cerveza",
+          "body": "La información publicada destaca cerveza."
+        },
+        {
+          "label": "Consultar",
+          "title": "Comida",
+          "body": "Teléfono, dirección y horario quedan visibles para decidir sin buscar otro dato."
+        },
+        {
+          "label": "Pasar",
+          "title": "Noche",
+          "body": "El siguiente paso se resuelve con contacto directo y la ubicación del negocio."
+        }
+      ],
+      "why_choose": [
+        {
+          "title": "Datos visibles",
+          "body": "Valoración, horario, dirección y contacto aparecen juntos."
+        },
+        {
+          "title": "Reseñas con autor",
+          "body": "“Chilled vibe, friendly service and awesome food/beer.” — Gabriel Machado."
+        },
+        {
+          "title": "Próximo paso claro",
+          "body": "Cómo llegar o mirar el Instagram oficial."
+        }
+      ],
+      "packages": [
+        {
+          "name": "Para decidir hoy",
+          "price_label": "Sin precios publicados",
+          "body": "Información útil para hacer la consulta antes de pasar.",
+          "items": [
+            "Horario publicado",
+            "Dirección",
+            "Contacto directo"
+          ]
+        },
+        {
+          "name": "Consulta directa",
+          "price_label": "A confirmar con el negocio",
+          "body": "La llamada permite confirmar disponibilidad sin prometer datos no publicados.",
+          "items": [
+            "Necesidad",
+            "Horario",
+            "Siguiente paso"
+          ]
+        }
+      ],
+      "gallery": [
+        {
+          "label": "Contexto",
+          "title": "Imagen principal",
+          "body": "La composición visual acompaña la decisión de contacto.",
+          "meta": "Uso editorial acorde al brief"
+        },
+        {
+          "label": "Señal local",
+          "title": "Dirección y horario",
+          "body": "Información operativa visible para llegar sin vueltas.",
+          "meta": "GOA, Maestro Ángel D'Elía 1145, B1663 San Miguel, Provincia de Buenos Aires, Argentina"
+        }
+      ],
+      "process": [
+        {
+          "step": "Contacto",
+          "title": "Abrir Maps o Instagram",
+          "body": "Elegí el canal publicado."
+        },
+        {
+          "step": "Consulta",
+          "title": "Confirmar disponibilidad",
+          "body": "El negocio confirma el dato que falta."
+        },
+        {
+          "step": "Visita",
+          "title": "Pasar por el lugar",
+          "body": "La dirección y el horario quedan visibles."
+        }
+      ],
+      "final_cta": {
+        "title": "Una salida de noche con cerveza, comida y dirección a mano.",
+        "body": "GOA, Maestro Ángel D'Elía 1145, B1663 San Miguel, Provincia de Buenos Aires, Argentina. Lun-jue 6:30 p. m. – 2:00 a. m.; vie-sáb hasta 4:00 a. m.; dom hasta 12:00 a. m.",
+        "primary_label": "Cómo llegar",
+        "secondary_label": "Cómo llegar"
+      },
+      "editable_note": "No se publican precios, promociones, capacidad ni servicios que no estén confirmados."
+    },
+    "creative": {
+      "concept": "Una salida de noche con cerveza, comida y dirección a mano.",
+      "audience": "Personas que buscan una salida nocturna en San Miguel y quieren ubicar el bar.",
+      "visual_direction": "Cervecería de noche sanmiguelina: salón nocturno casi-negro con un ámbar cálido de cerveza como único acento caliente, prueba social masiva (9.000+ reseñas) tratada como héroe gráfico. Par tipográfico Bebas Neue de póster de bar + Bitter de cuerpo. Nada de glow violeta ni dark-slop: el ámbar es luz de barra, no efecto.",
+      "layout": "parts-counter",
+      "texture": "parts-shelf",
+      "hero_angle": "Una salida de noche con cerveza, comida y dirección a mano.",
+      "hero_cards": [
+        {
+          "label": "Valoración",
+          "value": "4,3 / 5",
+          "note": "9.393 reseñas"
+        },
+        {
+          "label": "Horario",
+          "value": "Horario publicado",
+          "note": "Lun-jue 6:30 p. m. – 2:00 a. m.; vie-sáb hasta 4:00 a. m.; dom hasta 12:00 a. m."
+        },
+        {
+          "label": "Contacto",
+          "value": "Maps e Instagram",
+          "note": "Canal publicado"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Para decidir",
+          "title": "Lo que buscás, a mano",
+          "body": "La información pública se ordena alrededor de la acción de contacto.",
+          "items": [
+            {
+              "label": "Elegir",
+              "value": "Cerveza",
+              "note": "La información publicada destaca cerveza."
+            },
+            {
+              "label": "Consultar",
+              "value": "Comida",
+              "note": "Teléfono, dirección y horario quedan visibles para decidir sin buscar otro dato."
+            },
+            {
+              "label": "Pasar",
+              "value": "Noche",
+              "note": "El siguiente paso se resuelve con contacto directo y la ubicación del negocio."
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Reseñas",
+          "title": "Lo dicen quienes ya fueron",
+          "body": "Una reseña literal aporta una señal concreta para decidir.",
+          "items": [
+            {
+              "label": "Opinión",
+              "value": "Chilled vibe, friendly service and awesome food/beer.",
+              "note": "Gabriel Machado"
+            },
+            {
+              "label": "Valoración",
+              "value": "4,3 / 5",
+              "note": "9.393 reseñas"
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Contacto",
+          "title": "Llegar o consultar sin vueltas",
+          "body": "Dirección, horario y contacto quedan visibles en el cierre.",
+          "items": [
+            {
+              "label": "Contacto",
+              "value": "Cómo llegar e Instagram"
+            },
+            {
+              "label": "Horario",
+              "value": "Lun-jue 6:30 p. m. – 2:00 a. m.; vie-sáb hasta 4:00 a. m.; dom hasta 12:00 a. m."
+            },
+            {
+              "label": "Dirección",
+              "value": "GOA, Maestro Ángel D'Elía 1145, B1663 San Miguel, Provincia de Buenos Aires, Argentina"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/san-miguel-alta-conversion/baum-san-miguel",
+      "notes": "Dirección 'Cervecería de noche sanmiguelina': salón nocturno, prueba social masiva (9.393) como héroe, brillo ámbar de cerveza como acento caliente sin caer en dark-glow slop. Par Bebas Neue (display póster) + Bitter (cuerpo slab). Template hero-proof-offer. Sin teléfono verificado: CTA primario 'Cómo llegar', secundario Instagram real (@baumsanmiguel)."
+    }
+  }
+}

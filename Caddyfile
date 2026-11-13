@@ -1,0 +1,16 @@
+{
+ auto_https off
+ admin off
+}
+:{$PORT:8080} {
+ root * /srv
+ encode zstd gzip
+ header X-Robots-Tag noindex
+ header X-Content-Type-Options nosniff
+ try_files {path} {path}/index.html {path}.html
+ file_server
+ handle_errors {
+ rewrite * /404.html
+ file_server
+ }
+}

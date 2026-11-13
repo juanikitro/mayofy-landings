@@ -1,0 +1,169 @@
+{
+  "id": "google-ChIJ4fkyfGB6GpYRf63Rv3ucqYs",
+  "name": "Travesías Ropa De Nieve",
+  "slug": "travesias-ropa-de-nieve",
+  "archetype": "local-clean-service",
+  "palette": {
+    "dominant": "#fbfaf6",
+    "accent": "#426b55",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "Nunito Sans",
+    "secondary": "Literata"
+  },
+  "hero_image": {
+    "heroSrc": "./assets/hero.jpg",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJ4fkyfGB6GpYRf63Rv3ucqYs",
+    "slug": "travesias-ropa-de-nieve",
+    "visual_mood": "fleet-utility",
+    "composition": "route-card",
+    "headline": "Ropa de nieve, traslados y excursiones para tu viaje al cerro",
+    "subheadline": "Travesías resuelve el equipo y el movimiento en Av. de los Pioneros 4567: alquiler de ropa, traslados y excursiones, con 4.7 sobre 5 en 15 reseñas.",
+    "primary_cta": "Llamar al 0294 441-4490",
+    "secondary_cta": "Consultar traslados y equipo",
+    "service_tags": [
+      "Alquiler de ropa de nieve",
+      "Traslados",
+      "Excursiones",
+      "Asesoramiento del viaje",
+      "Todo en una parada"
+    ],
+    "proof_points": [
+      "4.7 sobre 5 con 15 reseñas en Google",
+      "Lunes a sábado, mañana y tarde (consultá el horario del día)",
+      "Av. de los Pioneros 4567, San Carlos de Bariloche",
+      "\"Tienen de todo, no solo ropa. Traslados, excursiones, alquiler. Muy buenos asesores\" — Flavia Miori"
+    ],
+    "resource_title": "Todo el viaje, en un solo lugar",
+    "resource_items": [
+      "Ropa de nieve, traslados y excursiones coordinados desde el mismo local.",
+      "Asesoramiento para armar el viaje, según las reseñas de quienes fueron.",
+      "Atención con paciencia para familias que planifican su estadía."
+    ],
+    "review_heading": "Lo que cuentan quienes armaron su viaje acá",
+    "contact_heading": "Llamá y armá tu día en la nieve",
+    "image_prompt": "Foto real del local Travesías en Bariloche con ropa de nieve, mostrador de asesoramiento y material de excursiones y traslados.",
+    "design_notes": "Bitácora de expedición: verde bosque profundo, papel kraft y naranja sendero en el CTA. DM Serif Display + Work Sans. Mapa de ruta al Catedral y sellos de expedición como motivo.",
+    "conversion_template": "editorial-local-story",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Local que combina alquiler de ropa de nieve, traslados y excursiones en Bariloche y convierte al viajero que quiere resolver todo junto en una consulta para armar su día en el cerro desde un solo lugar.",
+      "visual_thesis": "Bitácora de expedición: la variedad de servicios del negocio real (ropa, traslados, excursiones) llevada a un cuaderno de ruta hacia el Catedral. Display DM Serif Display con cuerpo Work Sans; paleta de verde bosque profundo, papel kraft y naranja sendero reservado para el CTA, con mapa de ruta y sellos de expedición como motivo.",
+      "copy_voice": "Español argentino cálido y organizador, de quien te ayuda a planificar el viaje sin marearte.",
+      "layout_signature": "Template editorial-local-story: hero con titular editorial, foto del local y CTA de llamada arriba del fold; después bitácora de servicios (ropa, traslados, excursiones), banda de reseña sobre 'tienen de todo', mapa de ruta al cerro y contacto con horario y mapa al cierre.",
+      "asset_plan": "Foto real del local como imagen del hero; mapa de ruta al Catedral, sellos de expedición y copos en SVG/CSS inline; textura de papel kraft en CSS, sin assets externos salvo Google Fonts.",
+      "ai_fill_plan": {
+        "copy": [
+          "Microcopy de la bitácora de servicios y CTAs apoyado en reseñas sobre variedad y asesoramiento",
+          "Encabezados de sección como 'Tu día en el cerro' sin inventar excursiones ni precios"
+        ],
+        "imagery": [
+          "Mapa de ruta al Catedral y sellos de expedición en SVG de línea",
+          "Textura de papel kraft y copos en CSS como fondo"
+        ],
+        "boundaries": [
+          "No inventar precios, stock, marcas, años, premios, garantías, servicios ni reseñas",
+          "No detallar destinos de excursión ni recorridos que no estén confirmados",
+          "Los traslados se mencionan como los cuentan las reseñas, sin horarios inventados"
+        ]
+      },
+      "anti_patterns": [
+        "Fuentes genéricas como Inter, Roboto o Arial",
+        "Gradiente violeta sobre blanco",
+        "Layout SaaS de tres cards iguales",
+        "Estética de agencia de turismo genérica en lugar de bitácora propia"
+      ],
+      "rewrite_targets": [
+        "Hacer del combo ropa + traslados + excursiones el eje, no solo el alquiler",
+        "Subir el 4.7 con 15 reseñas y el 'tienen de todo' al hero",
+        "Reservar el naranja sendero solo para el CTA de llamada"
+      ]
+    },
+    "creative": {
+      "concept": "La bitácora de viaje que resuelve ropa, traslados y excursiones en una sola parada.",
+      "audience": "Familias y viajeros que quieren organizar el equipo y el movimiento al cerro sin dar mil vueltas.",
+      "visual_direction": "Verde bosque, papel kraft y naranja sendero, mapa de ruta al Catedral y sellos de expedición, serif display editorial.",
+      "layout": "roadside-rescue",
+      "texture": "primer-dust",
+      "hero_angle": "Ropa de nieve, traslados y excursiones con 4.7 sobre 5 en 15 reseñas.",
+      "hero_cards": [
+        {
+          "label": "Reseñas",
+          "value": "4.7★ en 15 opiniones",
+          "note": "Perfil público de Google"
+        },
+        {
+          "label": "Qué ofrecen",
+          "value": "Ropa, traslados y excursiones"
+        },
+        {
+          "label": "Dónde",
+          "value": "Av. de los Pioneros 4567"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "La bitácora",
+          "title": "Todo tu día en el cerro",
+          "body": "Ropa de nieve, traslados y excursiones coordinados desde el mismo mostrador, con asesoramiento incluido.",
+          "items": [
+            {
+              "label": "Ropa de nieve",
+              "value": "Alquiler de indumentaria abrigada"
+            },
+            {
+              "label": "Traslados",
+              "value": "Coordinás tu movimiento al cerro"
+            },
+            {
+              "label": "Excursiones",
+              "value": "Consultá las opciones disponibles"
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Buenos asesores",
+          "title": "Tienen de todo",
+          "body": "Las reseñas destacan que resuelven mucho más que la ropa, con buena predisposición.",
+          "items": [
+            {
+              "label": "Rami Adaro",
+              "value": "Tienen traslados además de la ropa y casas de alquiler turístico. Súper recomendable."
+            },
+            {
+              "label": "alfredo sosa",
+              "value": "Excelente atención, lo más recomendable de Bariloche. Los chicos súper atentos."
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Contacto directo",
+          "title": "Armá tu día",
+          "body": "Teléfono, horario y mapa para coordinar ropa, traslados y excursiones.",
+          "items": [
+            {
+              "label": "Llamar",
+              "value": "0294 441-4490"
+            },
+            {
+              "label": "Ir al local",
+              "value": "Av. de los Pioneros 4567, Bariloche"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/bariloche-ski/travesias-ropa-de-nieve",
+      "notes": "Bitácora de expedición: DM Serif Display + Work Sans, verde bosque y papel kraft con naranja sendero en el CTA, mapa de ruta al Catedral y foto real del local."
+    }
+  }
+}

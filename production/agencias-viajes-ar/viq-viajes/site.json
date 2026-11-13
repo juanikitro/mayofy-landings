@@ -1,0 +1,389 @@
+{
+  "id": "google-ChIJh7CO1G8uo5URXIah4mqs93o",
+  "name": "Viq Viajes",
+  "slug": "viq-viajes",
+  "archetype": "minimal-professional",
+  "palette": {
+    "dominant": "#f8f7f3",
+    "accent": "#2f5d62",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "Aptos",
+    "secondary": "Georgia"
+  },
+  "hero_image": {
+    "heroSrc": "./assets/portada.jpg",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJh7CO1G8uo5URXIah4mqs93o",
+    "slug": "viq-viajes",
+    "visual_mood": "fleet-utility",
+    "composition": "service-ledger",
+    "headline": "Te pasan a buscar por tu casa",
+    "subheadline": "Salidas grupales en micro desde Quilmes a termas, sierras y playa, con choferes propios y servicio puerta a puerta. 4,8 en Google con 29 reseñas. Av. 12 de Octubre, Quilmes.",
+    "primary_cta": "Llamar al 011 4254-0508",
+    "secondary_cta": "Cómo llegar",
+    "service_tags": [
+      "Salidas en micro",
+      "Termas",
+      "Sierras y playa",
+      "Puerta a puerta"
+    ],
+    "proof_points": [
+      "4,8 en Google con 29 reseñas",
+      "Servicio puerta a puerta, destacado por los pasajeros",
+      "Av. 12 de Octubre, Quilmes",
+      "\"Un lujo esta empresa, atendido por su dueño\" (faby b)"
+    ],
+    "resource_title": "Lo que se pregunta por teléfono",
+    "resource_items": [
+      "Qué salida está armada y para qué fecha.",
+      "Desde qué punto te pasan a buscar.",
+      "Qué queda incluido en esa salida y qué se abona aparte."
+    ],
+    "review_heading": "Lo que cuentan los pasajeros",
+    "contact_heading": "Llamá y preguntá por la próxima salida",
+    "image_prompt": "Hero editorial: una pileta de agua turquesa entre palmeras con luz cálida de mañana, el clima de las termas que nombran las reseñas. Las tres fotos verificadas de Google Places (el parque termal con el arcoíris en la bruma, la laguna y el cartel de entrada a Villa Elisa) entran como contexto documental de las salidas, con alt honesto.",
+    "design_notes": "Dirección 'Pizarra de salidas': el sistema sale del agua turquesa del parque termal y del arcoíris en la bruma de sus fotos. Par tipográfico Darker Grotesque (display alto y angosto) + Epilogue (cuerpo). Fondo drenched verde termal profundo, paneles en turquesa medio, arena en detalles y coral caliente solo en el CTA. La página se organiza como una pizarra de salidas con guías punteadas. Template catalog-counter.",
+    "conversion_template": "catalog-counter",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Le vende la próxima salida corta al vecino de la zona sur del Gran Buenos Aires que quiere irse un fin de semana sin manejar ni organizar nada. La página funciona como la pizarra de salidas que la agencia hoy no tiene dónde publicar.",
+      "visual_thesis": "'Pizarra de salidas a las termas': la identidad sale del agua turquesa del parque termal y del arcoíris en la bruma de sus propias fotos. Superficie drenched en verde termal profundo #0B4A50, paneles en turquesa medio #12656B, arena de vereda de pileta #D9CFBB en detalles finos y coral #FF6A3D, el extremo cálido del arcoíris, reservado al CTA de llamar. Todo el cuerpo de la página se estructura como una pizarra de salidas con guías punteadas entre destino y dato, con Darker Grotesque alto y angosto para el display y Epilogue para el cuerpo. Ondas de agua en SVG inline como única textura.",
+      "copy_voice": "Español argentino, vos, práctico y cálido, de mostrador de barrio: dice a dónde se va, desde dónde sale y a quién hay que llamar. El ángulo sale de las reseñas: puerta a puerta, choferes propios, atiende el dueño.",
+      "layout_signature": "Hero a sangre con el agua turquesa y el titular del puerta a puerta, con rating y CTA de llamar arriba del fold. Debajo, la pizarra de salidas como bloque protagonista, con destino a la izquierda, guía punteada y dato a la derecha; franja de cómo funciona el puerta a puerta; reseñas literales en panel turquesa; ficha de contacto con dirección, link a Maps y la aclaración honesta de que el horario de atención se confirma por teléfono. Barra sticky de llamada en mobile.",
+      "asset_plan": "Hero editorial de pileta entre palmeras en assets/hero.jpg. Las tres fotos verificadas (parque termal con arcoíris, laguna y cartel de entrada al pueblo) ilustran las salidas como contexto documental. Ondas de agua, arco fino de arcoíris y guías punteadas de pizarra resueltas en SVG y CSS inline.",
+      "ai_fill_plan": {
+        "copy": [
+          "Escribir la pizarra de salidas con los destinos que nombran las reseñas y dejar el resto como consulta telefónica.",
+          "Convertir el puerta a puerta en el argumento central de conversión, con lenguaje de vecino.",
+          "Redactar la ficha de contacto reconociendo que el horario de atención no está publicado, sin inventarlo."
+        ],
+        "imagery": [
+          "Usar imagen editorial de agua termal para el hero y ondas de agua en SVG inline como textura de fondo.",
+          "Dibujar el arco fino del arcoíris y las guías punteadas de la pizarra en SVG y CSS, sin assets externos."
+        ],
+        "boundaries": [
+          "no inventar horarios de atención, precios, fechas de salida, hoteles, cupos ni cantidad de años de la empresa.",
+          "no publicar un número de WhatsApp: el teléfono verificado es una línea fija y no hay evidencia pública de WhatsApp.",
+          "no afirmar que la pileta del hero es un alojamiento propio de la agencia: el alt describe el clima de las termas.",
+          "no citar reseñas que no estén en el dataset ni cambiar su texto o su autor."
+        ]
+      },
+      "anti_patterns": [
+        "Degradés turquesa o glows de color sobre el fondo oscuro.",
+        "Texto de color vivo cian sobre el fondo profundo, que baja el contraste y se lee como plantilla.",
+        "Tarjetas iguales para cada destino, en vez de renglones de pizarra con jerarquía real.",
+        "Chips eyebrow en mayúsculas con tracking amplio sobre cada sección.",
+        "Inventar un horario de atención para llenar la ficha de contacto."
+      ],
+      "rewrite_targets": [
+        "Poner el puerta a puerta como titular, porque es lo que los pasajeros destacan.",
+        "Reemplazar la grilla de servicios por una pizarra de salidas legible de un pantallazo.",
+        "Hacer del coral del CTA el único color caliente de la página.",
+        "Resolver la falta de horario publicado con una línea honesta que empuje a llamar."
+      ]
+    },
+    "commercial": {
+      "tone": "fast-local",
+      "customer_type": "Vecinos de Quilmes y la zona sur que quieren una salida corta sin manejar ni organizar nada.",
+      "hero_claim": "Te pasan a buscar por tu casa.",
+      "trust_bar": [
+        {
+          "label": "Valoración",
+          "title": "4,8 / 5",
+          "body": "29 reseñas en Google",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Teléfono",
+          "title": "011 4254-0508",
+          "body": "Atención directa de la empresa",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Salida",
+          "title": "Av. 12 de Octubre",
+          "body": "Quilmes, Buenos Aires",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Servicio",
+          "title": "Puerta a puerta",
+          "body": "Lo destacan los pasajeros en Google",
+          "meta": "Dato verificado"
+        }
+      ],
+      "service_cards": [
+        {
+          "label": "Termas",
+          "title": "Termas de Villa Elisa",
+          "body": "\"Hermoso lugar, hermoso el apart, comida deliciosa\", escribió Patricia sobre esta salida."
+        },
+        {
+          "label": "Termas",
+          "title": "Termas de Concepción",
+          "body": "Claudia de los Ángeles Molina cuenta ahí su primer viaje con la empresa."
+        },
+        {
+          "label": "Sierras y playa",
+          "title": "Sierras y costa",
+          "body": "Las salidas programadas incluyen sierras y playa además de las termas."
+        },
+        {
+          "label": "Micro",
+          "title": "Choferes de la casa",
+          "body": "Las reseñas nombran a los choferes por su apodo y destacan su trato."
+        }
+      ],
+      "why_choose": [
+        {
+          "title": "No manejás ni organizás",
+          "body": "El servicio puerta a puerta es lo primero que destacan dos de las tres reseñas publicadas."
+        },
+        {
+          "title": "Atiende el dueño",
+          "body": "\"Un lujo esta empresa, atendido por su dueño, atento a cualquier necesidad de los pasajeros\", dice faby b."
+        },
+        {
+          "title": "Pasajeros que vuelven",
+          "body": "\"Hace varios años que viajamos con Viq Viajes\", cierra la misma reseña."
+        }
+      ],
+      "packages": [
+        {
+          "name": "Salida a las termas",
+          "price_label": "A consultar",
+          "body": "Preguntá qué salida a termas está armada y para cuándo.",
+          "items": [
+            "Destino termal a confirmar",
+            "Fecha de salida por teléfono",
+            "Puerta a puerta desde tu domicilio"
+          ]
+        },
+        {
+          "name": "Escapada de fin de semana",
+          "price_label": "Según la salida",
+          "body": "Sierras o playa, con el micro y el alojamiento coordinados por la empresa.",
+          "items": [
+            "Días de la salida",
+            "Punto de encuentro a coordinar",
+            "Consulta telefónica"
+          ]
+        },
+        {
+          "name": "Grupo armado",
+          "price_label": "Se cotiza por grupo",
+          "body": "Si ya son un grupo, la empresa arma la salida sobre esa cantidad.",
+          "items": [
+            "Cantidad de pasajeros",
+            "Destino a definir",
+            "Recorrido de recogida a coordinar"
+          ]
+        }
+      ],
+      "gallery": [
+        {
+          "label": "Termas",
+          "title": "El parque termal",
+          "body": "Foto publicada por la empresa de una de las salidas a termas."
+        },
+        {
+          "label": "Paisaje",
+          "title": "La laguna del recorrido",
+          "body": "Otra imagen publicada por la empresa de una salida."
+        },
+        {
+          "label": "Llegada",
+          "title": "La entrada al pueblo",
+          "body": "Foto publicada por la empresa a la llegada del micro."
+        }
+      ],
+      "process": [
+        {
+          "step": "1",
+          "title": "Llamás",
+          "body": "Preguntás qué salida está armada y para qué fecha."
+        },
+        {
+          "step": "2",
+          "title": "Reservás tu lugar",
+          "body": "La empresa te confirma el cupo y el punto de recogida."
+        },
+        {
+          "step": "3",
+          "title": "Te pasan a buscar",
+          "body": "El micro te levanta en el punto acordado, puerta a puerta."
+        },
+        {
+          "step": "4",
+          "title": "Volvés sin manejar",
+          "body": "El mismo servicio te devuelve al punto de partida."
+        }
+      ],
+      "final_cta": {
+        "title": "¿Cuál es la próxima salida?",
+        "body": "Un llamado al 011 4254-0508 y te cuentan qué está armado y desde dónde te pasan a buscar.",
+        "primary_label": "Llamar al 011 4254-0508",
+        "secondary_label": "Cómo llegar"
+      }
+    },
+    "creative": {
+      "concept": "Una sitio clara para convertir una busqueda local en una consulta concreta. Direccion comercial para Clientes locales que necesitan entender el servicio, llamar y llegar sin friccion.",
+      "audience": "Clientes locales que necesitan entender el servicio, llamar y llegar sin friccion.",
+      "visual_direction": "Servicio local con jerarquia fuerte, datos arriba, pasos claros y tarjetas de accion.",
+      "layout": "mechanic-ledger",
+      "texture": "service-ledger",
+      "hero_angle": "Una sitio clara para convertir una busqueda local en una consulta concreta.",
+      "hero_cards": [
+        {
+          "label": "Prueba social",
+          "value": "4.8 / 5",
+          "note": "Dato verificado"
+        },
+        {
+          "label": "Rubro",
+          "value": "Travel Agency",
+          "note": "Base verificada"
+        },
+        {
+          "label": "Agenda",
+          "value": "Horario a confirmar",
+          "note": "a confirmar"
+        },
+        {
+          "label": "Contacto",
+          "value": "Telefono directo",
+          "note": "011 4254-0508"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Servicios",
+          "title": "Datos claros para decidir",
+          "body": "El sitio ordena datos publicos relevantes y deja como a confirmar cualquier dato comercial no verificado.",
+          "items": [
+            {
+              "label": "Servicio",
+              "value": "salidas grupales en micro a termas, sierras y playa",
+              "note": "El servicio principal se muestra sin agregar prestaciones no verificadas."
+            },
+            {
+              "label": "Contacto",
+              "value": "Consulta directa",
+              "note": "Telefono, direccion y horario se ordenan para reducir friccion."
+            },
+            {
+              "label": "Prueba",
+              "value": "Referencias publicas",
+              "note": "Rating y resenas reales sostienen la decision."
+            }
+          ]
+        },
+        {
+          "type": "process",
+          "eyebrow": "Proceso",
+          "title": "De consulta a turno sin perder contexto",
+          "body": "El usuario entiende que informacion enviar, que se confirma y como avanzar.",
+          "items": [
+            {
+              "label": "01",
+              "value": "Contar la necesidad",
+              "note": "El visitante consulta el servicio principal."
+            },
+            {
+              "label": "02",
+              "value": "Confirmar disponibilidad",
+              "note": "El negocio valida horario, alcance y datos."
+            },
+            {
+              "label": "03",
+              "value": "Coordinar visita",
+              "note": "Direccion y contacto quedan visibles."
+            }
+          ]
+        },
+        {
+          "type": "metric-grid",
+          "eyebrow": "Confianza",
+          "title": "Datos reales arriba, informacion a confirmar separada",
+          "body": "El sitio combina fuentes verificadas con opciones comerciales que se completan antes de publicar.",
+          "items": [
+            {
+              "label": "Prueba social",
+              "value": "4.8 / 5",
+              "note": "29 resenas registradas en las fuentes disponibles."
+            },
+            {
+              "label": "Rubro",
+              "value": "Travel Agency",
+              "note": "El sitio debe vender el servicio principal sin sumar prestaciones no confirmadas."
+            },
+            {
+              "label": "Agenda",
+              "value": "Horario a confirmar",
+              "note": "Horario publicado para orientar la primera consulta."
+            },
+            {
+              "label": "Contacto",
+              "value": "Telefono directo",
+              "note": "CTA preparado para llamar desde el celular sin buscar el dato en otro lado."
+            }
+          ]
+        },
+        {
+          "type": "material-story",
+          "eyebrow": "Direccion visual",
+          "title": "El sitio se apoya en imagen real y escenas seguras de contexto.",
+          "body": "Cuando los datos o fotos son pobres, la composicion puede sumar atmosfera, textura y proceso sin atribuir esos recursos al negocio.",
+          "items": [
+            {
+              "label": "Foto real",
+              "value": "Usar como prueba",
+              "note": "Priorizar la mejor imagen publica disponible."
+            },
+            {
+              "label": "Apoyo visual",
+              "value": "Poblar contexto",
+              "note": "Herramientas, material, mostrador o proceso sin marcas falsas."
+            },
+            {
+              "label": "Cliente",
+              "value": "Siguiente paso claro",
+              "note": "Consultar"
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Accion",
+          "title": "Viq Viajes: el proximo paso es simple",
+          "body": "Llama, confirma disponibilidad y lleva el auto con el dato clave ya resuelto: travel agency, direccion y horario.",
+          "items": [
+            {
+              "label": "CTA",
+              "value": "Consultar",
+              "note": "011 4254-0508"
+            },
+            {
+              "label": "Ubicacion",
+              "value": "Av. 12 de Octubre, B1879 Gran Buenos Aires, Provincia de Buenos Aires, Argentina"
+            },
+            {
+              "label": "Horario",
+              "value": "Horario a confirmar"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/agencias-viajes-ar/viq-viajes",
+      "notes": "Dirección 'Pizarra de salidas': verde termal drenched, paneles turquesa y coral solo en el CTA, cuerpo estructurado como pizarra de salidas. Darker Grotesque + Epilogue. Template catalog-counter."
+    }
+  }
+}

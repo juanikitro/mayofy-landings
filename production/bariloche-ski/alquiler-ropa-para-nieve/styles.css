@@ -1,0 +1,310 @@
+/* Alquiler Ropa Para Nieve — "Despacho nocturno": la única landing en dark theme.
+   Azul noche profundo, tipografía slab cálida y un glow de lámpara ámbar como único
+   acento caliente (el CTA es literalmente la luz encendida a las 00:00). Luna, faroles
+   y reloj 24hs arman la atmósfera; todo en CSS/SVG inline. */
+:root {
+  --noc-night: #0d131f;
+  --noc-night-2: #111a2a;
+  --noc-panel: #172236;
+  --noc-panel-2: #1d2a41;
+  --noc-snow: #eef3fb;
+  --noc-snow-soft: rgba(238, 243, 251, 0.74);
+  --noc-snow-mut: rgba(238, 243, 251, 0.52);
+  --noc-lamp: #ffb64a;
+  --noc-lamp-deep: #f59a26;
+  --noc-moon: #9fbaea;
+  --noc-line: rgba(238, 243, 251, 0.12);
+  --noc-line-soft: rgba(238, 243, 251, 0.07);
+  --noc-wrap: 1180px;
+  --noc-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --noc-shadow-lg: 0 44px 90px -44px rgba(0, 0, 0, 0.8);
+  --noc-shadow-md: 0 26px 56px -34px rgba(0, 0, 0, 0.7);
+  --noc-glow: 0 0 0 1px rgba(255, 182, 74, 0.4), 0 20px 46px -18px rgba(245, 154, 38, 0.55);
+}
+
+* { box-sizing: border-box; }
+
+.noc-night {
+  margin: 0;
+  color: var(--noc-snow);
+  font-family: "Mulish", system-ui, sans-serif;
+  font-size: 18px;
+  line-height: 1.62;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  /* Base sólida oscura: garantiza fondo noche en toda la página (los gradientes fixed
+     solo pintan el viewport, así que sin este color las secciones bajo el fold quedarían claras). */
+  background-color: var(--noc-night);
+  background-image:
+    radial-gradient(90% 60% at 82% -6%, rgba(255, 182, 74, 0.12), transparent 55%),
+    radial-gradient(80% 60% at 14% 8%, rgba(159, 186, 234, 0.1), transparent 55%),
+    linear-gradient(180deg, var(--noc-night-2) 0%, var(--noc-night) 46%);
+  background-attachment: fixed;
+}
+/* Nieve tenue suspendida */
+.noc-night::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.4;
+  background-image: radial-gradient(1px 1px at 20% 30%, rgba(255, 255, 255, 0.35), transparent),
+    radial-gradient(1px 1px at 70% 60%, rgba(255, 255, 255, 0.25), transparent),
+    radial-gradient(1.5px 1.5px at 45% 80%, rgba(255, 255, 255, 0.18), transparent),
+    radial-gradient(1px 1px at 88% 22%, rgba(255, 255, 255, 0.22), transparent);
+  background-size: 260px 260px, 320px 320px, 300px 300px, 240px 240px;
+}
+
+h1, h2, h3 {
+  font-family: "Zilla Slab", Georgia, serif;
+  margin: 0;
+  line-height: 1.04;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+}
+p { margin: 0; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+em { font-style: italic; color: var(--noc-lamp); }
+
+.noc-skip {
+  position: absolute; left: 14px; top: -70px; z-index: 90;
+  background: var(--noc-lamp); color: #26160a; padding: 10px 15px; border-radius: 8px;
+  text-decoration: none; font-weight: 800; transition: top 0.2s var(--noc-ease);
+}
+.noc-skip:focus { top: 12px; }
+:focus-visible { outline: 3px solid var(--noc-lamp); outline-offset: 3px; border-radius: 6px; }
+
+.noc-kicker {
+  display: inline-flex; align-items: center; gap: 9px;
+  font-weight: 700; text-transform: uppercase; letter-spacing: 0.18em; font-size: 0.72rem;
+  color: var(--noc-lamp); margin-bottom: 16px;
+}
+.noc-kicker--center { justify-content: center; }
+.noc-kicker__dot {
+  width: 8px; height: 8px; border-radius: 50%; background: var(--noc-lamp);
+  box-shadow: 0 0 0 4px rgba(255, 182, 74, 0.22); animation: noc-pulse 2.6s var(--noc-ease) infinite;
+}
+@keyframes noc-pulse { 0%, 100% { box-shadow: 0 0 0 3px rgba(255, 182, 74, 0.28); } 50% { box-shadow: 0 0 0 7px rgba(255, 182, 74, 0.05); } }
+
+.noc-btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  border-radius: 999px; padding: 15px 24px; font-weight: 800; font-size: 0.96rem;
+  text-decoration: none; border: 1.5px solid transparent;
+  transition: transform 0.24s var(--noc-ease), box-shadow 0.24s var(--noc-ease),
+              background-color 0.24s var(--noc-ease), border-color 0.24s var(--noc-ease);
+}
+.noc-btn--lamp { background: var(--noc-lamp); color: #26160a; box-shadow: var(--noc-glow); }
+.noc-btn--lamp:hover { transform: translateY(-2px); background: var(--noc-lamp-deep); box-shadow: 0 0 0 1px rgba(255,182,74,.5), 0 26px 56px -18px rgba(245,154,38,.7); }
+.noc-btn--line { color: var(--noc-snow); border-color: var(--noc-line); background: rgba(255, 255, 255, 0.03); }
+.noc-btn--line:hover { transform: translateY(-2px); border-color: var(--noc-lamp); color: var(--noc-lamp); }
+
+/* ---------- Header ---------- */
+.noc-top {
+  position: sticky; top: 0; z-index: 60;
+  width: min(100% - 36px, var(--noc-wrap)); margin-inline: auto;
+  display: flex; align-items: center; gap: 20px; padding: 15px 0;
+}
+.noc-top::before {
+  content: ""; position: absolute; inset: 0 -50vw; z-index: -1;
+  background: rgba(13, 19, 31, 0.82); backdrop-filter: blur(14px); border-bottom: 1px solid var(--noc-line);
+}
+.noc-brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: var(--noc-snow); }
+.noc-brand__mark { color: var(--noc-lamp); display: grid; place-items: center; }
+.noc-brand__word { font-family: "Zilla Slab"; font-weight: 700; font-size: 1.16rem; }
+.noc-topnav { margin-left: auto; display: flex; gap: 26px; }
+.noc-topnav a { font-size: 0.82rem; font-weight: 600; text-decoration: none; color: var(--noc-snow-soft); transition: color 0.2s var(--noc-ease); }
+.noc-topnav a:hover { color: var(--noc-lamp); }
+.noc-topcall {
+  font-size: 0.8rem; font-weight: 700; text-decoration: none; color: var(--noc-snow);
+  padding: 10px 15px; border-radius: 999px; border: 1px solid var(--noc-line); background: rgba(255, 255, 255, 0.04);
+  display: inline-flex; align-items: center; gap: 7px; transition: border-color 0.2s var(--noc-ease), transform 0.2s var(--noc-ease);
+}
+.noc-topcall span { color: var(--noc-lamp); font-size: 0.7em; }
+.noc-topcall:hover { border-color: var(--noc-lamp); transform: translateY(-1px); }
+
+/* ---------- Hero ---------- */
+main { position: relative; z-index: 1; }
+.noc-hero {
+  position: relative; width: min(100% - 36px, var(--noc-wrap)); margin: clamp(30px, 5vw, 68px) auto 0;
+  display: grid; grid-template-columns: 1.05fr 0.95fr; gap: clamp(32px, 5vw, 60px); align-items: center;
+}
+.noc-hero__glow {
+  position: absolute; z-index: -1; top: -12%; right: 6%; width: 520px; height: 520px; max-width: 70%;
+  background: radial-gradient(circle, rgba(255, 182, 74, 0.28), rgba(255, 182, 74, 0.05) 45%, transparent 68%);
+  filter: blur(6px); pointer-events: none;
+}
+.noc-hero__copy { position: relative; }
+.noc-hero h1 { font-size: clamp(2.6rem, 6vw, 5rem); max-width: 13ch; }
+.noc-lead { margin-top: 24px; color: var(--noc-snow-soft); font-size: clamp(1.02rem, 1.6vw, 1.2rem); max-width: 54ch; }
+.noc-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 32px; }
+.noc-hero__facts {
+  list-style: none; margin: 40px 0 0; padding: 26px 0 0; display: flex; flex-wrap: wrap; gap: 16px 40px;
+  border-top: 1px solid var(--noc-line);
+}
+.noc-hero__facts div { display: flex; flex-direction: column; gap: 4px; }
+.noc-hero__facts dt { font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--noc-snow-mut); }
+.noc-hero__facts dd { margin: 0; font-family: "Zilla Slab"; font-weight: 600; font-size: 1.1rem; }
+.noc-hero__facts dd span { color: var(--noc-lamp); }
+
+.noc-hero__media { position: relative; margin: 0; border-radius: 26px; overflow: hidden; border: 1px solid var(--noc-line); box-shadow: var(--noc-shadow-lg); }
+.noc-hero__media img { width: 100%; height: 100%; min-height: 460px; object-fit: cover; filter: saturate(0.92) brightness(0.82) contrast(1.05); }
+.noc-hero__scrim { position: absolute; inset: 0; background: linear-gradient(200deg, rgba(13, 19, 31, 0.1) 30%, rgba(13, 19, 31, 0.75) 100%); }
+.noc-clock {
+  position: absolute; top: 18px; right: 18px; display: flex; align-items: center; gap: 10px;
+  background: rgba(13, 19, 31, 0.62); backdrop-filter: blur(8px); border: 1px solid rgba(255, 182, 74, 0.4);
+  border-radius: 999px; padding: 8px 16px 8px 10px; color: var(--noc-lamp);
+}
+.noc-clock svg { width: 30px; height: 30px; }
+.noc-clock span { display: flex; flex-direction: column; line-height: 1; font-size: 0.66rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--noc-snow-soft); }
+.noc-clock b { font-family: "Zilla Slab"; font-size: 1.02rem; color: var(--noc-snow); margin-top: 3px; }
+.noc-hero__cap {
+  position: absolute; left: 16px; bottom: 16px; color: var(--noc-snow); font-weight: 600; font-size: 0.82rem;
+  display: inline-flex; align-items: center; gap: 8px;
+}
+.noc-hero__cap::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--noc-lamp); box-shadow: 0 0 10px 1px var(--noc-lamp); }
+
+/* ---------- Section shell ---------- */
+.noc-services, .noc-route, .noc-reviews, .noc-fotos, .noc-contact {
+  width: min(100% - 36px, var(--noc-wrap)); margin-inline: auto; padding-block: clamp(64px, 9vw, 120px);
+}
+.noc-head { max-width: 720px; margin-bottom: clamp(30px, 4vw, 50px); }
+.noc-head--center { margin-inline: auto; text-align: center; }
+.noc-head h2 { font-size: clamp(2rem, 4.4vw, 3.5rem); }
+.noc-head__lead { margin-top: 16px; color: var(--noc-snow-soft); max-width: 60ch; }
+.noc-head--center .noc-head__lead { margin-inline: auto; }
+
+/* ---------- Servicios ---------- */
+.noc-services__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.noc-card {
+  background: linear-gradient(180deg, var(--noc-panel-2), var(--noc-panel)); border: 1px solid var(--noc-line);
+  border-radius: 22px; padding: 30px 26px; box-shadow: var(--noc-shadow-md);
+  transition: transform 0.28s var(--noc-ease), border-color 0.28s var(--noc-ease);
+}
+.noc-card:hover { transform: translateY(-4px); border-color: rgba(255, 182, 74, 0.4); }
+.noc-card__ico { width: 54px; height: 54px; border-radius: 14px; display: grid; place-items: center; color: var(--noc-lamp); background: rgba(255, 182, 74, 0.1); border: 1px solid rgba(255, 182, 74, 0.22); margin-bottom: 20px; }
+.noc-card__ico svg { width: 28px; height: 28px; }
+.noc-card h3 { font-size: 1.3rem; }
+.noc-card p { margin-top: 12px; color: var(--noc-snow-soft); font-size: 0.98rem; }
+
+/* ---------- Ruta / entrega ---------- */
+.noc-route__list {
+  list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
+  position: relative;
+}
+.noc-route__list::before {
+  content: ""; position: absolute; top: 24px; left: 8%; right: 8%; height: 2px;
+  background: repeating-linear-gradient(90deg, var(--noc-moon) 0 10px, transparent 10px 20px); opacity: 0.4;
+}
+.noc-route__step { position: relative; display: flex; flex-direction: column; gap: 14px; text-align: center; align-items: center; }
+.noc-route__idx {
+  width: 50px; height: 50px; border-radius: 50%; display: grid; place-items: center;
+  font-family: "Zilla Slab"; font-weight: 700; font-size: 1.3rem; color: var(--noc-night);
+  background: var(--noc-lamp); box-shadow: var(--noc-glow); position: relative; z-index: 1;
+}
+.noc-route__step h3 { font-size: 1.24rem; }
+.noc-route__step p { color: var(--noc-snow-soft); font-size: 0.96rem; max-width: 34ch; }
+
+/* ---------- Reseñas ---------- */
+.noc-reviews__grid { display: grid; grid-template-columns: 1.25fr 1fr; gap: 16px; }
+.noc-reviews__intro { grid-column: 1 / -1; max-width: 720px; margin-bottom: 8px; }
+.noc-reviews__meta { margin-top: 16px; color: var(--noc-snow-soft); }
+.noc-quote {
+  grid-row: span 2; margin: 0; position: relative; overflow: hidden;
+  background: linear-gradient(160deg, rgba(255, 182, 74, 0.12), transparent 60%), var(--noc-panel);
+  border: 1px solid rgba(255, 182, 74, 0.28); border-radius: 22px; padding: clamp(28px, 3vw, 42px);
+  box-shadow: var(--noc-shadow-md); display: flex; flex-direction: column; justify-content: center;
+}
+.noc-quote p { font-family: "Zilla Slab"; font-weight: 600; font-size: clamp(1.4rem, 2.2vw, 2rem); line-height: 1.22; }
+.noc-quote cite { display: block; margin-top: 22px; font-style: normal; font-weight: 700; color: var(--noc-lamp); font-size: 0.92rem; }
+.noc-cite { margin: 0; background: var(--noc-panel); border: 1px solid var(--noc-line); border-radius: 18px; padding: 24px; }
+.noc-cite blockquote { margin: 0; color: var(--noc-snow-soft); font-size: 0.98rem; }
+.noc-cite figcaption { margin-top: 14px; font-weight: 700; color: var(--noc-moon); font-size: 0.86rem; }
+
+/* ---------- Fotos y noche ---------- */
+.noc-fotos__grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(28px, 4vw, 56px); align-items: center; }
+.noc-fotos__scene {
+  position: relative; aspect-ratio: 7 / 5; border-radius: 24px; overflow: hidden; color: var(--noc-moon);
+  background: linear-gradient(180deg, #16233b, #0b1120);
+  border: 1px solid var(--noc-line); box-shadow: var(--noc-shadow-md);
+}
+.noc-fotos__moonglow { position: absolute; top: 14%; right: 16%; width: 180px; height: 180px; border-radius: 50%; background: radial-gradient(circle, rgba(159, 186, 234, 0.5), transparent 62%); filter: blur(4px); }
+.noc-fotos__sky { position: absolute; inset: 0; width: 100%; height: 100%; }
+.noc-fotos__lamp { color: var(--noc-lamp); }
+.noc-fotos__body { margin-top: 16px; color: var(--noc-snow-soft); max-width: 52ch; }
+
+/* ---------- Contacto ---------- */
+.noc-contact__grid { display: grid; grid-template-columns: 1.3fr 0.7fr; gap: clamp(24px, 3vw, 44px); align-items: start; }
+.noc-contact__main h2 { font-size: clamp(2rem, 4.4vw, 3.4rem); }
+.noc-contact__lead { margin-top: 16px; color: var(--noc-snow-soft); max-width: 52ch; }
+.noc-phone {
+  display: inline-flex; flex-direction: column; gap: 6px; margin: 30px 0; text-decoration: none; color: var(--noc-lamp);
+  font-family: "Zilla Slab"; font-weight: 700; font-size: clamp(2rem, 5.4vw, 3.2rem); letter-spacing: -0.01em;
+  transition: color 0.2s var(--noc-ease);
+}
+.noc-phone span { font-family: "Mulish"; font-weight: 700; font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--noc-snow-mut); }
+.noc-phone:hover { color: var(--noc-lamp-deep); }
+.noc-contact__cta { display: flex; flex-wrap: wrap; gap: 14px; }
+.noc-board {
+  background: linear-gradient(180deg, var(--noc-panel-2), var(--noc-panel)); border: 1px solid var(--noc-line);
+  border-radius: 22px; padding: 30px 28px; display: flex; flex-direction: column; gap: 20px;
+}
+.noc-board__row h3 { font-size: 0.74rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--noc-lamp); font-family: "Mulish"; font-weight: 700; }
+.noc-board__row p { margin-top: 8px; font-family: "Zilla Slab"; font-weight: 600; font-size: 1.08rem; }
+.noc-board__map {
+  margin-top: 4px; text-align: center; padding: 13px; border-radius: 12px; text-decoration: none; font-weight: 800;
+  color: var(--noc-snow); border: 1px solid var(--noc-line); background: rgba(255, 255, 255, 0.03);
+  transition: border-color 0.2s var(--noc-ease), color 0.2s var(--noc-ease);
+}
+.noc-board__map:hover { border-color: var(--noc-lamp); color: var(--noc-lamp); }
+
+/* ---------- Footer ---------- */
+.noc-footer {
+  width: min(100% - 36px, var(--noc-wrap)); margin-inline: auto; padding: 30px 0 96px;
+  border-top: 1px solid var(--noc-line); display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between;
+  color: var(--noc-snow-mut); font-size: 0.88rem; font-weight: 600;
+}
+
+/* ---------- Sticky móvil ---------- */
+.noc-sticky {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 70; display: none; gap: 10px; padding: 10px;
+  background: rgba(13, 19, 31, 0.94); backdrop-filter: blur(12px); border-top: 1px solid var(--noc-line);
+}
+.noc-sticky a { flex: 1; text-align: center; padding: 14px; border-radius: 12px; text-decoration: none; font-weight: 800; }
+.noc-sticky__call { background: var(--noc-lamp); color: #26160a; }
+.noc-sticky__sec { border: 1px solid var(--noc-line); color: var(--noc-snow); }
+
+/* ---------- Reveal ---------- */
+[data-noc-reveal] { opacity: 0; transform: translateY(24px); transition: opacity 0.7s var(--noc-ease), transform 0.7s var(--noc-ease); }
+[data-noc-reveal].is-in { opacity: 1; transform: none; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 980px) {
+  .noc-hero { grid-template-columns: 1fr; gap: 36px; }
+  .noc-hero__media img { min-height: 340px; }
+  .noc-services__grid { grid-template-columns: 1fr; }
+  .noc-route__list { grid-template-columns: 1fr; }
+  .noc-route__list::before { display: none; }
+  .noc-fotos__grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 760px) {
+  .noc-topnav { display: none; }
+  .noc-topcall { margin-left: auto; }
+  .noc-reviews__grid { grid-template-columns: 1fr; }
+  .noc-quote { grid-row: auto; }
+  .noc-contact__grid { grid-template-columns: 1fr; }
+  .noc-sticky { display: flex; }
+}
+@media (max-width: 540px) {
+  .noc-night { font-size: 16px; }
+  .noc-footer { flex-direction: column; }
+  .noc-topcall { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-noc-reveal] { opacity: 1; transform: none; transition: none; }
+  .noc-kicker__dot { animation: none; }
+  .noc-btn, .noc-card, .noc-skip, .noc-topcall, .noc-phone { transition: none; }
+  html { scroll-behavior: auto; }
+}

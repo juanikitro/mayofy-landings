@@ -1,0 +1,176 @@
+{
+  "id": "google-ChIJ6XJGlusfkZURy1XJPcng-yM",
+  "name": "María y Sol Peluquería",
+  "slug": "maria-y-sol-peluqueria",
+  "archetype": "cards-and-services",
+  "palette": {
+    "dominant": "#edf3f1",
+    "accent": "#285f4c",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "Sora",
+    "secondary": "Fraunces"
+  },
+  "hero_image": {
+    "heroSrc": "./index.html",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJ6XJGlusfkZURy1XJPcng-yM",
+    "slug": "maria-y-sol-peluqueria",
+    "visual_mood": "precision-service",
+    "composition": "poster-bay",
+    "headline": "María y Sol Peluquería: la atención de lujo que Tandil elige en 11 de Septiembre",
+    "subheadline": "Corte, color y tratamientos capilares con 4.8 sobre 5 en 149 reseñas, en 11 de Septiembre 388.",
+    "primary_cta": "Reservar al 0249 454-4542",
+    "secondary_cta": "Ver ubicación del salón",
+    "service_tags": [
+      "Corte y peinado",
+      "Color y tratamientos",
+      "Atención para niños",
+      "Productos Kerastase"
+    ],
+    "proof_points": [
+      "4.8 sobre 5 en 149 reseñas de Google",
+      "11 de Septiembre 388, Tandil",
+      "Martes a sábado de 9 a 18, lunes cerrado",
+      "\"Muy muy buena onda y atención personalizada de lujo\" — Jorgelina Terni"
+    ],
+    "resource_title": "Antes de tu turno",
+    "resource_items": [
+      "Reservá por teléfono para asegurar el horario que preferís.",
+      "El salón atiende de martes a sábado, los lunes permanece cerrado.",
+      "Trabajan con línea profesional Kerastase para tratamientos."
+    ],
+    "review_heading": "Lo que dicen las clientas del salón",
+    "contact_heading": "Reservá tu turno en 11 de Septiembre 388",
+    "image_prompt": "Recepción de peluquería boutique con araña de cristal, estantería de productos Kerastase y gran ilustración de tijera en la pared, luz cálida.",
+    "design_notes": "Boutique con tijera de mostrador: tijera gráfica en negro sobre crema, dorado de araña de cristal como acento. Italiana + Mulish, elegancia editorial de salón.",
+    "conversion_template": "visual-menu",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Peluquería boutique de Tandil con línea profesional Kerastase que convierte la búsqueda de un salón de confianza en una reserva de turno.",
+      "visual_thesis": "Boutique con tijera de mostrador: la ilustración real de la tijera gigante pintada en la recepción se convierte en el motivo gráfico central. Display Italiana ultra elegante y fino para titulares, cuerpo Mulish para lectura cómoda. Paleta crema y negro de la tijera, con dorado cálido de la araña de cristal como acento del CTA.",
+      "copy_voice": "Español argentino cálido y cercano, con el tono de una atención personalizada de salón de barrio con estándar de boutique.",
+      "layout_signature": "Template visual-menu: hero tipo póster boutique con la foto real de la recepción y la tijera como fondo, menú visual de servicios (corte, color, tratamientos), franja de reseñas de clientas y contacto final con horario de martes a sábado.",
+      "asset_plan": "Foto real de la recepción con la tijera y la araña de cristal (foto-1) como hero; foto-2 y foto-3 como fotos de ambiente con captions; silueta de tijera en SVG de línea como motivo decorativo recurrente, sin stock externo.",
+      "ai_fill_plan": {
+        "copy": [
+          "Microcopy del menú de servicios derivado del rubro peluquería sin inventar precios ni marcas más allá de Kerastase, que aparece en la foto real",
+          "Encabezados de sección como 'Menú del salón' sin inventar servicios no verificados"
+        ],
+        "imagery": [
+          "Silueta de tijera en SVG de línea como motivo decorativo",
+          "Textura de brillo suave tipo cristal en CSS para el header"
+        ],
+        "boundaries": [
+          "No inventar precios de corte, color o tratamientos",
+          "No inventar otras marcas de producto más allá de Kerastase, visible en la foto real",
+          "No prometer atención los lunes: el salón cierra ese día"
+        ]
+      },
+      "anti_patterns": [
+        "Fuentes genéricas como Inter, Roboto o Arial",
+        "Gradiente violeta sobre blanco",
+        "Tono genérico de spa sin personalidad propia del salón real",
+        "Fotos de stock de peluquería en vez de la recepción real con la tijera"
+      ],
+      "rewrite_targets": [
+        "El botón de reserva tiene que estar arriba del fold, no solo al final de la página",
+        "La tijera real de la recepción debe ser protagonista, no un detalle menor",
+        "El horario de martes a sábado tiene que quedar claro para evitar turnos en día cerrado"
+      ]
+    },
+    "creative": {
+      "concept": "El salón boutique de Tandil donde la atención personalizada es la firma de la casa.",
+      "audience": "Clientas de Tandil que buscan un salón de confianza para corte, color y tratamientos con atención de calidad.",
+      "visual_direction": "Ilustración real de tijera en la recepción, araña de cristal, paleta crema y negro con dorado cálido.",
+      "layout": "studio-detail",
+      "texture": "polished-glass",
+      "hero_angle": "Peluquería boutique en Tandil con 4.8 sobre 5 en 149 reseñas y atención personalizada de salón.",
+      "hero_cards": [
+        {
+          "label": "Reseñas",
+          "value": "4.8★ en 149 opiniones",
+          "note": "Perfil público de Google"
+        },
+        {
+          "label": "Dirección",
+          "value": "11 de Septiembre 388, Tandil"
+        },
+        {
+          "label": "Contacto",
+          "value": "0249 454-4542"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Menú del salón",
+          "title": "Corte, color y tratamientos",
+          "body": "Servicios de peluquería con línea profesional Kerastase y atención para toda la familia.",
+          "items": [
+            {
+              "label": "Corte y peinado",
+              "value": "Para todas las edades"
+            },
+            {
+              "label": "Color",
+              "value": "Técnicas de coloración"
+            },
+            {
+              "label": "Tratamientos",
+              "value": "Línea profesional Kerastase"
+            },
+            {
+              "label": "Atención a niños",
+              "value": "Con paciencia y buena onda"
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Clientas del salón",
+          "title": "Atención personalizada de lujo",
+          "body": "Lo que cuentan quienes ya pasaron por el salón.",
+          "items": [
+            {
+              "label": "jorgelina terni",
+              "value": "Muy muy buena onda y atención personalizada de lujo"
+            },
+            {
+              "label": "Ta",
+              "value": "Lleve a mi nena de 7 años corte de punta y lavado, súper amorosas y una atención excelente"
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Reservá tu turno",
+          "title": "Llamá para elegir el horario",
+          "body": "Teléfono directo y horario de martes a sábado.",
+          "items": [
+            {
+              "label": "Reservar",
+              "value": "0249 454-4542"
+            },
+            {
+              "label": "Ir al salón",
+              "value": "11 de Septiembre 388, Tandil"
+            },
+            {
+              "label": "Horario",
+              "value": "Martes a sábado de 9 a 18"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/tandil/maria-y-sol-peluqueria",
+      "notes": "Boutique con tijera de mostrador: foto real de la recepción como hero, Italiana + Mulish, silueta de tijera en SVG, dorado cálido de acento."
+    }
+  }
+}

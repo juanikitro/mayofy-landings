@@ -1,0 +1,169 @@
+{
+  "id": "google-ChIJf4qhOgx7GpYREEzF6DsyzHk",
+  "name": "SRN Rental",
+  "slug": "srn-rental-alquiler-de-ropa-de-nieve-ski-snowboard",
+  "archetype": "local-clean-service",
+  "palette": {
+    "dominant": "#f7fbfa",
+    "accent": "#24746b",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "Nunito Sans",
+    "secondary": "Literata"
+  },
+  "hero_image": {
+    "heroSrc": "./assets/hero.jpg",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJf4qhOgx7GpYREEzF6DsyzHk",
+    "slug": "srn-rental-alquiler-de-ropa-de-nieve-ski-snowboard",
+    "visual_mood": "precision-service",
+    "composition": "split-command",
+    "headline": "Equipo de ski y snowboard con 5 estrellas, llevado hasta tu hotel",
+    "subheadline": "SRN Rental alquila ropa y equipos nuevos en Av. de los Pioneros 3757 y te acompaña en tu primera vez en la nieve, con 5.0 sobre 5 en 61 reseñas.",
+    "primary_cta": "Llamar al 0294 15-433-8535",
+    "secondary_cta": "Reservar y coordinar entrega",
+    "service_tags": [
+      "Alquiler de ski y snowboard",
+      "Ropa de nieve",
+      "Equipos nuevos",
+      "Acompañamiento a principiantes",
+      "Atención en español y portugués"
+    ],
+    "proof_points": [
+      "5.0 sobre 5 con 61 reseñas en Google",
+      "Todos los días de 9 a 13 y de 17 a 21",
+      "Av. de los Pioneros 3757, San Carlos de Bariloche",
+      "\"Gabriel nos acompañó personalmente en nuestro hotel para nuestra primera vez esquiando en Bariloche\" — María Caicedo"
+    ],
+    "resource_title": "Ideal si es tu primera vez",
+    "resource_items": [
+      "Equipos nuevos y ropa limpia, según las reseñas de quienes ya alquilaron.",
+      "Atención en español y portugués para turistas que recién llegan.",
+      "Coordinan la entrega y responden dudas antes de subir al cerro."
+    ],
+    "review_heading": "Lo que cuentan quienes esquiaron por primera vez",
+    "contact_heading": "Reservá por teléfono y coordiná la entrega",
+    "image_prompt": "Foto real del local de SRN Rental en Bariloche con equipos de ski y snowboard nuevos y ropa de nieve ordenada, ambiente prolijo y luminoso.",
+    "design_notes": "Concierge alpino sereno: crema editorial, verde petróleo profundo y ámbar cálido en el CTA. Instrument Serif de titulares con Hanken Grotesk de cuerpo. Sello 5.0 como medalla.",
+    "conversion_template": "editorial-local-story",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Alquiler premium de ski, snowboard y ropa de nieve que convierte al turista primerizo que compara locales en una reserva telefónica, apoyado en un 5.0 sobre 5 y en el acompañamiento personal hasta el hotel.",
+      "visual_thesis": "Concierge alpino sereno: la prolijidad del local real y la nieve limpia llevadas a una revista de montaña calma. Display serif Instrument Serif con cuerpo Hanken Grotesk; paleta de crema editorial, verde petróleo profundo y ámbar cálido reservado para el CTA, con un sello 5.0 tratado como medalla.",
+      "copy_voice": "Español argentino amable y tranquilizador, el mismo tono de las reseñas ('nos acompañaron', 'respondieron todas nuestras dudas'), pensado para quien nunca esquió.",
+      "layout_signature": "Template editorial-local-story: hero partido con titular serif a la izquierda, foto del equipo nuevo a la derecha y medalla 5.0 sobre el fold; después 'cómo es tu primer día' en tres pasos, banda de equipos y ropa, testimonios como cartas y cierre con horario, dirección y mapa.",
+      "asset_plan": "Foto real del local y del equipo nuevo como imagen del hero y del cierre; medalla 5.0, montañas de línea y separadores en SVG/CSS inline; textura de papel sutil en el fondo, sin assets externos salvo Google Fonts.",
+      "ai_fill_plan": {
+        "copy": [
+          "Microcopy de los tres pasos del primer día y CTAs de reserva",
+          "Encabezados editoriales de sección apoyados en reseñas, sin inventar servicios"
+        ],
+        "imagery": [
+          "Montañas y curvas de nivel en SVG de línea como separador",
+          "Medalla y estrellas del 5.0 en CSS como marca visual de confianza"
+        ],
+        "boundaries": [
+          "No inventar precios, stock, marcas, años, premios, garantías, servicios ni reseñas",
+          "No prometer traslado incluido: el acompañamiento al hotel solo se apoya en la reseña de María Caicedo",
+          "Sin claims de nivel de dificultad ni promesas de aprendizaje"
+        ]
+      },
+      "anti_patterns": [
+        "Fuentes genéricas como Inter, Roboto o Arial",
+        "Gradiente violeta sobre blanco",
+        "Layout SaaS de tres cards iguales",
+        "Stock de pistas de esquí de catálogo en lugar del local real"
+      ],
+      "rewrite_targets": [
+        "Poner el 5.0 sobre 5 como medalla de confianza arriba del fold",
+        "Contar el ángulo 'primera vez esquiando' con las reseñas reales, no con promesas",
+        "Reservar el ámbar solo para el CTA de llamada"
+      ]
+    },
+    "creative": {
+      "concept": "El alquiler que te saca el miedo a la primera vez: equipos nuevos, atención bilingüe y acompañamiento real.",
+      "audience": "Turistas primerizos, muchos brasileños, que comparan locales y reservan por teléfono antes de viajar.",
+      "visual_direction": "Crema editorial, verde petróleo y ámbar, serif calmo con medalla 5.0 y montañas de línea.",
+      "layout": "studio-detail",
+      "texture": "polished-glass",
+      "hero_angle": "Ski, snowboard y ropa con 5.0 sobre 5 y acompañamiento para tu primera vez en la nieve.",
+      "hero_cards": [
+        {
+          "label": "Reseñas",
+          "value": "5.0★ en 61 opiniones",
+          "note": "Perfil público de Google"
+        },
+        {
+          "label": "Horario",
+          "value": "Todos los días 9 a 13 y 17 a 21"
+        },
+        {
+          "label": "Dónde",
+          "value": "Av. de los Pioneros 3757"
+        }
+      ],
+      "sections": [
+        {
+          "type": "process",
+          "eyebrow": "Tu primer día",
+          "title": "De la reserva a la nieve, sin nervios",
+          "body": "El recorrido que describen las reseñas: consultás, coordinan la entrega y te explican todo antes de subir.",
+          "items": [
+            {
+              "label": "01",
+              "value": "Llamás y contás qué actividad vas a hacer"
+            },
+            {
+              "label": "02",
+              "value": "Coordinan equipo y ropa según tu talle"
+            },
+            {
+              "label": "03",
+              "value": "Retirás o coordinás la entrega y subís al cerro"
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Confianza de principiantes",
+          "title": "Te acompañan de verdad",
+          "body": "Las reseñas cuentan atención de cinco estrellas para quienes nunca pisaron la nieve.",
+          "items": [
+            {
+              "label": "Mareña Solange Reddel",
+              "value": "Excelente la atención, ni hablar de los equipos. De primera calidad."
+            },
+            {
+              "label": "Diego Antonio Barbosa",
+              "value": "Roupas de esqui novas, limpas e de ótima qualidade. O atendimento foi excelente."
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Contacto directo",
+          "title": "Reservá por teléfono",
+          "body": "Teléfono, horario y mapa para coordinar equipo, ropa y entrega.",
+          "items": [
+            {
+              "label": "Llamar",
+              "value": "0294 15-433-8535"
+            },
+            {
+              "label": "Ir al local",
+              "value": "Av. de los Pioneros 3757, Bariloche"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/bariloche-ski/srn-rental-alquiler-de-ropa-de-nieve-ski-snowboard",
+      "notes": "Concierge alpino sereno: Instrument Serif + Hanken Grotesk, crema y verde petróleo con ámbar en el CTA, medalla 5.0 y foto real del equipo nuevo."
+    }
+  }
+}

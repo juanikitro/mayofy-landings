@@ -1,0 +1,600 @@
+/* ═══════════════════════════════════════════════════════════════
+   Almendra Viajes Salta · "Cartel de destino"
+   La identidad sale de sus propias fotos: los carteles monumentales
+   de Hornocal, Cachi y Purmamarca, el azul de cielo de altura y las
+   bandas estratificadas del cerro de catorce colores.
+   ═══════════════════════════════════════════════════════════════ */
+
+:root {
+  --noche: #0b2e52;
+  --noche-2: #082441;
+  --noche-3: #061c33;
+  --cobalto: #154a7c;
+  --piedra: #efe6d8;
+  --piedra-2: #cec2ae;
+  --terracota: #d4622a;
+  --terracota-luz: #f0a06a;
+  --tinta: #0e0d0c;
+
+  --rosa: #b4736b;
+  --ocre: #c99a4e;
+  --jade: #7e9a86;
+  --oxido: #9c5340;
+
+  --sign: "League Spartan", "Arial Narrow", sans-serif;
+  --body: "Petrona", Georgia, serif;
+
+  /* Paddings en valores planos y escalados por breakpoint: los contenedores
+     con fondo propio necesitan un inset que se pueda leer sin layout. */
+  --pad: 1.35rem;
+  --band: 3.6rem;
+  --z-bar: 60;
+  --z-mast: 50;
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@media (min-width: 700px) {
+  :root { --pad: 2.6rem; --band: 5rem; }
+}
+@media (min-width: 1080px) {
+  :root { --pad: 4.5rem; --band: 6.5rem; }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+
+body.alm {
+  margin: 0;
+  background: var(--noche);
+  color: var(--piedra);
+  font-family: var(--body);
+  font-size: clamp(1.02rem, 0.35vw + 0.95rem, 1.14rem);
+  line-height: 1.66;
+}
+
+img { max-width: 100%; display: block; }
+
+h1, h2, h3 {
+  font-family: var(--sign);
+  font-weight: 900;
+  line-height: 0.92;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+  margin: 0;
+}
+
+a { color: inherit; }
+
+:focus-visible {
+  outline: 3px solid var(--terracota-luz);
+  outline-offset: 3px;
+}
+
+.alm-skip {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: var(--terracota);
+  color: var(--tinta);
+  padding: 0.7rem 1.1rem;
+  font-family: var(--sign);
+  font-weight: 700;
+  z-index: 99;
+}
+.alm-skip:focus { left: 0.6rem; top: 0.6rem; }
+
+/* ── Mástil ─────────────────────────────────────────────── */
+.alm-mast {
+  position: sticky;
+  top: 0;
+  z-index: var(--z-mast);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.72rem var(--pad);
+  background: rgba(6, 28, 51, 0.92);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid rgba(239, 230, 216, 0.16);
+}
+.alm-mast__brand {
+  font-family: var(--sign);
+  font-weight: 700;
+  font-size: 0.94rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--piedra);
+}
+.alm-mast__call {
+  font-family: var(--sign);
+  font-weight: 700;
+  font-size: 0.86rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--tinta);
+  background: var(--terracota);
+  padding: 0.5rem 1.05rem;
+  border-radius: 2px;
+}
+
+/* ── Hero: el cartel ────────────────────────────────────── */
+.alm-hero {
+  position: relative;
+  min-height: min(94svh, 880px);
+  display: grid;
+  align-items: end;
+  padding: clamp(4rem, 14vh, 9rem) var(--pad) clamp(6.5rem, 12vh, 9rem);
+  isolation: isolate;
+  overflow: hidden;
+}
+.alm-hero__img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 42%;
+  z-index: -2;
+}
+.alm-hero__wash {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    linear-gradient(178deg, rgba(6, 28, 51, 0.62) 0%, rgba(8, 36, 65, 0.22) 34%, rgba(11, 46, 82, 0.86) 78%, var(--noche) 100%),
+    linear-gradient(96deg, rgba(6, 24, 44, 0.9) 0%, rgba(6, 24, 44, 0.52) 42%, rgba(6, 24, 44, 0.08) 74%);
+}
+.alm-hero__in { max-width: 60rem; }
+
+.alm-hero__over {
+  margin: 0 0 clamp(0.9rem, 2vh, 1.6rem);
+  font-family: var(--sign);
+  font-weight: 700;
+  font-size: 1.02rem;
+  letter-spacing: 0.03em;
+  color: var(--terracota-luz);
+}
+
+/* letra "fundida": el titular imita el cartel de cemento */
+.alm-sign {
+  font-size: clamp(3.4rem, 11.5vw, 6.9rem);
+  color: var(--piedra);
+  text-shadow:
+    0 2px 0 #a0937f,
+    0 5px 0 #6f6555,
+    0 8px 0 #4b453a,
+    0 18px 28px rgba(4, 16, 30, 0.55);
+}
+.alm-sign span { display: block; }
+.alm-sign span:last-child { color: #fbf5ec; }
+
+.alm-plinth {
+  height: 12px;
+  width: min(100%, 42rem);
+  margin-top: 1.1rem;
+  background:
+    linear-gradient(180deg, #b7ab97 0 40%, #8d8270 40% 100%);
+  border-radius: 1px;
+  box-shadow: 0 12px 26px rgba(4, 16, 30, 0.45);
+}
+.alm-plinth--sm { height: 8px; width: min(100%, 18rem); margin-top: 0.9rem; box-shadow: none; }
+
+.alm-hero__lead {
+  max-width: 46rem;
+  margin: clamp(1.4rem, 3vh, 2.2rem) 0 0;
+  font-size: clamp(1.06rem, 0.5vw + 0.98rem, 1.32rem);
+  line-height: 1.62;
+  color: #f6efe4;
+  text-wrap: pretty;
+}
+
+.alm-score {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin: 1.7rem 0 0;
+  font-size: 1rem;
+  color: var(--piedra);
+}
+.alm-score strong {
+  font-family: var(--sign);
+  font-weight: 900;
+  font-size: 2.1rem;
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+.alm-score__stars { color: var(--ocre); letter-spacing: 0.1em; font-size: 1.05rem; }
+
+.alm-acts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  margin-top: 1.9rem;
+}
+.alm-hot,
+.alm-cool {
+  font-family: var(--sign);
+  font-weight: 700;
+  font-size: clamp(0.98rem, 0.3vw + 0.92rem, 1.1rem);
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  padding: 1rem 1.7rem;
+  border-radius: 2px;
+  transition: transform 0.35s var(--ease), background-color 0.35s var(--ease);
+}
+.alm-hot {
+  background: var(--terracota);
+  color: var(--tinta);
+  box-shadow: 0 14px 30px rgba(4, 16, 30, 0.4);
+}
+.alm-cool {
+  background: transparent;
+  color: var(--piedra);
+  border: 2px solid rgba(239, 230, 216, 0.5);
+}
+.alm-hot:hover { background: #e06d33; transform: translateY(-2px); }
+.alm-cool:hover { border-color: var(--piedra); transform: translateY(-2px); }
+
+/* bandas del Hornocal */
+.alm-strata { display: block; width: 100%; }
+.alm-strata--hero {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: clamp(58px, 8vw, 108px);
+  z-index: 1;
+}
+.alm-strata--card { height: 34px; }
+
+/* ── La ruta: cada excursión, un cartel ─────────────────── */
+.alm-route {
+  padding: var(--band) var(--pad) calc(var(--band) * 0.7);
+  background: var(--noche);
+}
+.alm-route__head { max-width: 44rem; margin-bottom: clamp(3rem, 7vh, 5rem); }
+.alm-route__head h2 { font-size: clamp(2rem, 4.6vw, 3.1rem); }
+.alm-route__head p {
+  margin: 1.2rem 0 0;
+  color: var(--piedra-2);
+  text-wrap: pretty;
+}
+
+.alm-stop {
+  display: grid;
+  gap: 2.2rem;
+  align-items: center;
+  padding-block: clamp(2.5rem, 6vh, 4.5rem);
+  border-top: 1px solid rgba(239, 230, 216, 0.18);
+}
+@media (min-width: 860px) {
+  .alm-stop { grid-template-columns: 1.05fr 0.95fr; }
+  .alm-stop--flip .alm-stop__txt { order: 2; }
+  .alm-stop--flip .alm-stop__fig { order: 1; }
+}
+.alm-stop__zone {
+  margin: 0 0 0.9rem;
+  font-family: var(--sign);
+  font-weight: 700;
+  font-size: 0.88rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--terracota-luz);
+}
+.alm-stop__name {
+  font-size: clamp(2.5rem, 7.6vw, 4.6rem);
+  color: var(--piedra);
+  text-shadow: 0 2px 0 #8e8270, 0 4px 0 #5d5548;
+}
+.alm-stop__note {
+  margin: 1.35rem 0 0;
+  max-width: 32rem;
+  color: var(--piedra-2);
+  text-wrap: pretty;
+}
+.alm-stop__fig { margin: 0; }
+.alm-stop__fig img {
+  width: 100%;
+  height: clamp(230px, 34vw, 400px);
+  object-fit: cover;
+  border-radius: 2px;
+  filter: saturate(1.04);
+}
+.alm-stop__fig figcaption {
+  margin-top: 0.7rem;
+  font-size: 0.9rem;
+  color: var(--piedra-2);
+}
+
+.alm-more {
+  list-style: none;
+  margin: clamp(1rem, 3vh, 2rem) 0 0;
+  padding: 0;
+  display: grid;
+  gap: 1px;
+  background: rgba(239, 230, 216, 0.18);
+  border-block: 1px solid rgba(239, 230, 216, 0.18);
+}
+@media (min-width: 700px) { .alm-more { grid-template-columns: repeat(3, 1fr); } }
+.alm-more li {
+  background: var(--noche);
+  padding: 1.55rem 1.4rem;
+}
+.alm-more span {
+  display: block;
+  font-family: var(--sign);
+  font-weight: 700;
+  font-size: 0.82rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--terracota-luz);
+  margin-bottom: 0.45rem;
+}
+.alm-more strong {
+  font-family: var(--sign);
+  font-weight: 900;
+  font-size: clamp(1.25rem, 2.4vw, 1.65rem);
+  letter-spacing: -0.01em;
+  color: var(--piedra);
+}
+
+/* ── Franja de contacto: el teléfono como gráfica ───────── */
+.alm-slab {
+  background: var(--terracota);
+  color: var(--tinta);
+  padding: var(--band) var(--pad);
+}
+.alm-slab__in { max-width: 54rem; }
+.alm-slab__kicker {
+  margin: 0 0 0.9rem;
+  font-family: var(--sign);
+  font-weight: 700;
+  font-size: 0.88rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.alm-slab h2 {
+  font-size: clamp(1.85rem, 4.2vw, 2.85rem);
+  color: var(--tinta);
+  max-width: 40rem;
+}
+.alm-slab__tel {
+  display: inline-block;
+  margin: clamp(1.3rem, 3vh, 2rem) 0 0;
+  font-family: var(--sign);
+  font-weight: 900;
+  font-size: clamp(2.4rem, 8.5vw, 5.1rem);
+  line-height: 0.95;
+  letter-spacing: -0.035em;
+  color: var(--tinta);
+  text-decoration: none;
+  border-bottom: 6px solid rgba(14, 13, 12, 0.28);
+}
+.alm-slab__tel:hover { border-bottom-color: var(--tinta); }
+.alm-slab__note { margin: 1.1rem 0 1.7rem; max-width: 34rem; }
+.alm-slab__wa {
+  display: inline-block;
+  font-family: var(--sign);
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--piedra);
+  background: var(--noche-2);
+  padding: 0.95rem 1.6rem;
+  border-radius: 2px;
+}
+.alm-slab__wa:hover { background: var(--noche-3); }
+
+/* ── Reseñas ────────────────────────────────────────────── */
+.alm-voices {
+  padding: var(--band) var(--pad);
+  background: var(--noche-2);
+}
+.alm-voices h2 {
+  font-size: clamp(1.9rem, 4.4vw, 2.9rem);
+  max-width: 34rem;
+  margin-bottom: clamp(2.2rem, 5vh, 3.4rem);
+}
+.alm-voices__grid {
+  display: grid;
+  gap: 1.4rem;
+}
+@media (min-width: 820px) { .alm-voices__grid { grid-template-columns: repeat(3, 1fr); } }
+.alm-voices blockquote {
+  margin: 0;
+  padding: 1.7rem;
+  background: var(--cobalto);
+  border-radius: 2px;
+  position: relative;
+}
+.alm-voices blockquote::before {
+  content: "”";
+  position: absolute;
+  top: -0.15em;
+  right: 0.5rem;
+  font-family: var(--sign);
+  font-weight: 900;
+  font-size: 5.6rem;
+  line-height: 1;
+  color: rgba(239, 230, 216, 0.24);
+}
+.alm-voices blockquote p {
+  margin: 0 0 1.15rem;
+  color: #f7f1e7;
+  line-height: 1.62;
+}
+.alm-voices footer {
+  font-family: var(--sign);
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--piedra);
+}
+.alm-voices footer span { color: var(--ocre); }
+
+/* ── Pasos: mojones de ruta ─────────────────────────────── */
+.alm-steps { padding: var(--band) var(--pad); }
+.alm-steps h2 {
+  font-size: clamp(1.9rem, 4.4vw, 2.9rem);
+  margin-bottom: clamp(2rem, 5vh, 3.2rem);
+}
+.alm-steps__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 2rem;
+}
+@media (min-width: 880px) { .alm-steps__list { grid-template-columns: repeat(4, 1fr); } }
+.alm-steps__list li {
+  padding-top: 1.5rem;
+  border-top: 3px solid var(--ocre);
+}
+.alm-km {
+  display: block;
+  font-family: var(--sign);
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1;
+  color: var(--ocre);
+  margin-bottom: 0.7rem;
+}
+.alm-steps__list h3 {
+  font-size: 1.32rem;
+  color: var(--piedra);
+  margin-bottom: 0.6rem;
+}
+.alm-steps__list p { margin: 0; color: var(--piedra-2); }
+
+/* ── Antes de reservar ──────────────────────────────────── */
+.alm-check {
+  padding: var(--band) var(--pad);
+  background: var(--noche-3);
+}
+.alm-check__in { max-width: 60rem; }
+.alm-check h2 { font-size: clamp(1.7rem, 3.6vw, 2.4rem); margin-bottom: 1.8rem; }
+.alm-check ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 1px; background: rgba(239, 230, 216, 0.16); }
+.alm-check li {
+  background: var(--noche-3);
+  padding: 1.35rem 1.4rem 1.35rem 1.9rem;
+  position: relative;
+  color: #f4ede2;
+}
+.alm-check li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 1.85rem;
+  width: 10px;
+  height: 10px;
+  background: var(--terracota);
+}
+
+/* ── Ficha de contacto ──────────────────────────────────── */
+.alm-card { background: var(--noche); }
+.alm-card__in {
+  display: grid;
+  gap: 2.5rem;
+  padding: var(--band) var(--pad);
+}
+@media (min-width: 900px) { .alm-card__in { grid-template-columns: 0.9fr 1.1fr; align-items: start; } }
+.alm-card h2 { font-size: clamp(1.85rem, 4vw, 2.7rem); }
+.alm-card__tel {
+  display: block;
+  margin: 1.3rem 0 1.5rem;
+  font-family: var(--sign);
+  font-weight: 900;
+  font-size: clamp(2rem, 5.6vw, 3.1rem);
+  letter-spacing: -0.03em;
+  color: var(--terracota-luz);
+  text-decoration: none;
+}
+.alm-card__tel:hover { color: #ffb98a; }
+.alm-card__data { margin: 0; display: grid; gap: 1px; background: rgba(239, 230, 216, 0.18); }
+.alm-card__data > div { background: var(--noche); padding: 1.5rem 1.6rem; }
+.alm-card__data dt {
+  font-family: var(--sign);
+  font-weight: 700;
+  font-size: 0.84rem;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--ocre);
+  margin-bottom: 0.55rem;
+}
+.alm-card__data dd { margin: 0; color: #f4ede2; }
+.alm-maps,
+.alm-card__data a {
+  color: var(--terracota-luz);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 600;
+}
+.alm-maps { display: inline-block; margin-top: 0.6rem; }
+
+/* ── Footer ─────────────────────────────────────────────── */
+.alm-foot {
+  padding: 2.4rem var(--pad) 5.5rem;
+  background: var(--noche-3);
+  border-top: 1px solid rgba(239, 230, 216, 0.16);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem 1.5rem;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 0.94rem;
+  color: var(--piedra-2);
+}
+.alm-foot p { margin: 0; }
+.alm-foot__brand span { color: var(--ocre); }
+.alm-foot__me a { color: var(--piedra); text-decoration: underline; text-underline-offset: 3px; }
+
+/* ── Barra sticky mobile ────────────────────────────────── */
+.alm-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: var(--z-bar);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: rgba(6, 28, 51, 0.4);
+  border-top: 1px solid rgba(239, 230, 216, 0.2);
+}
+.alm-bar a {
+  text-align: center;
+  padding: 1rem 0.5rem;
+  font-family: var(--sign);
+  font-weight: 700;
+  font-size: 1.02rem;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+}
+.alm-bar__call { background: var(--terracota); color: var(--tinta); }
+.alm-bar__wa { background: var(--noche-3); color: var(--piedra); }
+@media (min-width: 780px) { .alm-bar { display: none; } }
+
+/* ── Motion: mejora un estado ya visible ────────────────── */
+@media (prefers-reduced-motion: no-preference) {
+  .js-on [data-rise] { opacity: 0; transform: translateY(18px); }
+  .js-on .alm-hero.is-on [data-rise] {
+    opacity: 1;
+    transform: none;
+    transition: opacity 0.75s var(--ease), transform 0.75s var(--ease);
+  }
+  .js-on .alm-hero.is-on [data-rise="1"] { transition-delay: 0.05s; }
+  .js-on .alm-hero.is-on [data-rise="2"] { transition-delay: 0.14s; }
+  .js-on .alm-hero.is-on [data-rise="3"] { transition-delay: 0.3s; }
+  .js-on .alm-hero.is-on [data-rise="4"] { transition-delay: 0.4s; }
+  .js-on .alm-hero.is-on [data-rise="5"] { transition-delay: 0.48s; }
+
+  .js-on [data-reveal] { opacity: 0; transform: translateY(22px); }
+  .js-on [data-reveal].is-on {
+    opacity: 1;
+    transform: none;
+    transition: opacity 0.7s var(--ease), transform 0.7s var(--ease);
+  }
+}

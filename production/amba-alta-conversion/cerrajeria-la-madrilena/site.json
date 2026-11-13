@@ -1,0 +1,178 @@
+{
+  "id": "google-ChIJzZkh1FDLvJURuhG8Q3bE5uc",
+  "name": "Cerrajería La Madrileña",
+  "slug": "cerrajeria-la-madrilena",
+  "archetype": "automotive-premium-dark",
+  "palette": {
+    "dominant": "#101820",
+    "accent": "#d7a94b",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "Archivo Narrow",
+    "secondary": "Merriweather Sans"
+  },
+  "hero_image": {
+    "heroSrc": "./index.html",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJzZkh1FDLvJURuhG8Q3bE5uc",
+    "slug": "cerrajeria-la-madrilena",
+    "visual_mood": "neighborhood-direct",
+    "composition": "poster-bay",
+    "headline": "La cerrajería de Monserrat que te salva a última hora",
+    "subheadline": "Cerrajería y electricidad en Tacuarí 790. Llaves codificadas, candados, controles de acceso y cerraduras inteligentes, con 4.9 sobre 5 en 586 reseñas.",
+    "primary_cta": "Llamar al 011 5908-8773",
+    "secondary_cta": "Escribir por WhatsApp",
+    "service_tags": [
+      "Llaves codificadas",
+      "Cerraduras inteligentes",
+      "Candados y repuestos",
+      "Controles de portón y acceso",
+      "Electricidad y LED"
+    ],
+    "proof_points": [
+      "4.9 sobre 5 con 586 reseñas en Google",
+      "Lunes a viernes de 9:00 a 12:30 y de 15:00 a 19:00, sábados de 9:00 a 13:00",
+      "Tacuarí 790, Monserrat, a pasos de San Telmo",
+      "\"Necesitaba un repuesto a última hora y los chicos fueron los únicos que estaban abiertos en la zona\" — David Delmonte"
+    ],
+    "resource_title": "Datos concretos antes de ir",
+    "resource_items": [
+      "Teléfono fijo y WhatsApp visibles en la vidriera del local.",
+      "Horario partido de local de barrio: mediodía cierra de 12:30 a 15:00.",
+      "Reseñas públicas con nombre para evaluar la atención de mostrador."
+    ],
+    "review_heading": "Lo que cuentan en el mostrador",
+    "contact_heading": "Llamá o pasá por Tacuarí 790",
+    "image_prompt": "Fachada real de cerrajería de barrio en Monserrat con marquesina amarilla y negra, vidriera con candados y herramientas, luz de día.",
+    "design_notes": "Cartel de cerrajería porteña: papel crema, negro humo, amarillo señalética en franjas diagonales, rojo sello puntual. Archivo Black + Barlow, números en IBM Plex Mono. Póster tipográfico con la fachada real como prueba.",
+    "conversion_template": "hero-proof-offer",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Cerrajería y electricidad de mostrador en Monserrat que convierte búsquedas urgentes de vecinos de Monserrat y San Telmo en una llamada o una visita al local.",
+      "visual_thesis": "Cartel de cerrajería porteña: la marquesina real amarilla y negra se vuelve póster tipográfico. Display Archivo Black, cuerpo Barlow y teléfono en IBM Plex Mono; paleta de papel crema, negro humo, amarillo señalética y rojo sello puntual.",
+      "copy_voice": "Español argentino de mostrador, directo y barrial, sin exageraciones ni tono de template.",
+      "layout_signature": "Template hero-proof-offer: hero póster asimétrico con titular gigante, foto de fachada enmarcada y CTA de llamada y WhatsApp arriba del fold; después tablero de servicios tipo ganchos de llaves, banda de reseña 'a última hora', fotos de trabajo y tickets de mostrador antes del contacto.",
+      "asset_plan": "Foto real de fachada como hero; cerradura inteligente y llave codificada como fotos de trabajo con captions; franjas de obra y siluetas de llaves en SVG/CSS inline, sin assets externos salvo Google Fonts.",
+      "ai_fill_plan": {
+        "copy": [
+          "Microcopy de secciones y CTAs derivado de las reseñas verificadas",
+          "Encabezados de bloque como 'Tablero de llaves' sin inventar servicios"
+        ],
+        "imagery": [
+          "Franjas diagonales de obra en CSS",
+          "Siluetas de llaves en SVG de línea como textura de fondo"
+        ],
+        "boundaries": [
+          "No inventar precios, stock, marcas, años, premios, garantías, servicios ni reseñas",
+          "No afirmar urgencias 24hs ni apertura de puertas a domicilio: no hay evidencia",
+          "El ángulo 'a última hora' solo se apoya en la reseña citada de David Delmonte"
+        ]
+      },
+      "anti_patterns": [
+        "Fuentes genéricas como Inter, Roboto o Arial",
+        "Gradiente violeta sobre blanco",
+        "Layout de template SaaS con tres cards genéricas",
+        "Stock de cerraduras de catálogo en lugar de las fotos reales del local"
+      ],
+      "rewrite_targets": [
+        "Reemplazar el copy heredado de repuestos y Tandil por cerrajería y electricidad reales",
+        "Subir el 4.9 sobre 5 con 586 reseñas al hero como prueba social",
+        "Poner CTA de llamada y WhatsApp arriba del fold"
+      ]
+    },
+    "creative": {
+      "concept": "El local que abre cuando lo necesitás: cerrajería de barrio con mostrador real y prueba social pesada.",
+      "audience": "Vecinos de Monserrat y San Telmo que buscan cerrajero cerca, llave codificada de auto o cerradura nueva ya.",
+      "visual_direction": "Franjas amarillas y negras de la marquesina real, fichas tipo etiqueta de llavero, tickets de mostrador en monoespaciada.",
+      "layout": "parts-counter",
+      "texture": "parts-shelf",
+      "hero_angle": "Cerrajería y electricidad en Monserrat con 4.9 sobre 5 en 586 reseñas y atención de mostrador que resuelve.",
+      "hero_cards": [
+        {
+          "label": "Reseñas",
+          "value": "4.9★ en 586 opiniones",
+          "note": "Perfil público de Google"
+        },
+        {
+          "label": "Dirección",
+          "value": "Tacuarí 790, Monserrat"
+        },
+        {
+          "label": "Contacto",
+          "value": "011 5908-8773",
+          "note": "Fijo y WhatsApp"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Servicios del local",
+          "title": "Tablero de llaves y algo más",
+          "body": "Lo que se ve en la vidriera y piden los vecinos: llaves codificadas, candados, controles y electricidad.",
+          "items": [
+            {
+              "label": "Llaves codificadas",
+              "value": "Para autos, consultá por tu modelo en el mostrador"
+            },
+            {
+              "label": "Cerraduras inteligentes",
+              "value": "Instalación registrada en fotos del perfil"
+            },
+            {
+              "label": "Controles de acceso",
+              "value": "Portones y accesos, con repuestos de mostrador"
+            },
+            {
+              "label": "Electricidad",
+              "value": "Lámparas, tubos LED y flexibles"
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "A última hora",
+          "title": "Los únicos abiertos en la zona",
+          "body": "La reseña de David Delmonte cuenta el momento exacto en el que este local resuelve: cuando el resto ya cerró.",
+          "items": [
+            {
+              "label": "David Delmonte",
+              "value": "Necesitaba un repuesto a última hora y los chicos fueron los únicos que estaban abiertos en la zona."
+            },
+            {
+              "label": "Jazmin Fernandez",
+              "value": "Excelente servicio super rapido y Nahuel un genio!"
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Contacto directo",
+          "title": "Llamá, escribí o caé por el local",
+          "body": "Teléfono, WhatsApp y mapa sin vueltas, con el horario partido bien claro.",
+          "items": [
+            {
+              "label": "Llamar",
+              "value": "011 5908-8773"
+            },
+            {
+              "label": "WhatsApp",
+              "value": "15 5908-8773, el mismo de la vidriera"
+            },
+            {
+              "label": "Ir al local",
+              "value": "Tacuarí 790, lunes a sábado"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/amba-alta-conversion/cerrajeria-la-madrilena",
+      "notes": "Póster tipográfico de cerrajería porteña: franjas amarillo y negro de la marquesina real, Archivo Black + Barlow, fichas de llavero y tickets de mostrador, fotos reales del local."
+    }
+  }
+}

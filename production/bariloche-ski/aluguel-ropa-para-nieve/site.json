@@ -1,0 +1,169 @@
+{
+  "id": "google-ChIJWULyUB97GpYRZ0GUFdvs8mM",
+  "name": "Aluguel Ropa para nieve",
+  "slug": "aluguel-ropa-para-nieve",
+  "archetype": "classic-neighborhood-business",
+  "palette": {
+    "dominant": "#fff8ec",
+    "accent": "#8f3f2b",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "Libre Franklin",
+    "secondary": "Libre Baskerville"
+  },
+  "hero_image": {
+    "heroSrc": "./assets/hero.jpg",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJWULyUB97GpYRZ0GUFdvs8mM",
+    "slug": "aluguel-ropa-para-nieve",
+    "visual_mood": "neighborhood-direct",
+    "composition": "poster-bay",
+    "headline": "Ropa de nieve con atención paciente, en el centro de Bariloche",
+    "subheadline": "Aluguel Ropa para nieve alquila equipo abrigado en Libertad 290, con atención en español y portugués y 4.7 sobre 5 en 18 reseñas.",
+    "primary_cta": "Llamar al 0294 590-6607",
+    "secondary_cta": "Consultar y reservar equipo",
+    "service_tags": [
+      "Alquiler de ropa de nieve",
+      "Atención en español y portugués",
+      "Prueba con paciencia",
+      "Descuento en efectivo",
+      "En pleno centro"
+    ],
+    "proof_points": [
+      "4.7 sobre 5 con 18 reseñas en Google",
+      "Todos los días de 9 a 21",
+      "Libertad 290, local 9, San Carlos de Bariloche",
+      "\"The staff was friendly, helpful, and patient while we tried on various clothes. There was also a cash discount\" — Michael S"
+    ],
+    "resource_title": "Antes de venir al local",
+    "resource_items": [
+      "Atención en español y portugués para turistas que recién llegan.",
+      "Te dejan probarte con paciencia hasta encontrar el talle justo.",
+      "Descuento pagando en efectivo, según las reseñas de quienes alquilaron."
+    ],
+    "review_heading": "Lo que cuentan los viajeros",
+    "contact_heading": "Llamá o pasá por Libertad 290",
+    "image_prompt": "Foto real del local Aluguel Ropa para nieve en el centro de Bariloche con ropa de nieve ordenada por talle y mostrador de atención cálido.",
+    "design_notes": "Estación cálida bilingüe: verde bosque profundo y dorado cálido en el CTA. Syne + Manrope. Cartel bilingüe y flechas de dirección como motivo.",
+    "conversion_template": "hero-proof-offer",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Alquiler de ropa de nieve en el centro de Bariloche con atención bilingüe que convierte al turista brasileño y argentino recién llegado en una visita al local para equiparse con paciencia y buen precio.",
+      "visual_thesis": "Estación cálida bilingüe: el trato paciente en español y portugués del local real llevado a un póster de bienvenida de viaje. Display Syne con cuerpo Manrope; paleta de verde bosque profundo, crema y dorado cálido reservado para el CTA, con cartelería bilingüe y flechas de dirección como motivo.",
+      "copy_voice": "Español argentino cálido y hospitalario, consciente del turista brasileño, sin caer en clichés ni banderas.",
+      "layout_signature": "Template hero-proof-offer: hero póster con titular de bienvenida, foto del local y CTA de llamada arriba del fold; después tablero de servicios con la atención bilingüe destacada, banda de reseña sobre la paciencia y el descuento en efectivo, y contacto con mapa al centro.",
+      "asset_plan": "Foto real del local como imagen del hero; cartel bilingüe, flechas y copos de nieve en SVG/CSS inline; textura de papel kraft cálido en CSS, sin assets externos salvo Google Fonts.",
+      "ai_fill_plan": {
+        "copy": [
+          "Microcopy bilingüe suave y CTAs apoyado en reseñas de atención paciente",
+          "Encabezados de sección como 'Bienvenida' sin inventar prendas ni marcas"
+        ],
+        "imagery": [
+          "Cartel de bienvenida bilingüe y flechas en SVG de línea",
+          "Textura de papel kraft y copos en CSS como fondo cálido"
+        ],
+        "boundaries": [
+          "No inventar precios, stock, marcas, años, premios, garantías, servicios ni reseñas",
+          "El descuento en efectivo solo se menciona como lo cuentan las reseñas, sin porcentaje inventado",
+          "No prometer envíos ni traslados: no hay evidencia"
+        ]
+      },
+      "anti_patterns": [
+        "Fuentes genéricas como Inter, Roboto o Arial",
+        "Gradiente violeta sobre blanco",
+        "Banderas o clichés turísticos como recurso visual",
+        "Stock de ropa de esquí de catálogo en lugar del local real"
+      ],
+      "rewrite_targets": [
+        "Hacer visible la atención bilingüe como diferencial, sin caer en clichés",
+        "Subir el 4.7 con 18 reseñas y el horario amplio al hero",
+        "Reservar el dorado cálido solo para el CTA de llamada"
+      ]
+    },
+    "creative": {
+      "concept": "La estación de ropa de nieve que recibe al viajero en su idioma y con paciencia.",
+      "audience": "Turistas brasileños y argentinos que llegan al centro sin abrigo técnico y comparan por atención y precio.",
+      "visual_direction": "Verde bosque y dorado cálido, cartel bilingüe y flechas de dirección, tipografía display con carácter.",
+      "layout": "roadside-rescue",
+      "texture": "primer-dust",
+      "hero_angle": "Ropa de nieve con atención en español y portugués y 4.7 sobre 5 en 18 reseñas.",
+      "hero_cards": [
+        {
+          "label": "Reseñas",
+          "value": "4.7★ en 18 opiniones",
+          "note": "Perfil público de Google"
+        },
+        {
+          "label": "Horario",
+          "value": "Todos los días 9 a 21"
+        },
+        {
+          "label": "Dónde",
+          "value": "Libertad 290, local 9"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Qué se alquila",
+          "title": "Abrigo para tus días de nieve",
+          "body": "Ropa de nieve para elegir con calma, con atención en dos idiomas y buena predisposición.",
+          "items": [
+            {
+              "label": "Ropa de nieve",
+              "value": "Camperas y pantalones abrigados"
+            },
+            {
+              "label": "Prueba sin apuro",
+              "value": "Te ayudan hasta encontrar el talle"
+            },
+            {
+              "label": "Idiomas",
+              "value": "Atención en español y portugués"
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Viajeros contentos",
+          "title": "Pacientes y atentos",
+          "body": "Las reseñas de turistas destacan la paciencia y la buena calidad de la ropa.",
+          "items": [
+            {
+              "label": "Luis Fernando Chagas",
+              "value": "Excellent service and clothing. Highly recommend. Walter helped us enormously."
+            },
+            {
+              "label": "Florencia Matko",
+              "value": "Buenísima la atención y la ropa de excelente calidad!"
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Contacto directo",
+          "title": "Llamá o pasá por el local",
+          "body": "Teléfono, horario amplio y mapa al centro para coordinar tu equipo.",
+          "items": [
+            {
+              "label": "Llamar",
+              "value": "0294 590-6607"
+            },
+            {
+              "label": "Ir al local",
+              "value": "Libertad 290, local 9, Bariloche"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/bariloche-ski/aluguel-ropa-para-nieve",
+      "notes": "Estación cálida bilingüe: Syne + Manrope, verde bosque con dorado en el CTA, cartel bilingüe y foto real del local."
+    }
+  }
+}

@@ -1,0 +1,388 @@
+{
+  "id": "google-ChIJdf9B2TvmopURpoO-qAvjSj0",
+  "name": "Tienda de Viajes",
+  "slug": "tienda-de-viajes",
+  "archetype": "industrial-garage",
+  "palette": {
+    "dominant": "#2d2a26",
+    "accent": "#d94f30",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "IBM Plex Sans Condensed",
+    "secondary": "Source Serif 4"
+  },
+  "hero_image": {
+    "heroSrc": "./assets/portada.jpg",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJdf9B2TvmopURpoO-qAvjSj0",
+    "slug": "tienda-de-viajes",
+    "visual_mood": "workshop-trust",
+    "composition": "split-command",
+    "headline": "Lo que te venden, es lo que es",
+    "subheadline": "La frase es de Constanza Piscopo en Google, después de viajar varias veces con la agencia. Viajes armados a medida desde la casona de calle 11: Bariloche, El Calafate, Ushuaia y el destino que quieras. 4,6 con 60 reseñas, de lunes a viernes de 9 a 16.",
+    "primary_cta": "Llamar a la agencia",
+    "secondary_cta": "Escribir por WhatsApp",
+    "service_tags": [
+      "Viajes a medida",
+      "Argentina y exterior",
+      "Atención personal",
+      "Seguimiento durante el viaje"
+    ],
+    "proof_points": [
+      "4,6 en Google con 60 reseñas",
+      "Lunes a viernes de 9 a 16",
+      "Calle 11 769, entre 47 y 48, La Plata",
+      "\"Les consulté en horario fuera de atención y me mandaron respuesta\" (Jorge Minetto)"
+    ],
+    "resource_title": "Lo que conviene tener a mano antes de llamar",
+    "resource_items": [
+      "El destino que tenés en la cabeza, aunque sea aproximado.",
+      "Las fechas posibles y cuántos viajan.",
+      "Si ya reservaste algo por tu cuenta, para que lo tengan en cuenta."
+    ],
+    "review_heading": "Tres viajes contados por quienes los hicieron",
+    "contact_heading": "Pasá por la casona de calle 11 o llamá",
+    "image_prompt": "Hero editorial: un glaciar patagónico con los cerros detrás, uno de los destinos que las reseñas verificadas nombran (El Calafate). Las tres fotos de Google Places (la fachada verde salvia con el cartel metálico, el hall con el avioncito amarillo, la recepción de piso ajedrezado) entran como contexto documental de la agencia, con alt honesto.",
+    "design_notes": "Dirección 'Casona de damero': verde salvia de la fachada, molduras blancas, tinta azul del cartel y el avioncito amarillo del logo como único color caliente. Par tipográfico Prata (display) + Alegreya Sans (cuerpo). Motivo: el piso ajedrezado de la recepción como patrón SVG y el avión como marca de recorrido. Template service-diagnostic.",
+    "conversion_template": "service-diagnostic",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Le vende a la familia platense que quiere delegar el armado de un viaje grande y necesita saber que del otro lado hay una persona que responde. La página convierte una reputación de boca en boca en una consulta concreta.",
+      "visual_thesis": "'Casona platense de damero': la identidad se extrae de la casona real de calle 11, con su revoque verde salvia y sus molduras blancas, la tinta azul del cartel y el avioncito amarillo del logo. Superficie de yeso verdoso frío #E7ECE1, tinta azul #14294F para todo el texto, salvia #5F6E55 en bloques y molduras, y amarillo azafrán #E9A317 (el avión) como único color caliente, exclusivo del CTA. El piso ajedrezado de la recepción se dibuja como patrón SVG inline y organiza los cortes de sección. Par tipográfico Prata para el display y Alegreya Sans para el cuerpo.",
+      "copy_voice": "Español argentino, vos, sobrio y hospitalario, de agencia con oficio y puerta a la calle. Frases de trato personal, sin épica. El ángulo sale de las reseñas: te atienden por nombre, responden fuera de horario y lo que venden es lo que es.",
+      "layout_signature": "Hero partido: a la izquierda el titular en Prata con la cita atribuida y los dos remates; a la derecha la foto editorial del destino con una franja de damero como zócalo. Después, bloque de diagnóstico (qué necesitan saber para armar el viaje) en dos columnas asimétricas; destinos que nombran las reseñas como fichas de recorrido con el avión; reseñas literales sobre panel salvia; ficha de contacto con horario, dirección y link a Maps junto a la dirección. Barra sticky de llamada en mobile.",
+      "asset_plan": "Hero editorial de glaciar en assets/hero.jpg. Las tres fotos verificadas de la casona (fachada, hall y recepción) se usan como contexto documental de la agencia. Damero, molduras y avión resueltos en SVG y CSS inline.",
+      "ai_fill_plan": {
+        "copy": [
+          "Escribir el bloque de diagnóstico como preguntas que la agencia necesita para cotizar, sin prometer respuestas.",
+          "Convertir las reseñas en argumentos de confianza sin exagerar lo que dicen.",
+          "Nombrar secciones con vocabulario de casona y mostrador, no de plataforma."
+        ],
+        "imagery": [
+          "Usar imagen editorial del destino nombrado en las reseñas para el hero y el damero SVG como textura de la casa.",
+          "Dibujar el avión, las molduras y los filetes en SVG inline, tomados del cartel y del hall reales."
+        ],
+        "boundaries": [
+          "no inventar precios, cuotas, financiación, aerolíneas, hoteles, años de trayectoria ni cantidad de viajes vendidos.",
+          "no afirmar que el glaciar del hero es una salida propia: el alt describe el destino que nombran las reseñas.",
+          "no citar reseñas que no estén en el dataset ni cambiar su texto o su autor."
+        ]
+      },
+      "anti_patterns": [
+        "Fondo crema o beige por reflejo en vez del yeso verdoso de la fachada.",
+        "Serif en itálica gigante como display, que convierte la casona en revista de moda.",
+        "Chips eyebrow en mayúsculas con tracking amplio sobre cada sección.",
+        "Tres tarjetas iguales con ícono, título y párrafo.",
+        "Bordes laterales gruesos de color como acento."
+      ],
+      "rewrite_targets": [
+        "Poner la cita de la reseña como titular y atribuirla, en vez de un eslogan propio.",
+        "Reemplazar el bloque de servicios por un diagnóstico de lo que la agencia necesita saber.",
+        "Hacer del amarillo del avión el único color caliente y usarlo solo en el CTA.",
+        "Mostrar horario, dirección y link a Maps en la ficha de contacto."
+      ]
+    },
+    "commercial": {
+      "tone": "bodyshop-craft",
+      "customer_type": "Familias y parejas de La Plata que quieren delegar el armado de un viaje grande.",
+      "hero_claim": "Lo que te venden, es lo que es.",
+      "trust_bar": [
+        {
+          "label": "Valoración",
+          "title": "4,6 / 5",
+          "body": "60 reseñas en Google",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Horario",
+          "title": "Lunes a viernes",
+          "body": "De 9 a 16",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Casona",
+          "title": "Calle 11 769",
+          "body": "Entre 47 y 48, La Plata",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Contacto",
+          "title": "0221 424-6300",
+          "body": "WhatsApp 221 303-8874",
+          "meta": "Dato verificado"
+        }
+      ],
+      "service_cards": [
+        {
+          "label": "A medida",
+          "title": "El viaje se arma con vos",
+          "body": "Las reseñas describen viajes programados con la agencia según lo que necesitaba cada familia."
+        },
+        {
+          "label": "Patagonia",
+          "title": "Bariloche, El Calafate y Ushuaia",
+          "body": "Los tres destinos aparecen nombrados por los pasajeros que dejaron reseña."
+        },
+        {
+          "label": "Exterior",
+          "title": "Fuera del país también",
+          "body": "La agencia trabaja destinos de Argentina y del exterior."
+        },
+        {
+          "label": "Durante el viaje",
+          "title": "Te responden en el camino",
+          "body": "Una reseña cuenta una consulta resuelta fuera del horario de atención, con respuesta del operador."
+        }
+      ],
+      "why_choose": [
+        {
+          "title": "Te atienden por nombre",
+          "body": "\"La atención de Josefina fue excelente\", escribió Alejandro Toloy sobre su viaje a Bariloche."
+        },
+        {
+          "title": "Resuelven el imprevisto",
+          "body": "Jorge Minetto cuenta un error de equipaje resuelto con una respuesta fuera de horario."
+        },
+        {
+          "title": "Repiten clientes",
+          "body": "\"Viajamos varias veces con la agencia y no tuvimos ningún problema\", dice Constanza Piscopo."
+        }
+      ],
+      "packages": [
+        {
+          "name": "Viaje familiar armado",
+          "price_label": "A consultar",
+          "body": "Contás destino, fechas y cuántos son, y la agencia arma la propuesta.",
+          "items": [
+            "Destino y fechas a definir",
+            "Cantidad de pasajeros",
+            "Propuesta armada por la agencia"
+          ]
+        },
+        {
+          "name": "Escapada corta",
+          "price_label": "Según el destino",
+          "body": "Para pocos días, con lo justo resuelto y sin vueltas.",
+          "items": [
+            "Días disponibles",
+            "Traslados a coordinar",
+            "Consulta por teléfono o WhatsApp"
+          ]
+        },
+        {
+          "name": "Viaje al exterior",
+          "price_label": "Se cotiza según el destino",
+          "body": "La agencia trabaja destinos fuera del país sobre lo que vos necesitás.",
+          "items": [
+            "Destino a definir",
+            "Documentación a consultar con la agencia",
+            "Seguimiento durante el viaje"
+          ]
+        }
+      ],
+      "gallery": [
+        {
+          "label": "Fachada",
+          "title": "La casona de calle 11",
+          "body": "Foto de la fachada verde con el cartel metálico de la agencia."
+        },
+        {
+          "label": "Hall",
+          "title": "El hall de entrada",
+          "body": "Foto del hall con el cartel azul y el avión amarillo de la marca."
+        },
+        {
+          "label": "Mostrador",
+          "title": "El piso ajedrezado",
+          "body": "Foto de la recepción, con el damero que da nombre a la dirección visual."
+        }
+      ],
+      "process": [
+        {
+          "step": "1",
+          "title": "Llamás o escribís",
+          "body": "Contás a dónde querés ir y con qué fechas."
+        },
+        {
+          "step": "2",
+          "title": "Te hacen las preguntas justas",
+          "body": "Cuántos viajan, qué buscan y qué ya tienen resuelto."
+        },
+        {
+          "step": "3",
+          "title": "Recibís la propuesta",
+          "body": "La agencia arma el viaje sobre esos datos."
+        },
+        {
+          "step": "4",
+          "title": "Viajás con respaldo",
+          "body": "Si algo se mueve en el camino, hay a quién consultarle."
+        }
+      ],
+      "final_cta": {
+        "title": "Contale a dónde querés ir",
+        "body": "La casona de calle 11 atiende de lunes a viernes de 9 a 16, por teléfono o WhatsApp.",
+        "primary_label": "Llamar al 0221 424-6300",
+        "secondary_label": "Escribir por WhatsApp"
+      }
+    },
+    "creative": {
+      "concept": "Una sitio clara para convertir una busqueda local en una consulta concreta. Direccion comercial para Clientes locales que necesitan entender el servicio, llamar y llegar sin friccion.",
+      "audience": "Clientes locales que necesitan entender el servicio, llamar y llegar sin friccion.",
+      "visual_direction": "Servicio local con jerarquia fuerte, datos arriba, pasos claros y tarjetas de accion.",
+      "layout": "mechanic-ledger",
+      "texture": "service-ledger",
+      "hero_angle": "Una sitio clara para convertir una busqueda local en una consulta concreta.",
+      "hero_cards": [
+        {
+          "label": "Prueba social",
+          "value": "4.6 / 5",
+          "note": "Dato verificado"
+        },
+        {
+          "label": "Rubro",
+          "value": "Travel Agency",
+          "note": "Base verificada"
+        },
+        {
+          "label": "Agenda",
+          "value": "Lunes a Viernes; Sabado, Domingo cerrado",
+          "note": "Dato verificado"
+        },
+        {
+          "label": "Contacto",
+          "value": "Telefono directo",
+          "note": "0221 424-6300"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Servicios",
+          "title": "Datos claros para decidir",
+          "body": "El sitio ordena datos publicos relevantes y deja como a confirmar cualquier dato comercial no verificado.",
+          "items": [
+            {
+              "label": "Servicio",
+              "value": "viajes a medida a destinos de Argentina y el exterior",
+              "note": "El servicio principal se muestra sin agregar prestaciones no verificadas."
+            },
+            {
+              "label": "Contacto",
+              "value": "Consulta directa",
+              "note": "Telefono, direccion y horario se ordenan para reducir friccion."
+            },
+            {
+              "label": "Prueba",
+              "value": "Referencias publicas",
+              "note": "Rating y resenas reales sostienen la decision."
+            }
+          ]
+        },
+        {
+          "type": "process",
+          "eyebrow": "Proceso",
+          "title": "De consulta a turno sin perder contexto",
+          "body": "El usuario entiende que informacion enviar, que se confirma y como avanzar.",
+          "items": [
+            {
+              "label": "01",
+              "value": "Contar la necesidad",
+              "note": "El visitante consulta el servicio principal."
+            },
+            {
+              "label": "02",
+              "value": "Confirmar disponibilidad",
+              "note": "El negocio valida horario, alcance y datos."
+            },
+            {
+              "label": "03",
+              "value": "Coordinar visita",
+              "note": "Direccion y contacto quedan visibles."
+            }
+          ]
+        },
+        {
+          "type": "metric-grid",
+          "eyebrow": "Confianza",
+          "title": "Datos reales arriba, informacion a confirmar separada",
+          "body": "El sitio combina fuentes verificadas con opciones comerciales que se completan antes de publicar.",
+          "items": [
+            {
+              "label": "Prueba social",
+              "value": "4.6 / 5",
+              "note": "60 resenas registradas en las fuentes disponibles."
+            },
+            {
+              "label": "Rubro",
+              "value": "Travel Agency",
+              "note": "El sitio debe vender el servicio principal sin sumar prestaciones no confirmadas."
+            },
+            {
+              "label": "Agenda",
+              "value": "Lunes a Viernes; Sabado, Domingo cerrado",
+              "note": "Horario publicado para orientar la primera consulta."
+            },
+            {
+              "label": "Contacto",
+              "value": "Telefono directo",
+              "note": "CTA preparado para llamar desde el celular sin buscar el dato en otro lado."
+            }
+          ]
+        },
+        {
+          "type": "material-story",
+          "eyebrow": "Direccion visual",
+          "title": "El sitio se apoya en imagen real y escenas seguras de contexto.",
+          "body": "Cuando los datos o fotos son pobres, la composicion puede sumar atmosfera, textura y proceso sin atribuir esos recursos al negocio.",
+          "items": [
+            {
+              "label": "Foto real",
+              "value": "Usar como prueba",
+              "note": "Priorizar la mejor imagen publica disponible."
+            },
+            {
+              "label": "Apoyo visual",
+              "value": "Poblar contexto",
+              "note": "Herramientas, material, mostrador o proceso sin marcas falsas."
+            },
+            {
+              "label": "Cliente",
+              "value": "Siguiente paso claro",
+              "note": "Consultar"
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Accion",
+          "title": "Tienda de Viajes: el proximo paso es simple",
+          "body": "Llama, confirma disponibilidad y lleva el auto con el dato clave ya resuelto: travel agency, direccion y horario.",
+          "items": [
+            {
+              "label": "CTA",
+              "value": "Consultar",
+              "note": "0221 424-6300"
+            },
+            {
+              "label": "Ubicacion",
+              "value": "C. 11 769 e 47 y 48, B1900 La Plata, Provincia de Buenos Aires, Argentina"
+            },
+            {
+              "label": "Horario",
+              "value": "Lunes a Viernes; Sabado, Domingo cerrado"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/agencias-viajes-ar/tienda-de-viajes",
+      "notes": "Dirección 'Casona platense de damero': yeso verdoso, tinta azul, salvia y el amarillo del avión solo en el CTA, con damero SVG. Prata + Alegreya Sans. Template service-diagnostic."
+    }
+  }
+}

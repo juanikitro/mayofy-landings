@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="es-AR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <title>Estudio Biodent Odontologia Tandil - Dra Valeria Guzzanti</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #171713;
+        --muted: #67675d;
+        --line: #d8d2c3;
+        --canvas: #f6f3ea;
+        --surface: #fffdf7;
+        --accent: #b6402c;
+        --accent-2: #1f6c66;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background:
+          linear-gradient(120deg, rgba(182, 64, 44, 0.11), transparent 34%),
+          linear-gradient(300deg, rgba(31, 108, 102, 0.12), transparent 38%),
+          repeating-linear-gradient(90deg, rgba(23, 23, 19, 0.045), rgba(23, 23, 19, 0.045) 1px, transparent 1px, transparent 54px),
+          var(--canvas);
+        color: var(--ink);
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+      main { width: min(1180px, calc(100% - 32px)); margin: 0 auto; padding: 36px 0 56px; }
+      a { color: inherit; }
+      .topbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+        margin-bottom: 30px;
+      }
+      .brand { font-weight: 900; letter-spacing: 0.08em; text-transform: uppercase; font-size: 0.76rem; color: var(--muted); }
+      h1 { margin: 0; max-width: 880px; font-size: clamp(2.25rem, 6vw, 5.9rem); line-height: 0.95; letter-spacing: 0; }
+      h2 { margin: 0; font-size: clamp(1.35rem, 3vw, 2.45rem); line-height: 1.02; letter-spacing: 0; }
+      h3 { margin: 22px 0 8px; font-size: 1rem; }
+      p { line-height: 1.55; }
+      .lead { max-width: 650px; color: var(--muted); font-size: 1.03rem; }
+      .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-top: 26px; }
+      .card {
+        display: grid;
+        min-height: 190px;
+        grid-template-rows: auto 1fr auto;
+        gap: 18px;
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: color-mix(in srgb, var(--surface) 94%, transparent);
+        text-decoration: none;
+        box-shadow: 0 1px 0 rgba(23, 23, 19, 0.04);
+      }
+      a.card:hover { border-color: var(--accent); box-shadow: 0 16px 36px rgba(23, 23, 19, 0.12); transform: translateY(-2px); }
+      .meta { display: flex; flex-wrap: wrap; gap: 8px; color: var(--muted); font-size: 0.82rem; font-weight: 760; }
+      .pill { border: 1px solid var(--line); border-radius: 999px; padding: 5px 8px; background: #ffffffa8; }
+      .links { display: flex; flex-wrap: wrap; gap: 10px; }
+      .button,
+      .logout {
+        appearance: none;
+        border: 1px solid var(--ink);
+        border-radius: 999px;
+        background: var(--ink);
+        color: white;
+        padding: 10px 14px;
+        font: inherit;
+        font-weight: 800;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .button.secondary { background: transparent; color: var(--ink); border-color: var(--line); }
+      .message-actions { margin: 8px 0 10px; }
+      .section {
+        margin-top: 18px;
+        padding: 20px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--surface);
+      }
+      .login-shell {
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 24px;
+      }
+      .login {
+        width: min(440px, 100%);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--surface);
+        padding: 24px;
+        box-shadow: 0 24px 70px rgba(23, 23, 19, 0.13);
+      }
+      label { display: block; margin: 14px 0 6px; color: var(--muted); font-weight: 800; font-size: 0.84rem; }
+      input {
+        width: 100%;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: white;
+        padding: 12px;
+        font: inherit;
+      }
+      .error { min-height: 22px; color: var(--accent); font-weight: 800; }
+      pre { white-space: pre-wrap; font: inherit; background: #f1eee4; border-radius: 6px; padding: 12px; overflow: auto; }
+      ul { padding-left: 21px; }
+      li { margin: 6px 0; }
+      @media (max-width: 860px) {
+        .grid { grid-template-columns: 1fr; }
+        .topbar { align-items: flex-start; }
+      }
+    </style>
+  </head>
+  <body><script>
+(() => {
+  if (localStorage.getItem("ia-landing-generator.catalog-auth") !== "ok") {
+    location.replace("/");
+  }
+})();
+</script><main>
+      <div class="topbar"><a class="button secondary" href="/catalog/tandil/">Volver</a><button class="logout" type="button" onclick="localStorage.removeItem("ia-landing-generator.catalog-auth");location.href='/'">Salir</button></div>
+      <h1>Biodent Odontologia Tandil - Dra Valeria Guzzanti</h1>
+      <section class="section">
+        <h2>Mensajes de outreach</h2>
+        <h3>Mensaje inicial</h3>
+    <div class="links message-actions">
+      <button class="button secondary" type="button" data-message="Hola%2C%20espero%20te%20encuentres%20muy%20bien!%20Soy%20Juani%2C%20programador%20de%20Mayofy.%0A%0AEstuve%20viendo%20Biodent%20Odontologia%20Tandil%20-%20Dra%20Valeria%20Guzzanti%20y%20me%20llam%C3%B3%20la%20atenci%C3%B3n%20la%20propuesta%20de%20clinica%20odontologica%20que%20ofrecen.%20Not%C3%A9%20que%20hoy%20la%20informaci%C3%B3n%20del%20negocio%20est%C3%A1%20principalmente%20en%20Google%2C%20as%C3%AD%20que%20arm%C3%A9%20una%20demo%20de%20sitio%20web%20para%20mostrar%20c%C3%B3mo%20podr%C3%ADan%20reunir%20todo%20en%20un%20solo%20lugar%20con%20personalidad%20y%20facilitar%20las%20consultas%20de%20nuevos%20clientes.%0A%0ALa%20p%C3%A1gina%20incluye%20sus%20servicios%2C%20trabajos%20realizados%2C%20rese%C3%B1as%2C%20ubicaci%C3%B3n%2C%20horarios%20y%20accesos%20directos%20a%20WhatsApp%20e%20Instagram.%0A%0ALa%20prepar%C3%A9%20usando%20informaci%C3%B3n%20p%C3%BAblica%20como%20punto%20de%20partida.%20Es%20una%20propuesta%20inicial%20y%20se%20puede%20personalizar%20por%20completo%3A%20im%C3%A1genes%2C%20textos%2C%20colores%2C%20secciones%20y%20dise%C3%B1o.%0A%0AJunto%20con%20este%20mensaje%20les%20env%C3%ADo%20una%20captura%20de%20la%20p%C3%A1gina%20para%20que%20puedan%20verla%20r%C3%A1pidamente.%0A%0APueden%20verla%20ac%C3%A1%3A%0Ahttps%3A%2F%2Fmayofy-landings.vercel.app%2Ftandil%2Fbiodent-odontologia-tandil-dra-valeria-guzzanti%2F%0A%0ATambi%C3%A9n%20pueden%20conocer%20algunos%20de%20nuestros%20trabajos%20en%3A%0Ahttps%3A%2F%2Fmayofy.vercel.app%0A%0ALa%20demo%20es%20sin%20compromiso.%20Si%20les%20interesa%20la%20idea%2C%20podemos%20coordinar%20una%20llamada%20breve%20para%20revisar%20qu%C3%A9%20cambiar%C3%ADan%20y%20contarles%20c%C3%B3mo%20ser%C3%ADa%20adaptarla%20y%20dejarla%20publicada.%0A%0ADesde%20ya%20gracias%20por%20su%20tiempo%20y%20quedo%20a%20disposici%C3%B3n%20por%20cualquier%20duda.%20Abrazo!" onclick="const text=decodeURIComponent(this.dataset.message);if(navigator.clipboard){navigator.clipboard.writeText(text).then(()=>{this.textContent='Copiado'}).catch(()=>window.prompt('Copiá el mensaje:',text));}else{window.prompt('Copiá el mensaje:',text);}">Copiar</button>
+      <a class="button" href="https://wa.me/542494369999?text=Hola%2C%20espero%20te%20encuentres%20muy%20bien!%20Soy%20Juani%2C%20programador%20de%20Mayofy.%0A%0AEstuve%20viendo%20Biodent%20Odontologia%20Tandil%20-%20Dra%20Valeria%20Guzzanti%20y%20me%20llam%C3%B3%20la%20atenci%C3%B3n%20la%20propuesta%20de%20clinica%20odontologica%20que%20ofrecen.%20Not%C3%A9%20que%20hoy%20la%20informaci%C3%B3n%20del%20negocio%20est%C3%A1%20principalmente%20en%20Google%2C%20as%C3%AD%20que%20arm%C3%A9%20una%20demo%20de%20sitio%20web%20para%20mostrar%20c%C3%B3mo%20podr%C3%ADan%20reunir%20todo%20en%20un%20solo%20lugar%20con%20personalidad%20y%20facilitar%20las%20consultas%20de%20nuevos%20clientes.%0A%0ALa%20p%C3%A1gina%20incluye%20sus%20servicios%2C%20trabajos%20realizados%2C%20rese%C3%B1as%2C%20ubicaci%C3%B3n%2C%20horarios%20y%20accesos%20directos%20a%20WhatsApp%20e%20Instagram.%0A%0ALa%20prepar%C3%A9%20usando%20informaci%C3%B3n%20p%C3%BAblica%20como%20punto%20de%20partida.%20Es%20una%20propuesta%20inicial%20y%20se%20puede%20personalizar%20por%20completo%3A%20im%C3%A1genes%2C%20textos%2C%20colores%2C%20secciones%20y%20dise%C3%B1o.%0A%0AJunto%20con%20este%20mensaje%20les%20env%C3%ADo%20una%20captura%20de%20la%20p%C3%A1gina%20para%20que%20puedan%20verla%20r%C3%A1pidamente.%0A%0APueden%20verla%20ac%C3%A1%3A%0Ahttps%3A%2F%2Fmayofy-landings.vercel.app%2Ftandil%2Fbiodent-odontologia-tandil-dra-valeria-guzzanti%2F%0A%0ATambi%C3%A9n%20pueden%20conocer%20algunos%20de%20nuestros%20trabajos%20en%3A%0Ahttps%3A%2F%2Fmayofy.vercel.app%0A%0ALa%20demo%20es%20sin%20compromiso.%20Si%20les%20interesa%20la%20idea%2C%20podemos%20coordinar%20una%20llamada%20breve%20para%20revisar%20qu%C3%A9%20cambiar%C3%ADan%20y%20contarles%20c%C3%B3mo%20ser%C3%ADa%20adaptarla%20y%20dejarla%20publicada.%0A%0ADesde%20ya%20gracias%20por%20su%20tiempo%20y%20quedo%20a%20disposici%C3%B3n%20por%20cualquier%20duda.%20Abrazo!" target="_blank" rel="noopener">Abrir WhatsApp</a>
+    </div>
+    <pre>Hola, espero te encuentres muy bien! Soy Juani, programador de Mayofy.
+
+Estuve viendo Biodent Odontologia Tandil - Dra Valeria Guzzanti y me llamó la atención la propuesta de clinica odontologica que ofrecen. Noté que hoy la información del negocio está principalmente en Google, así que armé una demo de sitio web para mostrar cómo podrían reunir todo en un solo lugar con personalidad y facilitar las consultas de nuevos clientes.
+
+La página incluye sus servicios, trabajos realizados, reseñas, ubicación, horarios y accesos directos a WhatsApp e Instagram.
+
+La preparé usando información pública como punto de partida. Es una propuesta inicial y se puede personalizar por completo: imágenes, textos, colores, secciones y diseño.
+
+Junto con este mensaje les envío una captura de la página para que puedan verla rápidamente.
+
+Pueden verla acá:
+https://mayofy-landings.vercel.app/tandil/biodent-odontologia-tandil-dra-valeria-guzzanti/
+
+También pueden conocer algunos de nuestros trabajos en:
+https://mayofy.vercel.app
+
+La demo es sin compromiso. Si les interesa la idea, podemos coordinar una llamada breve para revisar qué cambiarían y contarles cómo sería adaptarla y dejarla publicada.
+
+Desde ya gracias por su tiempo y quedo a disposición por cualquier duda. Abrazo!</pre>
+        <h3>Follow-up 24h</h3>
+    <div class="links message-actions">
+      <button class="button secondary" type="button" data-message="Hola%2C%20%C2%BFc%C3%B3mo%20est%C3%A1n%3F%20Les%20escribo%20por%20la%20demo%20que%20les%20envi%C3%A9%20ayer%20para%20Biodent%20Odontologia%20Tandil%20-%20Dra%20Valeria%20Guzzanti.%20%C2%BFPudieron%20verla%3F%20Me%20interesa%20saber%20qu%C3%A9%20les%20pareci%C3%B3." onclick="const text=decodeURIComponent(this.dataset.message);if(navigator.clipboard){navigator.clipboard.writeText(text).then(()=>{this.textContent='Copiado'}).catch(()=>window.prompt('Copiá el mensaje:',text));}else{window.prompt('Copiá el mensaje:',text);}">Copiar</button>
+      <a class="button" href="https://wa.me/542494369999?text=Hola%2C%20%C2%BFc%C3%B3mo%20est%C3%A1n%3F%20Les%20escribo%20por%20la%20demo%20que%20les%20envi%C3%A9%20ayer%20para%20Biodent%20Odontologia%20Tandil%20-%20Dra%20Valeria%20Guzzanti.%20%C2%BFPudieron%20verla%3F%20Me%20interesa%20saber%20qu%C3%A9%20les%20pareci%C3%B3." target="_blank" rel="noopener">Abrir WhatsApp</a>
+    </div>
+    <pre>Hola, ¿cómo están? Les escribo por la demo que les envié ayer para Biodent Odontologia Tandil - Dra Valeria Guzzanti. ¿Pudieron verla? Me interesa saber qué les pareció.</pre>
+        <h3>Follow-up 48h</h3>
+    <div class="links message-actions">
+      <button class="button secondary" type="button" data-message="Hola%2C%20cierro%20por%20ac%C3%A1%20para%20no%20insistir.%20La%20demo%20queda%20disponible%20en%20https%3A%2F%2Fmayofy-landings.vercel.app%2Ftandil%2Fbiodent-odontologia-tandil-dra-valeria-guzzanti%2F.%20Si%20m%C3%A1s%20adelante%20les%20interesa%20adaptarla%20y%20publicarla%2C%20quedo%20a%20disposici%C3%B3n.%20Saludos%2C%20Juani." onclick="const text=decodeURIComponent(this.dataset.message);if(navigator.clipboard){navigator.clipboard.writeText(text).then(()=>{this.textContent='Copiado'}).catch(()=>window.prompt('Copiá el mensaje:',text));}else{window.prompt('Copiá el mensaje:',text);}">Copiar</button>
+      <a class="button" href="https://wa.me/542494369999?text=Hola%2C%20cierro%20por%20ac%C3%A1%20para%20no%20insistir.%20La%20demo%20queda%20disponible%20en%20https%3A%2F%2Fmayofy-landings.vercel.app%2Ftandil%2Fbiodent-odontologia-tandil-dra-valeria-guzzanti%2F.%20Si%20m%C3%A1s%20adelante%20les%20interesa%20adaptarla%20y%20publicarla%2C%20quedo%20a%20disposici%C3%B3n.%20Saludos%2C%20Juani." target="_blank" rel="noopener">Abrir WhatsApp</a>
+    </div>
+    <pre>Hola, cierro por acá para no insistir. La demo queda disponible en https://mayofy-landings.vercel.app/tandil/biodent-odontologia-tandil-dra-valeria-guzzanti/. Si más adelante les interesa adaptarla y publicarla, quedo a disposición. Saludos, Juani.</pre>
+      </section>
+      <section class="section">
+        <h2>Lead score</h2>
+        <p>Prioridad: 10</p>
+        <p>Probabilidad de contacto: medium - Oportunidad: high</p>
+        <h3>Motivos</h3><ul><li>No tiene sitio propio registrado en los datos disponibles.</li><li>Rating fuerte: 5.0 sobre 5.</li><li>Volumen util de reseñas: 39.</li><li>Contacto directo confiable: Teléfono.</li></ul>
+        <h3>Riesgos</h3><ul><li>Sin Instagram ni WhatsApp verificado; el primer contacto puede sentirse mas frio.</li></ul>
+      </section>
+      <section class="section">
+        <h2>Mini auditoria comercial</h2>
+        <p><strong>Problema que resuelve:</strong> Reune señales publicas y contacto en una experiencia clara para pedir informacion o coordinar.</p>
+        <p><strong>Angulo de oferta:</strong> La muestra ya ordena la informacion publica; la venta es dejarla lista para publicar con datos propios, canal confirmado y medicion de consultas por Biodent Odontologia Tandil - Dra Valeria Guzzanti.</p>
+        <h3>Senales usadas</h3><ul><li>Rating 5.0 con 39 reseñas.</li><li>Direccion publicada: Montevideo 1475, B7000 Tandil, Provincia de Buenos Aires, Argentina.</li><li>Telefono publicado: 0249 436-9999.</li><li>Reseña usada como señal: &quot;I was travelling in Argentina and a filling fell out and was causing me grief. I called this local dentist in Tandil and...&quot;</li><li>Reseña usada como señal: &quot;Excellent professional service! The most beautiful and peaceful experience I ever had in a dental clinic!&quot;</li></ul>
+      </section>
+      <section class="section">
+        <h2>Contacto</h2>
+        <ul><li><a href="tel:+542494369999">Teléfono: 0249 436-9999</a></li></ul>
+      </section>
+      <section class="section">
+        <h2>Referencias de precios en Argentina</h2>
+        <p>Relevamiento comercial de julio de 2026 para contextualizar la propuesta; no reemplaza la cotizacion final segun alcance.</p>
+        <ul>
+          <li><strong>Landing express o basada en plantilla:</strong> AR$ 90.000 a AR$ 200.000.</li>
+          <li><strong>Landing profesional para un negocio:</strong> AR$ 200.000 a AR$ 500.000.</li>
+          <li><strong>Landing a medida con integraciones, metricas o automatizaciones:</strong> desde AR$ 500.000.</li>
+        </ul>
+      </section>
+      <section class="section">
+        <h2>Objeciones</h2>
+        <p><strong>Ya tengo Instagram</strong><br>Perfecto. La landing no reemplaza Instagram: sirve para mandar a una persona interesada a un lugar con servicios, reseñas, ubicacion y boton de consulta sin que tenga que revisar publicaciones.</p><p><strong>No necesito web</strong><br>Puede ser. La idea no es una web grande, sino una pagina corta para convertir mejor a quien ya te busca o te pide informacion por mensaje.</p><p><strong>Cuanto sale</strong><br>La version lista para publicar queda en [PRECIO]. Incluye ajustes de texto, fotos, boton de contacto, dominio/hosting basico si hace falta y revision final con ustedes.</p><p><strong>Lo veo despues</strong><br>Dale. Te dejo el link para que lo veas cuando puedas; si te cierra, lo ajustamos con tus fotos y datos reales antes de publicarlo.</p>
+      </section>
+      <section class="section">
+        <h2>Mejoras sugeridas</h2>
+        <ul><li>Boton de WhatsApp real con mensaje prearmado.</li><li>Dominio propio o URL corta para compartir.</li><li>SEO local basico: rubro, ciudad, direccion y datos estructurados.</li><li>Medicion basica de consultas con Analytics o eventos de click.</li><li>Galeria real con fotos del local, trabajos o productos.</li><li>Revision final de copy con el dueño para confirmar servicios y tono.</li></ul>
+      </section>
+      <section class="section">
+        <h2>Datos a pedir</h2>
+        <ul><li>Confirmar si el telefono publicado tambien recibe WhatsApp.</li><li>WhatsApp confirmado y nombre de quien responde consultas.</li><li>Logo o marca actual si existe.</li><li>Fotos propias autorizadas para publicar.</li><li>Lista real de servicios y limites de lo que no quieren prometer.</li><li>Horario final, zona de atencion y direccion revisada.</li><li>Dominio deseado o nombre corto para publicar.</li></ul>
+      </section>
+    </main></body>
+</html>

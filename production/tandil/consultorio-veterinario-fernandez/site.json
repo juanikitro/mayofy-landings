@@ -1,0 +1,176 @@
+{
+  "id": "google-ChIJk1ED8JMfkZUR4cft0k-WAYU",
+  "name": "Consultorio Veterinario Fernandez",
+  "slug": "consultorio-veterinario-fernandez",
+  "archetype": "bold-hero-photo",
+  "palette": {
+    "dominant": "#111111",
+    "accent": "#ffbf1f",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "Oswald",
+    "secondary": "Atkinson Hyperlegible"
+  },
+  "hero_image": {
+    "heroSrc": "./index.html",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJk1ED8JMfkZUR4cft0k-WAYU",
+    "slug": "consultorio-veterinario-fernandez",
+    "visual_mood": "neighborhood-direct",
+    "composition": "photo-board",
+    "headline": "Consultorio Veterinario Fernández: la vocación por tu mascota que Tandil conoce hace años",
+    "subheadline": "Atención veterinaria en Gral. Paz 542, con 4.9 sobre 5 en 165 reseñas de familias tandilenses.",
+    "primary_cta": "Llamar al 0249 444-4777",
+    "secondary_cta": "Ver dirección en Gral. Paz 542",
+    "service_tags": [
+      "Consultas veterinarias",
+      "Atención de urgencias",
+      "Vacunación y desparasitación",
+      "Seguimiento de tratamientos"
+    ],
+    "proof_points": [
+      "4.9 sobre 5 en 165 reseñas de Google",
+      "Gral. Paz 542, Tandil",
+      "Lunes a viernes de 10:30 a 12:30 y de 17 a 20:30, sábados de 10:30 a 14",
+      "\"Se nota la pasión que ponen en su trabajo, su compromiso y la verdadera vocación que tienen por cuidar a nuestros peluditos\" — Simon Salagoity"
+    ],
+    "resource_title": "Antes de tu visita",
+    "resource_items": [
+      "Llamá para coordinar turno, sobre todo fuera del horario de atención.",
+      "Horario partido: mañana de 10:30 a 12:30 y tarde de 17 a 20:30.",
+      "Sábados atención solo por la mañana, domingos cerrado."
+    ],
+    "review_heading": "Lo que cuentan las familias de sus mascotas",
+    "contact_heading": "Llamá para pedir turno",
+    "image_prompt": "Consultorio veterinario cálido con una mascota en recuperación descansando cómoda, luz suave de tarde, ambiente doméstico y de confianza.",
+    "design_notes": "Sala de espera en la tarde: tonos crema y terracota suave, verde salvia como acento de cuidado. Bricolage Grotesque + Lora, calidez sin caer en lo infantil.",
+    "conversion_template": "editorial-local-story",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Consultorio veterinario de barrio en Tandil, con años de trayectoria, que convierte la preocupación por una mascota en un llamado para pedir turno.",
+      "visual_thesis": "Sala de espera en la tarde: la foto real de una mascota tranquila y en confianza marca el tono cálido de toda la página. Display Bricolage Grotesque con carácter propio pero legible, cuerpo Lora serif cálido. Paleta crema, terracota suave y verde salvia como acento de cuidado en el CTA.",
+      "copy_voice": "Español argentino cálido y humano, apoyado en las reseñas que hablan de vocación y trato, sin exagerar promesas médicas.",
+      "layout_signature": "Template editorial-local-story: hero narrativo con la foto real de la mascota, historia breve de trayectoria del consultorio, franja de reseñas emotivas, servicios de consulta y contacto final con horario partido bien visible.",
+      "asset_plan": "Foto real de la mascota (foto-1) como imagen central del hero; foto-2 y foto-3 como fotos de acompañamiento con captions; textura suave tipo ondas en CSS como fondo de sección, sin stock externo.",
+      "ai_fill_plan": {
+        "copy": [
+          "Microcopy emotivo derivado de las reseñas que hablan de vocación y acompañamiento",
+          "Encabezados de sección como 'Consultas veterinarias' sin inventar especialidades ni servicios no verificados"
+        ],
+        "imagery": [
+          "Textura de ondas suaves en CSS como fondo",
+          "Silueta de huella en SVG de línea como motivo decorativo puntual"
+        ],
+        "boundaries": [
+          "No usar la reseña negativa sobre precios de desparasitación como prueba social",
+          "No inventar especialidades médicas, cirugías ni equipamiento no verificado",
+          "No inventar precios de consulta ni de tratamientos"
+        ]
+      },
+      "anti_patterns": [
+        "Fuentes genéricas como Inter, Roboto o Arial",
+        "Gradiente violeta sobre blanco",
+        "Tono infantil o caricaturesco con patitas de colores",
+        "Fotos de stock de veterinarias en vez de la foto real de la mascota"
+      ],
+      "rewrite_targets": [
+        "El teléfono para pedir turno tiene que estar arriba del fold",
+        "El horario partido debe quedar claro para no llegar fuera de atención",
+        "Las reseñas emotivas reales tienen que sostener el ángulo de vocación, no un claim genérico"
+      ]
+    },
+    "creative": {
+      "concept": "El consultorio veterinario de Tandil donde tu mascota es paciente de confianza hace años.",
+      "audience": "Familias de Tandil que buscan un veterinario de barrio confiable para consultas, urgencias y seguimiento de sus mascotas.",
+      "visual_direction": "Foto real de mascota en confianza, tonos cálidos crema y terracota, verde salvia como acento de cuidado.",
+      "layout": "wash-flow",
+      "texture": "water-ripple",
+      "hero_angle": "Consultorio veterinario en Tandil con 4.9 sobre 5 en 165 reseñas y años de trayectoria en el barrio.",
+      "hero_cards": [
+        {
+          "label": "Reseñas",
+          "value": "4.9★ en 165 opiniones",
+          "note": "Perfil público de Google"
+        },
+        {
+          "label": "Dirección",
+          "value": "Gral. Paz 542, Tandil"
+        },
+        {
+          "label": "Contacto",
+          "value": "0249 444-4777"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Atención veterinaria",
+          "title": "Cuidado y seguimiento para tu mascota",
+          "body": "Consultas, vacunación, desparasitación y acompañamiento en los momentos difíciles.",
+          "items": [
+            {
+              "label": "Consultas generales",
+              "value": "Atención de lunes a sábado"
+            },
+            {
+              "label": "Vacunación",
+              "value": "Esquemas de prevención"
+            },
+            {
+              "label": "Urgencias",
+              "value": "Coordinadas por teléfono"
+            },
+            {
+              "label": "Seguimiento",
+              "value": "Acompañamiento en tratamientos"
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Familias de Tandil",
+          "title": "Vocación que se nota",
+          "body": "Lo que cuentan quienes confían hace años en este consultorio.",
+          "items": [
+            {
+              "label": "Simon Salagoity",
+              "value": "La atención de Tati y Gisela es simplemente excelente. Se nota la pasión que ponen en su trabajo, su compromiso y la verdadera vocación que tienen por cuidar a nuestros peluditos."
+            },
+            {
+              "label": "Lore Bértolo",
+              "value": "Son gente increible, mucha humanidad!! Mi gatita ya recuperandose y feliz de que ellos la tengan como paciente de ahora en mas!!!"
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Pedir turno",
+          "title": "Llamá para coordinar tu visita",
+          "body": "Teléfono directo y horario partido bien claro.",
+          "items": [
+            {
+              "label": "Llamar",
+              "value": "0249 444-4777"
+            },
+            {
+              "label": "Ir al consultorio",
+              "value": "Gral. Paz 542, Tandil"
+            },
+            {
+              "label": "Horario",
+              "value": "Lunes a viernes 10:30 a 12:30 y 17 a 20:30"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/tandil/consultorio-veterinario-fernandez",
+      "notes": "Sala de espera en la tarde: foto real de la mascota como hero, Bricolage Grotesque + Lora, ondas suaves en CSS, verde salvia de acento."
+    }
+  }
+}

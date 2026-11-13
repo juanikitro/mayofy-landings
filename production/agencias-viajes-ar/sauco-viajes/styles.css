@@ -1,0 +1,408 @@
+/* ═══════════════════════════════════════════════════════════════
+   Sauco Viajes · "Cartel de globo de diálogo"
+   El sistema sale de los carteles impresos que el propio grupo
+   levanta en sus fotos: lila y celeste sobre papel blanco frío.
+   El globo de diálogo es el contenedor, no un adorno.
+   ═══════════════════════════════════════════════════════════════ */
+
+:root {
+  --papel: #f6f4f8;
+  --papel-2: #eeeaf3;
+  --tinta: #211c2e;
+  --tinta-2: #4b4459;
+  --lila: #6b54a6;
+  --lila-2: #5a4590;
+  --lila-claro: #cabde9;
+  --celeste: #7cc3e0;
+  --celeste-hondo: #1d6f8f;
+  --cobre: #a8431f;
+
+  --disp: "Anybody", "Arial Narrow", sans-serif;
+  --body: "Asap", "Trebuchet MS", sans-serif;
+
+  --pad: 1.35rem;
+  --band: 3.6rem;
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@media (min-width: 700px) { :root { --pad: 2.6rem; --band: 5rem; } }
+@media (min-width: 1080px) { :root { --pad: 4.4rem; --band: 6.4rem; } }
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+
+body.sco {
+  margin: 0;
+  background: var(--papel);
+  color: var(--tinta);
+  font-family: var(--body);
+  font-size: 1.06rem;
+  line-height: 1.62;
+}
+
+img { max-width: 100%; display: block; }
+a { color: inherit; }
+
+h1, h2, h3 {
+  font-family: var(--disp);
+  font-weight: 900;
+  font-stretch: 118%;
+  line-height: 0.98;
+  letter-spacing: -0.025em;
+  text-wrap: balance;
+  margin: 0;
+}
+
+:focus-visible { outline: 3px solid var(--cobre); outline-offset: 3px; }
+
+.sco-skip {
+  position: absolute; left: -9999px; top: 0;
+  background: var(--cobre); color: #fff;
+  padding: 0.7rem 1.1rem; font-family: var(--disp); font-weight: 700;
+  z-index: 99;
+}
+.sco-skip:focus { left: 0.6rem; top: 0.6rem; }
+
+/* ── Mástil ─────────────────────────────────────────────── */
+.sco-mast {
+  position: sticky; top: 0; z-index: 50;
+  display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+  padding: 0.7rem var(--pad);
+  background: rgba(246, 244, 248, 0.94);
+  backdrop-filter: blur(6px);
+  border-bottom: 2px solid var(--lila);
+}
+.sco-mast__brand {
+  font-family: var(--disp); font-weight: 800; font-stretch: 118%;
+  font-size: 1.06rem; letter-spacing: -0.01em; color: var(--lila);
+}
+.sco-mast__call {
+  font-family: var(--disp); font-weight: 700; font-size: 0.9rem;
+  text-decoration: none; color: #fff; background: var(--cobre);
+  padding: 0.5rem 1.1rem; border-radius: 999px;
+}
+
+/* ── Hero ───────────────────────────────────────────────── */
+.sco-hero {
+  display: grid;
+  gap: 2.4rem;
+  align-items: center;
+  padding: var(--band) var(--pad);
+}
+@media (min-width: 940px) {
+  .sco-hero { grid-template-columns: 1.02fr 0.98fr; gap: 3.4rem; }
+}
+
+.sco-over {
+  margin: 0 0 1.4rem;
+  font-family: var(--disp); font-weight: 700; font-size: 1rem;
+  color: var(--lila-2);
+}
+
+/* el globo: contenedor con cola */
+.sco-bubble {
+  position: relative;
+  background: var(--lila);
+  color: #fff;
+  border-radius: 26px;
+  padding: 1.7rem;
+}
+.sco-bubble::after {
+  content: "";
+  position: absolute;
+  left: 2.6rem;
+  bottom: -20px;
+  width: 34px; height: 24px;
+  background: inherit;
+  clip-path: polygon(0 0, 100% 0, 22% 100%);
+}
+.sco-bubble--hero { padding: 1.9rem 1.8rem 2.1rem; }
+.sco-bubble--hero h1 {
+  font-size: 2.55rem;
+  color: #fff;
+}
+
+.sco-lead {
+  margin: 2.6rem 0 0;
+  max-width: 34rem;
+  font-size: 1.16rem;
+  line-height: 1.62;
+  color: var(--tinta-2);
+  text-wrap: pretty;
+}
+
+.sco-chips { display: flex; flex-wrap: wrap; gap: 0.8rem; margin: 1.6rem 0 0; }
+.sco-chip {
+  margin: 0;
+  border-radius: 999px;
+  padding: 0.7rem 1.25rem;
+  font-size: 0.98rem;
+  line-height: 1.5;
+}
+.sco-chip--score { background: var(--celeste); color: #10333f; }
+.sco-chip--score strong {
+  font-family: var(--disp); font-weight: 900; font-size: 1.5rem;
+  letter-spacing: -0.03em; margin-right: 0.35rem;
+}
+.sco-chip--hours { background: var(--papel-2); color: var(--tinta); border: 2px solid var(--lila-claro); }
+.sco-chip--hours span { display: block; color: var(--tinta-2); font-size: 0.94rem; }
+
+.sco-acts { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 1.9rem; }
+.sco-hot, .sco-cool {
+  font-family: var(--disp); font-weight: 700; font-size: 1.04rem;
+  text-decoration: none; padding: 1rem 1.6rem; border-radius: 999px;
+  transition: transform 0.35s var(--ease), background-color 0.35s var(--ease);
+}
+.sco-hot { background: var(--cobre); color: #fff; box-shadow: 0 12px 26px rgba(33, 28, 46, 0.18); }
+.sco-hot:hover { background: #8f3818; transform: translateY(-2px); }
+.sco-cool { background: transparent; color: var(--lila-2); border: 2px solid var(--lila); }
+.sco-cool:hover { background: var(--lila); color: #fff; }
+
+.sco-hero__fig { margin: 0; }
+.sco-hero__fig img {
+  width: 100%;
+  height: clamp(250px, 42vw, 470px);
+  object-fit: cover;
+  border-radius: 20px;
+  border: 8px solid #fff;
+  box-shadow: 0 22px 44px rgba(33, 28, 46, 0.18);
+  transform: rotate(1.1deg);
+}
+.sco-hero__fig figcaption {
+  margin-top: 1.1rem; font-size: 0.94rem; color: var(--tinta-2);
+}
+
+/* ── Franja del grupo ───────────────────────────────────── */
+.sco-band {
+  position: relative;
+  background: var(--lila);
+  color: #fff;
+  padding: var(--band) var(--pad);
+}
+.sco-band__in { max-width: 40rem; margin-bottom: 2.4rem; }
+.sco-band h2 { font-size: 1.95rem; color: #fff; }
+.sco-band__in p { margin: 1.1rem 0 0; color: #fff; }
+.sco-band__fig { margin: 0; max-width: 44rem; }
+.sco-band__fig img {
+  width: 100%;
+  height: clamp(280px, 46vw, 520px);
+  object-fit: cover;
+  object-position: 50% 30%;
+  border-radius: 18px;
+  border: 8px solid #fff;
+}
+.sco-band__fig figcaption { margin-top: 0.9rem; font-size: 0.94rem; color: #fff; }
+
+.sco-prop { margin: 2.2rem 0 0; }
+.sco-prop span {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  color: var(--lila-2);
+  font-family: var(--disp); font-weight: 900; font-stretch: 118%;
+  font-size: 1.4rem;
+  letter-spacing: -0.02em;
+  padding: 0.9rem 1.5rem;
+  border-radius: 20px;
+  transform: rotate(-1.4deg);
+}
+.sco-prop span::after {
+  content: "";
+  position: absolute; left: 2.2rem; bottom: -18px;
+  width: 30px; height: 22px; background: #fff;
+  clip-path: polygon(0 0, 100% 0, 25% 100%);
+}
+
+/* ── Servicios ──────────────────────────────────────────── */
+.sco-who { padding: var(--band) var(--pad); }
+.sco-who h2 { font-size: 1.95rem; margin-bottom: 2.4rem; }
+.sco-who__grid { display: grid; gap: 1.3rem; }
+@media (min-width: 860px) {
+  .sco-who__grid { grid-template-columns: 1.25fr 0.75fr; }
+  .sco-panel--lila { grid-row: span 2; }
+}
+.sco-panel { padding: 1.8rem; border-radius: 22px; }
+.sco-panel h3 { font-size: 1.5rem; margin-bottom: 0.85rem; }
+.sco-panel p { margin: 0 0 0.9rem; }
+.sco-panel p:last-child { margin-bottom: 0; }
+.sco-panel--lila { background: var(--lila); color: #fff; }
+.sco-panel--lila h3 { color: #fff; }
+.sco-panel--celeste { background: var(--celeste); color: #10333f; }
+.sco-panel--linea { background: var(--papel-2); border: 2px solid var(--lila-claro); }
+.sco-panel__names { display: flex; flex-wrap: wrap; gap: 0.55rem; }
+.sco-panel__names span {
+  background: #fff; color: var(--lila-2);
+  font-family: var(--disp); font-weight: 800;
+  padding: 0.4rem 0.95rem; border-radius: 999px; font-size: 0.98rem;
+}
+
+/* ── Reseñas: pared de globos ───────────────────────────── */
+.sco-voices { padding: var(--band) var(--pad); background: var(--papel-2); }
+.sco-voices h2 { font-size: 1.95rem; margin-bottom: 2.6rem; max-width: 30rem; }
+.sco-voices__wall { display: grid; gap: 2.2rem; align-items: start; }
+@media (min-width: 900px) {
+  .sco-voices__wall { grid-template-columns: 1.15fr 0.85fr; }
+  .sco-bubble--wide { grid-column: 1 / -1; max-width: 46rem; }
+}
+.sco-voices blockquote { margin: 0; }
+.sco-bubble--big { background: var(--lila); transform: rotate(-0.7deg); }
+.sco-bubble--mid { background: var(--celeste-hondo); transform: rotate(1deg); }
+.sco-bubble--wide { background: var(--tinta); transform: rotate(-0.4deg); }
+.sco-voices blockquote p {
+  margin: 0 0 1.1rem;
+  font-size: 1.1rem;
+  line-height: 1.58;
+  color: #fff;
+}
+.sco-bubble--big p { font-size: 1.2rem; }
+.sco-voices footer {
+  font-family: var(--disp); font-weight: 800; font-size: 0.92rem;
+  color: #fff;
+}
+.sco-voices footer span { color: var(--lila-claro); }
+
+/* ── Antes de sumarte ───────────────────────────────────── */
+.sco-check { padding: var(--band) var(--pad); }
+.sco-check__in { max-width: 56rem; }
+.sco-check h2 { font-size: 1.8rem; margin-bottom: 1.8rem; }
+.sco-check ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 1rem; }
+.sco-check li {
+  background: #fff;
+  border: 2px solid var(--lila-claro);
+  border-radius: 18px;
+  padding: 1.35rem 1.5rem;
+}
+.sco-check strong { color: var(--lila-2); }
+
+/* ── Tres formas ────────────────────────────────────────── */
+.sco-ways { padding: var(--band) var(--pad); background: var(--lila); color: #fff; }
+.sco-ways h2 { font-size: 1.95rem; color: #fff; margin-bottom: 2.4rem; }
+.sco-ways__grid { display: grid; gap: 1.4rem; }
+@media (min-width: 820px) { .sco-ways__grid { grid-template-columns: repeat(3, 1fr); } }
+.sco-ticket {
+  background: var(--papel);
+  color: var(--tinta);
+  border-radius: 18px;
+  padding: 1.7rem;
+  position: relative;
+  padding-top: 2.6rem;
+  overflow: hidden;
+}
+.sco-ticket::before {
+  content: "";
+  position: absolute; inset: 0 0 auto; height: 12px;
+  background: var(--celeste);
+}
+.sco-ticket__tag {
+  margin: 0 0 0.8rem;
+  font-family: var(--disp); font-weight: 800; font-size: 0.94rem;
+  color: var(--cobre);
+}
+.sco-ticket h3 { font-size: 1.45rem; margin-bottom: 0.75rem; }
+.sco-ticket > p:not(.sco-ticket__tag) { margin: 0 0 1.1rem; color: var(--tinta-2); }
+.sco-ticket ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.55rem; }
+.sco-ticket li {
+  padding-left: 1.35rem; position: relative; font-size: 0.99rem; color: var(--tinta);
+}
+.sco-ticket li::before {
+  content: ""; position: absolute; left: 0; top: 0.62em;
+  width: 9px; height: 9px; border-radius: 50%; background: var(--lila);
+}
+
+/* ── Ficha de contacto ──────────────────────────────────── */
+.sco-card { padding: var(--band) var(--pad); }
+.sco-card__in { display: grid; gap: 2.5rem; }
+@media (min-width: 900px) { .sco-card__in { grid-template-columns: 0.95fr 1.05fr; align-items: start; } }
+.sco-card h2 { font-size: 1.9rem; }
+.sco-card__tel {
+  display: block; margin: 1.2rem 0 1.4rem;
+  font-family: var(--disp); font-weight: 900; font-stretch: 118%;
+  font-size: 2.2rem; letter-spacing: -0.035em;
+  color: var(--cobre); text-decoration: none;
+}
+.sco-card__tel:hover { color: #8f3818; }
+.sco-card__data { margin: 0; display: grid; gap: 1rem; }
+.sco-card__data > div {
+  background: var(--papel-2);
+  border-radius: 18px;
+  padding: 1.4rem 1.55rem;
+}
+.sco-card__data dt {
+  font-family: var(--disp); font-weight: 800; font-size: 0.92rem;
+  color: var(--lila-2); margin-bottom: 0.5rem;
+}
+.sco-card__data dd { margin: 0; }
+.sco-maps, .sco-card__data a {
+  color: var(--cobre); font-weight: 600;
+  text-decoration: underline; text-underline-offset: 3px;
+}
+.sco-maps { display: inline-block; margin-top: 0.55rem; }
+
+/* ── Footer ─────────────────────────────────────────────── */
+.sco-foot {
+  padding: 2.4rem var(--pad) 5.6rem;
+  background: var(--tinta);
+  color: #ded8e8;
+  display: flex; flex-wrap: wrap; gap: 0.7rem 1.5rem;
+  justify-content: space-between; align-items: baseline;
+  font-size: 0.95rem;
+}
+.sco-foot p { margin: 0; }
+.sco-foot__brand span { color: var(--celeste); }
+.sco-foot__me a { color: #fff; text-decoration: underline; text-underline-offset: 3px; }
+
+/* ── Barra sticky mobile ────────────────────────────────── */
+.sco-bar {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 60;
+  display: grid;
+  border-top: 2px solid #fff;
+}
+.sco-bar a {
+  text-align: center; padding: 1rem 0.5rem;
+  font-family: var(--disp); font-weight: 800; font-size: 1.04rem;
+  text-decoration: none; background: var(--cobre); color: #fff;
+}
+@media (min-width: 780px) { .sco-bar { display: none; } }
+
+/* ── Motion ─────────────────────────────────────────────── */
+@media (prefers-reduced-motion: no-preference) {
+  .js-on [data-rise] { opacity: 0; transform: translateY(16px); }
+  .js-on .sco-hero.is-on [data-rise] {
+    opacity: 1; transform: none;
+    transition: opacity 0.7s var(--ease), transform 0.7s var(--ease);
+  }
+  .js-on .sco-hero.is-on [data-rise="1"] { transition-delay: 0.04s; }
+  .js-on .sco-hero.is-on [data-rise="2"] { transition-delay: 0.12s; }
+  .js-on .sco-hero.is-on [data-rise="3"] { transition-delay: 0.26s; }
+  .js-on .sco-hero.is-on [data-rise="4"] { transition-delay: 0.36s; }
+  .js-on .sco-hero.is-on [data-rise="5"] { transition-delay: 0.44s; }
+
+  .js-on [data-reveal] { opacity: 0; transform: translateY(20px); }
+  .js-on [data-reveal].is-on {
+    opacity: 1; transform: none;
+    transition: opacity 0.68s var(--ease), transform 0.68s var(--ease);
+  }
+  .js-on .sco-bubble--big.is-on { transform: rotate(-0.7deg); }
+  .js-on .sco-bubble--mid.is-on { transform: rotate(1deg); }
+  .js-on .sco-bubble--wide.is-on { transform: rotate(-0.4deg); }
+  .js-on .sco-prop.is-on span { transform: rotate(-1.4deg); }
+}
+
+/* ── Escala tipográfica por breakpoint (valores planos: el display
+      tiene que ser medible, no depender de clamp) ─────────────── */
+@media (min-width: 700px) {
+  .sco-bubble--hero h1 { font-size: 3.5rem; }
+  .sco-band h2, .sco-who h2, .sco-voices h2, .sco-ways h2 { font-size: 2.45rem; }
+  .sco-check h2 { font-size: 2.1rem; }
+  .sco-card h2 { font-size: 2.35rem; }
+  .sco-card__tel { font-size: 2.9rem; }
+  .sco-prop span { font-size: 1.75rem; }
+}
+@media (min-width: 1080px) {
+  .sco-bubble--hero h1 { font-size: 4.4rem; }
+  .sco-band h2, .sco-who h2, .sco-voices h2, .sco-ways h2 { font-size: 2.9rem; }
+  .sco-check h2 { font-size: 2.4rem; }
+  .sco-card h2 { font-size: 2.7rem; }
+  .sco-card__tel { font-size: 3.2rem; }
+  .sco-prop span { font-size: 2.1rem; }
+}

@@ -1,0 +1,2 @@
+document.querySelectorAll('a[href^="#"]').forEach((link)=>link.addEventListener('click',(event)=>{const target=document.querySelector(link.getAttribute('href'));if(target){event.preventDefault();target.focus({preventScroll:true});target.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});}}));
+const editorialHero=document.querySelector('.ix-hero img');if(editorialHero){editorialHero.src='./assets/hero-editorial.png';editorialHero.alt='Coupé en un estudio de detailing con iluminación roja';}

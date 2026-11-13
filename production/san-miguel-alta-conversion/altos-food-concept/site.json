@@ -1,0 +1,297 @@
+{
+  "id": "google-ChIJ3ZENk7O9vJUR_qB-JTza_2M",
+  "name": "ALTOS -food concept-",
+  "slug": "altos-food-concept",
+  "archetype": "automotive-premium-dark",
+  "palette": {
+    "dominant": "#101820",
+    "accent": "#d7a94b",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "Archivo Narrow",
+    "secondary": "Merriweather Sans"
+  },
+  "hero_image": {
+    "heroSrc": "./assets/hero.jpg",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJ3ZENk7O9vJUR_qB-JTza_2M",
+    "slug": "altos-food-concept",
+    "visual_mood": "neighborhood-direct",
+    "composition": "photo-board",
+    "headline": "ALTOS: la parrilla de barrio que se come como restaurante",
+    "subheadline": "Entraña, achuras y cocina de olla en un salón acogedor de San Miguel. Abierto todos los días de 9 a 24 h, sobre Belgrano 980. Reservá tu mesa o llamá para consultar.",
+    "primary_cta": "Llamar ahora",
+    "secondary_cta": "Cómo llegar",
+    "service_tags": [
+      "Parrilla y achuras",
+      "Cocina de restaurante",
+      "Salón familiar",
+      "Para toda la mesa"
+    ],
+    "proof_points": [
+      "4,5 en Google con 1.261 reseñas",
+      "Abierto todos los días de 9 a 24 h",
+      "Belgrano 980, San Miguel",
+      "\"La mejor entraña de la zona en porción y sabor\" — reseña real"
+    ],
+    "resource_title": "Antes de venir a comer",
+    "resource_items": [
+      "Dirección y horario visibles para llegar sin vueltas.",
+      "Reseñas reales con autor para saber qué piden los que ya vinieron.",
+      "Teléfono directo para reservar mesa o consultar por grupos."
+    ],
+    "review_heading": "Lo que dicen los que ya se sentaron a la mesa",
+    "contact_heading": "Reservá tu mesa o pasá a comer",
+    "image_prompt": "Hero editorial: primer plano apetitoso de entraña a la parrilla jugosa con chimichurri y achuras al costado, brasas al fondo, luz cálida de bodegón nocturno. Fotos de apoyo de platos destacados en reseñas (entraña, chinchulines) usando stock o imagen generada como serving suggestion, sin afirmar que son fotos tomadas en el local. Fotos reales de Google Places del salón para contexto documental.",
+    "design_notes": "Dirección 'Bodegón de concepto': parrilla de barrio con alma de restaurante nocturno. Paleta drenched vino/oxblood profundo con acento ámbar-ember solo en CTA (elemento más caliente). Par tipográfico Bricolage Grotesque (display) + Spectral (cuerpo). Template visual-menu: el plato manda la composición.",
+    "conversion_template": "visual-menu",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Le vende una salida a comer bien —parrilla y achuras de calidad de restaurante— al vecino de San Miguel que busca dónde ir hoy y decide en el celular si reserva o llama.",
+      "visual_thesis": "Bodegón de concepto: parrilla de barrio con alma de restaurante nocturno. Fondo drenched oxblood/vino profundo, tipografía de carácter Bricolage Grotesque para los títulos y Spectral para el cuerpo, con un ámbar-ember caliente reservado exclusivamente al CTA de contacto. El apetito y la calidez familiar mandan; nada de crema por reflejo.",
+      "copy_voice": "Español argentino, vos, cercano y goloso. Frases cortas que dan hambre y empujan a reservar o llamar. Nace de las reseñas reales (entraña, chinchulines, ambiente familiar). Evita copy institucional y meta.",
+      "layout_signature": "Hero con foto dominante del plato estrella y prueba social (4,5 · 1.261) montada arriba del fold; menú visual por secciones (parrilla, achuras, cocina), franja de reseñas literales con autor, y cierre de contacto con teléfono como elemento gráfico. Barra sticky de llamada en mobile.",
+      "asset_plan": "Foto real del salón (Google Places) como contexto documental. El hero y las tarjetas de plato pueden usar imagen de stock o generada de los ítems destacados en reseñas (entraña, chinchulines) como serving suggestion, sin disclaimer visual. Texturas de brasa y humo resueltas con CSS/SVG inline.",
+      "ai_fill_plan": {
+        "copy": [
+          "Convertir reseñas reales en microcopy de decisión: qué pedir, para cuántos, cómo reservar.",
+          "Nombrar secciones y CTAs con voz de bodegón porteño sin frases genéricas.",
+          "Escribir la sección de menú como recorrido de sabores, no como lista de precios inventados."
+        ],
+        "imagery": [
+          "Generar o licenciar fotos apetitosas de los platos destacados en reseñas (entraña, chinchulines, achuras) como serving suggestion, sin aclarar que no son del local.",
+          "Usar textura de brasa, humo y madera en CSS/SVG para dar atmósfera sin depender de una sola foto."
+        ],
+        "boundaries": [
+          "no inventar precios, stock, marcas, años, premios, garantías, servicios ni reseñas que no estén en los datos verificados del negocio.",
+          "no presentar imágenes de instalaciones, salón, personal ni resultados de otro lugar como si fueran del local: eso sí lleva alt/caption honesto."
+        ]
+      },
+      "anti_patterns": [
+        "Fondo crema/beige por reflejo en vez de la paleta vino comprometida.",
+        "Hero de ficha de Google Maps en vez de foto de plato que da hambre.",
+        "Grilla de tres tarjetas iguales con ícono + título + texto.",
+        "Eyebrows tracked-caps o marcadores 01/02/03 sobre cada sección.",
+        "Precios o promos inventadas en el menú."
+      ],
+      "rewrite_targets": [
+        "Reemplazar toda la dirección automotriz del fallback (taller, turno del auto) por gastronomía real.",
+        "Hacer que el hero venda el plato y la prueba social en los primeros 5 segundos.",
+        "Poner el CTA de llamar como el color más caliente y repetirlo en el scroll.",
+        "Mostrar horario y dirección como datos operativos visibles."
+      ]
+    },
+    "commercial": {
+      "tone": "fast-local",
+      "customer_type": "Vecinos de San Miguel que quieren salir a comer parrilla y consultan por teléfono.",
+      "hero_claim": "Una mesa de parrilla para llamar, consultar y pasar hoy.",
+      "trust_bar": [
+        {
+          "label": "Valoración",
+          "title": "4,5 / 5",
+          "body": "1.261 reseñas",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Horario",
+          "title": "Horario publicado",
+          "body": "Lunes a domingo: 9:00 a. m. – 12:00 a. m.",
+          "meta": "Dato verificado"
+        },
+        {
+          "label": "Contacto",
+          "title": "Teléfono directo",
+          "body": "011 7084-5458",
+          "meta": "Dato verificado"
+        }
+      ],
+      "service_cards": [
+        {
+          "label": "Elegir",
+          "title": "Entraña",
+          "body": "La información publicada destaca entraña."
+        },
+        {
+          "label": "Consultar",
+          "title": "Chinchulines",
+          "body": "Teléfono, dirección y horario quedan visibles para decidir sin buscar otro dato."
+        },
+        {
+          "label": "Pasar",
+          "title": "Ambiente familiar",
+          "body": "El siguiente paso se resuelve con contacto directo y la ubicación del negocio."
+        }
+      ],
+      "why_choose": [
+        {
+          "title": "Datos visibles",
+          "body": "Valoración, horario, dirección y contacto aparecen juntos."
+        },
+        {
+          "title": "Reseñas con autor",
+          "body": "“Excelente lugar para una buena entraña, la mejor de la zona en porción y sabor. Y los chinchulines exquisitos. Excelente atención.” — Florencia Rodriguez."
+        },
+        {
+          "title": "Próximo paso claro",
+          "body": "Llamar para consultar y avanzar."
+        }
+      ],
+      "packages": [
+        {
+          "name": "Para decidir hoy",
+          "price_label": "Sin precios publicados",
+          "body": "Información útil para hacer la consulta antes de pasar.",
+          "items": [
+            "Horario publicado",
+            "Dirección",
+            "Contacto directo"
+          ]
+        },
+        {
+          "name": "Consulta directa",
+          "price_label": "A confirmar con el negocio",
+          "body": "La llamada permite confirmar disponibilidad sin prometer datos no publicados.",
+          "items": [
+            "Necesidad",
+            "Horario",
+            "Siguiente paso"
+          ]
+        }
+      ],
+      "gallery": [
+        {
+          "label": "Contexto",
+          "title": "Imagen principal",
+          "body": "La composición visual acompaña la decisión de contacto.",
+          "meta": "Uso editorial acorde al brief"
+        },
+        {
+          "label": "Señal local",
+          "title": "Dirección y horario",
+          "body": "Información operativa visible para llegar sin vueltas.",
+          "meta": "Belgrano 980, B1663 San Miguel, Provincia de Buenos Aires, Argentina"
+        }
+      ],
+      "process": [
+        {
+          "step": "Contacto",
+          "title": "Llamar",
+          "body": "Elegí el canal publicado."
+        },
+        {
+          "step": "Consulta",
+          "title": "Confirmar disponibilidad",
+          "body": "El negocio confirma el dato que falta."
+        },
+        {
+          "step": "Visita",
+          "title": "Pasar por el lugar",
+          "body": "La dirección y el horario quedan visibles."
+        }
+      ],
+      "final_cta": {
+        "title": "Una mesa de parrilla para llamar, consultar y pasar hoy.",
+        "body": "Belgrano 980, B1663 San Miguel, Provincia de Buenos Aires, Argentina. Lunes a domingo: 9:00 a. m. – 12:00 a. m.",
+        "primary_label": "Llamar a ALTOS",
+        "secondary_label": "Cómo llegar"
+      },
+      "editable_note": "No se publican precios, promociones, capacidad ni servicios que no estén confirmados."
+    },
+    "creative": {
+      "concept": "Una mesa de parrilla para llamar, consultar y pasar hoy.",
+      "audience": "Vecinos de San Miguel que quieren salir a comer parrilla y consultan por teléfono.",
+      "visual_direction": "Bodegón de concepto: parrilla de barrio con alma de restaurante nocturno. Fondo drenched oxblood/vino profundo, tipografía de carácter Bricolage Grotesque para los títulos y Spectral para el cuerpo, con un ámbar-ember caliente reservado exclusivamente al CTA de contacto. El apetito y la calidez familiar mandan; nada de crema por reflejo.",
+      "layout": "bodyshop-craft",
+      "texture": "oil-label",
+      "hero_angle": "Una mesa de parrilla para llamar, consultar y pasar hoy.",
+      "hero_cards": [
+        {
+          "label": "Valoración",
+          "value": "4,5 / 5",
+          "note": "1.261 reseñas"
+        },
+        {
+          "label": "Horario",
+          "value": "Horario publicado",
+          "note": "Lunes a domingo: 9:00 a. m. – 12:00 a. m."
+        },
+        {
+          "label": "Contacto",
+          "value": "011 7084-5458",
+          "note": "Canal publicado"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Para decidir",
+          "title": "Lo que buscás, a mano",
+          "body": "La información pública se ordena alrededor de la acción de contacto.",
+          "items": [
+            {
+              "label": "Elegir",
+              "value": "Entraña",
+              "note": "La información publicada destaca entraña."
+            },
+            {
+              "label": "Consultar",
+              "value": "Chinchulines",
+              "note": "Teléfono, dirección y horario quedan visibles para decidir sin buscar otro dato."
+            },
+            {
+              "label": "Pasar",
+              "value": "Ambiente familiar",
+              "note": "El siguiente paso se resuelve con contacto directo y la ubicación del negocio."
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Reseñas",
+          "title": "Lo dicen quienes ya fueron",
+          "body": "Una reseña literal aporta una señal concreta para decidir.",
+          "items": [
+            {
+              "label": "Opinión",
+              "value": "Excelente lugar para una buena entraña, la mejor de la zona en porción y sabor. Y los chinchulines exquisitos. Excelente atención.",
+              "note": "Florencia Rodriguez"
+            },
+            {
+              "label": "Valoración",
+              "value": "4,5 / 5",
+              "note": "1.261 reseñas"
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Contacto",
+          "title": "Llegar o consultar sin vueltas",
+          "body": "Dirección, horario y contacto quedan visibles en el cierre.",
+          "items": [
+            {
+              "label": "Contacto",
+              "value": "011 7084-5458"
+            },
+            {
+              "label": "Horario",
+              "value": "Lunes a domingo: 9:00 a. m. – 12:00 a. m."
+            },
+            {
+              "label": "Dirección",
+              "value": "Belgrano 980, B1663 San Miguel, Provincia de Buenos Aires, Argentina"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/san-miguel-alta-conversion/altos-food-concept",
+      "notes": "Dirección 'Bodegón de concepto': parrilla de barrio con alma de restaurante nocturno. Paleta drenched vino/oxblood profundo con acento ámbar-ember solo en CTA (elemento más caliente). Par tipográfico Bricolage Grotesque (display) + Spectral (cuerpo). Template visual-menu: el plato manda la composición."
+    }
+  }
+}

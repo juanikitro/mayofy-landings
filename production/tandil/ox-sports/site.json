@@ -1,0 +1,172 @@
+{
+  "id": "google-ChIJUU2JcPwhkZURtjC3M7AJU7s",
+  "name": "OX Sports",
+  "slug": "ox-sports",
+  "archetype": "automotive-premium-dark",
+  "palette": {
+    "dominant": "#17202a",
+    "accent": "#e5a338",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "Archivo Narrow",
+    "secondary": "Merriweather Sans"
+  },
+  "hero_image": {
+    "heroSrc": "./index.html",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJUU2JcPwhkZURtjC3M7AJU7s",
+    "slug": "ox-sports",
+    "visual_mood": "workshop-trust",
+    "composition": "split-command",
+    "headline": "OX Sports: el gimnasio de Tandil que te rompe la barrera de empezar",
+    "subheadline": "Entrenamiento personalizado en Gral. Rodríguez 1649, con 4.9 sobre 5 en 120 reseñas.",
+    "primary_cta": "Consultar al 0249 437-3891",
+    "secondary_cta": "Ver ubicación del gimnasio",
+    "service_tags": [
+      "Entrenamiento personalizado",
+      "Máquinas y pesas completas",
+      "Rutinas a medida",
+      "Zona funcional con césped sintético"
+    ],
+    "proof_points": [
+      "4.9 sobre 5 en 120 reseñas de Google",
+      "Gral. Rodríguez 1649, Tandil",
+      "Lunes a viernes de 7:30 a 22, sábados de 10 a 13",
+      "\"Las rutinas que elaboran son siempre orientadas a los objetivos que uno tiene, jamás son a mano alzada\" — Nazareno Barraza"
+    ],
+    "resource_title": "Antes de tu primera clase",
+    "resource_items": [
+      "Consultá por teléfono los planes y horarios disponibles.",
+      "Abierto de lunes a sábado, con horario extendido entre semana.",
+      "Los instructores arman la rutina según el objetivo de cada persona."
+    ],
+    "review_heading": "Lo que cuentan los que entrenan ahí",
+    "contact_heading": "Consultá por tu plan de entrenamiento",
+    "image_prompt": "Gimnasio con máquinas de musculación blancas, pared roja de fondo y una cancha con césped sintético visible al fondo, luz interior cálida.",
+    "design_notes": "Cancha bajo el gimnasio: rojo intenso, negro y verde césped sintético como acentos. Rajdhani + Archivo, energía deportiva sin caer en cliché fitness genérico.",
+    "conversion_template": "hero-proof-offer",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Gimnasio de entrenamiento personalizado en Tandil que convierte la intención de 'empezar a entrenar' en una consulta por teléfono, apoyado en rutinas a medida.",
+      "visual_thesis": "Cancha bajo el gimnasio: la foto real de las máquinas blancas con la pared roja y el césped sintético de fondo define la paleta y la energía. Display Rajdhani condensado deportivo, cuerpo Archivo para lectura firme. Paleta negro de piso de gimnasio, rojo intenso de la pared real como acento del CTA y verde césped sintético como detalle.",
+      "copy_voice": "Español argentino motivador pero honesto, apoyado en la reseña real de alguien que le costaba empezar y encontró acompañamiento.",
+      "layout_signature": "Template hero-proof-offer: hero con la foto real del gimnasio y la pared roja, rating destacado arriba del fold, franja de reseñas sobre rutinas a medida y atención de instructores, servicios y contacto final.",
+      "asset_plan": "Foto real del gimnasio con las máquinas y la pared roja (foto-1) como hero; foto-2 y foto-3 como fotos de equipamiento con captions; textura de trama tipo rejilla deportiva en CSS, sin stock externo de fitness genérico.",
+      "ai_fill_plan": {
+        "copy": [
+          "Microcopy motivador derivado de la reseña real sobre romper la barrera de empezar a entrenar",
+          "Encabezados de sección como 'Cómo entrenamos' sin inventar planes o precios no verificados"
+        ],
+        "imagery": [
+          "Textura de rejilla deportiva en CSS de fondo",
+          "Franja roja sólida como bloque de color tomado de la pared real"
+        ],
+        "boundaries": [
+          "No inventar precios de cuotas ni planes de entrenamiento",
+          "No inventar marcas de máquinas ni certificaciones de instructores",
+          "No prometer resultados físicos específicos ni plazos"
+        ]
+      },
+      "anti_patterns": [
+        "Fuentes genéricas como Inter, Roboto o Arial",
+        "Gradiente violeta sobre blanco",
+        "Fotos de stock de gimnasios genéricos en vez de la sala real con la pared roja",
+        "Tono de venta agresivo tipo 'transformá tu cuerpo en 30 días'"
+      ],
+      "rewrite_targets": [
+        "El teléfono de consulta tiene que estar arriba del fold junto al rating",
+        "La pared roja real del gimnasio tiene que ser el bloque de color dominante, no un detalle",
+        "El ángulo de 'romper la barrera de empezar' debe sostenerse con la reseña real, no con un claim genérico"
+      ]
+    },
+    "creative": {
+      "concept": "El gimnasio de Tandil donde empezar deja de dar miedo.",
+      "audience": "Personas de Tandil que quieren empezar a entrenar o retomar después de una lesión, con acompañamiento real de instructores.",
+      "visual_direction": "Foto real de la sala con pared roja y máquinas blancas, césped sintético de fondo, tipografía deportiva condensada.",
+      "layout": "bodyshop-craft",
+      "texture": "primer-dust",
+      "hero_angle": "Gimnasio de entrenamiento personalizado en Tandil con 4.9 sobre 5 en 120 reseñas y rutinas a medida.",
+      "hero_cards": [
+        {
+          "label": "Reseñas",
+          "value": "4.9★ en 120 opiniones",
+          "note": "Perfil público de Google"
+        },
+        {
+          "label": "Dirección",
+          "value": "Gral. Rodríguez 1649, Tandil"
+        },
+        {
+          "label": "Contacto",
+          "value": "0249 437-3891"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Cómo entrenamos",
+          "title": "Rutinas a medida, no a mano alzada",
+          "body": "Máquinas completas, zona funcional con césped sintético y seguimiento personalizado de objetivos.",
+          "items": [
+            {
+              "label": "Entrenamiento personalizado",
+              "value": "Rutinas según tu objetivo"
+            },
+            {
+              "label": "Máquinas y pesas",
+              "value": "Equipamiento completo"
+            },
+            {
+              "label": "Zona funcional",
+              "value": "Con césped sintético"
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Los que entrenan ahí",
+          "title": "Rompiendo la barrera de empezar",
+          "body": "Lo que cuentan quienes encontraron en OX un lugar cómodo para entrenar.",
+          "items": [
+            {
+              "label": "Federico Algañaraz",
+              "value": "OX logró romper esa barrera y de a poco... me encanta. 5/5"
+            },
+            {
+              "label": "Nazareno Barraza",
+              "value": "Las rutinas que elaboran son siempre orientadas a los objetivos que uno tiene, jamás son a mano alzada."
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Consultá tu plan",
+          "title": "Llamá para empezar a entrenar",
+          "body": "Teléfono directo y horario extendido de lunes a sábado.",
+          "items": [
+            {
+              "label": "Consultar",
+              "value": "0249 437-3891"
+            },
+            {
+              "label": "Ir al gimnasio",
+              "value": "Gral. Rodríguez 1649, Tandil"
+            },
+            {
+              "label": "Horario",
+              "value": "Lunes a viernes 7:30 a 22"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/tandil/ox-sports",
+      "notes": "Cancha bajo el gimnasio: foto real de la sala con pared roja como hero, Rajdhani + Archivo, verde césped sintético de detalle."
+    }
+  }
+}

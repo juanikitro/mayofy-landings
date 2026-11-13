@@ -1,0 +1,319 @@
+/* Nestor Ski — "Pase de base": la landing es un lift-ticket físico.
+   Papel de cartón cálido, tinta grafito, marrón valija para el guardado y
+   un rojo sello como único acento caliente (CTA = lo más caliente de la página).
+   Perforaciones, códigos impresos y barcode arman la atmósfera; sin assets externos. */
+:root {
+  --nst-paper: #f2e9d7;
+  --nst-paper-2: #fbf6ea;
+  --nst-card: #fffdf7;
+  --nst-ink: #221f19;
+  --nst-ink-soft: rgba(34, 31, 25, 0.7);
+  --nst-ink-mut: rgba(34, 31, 25, 0.52);
+  --nst-wood: #9a6634;
+  --nst-wood-deep: #764c25;
+  --nst-red: #d13a2b;
+  --nst-red-deep: #b02a1e;
+  --nst-line: rgba(34, 31, 25, 0.16);
+  --nst-line-soft: rgba(34, 31, 25, 0.09);
+  --nst-dash: rgba(34, 31, 25, 0.34);
+  --nst-wrap: 1160px;
+  --nst-mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --nst-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --nst-shadow-lg: 0 40px 80px -46px rgba(34, 31, 25, 0.55), 0 10px 24px -18px rgba(34, 31, 25, 0.3);
+  --nst-shadow-md: 0 24px 50px -34px rgba(34, 31, 25, 0.5);
+  --nst-shadow-sm: 0 14px 30px -22px rgba(34, 31, 25, 0.45);
+}
+
+* { box-sizing: border-box; }
+
+.nst {
+  margin: 0;
+  color: var(--nst-ink);
+  font-family: "Sofia Sans", system-ui, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  background:
+    radial-gradient(115% 80% at 88% -8%, rgba(154, 102, 52, 0.14), transparent 55%),
+    radial-gradient(90% 70% at 6% 2%, rgba(209, 58, 43, 0.08), transparent 52%),
+    linear-gradient(180deg, var(--nst-paper-2) 0%, var(--nst-paper) 100%);
+  background-attachment: fixed;
+}
+/* Grano de cartón impreso */
+.nst::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.05;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 140px 140px;
+}
+
+h1, h2, h3 {
+  font-family: "Familjen Grotesk", system-ui, sans-serif;
+  margin: 0;
+  line-height: 0.98;
+  letter-spacing: -0.015em;
+  font-weight: 700;
+}
+p { margin: 0; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+
+.nst-skip {
+  position: absolute; left: 14px; top: -70px; z-index: 90;
+  background: var(--nst-red); color: #fff; padding: 10px 15px; border-radius: 7px;
+  text-decoration: none; font-weight: 800; box-shadow: var(--nst-shadow-sm);
+  transition: top 0.2s var(--nst-ease);
+}
+.nst-skip:focus { top: 12px; }
+:focus-visible { outline: 3px solid var(--nst-red); outline-offset: 3px; border-radius: 5px; }
+
+/* Tokens compartidos */
+.nst-kicker {
+  font-family: var(--nst-mono);
+  font-size: 0.72rem; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase;
+  color: var(--nst-red); margin-bottom: 16px;
+}
+.nst-kicker--onDark { color: #f0b8ad; }
+
+.nst-btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  border-radius: 9px; padding: 14px 20px; font-weight: 800; font-size: 0.96rem;
+  text-decoration: none; letter-spacing: 0.01em; border: 2px solid transparent;
+  transition: transform 0.22s var(--nst-ease), box-shadow 0.22s var(--nst-ease),
+              background-color 0.22s var(--nst-ease), border-color 0.22s var(--nst-ease);
+}
+.nst-btn--red { background: var(--nst-red); color: #fff; box-shadow: 0 18px 36px -18px rgba(176, 42, 30, 0.95); }
+.nst-btn--red:hover { transform: translateY(-2px); background: var(--nst-red-deep); box-shadow: 0 24px 46px -18px rgba(176, 42, 30, 1); }
+.nst-btn--ghost { border-color: var(--nst-ink); color: var(--nst-ink); }
+.nst-btn--ghost:hover { transform: translateY(-2px); background: var(--nst-ink); color: var(--nst-paper); }
+.nst-btn--line { border-color: rgba(255, 255, 255, 0.4); color: #fff; }
+.nst-btn--line:hover { transform: translateY(-2px); border-color: #fff; background: rgba(255, 255, 255, 0.12); }
+
+/* ---------- Header / gate ---------- */
+.nst-gate {
+  position: sticky; top: 0; z-index: 60;
+  width: min(100% - 36px, var(--nst-wrap)); margin-inline: auto;
+  display: flex; align-items: center; gap: 18px; padding: 14px 0;
+}
+.nst-gate::before {
+  content: ""; position: absolute; inset: 0 -50vw; z-index: -1;
+  background: rgba(251, 246, 234, 0.86); backdrop-filter: blur(12px);
+  border-bottom: 2px dashed var(--nst-dash);
+}
+.nst-brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: var(--nst-ink); }
+.nst-brand__mark { color: var(--nst-red); display: grid; place-items: center; }
+.nst-brand__word { font-family: "Familjen Grotesk"; font-weight: 700; font-size: 1.22rem; letter-spacing: -0.01em; text-transform: uppercase; }
+.nst-nav { margin-left: auto; display: flex; gap: 26px; }
+.nst-nav a { font-size: 0.82rem; font-weight: 600; text-decoration: none; color: var(--nst-ink-soft); transition: color 0.2s var(--nst-ease); }
+.nst-nav a:hover { color: var(--nst-red); }
+.nst-gate__call {
+  font-family: var(--nst-mono); font-size: 0.74rem; font-weight: 600; letter-spacing: 0.04em;
+  text-decoration: none; color: var(--nst-ink); padding: 9px 13px; border-radius: 7px;
+  border: 1px solid var(--nst-line); background: var(--nst-card);
+  display: inline-flex; align-items: center; gap: 7px;
+  transition: border-color 0.2s var(--nst-ease), box-shadow 0.2s var(--nst-ease), transform 0.2s var(--nst-ease);
+}
+.nst-gate__call span { color: var(--nst-red); font-size: 0.7em; }
+.nst-gate__call:hover { border-color: var(--nst-red); box-shadow: var(--nst-shadow-sm); transform: translateY(-1px); }
+
+/* ---------- Hero: el pase físico ---------- */
+main { position: relative; z-index: 1; }
+.nst-hero { width: min(100% - 36px, var(--nst-wrap)); margin: clamp(28px, 4vw, 52px) auto 0; }
+.nst-pass {
+  position: relative; display: grid; grid-template-columns: 1.08fr 0.82fr;
+  background: var(--nst-card);
+  border: 2px solid var(--nst-ink); border-radius: 26px;
+  box-shadow: var(--nst-shadow-lg); overflow: hidden; isolation: isolate;
+}
+/* Perforación vertical entre talón y foto */
+.nst-pass::before {
+  content: ""; position: absolute; top: 0; bottom: 0; left: 57%;
+  border-left: 2px dashed var(--nst-dash); z-index: 3;
+}
+/* Muescas de ticket */
+.nst-pass::after {
+  content: ""; position: absolute; left: calc(57% - 11px); width: 22px; height: 22px;
+  top: -11px; border-radius: 50%; background: var(--nst-paper);
+  box-shadow: 0 calc(100% + 11px) 0 var(--nst-paper); z-index: 4;
+}
+.nst-pass__stub { padding: clamp(30px, 4vw, 48px) clamp(28px, 3.6vw, 46px) clamp(30px, 4vw, 44px); display: flex; flex-direction: column; }
+.nst-pass h1 { font-size: clamp(2.5rem, 5.6vw, 4.6rem); max-width: 11ch; }
+.nst-lead { margin-top: 22px; color: var(--nst-ink-soft); font-size: clamp(1rem, 1.5vw, 1.14rem); max-width: 52ch; }
+.nst-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+.nst-readout {
+  list-style: none; margin: 34px 0 0; padding: 22px 0 0; display: grid;
+  grid-template-columns: repeat(3, 1fr); gap: 8px 16px; border-top: 2px dashed var(--nst-line);
+}
+.nst-readout div { display: flex; flex-direction: column; gap: 4px; }
+.nst-readout dt { font-family: var(--nst-mono); font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--nst-red); font-weight: 600; }
+.nst-readout dd { margin: 0; font-family: "Familjen Grotesk"; font-weight: 700; font-size: 1.02rem; letter-spacing: -0.01em; }
+.nst-serial { margin-top: auto; padding-top: 28px; }
+.nst-barcode { display: block; width: 100%; height: 30px; color: var(--nst-ink); opacity: 0.9; }
+.nst-serial__code { display: block; margin-top: 8px; font-family: var(--nst-mono); font-size: 0.66rem; letter-spacing: 0.16em; color: var(--nst-ink-mut); }
+
+.nst-pass__photo { position: relative; margin: 0; }
+.nst-pass__photo img { width: 100%; height: 100%; min-height: 440px; object-fit: cover; filter: saturate(0.96) contrast(1.04); }
+.nst-pass__scrim { position: absolute; inset: 0; background: linear-gradient(200deg, rgba(34, 31, 25, 0) 40%, rgba(34, 31, 25, 0.5) 100%); }
+.nst-chip {
+  position: absolute; margin: 0; z-index: 2; display: flex; flex-direction: column; gap: 3px;
+  background: rgba(255, 253, 247, 0.92); backdrop-filter: blur(8px);
+  border: 1.5px solid var(--nst-ink); border-radius: 12px; padding: 10px 14px; box-shadow: var(--nst-shadow-md);
+}
+.nst-chip__k { font-family: var(--nst-mono); font-size: 0.6rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--nst-red); font-weight: 600; }
+.nst-chip__v { font-family: "Familjen Grotesk"; font-weight: 700; font-size: 0.98rem; }
+.nst-chip__v i { color: var(--nst-wood); font-style: normal; }
+.nst-chip--rating { top: 20px; right: 18px; }
+.nst-chip--place { bottom: 20px; left: 18px; right: 18px; }
+
+/* ---------- Título de sección ---------- */
+.nst-head { max-width: 720px; margin-bottom: clamp(28px, 4vw, 46px); }
+.nst-head--center { margin-inline: auto; text-align: center; }
+.nst-head h2 { font-size: clamp(2rem, 4.4vw, 3.5rem); }
+.nst-head__lead { margin-top: 16px; color: var(--nst-ink-soft); font-size: clamp(1rem, 1.4vw, 1.12rem); max-width: 62ch; }
+.nst-head--center .nst-head__lead { margin-inline: auto; }
+
+.nst-services, .nst-locker, .nst-flow, .nst-reviews, .nst-place, .nst-info {
+  width: min(100% - 36px, var(--nst-wrap)); margin-inline: auto;
+  padding-block: clamp(60px, 8vw, 108px);
+}
+
+/* ---------- Servicios: hoja de especificaciones ---------- */
+.nst-spec { list-style: none; margin: 0; padding: 0; border-top: 2px dashed var(--nst-line); }
+.nst-spec__row { display: grid; grid-template-columns: 132px 1fr; gap: 22px; padding: 26px 0; border-bottom: 2px dashed var(--nst-line); align-items: baseline; }
+.nst-spec__idx { font-family: var(--nst-mono); font-weight: 600; font-size: 0.82rem; letter-spacing: 0.08em; color: var(--nst-red); padding-top: 4px; }
+.nst-spec__row h3 { font-size: clamp(1.3rem, 2.2vw, 1.8rem); }
+.nst-spec__row p { margin-top: 10px; color: var(--nst-ink-soft); max-width: 60ch; }
+
+/* ---------- Guardado: feature con banda madera ---------- */
+.nst-locker { padding-block: clamp(24px, 4vw, 44px); }
+.nst-locker__inner {
+  display: grid; grid-template-columns: 260px 1fr; gap: clamp(28px, 4vw, 56px); align-items: center;
+  background: linear-gradient(100deg, rgba(154, 102, 52, 0.16), rgba(154, 102, 52, 0.04) 70%, transparent);
+  border: 2px dashed var(--nst-line); border-radius: 24px; padding: clamp(28px, 4vw, 48px);
+}
+.nst-tag {
+  display: grid; place-items: center; gap: 10px; text-align: center;
+  aspect-ratio: 1; border-radius: 20px; color: #fff;
+  background: linear-gradient(150deg, var(--nst-wood), var(--nst-wood-deep));
+  border: 2px solid var(--nst-ink); box-shadow: 14px 14px 0 rgba(34, 31, 25, 0.12);
+}
+.nst-tag__code { font-family: var(--nst-mono); font-size: 0.74rem; letter-spacing: 0.14em; opacity: 0.9; }
+.nst-tag__label { font-family: "Familjen Grotesk"; font-weight: 700; font-size: 1.4rem; text-transform: uppercase; }
+.nst-locker__body h2 { font-size: clamp(1.9rem, 3.6vw, 3rem); max-width: 16ch; }
+.nst-locker__body p { margin-top: 18px; color: var(--nst-ink-soft); max-width: 60ch; }
+
+/* ---------- Flow: 3 pasos ---------- */
+.nst-steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.nst-step { background: var(--nst-card); border: 2px solid var(--nst-ink); border-radius: 18px; padding: 26px 24px; box-shadow: var(--nst-shadow-sm); }
+.nst-step__num { display: block; font-family: var(--nst-mono); font-weight: 600; color: var(--nst-red); font-size: 0.9rem; letter-spacing: 0.1em; }
+.nst-step h3 { margin-top: 12px; font-size: 1.28rem; }
+.nst-step p { margin-top: 10px; color: var(--nst-ink-soft); font-size: 0.98rem; }
+
+/* ---------- Reseñas: sellos ---------- */
+.nst-reviews__grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 16px; align-items: stretch; }
+.nst-reviews__intro { grid-column: 1 / -1; max-width: 760px; margin-bottom: 10px; }
+.nst-reviews__intro p:not(.nst-kicker) { margin-top: 16px; color: var(--nst-ink-soft); }
+.nst-quote {
+  grid-row: span 2; position: relative; margin: 0; overflow: hidden;
+  background: var(--nst-card); border: 2px solid var(--nst-ink); border-radius: 20px;
+  padding: clamp(28px, 3vw, 40px); box-shadow: var(--nst-shadow-md);
+  display: flex; flex-direction: column; justify-content: center;
+}
+.nst-stamp { position: absolute; top: 18px; right: 18px; color: var(--nst-red); opacity: 0.85; transform: rotate(10deg); }
+.nst-quote p { font-family: "Familjen Grotesk"; font-weight: 600; font-size: clamp(1.3rem, 2vw, 1.9rem); line-height: 1.2; letter-spacing: -0.01em; }
+.nst-quote cite { display: block; margin-top: 22px; font-style: normal; font-family: var(--nst-mono); font-size: 0.8rem; letter-spacing: 0.06em; color: var(--nst-red); }
+.nst-cite { margin: 0; background: var(--nst-paper-2); border: 2px dashed var(--nst-line); border-radius: 16px; padding: 24px; }
+.nst-cite blockquote { margin: 0; font-weight: 500; color: var(--nst-ink); font-size: 0.98rem; }
+.nst-cite figcaption { margin-top: 14px; font-family: var(--nst-mono); font-size: 0.74rem; letter-spacing: 0.05em; color: var(--nst-wood-deep); font-weight: 600; }
+
+/* ---------- Lugar: topo ---------- */
+.nst-place__grid { display: grid; grid-template-columns: 1fr 0.95fr; gap: clamp(28px, 4vw, 56px); align-items: center; }
+.nst-place__grid .nst-head { margin-bottom: 0; }
+.nst-place__grid p { margin-top: 16px; color: var(--nst-ink-soft); max-width: 54ch; }
+.nst-place__link { display: inline-flex; align-items: center; gap: 8px; margin-top: 22px; font-weight: 700; color: var(--nst-red); text-decoration: none; border-bottom: 2px solid transparent; transition: border-color 0.2s var(--nst-ease); }
+.nst-place__link::after { content: "→"; }
+.nst-place__link:hover { border-color: var(--nst-red); }
+.nst-topo {
+  aspect-ratio: 7 / 5; border-radius: 22px; overflow: hidden; color: var(--nst-wood);
+  background: linear-gradient(160deg, #fbf6ea, #ecdcc2);
+  border: 2px solid var(--nst-ink); box-shadow: var(--nst-shadow-md);
+}
+.nst-topo svg { width: 100%; height: 100%; }
+.nst-topo__pin { color: var(--nst-red); }
+
+/* ---------- Info / contacto: tablero ---------- */
+.nst-info__grid { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 16px; align-items: stretch; }
+.nst-board { background: var(--nst-ink); color: var(--nst-paper); border-radius: 22px; padding: clamp(30px, 3.6vw, 44px); }
+.nst-board h2 { font-size: clamp(1.9rem, 3.6vw, 3rem); max-width: 14ch; }
+.nst-board__lead { margin-top: 16px; color: rgba(242, 233, 215, 0.72); max-width: 48ch; }
+.nst-phone {
+  display: inline-flex; flex-direction: column; gap: 6px; margin: 28px 0 0; text-decoration: none; color: #fff;
+}
+.nst-phone__k { font-family: var(--nst-mono); font-size: 0.68rem; letter-spacing: 0.16em; text-transform: uppercase; color: #f0b8ad; }
+.nst-phone__v { font-family: "Familjen Grotesk"; font-weight: 700; font-size: clamp(2rem, 5vw, 3rem); letter-spacing: -0.02em; transition: color 0.2s var(--nst-ease); }
+.nst-phone:hover .nst-phone__v { color: #f0b8ad; }
+.nst-board__cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.nst-slot { background: var(--nst-card); border: 2px solid var(--nst-ink); border-radius: 22px; padding: clamp(26px, 3vw, 34px); }
+.nst-slot h3 { font-family: var(--nst-mono); font-weight: 600; font-size: 0.72rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--nst-red); }
+.nst-slot h3:not(:first-child) { margin-top: 22px; }
+.nst-slot p { margin-top: 8px; font-weight: 500; }
+.nst-slot__hours { font-family: "Familjen Grotesk"; font-weight: 700; font-size: 1.2rem; }
+.nst-slot__rule { height: 0; border-top: 2px dashed var(--nst-line); margin-top: 20px; }
+
+/* ---------- Footer ---------- */
+.nst-footer {
+  width: min(100% - 36px, var(--nst-wrap)); margin-inline: auto;
+  padding: 30px 0 96px; border-top: 2px dashed var(--nst-dash);
+  display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between;
+  font-family: var(--nst-mono); font-size: 0.8rem; letter-spacing: 0.04em; color: var(--nst-ink-soft);
+}
+
+/* ---------- Dock móvil ---------- */
+.nst-dock {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 70; display: none; gap: 10px; padding: 10px;
+  background: rgba(251, 246, 234, 0.95); backdrop-filter: blur(10px); border-top: 2px dashed var(--nst-dash);
+}
+.nst-dock a { flex: 1; text-align: center; padding: 14px; border-radius: 10px; text-decoration: none; font-weight: 800; }
+.nst-dock__call { background: var(--nst-red); color: #fff; box-shadow: var(--nst-shadow-sm); }
+.nst-dock__sec { border: 2px solid var(--nst-ink); color: var(--nst-ink); }
+
+/* ---------- Reveal (progressive enhancement) ---------- */
+[data-nst-reveal] { opacity: 0; transform: translateY(24px); transition: opacity 0.7s var(--nst-ease), transform 0.7s var(--nst-ease); }
+[data-nst-reveal].is-in { opacity: 1; transform: none; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 940px) {
+  .nst-pass { grid-template-columns: 1fr; }
+  .nst-pass::before, .nst-pass::after { display: none; }
+  .nst-pass__photo img { min-height: 340px; }
+  .nst-locker__inner { grid-template-columns: 1fr; }
+  .nst-tag { max-width: 220px; }
+  .nst-place__grid, .nst-info__grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 760px) {
+  .nst-nav { display: none; }
+  .nst-gate__call { margin-left: auto; }
+  .nst-spec__row { grid-template-columns: 1fr; gap: 8px; }
+  .nst-steps { grid-template-columns: 1fr; }
+  .nst-reviews__grid { grid-template-columns: 1fr; }
+  .nst-quote { grid-row: auto; }
+  .nst-dock { display: flex; }
+}
+@media (max-width: 540px) {
+  .nst { font-size: 16px; }
+  .nst-readout { grid-template-columns: 1fr 1fr; }
+  .nst-footer { flex-direction: column; }
+  .nst-gate__call { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-nst-reveal] { opacity: 1; transform: none; transition: none; }
+  .nst-btn, .nst-skip, .nst-gate__call, .nst-step, .nst-phone__v { transition: none; }
+  html { scroll-behavior: auto; }
+}

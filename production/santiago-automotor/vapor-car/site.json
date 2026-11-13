@@ -1,0 +1,92 @@
+{
+  "id": "google-ChIJx3dSsZjFYpYR9-uj3z7VQdw",
+  "name": "VAPOR CAR",
+  "slug": "vapor-car",
+  "archetype": "local-clean-service",
+  "palette": {
+    "dominant": "#f7fbfa",
+    "accent": "#24746b",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "Nunito Sans",
+    "secondary": "Literata"
+  },
+  "hero_image": {
+    "heroSrc": "./assets/hero.jpg",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJx3dSsZjFYpYR9-uj3z7VQdw",
+    "slug": "vapor-car",
+    "visual_mood": "fleet-utility",
+    "composition": "service-ledger",
+    "headline": "Lavado de autos todos los días",
+    "subheadline": "VAPOR CAR abre de lunes a domingo, de 9:00 a 20:30, en Av. Vicuña Mackenna 665.",
+    "primary_cta": "Llamar para consultar",
+    "secondary_cta": "Cómo llegar",
+    "service_tags": [
+      "Lavadero de autos",
+      "Atención todos los días",
+      "Consulta por teléfono"
+    ],
+    "proof_points": [
+      "4.7 en 342 reseñas",
+      "Lunes a domingo, 9:00 a 20:30",
+      "Av. Vicuña Mackenna 665",
+      "+56 9 5246 9350"
+    ],
+    "resource_title": "Antes de salir",
+    "resource_items": [
+      "Revisá el horario publicado.",
+      "Consultá por teléfono.",
+      "Ubicación directa en el mapa."
+    ],
+    "review_heading": "342 reseñas públicas",
+    "contact_heading": "Tu consulta, directo al local",
+    "image_prompt": "Hero editorial conceptual: auto oscuro en box nocturno, vapor, agua y luz turquesa; no representa el local.",
+    "design_notes": "Nave de lavado: azul petróleo, acero, blanco de neón y verde de manguera; Oswald + Manrope; hero editorial, tablero de ruta vertical y reflejos de agua.",
+    "conversion_template": "hero-proof-offer",
+    "design_brief": {
+      "designed_by": "codex",
+      "market_position": "Lavadero de autos de Santiago para personas que necesitan ubicar un local abierto, ver el horario y llamar antes de acercarse.",
+      "visual_thesis": "Nave de lavado subterránea: el hormigón húmedo, las tuberías azules y el blanco duro de los tubos fluorescentes de las fotos se traducen a un sistema azul petróleo, acero pálido y verde de manguera. Oswald comprime la información operativa; Manrope mantiene la lectura clara.",
+      "copy_voice": "Español de Chile, breve y operativo: consulta, llama, ven, horario y ubicación. Sin tomar como propios los precios, tipos de lavado ni comentarios que no estén confirmados.",
+      "layout_signature": "Hero-proof-offer: panel de disponibilidad a la izquierda y foto vertical de la nave a la derecha; cinta de horario continuo, servicios expresados como preguntas de consulta, galería de boxes y una banda de reseñas antes de un bloque de llegada con mapa.",
+      "asset_plan": "El hero usa un asset editorial local generado: auto en box nocturno, vapor y agua, sin logos y señalado como conceptual. Las fotos verificadas de nave y autos quedan como contexto documental. El recorrido de mangueras, reflectores y líneas de estacionamiento se dibuja en CSS.",
+      "ai_fill_plan": {
+        "copy": [
+          "Microcopy de disponibilidad y consulta telefónica sin inventar paquetes.",
+          "Encabezados de proceso que ordenan horario, llamada y llegada al local."
+        ],
+        "imagery": [
+          "Hero editorial local, conceptual y no atribuible al local.",
+          "Patrón visual de líneas de box y reflejos de agua hechos en CSS sin representar maquinaria o servicios adicionales."
+        ],
+        "boundaries": [
+          "No inventar precios, stock, marcas, años, premios, garantías, servicios ni reseñas.",
+          "No repetir precios mencionados por una reseña como tarifa vigente.",
+          "No prometer tiempos de lavado ni disponibilidad inmediata."
+        ]
+      },
+      "anti_patterns": [
+        "Side-tab",
+        "dark-glow",
+        "eyebrows",
+        "marcadores numerados",
+        "tipografía de producto digital",
+        "cards de oferta inventadas"
+      ],
+      "rewrite_targets": [
+        "Mostrar el horario todos los días como información central.",
+        "Diferenciar la composición de los otros dos negocios mediante un ledger vertical.",
+        "Mantener el agua y el hormigón como textura de la foto, no como efecto brillante genérico."
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/santiago-automotor/vapor-car",
+      "notes": "Nave de lavado azul y acero, con panel operativo y reflejos de piso húmedo."
+    }
+  }
+}

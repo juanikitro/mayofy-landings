@@ -1,0 +1,91 @@
+{
+  "id": "google-ChIJaWdb5QvFYpYRNC9yPxq32X4",
+  "name": "Infinity X Car Detail",
+  "slug": "infinity-x-car-detail",
+  "archetype": "automotive-premium-dark",
+  "palette": {
+    "dominant": "#101820",
+    "accent": "#d7a94b",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "Archivo Narrow",
+    "secondary": "Merriweather Sans"
+  },
+  "hero_image": {
+    "heroSrc": "./assets/hero.jpg",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJaWdb5QvFYpYRNC9yPxq32X4",
+    "slug": "infinity-x-car-detail",
+    "visual_mood": "precision-service",
+    "composition": "split-command",
+    "headline": "Detailing que se nota al mirar de cerca",
+    "subheadline": "Infinity X Car Detail atiende en Las Condes, con 5.0 en 17 reseñas y una mirada de taller para cada auto.",
+    "primary_cta": "Reservar una consulta",
+    "secondary_cta": "Ver ubicación",
+    "service_tags": [
+      "Car detailing",
+      "Estética vehicular",
+      "Consulta directa"
+    ],
+    "proof_points": [
+      "5.0 en 17 reseñas",
+      "Lunes a viernes, 9:00 a 18:30",
+      "Sábado, 9:00 a 13:00",
+      "Manuel Barrios 6050, Las Condes"
+    ],
+    "resource_title": "Datos para coordinar",
+    "resource_items": [
+      "Llamá al +56 9 4935 0078.",
+      "Domingo cerrado.",
+      "Confirmá disponibilidad antes de ir."
+    ],
+    "review_heading": "Lo que dicen de cada entrega",
+    "contact_heading": "Hablemos de tu auto",
+    "image_prompt": "Hero editorial conceptual: coupé plateado en estudio negro y rojo, reflejos controlados y amplio negativo para el titular; no representa el local.",
+    "design_notes": "Performance studio: negro carbón, rojo señal y aluminio; Bebas Neue + DM Sans; hero editorial de corte diagonal y fotos verificadas como contexto.",
+    "conversion_template": "service-diagnostic",
+    "design_brief": {
+      "designed_by": "codex",
+      "market_position": "Detailing y estética vehicular en Las Condes para conductores que buscan conversar primero sobre el estado de su auto y coordinar una atención.",
+      "visual_thesis": "Performance studio de barrio: las paredes negras, pilares rojos y reflejos controlados de las fotos reales se convierten en un taller editorial de alto contraste. Bebas Neue para titulares mecánicos y DM Sans para lectura; carbón, aluminio y rojo señal, con el rojo reservado para la acción.",
+      "copy_voice": "Español de Chile, directo y sobrio: hablar de auto, detalle, coordinar y venir al taller; sin prometer resultados, productos ni tratamientos que la ficha no verifica.",
+      "layout_signature": "Service-diagnostic: una cabecera de dos velocidades con titular grande, teléfono y auto blanco en el hero; diagnóstico breve en una franja lateral, secuencia de fotos con cortes diagonales, reseñas en placas de taller y cierre de contacto como orden de ingreso.",
+      "asset_plan": "El hero usa un asset editorial local generado: coupé plateado, estudio negro y rojo, sin logos y señalado como conceptual. Las fotos verificadas quedan como contexto documental. Las líneas de carrocería, rejillas y diagonales se resuelven con CSS.",
+      "ai_fill_plan": {
+        "copy": [
+          "Microcopy de coordinación y etiquetas de sección sin sumar prestaciones.",
+          "CTAs y textos de proceso basados en la consulta, la ubicación y el horario verificados."
+        ],
+        "imagery": [
+          "Hero editorial local, conceptual y no atribuible al local.",
+          "Textura visual de rejilla y líneas de carrocería hecha en CSS sin representar productos ni resultados no documentados."
+        ],
+        "boundaries": [
+          "No inventar precios, stock, marcas, años, premios, garantías, servicios ni reseñas.",
+          "No afirmar tratamientos, correcciones, cerámicos ni plazos de entrega sin evidencia.",
+          "Los autos de las fotos se muestran solo como contexto visual del taller."
+        ]
+      },
+      "anti_patterns": [
+        "Tipografías genéricas",
+        "gradiente oscuro brillante",
+        "tabs laterales",
+        "eyebrows o marcadores numerados",
+        "tarjetas SaaS repetidas"
+      ],
+      "rewrite_targets": [
+        "Mantener una composición de hero distinta a las otras dos páginas.",
+        "Concentrar el rojo solo en acciones y señales de taller.",
+        "Usar las reseñas textuales como prueba y no como promesa comercial."
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/santiago-automotor/infinity-x-car-detail",
+      "notes": "Studio performance negro y rojo, con hero diagonal y comprobación visual desde las fotos del taller."
+    }
+  }
+}

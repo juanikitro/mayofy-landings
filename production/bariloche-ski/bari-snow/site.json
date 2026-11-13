@@ -1,0 +1,169 @@
+{
+  "id": "google-ChIJi7WvSQBxGpYRH3RIELkAnrw",
+  "name": "Bari Snow",
+  "slug": "bari-snow",
+  "archetype": "automotive-premium-dark",
+  "palette": {
+    "dominant": "#17202a",
+    "accent": "#e5a338",
+    "source": "photo"
+  },
+  "typography": {
+    "primary": "Archivo Narrow",
+    "secondary": "Merriweather Sans"
+  },
+  "hero_image": {
+    "heroSrc": "./assets/hero.jpg",
+    "status": "authored"
+  },
+  "site_spec": {
+    "business_id": "google-ChIJi7WvSQBxGpYRH3RIELkAnrw",
+    "slug": "bari-snow",
+    "visual_mood": "precision-service",
+    "composition": "service-ledger",
+    "headline": "Equipos de ski y snowboard ajustados a tu medida, en el centro",
+    "subheadline": "Bari Snow alquila tablas y skis en Francisco de Biedma 55, con el dueño haciendo cada ajuste y 4.6 sobre 5 en 78 reseñas.",
+    "primary_cta": "Llamar al 0294 421-2523",
+    "secondary_cta": "Consultar equipos",
+    "service_tags": [
+      "Alquiler de ski y snowboard",
+      "Ajustes hechos por el dueño",
+      "Tablas de snow",
+      "En el centro de Bariloche",
+      "Buen precio"
+    ],
+    "proof_points": [
+      "4.6 sobre 5 con 78 reseñas en Google",
+      "Todos los días de 9 a 20",
+      "Francisco de Biedma 55, San Carlos de Bariloche",
+      "\"Aluguei uma prancha de snow, o dono da loja fez todos os ajustes. Além de ter um excelente preço\" — Escame"
+    ],
+    "resource_title": "Antes de retirar tu equipo",
+    "resource_items": [
+      "El dueño hace los ajustes del equipo, según las reseñas de quienes alquilaron.",
+      "Tablas de snow y skis para distintos niveles.",
+      "Ubicación céntrica para pasar a retirar sin complicaciones."
+    ],
+    "review_heading": "Lo que cuentan quienes alquilaron su tabla",
+    "contact_heading": "Llamá o pasá por Francisco de Biedma 55",
+    "image_prompt": "Foto real del local Bari Snow en el centro de Bariloche con tablas de snowboard y skis, banco de ajustes y mostrador.",
+    "design_notes": "Banco de ajuste nítido: blanco nieve, grafito y azul eléctrico en el CTA. League Gothic + Rethink Sans. Regla de ajuste y marcas de banco como motivo.",
+    "conversion_template": "catalog-counter",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Alquiler de ski y snowboard en el centro de Bariloche donde el dueño ajusta el equipo, que convierte al visitante que quiere algo bien puesto a punto en un cliente que pasa a retirar sin vueltas.",
+      "visual_thesis": "Banco de ajuste nítido: la preparación personal del dueño en el local real llevada a un mostrador limpio y técnico. Display League Gothic con cuerpo Rethink Sans; paleta de blanco nieve, grafito y azul eléctrico reservado para el CTA, con regla de ajuste y marcas de banco como motivo.",
+      "copy_voice": "Español argentino directo y confiable, que resalta el ajuste hecho a mano sin exagerar.",
+      "layout_signature": "Template catalog-counter: hero con titular fuerte, foto del banco de ajuste y CTA de llamada arriba del fold; después catálogo de equipos por tipo, banda de reseña sobre el ajuste del dueño, ficha de retiro y contacto con mapa al centro.",
+      "asset_plan": "Foto real del local con equipos y banco como imagen del hero; regla de ajuste, íconos de tabla y marcas de banco en SVG/CSS inline; textura de banco de trabajo en CSS, sin assets externos salvo Google Fonts.",
+      "ai_fill_plan": {
+        "copy": [
+          "Microcopy del catálogo de equipos y CTAs apoyado en reseñas sobre ajustes",
+          "Encabezados de sección como 'Puesta a punto' sin inventar precios ni marcas"
+        ],
+        "imagery": [
+          "Regla de ajuste e íconos de tabla en SVG de línea",
+          "Textura de banco de trabajo y marcas en CSS como fondo"
+        ],
+        "boundaries": [
+          "No inventar precios, stock, marcas, años, premios, garantías, servicios ni reseñas",
+          "El 'excelente precio' solo se menciona como lo cuenta la reseña, sin números inventados",
+          "No prometer clases ni encerado si no hay evidencia"
+        ]
+      },
+      "anti_patterns": [
+        "Fuentes genéricas como Inter, Roboto o Arial",
+        "Gradiente violeta sobre blanco",
+        "Layout SaaS de tres cards iguales",
+        "Stock de tablas de catálogo en lugar del banco de ajuste real"
+      ],
+      "rewrite_targets": [
+        "Hacer del ajuste hecho por el dueño el argumento central",
+        "Subir el 4.6 con 78 reseñas y la ubicación céntrica al hero",
+        "Reservar el azul eléctrico solo para el CTA de llamada"
+      ]
+    },
+    "creative": {
+      "concept": "El local céntrico donde el dueño ajusta tu tabla antes de que salgas a la nieve.",
+      "audience": "Esquiadores y snowboarders que quieren equipo bien puesto a punto y retirar en el centro.",
+      "visual_direction": "Blanco nieve, grafito y azul eléctrico, regla de ajuste y marcas de banco, display alto y condensado.",
+      "layout": "mechanic-ledger",
+      "texture": "service-ledger",
+      "hero_angle": "Ski y snowboard con ajustes del dueño y 4.6 sobre 5 en 78 reseñas.",
+      "hero_cards": [
+        {
+          "label": "Reseñas",
+          "value": "4.6★ en 78 opiniones",
+          "note": "Perfil público de Google"
+        },
+        {
+          "label": "Horario",
+          "value": "Todos los días 9 a 20"
+        },
+        {
+          "label": "Dónde",
+          "value": "Francisco de Biedma 55"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Qué se alquila",
+          "title": "Equipos listos para la nieve",
+          "body": "Tablas y skis para distintos niveles, con el ajuste que hace el dueño antes de entregar.",
+          "items": [
+            {
+              "label": "Snowboard",
+              "value": "Tablas para distintos niveles"
+            },
+            {
+              "label": "Ski",
+              "value": "Equipos con ajuste incluido"
+            },
+            {
+              "label": "Ajuste",
+              "value": "El dueño revisa cada equipo"
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Ajuste a mano",
+          "title": "El dueño lo pone a punto",
+          "body": "Las reseñas destacan el ajuste personal y el buen precio del equipo.",
+          "items": [
+            {
+              "label": "Escame",
+              "value": "Aluguei uma prancha de snow, o dono fez todos os ajustes. Excelente preço."
+            },
+            {
+              "label": "Guilherme Otávio",
+              "value": "Top."
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Contacto directo",
+          "title": "Coordiná tu retiro",
+          "body": "Teléfono, horario y mapa al centro para dejar tu equipo reservado.",
+          "items": [
+            {
+              "label": "Llamar",
+              "value": "0294 421-2523"
+            },
+            {
+              "label": "Ir al local",
+              "value": "Francisco de Biedma 55, Bariloche"
+            }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/bariloche-ski/bari-snow",
+      "notes": "Banco de ajuste nítido: League Gothic + Rethink Sans, blanco nieve y grafito con azul eléctrico en el CTA, regla de ajuste y foto real del banco."
+    }
+  }
+}
