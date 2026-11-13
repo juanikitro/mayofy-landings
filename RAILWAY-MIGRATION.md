@@ -1,10 +1,11 @@
 # Railway publication
 
-Public catalog: https://landings.juanikitro.com (40 landings at migration).
-Production content is versioned under production/. Docker serves only that directory and replaces the former catalog and Mayofy origins with the Railway domains. ShineApp links remain unchanged because its migration is excluded.
+Production: https://landings.juanikitro.com
 
-The generation workflow rebuilds all deployable runs, runs the existing validation gates, and commits the resulting public artifact. It no longer deploys to Vercel. Its GITHUB_TOKEN needs contents:write; existing GOOGLE_PLACES_API_KEY remains scoped to generation, never Docker runtime.
+The production/ directory is the versioned public artifact. Railway builds Dockerfile and serves that directory through Caddy. Pushes to main affecting production/**, Dockerfile, Caddyfile or .dockerignore trigger publication.
 
-Before enabling automatic publication: merge this migration branch after checks, connect Railway web to main without commit pin, and set watch patterns /production/**, /Dockerfile, /Caddyfile. Verify a generated-artifact commit triggers Railway. This end-to-end CI check is pending; the migration deploy is currently pinned.
+.github/workflows/publish-railway.yml generates and validates the complete catalog, then commits production/ to main. GOOGLE_PLACES_API_KEY is used only by generation. No Vercel CLI or Supabase cloud deployment runs in this workflow. The old scripts/deploy-generated.mjs command exits without deploying, with instructions for the replacement flow.
 
-Recovery: redeploy a previously verified Railway deployment or pin its commit. The initial production/ artifact preserves the complete source. Do not delete the Vercel origin until joint acceptance.
+Existing 40 landings were migrated byte-for-byte apart from explicitly documented own-domain replacements. Do not regenerate the catalog merely to test hosting. The initial workflow migration skips Actions to preserve that artifact. Generation with external Google Places calls still requires a normal content update or an intentional manual workflow run.
+
+Rollback: select a verified Railway deployment or revert the artifact commit. ShineApp and domain registration remain outside this migration. Never store private keys in production/.

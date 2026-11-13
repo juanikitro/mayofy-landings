@@ -11,7 +11,7 @@ on:
       - "scripts/generate-deploy-runs.mjs"
       - "scripts/build-vercel-catalog.mjs"
       - "src/delivery/create-final-study.ts"
-      - ".github/workflows/deploy-vercel.yml"
+      - ".github/workflows/publish-railway.yml"
       - "package.json"
       - "package-lock.json"
   workflow_dispatch:
@@ -63,3 +63,4 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Publish validated Railway catalog artifact"
           git push origin HEAD:main
+
